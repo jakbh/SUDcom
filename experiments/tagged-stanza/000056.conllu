@@ -1,0 +1,189 @@
+# text = Sandra picked up the bag of peanuts.
+# sent_id = 0
+1	Sandra	Sandra	PROPN	NNP	Number=Sing	2	nsubj	_	start_char=0|end_char=6
+2	picked	pick	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=7|end_char=13
+3	up	up	ADP	RP	_	2	compound:prt	_	start_char=14|end_char=16
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=17|end_char=20
+5	bag	bag	NOUN	NN	Number=Sing	2	obj	_	start_char=21|end_char=24
+6	of	of	ADP	IN	_	7	case	_	start_char=25|end_char=27
+7	peanuts	peanut	NOUN	NNS	Number=Plur	5	nmod	_	start_char=28|end_char=35|SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	start_char=35|end_char=36
+
+# text = It was a bag of roasted peanuts.
+# sent_id = 1
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=37|end_char=39
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	start_char=40|end_char=43
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	start_char=44|end_char=45
+4	bag	bag	NOUN	NN	Number=Sing	0	root	_	start_char=46|end_char=49
+5	of	of	ADP	IN	_	7	case	_	start_char=50|end_char=52
+6	roasted	roast	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	start_char=53|end_char=60
+7	peanuts	peanut	NOUN	NNS	Number=Plur	4	nmod	_	start_char=61|end_char=68|SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	start_char=68|end_char=69
+
+# text = She opened the bag.
+# sent_id = 2
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=70|end_char=73
+2	opened	open	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=74|end_char=80
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=81|end_char=84
+4	bag	bag	NOUN	NN	Number=Sing	2	obj	_	start_char=85|end_char=88|SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	start_char=88|end_char=89
+
+# text = She poured out some roasted peanuts onto the table.
+# sent_id = 3
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=90|end_char=93
+2	poured	pour	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=94|end_char=100
+3	out	out	ADP	RP	_	2	compound:prt	_	start_char=101|end_char=104
+4	some	some	DET	DT	PronType=Ind	6	det	_	start_char=105|end_char=109
+5	roasted	roast	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	amod	_	start_char=110|end_char=117
+6	peanuts	peanut	NOUN	NNS	Number=Plur	2	obj	_	start_char=118|end_char=125
+7	onto	onto	ADP	IN	_	9	case	_	start_char=126|end_char=130
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=131|end_char=134
+9	table	table	NOUN	NN	Number=Sing	2	obl	_	start_char=135|end_char=140|SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	start_char=140|end_char=141
+
+# text = There were about eight peanuts on the table.
+# sent_id = 4
+1	There	there	PRON	EX	_	2	expl	_	start_char=142|end_char=147
+2	were	be	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=148|end_char=152
+3	about	about	ADV	RB	_	4	advmod	_	start_char=153|end_char=158
+4	eight	eight	NUM	CD	NumForm=Word|NumType=Card	5	nummod	_	start_char=159|end_char=164
+5	peanuts	peanut	NOUN	NNS	Number=Plur	2	nsubj	_	start_char=165|end_char=172
+6	on	on	ADP	IN	_	8	case	_	start_char=173|end_char=175
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=176|end_char=179
+8	table	table	NOUN	NN	Number=Sing	5	nmod	_	start_char=180|end_char=185|SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	start_char=185|end_char=186
+
+# text = The peanuts were still in their shells.
+# sent_id = 5
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=187|end_char=190
+2	peanuts	peanut	NOUN	NNS	Number=Plur	7	nsubj	_	start_char=191|end_char=198
+3	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	start_char=199|end_char=203
+4	still	still	ADV	RB	_	7	advmod	_	start_char=204|end_char=209
+5	in	in	ADP	IN	_	7	case	_	start_char=210|end_char=212
+6	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	start_char=213|end_char=218
+7	shells	shell	NOUN	NNS	Number=Plur	0	root	_	start_char=219|end_char=225|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	punct	_	start_char=225|end_char=226
+
+# text = Each peanut was in its shell.
+# sent_id = 6
+1	Each	each	DET	DT	PronType=Tot	2	det	_	start_char=227|end_char=231
+2	peanut	peanut	NOUN	NN	Number=Sing	6	nsubj	_	start_char=232|end_char=238
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	start_char=239|end_char=242
+4	in	in	ADP	IN	_	6	case	_	start_char=243|end_char=245
+5	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	start_char=246|end_char=249
+6	shell	shell	NOUN	NN	Number=Sing	0	root	_	start_char=250|end_char=255|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	start_char=255|end_char=256
+
+# text = Sandra picked up a peanut.
+# sent_id = 7
+1	Sandra	Sandra	PROPN	NNP	Number=Sing	2	nsubj	_	start_char=257|end_char=263
+2	picked	pick	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=264|end_char=270
+3	up	up	ADP	RP	_	2	compound:prt	_	start_char=271|end_char=273
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=274|end_char=275
+5	peanut	peanut	NOUN	NN	Number=Sing	2	obj	_	start_char=276|end_char=282|SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	start_char=282|end_char=283
+
+# text = She held it in her hands.
+# sent_id = 8
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=284|end_char=287
+2	held	hold	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=288|end_char=292
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	start_char=293|end_char=295
+4	in	in	ADP	IN	_	6	case	_	start_char=296|end_char=298
+5	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	start_char=299|end_char=302
+6	hands	hand	NOUN	NNS	Number=Plur	2	obl	_	start_char=303|end_char=308|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	start_char=308|end_char=309
+
+# text = She put her thumbs on the peanut.
+# sent_id = 9
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=310|end_char=313
+2	put	put	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=314|end_char=317
+3	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	start_char=318|end_char=321
+4	thumbs	thumb	NOUN	NNS	Number=Plur	2	obj	_	start_char=322|end_char=328
+5	on	on	ADP	IN	_	7	case	_	start_char=329|end_char=331
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=332|end_char=335
+7	peanut	peanut	NOUN	NN	Number=Sing	2	obl	_	start_char=336|end_char=342|SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	start_char=342|end_char=343
+
+# text = She broke the shell open with her thumbs.
+# sent_id = 10
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=344|end_char=347
+2	broke	break	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=348|end_char=353
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=354|end_char=357
+4	shell	shell	NOUN	NN	Number=Sing	2	obj	_	start_char=358|end_char=363
+5	open	open	ADJ	JJ	Degree=Pos	2	xcomp	_	start_char=364|end_char=368
+6	with	with	ADP	IN	_	8	case	_	start_char=369|end_char=373
+7	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	start_char=374|end_char=377
+8	thumbs	thumb	NOUN	NNS	Number=Plur	2	obl	_	start_char=378|end_char=384|SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	start_char=384|end_char=385
+
+# text = Sandra opened the shell.
+# sent_id = 11
+1	Sandra	Sandra	PROPN	NNP	Number=Sing	2	nsubj	_	start_char=386|end_char=392
+2	opened	open	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=393|end_char=399
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=400|end_char=403
+4	shell	shell	NOUN	NN	Number=Sing	2	obj	_	start_char=404|end_char=409|SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	start_char=409|end_char=410
+
+# text = Inside the shell were two little red peanuts.
+# sent_id = 12
+1	Inside	inside	ADP	IN	_	3	case	_	start_char=411|end_char=417
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=418|end_char=421
+3	shell	shell	NOUN	NN	Number=Sing	8	nmod	_	start_char=422|end_char=427
+4	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	start_char=428|end_char=432
+5	two	two	NUM	CD	NumForm=Word|NumType=Card	8	nummod	_	start_char=433|end_char=436
+6	little	little	ADJ	JJ	Degree=Pos	8	amod	_	start_char=437|end_char=443
+7	red	red	ADJ	JJ	Degree=Pos	8	amod	_	start_char=444|end_char=447
+8	peanuts	peanut	NOUN	NNS	Number=Plur	0	root	_	start_char=448|end_char=455|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	punct	_	start_char=455|end_char=456
+
+# text = Each peanut had red skin on it.
+# sent_id = 13
+1	Each	each	DET	DT	PronType=Tot	2	det	_	start_char=457|end_char=461
+2	peanut	peanut	NOUN	NN	Number=Sing	3	nsubj	_	start_char=462|end_char=468
+3	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=469|end_char=472
+4	red	red	ADJ	JJ	Degree=Pos	5	amod	_	start_char=473|end_char=476
+5	skin	skin	NOUN	NN	Number=Sing	3	obj	_	start_char=477|end_char=481
+6	on	on	ADP	IN	_	7	case	_	start_char=482|end_char=484
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obl	_	start_char=485|end_char=487|SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	start_char=487|end_char=488
+
+# text = Thin red skin covered both little peanuts.
+# sent_id = 14
+1	Thin	thin	ADJ	JJ	Degree=Pos	3	amod	_	start_char=489|end_char=493
+2	red	red	ADJ	JJ	Degree=Pos	3	amod	_	start_char=494|end_char=497
+3	skin	skin	NOUN	NN	Number=Sing	4	nsubj	_	start_char=498|end_char=502
+4	covered	cover	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=503|end_char=510
+5	both	both	CCONJ	CC	_	7	det:predet	_	start_char=511|end_char=515
+6	little	little	ADJ	JJ	Degree=Pos	7	amod	_	start_char=516|end_char=522
+7	peanuts	peanut	NOUN	NNS	Number=Plur	4	obj	_	start_char=523|end_char=530|SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	start_char=530|end_char=531
+
+# text = She took a little red peanut out of the shell.
+# sent_id = 15
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=532|end_char=535
+2	took	take	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=536|end_char=540
+3	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=541|end_char=542
+4	little	little	ADJ	JJ	Degree=Pos	6	amod	_	start_char=543|end_char=549
+5	red	red	ADJ	JJ	Degree=Pos	6	amod	_	start_char=550|end_char=553
+6	peanut	peanut	NOUN	NN	Number=Sing	2	obj	_	start_char=554|end_char=560
+7	out	out	ADP	IN	_	10	case	_	start_char=561|end_char=564
+8	of	of	ADP	IN	_	10	case	_	start_char=565|end_char=567
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=568|end_char=571
+10	shell	shell	NOUN	NN	Number=Sing	2	obl	_	start_char=572|end_char=577|SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	start_char=577|end_char=578
+
+# text = Sandra ate the little peanut with the red skin on it.
+# sent_id = 16
+1	Sandra	Sandra	PROPN	NNP	Number=Sing	2	nsubj	_	start_char=579|end_char=585
+2	ate	eat	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=586|end_char=589
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=590|end_char=593
+4	little	little	ADJ	JJ	Degree=Pos	5	amod	_	start_char=594|end_char=600
+5	peanut	peanut	NOUN	NN	Number=Sing	2	obj	_	start_char=601|end_char=607
+6	with	with	ADP	IN	_	9	case	_	start_char=608|end_char=612
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=613|end_char=616
+8	red	red	ADJ	JJ	Degree=Pos	9	amod	_	start_char=617|end_char=620
+9	skin	skin	NOUN	NN	Number=Sing	2	obl	_	start_char=621|end_char=625
+10	on	on	ADP	IN	_	11	case	_	start_char=626|end_char=628
+11	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obl	_	start_char=629|end_char=631|SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	start_char=631|end_char=632|SpaceAfter=No
+

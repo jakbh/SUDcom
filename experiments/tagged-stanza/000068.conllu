@@ -1,0 +1,186 @@
+# text = He looked in the mirror.
+# sent_id = 0
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=0|end_char=2
+2	looked	look	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=3|end_char=9
+3	in	in	ADP	IN	_	5	case	_	start_char=10|end_char=12
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=13|end_char=16
+5	mirror	mirror	NOUN	NN	Number=Sing	2	obl	_	start_char=17|end_char=23|SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	start_char=23|end_char=24
+
+# text = What were all those red spots on his face?
+# sent_id = 1
+1	What	what	PRON	WP	PronType=Int	0	root	_	start_char=25|end_char=29
+2	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	1	cop	_	start_char=30|end_char=34
+3	all	all	DET	PDT	PronType=Tot	6	det:predet	_	start_char=35|end_char=38
+4	those	that	DET	DT	Number=Plur|PronType=Dem	6	det	_	start_char=39|end_char=44
+5	red	red	ADJ	JJ	Degree=Pos	6	amod	_	start_char=45|end_char=48
+6	spots	spot	NOUN	NNS	Number=Plur	1	nsubj	_	start_char=49|end_char=54
+7	on	on	ADP	IN	_	9	case	_	start_char=55|end_char=57
+8	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	start_char=58|end_char=61
+9	face	face	NOUN	NN	Number=Sing	6	nmod	_	start_char=62|end_char=66|SpaceAfter=No
+10	?	?	PUNCT	.	_	1	punct	_	start_char=66|end_char=67
+
+# text = Every morning he had fresh red spots on his face.
+# sent_id = 2
+1	Every	every	DET	DT	PronType=Tot	2	det	_	start_char=68|end_char=73
+2	morning	morning	NOUN	NN	Number=Sing	4	obl:unmarked	_	start_char=74|end_char=81
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=82|end_char=84
+4	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=85|end_char=88
+5	fresh	fresh	ADJ	JJ	Degree=Pos	7	amod	_	start_char=89|end_char=94
+6	red	red	ADJ	JJ	Degree=Pos	7	amod	_	start_char=95|end_char=98
+7	spots	spot	NOUN	NNS	Number=Plur	4	obj	_	start_char=99|end_char=104
+8	on	on	ADP	IN	_	10	case	_	start_char=105|end_char=107
+9	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	start_char=108|end_char=111
+10	face	face	NOUN	NN	Number=Sing	4	obl	_	start_char=112|end_char=116|SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	start_char=116|end_char=117
+
+# text = Were they insect bites?
+# sent_id = 3
+1	Were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	start_char=118|end_char=122
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	start_char=123|end_char=127
+3	insect	insect	NOUN	NN	Number=Sing	4	compound	_	start_char=128|end_char=134
+4	bites	bite	NOUN	NNS	Number=Plur	0	root	_	start_char=135|end_char=140|SpaceAfter=No
+5	?	?	PUNCT	.	_	4	punct	_	start_char=140|end_char=141
+
+# text = Were insects biting him at night?
+# sent_id = 4
+1	Were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	start_char=142|end_char=146
+2	insects	insect	NOUN	NNS	Number=Plur	3	nsubj	_	start_char=147|end_char=154
+3	biting	bite	VERB	VBG	VerbForm=Ger	0	root	_	start_char=155|end_char=161
+4	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	start_char=162|end_char=165
+5	at	at	ADP	IN	_	6	case	_	start_char=166|end_char=168
+6	night	night	NOUN	NN	Number=Sing	3	obl	_	start_char=169|end_char=174|SpaceAfter=No
+7	?	?	PUNCT	.	_	3	punct	_	start_char=174|end_char=175
+
+# text = What were those red spots?
+# sent_id = 5
+1	What	what	PRON	WP	PronType=Int	0	root	_	start_char=176|end_char=180
+2	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	1	cop	_	start_char=181|end_char=185
+3	those	that	DET	DT	Number=Plur|PronType=Dem	5	det	_	start_char=186|end_char=191
+4	red	red	ADJ	JJ	Degree=Pos	5	amod	_	start_char=192|end_char=195
+5	spots	spot	NOUN	NNS	Number=Plur	1	nsubj	_	start_char=196|end_char=201|SpaceAfter=No
+6	?	?	PUNCT	.	_	1	punct	_	start_char=201|end_char=202
+
+# text = They would usually disappear in a few hours.
+# sent_id = 6
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	start_char=203|end_char=207
+2	would	would	AUX	MD	VerbForm=Fin	4	aux	_	start_char=208|end_char=213
+3	usually	usually	ADV	RB	_	4	advmod	_	start_char=214|end_char=221
+4	disappear	disappear	VERB	VB	VerbForm=Inf	0	root	_	start_char=222|end_char=231
+5	in	in	ADP	IN	_	8	case	_	start_char=232|end_char=234
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=235|end_char=236
+7	few	few	ADJ	JJ	Degree=Pos	8	amod	_	start_char=237|end_char=240
+8	hours	hour	NOUN	NNS	Number=Plur	4	obl	_	start_char=241|end_char=246|SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	start_char=246|end_char=247
+
+# text = Then his face would look normal.
+# sent_id = 7
+1	Then	then	ADV	RB	PronType=Dem	5	advmod	_	start_char=248|end_char=252
+2	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	start_char=253|end_char=256
+3	face	face	NOUN	NN	Number=Sing	5	nsubj	_	start_char=257|end_char=261
+4	would	would	AUX	MD	VerbForm=Fin	5	aux	_	start_char=262|end_char=267
+5	look	look	VERB	VB	VerbForm=Inf	0	root	_	start_char=268|end_char=272
+6	normal	normal	ADJ	JJ	Degree=Pos	5	xcomp	_	start_char=273|end_char=279|SpaceAfter=No
+7	.	.	PUNCT	.	_	5	punct	_	start_char=279|end_char=280
+
+# text = It would look like a normal face.
+# sent_id = 8
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=281|end_char=283
+2	would	would	AUX	MD	VerbForm=Fin	3	aux	_	start_char=284|end_char=289
+3	look	look	VERB	VB	VerbForm=Inf	0	root	_	start_char=290|end_char=294
+4	like	like	ADP	IN	_	7	case	_	start_char=295|end_char=299
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=300|end_char=301
+6	normal	normal	ADJ	JJ	Degree=Pos	7	amod	_	start_char=302|end_char=308
+7	face	face	NOUN	NN	Number=Sing	3	obl	_	start_char=309|end_char=313|SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	start_char=313|end_char=314
+
+# text = It would have no red spots.
+# sent_id = 9
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=315|end_char=317
+2	would	would	AUX	MD	VerbForm=Fin	3	aux	_	start_char=318|end_char=323
+3	have	have	VERB	VB	VerbForm=Inf	0	root	_	start_char=324|end_char=328
+4	no	no	DET	DT	PronType=Neg	6	det	_	start_char=329|end_char=331
+5	red	red	ADJ	JJ	Degree=Pos	6	amod	_	start_char=332|end_char=335
+6	spots	spot	NOUN	NNS	Number=Plur	3	obj	_	start_char=336|end_char=341|SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	start_char=341|end_char=342
+
+# text = But every morning, he had an ugly face.
+# sent_id = 10
+1	But	but	CCONJ	CC	_	6	cc	_	start_char=343|end_char=346
+2	every	every	DET	DT	PronType=Tot	3	det	_	start_char=347|end_char=352
+3	morning	morning	NOUN	NN	Number=Sing	6	obl:unmarked	_	start_char=353|end_char=360|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	start_char=360|end_char=361
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=362|end_char=364
+6	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=365|end_char=368
+7	an	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	start_char=369|end_char=371
+8	ugly	ugly	ADJ	JJ	Degree=Pos	9	amod	_	start_char=372|end_char=376
+9	face	face	NOUN	NN	Number=Sing	6	obj	_	start_char=377|end_char=381|SpaceAfter=No
+10	.	.	PUNCT	.	_	6	punct	_	start_char=381|end_char=382
+
+# text = All those red spots!
+# sent_id = 11
+1	All	all	DET	PDT	PronType=Tot	4	det:predet	_	start_char=383|end_char=386
+2	those	that	DET	DT	Number=Plur|PronType=Dem	4	det	_	start_char=387|end_char=392
+3	red	red	ADJ	JJ	Degree=Pos	4	amod	_	start_char=393|end_char=396
+4	spots	spot	NOUN	NNS	Number=Plur	0	root	_	start_char=397|end_char=402|SpaceAfter=No
+5	!	!	PUNCT	.	_	4	punct	_	start_char=402|end_char=403
+
+# text = What was happening at night?
+# sent_id = 12
+1	What	what	PRON	WP	PronType=Int	3	obj	_	start_char=404|end_char=408
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	start_char=409|end_char=412
+3	happening	happen	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=413|end_char=422
+4	at	at	ADP	IN	_	5	case	_	start_char=423|end_char=425
+5	night	night	NOUN	NN	Number=Sing	3	obl	_	start_char=426|end_char=431|SpaceAfter=No
+6	?	?	PUNCT	.	_	3	punct	_	start_char=431|end_char=432
+
+# text = Was it his pillow?
+# sent_id = 13
+1	Was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	start_char=433|end_char=436
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=437|end_char=439
+3	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	start_char=440|end_char=443
+4	pillow	pillow	NOUN	NN	Number=Sing	0	root	_	start_char=444|end_char=450|SpaceAfter=No
+5	?	?	PUNCT	.	_	4	punct	_	start_char=450|end_char=451
+
+# text = Was something in his pillow?
+# sent_id = 14
+1	Was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	cop	_	start_char=452|end_char=455
+2	something	something	PRON	NN	Number=Sing|PronType=Ind	0	root	_	start_char=456|end_char=465
+3	in	in	ADP	IN	_	5	case	_	start_char=466|end_char=468
+4	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=469|end_char=472
+5	pillow	pillow	NOUN	NN	Number=Sing	2	nmod	_	start_char=473|end_char=479|SpaceAfter=No
+6	?	?	PUNCT	.	_	2	punct	_	start_char=479|end_char=480
+
+# text = Was something in his pillow making the red spots?
+# sent_id = 15
+1	Was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	cop	_	start_char=481|end_char=484
+2	something	something	PRON	NN	Number=Sing|PronType=Ind	0	root	_	start_char=485|end_char=494
+3	in	in	ADP	IN	_	5	case	_	start_char=495|end_char=497
+4	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=498|end_char=501
+5	pillow	pillow	NOUN	NN	Number=Sing	2	nmod	_	start_char=502|end_char=508
+6	making	make	VERB	VBG	Tense=Pres|VerbForm=Part	5	acl	_	start_char=509|end_char=515
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=516|end_char=519
+8	red	red	ADJ	JJ	Degree=Pos	9	amod	_	start_char=520|end_char=523
+9	spots	spot	NOUN	NNS	Number=Plur	6	obj	_	start_char=524|end_char=529|SpaceAfter=No
+10	?	?	PUNCT	.	_	2	punct	_	start_char=529|end_char=530
+
+# text = He would buy a new pillow.
+# sent_id = 16
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=531|end_char=533
+2	would	would	AUX	MD	VerbForm=Fin	3	aux	_	start_char=534|end_char=539
+3	buy	buy	VERB	VB	VerbForm=Inf	0	root	_	start_char=540|end_char=543
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=544|end_char=545
+5	new	new	ADJ	JJ	Degree=Pos	6	amod	_	start_char=546|end_char=549
+6	pillow	pillow	NOUN	NN	Number=Sing	3	obj	_	start_char=550|end_char=556|SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	start_char=556|end_char=557
+
+# text = Maybe his pillow was the problem.
+# sent_id = 17
+1	Maybe	maybe	ADV	RB	_	6	advmod	_	start_char=558|end_char=563
+2	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	start_char=564|end_char=567
+3	pillow	pillow	NOUN	NN	Number=Sing	6	nsubj	_	start_char=568|end_char=574
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	start_char=575|end_char=578
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=579|end_char=582
+6	problem	problem	NOUN	NN	Number=Sing	0	root	_	start_char=583|end_char=590|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	start_char=590|end_char=591|SpaceAfter=No
+

@@ -1,0 +1,232 @@
+# text = The mayor was in a hurry.
+# sent_id = 0
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=0|end_char=3
+2	mayor	mayor	NOUN	NN	Number=Sing	6	nsubj	_	start_char=4|end_char=9
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	start_char=10|end_char=13
+4	in	in	ADP	IN	_	6	case	_	start_char=14|end_char=16
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=17|end_char=18
+6	hurry	hurry	NOUN	NN	Number=Sing	0	root	_	start_char=19|end_char=24|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	start_char=24|end_char=25
+
+# text = He was late.
+# sent_id = 1
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=26|end_char=28
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	start_char=29|end_char=32
+3	late	late	ADJ	JJ	Degree=Pos	0	root	_	start_char=33|end_char=37|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	start_char=37|end_char=38
+
+# text = He drove his car faster.
+# sent_id = 2
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=39|end_char=41
+2	drove	drive	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=42|end_char=47
+3	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	start_char=48|end_char=51
+4	car	car	NOUN	NN	Number=Sing	2	obj	_	start_char=52|end_char=55
+5	faster	fast	ADJ	JJR	Degree=Cmp	2	advmod	_	start_char=56|end_char=62|SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	start_char=62|end_char=63
+
+# text = He didn't want to miss his plane.
+# sent_id = 3
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=64|end_char=66
+2-3	didn't	_	_	_	_	_	_	_	start_char=67|end_char=73
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	start_char=67|end_char=70
+3	n't	not	PART	RB	Polarity=Neg	4	advmod	_	start_char=70|end_char=73
+4	want	want	VERB	VB	VerbForm=Inf	0	root	_	start_char=74|end_char=78
+5	to	to	PART	TO	_	6	mark	_	start_char=79|end_char=81
+6	miss	miss	VERB	VB	VerbForm=Inf	4	xcomp	_	start_char=82|end_char=86
+7	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	start_char=87|end_char=90
+8	plane	plane	NOUN	NN	Number=Sing	6	obj	_	start_char=91|end_char=96|SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	start_char=96|end_char=97
+
+# text = The traffic light was red.
+# sent_id = 4
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=98|end_char=101
+2	traffic	traffic	NOUN	NN	Number=Sing	3	compound	_	start_char=102|end_char=109
+3	light	light	NOUN	NN	Number=Sing	5	nsubj	_	start_char=110|end_char=115
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	start_char=116|end_char=119
+5	red	red	ADJ	JJ	Degree=Pos	0	root	_	start_char=120|end_char=123|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	start_char=123|end_char=124
+
+# text = He went through the red traffic light.
+# sent_id = 5
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=125|end_char=127
+2	went	go	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=128|end_char=132
+3	through	through	ADP	IN	_	7	case	_	start_char=133|end_char=140
+4	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=141|end_char=144
+5	red	red	ADJ	JJ	Degree=Pos	7	amod	_	start_char=145|end_char=148
+6	traffic	traffic	NOUN	NN	Number=Sing	7	compound	_	start_char=149|end_char=156
+7	light	light	NOUN	NN	Number=Sing	2	obl	_	start_char=157|end_char=162|SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	start_char=162|end_char=163
+
+# text = I'm glad no police are around, he thought.
+# sent_id = 6
+1-2	I'm	_	_	_	_	_	_	_	start_char=164|end_char=167
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=164|end_char=165
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=165|end_char=167
+3	glad	glad	ADJ	JJ	Degree=Pos	0	root	_	start_char=168|end_char=172
+4	no	no	DET	DT	PronType=Neg	5	det	_	start_char=173|end_char=175
+5	police	police	NOUN	NNS	Number=Plur	7	nsubj	_	start_char=176|end_char=182
+6	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=183|end_char=186
+7	around	around	ADV	RB	_	3	ccomp	_	start_char=187|end_char=193|SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	start_char=193|end_char=194
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	start_char=195|end_char=197
+10	thought	think	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	parataxis	_	start_char=198|end_char=205|SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	start_char=205|end_char=206
+
+# text = He heard a siren.
+# sent_id = 7
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=207|end_char=209
+2	heard	hear	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=210|end_char=215
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	start_char=216|end_char=217
+4	siren	siren	NOUN	NN	Number=Sing	2	obj	_	start_char=218|end_char=223|SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	start_char=223|end_char=224
+
+# text = He saw a red light behind him.
+# sent_id = 8
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=225|end_char=227
+2	saw	see	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=228|end_char=231
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=232|end_char=233
+4	red	red	ADJ	JJ	Degree=Pos	5	amod	_	start_char=234|end_char=237
+5	light	light	NOUN	NN	Number=Sing	2	obj	_	start_char=238|end_char=243
+6	behind	behind	ADP	IN	_	7	case	_	start_char=244|end_char=250
+7	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obl	_	start_char=251|end_char=254|SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	start_char=254|end_char=255
+
+# text = The red light was on top of a police car.
+# sent_id = 9
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=256|end_char=259
+2	red	red	ADJ	JJ	Degree=Pos	3	amod	_	start_char=260|end_char=263
+3	light	light	NOUN	NN	Number=Sing	6	nsubj	_	start_char=264|end_char=269
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	start_char=270|end_char=273
+5	on	on	ADP	IN	_	6	case	_	start_char=274|end_char=276
+6	top	top	NOUN	NN	Number=Sing	0	root	_	start_char=277|end_char=280
+7	of	of	ADP	IN	_	10	case	_	start_char=281|end_char=283
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	start_char=284|end_char=285
+9	police	police	NOUN	NN	Number=Sing	10	compound	_	start_char=286|end_char=292
+10	car	car	NOUN	NN	Number=Sing	6	nmod	_	start_char=293|end_char=296|SpaceAfter=No
+11	.	.	PUNCT	.	_	6	punct	_	start_char=296|end_char=297
+
+# text = The mayor didn't stop.
+# sent_id = 10
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=298|end_char=301
+2	mayor	mayor	NOUN	NN	Number=Sing	5	nsubj	_	start_char=302|end_char=307
+3-4	didn't	_	_	_	_	_	_	_	start_char=308|end_char=314
+3	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	start_char=308|end_char=311
+4	n't	not	PART	RB	Polarity=Neg	5	advmod	_	start_char=311|end_char=314
+5	stop	stop	VERB	VB	VerbForm=Inf	0	root	_	start_char=315|end_char=319|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	start_char=319|end_char=320
+
+# text = He was in a hurry.
+# sent_id = 11
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=321|end_char=323
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	start_char=324|end_char=327
+3	in	in	ADP	IN	_	5	case	_	start_char=328|end_char=330
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=331|end_char=332
+5	hurry	hurry	NOUN	NN	Number=Sing	0	root	_	start_char=333|end_char=338|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	start_char=338|end_char=339
+
+# text = He was late.
+# sent_id = 12
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=340|end_char=342
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	start_char=343|end_char=346
+3	late	late	ADJ	JJ	Degree=Pos	0	root	_	start_char=347|end_char=351|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	start_char=351|end_char=352
+
+# text = He was the mayor.
+# sent_id = 13
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=353|end_char=355
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	start_char=356|end_char=359
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=360|end_char=363
+4	mayor	mayor	NOUN	NN	Number=Sing	0	root	_	start_char=364|end_char=369|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	start_char=369|end_char=370
+
+# text = He drove his car faster.
+# sent_id = 14
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=371|end_char=373
+2	drove	drive	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=374|end_char=379
+3	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	start_char=380|end_char=383
+4	car	car	NOUN	NN	Number=Sing	2	obj	_	start_char=384|end_char=387
+5	faster	fast	ADJ	JJR	Degree=Cmp	2	advmod	_	start_char=388|end_char=394|SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	start_char=394|end_char=395
+
+# text = The police car followed the mayor.
+# sent_id = 15
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=396|end_char=399
+2	police	police	NOUN	NN	Number=Sing	3	compound	_	start_char=400|end_char=406
+3	car	car	NOUN	NN	Number=Sing	4	nsubj	_	start_char=407|end_char=410
+4	followed	follow	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=411|end_char=419
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=420|end_char=423
+6	mayor	mayor	NOUN	NN	Number=Sing	4	obj	_	start_char=424|end_char=429|SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	start_char=429|end_char=430
+
+# text = It followed the mayor to the airport.
+# sent_id = 16
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=431|end_char=433
+2	followed	follow	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=434|end_char=442
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=443|end_char=446
+4	mayor	mayor	NOUN	NN	Number=Sing	2	obj	_	start_char=447|end_char=452
+5	to	to	ADP	IN	_	7	case	_	start_char=453|end_char=455
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=456|end_char=459
+7	airport	airport	NOUN	NN	Number=Sing	2	obl	_	start_char=460|end_char=467|SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	start_char=467|end_char=468
+
+# text = The mayor got out of his car.
+# sent_id = 17
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=469|end_char=472
+2	mayor	mayor	NOUN	NN	Number=Sing	3	nsubj	_	start_char=473|end_char=478
+3	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=479|end_char=482
+4	out	out	ADP	IN	_	7	case	_	start_char=483|end_char=486
+5	of	of	ADP	IN	_	4	fixed	_	start_char=487|end_char=489
+6	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	start_char=490|end_char=493
+7	car	car	NOUN	NN	Number=Sing	3	obl	_	start_char=494|end_char=497|SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	start_char=497|end_char=498
+
+# text = The policeman got out of his car.
+# sent_id = 18
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=499|end_char=502
+2	policeman	policeman	NOUN	NN	Number=Sing	3	nsubj	_	start_char=503|end_char=512
+3	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=513|end_char=516
+4	out	out	ADP	IN	_	7	case	_	start_char=517|end_char=520
+5	of	of	ADP	IN	_	4	fixed	_	start_char=521|end_char=523
+6	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	start_char=524|end_char=527
+7	car	car	NOUN	NN	Number=Sing	3	obl	_	start_char=528|end_char=531|SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	start_char=531|end_char=532
+
+# text = "You're under arrest," he said.
+# sent_id = 19
+1	"	"	PUNCT	``	_	5	punct	_	start_char=533|end_char=534|SpaceAfter=No
+2-3	You're	_	_	_	_	_	_	_	start_char=534|end_char=540
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	start_char=534|end_char=537
+3	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=537|end_char=540
+4	under	under	ADP	IN	_	5	case	_	start_char=541|end_char=546
+5	arrest	arrest	NOUN	NN	Number=Sing	9	ccomp	_	start_char=547|end_char=553|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	start_char=553|end_char=554|SpaceAfter=No
+7	"	"	PUNCT	''	_	5	punct	_	start_char=554|end_char=555
+8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	start_char=556|end_char=558
+9	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=559|end_char=563|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	punct	_	start_char=563|end_char=564
+
+# text = "You can't arrest me.
+# sent_id = 20
+1	"	"	PUNCT	``	_	5	punct	_	start_char=565|end_char=566|SpaceAfter=No
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	start_char=566|end_char=569
+3-4	can't	_	_	_	_	_	_	_	start_char=570|end_char=575
+3	ca	can	AUX	MD	VerbForm=Fin	5	aux	_	start_char=570|end_char=572
+4	n't	not	PART	RB	Polarity=Neg	5	advmod	_	start_char=572|end_char=575
+5	arrest	arrest	VERB	VB	VerbForm=Inf	0	root	_	start_char=576|end_char=582
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obj	_	start_char=583|end_char=585|SpaceAfter=No
+7	.	.	PUNCT	.	_	5	punct	_	start_char=585|end_char=586
+
+# text = I'm the mayor," said the mayor.
+# sent_id = 21
+1-2	I'm	_	_	_	_	_	_	_	start_char=587|end_char=590
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=587|end_char=588
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=588|end_char=590
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=591|end_char=594
+4	mayor	mayor	NOUN	NN	Number=Sing	7	ccomp	_	start_char=595|end_char=600|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	start_char=600|end_char=601|SpaceAfter=No
+6	"	"	PUNCT	''	_	4	punct	_	start_char=601|end_char=602
+7	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=603|end_char=607
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=608|end_char=611
+9	mayor	mayor	NOUN	NN	Number=Sing	7	nsubj	_	start_char=612|end_char=617|SpaceAfter=No
+10	.	.	PUNCT	.	_	7	punct	_	start_char=617|end_char=618|SpaceAfter=No
+

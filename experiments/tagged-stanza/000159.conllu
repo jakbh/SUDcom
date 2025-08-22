@@ -1,0 +1,77 @@
+# text = Mario called.
+# sent_id = 0
+1	Mario	Mario	PROPN	NNP	Number=Sing	2	nsubj	_	start_char=0|end_char=5
+2	called	call	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=6|end_char=12|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	start_char=12|end_char=13
+
+# text = He wants you to call back before 7 p.m.
+# sent_id = 1
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=14|end_char=16
+2	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=17|end_char=22
+3	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	obj	_	start_char=23|end_char=26
+4	to	to	PART	TO	_	5	mark	_	start_char=27|end_char=29
+5	call	call	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=30|end_char=34
+6	back	back	ADV	RB	_	5	advmod	_	start_char=35|end_char=39
+7	before	before	ADP	IN	_	9	case	_	start_char=40|end_char=46
+8	7	7	NUM	CD	NumForm=Digit|NumType=Card	9	nummod	_	start_char=47|end_char=48
+9	p.m	p.m.	NOUN	NN	Number=Sing	5	obl	_	start_char=49|end_char=52|SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	start_char=52|end_char=53|SpacesAfter=\r\n
+
+# text = Sales meeting this afternoon at 12 noon.
+# sent_id = 2
+1	Sales	sale	NOUN	NNS	Number=Plur	2	compound	_	start_char=55|end_char=60
+2	meeting	meeting	NOUN	NN	Number=Sing	0	root	_	start_char=61|end_char=68
+3	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	_	start_char=69|end_char=73
+4	afternoon	afternoon	NOUN	NN	Number=Sing	2	nmod:unmarked	_	start_char=74|end_char=83
+5	at	at	ADP	IN	_	7	case	_	start_char=84|end_char=86
+6	12	12	NUM	CD	NumForm=Digit|NumType=Card	7	nummod	_	start_char=87|end_char=89
+7	noon	noon	NOUN	NN	Number=Sing	2	nmod	_	start_char=90|end_char=94|SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	start_char=94|end_char=95
+
+# text = Meeting Room 2. Pens ready for collection between 10 a.m. and 3 p.m. Jackie is leaving the office at 4 p.m. today.
+# sent_id = 3
+1	Meeting	meeting	NOUN	NN	Number=Sing	2	compound	_	start_char=96|end_char=103
+2	Room	room	NOUN	NN	Number=Sing	0	root	_	start_char=104|end_char=108
+3	2	2	NUM	CD	NumForm=Digit|NumType=Card	2	dep	_	start_char=109|end_char=110|SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	start_char=110|end_char=111|SpacesAfter=\r\n
+5	Pens	pen	NOUN	NNS	Number=Plur	2	appos	_	start_char=113|end_char=117
+6	ready	ready	ADJ	JJ	Degree=Pos	5	amod	_	start_char=118|end_char=123
+7	for	for	ADP	IN	_	8	case	_	start_char=124|end_char=127
+8	collection	collection	NOUN	NN	Number=Sing	6	obl	_	start_char=128|end_char=138
+9	between	between	ADP	IN	_	11	case	_	start_char=139|end_char=146
+10	10	10	NUM	CD	NumForm=Digit|NumType=Card	11	nummod	_	start_char=147|end_char=149
+11	a.m.	a.m.	NOUN	NN	Abbr=Yes|Number=Sing	6	obl	_	start_char=150|end_char=154
+12	and	and	CCONJ	CC	_	14	cc	_	start_char=155|end_char=158
+13	3	3	NUM	CD	NumForm=Digit|NumType=Card	14	nummod	_	start_char=159|end_char=160
+14	p.m.	p.m.	NOUN	NN	Number=Sing	11	conj	_	start_char=161|end_char=165|SpacesAfter=\r\n
+15	Jackie	Jackie	PROPN	NNP	Number=Sing	17	nsubj	_	start_char=167|end_char=173
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	start_char=174|end_char=176
+17	leaving	leave	VERB	VBG	Tense=Pres|VerbForm=Part	2	parataxis	_	start_char=177|end_char=184
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	start_char=185|end_char=188
+19	office	office	NOUN	NN	Number=Sing	17	obj	_	start_char=189|end_char=195
+20	at	at	ADP	IN	_	22	case	_	start_char=196|end_char=198
+21	4	4	NUM	CD	NumForm=Digit|NumType=Card	22	nummod	_	start_char=199|end_char=200
+22	p.m.	p.m.	NOUN	NN	Number=Sing	17	obl	_	start_char=201|end_char=205
+23	today	today	NOUN	NN	Number=Sing	17	obl:unmarked	_	start_char=206|end_char=211|SpaceAfter=No
+24	.	.	PUNCT	.	_	2	punct	_	start_char=211|end_char=212
+
+# text = Please remember to lock the doors.
+# sent_id = 4
+1	Please	please	INTJ	UH	_	2	discourse	_	start_char=213|end_char=219
+2	remember	remember	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=220|end_char=228
+3	to	to	PART	TO	_	4	mark	_	start_char=229|end_char=231
+4	lock	lock	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=232|end_char=236
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=237|end_char=240
+6	doors	door	NOUN	NNS	Number=Plur	4	obj	_	start_char=241|end_char=246|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	start_char=246|end_char=247
+
+# text = The keys are in your drawer.
+# sent_id = 5
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=248|end_char=251
+2	keys	key	NOUN	NNS	Number=Plur	6	nsubj	_	start_char=252|end_char=256
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=257|end_char=260
+4	in	in	ADP	IN	_	6	case	_	start_char=261|end_char=263
+5	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	6	nmod:poss	_	start_char=264|end_char=268
+6	drawer	drawer	NOUN	NN	Number=Sing	0	root	_	start_char=269|end_char=275|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	start_char=275|end_char=276|SpacesAfter=\r\n
+

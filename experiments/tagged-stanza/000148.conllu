@@ -1,0 +1,177 @@
+# text = Dear Sarah, How are you?
+# sent_id = 0
+1	Dear	dear	ADJ	JJ	Degree=Pos	2	amod	_	start_char=0|end_char=4
+2	Sarah	Sarah	PROPN	NNP	Number=Sing	4	vocative	_	start_char=5|end_char=10|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	start_char=10|end_char=11|SpacesAfter=\r\n
+4	How	how	ADV	WRB	PronType=Int	0	root	_	start_char=13|end_char=16
+5	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=17|end_char=20
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	start_char=21|end_char=24|SpaceAfter=No
+7	?	?	PUNCT	.	_	4	punct	_	start_char=24|end_char=25
+
+# text = I'm fine.
+# sent_id = 1
+1-2	I'm	_	_	_	_	_	_	_	start_char=26|end_char=29
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=26|end_char=27
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=27|end_char=29
+3	fine	fine	ADJ	JJ	Degree=Pos	0	root	_	start_char=30|end_char=34|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	start_char=34|end_char=35
+
+# text = I'm having a wonderful time in France.
+# sent_id = 2
+1-2	I'm	_	_	_	_	_	_	_	start_char=36|end_char=39
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=36|end_char=37
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=37|end_char=39
+3	having	have	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=40|end_char=46
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=47|end_char=48
+5	wonderful	wonderful	ADJ	JJ	Degree=Pos	6	amod	_	start_char=49|end_char=58
+6	time	time	NOUN	NN	Number=Sing	3	obj	_	start_char=59|end_char=63
+7	in	in	ADP	IN	_	8	case	_	start_char=64|end_char=66
+8	France	France	PROPN	NNP	Number=Sing	3	obl	_	start_char=67|end_char=73|SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	start_char=73|end_char=74
+
+# text = My course is great and I'm enjoying learning French.
+# sent_id = 3
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=75|end_char=77
+2	course	course	NOUN	NN	Number=Sing	4	nsubj	_	start_char=78|end_char=84
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=85|end_char=87
+4	great	great	ADJ	JJ	Degree=Pos	0	root	_	start_char=88|end_char=93
+5	and	and	CCONJ	CC	_	8	cc	_	start_char=94|end_char=97
+6-7	I'm	_	_	_	_	_	_	_	start_char=98|end_char=101
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	start_char=98|end_char=99
+7	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=99|end_char=101
+8	enjoying	enjoy	VERB	VBG	Tense=Pres|VerbForm=Part	4	conj	_	start_char=102|end_char=110
+9	learning	learn	VERB	VBG	VerbForm=Ger	8	xcomp	_	start_char=111|end_char=119
+10	French	French	ADJ	JJ	Degree=Pos	9	obj	_	start_char=120|end_char=126|SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	start_char=126|end_char=127
+
+# text = Paris is a very old and interesting city.
+# sent_id = 4
+1	Paris	Paris	PROPN	NNP	Number=Sing	8	nsubj	_	start_char=128|end_char=133
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=134|end_char=136
+3	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=137|end_char=138
+4	very	very	ADV	RB	_	5	advmod	_	start_char=139|end_char=143
+5	old	old	ADJ	JJ	Degree=Pos	8	amod	_	start_char=144|end_char=147
+6	and	and	CCONJ	CC	_	7	cc	_	start_char=148|end_char=151
+7	interesting	interesting	ADJ	JJ	Degree=Pos	5	conj	_	start_char=152|end_char=163
+8	city	city	NOUN	NN	Number=Sing	0	root	_	start_char=164|end_char=168|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	punct	_	start_char=168|end_char=169
+
+# text = There are lots of beautiful old buildings to visit.
+# sent_id = 5
+1	There	there	PRON	EX	_	2	expl	_	start_char=170|end_char=175
+2	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=176|end_char=179
+3	lots	lot	NOUN	NNS	Number=Plur	2	nsubj	_	start_char=180|end_char=184
+4	of	of	ADP	IN	_	7	case	_	start_char=185|end_char=187
+5	beautiful	beautiful	ADJ	JJ	Degree=Pos	7	amod	_	start_char=188|end_char=197
+6	old	old	ADJ	JJ	Degree=Pos	7	amod	_	start_char=198|end_char=201
+7	buildings	building	NOUN	NNS	Number=Plur	3	nmod	_	start_char=202|end_char=211
+8	to	to	PART	TO	_	9	mark	_	start_char=212|end_char=214
+9	visit	visit	VERB	VB	VerbForm=Inf	7	acl	_	start_char=215|end_char=220|SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	start_char=220|end_char=221
+
+# text = I am staying with a French family.
+# sent_id = 6
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=222|end_char=223
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=224|end_char=226
+3	staying	stay	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=227|end_char=234
+4	with	with	ADP	IN	_	7	case	_	start_char=235|end_char=239
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=240|end_char=241
+6	French	French	ADJ	JJ	Degree=Pos	7	amod	_	start_char=242|end_char=248
+7	family	family	NOUN	NN	Number=Sing	3	obl	_	start_char=249|end_char=255|SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	start_char=255|end_char=256
+
+# text = They are very nice and I feel very welcome in their house.
+# sent_id = 7
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	start_char=257|end_char=261
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=262|end_char=265
+3	very	very	ADV	RB	_	4	advmod	_	start_char=266|end_char=270
+4	nice	nice	ADJ	JJ	Degree=Pos	0	root	_	start_char=271|end_char=275
+5	and	and	CCONJ	CC	_	7	cc	_	start_char=276|end_char=279
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	start_char=280|end_char=281
+7	feel	feel	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	start_char=282|end_char=286
+8	very	very	ADV	RB	_	9	advmod	_	start_char=287|end_char=291
+9	welcome	welcome	ADJ	JJ	Degree=Pos	7	xcomp	_	start_char=292|end_char=299|SpacesAfter=\r\n
+10	in	in	ADP	IN	_	12	case	_	start_char=301|end_char=303
+11	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	start_char=304|end_char=309
+12	house	house	NOUN	NN	Number=Sing	9	obl	_	start_char=310|end_char=315|SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	start_char=315|end_char=316
+
+# text = I usually have dinner with the family in the evening.
+# sent_id = 8
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=317|end_char=318
+2	usually	usually	ADV	RB	_	3	advmod	_	start_char=319|end_char=326
+3	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=327|end_char=331
+4	dinner	dinner	NOUN	NN	Number=Sing	3	obj	_	start_char=332|end_char=338
+5	with	with	ADP	IN	_	7	case	_	start_char=339|end_char=343
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=344|end_char=347
+7	family	family	NOUN	NN	Number=Sing	3	obl	_	start_char=348|end_char=354
+8	in	in	ADP	IN	_	10	case	_	start_char=355|end_char=357
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=358|end_char=361
+10	evening	evening	NOUN	NN	Number=Sing	3	obl	_	start_char=362|end_char=369|SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	start_char=369|end_char=370
+
+# text = They don't speak English so I can practice my French.
+# sent_id = 9
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	start_char=371|end_char=375
+2-3	don't	_	_	_	_	_	_	_	start_char=376|end_char=381
+2	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=376|end_char=378
+3	n't	not	PART	RB	Polarity=Neg	4	advmod	_	start_char=378|end_char=381
+4	speak	speak	VERB	VB	VerbForm=Inf	0	root	_	start_char=382|end_char=387
+5	English	English	PROPN	NNP	Number=Sing	4	obj	_	start_char=388|end_char=395
+6	so	so	ADV	RB	_	9	advmod	_	start_char=396|end_char=398
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	start_char=399|end_char=400
+8	can	can	AUX	MD	VerbForm=Fin	9	aux	_	start_char=401|end_char=404
+9	practice	practice	VERB	VB	VerbForm=Inf	4	parataxis	_	start_char=405|end_char=413
+10	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	start_char=414|end_char=416
+11	French	French	PROPN	NNP	Number=Sing	9	obj	_	start_char=417|end_char=423|SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	start_char=423|end_char=424
+
+# text = The other students in my class are friendly.
+# sent_id = 10
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=425|end_char=428
+2	other	other	ADJ	JJ	Degree=Pos	3	amod	_	start_char=429|end_char=434
+3	students	student	NOUN	NNS	Number=Plur	8	nsubj	_	start_char=435|end_char=443
+4	in	in	ADP	IN	_	6	case	_	start_char=444|end_char=446
+5	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	start_char=447|end_char=449
+6	class	class	NOUN	NN	Number=Sing	3	nmod	_	start_char=450|end_char=455
+7	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=456|end_char=459
+8	friendly	friendly	ADJ	JJ	Degree=Pos	0	root	_	start_char=460|end_char=468|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	punct	_	start_char=468|end_char=469
+
+# text = They are from all around the world.
+# sent_id = 11
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	start_char=470|end_char=474
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=475|end_char=478
+3	from	from	ADP	IN	_	4	case	_	start_char=479|end_char=483
+4	all	all	DET	DT	PronType=Tot	0	root	_	start_char=484|end_char=487|SpacesAfter=\r\n
+5	around	around	ADP	IN	_	7	case	_	start_char=489|end_char=495
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=496|end_char=499
+7	world	world	NOUN	NN	Number=Sing	4	nmod	_	start_char=500|end_char=505|SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	start_char=505|end_char=506
+
+# text = At the weekend we are planning to go out together to watch a film.
+# sent_id = 12
+1	At	at	ADP	IN	_	3	case	_	start_char=507|end_char=509
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=510|end_char=513
+3	weekend	weekend	NOUN	NN	Number=Sing	6	obl	_	start_char=514|end_char=521
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	start_char=522|end_char=524
+5	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=525|end_char=528
+6	planning	plan	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=529|end_char=537
+7	to	to	PART	TO	_	8	mark	_	start_char=538|end_char=540
+8	go	go	VERB	VB	VerbForm=Inf	6	xcomp	_	start_char=541|end_char=543
+9	out	out	ADV	RB	_	8	advmod	_	start_char=544|end_char=547
+10	together	together	ADV	RB	_	8	advmod	_	start_char=548|end_char=556
+11	to	to	PART	TO	_	12	mark	_	start_char=557|end_char=559
+12	watch	watch	VERB	VB	VerbForm=Inf	8	advcl	_	start_char=560|end_char=565
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	start_char=566|end_char=567
+14	film	film	NOUN	NN	Number=Sing	12	obj	_	start_char=568|end_char=572|SpaceAfter=No
+15	.	.	PUNCT	.	_	6	punct	_	start_char=572|end_char=573|SpacesAfter=\r\n
+
+# text = See you soon, Mark
+# sent_id = 13
+1	See	see	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=575|end_char=578
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	obj	_	start_char=579|end_char=582
+3	soon	soon	ADV	RB	Degree=Pos	1	advmod	_	start_char=583|end_char=587|SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	start_char=587|end_char=588|SpacesAfter=\r\n
+5	Mark	Mark	PROPN	NNP	Number=Sing	1	vocative	_	start_char=590|end_char=594|SpacesAfter=\r\n
+

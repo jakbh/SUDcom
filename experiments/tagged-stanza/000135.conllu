@@ -1,0 +1,114 @@
+# text = Robert!
+# sent_id = 0
+1	Robert	Robert	PROPN	NNP	Number=Sing	0	root	_	start_char=0|end_char=6|SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	start_char=6|end_char=7
+
+# text = Can you come here?
+# sent_id = 1
+1	Can	can	AUX	MD	VerbForm=Fin	3	aux	_	start_char=8|end_char=11
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=12|end_char=15
+3	come	come	VERB	VB	VerbForm=Inf	0	root	_	start_char=16|end_char=20
+4	here	here	ADV	RB	PronType=Dem	3	advmod	_	start_char=21|end_char=25|SpaceAfter=No
+5	?	?	PUNCT	.	_	3	punct	_	start_char=25|end_char=26|SpacesAfter=\r\n
+
+# text = Okay, mom.
+# sent_id = 2
+1	Okay	okay	INTJ	UH	_	3	discourse	_	start_char=28|end_char=32|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=32|end_char=33
+3	mom	mom	NOUN	NN	Number=Sing	0	root	_	start_char=34|end_char=37|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	start_char=37|end_char=38
+
+# text = I'm on my way.
+# sent_id = 3
+1-2	I'm	_	_	_	_	_	_	_	start_char=39|end_char=42
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=39|end_char=40
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=40|end_char=42
+3	on	on	ADP	IN	_	5	case	_	start_char=43|end_char=45
+4	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=46|end_char=48
+5	way	way	NOUN	NN	Number=Sing	0	root	_	start_char=49|end_char=52|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	start_char=52|end_char=53|SpacesAfter=\r\n
+
+# text = Would you take the trash out, dear?
+# sent_id = 4
+1	Would	would	AUX	MD	VerbForm=Fin	3	aux	_	start_char=55|end_char=60
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=61|end_char=64
+3	take	take	VERB	VB	VerbForm=Inf	0	root	_	start_char=65|end_char=69
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=70|end_char=73
+5	trash	trash	NOUN	NN	Number=Sing	3	obj	_	start_char=74|end_char=79
+6	out	out	ADP	RP	_	3	compound:prt	_	start_char=80|end_char=83|SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	start_char=83|end_char=84
+8	dear	dear	ADJ	JJ	Degree=Pos	3	parataxis	_	start_char=85|end_char=89|SpaceAfter=No
+9	?	?	PUNCT	.	_	3	punct	_	start_char=89|end_char=90|SpacesAfter=\r\n
+
+# text = The can is empty, mom.
+# sent_id = 5
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=92|end_char=95
+2	can	can	NOUN	NN	Number=Sing	4	nsubj	_	start_char=96|end_char=99
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=100|end_char=102
+4	empty	empty	ADJ	JJ	Degree=Pos	0	root	_	start_char=103|end_char=108|SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	start_char=108|end_char=109
+6	mom	mom	NOUN	NN	Number=Sing	4	vocative	_	start_char=110|end_char=113|SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	start_char=113|end_char=114|SpacesAfter=\r\n
+
+# text = No. Not this one.
+# sent_id = 6
+1	No	no	INTJ	UH	Polarity=Neg	5	discourse	_	start_char=116|end_char=118|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	_	start_char=118|end_char=119
+3	Not	not	PART	RB	Polarity=Neg	5	advmod	_	start_char=120|end_char=123
+4	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	_	start_char=124|end_char=128
+5	one	one	NOUN	NN	Number=Sing	0	root	_	start_char=129|end_char=132|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	start_char=132|end_char=133
+
+# text = The outside can.
+# sent_id = 7
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=134|end_char=137
+2	outside	outside	ADJ	JJ	Degree=Pos	3	amod	_	start_char=138|end_char=145
+3	can	can	NOUN	NN	Number=Sing	0	root	_	start_char=146|end_char=149|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	start_char=149|end_char=150|SpacesAfter=\r\n
+
+# text = The big can?
+# sent_id = 8
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=152|end_char=155
+2	big	big	ADJ	JJ	Degree=Pos	3	amod	_	start_char=156|end_char=159
+3	can	can	NOUN	NN	Number=Sing	0	root	_	start_char=160|end_char=163|SpaceAfter=No
+4	?	?	PUNCT	.	_	3	punct	_	start_char=163|end_char=164|SpacesAfter=\r\n
+
+# text = Yes.
+# sent_id = 9
+1	Yes	yes	INTJ	UH	Polarity=Pos	0	root	_	start_char=166|end_char=169|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	_	start_char=169|end_char=170
+
+# text = Put it in the street.
+# sent_id = 10
+1	Put	put	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=171|end_char=174
+2	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	obj	_	start_char=175|end_char=177
+3	in	in	ADP	IN	_	5	case	_	start_char=178|end_char=180
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=181|end_char=184
+5	street	street	NOUN	NN	Number=Sing	1	obl	_	start_char=185|end_char=191|SpaceAfter=No
+6	.	.	PUNCT	.	_	1	punct	_	start_char=191|end_char=192
+
+# text = It's Tuesday.
+# sent_id = 11
+1-2	It's	_	_	_	_	_	_	_	start_char=193|end_char=197
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=193|end_char=195
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=195|end_char=197
+3	Tuesday	Tuesday	PROPN	NNP	Number=Sing	0	root	_	start_char=198|end_char=205|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	start_char=205|end_char=206|SpacesAfter=\r\n
+
+# text = That's right.
+# sent_id = 12
+1-2	That's	_	_	_	_	_	_	_	start_char=208|end_char=214
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	start_char=208|end_char=212
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=212|end_char=214
+3	right	right	ADJ	JJ	Degree=Pos	0	root	_	start_char=215|end_char=220|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	start_char=220|end_char=221
+
+# text = Pick-up is tomorrow.
+# sent_id = 13
+1	Pick	pick	NOUN	NN	Number=Sing	3	compound	_	start_char=222|end_char=226|SpaceAfter=No
+2	-	-	PUNCT	HYPH	_	1	punct	_	start_char=226|end_char=227|SpaceAfter=No
+3	up	up	ADP	RP	_	5	nsubj	_	start_char=227|end_char=229
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=230|end_char=232
+5	tomorrow	tomorrow	NOUN	NN	Number=Sing	0	root	_	start_char=233|end_char=241|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	start_char=241|end_char=242|SpaceAfter=No
+

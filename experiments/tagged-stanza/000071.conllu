@@ -1,0 +1,116 @@
+# text = Gee, dad.
+# sent_id = 0
+1	Gee	gee	INTJ	UH	_	3	discourse	_	start_char=0|end_char=3|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=3|end_char=4
+3	dad	dad	NOUN	NN	Number=Sing	0	root	_	start_char=5|end_char=8|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	start_char=8|end_char=9
+
+# text = Is my mom okay?
+# sent_id = 1
+1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=10|end_char=12
+2	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	start_char=13|end_char=15
+3	mom	mom	NOUN	NN	Number=Sing	4	nsubj	_	start_char=16|end_char=19
+4	okay	okay	ADJ	JJ	Degree=Pos	0	root	_	start_char=20|end_char=24|SpaceAfter=No
+5	?	?	PUNCT	.	_	4	punct	_	start_char=24|end_char=25|SpacesAfter=\r\n
+
+# text = Of course she is, Sharon.
+# sent_id = 2
+1	Of	of	ADP	IN	ExtPos=ADV	4	advmod	_	start_char=27|end_char=29
+2	course	course	NOUN	NN	Number=Sing	1	fixed	_	start_char=30|end_char=36
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=37|end_char=40
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=41|end_char=43|SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	start_char=43|end_char=44
+6	Sharon	Sharon	PROPN	NNP	Number=Sing	4	vocative	_	start_char=45|end_char=51|SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	start_char=51|end_char=52|SpacesAfter=\r\n
+
+# text = But we are at the hospital.
+# sent_id = 3
+1	But	but	CCONJ	CC	_	6	cc	_	start_char=54|end_char=57
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	start_char=58|end_char=60
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=61|end_char=64
+4	at	at	ADP	IN	_	6	case	_	start_char=65|end_char=67
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=68|end_char=71
+6	hospital	hospital	NOUN	NN	Number=Sing	0	root	_	start_char=72|end_char=80|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	start_char=80|end_char=81|SpacesAfter=\r\n
+
+# text = It's because she is having a baby tonight.
+# sent_id = 4
+1-2	It's	_	_	_	_	_	_	_	start_char=83|end_char=87
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj:outer	_	start_char=83|end_char=85
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=85|end_char=87
+3	because	because	SCONJ	IN	_	6	mark	_	start_char=88|end_char=95
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=96|end_char=99
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=100|end_char=102
+6	having	have	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=103|end_char=109
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=110|end_char=111
+8	baby	baby	NOUN	NN	Number=Sing	6	obj	_	start_char=112|end_char=116
+9	tonight	tonight	NOUN	NN	Number=Sing	6	obl:unmarked	_	start_char=117|end_char=124|SpaceAfter=No
+10	.	.	PUNCT	.	_	6	punct	_	start_char=124|end_char=125|SpacesAfter=\r\n
+
+# text = Tonight?
+# sent_id = 5
+1	Tonight	tonight	NOUN	NN	Number=Sing	0	root	_	start_char=127|end_char=134|SpaceAfter=No
+2	?	?	PUNCT	.	_	1	punct	_	start_char=134|end_char=135
+
+# text = Are you sure?
+# sent_id = 6
+1	Are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=136|end_char=139
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=140|end_char=143
+3	sure	sure	ADJ	JJ	Degree=Pos	0	root	_	start_char=144|end_char=148|SpaceAfter=No
+4	?	?	PUNCT	.	_	3	punct	_	start_char=148|end_char=149|SpacesAfter=\r\n
+
+# text = Yes, Sharon.
+# sent_id = 7
+1	Yes	yes	INTJ	UH	Polarity=Pos	3	discourse	_	start_char=151|end_char=154|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=154|end_char=155
+3	Sharon	Sharon	PROPN	NNP	Number=Sing	0	root	_	start_char=156|end_char=162|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	start_char=162|end_char=163
+
+# text = You are getting a baby sister.
+# sent_id = 8
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=164|end_char=167
+2	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=168|end_char=171
+3	getting	get	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=172|end_char=179
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=180|end_char=181
+5	baby	baby	NOUN	NN	Number=Sing	6	compound	_	start_char=182|end_char=186
+6	sister	sister	NOUN	NN	Number=Sing	3	obj	_	start_char=187|end_char=193|SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	start_char=193|end_char=194|SpacesAfter=\r\n
+
+# text = A baby sister?
+# sent_id = 9
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	start_char=196|end_char=197
+2	baby	baby	NOUN	NN	Number=Sing	3	compound	_	start_char=198|end_char=202
+3	sister	sister	NOUN	NN	Number=Sing	0	root	_	start_char=203|end_char=209|SpaceAfter=No
+4	?	?	PUNCT	.	_	3	punct	_	start_char=209|end_char=210
+
+# text = Wow!
+# sent_id = 10
+1	Wow	wow	INTJ	UH	_	0	root	_	start_char=211|end_char=214|SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	start_char=214|end_char=215
+
+# text = I can't wait.
+# sent_id = 11
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=216|end_char=217
+2-3	can't	_	_	_	_	_	_	_	start_char=218|end_char=223
+2	ca	can	AUX	MD	VerbForm=Fin	4	aux	_	start_char=218|end_char=220
+3	n't	not	PART	RB	Polarity=Neg	4	advmod	_	start_char=220|end_char=223
+4	wait	wait	VERB	VB	VerbForm=Inf	0	root	_	start_char=224|end_char=228|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	start_char=228|end_char=229|SpacesAfter=\r\n
+
+# text = Your mom will be fine.
+# sent_id = 12
+1	Your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=231|end_char=235
+2	mom	mom	NOUN	NN	Number=Sing	5	nsubj	_	start_char=236|end_char=239
+3	will	will	AUX	MD	VerbForm=Fin	5	aux	_	start_char=240|end_char=244
+4	be	be	AUX	VB	VerbForm=Inf	5	cop	_	start_char=245|end_char=247
+5	fine	fine	ADJ	JJ	Degree=Pos	0	root	_	start_char=248|end_char=252|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	start_char=252|end_char=253
+
+# text = Don't worry.
+# sent_id = 13
+1-2	Don't	_	_	_	_	_	_	_	start_char=254|end_char=259
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	3	aux	_	start_char=254|end_char=256
+2	n't	not	PART	RB	Polarity=Neg	3	advmod	_	start_char=256|end_char=259
+3	worry	worry	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=260|end_char=265|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	start_char=265|end_char=266|SpaceAfter=No
+

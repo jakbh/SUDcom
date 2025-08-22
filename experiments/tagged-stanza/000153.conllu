@@ -1,0 +1,178 @@
+# text = Every year we go to Florida.
+# sent_id = 0
+1	Every	every	DET	DT	PronType=Tot	2	det	_	start_char=0|end_char=5
+2	year	year	NOUN	NN	Number=Sing	4	obl:unmarked	_	start_char=6|end_char=10
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	start_char=11|end_char=13
+4	go	go	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=14|end_char=16
+5	to	to	ADP	IN	_	6	case	_	start_char=17|end_char=19
+6	Florida	Florida	PROPN	NNP	Number=Sing	4	obl	_	start_char=20|end_char=27|SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	start_char=27|end_char=28
+
+# text = We like to go to the beach.
+# sent_id = 1
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=29|end_char=31
+2	like	like	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=32|end_char=36
+3	to	to	PART	TO	_	4	mark	_	start_char=37|end_char=39
+4	go	go	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=40|end_char=42
+5	to	to	ADP	IN	_	7	case	_	start_char=43|end_char=45
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=46|end_char=49
+7	beach	beach	NOUN	NN	Number=Sing	4	obl	_	start_char=50|end_char=55|SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	start_char=55|end_char=56|SpacesAfter=\r\n
+
+# text = My favorite beach is called Emerson Beach.
+# sent_id = 2
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	start_char=58|end_char=60
+2	favorite	favorite	ADJ	JJ	Degree=Pos	3	amod	_	start_char=61|end_char=69
+3	beach	beach	NOUN	NN	Number=Sing	5	nsubj:pass	_	start_char=70|end_char=75
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	start_char=76|end_char=78
+5	called	call	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=79|end_char=85
+6	Emerson	Emerson	PROPN	NNP	Number=Sing	7	compound	_	start_char=86|end_char=93
+7	Beach	Beach	PROPN	NNP	Number=Sing	5	xcomp	_	start_char=94|end_char=99|SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	start_char=99|end_char=100
+
+# text = It is very long, with soft sand and palm trees.
+# sent_id = 3
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=101|end_char=103
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=104|end_char=106
+3	very	very	ADV	RB	_	4	advmod	_	start_char=107|end_char=111
+4	long	long	ADJ	JJ	Degree=Pos	0	root	_	start_char=112|end_char=116|SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	start_char=116|end_char=117
+6	with	with	ADP	IN	_	8	case	_	start_char=118|end_char=122
+7	soft	soft	ADJ	JJ	Degree=Pos	8	amod	_	start_char=123|end_char=127
+8	sand	sand	NOUN	NN	Number=Sing	4	obl	_	start_char=128|end_char=132
+9	and	and	CCONJ	CC	_	11	cc	_	start_char=133|end_char=136
+10	palm	palm	NOUN	NN	Number=Sing	11	compound	_	start_char=137|end_char=141
+11	trees	tree	NOUN	NNS	Number=Plur	8	conj	_	start_char=142|end_char=147|SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	start_char=147|end_char=148
+
+# text = It is very beautiful.
+# sent_id = 4
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=149|end_char=151
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=152|end_char=154
+3	very	very	ADV	RB	_	4	advmod	_	start_char=155|end_char=159
+4	beautiful	beautiful	ADJ	JJ	Degree=Pos	0	root	_	start_char=160|end_char=169|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	start_char=169|end_char=170
+
+# text = I like to make sandcastles and watch the sailboats go by.
+# sent_id = 5
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=171|end_char=172
+2	like	like	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=173|end_char=177
+3	to	to	PART	TO	_	4	mark	_	start_char=178|end_char=180
+4	make	make	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=181|end_char=185
+5	sandcastles	sandcastle	NOUN	NNS	Number=Plur	4	obj	_	start_char=186|end_char=197
+6	and	and	CCONJ	CC	_	7	cc	_	start_char=198|end_char=201
+7	watch	watch	VERB	VB	VerbForm=Inf	4	conj	_	start_char=202|end_char=207
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=208|end_char=211
+9	sailboats	sailboat	NOUN	NNS	Number=Plur	7	obj	_	start_char=212|end_char=221
+10	go	go	VERB	VB	VerbForm=Inf	7	xcomp	_	start_char=222|end_char=224
+11	by	by	ADP	IN	_	10	obl	_	start_char=225|end_char=227|SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	start_char=227|end_char=228
+
+# text = Sometimes there are dolphins and whales in the water!
+# sent_id = 6
+1	Sometimes	sometimes	ADV	RB	_	3	advmod	_	start_char=229|end_char=238
+2	there	there	PRON	EX	_	3	expl	_	start_char=239|end_char=244
+3	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=245|end_char=248
+4	dolphins	dolphin	NOUN	NNS	Number=Plur	3	nsubj	_	start_char=249|end_char=257
+5	and	and	CCONJ	CC	_	6	cc	_	start_char=258|end_char=261
+6	whales	whale	NOUN	NNS	Number=Plur	4	conj	_	start_char=262|end_char=268
+7	in	in	ADP	IN	_	9	case	_	start_char=269|end_char=271
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=272|end_char=275
+9	water	water	NOUN	NN	Number=Sing	3	obl	_	start_char=276|end_char=281|SpaceAfter=No
+10	!	!	PUNCT	.	_	3	punct	_	start_char=281|end_char=282|SpacesAfter=\r\n
+
+# text = Every morning we look for shells in the sand.
+# sent_id = 7
+1	Every	every	DET	DT	PronType=Tot	2	det	_	start_char=284|end_char=289
+2	morning	morning	NOUN	NN	Number=Sing	4	obl:unmarked	_	start_char=290|end_char=297
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	start_char=298|end_char=300
+4	look	look	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=301|end_char=305
+5	for	for	ADP	IN	_	6	case	_	start_char=306|end_char=309
+6	shells	shell	NOUN	NNS	Number=Plur	4	obl	_	start_char=310|end_char=316
+7	in	in	ADP	IN	_	9	case	_	start_char=317|end_char=319
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=320|end_char=323
+9	sand	sand	NOUN	NN	Number=Sing	4	obl	_	start_char=324|end_char=328|SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	start_char=328|end_char=329
+
+# text = I found fifteen big shells last year.
+# sent_id = 8
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=330|end_char=331
+2	found	find	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=332|end_char=337
+3	fifteen	fifteen	NUM	CD	NumForm=Word|NumType=Card	5	nummod	_	start_char=338|end_char=345
+4	big	big	ADJ	JJ	Degree=Pos	5	amod	_	start_char=346|end_char=349
+5	shells	shell	NOUN	NNS	Number=Plur	2	obj	_	start_char=350|end_char=356
+6	last	last	ADJ	JJ	Degree=Pos	7	amod	_	start_char=357|end_char=361
+7	year	year	NOUN	NN	Number=Sing	2	obl:unmarked	_	start_char=362|end_char=366|SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	start_char=366|end_char=367
+
+# text = I put them in a special place in my room.
+# sent_id = 9
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=368|end_char=369
+2	put	put	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=370|end_char=373
+3	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	obj	_	start_char=374|end_char=378
+4	in	in	ADP	IN	_	7	case	_	start_char=379|end_char=381
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=382|end_char=383
+6	special	special	ADJ	JJ	Degree=Pos	7	amod	_	start_char=384|end_char=391
+7	place	place	NOUN	NN	Number=Sing	2	obl	_	start_char=392|end_char=397
+8	in	in	ADP	IN	_	10	case	_	start_char=398|end_char=400
+9	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	start_char=401|end_char=403
+10	room	room	NOUN	NN	Number=Sing	2	obl	_	start_char=404|end_char=408|SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	start_char=408|end_char=409
+
+# text = This year I want to learn to surf.
+# sent_id = 10
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	start_char=410|end_char=414
+2	year	year	NOUN	NN	Number=Sing	4	obl:unmarked	_	start_char=415|end_char=419
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=420|end_char=421
+4	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=422|end_char=426
+5	to	to	PART	TO	_	6	mark	_	start_char=427|end_char=429
+6	learn	learn	VERB	VB	VerbForm=Inf	4	xcomp	_	start_char=430|end_char=435
+7	to	to	PART	TO	_	8	mark	_	start_char=436|end_char=438
+8	surf	surf	VERB	VB	VerbForm=Inf	6	xcomp	_	start_char=439|end_char=443|SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	start_char=443|end_char=444
+
+# text = It is hard to surf, but so much fun!
+# sent_id = 11
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	start_char=445|end_char=447
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=448|end_char=450
+3	hard	hard	ADJ	JJ	Degree=Pos	0	root	_	start_char=451|end_char=455
+4	to	to	PART	TO	_	5	mark	_	start_char=456|end_char=458
+5	surf	surf	VERB	VB	VerbForm=Inf	3	csubj	_	start_char=459|end_char=463|SpaceAfter=No
+6	,	,	PUNCT	,	_	10	punct	_	start_char=463|end_char=464
+7	but	but	CCONJ	CC	_	10	cc	_	start_char=465|end_char=468
+8	so	so	ADV	RB	_	9	advmod	_	start_char=469|end_char=471
+9	much	much	ADJ	JJ	Degree=Pos	10	amod	_	start_char=472|end_char=476
+10	fun	fun	NOUN	NN	Number=Sing	3	conj	_	start_char=477|end_char=480|SpaceAfter=No
+11	!	!	PUNCT	.	_	3	punct	_	start_char=480|end_char=481
+
+# text = My sister is a good surfer.
+# sent_id = 12
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=482|end_char=484
+2	sister	sister	NOUN	NN	Number=Sing	6	nsubj	_	start_char=485|end_char=491
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=492|end_char=494
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=495|end_char=496
+5	good	good	ADJ	JJ	Degree=Pos	6	amod	_	start_char=497|end_char=501
+6	surfer	surfer	NOUN	NN	Number=Sing	0	root	_	start_char=502|end_char=508|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	start_char=508|end_char=509
+
+# text = She says that she can teach me.
+# sent_id = 13
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=510|end_char=513
+2	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=514|end_char=518
+3	that	that	SCONJ	IN	_	6	mark	_	start_char=519|end_char=523
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=524|end_char=527
+5	can	can	AUX	MD	VerbForm=Fin	6	aux	_	start_char=528|end_char=531
+6	teach	teach	VERB	VB	VerbForm=Inf	2	ccomp	_	start_char=532|end_char=537
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	iobj	_	start_char=538|end_char=540|SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	start_char=540|end_char=541
+
+# text = I hope I can do it!
+# sent_id = 14
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=542|end_char=543
+2	hope	hope	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=544|end_char=548
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=549|end_char=550
+4	can	can	AUX	MD	VerbForm=Fin	5	aux	_	start_char=551|end_char=554
+5	do	do	VERB	VB	VerbForm=Inf	2	ccomp	_	start_char=555|end_char=557
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	_	start_char=558|end_char=560|SpaceAfter=No
+7	!	!	PUNCT	.	_	2	punct	_	start_char=560|end_char=561|SpaceAfter=No
+

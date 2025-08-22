@@ -1,0 +1,169 @@
+# text = I would like to see my counselor now.
+# sent_id = 0
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=0|end_char=1
+2	would	would	AUX	MD	VerbForm=Fin	3	aux	_	start_char=2|end_char=7
+3	like	like	VERB	VB	VerbForm=Inf	0	root	_	start_char=8|end_char=12
+4	to	to	PART	TO	_	5	mark	_	start_char=13|end_char=15
+5	see	see	VERB	VB	VerbForm=Inf	3	xcomp	_	start_char=16|end_char=19
+6	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	start_char=20|end_char=22
+7	counselor	counselor	NOUN	NN	Number=Sing	5	obj	_	start_char=23|end_char=32
+8	now	now	ADV	RB	_	5	advmod	_	start_char=33|end_char=36|SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	start_char=36|end_char=37|SpacesAfter=\r\n
+
+# text = Sorry, she doesn't have any time today.
+# sent_id = 1
+1	Sorry	sorry	ADJ	JJ	Degree=Pos	6	discourse	_	start_char=39|end_char=44|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=44|end_char=45
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=46|end_char=49
+4-5	doesn't	_	_	_	_	_	_	_	start_char=50|end_char=57
+4	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=50|end_char=54
+5	n't	not	PART	RB	Polarity=Neg	6	advmod	_	start_char=54|end_char=57
+6	have	have	VERB	VB	VerbForm=Inf	0	root	_	start_char=58|end_char=62
+7	any	any	DET	DT	PronType=Ind	8	det	_	start_char=63|end_char=66
+8	time	time	NOUN	NN	Number=Sing	6	obj	_	start_char=67|end_char=71
+9	today	today	NOUN	NN	Number=Sing	6	obl:unmarked	_	start_char=72|end_char=77|SpaceAfter=No
+10	.	.	PUNCT	.	_	6	punct	_	start_char=77|end_char=78|SpacesAfter=\r\n
+
+# text = Are you serious?
+# sent_id = 2
+1	Are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=80|end_char=83
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=84|end_char=87
+3	serious	serious	ADJ	JJ	Degree=Pos	0	root	_	start_char=88|end_char=95|SpaceAfter=No
+4	?	?	PUNCT	.	_	3	punct	_	start_char=95|end_char=96|SpacesAfter=\r\n
+
+# text = Yes, I am.
+# sent_id = 3
+1	Yes	yes	INTJ	UH	Polarity=Pos	4	discourse	_	start_char=98|end_char=101|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=101|end_char=102
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=103|end_char=104
+4	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=105|end_char=107|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	start_char=107|end_char=108
+
+# text = Please make an appointment for next week.
+# sent_id = 4
+1	Please	please	INTJ	UH	_	2	discourse	_	start_char=109|end_char=115
+2	make	make	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=116|end_char=120
+3	an	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	start_char=121|end_char=123
+4	appointment	appointment	NOUN	NN	Number=Sing	2	obj	_	start_char=124|end_char=135
+5	for	for	ADP	IN	_	7	case	_	start_char=136|end_char=139
+6	next	next	ADJ	JJ	Degree=Pos	7	amod	_	start_char=140|end_char=144
+7	week	week	NOUN	NN	Number=Sing	2	obl	_	start_char=145|end_char=149|SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	start_char=149|end_char=150|SpacesAfter=\r\n
+
+# text = I really need to see her.
+# sent_id = 5
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=152|end_char=153
+2	really	really	ADV	RB	_	3	advmod	_	start_char=154|end_char=160
+3	need	need	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=161|end_char=165
+4	to	to	PART	TO	_	5	mark	_	start_char=166|end_char=168
+5	see	see	VERB	VB	VerbForm=Inf	3	xcomp	_	start_char=169|end_char=172
+6	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	start_char=173|end_char=176|SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	start_char=176|end_char=177|SpacesAfter=\r\n
+
+# text = I'm sorry, but you really can't.
+# sent_id = 6
+1-2	I'm	_	_	_	_	_	_	_	start_char=179|end_char=182
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=179|end_char=180
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=180|end_char=182
+3	sorry	sorry	ADJ	JJ	Degree=Pos	0	root	_	start_char=183|end_char=188|SpaceAfter=No
+4	,	,	PUNCT	,	_	8	punct	_	start_char=188|end_char=189
+5	but	but	CCONJ	CC	_	8	cc	_	start_char=190|end_char=193
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	start_char=194|end_char=197
+7	really	really	ADV	RB	_	8	advmod	_	start_char=198|end_char=204
+8-9	can't	_	_	_	_	_	_	_	start_char=205|end_char=210|SpaceAfter=No
+8	ca	can	AUX	MD	VerbForm=Fin	3	conj	_	start_char=205|end_char=207
+9	n't	not	PART	RB	Polarity=Neg	8	advmod	_	start_char=207|end_char=210
+10	.	.	PUNCT	.	_	3	punct	_	start_char=210|end_char=211|SpacesAfter=\r\n
+
+# text = I swear, I will bang on her door and scream.
+# sent_id = 7
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=213|end_char=214
+2	swear	swear	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=215|end_char=220|SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	start_char=220|end_char=221
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=222|end_char=223
+5	will	will	AUX	MD	VerbForm=Fin	6	aux	_	start_char=224|end_char=228
+6	bang	bang	VERB	VB	VerbForm=Inf	2	parataxis	_	start_char=229|end_char=233
+7	on	on	ADP	IN	_	9	case	_	start_char=234|end_char=236
+8	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	start_char=237|end_char=240
+9	door	door	NOUN	NN	Number=Sing	6	obl	_	start_char=241|end_char=245
+10	and	and	CCONJ	CC	_	11	cc	_	start_char=246|end_char=249
+11	scream	scream	VERB	VB	VerbForm=Inf	6	conj	_	start_char=250|end_char=256|SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	start_char=256|end_char=257|SpacesAfter=\r\n
+
+# text = Don't make a scene.
+# sent_id = 8
+1-2	Don't	_	_	_	_	_	_	_	start_char=259|end_char=264
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	3	aux	_	start_char=259|end_char=261
+2	n't	not	PART	RB	Polarity=Neg	3	advmod	_	start_char=261|end_char=264
+3	make	make	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=265|end_char=269
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=270|end_char=271
+5	scene	scene	NOUN	NN	Number=Sing	3	obj	_	start_char=272|end_char=277|SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	start_char=277|end_char=278|SpacesAfter=\r\n
+
+# text = If you don't want me to make a scene, tell the counselor I'm here.
+# sent_id = 9
+1	If	if	SCONJ	IN	_	5	mark	_	start_char=280|end_char=282
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	start_char=283|end_char=286
+3-4	don't	_	_	_	_	_	_	_	start_char=287|end_char=292
+3	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=287|end_char=289
+4	n't	not	PART	RB	Polarity=Neg	5	advmod	_	start_char=289|end_char=292
+5	want	want	VERB	VB	VerbForm=Inf	12	advcl	_	start_char=293|end_char=297
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obj	_	start_char=298|end_char=300
+7	to	to	PART	TO	_	8	mark	_	start_char=301|end_char=303
+8	make	make	VERB	VB	VerbForm=Inf	5	xcomp	_	start_char=304|end_char=308
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	start_char=309|end_char=310
+10	scene	scene	NOUN	NN	Number=Sing	8	obj	_	start_char=311|end_char=316|SpaceAfter=No
+11	,	,	PUNCT	,	_	5	punct	_	start_char=316|end_char=317
+12	tell	tell	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=318|end_char=322
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	start_char=323|end_char=326
+14	counselor	counselor	NOUN	NN	Number=Sing	12	iobj	_	start_char=327|end_char=336
+15-16	I'm	_	_	_	_	_	_	_	start_char=337|end_char=340
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	start_char=337|end_char=338
+16	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	cop	_	start_char=338|end_char=340
+17	here	here	ADV	RB	PronType=Dem	12	ccomp	_	start_char=341|end_char=345|SpaceAfter=No
+18	.	.	PUNCT	.	_	12	punct	_	start_char=345|end_char=346|SpacesAfter=\r\n
+
+# text = Fine!
+# sent_id = 10
+1	Fine	Fine	ADJ	JJ	Degree=Pos	0	root	_	start_char=348|end_char=352|SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	start_char=352|end_char=353
+
+# text = You can only talk to her for five minutes, though.
+# sent_id = 11
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	start_char=354|end_char=357
+2	can	can	AUX	MD	VerbForm=Fin	4	aux	_	start_char=358|end_char=361
+3	only	only	ADV	RB	_	4	advmod	_	start_char=362|end_char=366
+4	talk	talk	VERB	VB	VerbForm=Inf	0	root	_	start_char=367|end_char=371
+5	to	to	ADP	IN	_	6	case	_	start_char=372|end_char=374
+6	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obl	_	start_char=375|end_char=378
+7	for	for	ADP	IN	_	9	case	_	start_char=379|end_char=382
+8	five	five	NUM	CD	NumForm=Word|NumType=Card	9	nummod	_	start_char=383|end_char=387
+9	minutes	minute	NOUN	NNS	Number=Plur	4	obl	_	start_char=388|end_char=395|SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	_	start_char=395|end_char=396
+11	though	though	ADV	RB	_	4	advmod	_	start_char=397|end_char=403|SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	start_char=403|end_char=404|SpacesAfter=\r\n
+
+# text = That's all I need.
+# sent_id = 12
+1-2	That's	_	_	_	_	_	_	_	start_char=406|end_char=412
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	start_char=406|end_char=410
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=410|end_char=412
+3	all	all	DET	DT	PronType=Tot	0	root	_	start_char=413|end_char=416
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=417|end_char=418
+5	need	need	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	start_char=419|end_char=423|SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	start_char=423|end_char=424|SpacesAfter=\r\n
+
+# text = Next time, you'd better make an appointment.
+# sent_id = 13
+1	Next	next	ADJ	JJ	Degree=Pos	2	amod	_	start_char=426|end_char=430
+2	time	time	NOUN	NN	Number=Sing	7	obl:unmarked	_	start_char=431|end_char=435|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	start_char=435|end_char=436
+4-5	you'd	_	_	_	_	_	_	_	start_char=437|end_char=442
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	start_char=437|end_char=440
+5	'd	would	AUX	MD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	7	aux	_	start_char=440|end_char=442
+6	better	well	ADV	RBR	Degree=Cmp	7	advmod	_	start_char=443|end_char=449
+7	make	make	VERB	VB	VerbForm=Inf	0	root	_	start_char=450|end_char=454
+8	an	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	start_char=455|end_char=457
+9	appointment	appointment	NOUN	NN	Number=Sing	7	obj	_	start_char=458|end_char=469|SpaceAfter=No
+10	.	.	PUNCT	.	_	7	punct	_	start_char=469|end_char=470|SpaceAfter=No
+

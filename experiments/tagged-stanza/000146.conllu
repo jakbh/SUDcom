@@ -1,0 +1,157 @@
+# text = Hello?
+# sent_id = 0
+1	Hello	hello	INTJ	UH	_	0	root	_	start_char=0|end_char=5|SpaceAfter=No
+2	?	?	PUNCT	.	_	1	punct	_	start_char=5|end_char=6
+
+# text = I'd like to schedule an appointment.
+# sent_id = 1
+1-2	I'd	_	_	_	_	_	_	_	start_char=7|end_char=10
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=7|end_char=8
+2	'd	would	AUX	MD	VerbForm=Fin	3	aux	_	start_char=8|end_char=10
+3	like	like	VERB	VB	VerbForm=Inf	0	root	_	start_char=11|end_char=15
+4	to	to	PART	TO	_	5	mark	_	start_char=16|end_char=18
+5	schedule	schedule	VERB	VB	VerbForm=Inf	3	xcomp	_	start_char=19|end_char=27
+6	an	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=28|end_char=30
+7	appointment	appointment	NOUN	NN	Number=Sing	5	obj	_	start_char=31|end_char=42|SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	start_char=42|end_char=43|SpacesAfter=\r\n
+
+# text = Hello!
+# sent_id = 2
+1	Hello	hello	INTJ	UH	_	0	root	_	start_char=45|end_char=50|SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	start_char=50|end_char=51
+
+# text = What time would you like to come in?
+# sent_id = 3
+1	What	what	DET	WDT	PronType=Int	2	det	_	start_char=52|end_char=56
+2	time	time	NOUN	NN	Number=Sing	7	obj	_	start_char=57|end_char=61
+3	would	would	AUX	MD	VerbForm=Fin	5	aux	_	start_char=62|end_char=67
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	start_char=68|end_char=71
+5	like	like	VERB	VB	VerbForm=Inf	0	root	_	start_char=72|end_char=76
+6	to	to	PART	TO	_	7	mark	_	start_char=77|end_char=79
+7	come	come	VERB	VB	VerbForm=Inf	5	xcomp	_	start_char=80|end_char=84
+8	in	in	ADP	RP	_	7	compound:prt	_	start_char=85|end_char=87|SpaceAfter=No
+9	?	?	PUNCT	.	_	5	punct	_	start_char=87|end_char=88|SpacesAfter=\r\n
+
+# text = Well, I only like Jane cutting my hair.
+# sent_id = 4
+1	Well	well	INTJ	UH	_	5	discourse	_	start_char=90|end_char=94|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=94|end_char=95
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=96|end_char=97
+4	only	only	ADV	RB	_	5	advmod	_	start_char=98|end_char=102
+5	like	like	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=103|end_char=107
+6	Jane	Jane	PROPN	NNP	Number=Sing	5	obj	_	start_char=108|end_char=112
+7	cutting	cut	VERB	VBG	VerbForm=Ger	5	xcomp	_	start_char=113|end_char=120
+8	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	start_char=121|end_char=123
+9	hair	hair	NOUN	NN	Number=Sing	7	obj	_	start_char=124|end_char=128|SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	_	start_char=128|end_char=129|SpacesAfter=\r\n
+
+# text = Jane comes in to work at 3 p.m. today.
+# sent_id = 5
+1	Jane	Jane	PROPN	NNP	Number=Sing	2	nsubj	_	start_char=131|end_char=135
+2	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=136|end_char=141
+3	in	in	ADP	RP	_	2	compound:prt	_	start_char=142|end_char=144
+4	to	to	PART	TO	_	5	mark	_	start_char=145|end_char=147
+5	work	work	VERB	VB	VerbForm=Inf	2	advcl	_	start_char=148|end_char=152
+6	at	at	ADP	IN	_	8	case	_	start_char=153|end_char=155
+7	3	3	NUM	CD	NumForm=Digit|NumType=Card	8	nummod	_	start_char=156|end_char=157
+8	p.m.	p.m.	NOUN	NN	Number=Sing	5	obl	_	start_char=158|end_char=162
+9	today	today	NOUN	NN	Number=Sing	5	obl:unmarked	_	start_char=163|end_char=168|SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	start_char=168|end_char=169|SpacesAfter=\r\n
+
+# text = That sounds perfect!
+# sent_id = 6
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	2	nsubj	_	start_char=171|end_char=175
+2	sounds	sound	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=176|end_char=182
+3	perfect	perfect	ADJ	JJ	Degree=Pos	2	xcomp	_	start_char=183|end_char=190|SpaceAfter=No
+4	!	!	PUNCT	.	_	2	punct	_	start_char=190|end_char=191
+
+# text = Sign me up.
+# sent_id = 7
+1	Sign	sign	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=192|end_char=196
+2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	obj	_	start_char=197|end_char=199
+3	up	up	ADP	RP	_	1	compound:prt	_	start_char=200|end_char=202|SpaceAfter=No
+4	.	.	PUNCT	.	_	1	punct	_	start_char=202|end_char=203|SpacesAfter=\r\n
+
+# text = You'll be coming in for a haircut, yes?
+# sent_id = 8
+1-2	You'll	_	_	_	_	_	_	_	start_char=205|end_char=211
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	start_char=205|end_char=208
+2	'll	will	AUX	MD	VerbForm=Fin	4	aux	_	start_char=208|end_char=211
+3	be	be	AUX	VB	VerbForm=Inf	4	aux	_	start_char=212|end_char=214
+4	coming	come	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=215|end_char=221
+5	in	in	ADV	RB	_	4	advmod	_	start_char=222|end_char=224
+6	for	for	ADP	IN	_	8	case	_	start_char=225|end_char=228
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=229|end_char=230
+8	haircut	haircut	NOUN	NN	Number=Sing	4	obl	_	start_char=231|end_char=238|SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	start_char=238|end_char=239
+10	yes	yes	INTJ	UH	Polarity=Pos	4	discourse	_	start_char=240|end_char=243|SpaceAfter=No
+11	?	?	PUNCT	.	_	4	punct	_	start_char=243|end_char=244|SpacesAfter=\r\n
+
+# text = I'd also like to redo my highlights.
+# sent_id = 9
+1-2	I'd	_	_	_	_	_	_	_	start_char=246|end_char=249
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=246|end_char=247
+2	'd	would	AUX	MD	VerbForm=Fin	4	aux	_	start_char=247|end_char=249
+3	also	also	ADV	RB	_	4	advmod	_	start_char=250|end_char=254
+4	like	like	VERB	VB	VerbForm=Inf	0	root	_	start_char=255|end_char=259
+5	to	to	PART	TO	_	6	mark	_	start_char=260|end_char=262
+6	redo	redo	VERB	VB	VerbForm=Inf	4	xcomp	_	start_char=263|end_char=267
+7	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	start_char=268|end_char=270
+8	highlights	highlight	NOUN	NNS	Number=Plur	6	obj	_	start_char=271|end_char=281|SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	start_char=281|end_char=282|SpacesAfter=\r\n
+
+# text = That will be no problem.
+# sent_id = 10
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	start_char=284|end_char=288
+2	will	will	AUX	MD	VerbForm=Fin	5	aux	_	start_char=289|end_char=293
+3	be	be	AUX	VB	VerbForm=Inf	5	cop	_	start_char=294|end_char=296
+4	no	no	DET	DT	PronType=Neg	5	det	_	start_char=297|end_char=299
+5	problem	problem	NOUN	NN	Number=Sing	0	root	_	start_char=300|end_char=307|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	start_char=307|end_char=308
+
+# text = Can I have your name?
+# sent_id = 11
+1	Can	can	AUX	MD	VerbForm=Fin	3	aux	_	start_char=309|end_char=312
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=313|end_char=314
+3	have	have	VERB	VB	VerbForm=Inf	0	root	_	start_char=315|end_char=319
+4	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=320|end_char=324
+5	name	name	NOUN	NN	Number=Sing	3	obj	_	start_char=325|end_char=329|SpaceAfter=No
+6	?	?	PUNCT	.	_	3	punct	_	start_char=329|end_char=330|SpacesAfter=\r\n
+
+# text = My name is Sarah.
+# sent_id = 12
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=332|end_char=334
+2	name	name	NOUN	NN	Number=Sing	4	nsubj	_	start_char=335|end_char=339
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=340|end_char=342
+4	Sarah	Sarah	PROPN	NNP	Number=Sing	0	root	_	start_char=343|end_char=348|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	start_char=348|end_char=349|SpacesAfter=\r\n
+
+# text = Alright, Sarah, we'll be expecting you!
+# sent_id = 13
+1	Alright	alright	INTJ	UH	_	8	discourse	_	start_char=351|end_char=358|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=358|end_char=359
+3	Sarah	Sarah	PROPN	NNP	Number=Sing	8	vocative	_	start_char=360|end_char=365|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	start_char=365|end_char=366
+5-6	we'll	_	_	_	_	_	_	_	start_char=367|end_char=372
+5	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	start_char=367|end_char=369
+6	'll	will	AUX	MD	VerbForm=Fin	8	aux	_	start_char=369|end_char=372
+7	be	be	AUX	VB	VerbForm=Inf	8	aux	_	start_char=373|end_char=375
+8	expecting	expect	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=376|end_char=385
+9	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	8	obj	_	start_char=386|end_char=389|SpaceAfter=No
+10	!	!	PUNCT	.	_	8	punct	_	start_char=389|end_char=390|SpacesAfter=\r\n
+
+# text = Alright, thank you!
+# sent_id = 14
+1	Alright	alright	INTJ	UH	_	3	discourse	_	start_char=392|end_char=399|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=399|end_char=400
+3	thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=401|end_char=406
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	obj	_	start_char=407|end_char=410|SpaceAfter=No
+5	!	!	PUNCT	.	_	3	punct	_	start_char=410|end_char=411|SpacesAfter=\r\n
+
+# text = See you soon!
+# sent_id = 15
+1	See	see	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=413|end_char=416
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	obj	_	start_char=417|end_char=420
+3	soon	soon	ADV	RB	Degree=Pos	1	advmod	_	start_char=421|end_char=425|SpaceAfter=No
+4	!	!	PUNCT	.	_	1	punct	_	start_char=425|end_char=426|SpaceAfter=No
+

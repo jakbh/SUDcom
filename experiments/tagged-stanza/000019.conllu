@@ -1,0 +1,214 @@
+# text = He stopped at the motel.
+# sent_id = 0
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=0|end_char=2
+2	stopped	stop	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=3|end_char=10
+3	at	at	ADP	IN	_	5	case	_	start_char=11|end_char=13
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=14|end_char=17
+5	motel	motel	NOUN	NN	Number=Sing	2	obl	_	start_char=18|end_char=23|SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	start_char=23|end_char=24
+
+# text = It was late at night.
+# sent_id = 1
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=25|end_char=27
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	start_char=28|end_char=31
+3	late	late	ADJ	JJ	Degree=Pos	0	root	_	start_char=32|end_char=36
+4	at	at	ADP	IN	_	5	case	_	start_char=37|end_char=39
+5	night	night	NOUN	NN	Number=Sing	3	obl	_	start_char=40|end_char=45|SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	start_char=45|end_char=46
+
+# text = It was almost midnight.
+# sent_id = 2
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=47|end_char=49
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	start_char=50|end_char=53
+3	almost	almost	ADV	RB	_	4	advmod	_	start_char=54|end_char=60
+4	midnight	midnight	NOUN	NN	Number=Sing	0	root	_	start_char=61|end_char=69|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	start_char=69|end_char=70
+
+# text = He asked the motel clerk, "Do you have a vacant room?"
+# sent_id = 3
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=71|end_char=73
+2	asked	ask	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=74|end_char=79
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=80|end_char=83
+4	motel	motel	NOUN	NN	Number=Sing	5	compound	_	start_char=84|end_char=89
+5	clerk	clerk	NOUN	NN	Number=Sing	2	iobj	_	start_char=90|end_char=95|SpaceAfter=No
+6	,	,	PUNCT	,	_	10	punct	_	start_char=95|end_char=96
+7	"	"	PUNCT	``	_	10	punct	_	start_char=97|end_char=98|SpaceAfter=No
+8	Do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=98|end_char=100
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	start_char=101|end_char=104
+10	have	have	VERB	VB	VerbForm=Inf	2	ccomp	_	start_char=105|end_char=109
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	start_char=110|end_char=111
+12	vacant	vacant	ADJ	JJ	Degree=Pos	13	amod	_	start_char=112|end_char=118
+13	room	room	NOUN	NN	Number=Sing	10	obj	_	start_char=119|end_char=123|SpaceAfter=No
+14	?	?	PUNCT	.	_	10	punct	_	start_char=123|end_char=124|SpaceAfter=No
+15	"	"	PUNCT	''	_	10	punct	_	start_char=124|end_char=125
+
+# text = She said she had a vacant room.
+# sent_id = 4
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=126|end_char=129
+2	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=130|end_char=134
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=135|end_char=138
+4	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	_	start_char=139|end_char=142
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=143|end_char=144
+6	vacant	vacant	ADJ	JJ	Degree=Pos	7	amod	_	start_char=145|end_char=151
+7	room	room	NOUN	NN	Number=Sing	4	obj	_	start_char=152|end_char=156|SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	start_char=156|end_char=157
+
+# text = He asked how much it was.
+# sent_id = 5
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=158|end_char=160
+2	asked	ask	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=161|end_char=166
+3	how	how	ADV	WRB	PronType=Int	4	advmod	_	start_char=167|end_char=170
+4	much	much	ADJ	JJ	Degree=Pos	2	obj	_	start_char=171|end_char=175
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=176|end_char=178
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	start_char=179|end_char=182|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	start_char=182|end_char=183
+
+# text = She said it was $100 for the night.
+# sent_id = 6
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=184|end_char=187
+2	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=188|end_char=192
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=193|end_char=195
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	start_char=196|end_char=199
+5	$	$	SYM	$	_	2	ccomp	_	start_char=200|end_char=201|SpaceAfter=No
+6	100	100	NUM	CD	NumForm=Digit|NumType=Card	5	nummod	_	start_char=201|end_char=204
+7	for	for	ADP	IN	_	9	case	_	start_char=205|end_char=208
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=209|end_char=212
+9	night	night	NOUN	NN	Number=Sing	5	nmod	_	start_char=213|end_char=218|SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	start_char=218|end_char=219
+
+# text = "But the night is half over," he said.
+# sent_id = 7
+1	"	"	PUNCT	``	_	7	punct	_	start_char=220|end_char=221|SpaceAfter=No
+2	But	but	CCONJ	CC	_	7	cc	_	start_char=221|end_char=224
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=225|end_char=228
+4	night	night	NOUN	NN	Number=Sing	7	nsubj	_	start_char=229|end_char=234
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=235|end_char=237
+6	half	half	NOUN	NN	NumForm=Word|NumType=Frac|Number=Sing	7	obl:unmarked	_	start_char=238|end_char=242
+7	over	over	ADV	RB	_	11	ccomp	_	start_char=243|end_char=247|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	start_char=247|end_char=248|SpaceAfter=No
+9	"	"	PUNCT	''	_	7	punct	_	start_char=248|end_char=249
+10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	start_char=250|end_char=252
+11	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=253|end_char=257|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	punct	_	start_char=257|end_char=258
+
+# text = "Can I pay half price for the room?"
+# sent_id = 8
+1	"	"	PUNCT	``	_	4	punct	_	start_char=259|end_char=260|SpaceAfter=No
+2	Can	can	AUX	MD	VerbForm=Fin	4	aux	_	start_char=260|end_char=263
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=264|end_char=265
+4	pay	pay	VERB	VB	VerbForm=Inf	0	root	_	start_char=266|end_char=269
+5	half	half	NOUN	NN	NumForm=Word|NumType=Frac|Number=Sing	6	nummod	_	start_char=270|end_char=274
+6	price	price	NOUN	NN	Number=Sing	4	obj	_	start_char=275|end_char=280
+7	for	for	ADP	IN	_	9	case	_	start_char=281|end_char=284
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=285|end_char=288
+9	room	room	NOUN	NN	Number=Sing	4	obl	_	start_char=289|end_char=293|SpaceAfter=No
+10	?	?	PUNCT	.	_	4	punct	_	start_char=293|end_char=294|SpaceAfter=No
+11	"	"	PUNCT	''	_	4	punct	_	start_char=294|end_char=295
+
+# text = She said yes.
+# sent_id = 9
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=296|end_char=299
+2	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=300|end_char=304
+3	yes	yes	INTJ	UH	Polarity=Pos	2	discourse	_	start_char=305|end_char=308|SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	start_char=308|end_char=309
+
+# text = "But there is one condition," she said.
+# sent_id = 10
+1	"	"	PUNCT	``	_	4	punct	_	start_char=310|end_char=311|SpaceAfter=No
+2	But	but	CCONJ	CC	_	4	cc	_	start_char=311|end_char=314
+3	there	there	PRON	EX	_	4	expl	_	start_char=315|end_char=320
+4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	start_char=321|end_char=323
+5	one	one	NUM	CD	NumForm=Word|NumType=Card	6	nummod	_	start_char=324|end_char=327
+6	condition	condition	NOUN	NN	Number=Sing	4	nsubj	_	start_char=328|end_char=337|SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	start_char=337|end_char=338|SpaceAfter=No
+8	"	"	PUNCT	''	_	4	punct	_	start_char=338|end_char=339
+9	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	start_char=340|end_char=343
+10	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=344|end_char=348|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	punct	_	start_char=348|end_char=349
+
+# text = "If we only get half, you only get half.
+# sent_id = 11
+1	"	"	PUNCT	``	_	10	punct	_	start_char=350|end_char=351|SpaceAfter=No
+2	If	if	SCONJ	IN	_	5	mark	_	start_char=351|end_char=353
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	start_char=354|end_char=356
+4	only	only	ADV	RB	_	5	advmod	_	start_char=357|end_char=361
+5	get	get	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	advcl	_	start_char=362|end_char=365
+6	half	half	NOUN	NN	NumForm=Word|NumType=Frac|Number=Sing	5	obj	_	start_char=366|end_char=370|SpaceAfter=No
+7	,	,	PUNCT	,	_	5	punct	_	start_char=370|end_char=371
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	start_char=372|end_char=375
+9	only	only	ADV	RB	_	10	advmod	_	start_char=376|end_char=380
+10	get	get	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=381|end_char=384
+11	half	half	NOUN	NN	NumForm=Word|NumType=Frac|Number=Sing	10	obj	_	start_char=385|end_char=389|SpaceAfter=No
+12	.	.	PUNCT	.	_	10	punct	_	start_char=389|end_char=390
+
+# text = You must sleep on only one-half of the bed.
+# sent_id = 12
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=391|end_char=394
+2	must	must	AUX	MD	VerbForm=Fin	3	aux	_	start_char=395|end_char=399
+3	sleep	sleep	VERB	VB	VerbForm=Inf	0	root	_	start_char=400|end_char=405
+4	on	on	ADP	IN	_	8	case	_	start_char=406|end_char=408
+5	only	only	ADV	RB	_	8	advmod	_	start_char=409|end_char=413
+6	one	one	NUM	CD	NumForm=Word|NumType=Card	8	nummod	_	start_char=414|end_char=417|SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	6	punct	_	start_char=417|end_char=418|SpaceAfter=No
+8	half	half	NOUN	NN	NumForm=Word|NumType=Frac|Number=Sing	3	obl	_	start_char=418|end_char=422
+9	of	of	ADP	IN	_	11	case	_	start_char=423|end_char=425
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=426|end_char=429
+11	bed	bed	NOUN	NN	Number=Sing	8	nmod	_	start_char=430|end_char=433|SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	start_char=433|end_char=434
+
+# text = You can use only one of the two pillows.
+# sent_id = 13
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=435|end_char=438
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	start_char=439|end_char=442
+3	use	use	VERB	VB	VerbForm=Inf	0	root	_	start_char=443|end_char=446
+4	only	only	ADV	RB	_	5	advmod	_	start_char=447|end_char=451
+5	one	one	NUM	CD	NumForm=Word|NumType=Card	3	obj	_	start_char=452|end_char=455
+6	of	of	ADP	IN	_	9	case	_	start_char=456|end_char=458
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=459|end_char=462
+8	two	two	NUM	CD	NumForm=Word|NumType=Card	9	nummod	_	start_char=463|end_char=466
+9	pillows	pillow	NOUN	NNS	Number=Plur	5	nmod	_	start_char=467|end_char=474|SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	start_char=474|end_char=475
+
+# text = The bathroom has hot and cold water faucets.
+# sent_id = 14
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=476|end_char=479
+2	bathroom	bathroom	NOUN	NN	Number=Sing	3	nsubj	_	start_char=480|end_char=488
+3	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=489|end_char=492
+4	hot	hot	ADJ	JJ	Degree=Pos	8	amod	_	start_char=493|end_char=496
+5	and	and	CCONJ	CC	_	6	cc	_	start_char=497|end_char=500
+6	cold	cold	ADJ	JJ	Degree=Pos	4	conj	_	start_char=501|end_char=505
+7	water	water	NOUN	NN	Number=Sing	8	compound	_	start_char=506|end_char=511
+8	faucets	faucet	NOUN	NNS	Number=Plur	3	obj	_	start_char=512|end_char=519|SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	start_char=519|end_char=520
+
+# text = You can use only one faucet.
+# sent_id = 15
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=521|end_char=524
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	start_char=525|end_char=528
+3	use	use	VERB	VB	VerbForm=Inf	0	root	_	start_char=529|end_char=532
+4	only	only	ADV	RB	_	5	advmod	_	start_char=533|end_char=537
+5	one	one	NUM	CD	NumForm=Word|NumType=Card	6	nummod	_	start_char=538|end_char=541
+6	faucet	faucet	NOUN	NN	Number=Sing	3	obj	_	start_char=542|end_char=548|SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	start_char=548|end_char=549
+
+# text = The cable TV has 100 channels.
+# sent_id = 16
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=550|end_char=553
+2	cable	cable	NOUN	NN	Number=Sing	3	compound	_	start_char=554|end_char=559
+3	TV	TV	NOUN	NN	Number=Sing	4	nsubj	_	start_char=560|end_char=562
+4	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=563|end_char=566
+5	100	100	NUM	CD	NumForm=Digit|NumType=Card	6	nummod	_	start_char=567|end_char=570
+6	channels	channel	NOUN	NNS	Number=Plur	4	obj	_	start_char=571|end_char=579|SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	start_char=579|end_char=580
+
+# text = You can watch only 50 channels."
+# sent_id = 17
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=581|end_char=584
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	start_char=585|end_char=588
+3	watch	watch	VERB	VB	VerbForm=Inf	0	root	_	start_char=589|end_char=594
+4	only	only	ADV	RB	_	5	advmod	_	start_char=595|end_char=599
+5	50	50	NUM	CD	NumForm=Digit|NumType=Card	6	nummod	_	start_char=600|end_char=602
+6	channels	channel	NOUN	NNS	Number=Plur	3	obj	_	start_char=603|end_char=611|SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	start_char=611|end_char=612|SpaceAfter=No
+8	"	"	PUNCT	''	_	3	punct	_	start_char=612|end_char=613|SpaceAfter=No
+

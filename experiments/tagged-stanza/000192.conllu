@@ -1,0 +1,223 @@
+# text = She had watched the news last night.
+# sent_id = 0
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=0|end_char=3
+2	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	start_char=4|end_char=7
+3	watched	watch	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=8|end_char=15
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=16|end_char=19
+5	news	news	NOUN	NN	Number=Sing	3	obj	_	start_char=20|end_char=24
+6	last	last	ADJ	JJ	Degree=Pos	7	amod	_	start_char=25|end_char=29
+7	night	night	NOUN	NN	Number=Sing	3	obl:unmarked	_	start_char=30|end_char=35|SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	start_char=35|end_char=36
+
+# text = The weatherman had said it was going to rain today.
+# sent_id = 1
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=37|end_char=40
+2	weatherman	weatherman	NOUN	NN	Number=Sing	4	nsubj	_	start_char=41|end_char=51
+3	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	start_char=52|end_char=55
+4	said	say	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=56|end_char=60
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=61|end_char=63
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	start_char=64|end_char=67
+7	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	4	ccomp	_	start_char=68|end_char=73
+8	to	to	PART	TO	_	9	mark	_	start_char=74|end_char=76
+9	rain	rain	VERB	VB	VerbForm=Inf	7	xcomp	_	start_char=77|end_char=81
+10	today	today	NOUN	NN	Number=Sing	9	obl:unmarked	_	start_char=82|end_char=87|SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	start_char=87|end_char=88
+
+# text = It was going to rain all day today.
+# sent_id = 2
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=89|end_char=91
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	start_char=92|end_char=95
+3	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=96|end_char=101
+4	to	to	PART	TO	_	5	mark	_	start_char=102|end_char=104
+5	rain	rain	VERB	VB	VerbForm=Inf	3	xcomp	_	start_char=105|end_char=109
+6	all	all	DET	DT	PronType=Tot	7	det	_	start_char=110|end_char=113
+7	day	day	NOUN	NN	Number=Sing	5	obl:unmarked	_	start_char=114|end_char=117
+8	today	today	NOUN	NN	Number=Sing	5	obl:unmarked	_	start_char=118|end_char=123|SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	start_char=123|end_char=124
+
+# text = She got dressed.
+# sent_id = 3
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	start_char=125|end_char=128
+2	got	get	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	start_char=129|end_char=132
+3	dressed	dress	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=133|end_char=140|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	start_char=140|end_char=141
+
+# text = She put on her rain boots.
+# sent_id = 4
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=142|end_char=145
+2	put	put	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=146|end_char=149
+3	on	on	ADP	IN	_	2	compound:prt	_	start_char=150|end_char=152
+4	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	start_char=153|end_char=156
+5	rain	rain	NOUN	NN	Number=Sing	6	compound	_	start_char=157|end_char=161
+6	boots	boot	NOUN	NNS	Number=Plur	2	obj	_	start_char=162|end_char=167|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	start_char=167|end_char=168
+
+# text = She put on her raincoat.
+# sent_id = 5
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=169|end_char=172
+2	put	put	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=173|end_char=176
+3	on	on	ADP	IN	_	2	compound:prt	_	start_char=177|end_char=179
+4	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=180|end_char=183
+5	raincoat	raincoat	NOUN	NN	Number=Sing	2	obl	_	start_char=184|end_char=192|SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	start_char=192|end_char=193
+
+# text = She grabbed her umbrella.
+# sent_id = 6
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=194|end_char=197
+2	grabbed	grab	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=198|end_char=205
+3	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	start_char=206|end_char=209
+4	umbrella	umbrella	NOUN	NN	Number=Sing	2	obj	_	start_char=210|end_char=218|SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	start_char=218|end_char=219
+
+# text = She was ready for the rain.
+# sent_id = 7
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=220|end_char=223
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	start_char=224|end_char=227
+3	ready	ready	ADJ	JJ	Degree=Pos	0	root	_	start_char=228|end_char=233
+4	for	for	ADP	IN	_	6	case	_	start_char=234|end_char=237
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=238|end_char=241
+6	rain	rain	NOUN	NN	Number=Sing	3	obl	_	start_char=242|end_char=246|SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	start_char=246|end_char=247
+
+# text = She was wearing her rain boots.
+# sent_id = 8
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=248|end_char=251
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	start_char=252|end_char=255
+3	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=256|end_char=263
+4	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	start_char=264|end_char=267
+5	rain	rain	NOUN	NN	Number=Sing	6	compound	_	start_char=268|end_char=272
+6	boots	boot	NOUN	NNS	Number=Plur	3	obj	_	start_char=273|end_char=278|SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	start_char=278|end_char=279
+
+# text = She was wearing her raincoat.
+# sent_id = 9
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=280|end_char=283
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	start_char=284|end_char=287
+3	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=288|end_char=295
+4	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=296|end_char=299
+5	raincoat	raincoat	NOUN	NN	Number=Sing	3	obj	_	start_char=300|end_char=308|SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	start_char=308|end_char=309
+
+# text = She had an umbrella in her hand.
+# sent_id = 10
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=310|end_char=313
+2	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=314|end_char=317
+3	an	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	start_char=318|end_char=320
+4	umbrella	umbrella	NOUN	NN	Number=Sing	2	obj	_	start_char=321|end_char=329
+5	in	in	ADP	IN	_	7	case	_	start_char=330|end_char=332
+6	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	start_char=333|end_char=336
+7	hand	hand	NOUN	NN	Number=Sing	2	obl	_	start_char=337|end_char=341|SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	start_char=341|end_char=342
+
+# text = She walked outside.
+# sent_id = 11
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=343|end_char=346
+2	walked	walk	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=347|end_char=353
+3	outside	outside	ADV	RB	_	2	advmod	_	start_char=354|end_char=361|SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	start_char=361|end_char=362
+
+# text = Something was wrong.
+# sent_id = 12
+1	Something	something	PRON	NN	Number=Sing|PronType=Ind	3	nsubj	_	start_char=363|end_char=372
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	start_char=373|end_char=376
+3	wrong	wrong	ADJ	JJ	Degree=Pos	0	root	_	start_char=377|end_char=382|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	start_char=382|end_char=383
+
+# text = What was wrong?
+# sent_id = 13
+1	What	what	PRON	WP	PronType=Int	3	nsubj	_	start_char=384|end_char=388
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	start_char=389|end_char=392
+3	wrong	wrong	ADJ	JJ	Degree=Pos	0	root	_	start_char=393|end_char=398|SpaceAfter=No
+4	?	?	PUNCT	.	_	3	punct	_	start_char=398|end_char=399
+
+# text = It wasn't raining.
+# sent_id = 14
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=400|end_char=402
+2-3	wasn't	_	_	_	_	_	_	_	start_char=403|end_char=409
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	start_char=403|end_char=406
+3	n't	not	PART	RB	Polarity=Neg	4	advmod	_	start_char=406|end_char=409
+4	raining	rain	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=410|end_char=417|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	start_char=417|end_char=418
+
+# text = Where was the rain?
+# sent_id = 15
+1	Where	where	ADV	WRB	PronType=Int	0	root	_	start_char=419|end_char=424
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	cop	_	start_char=425|end_char=428
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=429|end_char=432
+4	rain	rain	NOUN	NN	Number=Sing	1	nsubj	_	start_char=433|end_char=437|SpaceAfter=No
+5	?	?	PUNCT	.	_	1	punct	_	start_char=437|end_char=438
+
+# text = She looked up.
+# sent_id = 16
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=439|end_char=442
+2	looked	look	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=443|end_char=449
+3	up	up	ADP	RP	_	2	compound:prt	_	start_char=450|end_char=452|SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	start_char=452|end_char=453
+
+# text = She looked at the blue sky.
+# sent_id = 17
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=454|end_char=457
+2	looked	look	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=458|end_char=464
+3	at	at	ADP	IN	_	6	case	_	start_char=465|end_char=467
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=468|end_char=471
+5	blue	blue	ADJ	JJ	Degree=Pos	6	amod	_	start_char=472|end_char=476
+6	sky	sky	NOUN	NN	Number=Sing	2	obl	_	start_char=477|end_char=480|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	start_char=480|end_char=481
+
+# text = She went back inside.
+# sent_id = 18
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=482|end_char=485
+2	went	go	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=486|end_char=490
+3	back	back	ADV	RB	_	2	advmod	_	start_char=491|end_char=495
+4	inside	inside	ADV	RB	_	2	advmod	_	start_char=496|end_char=502|SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	start_char=502|end_char=503
+
+# text = She took off her raincoat.
+# sent_id = 19
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=504|end_char=507
+2	took	take	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=508|end_char=512
+3	off	off	ADP	RP	_	2	compound:prt	_	start_char=513|end_char=516
+4	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=517|end_char=520
+5	raincoat	raincoat	NOUN	NN	Number=Sing	2	obj	_	start_char=521|end_char=529|SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	start_char=529|end_char=530
+
+# text = She took off her rain boots.
+# sent_id = 20
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=531|end_char=534
+2	took	take	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=535|end_char=539
+3	off	off	ADP	RP	_	2	compound:prt	_	start_char=540|end_char=543
+4	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	start_char=544|end_char=547
+5	rain	rain	NOUN	NN	Number=Sing	6	compound	_	start_char=548|end_char=552
+6	boots	boot	NOUN	NNS	Number=Plur	2	obj	_	start_char=553|end_char=558|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	start_char=558|end_char=559
+
+# text = She went back outside.
+# sent_id = 21
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=560|end_char=563
+2	went	go	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=564|end_char=568
+3	back	back	ADV	RB	_	2	advmod	_	start_char=569|end_char=573
+4	outside	outside	ADV	RB	_	2	advmod	_	start_char=574|end_char=581|SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	start_char=581|end_char=582
+
+# text = She still had her umbrella.
+# sent_id = 22
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=583|end_char=586
+2	still	still	ADV	RB	_	3	advmod	_	start_char=587|end_char=592
+3	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=593|end_char=596
+4	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=597|end_char=600
+5	umbrella	umbrella	NOUN	NN	Number=Sing	3	obj	_	start_char=601|end_char=609|SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	start_char=609|end_char=610
+
+# text = You never know about the weather, she thought.
+# sent_id = 23
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=611|end_char=614
+2	never	never	ADV	RB	PronType=Neg	3	advmod	_	start_char=615|end_char=620
+3	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	ccomp	_	start_char=621|end_char=625
+4	about	about	ADP	IN	_	6	case	_	start_char=626|end_char=631
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=632|end_char=635
+6	weather	weather	NOUN	NN	Number=Sing	3	obl	_	start_char=636|end_char=643|SpaceAfter=No
+7	,	,	PUNCT	,	_	3	punct	_	start_char=643|end_char=644
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	start_char=645|end_char=648
+9	thought	think	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=649|end_char=656|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	punct	_	start_char=656|end_char=657|SpaceAfter=No
+

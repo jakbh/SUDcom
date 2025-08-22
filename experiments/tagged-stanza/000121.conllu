@@ -1,0 +1,194 @@
+# text = Carol and Mary are friends.
+# sent_id = 0
+1	Carol	Carol	PROPN	NNP	Number=Sing	5	nsubj	_	start_char=0|end_char=5
+2	and	and	CCONJ	CC	_	3	cc	_	start_char=6|end_char=9
+3	Mary	Mary	PROPN	NNP	Number=Sing	1	conj	_	start_char=10|end_char=14
+4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=15|end_char=18
+5	friends	friend	NOUN	NNS	Number=Plur	0	root	_	start_char=19|end_char=26|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	start_char=26|end_char=27
+
+# text = Carol said she would call Mary at 7 o'clock.
+# sent_id = 1
+1	Carol	Carol	PROPN	NNP	Number=Sing	2	nsubj	_	start_char=28|end_char=33
+2	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=34|end_char=38
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=39|end_char=42
+4	would	would	AUX	MD	VerbForm=Fin	5	aux	_	start_char=43|end_char=48
+5	call	call	VERB	VB	VerbForm=Inf	2	ccomp	_	start_char=49|end_char=53
+6	Mary	Mary	PROPN	NNP	Number=Sing	5	obj	_	start_char=54|end_char=58
+7	at	at	ADP	IN	_	8	case	_	start_char=59|end_char=61
+8	7	7	NUM	CD	NumForm=Digit|NumType=Card	5	obl	_	start_char=62|end_char=63
+9	o'clock	o'clock	NOUN	NN	Number=Sing	5	obl:unmarked	_	start_char=64|end_char=71|SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	start_char=71|end_char=72
+
+# text = Carol didn't call at 7:00.
+# sent_id = 2
+1	Carol	Carol	PROPN	NNP	Number=Sing	4	nsubj	_	start_char=73|end_char=78
+2-3	didn't	_	_	_	_	_	_	_	start_char=79|end_char=85
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	start_char=79|end_char=82
+3	n't	not	PART	RB	Polarity=Neg	4	advmod	_	start_char=82|end_char=85
+4	call	call	VERB	VB	VerbForm=Inf	0	root	_	start_char=86|end_char=90
+5	at	at	ADP	IN	_	6	case	_	start_char=91|end_char=93
+6	7:00	7:00	NUM	CD	NumForm=Digit|NumType=Card	4	obl	_	start_char=94|end_char=98|SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	start_char=98|end_char=99
+
+# text = She didn't call at 7:15.
+# sent_id = 3
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=100|end_char=103
+2-3	didn't	_	_	_	_	_	_	_	start_char=104|end_char=110
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	start_char=104|end_char=107
+3	n't	not	PART	RB	Polarity=Neg	4	advmod	_	start_char=107|end_char=110
+4	call	call	VERB	VB	VerbForm=Inf	0	root	_	start_char=111|end_char=115
+5	at	at	ADP	IN	_	6	case	_	start_char=116|end_char=118
+6	7:15	7:15	NUM	CD	NumForm=Digit|NumType=Card	4	obl	_	start_char=119|end_char=123|SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	start_char=123|end_char=124
+
+# text = She finally called at 7:30.
+# sent_id = 4
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=125|end_char=128
+2	finally	finally	ADV	RB	_	3	advmod	_	start_char=129|end_char=136
+3	called	call	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=137|end_char=143
+4	at	at	ADP	IN	_	5	case	_	start_char=144|end_char=146
+5	7:30	7:30	NUM	CD	NumForm=Digit|NumType=Card	3	obl	_	start_char=147|end_char=151|SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	start_char=151|end_char=152
+
+# text = She apologized for calling so late.
+# sent_id = 5
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=153|end_char=156
+2	apologized	apologize	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=157|end_char=167
+3	for	for	SCONJ	IN	_	4	mark	_	start_char=168|end_char=171
+4	calling	call	VERB	VBG	Tense=Pres|VerbForm=Part	2	advcl	_	start_char=172|end_char=179
+5	so	so	ADV	RB	_	6	advmod	_	start_char=180|end_char=182
+6	late	late	ADV	RB	Degree=Pos	4	advmod	_	start_char=183|end_char=187|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	start_char=187|end_char=188
+
+# text = Mary said it was ok.
+# sent_id = 6
+1	Mary	Mary	PROPN	NNP	Number=Sing	2	nsubj	_	start_char=189|end_char=193
+2	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=194|end_char=198
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=199|end_char=201
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	start_char=202|end_char=205
+5	ok	ok	ADJ	JJ	Degree=Pos	2	ccomp	_	start_char=206|end_char=208|SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	start_char=208|end_char=209
+
+# text = But it wasn't ok.
+# sent_id = 7
+1	But	but	CCONJ	CC	_	5	cc	_	start_char=210|end_char=213
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=214|end_char=216
+3-4	wasn't	_	_	_	_	_	_	_	start_char=217|end_char=223
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	start_char=217|end_char=220
+4	n't	not	PART	RB	Polarity=Neg	5	advmod	_	start_char=220|end_char=223
+5	ok	ok	ADJ	JJ	Degree=Pos	0	root	_	start_char=224|end_char=226|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	start_char=226|end_char=227
+
+# text = Mary didn't like people to lie.
+# sent_id = 8
+1	Mary	Mary	PROPN	NNP	Number=Sing	4	nsubj	_	start_char=228|end_char=232
+2-3	didn't	_	_	_	_	_	_	_	start_char=233|end_char=239
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	start_char=233|end_char=236
+3	n't	not	PART	RB	Polarity=Neg	4	advmod	_	start_char=236|end_char=239
+4	like	like	VERB	VB	VerbForm=Inf	0	root	_	start_char=240|end_char=244
+5	people	person	NOUN	NNS	Number=Plur	4	obj	_	start_char=245|end_char=251
+6	to	to	PART	TO	_	7	mark	_	start_char=252|end_char=254
+7	lie	lie	VERB	VB	VerbForm=Inf	4	xcomp	_	start_char=255|end_char=258|SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	start_char=258|end_char=259
+
+# text = This wasn't the first time Carol had lied.
+# sent_id = 9
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	6	nsubj	_	start_char=260|end_char=264
+2-3	wasn't	_	_	_	_	_	_	_	start_char=265|end_char=271
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	start_char=265|end_char=268
+3	n't	not	PART	RB	Polarity=Neg	6	advmod	_	start_char=268|end_char=271
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=272|end_char=275
+5	first	first	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	6	amod	_	start_char=276|end_char=281
+6	time	time	NOUN	NN	Number=Sing	0	root	_	start_char=282|end_char=286
+7	Carol	Carol	PROPN	NNP	Number=Sing	9	nsubj	_	start_char=287|end_char=292
+8	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	start_char=293|end_char=296
+9	lied	lie	VERB	VBN	Tense=Past|VerbForm=Part	6	acl:relcl	_	start_char=297|end_char=301|SpaceAfter=No
+10	.	.	PUNCT	.	_	6	punct	_	start_char=301|end_char=302
+
+# text = This was the fourth time Carol had lied.
+# sent_id = 10
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	start_char=303|end_char=307
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	start_char=308|end_char=311
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=312|end_char=315
+4	fourth	fourth	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	5	amod	_	start_char=316|end_char=322
+5	time	time	NOUN	NN	Number=Sing	0	root	_	start_char=323|end_char=327
+6	Carol	Carol	PROPN	NNP	Number=Sing	8	nsubj	_	start_char=328|end_char=333
+7	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	start_char=334|end_char=337
+8	lied	lie	VERB	VBN	Tense=Past|VerbForm=Part	5	acl:relcl	_	start_char=338|end_char=342|SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	start_char=342|end_char=343
+
+# text = Mary did not trust Carol.
+# sent_id = 11
+1	Mary	Mary	PROPN	NNP	Number=Sing	4	nsubj	_	start_char=344|end_char=348
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	start_char=349|end_char=352
+3	not	not	PART	RB	Polarity=Neg	4	advmod	_	start_char=353|end_char=356
+4	trust	trust	VERB	VB	VerbForm=Inf	0	root	_	start_char=357|end_char=362
+5	Carol	Carol	PROPN	NNP	Number=Sing	4	obj	_	start_char=363|end_char=368|SpaceAfter=No
+6	.	.	PUNCT	.	_	4	punct	_	start_char=368|end_char=369
+
+# text = Carol would never be her best friend.
+# sent_id = 12
+1	Carol	Carol	PROPN	NNP	Number=Sing	7	nsubj	_	start_char=370|end_char=375
+2	would	would	AUX	MD	VerbForm=Fin	7	aux	_	start_char=376|end_char=381
+3	never	never	ADV	RB	PronType=Neg	7	advmod	_	start_char=382|end_char=387
+4	be	be	AUX	VB	VerbForm=Inf	7	cop	_	start_char=388|end_char=390
+5	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	start_char=391|end_char=394
+6	best	good	ADJ	JJS	Degree=Sup	7	amod	_	start_char=395|end_char=399
+7	friend	friend	NOUN	NN	Number=Sing	0	root	_	start_char=400|end_char=406|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	punct	_	start_char=406|end_char=407
+
+# text = A best friend tells the truth.
+# sent_id = 13
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	start_char=408|end_char=409
+2	best	good	ADJ	JJS	Degree=Sup	3	amod	_	start_char=410|end_char=414
+3	friend	friend	NOUN	NN	Number=Sing	4	nsubj	_	start_char=415|end_char=421
+4	tells	tell	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=422|end_char=427
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=428|end_char=431
+6	truth	truth	NOUN	NN	Number=Sing	4	obj	_	start_char=432|end_char=437|SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	start_char=437|end_char=438
+
+# text = A best friend doesn't lie.
+# sent_id = 14
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	start_char=439|end_char=440
+2	best	good	ADJ	JJS	Degree=Sup	3	amod	_	start_char=441|end_char=445
+3	friend	friend	NOUN	NN	Number=Sing	6	nsubj	_	start_char=446|end_char=452
+4-5	doesn't	_	_	_	_	_	_	_	start_char=453|end_char=460
+4	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=453|end_char=457
+5	n't	not	PART	RB	Polarity=Neg	6	advmod	_	start_char=457|end_char=460
+6	lie	lie	VERB	VB	VerbForm=Inf	0	root	_	start_char=461|end_char=464|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	start_char=464|end_char=465
+
+# text = A best friend does not call late.
+# sent_id = 15
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	start_char=466|end_char=467
+2	best	good	ADJ	JJS	Degree=Sup	3	amod	_	start_char=468|end_char=472
+3	friend	friend	NOUN	NN	Number=Sing	6	nsubj	_	start_char=473|end_char=479
+4	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=480|end_char=484
+5	not	not	PART	RB	Polarity=Neg	6	advmod	_	start_char=485|end_char=488
+6	call	call	VERB	VB	VerbForm=Inf	0	root	_	start_char=489|end_char=493
+7	late	late	ADV	RB	Degree=Pos	6	advmod	_	start_char=494|end_char=498|SpaceAfter=No
+8	.	.	PUNCT	.	_	6	punct	_	start_char=498|end_char=499
+
+# text = A best friend does not arrive late.
+# sent_id = 16
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	start_char=500|end_char=501
+2	best	good	ADJ	JJS	Degree=Sup	3	amod	_	start_char=502|end_char=506
+3	friend	friend	NOUN	NN	Number=Sing	6	nsubj	_	start_char=507|end_char=513
+4	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=514|end_char=518
+5	not	not	PART	RB	Polarity=Neg	6	advmod	_	start_char=519|end_char=522
+6	arrive	arrive	VERB	VB	VerbForm=Inf	0	root	_	start_char=523|end_char=529
+7	late	late	ADV	RB	Degree=Pos	6	advmod	_	start_char=530|end_char=534|SpaceAfter=No
+8	.	.	PUNCT	.	_	6	punct	_	start_char=534|end_char=535
+
+# text = A best friend is always on time.
+# sent_id = 17
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	start_char=536|end_char=537
+2	best	good	ADJ	JJS	Degree=Sup	3	amod	_	start_char=538|end_char=542
+3	friend	friend	NOUN	NN	Number=Sing	7	nsubj	_	start_char=543|end_char=549
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=550|end_char=552
+5	always	always	ADV	RB	PronType=Tot	7	advmod	_	start_char=553|end_char=559
+6	on	on	ADP	IN	_	7	case	_	start_char=560|end_char=562
+7	time	time	NOUN	NN	Number=Sing	0	root	_	start_char=563|end_char=567|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	punct	_	start_char=567|end_char=568|SpaceAfter=No
+

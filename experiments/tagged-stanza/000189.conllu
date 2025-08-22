@@ -1,0 +1,164 @@
+# text = Daniel wanted to visit a farm.
+# sent_id = 0
+1	Daniel	Daniel	PROPN	NNP	Number=Sing	2	nsubj	_	start_char=0|end_char=6
+2	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=7|end_char=13
+3	to	to	PART	TO	_	4	mark	_	start_char=14|end_char=16
+4	visit	visit	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=17|end_char=22
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=23|end_char=24
+6	farm	farm	NOUN	NN	Number=Sing	4	obj	_	start_char=25|end_char=29|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	start_char=29|end_char=30
+
+# text = He asked his parents to take him to a farm.
+# sent_id = 1
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=31|end_char=33
+2	asked	ask	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=34|end_char=39
+3	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	start_char=40|end_char=43
+4	parents	parent	NOUN	NNS	Number=Plur	2	iobj	_	start_char=44|end_char=51
+5	to	to	PART	TO	_	6	mark	_	start_char=52|end_char=54
+6	take	take	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=55|end_char=59
+7	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	start_char=60|end_char=63
+8	to	to	ADP	IN	_	10	case	_	start_char=64|end_char=66
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	start_char=67|end_char=68
+10	farm	farm	NOUN	NN	Number=Sing	6	obl	_	start_char=69|end_char=73|SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	start_char=73|end_char=74
+
+# text = His teacher told him about the animals on a farm.
+# sent_id = 2
+1	His	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=75|end_char=78
+2	teacher	teacher	NOUN	NN	Number=Sing	3	nsubj	_	start_char=79|end_char=86
+3	told	tell	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=87|end_char=91
+4	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	iobj	_	start_char=92|end_char=95
+5	about	about	ADP	IN	_	7	case	_	start_char=96|end_char=101
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=102|end_char=105
+7	animals	animal	NOUN	NNS	Number=Plur	3	obl	_	start_char=106|end_char=113
+8	on	on	ADP	IN	_	10	case	_	start_char=114|end_char=116
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	start_char=117|end_char=118
+10	farm	farm	NOUN	NN	Number=Sing	7	nmod	_	start_char=119|end_char=123|SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	start_char=123|end_char=124
+
+# text = There are lots of animals on a farm.
+# sent_id = 3
+1	There	there	PRON	EX	_	2	expl	_	start_char=125|end_char=130
+2	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=131|end_char=134
+3	lots	lot	NOUN	NNS	Number=Plur	2	nsubj	_	start_char=135|end_char=139
+4	of	of	ADP	IN	_	5	case	_	start_char=140|end_char=142
+5	animals	animal	NOUN	NNS	Number=Plur	3	nmod	_	start_char=143|end_char=150
+6	on	on	ADP	IN	_	8	case	_	start_char=151|end_char=153
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=154|end_char=155
+8	farm	farm	NOUN	NN	Number=Sing	2	obl	_	start_char=156|end_char=160|SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	start_char=160|end_char=161
+
+# text = Daniel wanted to see the animals.
+# sent_id = 4
+1	Daniel	Daniel	PROPN	NNP	Number=Sing	2	nsubj	_	start_char=162|end_char=168
+2	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=169|end_char=175
+3	to	to	PART	TO	_	4	mark	_	start_char=176|end_char=178
+4	see	see	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=179|end_char=182
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=183|end_char=186
+6	animals	animal	NOUN	NNS	Number=Plur	4	obj	_	start_char=187|end_char=194|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	start_char=194|end_char=195
+
+# text = He wanted to see the cows.
+# sent_id = 5
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=196|end_char=198
+2	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=199|end_char=205
+3	to	to	PART	TO	_	4	mark	_	start_char=206|end_char=208
+4	see	see	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=209|end_char=212
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=213|end_char=216
+6	cows	cow	NOUN	NNS	Number=Plur	4	obj	_	start_char=217|end_char=221|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	start_char=221|end_char=222
+
+# text = He wanted to see the chickens.
+# sent_id = 6
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=223|end_char=225
+2	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=226|end_char=232
+3	to	to	PART	TO	_	4	mark	_	start_char=233|end_char=235
+4	see	see	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=236|end_char=239
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=240|end_char=243
+6	chickens	chicken	NOUN	NNS	Number=Plur	4	obj	_	start_char=244|end_char=252|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	start_char=252|end_char=253
+
+# text = He wanted to see the pigs.
+# sent_id = 7
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=254|end_char=256
+2	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=257|end_char=263
+3	to	to	PART	TO	_	4	mark	_	start_char=264|end_char=266
+4	see	see	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=267|end_char=270
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=271|end_char=274
+6	pigs	pig	NOUN	NNS	Number=Plur	4	obj	_	start_char=275|end_char=279|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	start_char=279|end_char=280
+
+# text = He wanted to pet the animals.
+# sent_id = 8
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=281|end_char=283
+2	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=284|end_char=290
+3	to	to	PART	TO	_	4	mark	_	start_char=291|end_char=293
+4	pet	pet	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=294|end_char=297
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=298|end_char=301
+6	animals	animal	NOUN	NNS	Number=Plur	4	obj	_	start_char=302|end_char=309|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	start_char=309|end_char=310
+
+# text = He wanted to feed the animals.
+# sent_id = 9
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=311|end_char=313
+2	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=314|end_char=320
+3	to	to	PART	TO	_	4	mark	_	start_char=321|end_char=323
+4	feed	feed	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=324|end_char=328
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=329|end_char=332
+6	animals	animal	NOUN	NNS	Number=Plur	4	obj	_	start_char=333|end_char=340|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	start_char=340|end_char=341
+
+# text = He loved animals.
+# sent_id = 10
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=342|end_char=344
+2	loved	love	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=345|end_char=350
+3	animals	animal	NOUN	NNS	Number=Plur	2	obj	_	start_char=351|end_char=358|SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	start_char=358|end_char=359
+
+# text = He wanted to live on a farm.
+# sent_id = 11
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=360|end_char=362
+2	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=363|end_char=369
+3	to	to	PART	TO	_	4	mark	_	start_char=370|end_char=372
+4	live	live	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=373|end_char=377
+5	on	on	ADP	IN	_	7	case	_	start_char=378|end_char=380
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=381|end_char=382
+7	farm	farm	NOUN	NN	Number=Sing	4	obl	_	start_char=383|end_char=387|SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	start_char=387|end_char=388
+
+# text = He wanted to live with cows and chickens and pigs.
+# sent_id = 12
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=389|end_char=391
+2	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=392|end_char=398
+3	to	to	PART	TO	_	4	mark	_	start_char=399|end_char=401
+4	live	live	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=402|end_char=406
+5	with	with	ADP	IN	_	6	case	_	start_char=407|end_char=411
+6	cows	cow	NOUN	NNS	Number=Plur	4	obl	_	start_char=412|end_char=416
+7	and	and	CCONJ	CC	_	8	cc	_	start_char=417|end_char=420
+8	chickens	chicken	NOUN	NNS	Number=Plur	6	conj	_	start_char=421|end_char=429
+9	and	and	CCONJ	CC	_	10	cc	_	start_char=430|end_char=433
+10	pigs	pig	NOUN	NNS	Number=Plur	6	conj	_	start_char=434|end_char=438|SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	start_char=438|end_char=439
+
+# text = They would be his friends.
+# sent_id = 13
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	start_char=440|end_char=444
+2	would	would	AUX	MD	VerbForm=Fin	5	aux	_	start_char=445|end_char=450
+3	be	be	AUX	VB	VerbForm=Inf	5	cop	_	start_char=451|end_char=453
+4	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=454|end_char=457
+5	friends	friend	NOUN	NNS	Number=Plur	0	root	_	start_char=458|end_char=465|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	start_char=465|end_char=466
+
+# text = He didn't have any friends in school.
+# sent_id = 14
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=467|end_char=469
+2-3	didn't	_	_	_	_	_	_	_	start_char=470|end_char=476
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	start_char=470|end_char=473
+3	n't	not	PART	RB	Polarity=Neg	4	advmod	_	start_char=473|end_char=476
+4	have	have	VERB	VB	VerbForm=Inf	0	root	_	start_char=477|end_char=481
+5	any	any	DET	DT	PronType=Ind	6	det	_	start_char=482|end_char=485
+6	friends	friend	NOUN	NNS	Number=Plur	4	obj	_	start_char=486|end_char=493
+7	in	in	ADP	IN	_	8	case	_	start_char=494|end_char=496
+8	school	school	NOUN	NN	Number=Sing	4	obl	_	start_char=497|end_char=503|SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	start_char=503|end_char=504|SpaceAfter=No
+

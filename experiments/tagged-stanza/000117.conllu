@@ -1,0 +1,202 @@
+# text = Prisons today have too many prisoners.
+# sent_id = 0
+1	Prisons	prison	NOUN	NNS	Number=Plur	3	nsubj	_	start_char=0|end_char=7
+2	today	today	NOUN	NN	Number=Sing	3	obl:unmarked	_	start_char=8|end_char=13
+3	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=14|end_char=18
+4	too	too	ADV	RB	_	5	advmod	_	start_char=19|end_char=22
+5	many	many	ADJ	JJ	Degree=Pos	6	amod	_	start_char=23|end_char=27
+6	prisoners	prisoner	NOUN	NNS	Number=Plur	3	obj	_	start_char=28|end_char=37|SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	start_char=37|end_char=38
+
+# text = The prisoners sleep in bunk beds.
+# sent_id = 1
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=39|end_char=42
+2	prisoners	prisoner	NOUN	NNS	Number=Plur	3	nsubj	_	start_char=43|end_char=52
+3	sleep	sleep	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=53|end_char=58
+4	in	in	ADP	IN	_	6	case	_	start_char=59|end_char=61
+5	bunk	bunk	NOUN	NN	Number=Sing	6	compound	_	start_char=62|end_char=66
+6	beds	bed	NOUN	NNS	Number=Plur	3	obl	_	start_char=67|end_char=71|SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	start_char=71|end_char=72
+
+# text = They sleep in triple bunk beds.
+# sent_id = 2
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=73|end_char=77
+2	sleep	sleep	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=78|end_char=83
+3	in	in	ADP	IN	_	6	case	_	start_char=84|end_char=86
+4	triple	triple	ADJ	JJ	Degree=Pos	6	amod	_	start_char=87|end_char=93
+5	bunk	bunk	NOUN	NN	Number=Sing	6	compound	_	start_char=94|end_char=98
+6	beds	bed	NOUN	NNS	Number=Plur	2	obl	_	start_char=99|end_char=103|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	start_char=103|end_char=104
+
+# text = Triple bunk beds are for three prisoners.
+# sent_id = 3
+1	Triple	Triple	ADJ	JJ	Degree=Pos	3	amod	_	start_char=105|end_char=111
+2	bunk	bunk	NOUN	NN	Number=Sing	3	compound	_	start_char=112|end_char=116
+3	beds	bed	NOUN	NNS	Number=Plur	7	nsubj	_	start_char=117|end_char=121
+4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=122|end_char=125
+5	for	for	ADP	IN	_	7	case	_	start_char=126|end_char=129
+6	three	three	NUM	CD	NumForm=Word|NumType=Card	7	nummod	_	start_char=130|end_char=135
+7	prisoners	prisoner	NOUN	NNS	Number=Plur	0	root	_	start_char=136|end_char=145|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	punct	_	start_char=145|end_char=146
+
+# text = One prisoner sleeps in the bottom bunk bed.
+# sent_id = 4
+1	One	one	NUM	CD	NumForm=Word|NumType=Card	2	nummod	_	start_char=147|end_char=150
+2	prisoner	prisoner	NOUN	NN	Number=Sing	3	nsubj	_	start_char=151|end_char=159
+3	sleeps	sleep	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=160|end_char=166
+4	in	in	ADP	IN	_	8	case	_	start_char=167|end_char=169
+5	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=170|end_char=173
+6	bottom	bottom	ADJ	JJ	Degree=Pos	8	amod	_	start_char=174|end_char=180
+7	bunk	bunk	NOUN	NN	Number=Sing	8	compound	_	start_char=181|end_char=185
+8	bed	bed	NOUN	NN	Number=Sing	3	obl	_	start_char=186|end_char=189|SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	start_char=189|end_char=190
+
+# text = Another prisoner sleeps in the middle bunk bed.
+# sent_id = 5
+1	Another	another	DET	DT	PronType=Ind	2	det	_	start_char=191|end_char=198
+2	prisoner	prisoner	NOUN	NN	Number=Sing	3	nsubj	_	start_char=199|end_char=207
+3	sleeps	sleep	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=208|end_char=214
+4	in	in	ADP	IN	_	8	case	_	start_char=215|end_char=217
+5	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=218|end_char=221
+6	middle	middle	ADJ	JJ	Degree=Pos	8	amod	_	start_char=222|end_char=228
+7	bunk	bunk	NOUN	NN	Number=Sing	8	compound	_	start_char=229|end_char=233
+8	bed	bed	NOUN	NN	Number=Sing	3	obl	_	start_char=234|end_char=237|SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	start_char=237|end_char=238
+
+# text = Another prisoner sleeps in the top bunk bed.
+# sent_id = 6
+1	Another	another	DET	DT	PronType=Ind	2	det	_	start_char=239|end_char=246
+2	prisoner	prisoner	NOUN	NN	Number=Sing	3	nsubj	_	start_char=247|end_char=255
+3	sleeps	sleep	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=256|end_char=262
+4	in	in	ADP	IN	_	8	case	_	start_char=263|end_char=265
+5	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=266|end_char=269
+6	top	top	ADJ	JJ	Degree=Pos	8	amod	_	start_char=270|end_char=273
+7	bunk	bunk	NOUN	NN	Number=Sing	8	compound	_	start_char=274|end_char=278
+8	bed	bed	NOUN	NN	Number=Sing	3	obl	_	start_char=279|end_char=282|SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	start_char=282|end_char=283
+
+# text = They sleep on top of one another.
+# sent_id = 7
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=284|end_char=288
+2	sleep	sleep	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=289|end_char=294
+3	on	on	ADP	IN	_	4	case	_	start_char=295|end_char=297
+4	top	top	NOUN	NN	Number=Sing	2	obl	_	start_char=298|end_char=301
+5	of	of	ADP	IN	_	6	case	_	start_char=302|end_char=304
+6	one	one	PRON	CD	Number=Sing|PronType=Rcp	4	nmod	_	start_char=305|end_char=308
+7	another	another	DET	DT	PronType=Ind	6	fixed	_	start_char=309|end_char=316|SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	start_char=316|end_char=317
+
+# text = They sleep beneath one another.
+# sent_id = 8
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=318|end_char=322
+2	sleep	sleep	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=323|end_char=328
+3	beneath	beneath	ADP	IN	_	4	case	_	start_char=329|end_char=336
+4	one	one	PRON	CD	Number=Sing|PronType=Rcp	2	obl	_	start_char=337|end_char=340
+5	another	another	DET	DT	PronType=Ind	4	fixed	_	start_char=341|end_char=348|SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	start_char=348|end_char=349
+
+# text = Prisoners complain about the triple bunk beds.
+# sent_id = 9
+1	Prisoners	prisoner	NOUN	NNS	Number=Plur	2	nsubj	_	start_char=350|end_char=359
+2	complain	complain	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=360|end_char=368
+3	about	about	ADP	IN	_	7	case	_	start_char=369|end_char=374
+4	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=375|end_char=378
+5	triple	triple	ADJ	JJ	Degree=Pos	7	amod	_	start_char=379|end_char=385
+6	bunk	bunk	NOUN	NN	Number=Sing	7	compound	_	start_char=386|end_char=390
+7	beds	bed	NOUN	NNS	Number=Plur	2	obl	_	start_char=391|end_char=395|SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	start_char=395|end_char=396
+
+# text = They don't like the triple bunk beds.
+# sent_id = 10
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	start_char=397|end_char=401
+2-3	don't	_	_	_	_	_	_	_	start_char=402|end_char=407
+2	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=402|end_char=404
+3	n't	not	PART	RB	Polarity=Neg	4	advmod	_	start_char=404|end_char=407
+4	like	like	VERB	VB	VerbForm=Inf	0	root	_	start_char=408|end_char=412
+5	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=413|end_char=416
+6	triple	triple	ADJ	JJ	Degree=Pos	8	amod	_	start_char=417|end_char=423
+7	bunk	bunk	NOUN	NN	Number=Sing	8	compound	_	start_char=424|end_char=428
+8	beds	bed	NOUN	NNS	Number=Plur	4	obj	_	start_char=429|end_char=433|SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	start_char=433|end_char=434
+
+# text = Prisons didn't use to have bunk beds.
+# sent_id = 11
+1	Prisons	prison	NOUN	NNS	Number=Plur	4	nsubj	_	start_char=435|end_char=442
+2-3	didn't	_	_	_	_	_	_	_	start_char=443|end_char=449
+2	did	do	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	start_char=443|end_char=446
+3	n't	not	PART	RB	Polarity=Neg	4	advmod	_	start_char=446|end_char=449
+4	use	use	VERB	VB	VerbForm=Inf	0	root	_	start_char=450|end_char=453
+5	to	to	PART	TO	_	6	mark	_	start_char=454|end_char=456
+6	have	have	VERB	VB	VerbForm=Inf	4	xcomp	_	start_char=457|end_char=461
+7	bunk	bunk	NOUN	NN	Number=Sing	8	compound	_	start_char=462|end_char=466
+8	beds	bed	NOUN	NNS	Number=Plur	6	obj	_	start_char=467|end_char=471|SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	start_char=471|end_char=472
+
+# text = Prisons didn't use to have any beds.
+# sent_id = 12
+1	Prisons	prison	NOUN	NNS	Number=Plur	4	nsubj	_	start_char=473|end_char=480
+2-3	didn't	_	_	_	_	_	_	_	start_char=481|end_char=487
+2	did	do	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	start_char=481|end_char=484
+3	n't	not	PART	RB	Polarity=Neg	4	advmod	_	start_char=484|end_char=487
+4	use	use	VERB	VB	VerbForm=Inf	0	root	_	start_char=488|end_char=491
+5	to	to	PART	TO	_	6	mark	_	start_char=492|end_char=494
+6	have	have	VERB	VB	VerbForm=Inf	4	xcomp	_	start_char=495|end_char=499
+7	any	any	DET	DT	PronType=Ind	8	det	_	start_char=500|end_char=503
+8	beds	bed	NOUN	NNS	Number=Plur	6	obj	_	start_char=504|end_char=508|SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	start_char=508|end_char=509
+
+# text = Prisoners used to sleep on a cold floor.
+# sent_id = 13
+1	Prisoners	prisoner	NOUN	NNS	Number=Plur	2	nsubj	_	start_char=510|end_char=519
+2	used	use	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=520|end_char=524
+3	to	to	PART	TO	_	4	mark	_	start_char=525|end_char=527
+4	sleep	sleep	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=528|end_char=533
+5	on	on	ADP	IN	_	8	case	_	start_char=534|end_char=536
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=537|end_char=538
+7	cold	cold	ADJ	JJ	Degree=Pos	8	amod	_	start_char=539|end_char=543
+8	floor	floor	NOUN	NN	Number=Sing	4	obl	_	start_char=544|end_char=549|SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	start_char=549|end_char=550
+
+# text = Prisoners today get three meals a day.
+# sent_id = 14
+1	Prisoners	prisoner	NOUN	NNS	Number=Plur	3	nsubj	_	start_char=551|end_char=560
+2	today	today	NOUN	NN	Number=Sing	3	obl:unmarked	_	start_char=561|end_char=566
+3	get	get	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=567|end_char=570
+4	three	three	NUM	CD	NumForm=Word|NumType=Card	5	nummod	_	start_char=571|end_char=576
+5	meals	meal	NOUN	NNS	Number=Plur	3	obj	_	start_char=577|end_char=582
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=583|end_char=584
+7	day	day	NOUN	NN	Number=Sing	3	obl:unmarked	_	start_char=585|end_char=588|SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	start_char=588|end_char=589
+
+# text = They get three hot meals.
+# sent_id = 15
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=590|end_char=594
+2	get	get	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=595|end_char=598
+3	three	three	NUM	CD	NumForm=Word|NumType=Card	5	nummod	_	start_char=599|end_char=604
+4	hot	hot	ADJ	JJ	Degree=Pos	5	amod	_	start_char=605|end_char=608
+5	meals	meal	NOUN	NNS	Number=Plur	2	obj	_	start_char=609|end_char=614|SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	start_char=614|end_char=615
+
+# text = Prisoners used to get one meal a day.
+# sent_id = 16
+1	Prisoners	prisoner	NOUN	NNS	Number=Plur	2	nsubj	_	start_char=616|end_char=625
+2	used	use	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=626|end_char=630
+3	to	to	PART	TO	_	4	mark	_	start_char=631|end_char=633
+4	get	get	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=634|end_char=637
+5	one	one	NUM	CD	NumForm=Word|NumType=Card	6	nummod	_	start_char=638|end_char=641
+6	meal	meal	NOUN	NN	Number=Sing	4	obj	_	start_char=642|end_char=646
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=647|end_char=648
+8	day	day	NOUN	NN	Number=Sing	4	obl:unmarked	_	start_char=649|end_char=652|SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	start_char=652|end_char=653
+
+# text = They used to get one cold meal.
+# sent_id = 17
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=654|end_char=658
+2	used	use	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=659|end_char=663
+3	to	to	PART	TO	_	4	mark	_	start_char=664|end_char=666
+4	get	get	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=667|end_char=670
+5	one	one	NUM	CD	NumForm=Word|NumType=Card	7	nummod	_	start_char=671|end_char=674
+6	cold	cold	ADJ	JJ	Degree=Pos	7	amod	_	start_char=675|end_char=679
+7	meal	meal	NOUN	NN	Number=Sing	4	obj	_	start_char=680|end_char=684|SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	start_char=684|end_char=685|SpaceAfter=No
+

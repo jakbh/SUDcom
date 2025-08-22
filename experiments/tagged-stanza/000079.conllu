@@ -1,0 +1,195 @@
+# text = Helen is unhappy with her mother.
+# sent_id = 0
+1	Helen	Helen	PROPN	NNP	Number=Sing	3	nsubj	_	start_char=0|end_char=5
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=6|end_char=8
+3	unhappy	unhappy	ADJ	JJ	Degree=Pos	0	root	_	start_char=9|end_char=16
+4	with	with	ADP	IN	_	6	case	_	start_char=17|end_char=21
+5	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	start_char=22|end_char=25
+6	mother	mother	NOUN	NN	Number=Sing	3	obl	_	start_char=26|end_char=32|SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	start_char=32|end_char=33
+
+# text = Her mother is unhappy with Helen.
+# sent_id = 1
+1	Her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=34|end_char=37
+2	mother	mother	NOUN	NN	Number=Sing	4	nsubj	_	start_char=38|end_char=44
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=45|end_char=47
+4	unhappy	unhappy	ADJ	JJ	Degree=Pos	0	root	_	start_char=48|end_char=55
+5	with	with	ADP	IN	_	6	case	_	start_char=56|end_char=60
+6	Helen	Helen	PROPN	NNP	Number=Sing	4	obl	_	start_char=61|end_char=66|SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	start_char=66|end_char=67
+
+# text = They are both unhappy with each other.
+# sent_id = 2
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	start_char=68|end_char=72
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=73|end_char=76
+3	both	both	ADV	RB	_	4	advmod	_	start_char=77|end_char=81
+4	unhappy	unhappy	ADJ	JJ	Degree=Pos	0	root	_	start_char=82|end_char=89
+5	with	with	ADP	IN	_	6	case	_	start_char=90|end_char=94
+6	each	each	DET	DT	ExtPos=PRON|PronType=Rcp	4	obl	_	start_char=95|end_char=99
+7	other	other	ADJ	JJ	Degree=Pos	6	fixed	_	start_char=100|end_char=105|SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	start_char=105|end_char=106
+
+# text = Helen has a boyfriend.
+# sent_id = 3
+1	Helen	Helen	PROPN	NNP	Number=Sing	2	nsubj	_	start_char=107|end_char=112
+2	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=113|end_char=116
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	start_char=117|end_char=118
+4	boyfriend	boyfriend	NOUN	NN	Number=Sing	2	obj	_	start_char=119|end_char=128|SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	start_char=128|end_char=129
+
+# text = His name is Peter.
+# sent_id = 4
+1	His	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=130|end_char=133
+2	name	name	NOUN	NN	Number=Sing	4	nsubj	_	start_char=134|end_char=138
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=139|end_char=141
+4	Peter	Peter	PROPN	NNP	Number=Sing	0	root	_	start_char=142|end_char=147|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	start_char=147|end_char=148
+
+# text = Her mother doesn't like Peter.
+# sent_id = 5
+1	Her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=149|end_char=152
+2	mother	mother	NOUN	NN	Number=Sing	5	nsubj	_	start_char=153|end_char=159
+3-4	doesn't	_	_	_	_	_	_	_	start_char=160|end_char=167
+3	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=160|end_char=164
+4	n't	not	PART	RB	Polarity=Neg	5	advmod	_	start_char=164|end_char=167
+5	like	like	VERB	VB	VerbForm=Inf	0	root	_	start_char=168|end_char=172
+6	Peter	Peter	PROPN	NNP	Number=Sing	5	obj	_	start_char=173|end_char=178|SpaceAfter=No
+7	.	.	PUNCT	.	_	5	punct	_	start_char=178|end_char=179
+
+# text = Her mother said that Peter is rude.
+# sent_id = 6
+1	Her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=180|end_char=183
+2	mother	mother	NOUN	NN	Number=Sing	3	nsubj	_	start_char=184|end_char=190
+3	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=191|end_char=195
+4	that	that	SCONJ	IN	_	7	mark	_	start_char=196|end_char=200
+5	Peter	Peter	PROPN	NNP	Number=Sing	7	nsubj	_	start_char=201|end_char=206
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=207|end_char=209
+7	rude	rude	ADJ	JJ	Degree=Pos	3	ccomp	_	start_char=210|end_char=214|SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	start_char=214|end_char=215
+
+# text = Why did she say that?
+# sent_id = 7
+1	Why	why	ADV	WRB	PronType=Int	4	advmod	_	start_char=216|end_char=219
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	start_char=220|end_char=223
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=224|end_char=227
+4	say	say	VERB	VB	VerbForm=Inf	0	root	_	start_char=228|end_char=231
+5	that	that	PRON	DT	Number=Sing|PronType=Dem	4	obj	_	start_char=232|end_char=236|SpaceAfter=No
+6	?	?	PUNCT	.	_	4	punct	_	start_char=236|end_char=237
+
+# text = Because Peter didn't take his hat off in the house.
+# sent_id = 8
+1	Because	because	SCONJ	IN	_	5	mark	_	start_char=238|end_char=245
+2	Peter	Peter	PROPN	NNP	Number=Sing	5	nsubj	_	start_char=246|end_char=251
+3-4	didn't	_	_	_	_	_	_	_	start_char=252|end_char=258
+3	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	start_char=252|end_char=255
+4	n't	not	PART	RB	Polarity=Neg	5	advmod	_	start_char=255|end_char=258
+5	take	take	VERB	VB	VerbForm=Inf	0	root	_	start_char=259|end_char=263
+6	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	start_char=264|end_char=267
+7	hat	hat	NOUN	NN	Number=Sing	5	obj	_	start_char=268|end_char=271
+8	off	off	ADP	RP	_	5	compound:prt	_	start_char=272|end_char=275
+9	in	in	ADP	IN	_	11	case	_	start_char=276|end_char=278
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=279|end_char=282
+11	house	house	NOUN	NN	Number=Sing	5	obl	_	start_char=283|end_char=288|SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	start_char=288|end_char=289
+
+# text = Helen's mother says that is rude.
+# sent_id = 9
+1-2	Helen's	_	_	_	_	_	_	_	start_char=290|end_char=297
+1	Helen	Helen	PROPN	NNP	Number=Sing	3	nmod:poss	_	start_char=290|end_char=295
+2	's	's	PART	POS	_	1	case	_	start_char=295|end_char=297
+3	mother	mother	NOUN	NN	Number=Sing	4	nsubj	_	start_char=298|end_char=304
+4	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=305|end_char=309
+5	that	that	PRON	DT	Number=Sing|PronType=Dem	7	nsubj	_	start_char=310|end_char=314
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=315|end_char=317
+7	rude	rude	ADJ	JJ	Degree=Pos	4	ccomp	_	start_char=318|end_char=322|SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	start_char=322|end_char=323
+
+# text = A man should take his hat off in the house.
+# sent_id = 10
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	start_char=324|end_char=325
+2	man	man	NOUN	NN	Number=Sing	4	nsubj	_	start_char=326|end_char=329
+3	should	should	AUX	MD	VerbForm=Fin	4	aux	_	start_char=330|end_char=336
+4	take	take	VERB	VB	VerbForm=Inf	0	root	_	start_char=337|end_char=341
+5	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	start_char=342|end_char=345
+6	hat	hat	NOUN	NN	Number=Sing	4	obj	_	start_char=346|end_char=349
+7	off	off	ADP	RP	_	4	compound:prt	_	start_char=350|end_char=353
+8	in	in	ADP	IN	_	10	case	_	start_char=354|end_char=356
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=357|end_char=360
+10	house	house	NOUN	NN	Number=Sing	4	obl	_	start_char=361|end_char=366|SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	start_char=366|end_char=367
+
+# text = "Your father always took his hat off in the house," Helen's mother said.
+# sent_id = 11
+1	"	"	PUNCT	``	_	5	punct	_	start_char=368|end_char=369|SpaceAfter=No
+2	Your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	3	nmod:poss	_	start_char=369|end_char=373
+3	father	father	NOUN	NN	Number=Sing	5	nsubj	_	start_char=374|end_char=380
+4	always	always	ADV	RB	_	5	advmod	_	start_char=381|end_char=387
+5	took	take	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	ccomp	_	start_char=388|end_char=392
+6	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	start_char=393|end_char=396
+7	hat	hat	NOUN	NN	Number=Sing	5	obj	_	start_char=397|end_char=400
+8	off	off	ADP	RP	_	5	compound:prt	_	start_char=401|end_char=404
+9	in	in	ADP	IN	_	11	case	_	start_char=405|end_char=407
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=408|end_char=411
+11	house	house	NOUN	NN	Number=Sing	5	obl	_	start_char=412|end_char=417|SpaceAfter=No
+12	,	,	PUNCT	,	_	5	punct	_	start_char=417|end_char=418|SpaceAfter=No
+13	"	"	PUNCT	''	_	5	punct	_	start_char=418|end_char=419
+14-15	Helen's	_	_	_	_	_	_	_	start_char=420|end_char=427
+14	Helen	Helen	PROPN	NNP	Number=Sing	16	nmod:poss	_	start_char=420|end_char=425
+15	's	's	PART	POS	_	14	case	_	start_char=425|end_char=427
+16	mother	mother	NOUN	NN	Number=Sing	17	nsubj	_	start_char=428|end_char=434
+17	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=435|end_char=439|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	punct	_	start_char=439|end_char=440
+
+# text = "But, Mom, times are different now," Helen said.
+# sent_id = 12
+1	"	"	PUNCT	``	_	8	punct	_	start_char=441|end_char=442|SpaceAfter=No
+2	But	but	CCONJ	CC	_	8	cc	_	start_char=442|end_char=445|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	start_char=445|end_char=446
+4	Mom	mom	NOUN	NN	Number=Sing	8	vocative	_	start_char=447|end_char=450|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	start_char=450|end_char=451
+6	times	time	NOUN	NNS	Number=Plur	8	nsubj	_	start_char=452|end_char=457
+7	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=458|end_char=461
+8	different	different	ADJ	JJ	Degree=Pos	13	ccomp	_	start_char=462|end_char=471
+9	now	now	ADV	RB	_	8	advmod	_	start_char=472|end_char=475|SpaceAfter=No
+10	,	,	PUNCT	,	_	8	punct	_	start_char=475|end_char=476|SpaceAfter=No
+11	"	"	PUNCT	''	_	8	punct	_	start_char=476|end_char=477
+12	Helen	Helen	PROPN	NNP	Number=Sing	13	nsubj	_	start_char=478|end_char=483
+13	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=484|end_char=488|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	punct	_	start_char=488|end_char=489
+
+# text = "I promise you, Peter will take his hat off next time."
+# sent_id = 13
+1	"	"	PUNCT	``	_	3	punct	_	start_char=490|end_char=491|SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=491|end_char=492
+3	promise	promise	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=493|end_char=500
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	obj	_	start_char=501|end_char=504|SpaceAfter=No
+5	,	,	PUNCT	,	_	3	punct	_	start_char=504|end_char=505
+6	Peter	Peter	PROPN	NNP	Number=Sing	8	nsubj	_	start_char=506|end_char=511
+7	will	will	AUX	MD	VerbForm=Fin	8	aux	_	start_char=512|end_char=516
+8	take	take	VERB	VB	VerbForm=Inf	3	parataxis	_	start_char=517|end_char=521
+9	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	start_char=522|end_char=525
+10	hat	hat	NOUN	NN	Number=Sing	8	obj	_	start_char=526|end_char=529
+11	off	off	ADP	RP	_	8	compound:prt	_	start_char=530|end_char=533
+12	next	next	ADJ	JJ	Degree=Pos	13	amod	_	start_char=534|end_char=538
+13	time	time	NOUN	NN	Number=Sing	8	obl:unmarked	_	start_char=539|end_char=543|SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	start_char=543|end_char=544|SpaceAfter=No
+15	"	"	PUNCT	''	_	3	punct	_	start_char=544|end_char=545
+
+# text = Helen's mother said it was too late--rude is rude.
+# sent_id = 14
+1-2	Helen's	_	_	_	_	_	_	_	start_char=546|end_char=553
+1	Helen	Helen	PROPN	NNP	Number=Sing	3	nmod:poss	_	start_char=546|end_char=551
+2	's	's	PART	POS	_	1	case	_	start_char=551|end_char=553
+3	mother	mother	NOUN	NN	Number=Sing	4	nsubj	_	start_char=554|end_char=560
+4	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=561|end_char=565
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	start_char=566|end_char=568
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	start_char=569|end_char=572
+7	too	too	ADV	RB	_	8	advmod	_	start_char=573|end_char=576
+8	late	late	ADJ	JJ	Degree=Pos	4	ccomp	_	start_char=577|end_char=581|SpaceAfter=No
+9	-	-	PUNCT	HYPH	_	11	punct	_	start_char=581|end_char=582|SpaceAfter=No
+10	-	-	PUNCT	HYPH	_	11	punct	_	start_char=582|end_char=583|SpaceAfter=No
+11	rude	rude	ADJ	JJ	Degree=Pos	8	conj	_	start_char=583|end_char=587
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	start_char=588|end_char=590
+13	rude	rude	ADJ	JJ	Degree=Pos	4	ccomp	_	start_char=591|end_char=595|SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	start_char=595|end_char=596|SpaceAfter=No
+

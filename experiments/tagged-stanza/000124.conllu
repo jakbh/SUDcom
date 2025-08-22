@@ -1,0 +1,231 @@
+# text = He was homeless.
+# sent_id = 0
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=0|end_char=2
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	start_char=3|end_char=6
+3	homeless	homeless	ADJ	JJ	Degree=Pos	0	root	_	start_char=7|end_char=15|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	start_char=15|end_char=16
+
+# text = He was cold.
+# sent_id = 1
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=17|end_char=19
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	start_char=20|end_char=23
+3	cold	cold	ADJ	JJ	Degree=Pos	0	root	_	start_char=24|end_char=28|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	start_char=28|end_char=29
+
+# text = He was shivering.
+# sent_id = 2
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=30|end_char=32
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	start_char=33|end_char=36
+3	shivering	shiver	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=37|end_char=46|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	start_char=46|end_char=47
+
+# text = He was in the park.
+# sent_id = 3
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=48|end_char=50
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	start_char=51|end_char=54
+3	in	in	ADP	IN	_	5	case	_	start_char=55|end_char=57
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=58|end_char=61
+5	park	park	NOUN	NN	Number=Sing	0	root	_	start_char=62|end_char=66|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	start_char=66|end_char=67
+
+# text = He was sitting on a bench.
+# sent_id = 4
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=68|end_char=70
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	start_char=71|end_char=74
+3	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=75|end_char=82
+4	on	on	ADP	IN	_	6	case	_	start_char=83|end_char=85
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=86|end_char=87
+6	bench	bench	NOUN	NN	Number=Sing	3	obl	_	start_char=88|end_char=93|SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	start_char=93|end_char=94
+
+# text = A sign was next to him.
+# sent_id = 5
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	start_char=95|end_char=96
+2	sign	sign	NOUN	NN	Number=Sing	4	nsubj	_	start_char=97|end_char=101
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	start_char=102|end_char=105
+4	next	next	ADV	RB	_	0	root	_	start_char=106|end_char=110
+5	to	to	ADP	IN	_	6	case	_	start_char=111|end_char=113
+6	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obl	_	start_char=114|end_char=117|SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	start_char=117|end_char=118
+
+# text = The sign said, "Please hire me.
+# sent_id = 6
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=119|end_char=122
+2	sign	sign	NOUN	NN	Number=Sing	3	nsubj	_	start_char=123|end_char=127
+3	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=128|end_char=132|SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	start_char=132|end_char=133
+5	"	"	PUNCT	``	_	7	punct	_	start_char=134|end_char=135|SpaceAfter=No
+6	Please	please	INTJ	UH	_	7	discourse	_	start_char=135|end_char=141
+7	hire	hire	VERB	VB	Mood=Imp|VerbForm=Fin	3	ccomp	_	start_char=142|end_char=146
+8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obj	_	start_char=147|end_char=149|SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	start_char=149|end_char=150
+
+# text = I am homeless."
+# sent_id = 7
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=151|end_char=152
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=153|end_char=155
+3	homeless	homeless	ADJ	JJ	Degree=Pos	0	root	_	start_char=156|end_char=164|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	start_char=164|end_char=165|SpaceAfter=No
+5	"	"	PUNCT	''	_	3	punct	_	start_char=165|end_char=166
+
+# text = People walked by.
+# sent_id = 8
+1	People	person	NOUN	NNS	Number=Plur	2	nsubj	_	start_char=167|end_char=173
+2	walked	walk	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=174|end_char=180
+3	by	by	ADP	IN	_	2	advmod	_	start_char=181|end_char=183|SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	start_char=183|end_char=184
+
+# text = They looked at him.
+# sent_id = 9
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=185|end_char=189
+2	looked	look	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=190|end_char=196
+3	at	at	ADP	IN	_	4	case	_	start_char=197|end_char=199
+4	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obl	_	start_char=200|end_char=203|SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	start_char=203|end_char=204
+
+# text = He looked dirty.
+# sent_id = 10
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=205|end_char=207
+2	looked	look	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=208|end_char=214
+3	dirty	dirty	ADJ	JJ	Degree=Pos	2	xcomp	_	start_char=215|end_char=220|SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	start_char=220|end_char=221
+
+# text = He looked old.
+# sent_id = 11
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=222|end_char=224
+2	looked	look	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=225|end_char=231
+3	old	old	ADJ	JJ	Degree=Pos	2	xcomp	_	start_char=232|end_char=235|SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	start_char=235|end_char=236
+
+# text = How could this man work?
+# sent_id = 12
+1	How	how	ADV	WRB	PronType=Int	5	advmod	_	start_char=237|end_char=240
+2	could	could	AUX	MD	VerbForm=Fin	5	aux	_	start_char=241|end_char=246
+3	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	_	start_char=247|end_char=251
+4	man	man	NOUN	NN	Number=Sing	5	nsubj	_	start_char=252|end_char=255
+5	work	work	VERB	VB	VerbForm=Inf	0	root	_	start_char=256|end_char=260|SpaceAfter=No
+6	?	?	PUNCT	.	_	5	punct	_	start_char=260|end_char=261
+
+# text = He was too old to work.
+# sent_id = 13
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=262|end_char=264
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	start_char=265|end_char=268
+3	too	too	ADV	RB	_	4	advmod	_	start_char=269|end_char=272
+4	old	old	ADJ	JJ	Degree=Pos	0	root	_	start_char=273|end_char=276
+5	to	to	PART	TO	_	6	mark	_	start_char=277|end_char=279
+6	work	work	VERB	VB	VerbForm=Inf	4	xcomp	_	start_char=280|end_char=284|SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	start_char=284|end_char=285
+
+# text = He was too dirty to work.
+# sent_id = 14
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=286|end_char=288
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	start_char=289|end_char=292
+3	too	too	ADV	RB	_	4	advmod	_	start_char=293|end_char=296
+4	dirty	dirty	ADJ	JJ	Degree=Pos	0	root	_	start_char=297|end_char=302
+5	to	to	PART	TO	_	6	mark	_	start_char=303|end_char=305
+6	work	work	VERB	VB	VerbForm=Inf	4	xcomp	_	start_char=306|end_char=310|SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	start_char=310|end_char=311
+
+# text = He needed a bath.
+# sent_id = 15
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=312|end_char=314
+2	needed	need	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=315|end_char=321
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	start_char=322|end_char=323
+4	bath	bath	NOUN	NN	Number=Sing	2	obj	_	start_char=324|end_char=328|SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	start_char=328|end_char=329
+
+# text = He needed some food.
+# sent_id = 16
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=330|end_char=332
+2	needed	need	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=333|end_char=339
+3	some	some	DET	DT	PronType=Ind	4	det	_	start_char=340|end_char=344
+4	food	food	NOUN	NN	Number=Sing	2	obj	_	start_char=345|end_char=349|SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	start_char=349|end_char=350
+
+# text = One lady stopped.
+# sent_id = 17
+1	One	one	NUM	CD	NumForm=Word|NumType=Card	2	nummod	_	start_char=351|end_char=354
+2	lady	lady	NOUN	NN	Number=Sing	3	nsubj	_	start_char=355|end_char=359
+3	stopped	stop	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=360|end_char=367|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	start_char=367|end_char=368
+
+# text = She sat down next to him.
+# sent_id = 18
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=369|end_char=372
+2	sat	sit	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=373|end_char=376
+3	down	down	ADP	RP	_	2	compound:prt	_	start_char=377|end_char=381
+4	next	next	ADV	RB	_	2	advmod	_	start_char=382|end_char=386
+5	to	to	ADP	IN	_	6	case	_	start_char=387|end_char=389
+6	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obl	_	start_char=390|end_char=393|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	start_char=393|end_char=394
+
+# text = She said she belonged to a church.
+# sent_id = 19
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=395|end_char=398
+2	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=399|end_char=403
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=404|end_char=407
+4	belonged	belong	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	_	start_char=408|end_char=416
+5	to	to	ADP	IN	_	7	case	_	start_char=417|end_char=419
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=420|end_char=421
+7	church	church	NOUN	NN	Number=Sing	4	obl	_	start_char=422|end_char=428|SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	start_char=428|end_char=429
+
+# text = She said to come with her.
+# sent_id = 20
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=430|end_char=433
+2	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=434|end_char=438
+3	to	to	PART	TO	_	4	mark	_	start_char=439|end_char=441
+4	come	come	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=442|end_char=446
+5	with	with	ADP	IN	_	6	case	_	start_char=447|end_char=451
+6	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obl	_	start_char=452|end_char=455|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	start_char=455|end_char=456
+
+# text = They both got up.
+# sent_id = 21
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=457|end_char=461
+2	both	both	DET	DT	PronType=Tot	1	det	_	start_char=462|end_char=466
+3	got	get	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=467|end_char=470
+4	up	up	ADP	RP	_	3	compound:prt	_	start_char=471|end_char=473|SpaceAfter=No
+5	.	.	PUNCT	.	_	3	punct	_	start_char=473|end_char=474
+
+# text = He walked with her to the church.
+# sent_id = 22
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=475|end_char=477
+2	walked	walk	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=478|end_char=484
+3	with	with	ADP	IN	_	4	case	_	start_char=485|end_char=489
+4	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obl	_	start_char=490|end_char=493
+5	to	to	ADP	IN	_	7	case	_	start_char=494|end_char=496
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=497|end_char=500
+7	church	church	NOUN	NN	Number=Sing	2	obl	_	start_char=501|end_char=507|SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	start_char=507|end_char=508
+
+# text = The church was warm.
+# sent_id = 23
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=509|end_char=512
+2	church	church	NOUN	NN	Number=Sing	4	nsubj	_	start_char=513|end_char=519
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	start_char=520|end_char=523
+4	warm	warm	ADJ	JJ	Degree=Pos	0	root	_	start_char=524|end_char=528|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	start_char=528|end_char=529
+
+# text = He smelled hot food.
+# sent_id = 24
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=530|end_char=532
+2	smelled	smell	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=533|end_char=540
+3	hot	hot	ADJ	JJ	Degree=Pos	4	amod	_	start_char=541|end_char=544
+4	food	food	NOUN	NN	Number=Sing	2	obj	_	start_char=545|end_char=549|SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	start_char=549|end_char=550
+
+# text = She said, "Our church will help you."
+# sent_id = 25
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=551|end_char=554
+2	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=555|end_char=559|SpaceAfter=No
+3	,	,	PUNCT	,	_	8	punct	_	start_char=559|end_char=560
+4	"	"	PUNCT	``	_	8	punct	_	start_char=561|end_char=562|SpaceAfter=No
+5	Our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	start_char=562|end_char=565
+6	church	church	NOUN	NN	Number=Sing	8	nsubj	_	start_char=566|end_char=572
+7	will	will	AUX	MD	VerbForm=Fin	8	aux	_	start_char=573|end_char=577
+8	help	help	VERB	VB	VerbForm=Inf	2	ccomp	_	start_char=578|end_char=582
+9	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	8	obj	_	start_char=583|end_char=586|SpaceAfter=No
+10	.	.	PUNCT	.	_	8	punct	_	start_char=586|end_char=587|SpaceAfter=No
+11	"	"	PUNCT	''	_	8	punct	_	start_char=587|end_char=588|SpaceAfter=No
+

@@ -1,0 +1,170 @@
+# text = Poster 1 FINAL EXAM INSTRUCTIONS
+# sent_id = 0
+1	Poster	poster	NOUN	NN	Number=Sing	0	root	_	start_char=0|end_char=6
+2	1	1	NUM	CD	NumForm=Digit|NumType=Card	1	dep	_	start_char=7|end_char=8|SpacesAfter=\r\n
+3	FINAL	final	ADJ	JJ	Degree=Pos	5	amod	_	start_char=10|end_char=15
+4	EXAM	exam	NOUN	NN	Number=Sing	5	compound	_	start_char=16|end_char=20
+5	INSTRUCTIONS	instructions	NOUN	NNS	Number=Plur	1	appos	_	start_char=21|end_char=33|SpacesAfter=\r\n
+
+# text = Doors close 5 minutes before the exam begins.
+# sent_id = 1
+1	Doors	Door	NOUN	NNS	Number=Plur	2	nsubj	_	start_char=35|end_char=40
+2	close	close	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=41|end_char=46
+3	5	5	NUM	CD	NumForm=Digit|NumType=Card	4	nummod	_	start_char=47|end_char=48
+4	minutes	minute	NOUN	NNS	Number=Plur	2	obl:unmarked	_	start_char=49|end_char=56
+5	before	before	SCONJ	IN	_	8	mark	_	start_char=57|end_char=63
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=64|end_char=67
+7	exam	exam	NOUN	NN	Number=Sing	8	nsubj	_	start_char=68|end_char=72
+8	begins	begin	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	start_char=73|end_char=79|SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	start_char=79|end_char=80|SpacesAfter=\r\n
+
+# text = Show your student ID card to examiner when you enter the room.
+# sent_id = 2
+1	Show	show	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=82|end_char=86
+2	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=87|end_char=91
+3	student	student	NOUN	NN	Number=Sing	5	compound	_	start_char=92|end_char=99
+4	ID	id	NOUN	NN	Number=Sing	5	compound	_	start_char=100|end_char=102
+5	card	card	NOUN	NN	Number=Sing	1	obj	_	start_char=103|end_char=107
+6	to	to	PART	TO	_	7	case	_	start_char=108|end_char=110
+7	examiner	examiner	NOUN	NN	Number=Sing	1	obl	_	start_char=111|end_char=119
+8	when	when	ADV	WRB	PronType=Int	10	advmod	_	start_char=120|end_char=124
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	start_char=125|end_char=128
+10	enter	enter	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	advcl	_	start_char=129|end_char=134
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=135|end_char=138
+12	room	room	NOUN	NN	Number=Sing	10	obj	_	start_char=139|end_char=143|SpaceAfter=No
+13	.	.	PUNCT	.	_	1	punct	_	start_char=143|end_char=144|SpacesAfter=\r\n
+
+# text = No phones, no books.
+# sent_id = 3
+1	No	no	DET	DT	PronType=Neg	2	det	_	start_char=146|end_char=148
+2	phones	phone	NOUN	NNS	Number=Plur	0	root	_	start_char=149|end_char=155|SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	start_char=155|end_char=156
+4	no	no	DET	DT	PronType=Neg	5	det	_	start_char=157|end_char=159
+5	books	book	NOUN	NNS	Number=Plur	2	appos	_	start_char=160|end_char=165|SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	start_char=165|end_char=166|SpacesAfter=\r\n
+
+# text = Poster 2 BEFORE THE EXAM
+# sent_id = 4
+1	Poster	poster	NOUN	NN	Number=Sing	0	root	_	start_char=168|end_char=174
+2	2	2	NUM	LS	NumForm=Digit|NumType=Card	1	discourse	_	start_char=175|end_char=176|SpacesAfter=\r\n
+3	BEFORE	before	ADP	IN	_	5	case	_	start_char=178|end_char=184
+4	THE	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=185|end_char=188
+5	EXAM	exam	NOUN	NN	Number=Sing	1	nmod	_	start_char=189|end_char=193|SpacesAfter=\r\n
+
+# text = Have your ID card ready.
+# sent_id = 5
+1	Have	have	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=195|end_char=199
+2	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	4	nmod:poss	_	start_char=200|end_char=204
+3	ID	id	NOUN	NN	Number=Sing	4	compound	_	start_char=205|end_char=207
+4	card	card	NOUN	NN	Number=Sing	1	obj	_	start_char=208|end_char=212
+5	ready	ready	ADJ	JJ	Degree=Pos	1	xcomp	_	start_char=213|end_char=218|SpaceAfter=No
+6	.	.	PUNCT	.	_	1	punct	_	start_char=218|end_char=219|SpacesAfter=\r\n
+
+# text = Listen to the instructions.
+# sent_id = 6
+1	Listen	listen	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=221|end_char=227
+2	to	to	ADP	IN	_	4	case	_	start_char=228|end_char=230
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=231|end_char=234
+4	instructions	instruction	NOUN	NNS	Number=Plur	1	obl	_	start_char=235|end_char=247|SpaceAfter=No
+5	.	.	PUNCT	.	_	1	punct	_	start_char=247|end_char=248|SpacesAfter=\r\n
+
+# text = Arrive 10 minutes before exam.
+# sent_id = 7
+1	Arrive	arrive	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=250|end_char=256
+2	10	10	NUM	CD	NumForm=Digit|NumType=Card	3	nummod	_	start_char=257|end_char=259
+3	minutes	minute	NOUN	NNS	Number=Plur	1	obl:unmarked	_	start_char=260|end_char=267
+4	before	before	ADP	IN	_	5	case	_	start_char=268|end_char=274
+5	exam	exam	NOUN	NN	Number=Sing	1	obl	_	start_char=275|end_char=279|SpaceAfter=No
+6	.	.	PUNCT	.	_	1	punct	_	start_char=279|end_char=280|SpacesAfter=\r\n
+
+# text = IN THE EXAM Mobile phones switched off and put away.
+# sent_id = 8
+1	IN	in	ADP	IN	_	3	case	_	start_char=282|end_char=284
+2	THE	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=285|end_char=288
+3	EXAM	exam	NOUN	NN	Number=Sing	5	compound	_	start_char=289|end_char=293|SpacesAfter=\r\n
+4	Mobile	mobile	NOUN	NN	Number=Sing	5	compound	_	start_char=295|end_char=301
+5	phones	phone	NOUN	NNS	Number=Plur	6	nsubj	_	start_char=302|end_char=308
+6	switched	switch	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=309|end_char=317
+7	off	off	ADP	RP	_	6	compound:prt	_	start_char=318|end_char=321
+8	and	and	CCONJ	CC	_	9	cc	_	start_char=322|end_char=325
+9	put	put	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	conj	_	start_char=326|end_char=329
+10	away	away	ADV	RB	_	9	advmod	_	start_char=330|end_char=334|SpaceAfter=No
+11	.	.	PUNCT	.	_	6	punct	_	start_char=334|end_char=335|SpacesAfter=\r\n
+
+# text = ID card visible on the desk.
+# sent_id = 9
+1	ID	id	NOUN	NN	Number=Sing	2	compound	_	start_char=337|end_char=339
+2	card	card	NOUN	NN	Number=Sing	0	root	_	start_char=340|end_char=344
+3	visible	visible	ADJ	JJ	Degree=Pos	2	amod	_	start_char=345|end_char=352
+4	on	on	ADP	IN	_	6	case	_	start_char=353|end_char=355
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=356|end_char=359
+6	desk	desk	NOUN	NN	Number=Sing	3	obl	_	start_char=360|end_char=364|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	start_char=364|end_char=365|SpacesAfter=\r\n
+
+# text = No talking.
+# sent_id = 10
+1	No	no	DET	DT	PronType=Neg	2	det	_	start_char=367|end_char=369
+2	talking	talking	NOUN	NN	Number=Sing	0	root	_	start_char=370|end_char=377|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	start_char=377|end_char=378|SpacesAfter=\s\r\n
+
+# text = No food or drinks in exam room.
+# sent_id = 11
+1	No	no	DET	DT	PronType=Neg	2	det	_	start_char=381|end_char=383
+2	food	food	NOUN	NN	Number=Sing	0	root	_	start_char=384|end_char=388
+3	or	or	CCONJ	CC	_	4	cc	_	start_char=389|end_char=391
+4	drinks	drink	NOUN	NNS	Number=Plur	2	conj	_	start_char=392|end_char=398
+5	in	in	ADP	IN	_	7	case	_	start_char=399|end_char=401
+6	exam	exam	NOUN	NN	Number=Sing	7	compound	_	start_char=402|end_char=406
+7	room	room	NOUN	NN	Number=Sing	2	nmod	_	start_char=407|end_char=411|SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	start_char=411|end_char=412|SpacesAfter=\r\n
+
+# text = Poster 3 Follow the examiner's instructions.
+# sent_id = 12
+1	Poster	poster	NOUN	NN	Number=Sing	3	nsubj	_	start_char=414|end_char=420
+2	3	3	NUM	LS	NumForm=Digit|NumType=Card	3	discourse	_	start_char=421|end_char=422|SpacesAfter=\r\n
+3	Follow	follow	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=424|end_char=430
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=431|end_char=434
+5-6	examiner's	_	_	_	_	_	_	_	start_char=435|end_char=445
+5	examiner	examiner	NOUN	NN	Number=Sing	7	nmod:poss	_	start_char=435|end_char=443
+6	's	's	PART	POS	_	5	case	_	start_char=443|end_char=445
+7	instructions	instruction	NOUN	NNS	Number=Plur	3	obj	_	start_char=446|end_char=458|SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	start_char=458|end_char=459|SpacesAfter=\r\n
+
+# text = If you have a question, raise your hand.
+# sent_id = 13
+1	If	if	SCONJ	IN	_	3	mark	_	start_char=461|end_char=463
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=464|end_char=467
+3	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	advcl	_	start_char=468|end_char=472
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=473|end_char=474
+5	question	question	NOUN	NN	Number=Sing	3	obj	_	start_char=475|end_char=483|SpaceAfter=No
+6	,	,	PUNCT	,	_	3	punct	_	start_char=483|end_char=484
+7	raise	raise	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=485|end_char=490
+8	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	9	nmod:poss	_	start_char=491|end_char=495
+9	hand	hand	NOUN	NN	Number=Sing	7	obj	_	start_char=496|end_char=500|SpaceAfter=No
+10	.	.	PUNCT	.	_	7	punct	_	start_char=500|end_char=501|SpacesAfter=\r\n
+
+# text = No mobile phones, books or bags in the exam.
+# sent_id = 14
+1	No	no	DET	DT	PronType=Neg	3	det	_	start_char=503|end_char=505
+2	mobile	mobile	ADJ	JJ	Degree=Pos	3	amod	_	start_char=506|end_char=512
+3	phones	phone	NOUN	NNS	Number=Plur	0	root	_	start_char=513|end_char=519|SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	start_char=519|end_char=520
+5	books	book	NOUN	NNS	Number=Plur	3	conj	_	start_char=521|end_char=526
+6	or	or	CCONJ	CC	_	7	cc	_	start_char=527|end_char=529
+7	bags	bag	NOUN	NNS	Number=Plur	3	conj	_	start_char=530|end_char=534
+8	in	in	ADP	IN	_	10	case	_	start_char=535|end_char=537
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=538|end_char=541
+10	exam	exam	NOUN	NN	Number=Sing	3	nmod	_	start_char=542|end_char=546|SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	start_char=546|end_char=547|SpacesAfter=\r\n
+
+# text = Please use a blue or black pen.
+# sent_id = 15
+1	Please	please	INTJ	UH	_	2	discourse	_	start_char=549|end_char=555
+2	use	use	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=556|end_char=559
+3	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=560|end_char=561
+4	blue	blue	ADJ	JJ	Degree=Pos	7	amod	_	start_char=562|end_char=566
+5	or	or	CCONJ	CC	_	6	cc	_	start_char=567|end_char=569
+6	black	black	ADJ	JJ	Degree=Pos	4	conj	_	start_char=570|end_char=575
+7	pen	pen	NOUN	NN	Number=Sing	2	obj	_	start_char=576|end_char=579|SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	start_char=579|end_char=580|SpaceAfter=No
+

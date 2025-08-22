@@ -1,0 +1,210 @@
+# text = Can you explain baseball to me?
+# sent_id = 0
+1	Can	can	AUX	MD	VerbForm=Fin	3	aux	_	start_char=0|end_char=3
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=4|end_char=7
+3	explain	explain	VERB	VB	VerbForm=Inf	0	root	_	start_char=8|end_char=15
+4	baseball	baseball	NOUN	NN	Number=Sing	3	obj	_	start_char=16|end_char=24
+5	to	to	ADP	IN	_	6	case	_	start_char=25|end_char=27
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obl	_	start_char=28|end_char=30|SpaceAfter=No
+7	?	?	PUNCT	.	_	3	punct	_	start_char=30|end_char=31|SpacesAfter=\r\n
+
+# text = I can try to explain the basics.
+# sent_id = 1
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=33|end_char=34
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	start_char=35|end_char=38
+3	try	try	VERB	VB	VerbForm=Inf	0	root	_	start_char=39|end_char=42
+4	to	to	PART	TO	_	5	mark	_	start_char=43|end_char=45
+5	explain	explain	VERB	VB	VerbForm=Inf	3	xcomp	_	start_char=46|end_char=53
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=54|end_char=57
+7	basics	basic	NOUN	NNS	Number=Plur	5	obj	_	start_char=58|end_char=64|SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	start_char=64|end_char=65
+
+# text = What do you want to know?
+# sent_id = 2
+1	What	what	PRON	WP	PronType=Int	6	obj	_	start_char=66|end_char=70
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=71|end_char=73
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	start_char=74|end_char=77
+4	want	want	VERB	VB	VerbForm=Inf	0	root	_	start_char=78|end_char=82
+5	to	to	PART	TO	_	6	mark	_	start_char=83|end_char=85
+6	know	know	VERB	VB	VerbForm=Inf	4	xcomp	_	start_char=86|end_char=90|SpaceAfter=No
+7	?	?	PUNCT	.	_	4	punct	_	start_char=90|end_char=91|SpacesAfter=\r\n
+
+# text = What are strikes?
+# sent_id = 3
+1	What	what	PRON	WP	PronType=Int	0	root	_	start_char=93|end_char=97
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	start_char=98|end_char=101
+3	strikes	strike	NOUN	NNS	Number=Plur	1	nsubj	_	start_char=102|end_char=109|SpaceAfter=No
+4	?	?	PUNCT	.	_	1	punct	_	start_char=109|end_char=110|SpacesAfter=\r\n
+
+# text = Every batter has three strikes.
+# sent_id = 4
+1	Every	every	DET	DT	PronType=Tot	2	det	_	start_char=112|end_char=117
+2	batter	batter	NOUN	NN	Number=Sing	3	nsubj	_	start_char=118|end_char=124
+3	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=125|end_char=128
+4	three	three	NUM	CD	NumForm=Word|NumType=Card	5	nummod	_	start_char=129|end_char=134
+5	strikes	strike	NOUN	NNS	Number=Plur	3	obj	_	start_char=135|end_char=142|SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	start_char=142|end_char=143
+
+# text = When they get three strikes, they are out.
+# sent_id = 5
+1	When	when	ADV	WRB	PronType=Int	3	advmod	_	start_char=144|end_char=148
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=149|end_char=153
+3	get	get	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	start_char=154|end_char=157
+4	three	three	NUM	CD	NumForm=Word|NumType=Card	5	nummod	_	start_char=158|end_char=163
+5	strikes	strike	NOUN	NNS	Number=Plur	3	obj	_	start_char=164|end_char=171|SpaceAfter=No
+6	,	,	PUNCT	,	_	3	punct	_	start_char=171|end_char=172
+7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	start_char=173|end_char=177
+8	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=178|end_char=181
+9	out	out	ADV	RB	_	0	root	_	start_char=182|end_char=185|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	punct	_	start_char=185|end_char=186|SpacesAfter=\r\n
+
+# text = Okay, but what about when the umpire calls a ball?
+# sent_id = 6
+1	Okay	okay	INTJ	UH	_	4	discourse	_	start_char=188|end_char=192|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=192|end_char=193
+3	but	but	CCONJ	CC	_	4	cc	_	start_char=194|end_char=197
+4	what	what	PRON	WP	PronType=Int	0	root	_	start_char=198|end_char=202
+5	about	about	ADP	IN	_	9	mark	_	start_char=203|end_char=208
+6	when	when	ADV	WRB	PronType=Int	9	advmod	_	start_char=209|end_char=213
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=214|end_char=217
+8	umpire	umpire	NOUN	NN	Number=Sing	9	nsubj	_	start_char=218|end_char=224
+9	calls	call	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	start_char=225|end_char=230
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	start_char=231|end_char=232
+11	ball	ball	NOUN	NN	Number=Sing	9	obj	_	start_char=233|end_char=237|SpaceAfter=No
+12	?	?	PUNCT	.	_	4	punct	_	start_char=237|end_char=238|SpacesAfter=\r\n
+
+# text = Once an umpire calls four balls, then the batter goes to first base.
+# sent_id = 7
+1	Once	once	SCONJ	IN	_	4	mark	_	start_char=240|end_char=244
+2	an	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	start_char=245|end_char=247
+3	umpire	umpire	NOUN	NN	Number=Sing	4	nsubj	_	start_char=248|end_char=254
+4	calls	call	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	start_char=255|end_char=260
+5	four	four	NUM	CD	NumForm=Word|NumType=Card	6	nummod	_	start_char=261|end_char=265
+6	balls	ball	NOUN	NNS	Number=Plur	4	obj	_	start_char=266|end_char=271|SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	start_char=271|end_char=272
+8	then	then	ADV	RB	PronType=Dem	11	advmod	_	start_char=273|end_char=277
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=278|end_char=281
+10	batter	batter	NOUN	NN	Number=Sing	11	nsubj	_	start_char=282|end_char=288
+11	goes	go	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=289|end_char=293
+12	to	to	ADP	IN	_	14	case	_	start_char=294|end_char=296
+13	first	first	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	14	amod	_	start_char=297|end_char=302
+14	base	base	NOUN	NN	Number=Sing	11	obl	_	start_char=303|end_char=307|SpaceAfter=No
+15	.	.	PUNCT	.	_	11	punct	_	start_char=307|end_char=308|SpacesAfter=\r\n
+
+# text = What happens when a pitcher hits a batter with the ball?
+# sent_id = 8
+1	What	what	PRON	WP	PronType=Int	2	nsubj	_	start_char=310|end_char=314
+2	happens	happen	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=315|end_char=322
+3	when	when	ADV	WRB	PronType=Int	6	advmod	_	start_char=323|end_char=327
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=328|end_char=329
+5	pitcher	pitcher	NOUN	NN	Number=Sing	6	nsubj	_	start_char=330|end_char=337
+6	hits	hit	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	start_char=338|end_char=342
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=343|end_char=344
+8	batter	batter	NOUN	NN	Number=Sing	6	obj	_	start_char=345|end_char=351
+9	with	with	ADP	IN	_	11	case	_	start_char=352|end_char=356
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=357|end_char=360
+11	ball	ball	NOUN	NN	Number=Sing	6	obl	_	start_char=361|end_char=365|SpaceAfter=No
+12	?	?	PUNCT	.	_	2	punct	_	start_char=365|end_char=366|SpacesAfter=\r\n
+
+# text = The batter goes to first base.
+# sent_id = 9
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=368|end_char=371
+2	batter	batter	NOUN	NN	Number=Sing	3	nsubj	_	start_char=372|end_char=378
+3	goes	go	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=379|end_char=383
+4	to	to	ADP	IN	_	6	case	_	start_char=384|end_char=386
+5	first	first	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	6	amod	_	start_char=387|end_char=392
+6	base	base	NOUN	NN	Number=Sing	3	obl	_	start_char=393|end_char=397|SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	start_char=397|end_char=398|SpacesAfter=\r\n
+
+# text = What if someone is on first base?
+# sent_id = 10
+1	What	what	PRON	WP	PronType=Int	0	root	_	start_char=400|end_char=404
+2	if	if	SCONJ	IN	_	7	mark	_	start_char=405|end_char=407
+3	someone	someone	PRON	NN	Number=Sing|PronType=Ind	7	nsubj	_	start_char=408|end_char=415
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=416|end_char=418
+5	on	on	ADP	IN	_	7	case	_	start_char=419|end_char=421
+6	first	first	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	7	amod	_	start_char=422|end_char=427
+7	base	base	NOUN	NN	Number=Sing	1	advcl	_	start_char=428|end_char=432|SpaceAfter=No
+8	?	?	PUNCT	.	_	1	punct	_	start_char=432|end_char=433|SpacesAfter=\r\n
+
+# text = Then whoever was on first base goes to second base.
+# sent_id = 11
+1	Then	then	ADV	RB	PronType=Dem	7	advmod	_	start_char=435|end_char=439
+2	whoever	whoever	PRON	WP	PronType=Int	7	nsubj	_	start_char=440|end_char=447
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	start_char=448|end_char=451
+4	on	on	ADP	IN	_	6	case	_	start_char=452|end_char=454
+5	first	first	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	6	amod	_	start_char=455|end_char=460
+6	base	base	NOUN	NN	Number=Sing	2	nmod	_	start_char=461|end_char=465
+7	goes	go	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=466|end_char=470
+8	to	to	ADP	IN	_	10	case	_	start_char=471|end_char=473
+9	second	second	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	10	amod	_	start_char=474|end_char=480
+10	base	base	NOUN	NN	Number=Sing	7	obl	_	start_char=481|end_char=485|SpaceAfter=No
+11	.	.	PUNCT	.	_	7	punct	_	start_char=485|end_char=486|SpacesAfter=\r\n
+
+# text = Oh, okay.
+# sent_id = 12
+1	Oh	oh	INTJ	UH	_	3	discourse	_	start_char=488|end_char=490|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=490|end_char=491
+3	okay	okay	INTJ	UH	_	0	root	_	start_char=492|end_char=496|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	start_char=496|end_char=497
+
+# text = What's a no-hitter?
+# sent_id = 13
+1-2	What's	_	_	_	_	_	_	_	start_char=498|end_char=504
+1	What	what	PRON	WP	PronType=Int	0	root	_	start_char=498|end_char=502
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	start_char=502|end_char=504
+3	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=505|end_char=506
+4	no	no	DET	DT	PronType=Neg	6	det	_	start_char=507|end_char=509|SpaceAfter=No
+5	-	-	PUNCT	HYPH	_	4	punct	_	start_char=509|end_char=510|SpaceAfter=No
+6	hitter	hitter	NOUN	NN	Number=Sing	1	nsubj	_	start_char=510|end_char=516|SpaceAfter=No
+7	?	?	PUNCT	.	_	1	punct	_	start_char=516|end_char=517|SpacesAfter=\r\n
+
+# text = A no-hitter is when a team doesn't get a hit throughout the game.
+# sent_id = 14
+1	A	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	start_char=519|end_char=520
+2	no	no	DET	DT	PronType=Neg	4	det	_	start_char=521|end_char=523|SpaceAfter=No
+3	-	-	PUNCT	HYPH	_	2	punct	_	start_char=523|end_char=524|SpaceAfter=No
+4	hitter	hitter	NOUN	NN	Number=Sing	11	nsubj:outer	_	start_char=524|end_char=530
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	start_char=531|end_char=533
+6	when	when	ADV	WRB	PronType=Int	11	advmod	_	start_char=534|end_char=538
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=539|end_char=540
+8	team	team	NOUN	NN	Number=Sing	11	nsubj	_	start_char=541|end_char=545
+9-10	doesn't	_	_	_	_	_	_	_	start_char=546|end_char=553
+9	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=546|end_char=550
+10	n't	not	PART	RB	Polarity=Neg	11	advmod	_	start_char=550|end_char=553
+11	get	get	VERB	VB	VerbForm=Inf	0	root	_	start_char=554|end_char=557
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	start_char=558|end_char=559
+13	hit	hit	NOUN	NN	Number=Sing	11	obj	_	start_char=560|end_char=563
+14	throughout	throughout	ADP	IN	_	16	case	_	start_char=564|end_char=574
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	start_char=575|end_char=578
+16	game	game	NOUN	NN	Number=Sing	11	obl	_	start_char=579|end_char=583|SpaceAfter=No
+17	.	.	PUNCT	.	_	6	punct	_	start_char=583|end_char=584|SpacesAfter=\r\n
+
+# text = So, that's a good thing for the pitcher?
+# sent_id = 15
+1	So	so	ADV	RB	_	7	discourse	_	start_char=586|end_char=588|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=588|end_char=589
+3-4	that's	_	_	_	_	_	_	_	start_char=590|end_char=596
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	7	nsubj	_	start_char=590|end_char=594
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=594|end_char=596
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=597|end_char=598
+6	good	good	ADJ	JJ	Degree=Pos	7	amod	_	start_char=599|end_char=603
+7	thing	thing	NOUN	NN	Number=Sing	0	root	_	start_char=604|end_char=609
+8	for	for	ADP	IN	_	10	case	_	start_char=610|end_char=613
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=614|end_char=617
+10	pitcher	pitcher	NOUN	NN	Number=Sing	7	nmod	_	start_char=618|end_char=625|SpaceAfter=No
+11	?	?	PUNCT	.	_	7	punct	_	start_char=625|end_char=626|SpacesAfter=\r\n
+
+# text = Yes, because that means he pitched really well.
+# sent_id = 16
+1	Yes	yes	INTJ	UH	Polarity=Pos	5	discourse	_	start_char=628|end_char=631|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=631|end_char=632
+3	because	because	SCONJ	IN	_	5	mark	_	start_char=633|end_char=640
+4	that	that	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	start_char=641|end_char=645
+5	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=646|end_char=651
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=652|end_char=654
+7	pitched	pitch	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	ccomp	_	start_char=655|end_char=662
+8	really	really	ADV	RB	_	9	advmod	_	start_char=663|end_char=669
+9	well	well	ADV	RB	Degree=Pos	7	advmod	_	start_char=670|end_char=674|SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	_	start_char=674|end_char=675|SpaceAfter=No
+

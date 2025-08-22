@@ -1,0 +1,94 @@
+# text = Mommy.
+# sent_id = 0
+1	Mommy	Mommy	PROPN	NNP	Number=Sing	0	root	_	start_char=0|end_char=5|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	_	start_char=5|end_char=6
+
+# text = I don't feel good.
+# sent_id = 1
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=7|end_char=8
+2-3	don't	_	_	_	_	_	_	_	start_char=9|end_char=14
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=9|end_char=11
+3	n't	not	PART	RB	Polarity=Neg	4	advmod	_	start_char=11|end_char=14
+4	feel	feel	VERB	VB	VerbForm=Inf	0	root	_	start_char=15|end_char=19
+5	good	good	ADJ	JJ	Degree=Pos	4	xcomp	_	start_char=20|end_char=24|SpaceAfter=No
+6	.	.	PUNCT	.	_	4	punct	_	start_char=24|end_char=25|SpacesAfter=\r\n
+
+# text = What's wrong, Joseph?
+# sent_id = 2
+1-2	What's	_	_	_	_	_	_	_	start_char=27|end_char=33
+1	What	what	PRON	WP	PronType=Int	3	nsubj	_	start_char=27|end_char=31
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=31|end_char=33
+3	wrong	wrong	ADJ	JJ	Degree=Pos	0	root	_	start_char=34|end_char=39|SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	start_char=39|end_char=40
+5	Joseph	Joseph	PROPN	NNP	Number=Sing	3	vocative	_	start_char=41|end_char=47|SpaceAfter=No
+6	?	?	PUNCT	.	_	3	punct	_	start_char=47|end_char=48|SpacesAfter=\r\n
+
+# text = My stomach hurts.
+# sent_id = 3
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=50|end_char=52
+2	stomach	stomach	NOUN	NN	Number=Sing	3	nsubj	_	start_char=53|end_char=60
+3	hurts	hurt	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=61|end_char=66|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	start_char=66|end_char=67|SpacesAfter=\r\n
+
+# text = Oh no.
+# sent_id = 4
+1	Oh	oh	INTJ	UH	_	2	discourse	_	start_char=69|end_char=71
+2	no	no	INTJ	UH	Polarity=Neg	0	root	_	start_char=72|end_char=74|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	start_char=74|end_char=75
+
+# text = Let me get some medicine.
+# sent_id = 5
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=76|end_char=79
+2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	obj	_	start_char=80|end_char=82
+3	get	get	VERB	VB	VerbForm=Inf	1	xcomp	_	start_char=83|end_char=86
+4	some	some	DET	DT	PronType=Ind	5	det	_	start_char=87|end_char=91
+5	medicine	medicine	NOUN	NN	Number=Sing	3	obj	_	start_char=92|end_char=100|SpaceAfter=No
+6	.	.	PUNCT	.	_	1	punct	_	start_char=100|end_char=101|SpacesAfter=\r\n
+
+# text = Okay, mommy.
+# sent_id = 6
+1	Okay	okay	INTJ	UH	_	3	discourse	_	start_char=103|end_char=107|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=107|end_char=108
+3	mommy	mommy	NOUN	NN	Number=Sing	0	root	_	start_char=109|end_char=114|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	start_char=114|end_char=115|SpacesAfter=\r\n
+
+# text = Here, Joseph.
+# sent_id = 7
+1	Here	here	ADV	RB	PronType=Dem	0	root	_	start_char=117|end_char=121|SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	start_char=121|end_char=122
+3	Joseph	Joseph	PROPN	NNP	Number=Sing	1	vocative	_	start_char=123|end_char=129|SpaceAfter=No
+4	.	.	PUNCT	.	_	1	punct	_	start_char=129|end_char=130
+
+# text = Drink this.
+# sent_id = 8
+1	Drink	drink	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=131|end_char=136
+2	this	this	PRON	DT	Number=Sing|PronType=Dem	1	obj	_	start_char=137|end_char=141|SpaceAfter=No
+3	.	.	PUNCT	.	_	1	punct	_	start_char=141|end_char=142|SpacesAfter=\r\n
+
+# text = Thank you, mom.
+# sent_id = 9
+1	Thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=144|end_char=149
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	obj	_	start_char=150|end_char=153|SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	start_char=153|end_char=154
+4	mom	mom	NOUN	NN	Number=Sing	1	vocative	_	start_char=155|end_char=158|SpaceAfter=No
+5	.	.	PUNCT	.	_	1	punct	_	start_char=158|end_char=159|SpacesAfter=\r\n
+
+# text = I'll call the school.
+# sent_id = 10
+1-2	I'll	_	_	_	_	_	_	_	start_char=161|end_char=165
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=161|end_char=162
+2	'll	will	AUX	MD	VerbForm=Fin	3	aux	_	start_char=162|end_char=165
+3	call	call	VERB	VB	VerbForm=Inf	0	root	_	start_char=166|end_char=170
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=171|end_char=174
+5	school	school	NOUN	NN	Number=Sing	3	obj	_	start_char=175|end_char=181|SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	start_char=181|end_char=182
+
+# text = Try to rest, dear.
+# sent_id = 11
+1	Try	try	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	_	start_char=183|end_char=186
+2	to	to	PART	TO	_	3	mark	_	start_char=187|end_char=189
+3	rest	rest	VERB	VB	VerbForm=Inf	1	xcomp	_	start_char=190|end_char=194|SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	start_char=194|end_char=195
+5	dear	dear	ADJ	JJ	Degree=Pos	3	conj	_	start_char=196|end_char=200|SpaceAfter=No
+6	.	.	PUNCT	.	_	1	punct	_	start_char=200|end_char=201|SpaceAfter=No
+

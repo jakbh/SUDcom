@@ -1,0 +1,181 @@
+# text = Lulu's mom gave Lulu a pencil.
+# sent_id = 0
+1-2	Lulu's	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	Lulu	Lulu	PROPN	NNP	Number=Sing	3	nmod:poss	_	start_char=0|end_char=4
+2	's	's	PART	POS	_	1	case	_	start_char=4|end_char=6
+3	mom	mom	NOUN	NN	Number=Sing	4	nsubj	_	start_char=7|end_char=10
+4	gave	give	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=11|end_char=15
+5	Lulu	Lulu	PROPN	NNP	Number=Sing	4	iobj	_	start_char=16|end_char=20
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=21|end_char=22
+7	pencil	pencil	NOUN	NN	Number=Sing	4	obj	_	start_char=23|end_char=29|SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	start_char=29|end_char=30
+
+# text = It was a yellow pencil.
+# sent_id = 1
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=31|end_char=33
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	start_char=34|end_char=37
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=38|end_char=39
+4	yellow	yellow	ADJ	JJ	Degree=Pos	5	amod	_	start_char=40|end_char=46
+5	pencil	pencil	NOUN	NN	Number=Sing	0	root	_	start_char=47|end_char=53|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	start_char=53|end_char=54
+
+# text = It was a number two pencil.
+# sent_id = 2
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=55|end_char=57
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	start_char=58|end_char=61
+3	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=62|end_char=63
+4	number	number	NOUN	NN	Number=Sing	6	compound	_	start_char=64|end_char=70
+5	two	two	NUM	CD	NumForm=Word|NumType=Card	4	nummod	_	start_char=71|end_char=74
+6	pencil	pencil	NOUN	NN	Number=Sing	0	root	_	start_char=75|end_char=81|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	start_char=81|end_char=82
+
+# text = It had a pink eraser.
+# sent_id = 3
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=83|end_char=85
+2	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=86|end_char=89
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=90|end_char=91
+4	pink	pink	ADJ	JJ	Degree=Pos	5	amod	_	start_char=92|end_char=96
+5	eraser	eraser	NOUN	NN	Number=Sing	2	obj	_	start_char=97|end_char=103|SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	start_char=103|end_char=104
+
+# text = The eraser was small and round and pink.
+# sent_id = 4
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=105|end_char=108
+2	eraser	eraser	NOUN	NN	Number=Sing	4	nsubj	_	start_char=109|end_char=115
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	start_char=116|end_char=119
+4	small	small	ADJ	JJ	Degree=Pos	0	root	_	start_char=120|end_char=125
+5	and	and	CCONJ	CC	_	6	cc	_	start_char=126|end_char=129
+6	round	round	ADJ	JJ	Degree=Pos	4	conj	_	start_char=130|end_char=135
+7	and	and	CCONJ	CC	_	8	cc	_	start_char=136|end_char=139
+8	pink	pink	ADJ	JJ	Degree=Pos	4	conj	_	start_char=140|end_char=144|SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	start_char=144|end_char=145
+
+# text = Lulu's mom gave Lulu a piece of paper.
+# sent_id = 5
+1-2	Lulu's	_	_	_	_	_	_	_	start_char=146|end_char=152
+1	Lulu	Lulu	PROPN	NNP	Number=Sing	3	nmod:poss	_	start_char=146|end_char=150
+2	's	's	PART	POS	_	1	case	_	start_char=150|end_char=152
+3	mom	mom	NOUN	NN	Number=Sing	4	nsubj	_	start_char=153|end_char=156
+4	gave	give	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=157|end_char=161
+5	Lulu	Lulu	PROPN	NNP	Number=Sing	4	iobj	_	start_char=162|end_char=166
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=167|end_char=168
+7	piece	piece	NOUN	NN	Number=Sing	4	obj	_	start_char=169|end_char=174
+8	of	of	ADP	IN	_	9	case	_	start_char=175|end_char=177
+9	paper	paper	NOUN	NN	Number=Sing	7	nmod	_	start_char=178|end_char=183|SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	start_char=183|end_char=184
+
+# text = It was a white piece of paper.
+# sent_id = 6
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=185|end_char=187
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	start_char=188|end_char=191
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=192|end_char=193
+4	white	white	ADJ	JJ	Degree=Pos	5	amod	_	start_char=194|end_char=199
+5	piece	piece	NOUN	NN	Number=Sing	0	root	_	start_char=200|end_char=205
+6	of	of	ADP	IN	_	7	case	_	start_char=206|end_char=208
+7	paper	paper	NOUN	NN	Number=Sing	5	nmod	_	start_char=209|end_char=214|SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	start_char=214|end_char=215
+
+# text = There were blue lines on the white paper.
+# sent_id = 7
+1	There	there	PRON	EX	_	2	expl	_	start_char=216|end_char=221
+2	were	be	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=222|end_char=226
+3	blue	blue	ADJ	JJ	Degree=Pos	4	amod	_	start_char=227|end_char=231
+4	lines	line	NOUN	NNS	Number=Plur	2	nsubj	_	start_char=232|end_char=237
+5	on	on	ADP	IN	_	8	case	_	start_char=238|end_char=240
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=241|end_char=244
+7	white	white	ADJ	JJ	Degree=Pos	8	amod	_	start_char=245|end_char=250
+8	paper	paper	NOUN	NN	Number=Sing	4	nmod	_	start_char=251|end_char=256|SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	start_char=256|end_char=257
+
+# text = Lulu wrote a letter to her grandma.
+# sent_id = 8
+1	Lulu	Lulu	PROPN	NNP	Number=Sing	2	nsubj	_	start_char=258|end_char=262
+2	wrote	write	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=263|end_char=268
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	start_char=269|end_char=270
+4	letter	letter	NOUN	NN	Number=Sing	2	obj	_	start_char=271|end_char=277
+5	to	to	ADP	IN	_	7	case	_	start_char=278|end_char=280
+6	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	start_char=281|end_char=284
+7	grandma	grandma	NOUN	NN	Number=Sing	2	obl	_	start_char=285|end_char=292|SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	start_char=292|end_char=293
+
+# text = Her letter said, "Dear Grandma, Hello, I love you."
+# sent_id = 9
+1	Her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=294|end_char=297
+2	letter	letter	NOUN	NN	Number=Sing	3	nsubj	_	start_char=298|end_char=304
+3	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=305|end_char=309|SpaceAfter=No
+4	,	,	PUNCT	,	_	12	punct	_	start_char=309|end_char=310
+5	"	"	PUNCT	``	_	12	punct	_	start_char=311|end_char=312|SpaceAfter=No
+6	Dear	dear	ADJ	JJ	Degree=Pos	7	amod	_	start_char=312|end_char=316
+7	Grandma	Grandma	PROPN	NNP	Number=Sing	12	vocative	_	start_char=317|end_char=324|SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	_	start_char=324|end_char=325
+9	Hello	hello	INTJ	UH	_	7	discourse	_	start_char=326|end_char=331|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	start_char=331|end_char=332
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	start_char=333|end_char=334
+12	love	love	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	ccomp	_	start_char=335|end_char=339
+13	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	12	obj	_	start_char=340|end_char=343|SpaceAfter=No
+14	.	.	PUNCT	.	_	12	punct	_	start_char=343|end_char=344|SpaceAfter=No
+15	"	"	PUNCT	''	_	7	punct	_	start_char=344|end_char=345
+
+# text = Lulu told her mom she was done.
+# sent_id = 10
+1	Lulu	Lulu	PROPN	NNP	Number=Sing	2	nsubj	_	start_char=346|end_char=350
+2	told	tell	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=351|end_char=355
+3	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	start_char=356|end_char=359
+4	mom	mom	NOUN	NN	Number=Sing	2	iobj	_	start_char=360|end_char=363
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj:pass	_	start_char=364|end_char=367
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	_	start_char=368|end_char=371
+7	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	ccomp	_	start_char=372|end_char=376|SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	start_char=376|end_char=377
+
+# text = Her mom looked at the letter.
+# sent_id = 11
+1	Her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=378|end_char=381
+2	mom	mom	NOUN	NN	Number=Sing	3	nsubj	_	start_char=382|end_char=385
+3	looked	look	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=386|end_char=392
+4	at	at	ADP	IN	_	6	case	_	start_char=393|end_char=395
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=396|end_char=399
+6	letter	letter	NOUN	NN	Number=Sing	3	obl	_	start_char=400|end_char=406|SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	start_char=406|end_char=407
+
+# text = "This is a short letter," her mom said.
+# sent_id = 12
+1	"	"	PUNCT	``	_	6	punct	_	start_char=408|end_char=409|SpaceAfter=No
+2	This	this	PRON	DT	Number=Sing|PronType=Dem	6	nsubj	_	start_char=409|end_char=413
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=414|end_char=416
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=417|end_char=418
+5	short	short	ADJ	JJ	Degree=Pos	6	amod	_	start_char=419|end_char=424
+6	letter	letter	NOUN	NN	Number=Sing	11	ccomp	_	start_char=425|end_char=431|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	start_char=431|end_char=432|SpaceAfter=No
+8	"	"	PUNCT	''	_	6	punct	_	start_char=432|end_char=433
+9	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	start_char=434|end_char=437
+10	mom	mom	NOUN	NN	Number=Sing	11	nsubj	_	start_char=438|end_char=441
+11	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=442|end_char=446|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	punct	_	start_char=446|end_char=447
+
+# text = Lulu said, "Yes, Mom, it is a short letter.
+# sent_id = 13
+1	Lulu	Lulu	PROPN	NNP	Number=Sing	2	nsubj	_	start_char=448|end_char=452
+2	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=453|end_char=457|SpaceAfter=No
+3	,	,	PUNCT	,	_	13	punct	_	start_char=457|end_char=458
+4	"	"	PUNCT	``	_	13	punct	_	start_char=459|end_char=460|SpaceAfter=No
+5	Yes	yes	INTJ	UH	Polarity=Pos	13	discourse	_	start_char=460|end_char=463|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	start_char=463|end_char=464
+7	Mom	mom	NOUN	NN	Number=Sing	13	vocative	_	start_char=465|end_char=468|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	start_char=468|end_char=469
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	start_char=470|end_char=472
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	start_char=473|end_char=475
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	start_char=476|end_char=477
+12	short	short	ADJ	JJ	Degree=Pos	13	amod	_	start_char=478|end_char=483
+13	letter	letter	NOUN	NN	Number=Sing	2	ccomp	_	start_char=484|end_char=490|SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	start_char=490|end_char=491
+
+# text = It is short but sweet."
+# sent_id = 14
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=492|end_char=494
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=495|end_char=497
+3	short	short	ADJ	JJ	Degree=Pos	0	root	_	start_char=498|end_char=503
+4	but	but	CCONJ	CC	_	5	cc	_	start_char=504|end_char=507
+5	sweet	sweet	ADJ	JJ	Degree=Pos	3	conj	_	start_char=508|end_char=513|SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	start_char=513|end_char=514|SpaceAfter=No
+7	"	"	PUNCT	''	_	3	punct	_	start_char=514|end_char=515|SpaceAfter=No
+

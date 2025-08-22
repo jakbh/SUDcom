@@ -1,0 +1,213 @@
+# text = The man walked into a bank.
+# sent_id = 0
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=0|end_char=3
+2	man	man	NOUN	NN	Number=Sing	3	nsubj	_	start_char=4|end_char=7
+3	walked	walk	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=8|end_char=14
+4	into	into	ADP	IN	_	6	case	_	start_char=15|end_char=19
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=20|end_char=21
+6	bank	bank	NOUN	NN	Number=Sing	3	obl	_	start_char=22|end_char=26|SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	start_char=26|end_char=27
+
+# text = He wore a hoody.
+# sent_id = 1
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=28|end_char=30
+2	wore	wear	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=31|end_char=35
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	start_char=36|end_char=37
+4	hoody	hoody	NOUN	NN	Number=Sing	2	obj	_	start_char=38|end_char=43|SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	start_char=43|end_char=44
+
+# text = He wore gloves.
+# sent_id = 2
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=45|end_char=47
+2	wore	wear	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=48|end_char=52
+3	gloves	glove	NOUN	NNS	Number=Plur	2	obj	_	start_char=53|end_char=59|SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	start_char=59|end_char=60
+
+# text = It was summertime.
+# sent_id = 3
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=61|end_char=63
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	start_char=64|end_char=67
+3	summertime	summertime	NOUN	NN	Number=Sing	0	root	_	start_char=68|end_char=78|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	start_char=78|end_char=79
+
+# text = It was hot outside.
+# sent_id = 4
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=80|end_char=82
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	start_char=83|end_char=86
+3	hot	hot	ADJ	JJ	Degree=Pos	0	root	_	start_char=87|end_char=90
+4	outside	outside	ADV	RB	_	3	advmod	_	start_char=91|end_char=98|SpaceAfter=No
+5	.	.	PUNCT	.	_	3	punct	_	start_char=98|end_char=99
+
+# text = No one else was wearing a hoody.
+# sent_id = 5
+1	No	no	DET	DT	PronType=Neg	2	det	_	start_char=100|end_char=102
+2	one	one	PRON	NN	Number=Sing|PronType=Neg	5	nsubj	_	start_char=103|end_char=106
+3	else	else	ADJ	JJ	Degree=Pos	2	advmod	_	start_char=107|end_char=111
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	start_char=112|end_char=115
+5	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=116|end_char=123
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=124|end_char=125
+7	hoody	hoody	NOUN	NN	Number=Sing	5	obj	_	start_char=126|end_char=131|SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	start_char=131|end_char=132
+
+# text = No one else was wearing gloves.
+# sent_id = 6
+1	No	no	DET	DT	PronType=Neg	2	det	_	start_char=133|end_char=135
+2	one	one	PRON	NN	Number=Sing|PronType=Neg	5	nsubj	_	start_char=136|end_char=139
+3	else	else	ADJ	JJ	Degree=Pos	2	amod	_	start_char=140|end_char=144
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	start_char=145|end_char=148
+5	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=149|end_char=156
+6	gloves	glove	NOUN	NNS	Number=Plur	5	obj	_	start_char=157|end_char=163|SpaceAfter=No
+7	.	.	PUNCT	.	_	5	punct	_	start_char=163|end_char=164
+
+# text = The bank guard looked at the man.
+# sent_id = 7
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=165|end_char=168
+2	bank	bank	NOUN	NN	Number=Sing	3	compound	_	start_char=169|end_char=173
+3	guard	guard	NOUN	NN	Number=Sing	4	nsubj	_	start_char=174|end_char=179
+4	looked	look	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=180|end_char=186
+5	at	at	ADP	IN	_	7	case	_	start_char=187|end_char=189
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=190|end_char=193
+7	man	man	NOUN	NN	Number=Sing	4	obl	_	start_char=194|end_char=197|SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	start_char=197|end_char=198
+
+# text = "Why are you wearing a hoody?" the bank guard asked.
+# sent_id = 8
+1	"	"	PUNCT	``	_	5	punct	_	start_char=199|end_char=200|SpaceAfter=No
+2	Why	why	ADV	WRB	PronType=Int	5	advmod	_	start_char=200|end_char=203
+3	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=204|end_char=207
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	start_char=208|end_char=211
+5	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part	13	ccomp	_	start_char=212|end_char=219
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=220|end_char=221
+7	hoody	hoody	NOUN	NN	Number=Sing	5	obj	_	start_char=222|end_char=227|SpaceAfter=No
+8	?	?	PUNCT	.	_	5	punct	_	start_char=227|end_char=228|SpaceAfter=No
+9	"	"	PUNCT	''	_	5	punct	_	start_char=228|end_char=229
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=230|end_char=233
+11	bank	bank	NOUN	NN	Number=Sing	12	compound	_	start_char=234|end_char=238
+12	guard	guard	NOUN	NN	Number=Sing	13	nsubj	_	start_char=239|end_char=244
+13	asked	ask	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=245|end_char=250|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	punct	_	start_char=250|end_char=251
+
+# text = "Why are you wearing gloves?"
+# sent_id = 9
+1	"	"	PUNCT	``	_	5	punct	_	start_char=252|end_char=253|SpaceAfter=No
+2	Why	why	ADV	WRB	PronType=Int	5	advmod	_	start_char=253|end_char=256
+3	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=257|end_char=260
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	start_char=261|end_char=264
+5	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=265|end_char=272
+6	gloves	glove	NOUN	NNS	Number=Plur	5	obj	_	start_char=273|end_char=279|SpaceAfter=No
+7	?	?	PUNCT	.	_	5	punct	_	start_char=279|end_char=280|SpaceAfter=No
+8	"	"	PUNCT	''	_	5	punct	_	start_char=280|end_char=281
+
+# text = The man said he had a disease.
+# sent_id = 10
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=282|end_char=285
+2	man	man	NOUN	NN	Number=Sing	3	nsubj	_	start_char=286|end_char=289
+3	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=290|end_char=294
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=295|end_char=297
+5	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	ccomp	_	start_char=298|end_char=301
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=302|end_char=303
+7	disease	disease	NOUN	NN	Number=Sing	5	obj	_	start_char=304|end_char=311|SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	start_char=311|end_char=312
+
+# text = He had a contagious disease.
+# sent_id = 11
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=313|end_char=315
+2	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=316|end_char=319
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=320|end_char=321
+4	contagious	contagious	ADJ	JJ	Degree=Pos	5	amod	_	start_char=322|end_char=332
+5	disease	disease	NOUN	NN	Number=Sing	2	obj	_	start_char=333|end_char=340|SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	start_char=340|end_char=341
+
+# text = He coughed.
+# sent_id = 12
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=342|end_char=344
+2	coughed	cough	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=345|end_char=352|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	start_char=352|end_char=353
+
+# text = He coughed again.
+# sent_id = 13
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=354|end_char=356
+2	coughed	cough	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=357|end_char=364
+3	again	again	ADV	RB	_	2	advmod	_	start_char=365|end_char=370|SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	start_char=370|end_char=371
+
+# text = The bank guard backed away.
+# sent_id = 14
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=372|end_char=375
+2	bank	bank	NOUN	NN	Number=Sing	3	compound	_	start_char=376|end_char=380
+3	guard	guard	NOUN	NN	Number=Sing	4	nsubj	_	start_char=381|end_char=386
+4	backed	back	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=387|end_char=393
+5	away	away	ADV	RB	_	4	advmod	_	start_char=394|end_char=398|SpaceAfter=No
+6	.	.	PUNCT	.	_	4	punct	_	start_char=398|end_char=399
+
+# text = He did not want to get a disease.
+# sent_id = 15
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=400|end_char=402
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	start_char=403|end_char=406
+3	not	not	PART	RB	Polarity=Neg	4	advmod	_	start_char=407|end_char=410
+4	want	want	VERB	VB	VerbForm=Inf	0	root	_	start_char=411|end_char=415
+5	to	to	PART	TO	_	6	mark	_	start_char=416|end_char=418
+6	get	get	VERB	VB	VerbForm=Inf	4	xcomp	_	start_char=419|end_char=422
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=423|end_char=424
+8	disease	disease	NOUN	NN	Number=Sing	6	obj	_	start_char=425|end_char=432|SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	start_char=432|end_char=433
+
+# text = He stopped watching the man.
+# sent_id = 16
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=434|end_char=436
+2	stopped	stop	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=437|end_char=444
+3	watching	watch	VERB	VBG	VerbForm=Ger	2	xcomp	_	start_char=445|end_char=453
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=454|end_char=457
+5	man	man	NOUN	NN	Number=Sing	3	obj	_	start_char=458|end_char=461|SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	start_char=461|end_char=462
+
+# text = He watched other people enter the bank.
+# sent_id = 17
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=463|end_char=465
+2	watched	watch	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=466|end_char=473
+3	other	other	ADJ	JJ	Degree=Pos	4	amod	_	start_char=474|end_char=479
+4	people	person	NOUN	NNS	Number=Plur	2	obj	_	start_char=480|end_char=486
+5	enter	enter	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=487|end_char=492
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=493|end_char=496
+7	bank	bank	NOUN	NN	Number=Sing	5	obj	_	start_char=497|end_char=501|SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	start_char=501|end_char=502
+
+# text = He forgot about the man with the contagious disease.
+# sent_id = 18
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=503|end_char=505
+2	forgot	forget	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=506|end_char=512
+3	about	about	ADP	IN	_	5	case	_	start_char=513|end_char=518
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=519|end_char=522
+5	man	man	NOUN	NN	Number=Sing	2	obl	_	start_char=523|end_char=526
+6	with	with	ADP	IN	_	9	case	_	start_char=527|end_char=531
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=532|end_char=535
+8	contagious	contagious	ADJ	JJ	Degree=Pos	9	amod	_	start_char=536|end_char=546
+9	disease	disease	NOUN	NN	Number=Sing	5	nmod	_	start_char=547|end_char=554|SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	start_char=554|end_char=555
+
+# text = A few minutes later, the man ran out of the bank.
+# sent_id = 19
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	start_char=556|end_char=557
+2	few	few	ADJ	JJ	Degree=Pos	3	amod	_	start_char=558|end_char=561
+3	minutes	minute	NOUN	NNS	Number=Plur	4	obl:unmarked	_	start_char=562|end_char=569
+4	later	late	ADV	RBR	Degree=Cmp	8	advmod	_	start_char=570|end_char=575|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	start_char=575|end_char=576
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=577|end_char=580
+7	man	man	NOUN	NN	Number=Sing	8	nsubj	_	start_char=581|end_char=584
+8	ran	run	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=585|end_char=588
+9	out	out	ADP	IN	_	12	case	_	start_char=589|end_char=592
+10	of	of	ADP	IN	_	12	case	_	start_char=593|end_char=595
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=596|end_char=599
+12	bank	bank	NOUN	NN	Number=Sing	8	obl	_	start_char=600|end_char=604|SpaceAfter=No
+13	.	.	PUNCT	.	_	8	punct	_	start_char=604|end_char=605
+
+# text = He was carrying a money bag.
+# sent_id = 20
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=606|end_char=608
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	start_char=609|end_char=612
+3	carrying	carry	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=613|end_char=621
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=622|end_char=623
+5	money	money	NOUN	NN	Number=Sing	6	compound	_	start_char=624|end_char=629
+6	bag	bag	NOUN	NN	Number=Sing	3	obj	_	start_char=630|end_char=633|SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	start_char=633|end_char=634|SpaceAfter=No
+

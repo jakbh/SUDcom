@@ -1,0 +1,84 @@
+# text = Are we going to the park today, mom?
+# sent_id = 0
+1	Are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=0|end_char=3
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=4|end_char=6
+3	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=7|end_char=12
+4	to	to	ADP	IN	_	6	case	_	start_char=13|end_char=15
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=16|end_char=19
+6	park	park	NOUN	NN	Number=Sing	3	obl	_	start_char=20|end_char=24
+7	today	today	NOUN	NN	Number=Sing	3	obl:unmarked	_	start_char=25|end_char=30|SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	_	start_char=30|end_char=31
+9	mom	mom	NOUN	NN	Number=Sing	3	vocative	_	start_char=32|end_char=35|SpaceAfter=No
+10	?	?	PUNCT	.	_	3	punct	_	start_char=35|end_char=36|SpacesAfter=\r\n
+
+# text = Of course we will, David.
+# sent_id = 1
+1	Of	of	ADP	IN	ExtPos=ADV	4	advmod	_	start_char=38|end_char=40
+2	course	course	NOUN	NN	Number=Sing	1	fixed	_	start_char=41|end_char=47
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	start_char=48|end_char=50
+4	will	will	AUX	MD	VerbForm=Fin	0	root	_	start_char=51|end_char=55|SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	start_char=55|end_char=56
+6	David	David	PROPN	NNP	Number=Sing	4	vocative	_	start_char=57|end_char=62|SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	start_char=62|end_char=63|SpacesAfter=\r\n
+
+# text = When can we go?
+# sent_id = 2
+1	When	when	ADV	WRB	PronType=Int	4	advmod	_	start_char=65|end_char=69
+2	can	can	AUX	MD	VerbForm=Fin	4	aux	_	start_char=70|end_char=73
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	start_char=74|end_char=76
+4	go	go	VERB	VB	VerbForm=Inf	0	root	_	start_char=77|end_char=79|SpaceAfter=No
+5	?	?	PUNCT	.	_	4	punct	_	start_char=79|end_char=80|SpacesAfter=\r\n
+
+# text = After our chores are done.
+# sent_id = 3
+1	After	after	SCONJ	IN	_	5	mark	_	start_char=82|end_char=87
+2	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	start_char=88|end_char=91
+3	chores	chore	NOUN	NNS	Number=Plur	5	nsubj:pass	_	start_char=92|end_char=98
+4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	start_char=99|end_char=102
+5	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=103|end_char=107|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	start_char=107|end_char=108|SpacesAfter=\r\n
+
+# text = Okay.
+# sent_id = 4
+1	Okay	okay	INTJ	UH	_	0	root	_	start_char=110|end_char=114|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	_	start_char=114|end_char=115
+
+# text = What should I do?
+# sent_id = 5
+1	What	what	PRON	WP	PronType=Int	4	obj	_	start_char=116|end_char=120
+2	should	should	AUX	MD	VerbForm=Fin	4	aux	_	start_char=121|end_char=127
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=128|end_char=129
+4	do	do	VERB	VB	VerbForm=Inf	0	root	_	start_char=130|end_char=132|SpaceAfter=No
+5	?	?	PUNCT	.	_	4	punct	_	start_char=132|end_char=133|SpacesAfter=\r\n
+
+# text = First, finish your homework.
+# sent_id = 6
+1	First	first	ADV	RB	Degree=Pos|NumForm=Word|NumType=Ord	3	advmod	_	start_char=135|end_char=140|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=140|end_char=141
+3	finish	finish	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=142|end_char=148
+4	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=149|end_char=153
+5	homework	homework	NOUN	NN	Number=Sing	3	obj	_	start_char=154|end_char=162|SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	start_char=162|end_char=163|SpacesAfter=\r\n
+
+# text = I am already finished, mom.
+# sent_id = 7
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj:pass	_	start_char=165|end_char=166
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux:pass	_	start_char=167|end_char=169
+3	already	already	ADV	RB	_	4	advmod	_	start_char=170|end_char=177
+4	finished	finish	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=178|end_char=186|SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	start_char=186|end_char=187
+6	mom	mom	NOUN	NN	Number=Sing	4	vocative	_	start_char=188|end_char=191|SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	start_char=191|end_char=192|SpacesAfter=\r\n
+
+# text = Clean your room, and we can go.
+# sent_id = 8
+1	Clean	clean	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=194|end_char=199
+2	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	3	nmod:poss	_	start_char=200|end_char=204
+3	room	room	NOUN	NN	Number=Sing	1	obj	_	start_char=205|end_char=209|SpaceAfter=No
+4	,	,	PUNCT	,	_	8	punct	_	start_char=209|end_char=210
+5	and	and	CCONJ	CC	_	8	cc	_	start_char=211|end_char=214
+6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	start_char=215|end_char=217
+7	can	can	AUX	MD	VerbForm=Fin	8	aux	_	start_char=218|end_char=221
+8	go	go	VERB	VB	VerbForm=Inf	1	conj	_	start_char=222|end_char=224|SpaceAfter=No
+9	.	.	PUNCT	.	_	1	punct	_	start_char=224|end_char=225|SpaceAfter=No
+

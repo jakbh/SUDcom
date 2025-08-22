@@ -1,0 +1,80 @@
+# text = Let's play in the pool, Helen.
+# sent_id = 0
+1-2	Let's	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=0|end_char=3
+2	's	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	obj	_	start_char=3|end_char=5
+3	play	play	VERB	VB	VerbForm=Inf	1	xcomp	_	start_char=6|end_char=10
+4	in	in	ADP	IN	_	6	case	_	start_char=11|end_char=13
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=14|end_char=17
+6	pool	pool	NOUN	NN	Number=Sing	3	obl	_	start_char=18|end_char=22|SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	start_char=22|end_char=23
+8	Helen	Helen	PROPN	NNP	Number=Sing	6	appos	_	start_char=24|end_char=29|SpaceAfter=No
+9	.	.	PUNCT	.	_	1	punct	_	start_char=29|end_char=30|SpacesAfter=\r\n
+
+# text = Okay, Linda.
+# sent_id = 1
+1	Okay	okay	INTJ	UH	_	3	discourse	_	start_char=32|end_char=36|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=36|end_char=37
+3	Linda	Linda	PROPN	NNP	Number=Sing	0	root	_	start_char=38|end_char=43|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	start_char=43|end_char=44|SpacesAfter=\s\r\n
+
+# text = It's fun.
+# sent_id = 2
+1-2	It's	_	_	_	_	_	_	_	start_char=47|end_char=51
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=47|end_char=49
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=49|end_char=51
+3	fun	fun	ADJ	JJ	Degree=Pos	0	root	_	start_char=52|end_char=55|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	start_char=55|end_char=56|SpacesAfter=\r\n
+
+# text = It's so hot today.
+# sent_id = 3
+1-2	It's	_	_	_	_	_	_	_	start_char=58|end_char=62
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=58|end_char=60
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=60|end_char=62
+3	so	so	ADV	RB	_	4	advmod	_	start_char=63|end_char=65
+4	hot	hot	ADJ	JJ	Degree=Pos	0	root	_	start_char=66|end_char=69
+5	today	today	NOUN	NN	Number=Sing	4	obl:unmarked	_	start_char=70|end_char=75|SpaceAfter=No
+6	.	.	PUNCT	.	_	4	punct	_	start_char=75|end_char=76|SpacesAfter=\r\n
+
+# text = Not in the pool.
+# sent_id = 4
+1	Not	not	PART	RB	Polarity=Neg	4	advmod	_	start_char=78|end_char=81
+2	in	in	ADP	IN	_	4	case	_	start_char=82|end_char=84
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=85|end_char=88
+4	pool	pool	NOUN	NN	Number=Sing	0	root	_	start_char=89|end_char=93|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	start_char=93|end_char=94|SpacesAfter=\r\n
+
+# text = I know.
+# sent_id = 5
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=96|end_char=97
+2	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=98|end_char=102|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	start_char=102|end_char=103
+
+# text = I like it here.
+# sent_id = 6
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=104|end_char=105
+2	like	like	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=106|end_char=110
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	start_char=111|end_char=113
+4	here	here	ADV	RB	PronType=Dem	2	advmod	_	start_char=114|end_char=118|SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	start_char=118|end_char=119|SpacesAfter=\r\n
+
+# text = We can do this every day.
+# sent_id = 7
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=121|end_char=123
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	start_char=124|end_char=127
+3	do	do	VERB	VB	VerbForm=Inf	0	root	_	start_char=128|end_char=130
+4	this	this	PRON	DT	Number=Sing|PronType=Dem	3	obj	_	start_char=131|end_char=135
+5	every	every	DET	DT	PronType=Tot	6	det	_	start_char=136|end_char=141
+6	day	day	NOUN	NN	Number=Sing	3	obl:unmarked	_	start_char=142|end_char=145|SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	start_char=145|end_char=146|SpacesAfter=\r\n
+
+# text = Sure, we can, Linda.
+# sent_id = 8
+1	Sure	sure	INTJ	UH	_	4	discourse	_	start_char=148|end_char=152|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=152|end_char=153
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	start_char=154|end_char=156
+4	can	can	AUX	MD	VerbForm=Fin	0	root	_	start_char=157|end_char=160|SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	start_char=160|end_char=161
+6	Linda	Linda	PROPN	NNP	Number=Sing	4	vocative	_	start_char=162|end_char=167|SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	start_char=167|end_char=168|SpaceAfter=No
+

@@ -1,0 +1,129 @@
+# text = From: Arina Marat, HR Assistant To: Jane Claret Subject: Your appointment on 14 March Dear Ms Claret, Thank you for your email.
+# sent_id = 0
+1	From	from	ADP	IN	_	3	case	_	start_char=0|end_char=4|SpaceAfter=No
+2	:	:	PUNCT	:	_	1	punct	_	start_char=4|end_char=5
+3	Arina	Arina	PROPN	NNP	Number=Sing	23	obl	_	start_char=6|end_char=11
+4	Marat	Marat	PROPN	NNP	Number=Sing	3	flat	_	start_char=12|end_char=17|SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	start_char=17|end_char=18
+6	HR	HR	NOUN	NN	Number=Sing	7	compound	_	start_char=19|end_char=21
+7	Assistant	assistant	NOUN	NN	Number=Sing	3	list	_	start_char=22|end_char=31|SpacesAfter=\r\n
+8	To	to	ADP	IN	_	10	case	_	start_char=33|end_char=35|SpaceAfter=No
+9	:	:	PUNCT	:	_	8	punct	_	start_char=35|end_char=36
+10	Jane	Jane	PROPN	NNP	Number=Sing	3	nmod	_	start_char=37|end_char=41
+11	Claret	Claret	PROPN	NNP	Number=Sing	10	flat	_	start_char=42|end_char=48|SpacesAfter=\r\n
+12	Subject	subject	PROPN	NNP	Number=Sing	10	flat	_	start_char=50|end_char=57|SpaceAfter=No
+13	:	:	PUNCT	:	_	15	punct	_	start_char=57|end_char=58
+14	Your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	15	nmod:poss	_	start_char=59|end_char=63
+15	appointment	appointment	NOUN	NN	Number=Sing	3	appos	_	start_char=64|end_char=75
+16	on	on	ADP	IN	_	18	case	_	start_char=76|end_char=78
+17	14	14	NUM	CD	NumForm=Digit|NumType=Card	18	nummod	_	start_char=79|end_char=81
+18	March	March	PROPN	NNP	Number=Sing	15	nmod	_	start_char=82|end_char=87|SpacesAfter=\r\n
+19	Dear	dear	ADJ	JJ	Degree=Pos	20	amod	_	start_char=89|end_char=93
+20	Ms	Ms	PROPN	NNP	Number=Sing	15	nmod	_	start_char=94|end_char=96
+21	Claret	Claret	PROPN	NNP	Number=Sing	20	flat	_	start_char=97|end_char=103|SpaceAfter=No
+22	,	,	PUNCT	,	_	3	punct	_	start_char=103|end_char=104|SpacesAfter=\r\n
+23	Thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=106|end_char=111
+24	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	23	obj	_	start_char=112|end_char=115
+25	for	for	ADP	IN	_	27	case	_	start_char=116|end_char=119
+26	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	27	nmod:poss	_	start_char=120|end_char=124
+27	email	email	NOUN	NN	Number=Sing	23	obl	_	start_char=125|end_char=130|SpaceAfter=No
+28	.	.	PUNCT	.	_	23	punct	_	start_char=130|end_char=131|SpacesAfter=\r\n
+
+# text = I am writing to confirm your appointment with our HR manager, Mrs Sofia Aronov.
+# sent_id = 1
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=133|end_char=134
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=135|end_char=137
+3	writing	write	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=138|end_char=145
+4	to	to	PART	TO	_	5	mark	_	start_char=146|end_char=148
+5	confirm	confirm	VERB	VB	VerbForm=Inf	3	xcomp	_	start_char=149|end_char=156
+6	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	7	nmod:poss	_	start_char=157|end_char=161
+7	appointment	appointment	NOUN	NN	Number=Sing	5	obj	_	start_char=162|end_char=173
+8	with	with	ADP	IN	_	11	case	_	start_char=174|end_char=178
+9	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	start_char=179|end_char=182
+10	HR	HR	NOUN	NN	Number=Sing	11	compound	_	start_char=183|end_char=185
+11	manager	manager	NOUN	NN	Number=Sing	7	nmod	_	start_char=186|end_char=193|SpaceAfter=No
+12	,	,	PUNCT	,	_	13	punct	_	start_char=193|end_char=194
+13	Mrs	Mrs	PROPN	NNP	Number=Sing	11	appos	_	start_char=195|end_char=198
+14	Sofia	Sofia	PROPN	NNP	Number=Sing	13	flat	_	start_char=199|end_char=204
+15	Aronov	Aronov	PROPN	NNP	Number=Sing	13	flat	_	start_char=205|end_char=211|SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	start_char=211|end_char=212|SpacesAfter=\r\n
+
+# text = Your appointment will take place at 3 p.m. on Thursday 14 March at our Astana offices in Emerald Towers.
+# sent_id = 2
+1	Your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=214|end_char=218
+2	appointment	appointment	NOUN	NN	Number=Sing	4	nsubj	_	start_char=219|end_char=230
+3	will	will	AUX	MD	VerbForm=Fin	4	aux	_	start_char=231|end_char=235
+4	take	take	VERB	VB	VerbForm=Inf	0	root	_	start_char=236|end_char=240
+5	place	place	NOUN	NN	Number=Sing	4	obj	_	start_char=241|end_char=246
+6	at	at	ADP	IN	_	8	case	_	start_char=247|end_char=249
+7	3	3	NUM	CD	NumForm=Digit|NumType=Card	8	nummod	_	start_char=250|end_char=251
+8	p.m.	p.m.	NOUN	NN	Number=Sing	4	obl	_	start_char=252|end_char=256
+9	on	on	ADP	IN	_	10	case	_	start_char=257|end_char=259
+10	Thursday	Thursday	PROPN	NNP	Number=Sing	4	obl	_	start_char=260|end_char=268
+11	14	14	NUM	CD	NumForm=Digit|NumType=Card	10	nummod	_	start_char=269|end_char=271
+12	March	March	PROPN	NNP	Number=Sing	10	nmod:unmarked	_	start_char=272|end_char=277
+13	at	at	ADP	IN	_	16	case	_	start_char=278|end_char=280
+14	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	_	start_char=281|end_char=284
+15	Astana	Astana	PROPN	NNP	Number=Sing	16	compound	_	start_char=285|end_char=291
+16	offices	office	NOUN	NNS	Number=Plur	4	obl	_	start_char=292|end_char=299
+17	in	in	ADP	IN	_	19	case	_	start_char=300|end_char=302
+18	Emerald	Emerald	PROPN	NNP	Number=Sing	19	compound	_	start_char=303|end_char=310
+19	Towers	Towers	PROPN	NNPS	Number=Plur	16	nmod	_	start_char=311|end_char=317|SpaceAfter=No
+20	.	.	PUNCT	.	_	4	punct	_	start_char=317|end_char=318|SpacesAfter=\s\r\n
+
+# text = When you arrive, please go to the reception on the 26th floor and ask for me.
+# sent_id = 3
+1	When	when	ADV	WRB	PronType=Int	3	advmod	_	start_char=321|end_char=325
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=326|end_char=329
+3	arrive	arrive	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	advcl	_	start_char=330|end_char=336|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	start_char=336|end_char=337
+5	please	please	INTJ	UH	_	6	discourse	_	start_char=338|end_char=344
+6	go	go	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=345|end_char=347
+7	to	to	ADP	IN	_	9	case	_	start_char=348|end_char=350
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=351|end_char=354
+9	reception	reception	NOUN	NN	Number=Sing	6	obl	_	start_char=355|end_char=364
+10	on	on	ADP	IN	_	13	case	_	start_char=365|end_char=367
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	start_char=368|end_char=371
+12	26th	26th	ADJ	JJ	Degree=Pos|NumForm=Combi|NumType=Ord	13	amod	_	start_char=372|end_char=376
+13	floor	floor	NOUN	NN	Number=Sing	9	nmod	_	start_char=377|end_char=382
+14	and	and	CCONJ	CC	_	15	cc	_	start_char=383|end_char=386
+15	ask	ask	VERB	VB	Mood=Imp|VerbForm=Fin	6	conj	_	start_char=387|end_char=390
+16	for	for	ADP	IN	_	17	case	_	start_char=391|end_char=394
+17	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	15	obl	_	start_char=395|end_char=397|SpaceAfter=No
+18	.	.	PUNCT	.	_	6	punct	_	start_char=397|end_char=398
+
+# text = I will take you to Mrs Aronov's office.
+# sent_id = 4
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=399|end_char=400
+2	will	will	AUX	MD	VerbForm=Fin	3	aux	_	start_char=401|end_char=405
+3	take	take	VERB	VB	VerbForm=Inf	0	root	_	start_char=406|end_char=410
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	obj	_	start_char=411|end_char=414
+5	to	to	ADP	IN	_	9	case	_	start_char=415|end_char=417
+6	Mrs	Mrs	PROPN	NNP	Number=Sing	9	nmod:poss	_	start_char=418|end_char=421
+7-8	Aronov's	_	_	_	_	_	_	_	start_char=422|end_char=430
+7	Aronov	Aronov	PROPN	NNP	Number=Sing	6	flat	_	start_char=422|end_char=428
+8	's	's	PART	POS	_	6	case	_	start_char=428|end_char=430
+9	office	office	NOUN	NN	Number=Sing	3	obl	_	start_char=431|end_char=437|SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	start_char=437|end_char=438|SpacesAfter=\s\r\n
+
+# text = We look forward to meeting you soon.
+# sent_id = 5
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=441|end_char=443
+2	look	look	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=444|end_char=448
+3	forward	forward	ADV	RB	_	2	advmod	_	start_char=449|end_char=456
+4	to	to	SCONJ	IN	_	5	mark	_	start_char=457|end_char=459
+5	meeting	meet	VERB	VBG	Tense=Pres|VerbForm=Part	2	advcl	_	start_char=460|end_char=467
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	obj	_	start_char=468|end_char=471
+7	soon	soon	ADV	RB	Degree=Pos	5	advmod	_	start_char=472|end_char=476|SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	start_char=476|end_char=477|SpacesAfter=\r\n
+
+# text = Best regards, Arina Marat HR Assistant
+# sent_id = 6
+1	Best	good	ADJ	JJS	Degree=Sup	2	amod	_	start_char=479|end_char=483
+2	regards	regards	NOUN	NNS	Number=Ptan	0	root	_	start_char=484|end_char=491|SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	start_char=491|end_char=492|SpacesAfter=\r\n
+4	Arina	Arina	PROPN	NNP	Number=Sing	2	appos	_	start_char=494|end_char=499
+5	Marat	Marat	PROPN	NNP	Number=Sing	4	flat	_	start_char=500|end_char=505|SpacesAfter=\r\n
+6	HR	HR	NOUN	NN	Number=Sing	7	compound	_	start_char=507|end_char=509
+7	Assistant	assistant	NOUN	NN	Number=Sing	4	appos	_	start_char=510|end_char=519|SpaceAfter=No
+

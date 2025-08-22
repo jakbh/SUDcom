@@ -1,0 +1,202 @@
+# text = Susan didn't like the color of her hair.
+# sent_id = 0
+1	Susan	Susan	PROPN	NNP	Number=Sing	4	nsubj	_	start_char=0|end_char=5
+2-3	didn't	_	_	_	_	_	_	_	start_char=6|end_char=12
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	start_char=6|end_char=9
+3	n't	not	PART	RB	Polarity=Neg	4	advmod	_	start_char=9|end_char=12
+4	like	like	VERB	VB	VerbForm=Inf	0	root	_	start_char=13|end_char=17
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=18|end_char=21
+6	color	color	NOUN	NN	Number=Sing	4	obj	_	start_char=22|end_char=27
+7	of	of	ADP	IN	_	9	case	_	start_char=28|end_char=30
+8	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	start_char=31|end_char=34
+9	hair	hair	NOUN	NN	Number=Sing	6	nmod	_	start_char=35|end_char=39|SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	start_char=39|end_char=40
+
+# text = Her hair was changing color.
+# sent_id = 1
+1	Her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=41|end_char=44
+2	hair	hair	NOUN	NN	Number=Sing	4	nsubj	_	start_char=45|end_char=49
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	start_char=50|end_char=53
+4	changing	change	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=54|end_char=62
+5	color	color	NOUN	NN	Number=Sing	4	obj	_	start_char=63|end_char=68|SpaceAfter=No
+6	.	.	PUNCT	.	_	4	punct	_	start_char=68|end_char=69
+
+# text = It used to be all black.
+# sent_id = 2
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=70|end_char=72
+2	used	use	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=73|end_char=77
+3	to	to	PART	TO	_	6	mark	_	start_char=78|end_char=80
+4	be	be	AUX	VB	VerbForm=Inf	6	cop	_	start_char=81|end_char=83
+5	all	all	DET	DT	PronType=Tot	6	det	_	start_char=84|end_char=87
+6	black	black	ADJ	JJ	Degree=Pos	2	xcomp	_	start_char=88|end_char=93|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	start_char=93|end_char=94
+
+# text = But now it was turning gray.
+# sent_id = 3
+1	But	but	CCONJ	CC	_	5	cc	_	start_char=95|end_char=98
+2	now	now	ADV	RB	_	5	advmod	_	start_char=99|end_char=102
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=103|end_char=105
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	start_char=106|end_char=109
+5	turning	turn	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=110|end_char=117
+6	gray	gray	ADJ	JJ	Degree=Pos	5	xcomp	_	start_char=118|end_char=122|SpaceAfter=No
+7	.	.	PUNCT	.	_	5	punct	_	start_char=122|end_char=123
+
+# text = She didn't like the gray hair.
+# sent_id = 4
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=124|end_char=127
+2-3	didn't	_	_	_	_	_	_	_	start_char=128|end_char=134
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	start_char=128|end_char=131
+3	n't	not	PART	RB	Polarity=Neg	4	advmod	_	start_char=131|end_char=134
+4	like	like	VERB	VB	VerbForm=Inf	0	root	_	start_char=135|end_char=139
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=140|end_char=143
+6	gray	gray	ADJ	JJ	Degree=Pos	7	amod	_	start_char=144|end_char=148
+7	hair	hair	NOUN	NN	Number=Sing	4	obj	_	start_char=149|end_char=153|SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	start_char=153|end_char=154
+
+# text = Gray hair made her look older.
+# sent_id = 5
+1	Gray	Gray	ADJ	JJ	Degree=Pos	2	amod	_	start_char=155|end_char=159
+2	hair	hair	NOUN	NN	Number=Sing	3	nsubj	_	start_char=160|end_char=164
+3	made	make	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=165|end_char=169
+4	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	start_char=170|end_char=173
+5	look	look	VERB	VB	VerbForm=Inf	3	xcomp	_	start_char=174|end_char=178
+6	older	old	ADJ	JJR	Degree=Cmp	5	xcomp	_	start_char=179|end_char=184|SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	start_char=184|end_char=185
+
+# text = She didn't want to look older.
+# sent_id = 6
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=186|end_char=189
+2-3	didn't	_	_	_	_	_	_	_	start_char=190|end_char=196
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	start_char=190|end_char=193
+3	n't	not	PART	RB	Polarity=Neg	4	advmod	_	start_char=193|end_char=196
+4	want	want	VERB	VB	VerbForm=Inf	0	root	_	start_char=197|end_char=201
+5	to	to	PART	TO	_	6	mark	_	start_char=202|end_char=204
+6	look	look	VERB	VB	VerbForm=Inf	4	xcomp	_	start_char=205|end_char=209
+7	older	old	ADJ	JJR	Degree=Cmp	6	xcomp	_	start_char=210|end_char=215|SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	start_char=215|end_char=216
+
+# text = She made an appointment with the beauty salon.
+# sent_id = 7
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=217|end_char=220
+2	made	make	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=221|end_char=225
+3	an	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	start_char=226|end_char=228
+4	appointment	appointment	NOUN	NN	Number=Sing	2	obj	_	start_char=229|end_char=240
+5	with	with	ADP	IN	_	8	case	_	start_char=241|end_char=245
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=246|end_char=249
+7	beauty	beauty	NOUN	NN	Number=Sing	8	compound	_	start_char=250|end_char=256
+8	salon	salon	NOUN	NN	Number=Sing	4	nmod	_	start_char=257|end_char=262|SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	start_char=262|end_char=263
+
+# text = A week later, she went to the beauty salon.
+# sent_id = 8
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	start_char=264|end_char=265
+2	week	week	NOUN	NN	Number=Sing	3	obl:unmarked	_	start_char=266|end_char=270
+3	later	late	ADV	RBR	Degree=Cmp	6	advmod	_	start_char=271|end_char=276|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	start_char=276|end_char=277
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=278|end_char=281
+6	went	go	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=282|end_char=286
+7	to	to	ADP	IN	_	10	case	_	start_char=287|end_char=289
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=290|end_char=293
+9	beauty	beauty	NOUN	NN	Number=Sing	10	compound	_	start_char=294|end_char=300
+10	salon	salon	NOUN	NN	Number=Sing	6	obl	_	start_char=301|end_char=306|SpaceAfter=No
+11	.	.	PUNCT	.	_	6	punct	_	start_char=306|end_char=307
+
+# text = The hairdresser colored Susan's hair.
+# sent_id = 9
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=308|end_char=311
+2	hairdresser	hairdresser	NOUN	NN	Number=Sing	3	nsubj	_	start_char=312|end_char=323
+3	colored	color	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=324|end_char=331
+4-5	Susan's	_	_	_	_	_	_	_	start_char=332|end_char=339
+4	Susan	Susan	PROPN	NNP	Number=Sing	6	nmod:poss	_	start_char=332|end_char=337
+5	's	's	PART	POS	_	4	case	_	start_char=337|end_char=339
+6	hair	hair	NOUN	NN	Number=Sing	3	obj	_	start_char=340|end_char=344|SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	start_char=344|end_char=345
+
+# text = She added a little bit of purple color to Susan's hair.
+# sent_id = 10
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=346|end_char=349
+2	added	add	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=350|end_char=355
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=356|end_char=357
+4	little	little	ADJ	JJ	Degree=Pos	5	amod	_	start_char=358|end_char=364
+5	bit	bit	NOUN	NN	Number=Sing	2	obj	_	start_char=365|end_char=368
+6	of	of	ADP	IN	_	8	case	_	start_char=369|end_char=371
+7	purple	purple	ADJ	JJ	Degree=Pos	8	amod	_	start_char=372|end_char=378
+8	color	color	NOUN	NN	Number=Sing	5	nmod	_	start_char=379|end_char=384
+9	to	to	ADP	IN	_	12	case	_	start_char=385|end_char=387
+10-11	Susan's	_	_	_	_	_	_	_	start_char=388|end_char=395
+10	Susan	Susan	PROPN	NNP	Number=Sing	12	nmod:poss	_	start_char=388|end_char=393
+11	's	's	PART	POS	_	10	case	_	start_char=393|end_char=395
+12	hair	hair	NOUN	NN	Number=Sing	2	obl	_	start_char=396|end_char=400|SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	start_char=400|end_char=401
+
+# text = When the hairdresser finished, Susan looked at her hair.
+# sent_id = 11
+1	When	when	ADV	WRB	PronType=Int	4	advmod	_	start_char=402|end_char=406
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=407|end_char=410
+3	hairdresser	hairdresser	NOUN	NN	Number=Sing	4	nsubj	_	start_char=411|end_char=422
+4	finished	finish	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	advcl	_	start_char=423|end_char=431|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	start_char=431|end_char=432
+6	Susan	Susan	PROPN	NNP	Number=Sing	7	nsubj	_	start_char=433|end_char=438
+7	looked	look	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=439|end_char=445
+8	at	at	ADP	IN	_	10	case	_	start_char=446|end_char=448
+9	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	start_char=449|end_char=452
+10	hair	hair	NOUN	NN	Number=Sing	7	obl	_	start_char=453|end_char=457|SpaceAfter=No
+11	.	.	PUNCT	.	_	7	punct	_	start_char=457|end_char=458
+
+# text = She liked it.
+# sent_id = 12
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=459|end_char=462
+2	liked	like	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=463|end_char=468
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	start_char=469|end_char=471|SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	start_char=471|end_char=472
+
+# text = She couldn't see any gray hair.
+# sent_id = 13
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=473|end_char=476
+2-3	couldn't	_	_	_	_	_	_	_	start_char=477|end_char=485
+2	could	could	AUX	MD	VerbForm=Fin	4	aux	_	start_char=477|end_char=482
+3	n't	not	PART	RB	Polarity=Neg	4	advmod	_	start_char=482|end_char=485
+4	see	see	VERB	VB	VerbForm=Inf	0	root	_	start_char=486|end_char=489
+5	any	any	DET	DT	PronType=Ind	7	det	_	start_char=490|end_char=493
+6	gray	gray	ADJ	JJ	Degree=Pos	7	amod	_	start_char=494|end_char=498
+7	hair	hair	NOUN	NN	Number=Sing	4	obj	_	start_char=499|end_char=503|SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	start_char=503|end_char=504
+
+# text = All she could see was black hair with a little bit of purple tint.
+# sent_id = 14
+1	All	all	DET	DT	PronType=Tot	7	nsubj	_	start_char=505|end_char=508
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=509|end_char=512
+3	could	could	AUX	MD	VerbForm=Fin	4	aux	_	start_char=513|end_char=518
+4	see	see	VERB	VB	VerbForm=Inf	1	acl:relcl	_	start_char=519|end_char=522
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	start_char=523|end_char=526
+6	black	black	ADJ	JJ	Degree=Pos	7	amod	_	start_char=527|end_char=532
+7	hair	hair	NOUN	NN	Number=Sing	0	root	_	start_char=533|end_char=537
+8	with	with	ADP	IN	_	11	case	_	start_char=538|end_char=542
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	start_char=543|end_char=544
+10	little	little	ADJ	JJ	Degree=Pos	11	amod	_	start_char=545|end_char=551
+11	bit	bit	NOUN	NN	Number=Sing	7	nmod	_	start_char=552|end_char=555
+12	of	of	ADP	IN	_	14	case	_	start_char=556|end_char=558
+13	purple	purple	ADJ	JJ	Degree=Pos	14	amod	_	start_char=559|end_char=565
+14	tint	tint	NOUN	NN	Number=Sing	11	nmod	_	start_char=566|end_char=570|SpaceAfter=No
+15	.	.	PUNCT	.	_	7	punct	_	start_char=570|end_char=571
+
+# text = The purple tint looked nice.
+# sent_id = 15
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=572|end_char=575
+2	purple	purple	ADJ	JJ	Degree=Pos	3	amod	_	start_char=576|end_char=582
+3	tint	tint	NOUN	NN	Number=Sing	4	nsubj	_	start_char=583|end_char=587
+4	looked	look	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=588|end_char=594
+5	nice	nice	ADJ	JJ	Degree=Pos	4	xcomp	_	start_char=595|end_char=599|SpaceAfter=No
+6	.	.	PUNCT	.	_	4	punct	_	start_char=599|end_char=600
+
+# text = Susan hoped her boyfriend would like it.
+# sent_id = 16
+1	Susan	Susan	PROPN	NNP	Number=Sing	2	nsubj	_	start_char=601|end_char=606
+2	hoped	hope	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=607|end_char=612
+3	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	start_char=613|end_char=616
+4	boyfriend	boyfriend	NOUN	NN	Number=Sing	6	nsubj	_	start_char=617|end_char=626
+5	would	would	AUX	MD	VerbForm=Fin	6	aux	_	start_char=627|end_char=632
+6	like	like	VERB	VB	VerbForm=Inf	2	ccomp	_	start_char=633|end_char=637
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	obj	_	start_char=638|end_char=640|SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	start_char=640|end_char=641|SpaceAfter=No
+

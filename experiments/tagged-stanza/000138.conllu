@@ -1,0 +1,259 @@
+# text = The fox was brown.
+# sent_id = 0
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=0|end_char=3
+2	fox	fox	NOUN	NN	Number=Sing	4	nsubj	_	start_char=4|end_char=7
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	start_char=8|end_char=11
+4	brown	brown	ADJ	JJ	Degree=Pos	0	root	_	start_char=12|end_char=17|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	start_char=17|end_char=18
+
+# text = The fox was quick.
+# sent_id = 1
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=19|end_char=22
+2	fox	fox	NOUN	NN	Number=Sing	4	nsubj	_	start_char=23|end_char=26
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	start_char=27|end_char=30
+4	quick	quick	ADJ	JJ	Degree=Pos	0	root	_	start_char=31|end_char=36|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	start_char=36|end_char=37
+
+# text = The dog was brown.
+# sent_id = 2
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=38|end_char=41
+2	dog	dog	NOUN	NN	Number=Sing	4	nsubj	_	start_char=42|end_char=45
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	start_char=46|end_char=49
+4	brown	brown	ADJ	JJ	Degree=Pos	0	root	_	start_char=50|end_char=55|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	start_char=55|end_char=56
+
+# text = The dog was lazy.
+# sent_id = 3
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=57|end_char=60
+2	dog	dog	NOUN	NN	Number=Sing	4	nsubj	_	start_char=61|end_char=64
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	start_char=65|end_char=68
+4	lazy	lazy	ADJ	JJ	Degree=Pos	0	root	_	start_char=69|end_char=73|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	start_char=73|end_char=74
+
+# text = "You are a lazy dog," said the fox.
+# sent_id = 4
+1	"	"	PUNCT	``	_	6	punct	_	start_char=75|end_char=76|SpaceAfter=No
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	start_char=76|end_char=79
+3	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=80|end_char=83
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=84|end_char=85
+5	lazy	lazy	ADJ	JJ	Degree=Pos	6	amod	_	start_char=86|end_char=90
+6	dog	dog	NOUN	NN	Number=Sing	9	ccomp	_	start_char=91|end_char=94|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	start_char=94|end_char=95|SpaceAfter=No
+8	"	"	PUNCT	''	_	6	punct	_	start_char=95|end_char=96
+9	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=97|end_char=101
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=102|end_char=105
+11	fox	fox	NOUN	NN	Number=Sing	9	nsubj	_	start_char=106|end_char=109|SpaceAfter=No
+12	.	.	PUNCT	.	_	9	punct	_	start_char=109|end_char=110
+
+# text = "Yes, I am a lazy dog," said the dog.
+# sent_id = 5
+1	"	"	PUNCT	``	_	8	punct	_	start_char=111|end_char=112|SpaceAfter=No
+2	Yes	yes	INTJ	UH	Polarity=Pos	8	discourse	_	start_char=112|end_char=115|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	start_char=115|end_char=116
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	start_char=117|end_char=118
+5	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=119|end_char=121
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=122|end_char=123
+7	lazy	lazy	ADJ	JJ	Degree=Pos	8	amod	_	start_char=124|end_char=128
+8	dog	dog	NOUN	NN	Number=Sing	11	ccomp	_	start_char=129|end_char=132|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	start_char=132|end_char=133|SpaceAfter=No
+10	"	"	PUNCT	''	_	8	punct	_	start_char=133|end_char=134
+11	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=135|end_char=139
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	start_char=140|end_char=143
+13	dog	dog	NOUN	NN	Number=Sing	11	nsubj	_	start_char=144|end_char=147|SpaceAfter=No
+14	.	.	PUNCT	.	_	11	punct	_	start_char=147|end_char=148
+
+# text = "Why are you a lazy dog?" asked the fox.
+# sent_id = 6
+1	"	"	PUNCT	``	_	7	punct	_	start_char=149|end_char=150|SpaceAfter=No
+2	Why	why	ADV	WRB	PronType=Int	7	advmod	_	start_char=150|end_char=153
+3	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=154|end_char=157
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	start_char=158|end_char=161
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=162|end_char=163
+6	lazy	lazy	ADJ	JJ	Degree=Pos	7	amod	_	start_char=164|end_char=168
+7	dog	dog	NOUN	NN	Number=Sing	10	ccomp	_	start_char=169|end_char=172|SpaceAfter=No
+8	?	?	PUNCT	.	_	7	punct	_	start_char=172|end_char=173|SpaceAfter=No
+9	"	"	PUNCT	''	_	7	punct	_	start_char=173|end_char=174
+10	asked	ask	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=175|end_char=180
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=181|end_char=184
+12	fox	fox	NOUN	NN	Number=Sing	10	nsubj	_	start_char=185|end_char=188|SpaceAfter=No
+13	.	.	PUNCT	.	_	10	punct	_	start_char=188|end_char=189
+
+# text = "Why not?" asked the dog.
+# sent_id = 7
+1	"	"	PUNCT	``	_	3	punct	_	start_char=190|end_char=191|SpaceAfter=No
+2	Why	why	ADV	WRB	PronType=Int	3	advmod	_	start_char=191|end_char=194
+3	not	not	PART	RB	Polarity=Neg	6	ccomp	_	start_char=195|end_char=198|SpaceAfter=No
+4	?	?	PUNCT	.	_	3	punct	_	start_char=198|end_char=199|SpaceAfter=No
+5	"	"	PUNCT	''	_	3	punct	_	start_char=199|end_char=200
+6	asked	ask	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=201|end_char=206
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=207|end_char=210
+8	dog	dog	NOUN	NN	Number=Sing	6	nsubj	_	start_char=211|end_char=214|SpaceAfter=No
+9	.	.	PUNCT	.	_	6	punct	_	start_char=214|end_char=215
+
+# text = "My owner feeds me.
+# sent_id = 8
+1	"	"	PUNCT	``	_	4	punct	_	start_char=216|end_char=217|SpaceAfter=No
+2	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	start_char=217|end_char=219
+3	owner	owner	NOUN	NN	Number=Sing	4	nsubj	_	start_char=220|end_char=225
+4	feeds	feed	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=226|end_char=231
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	start_char=232|end_char=234|SpaceAfter=No
+6	.	.	PUNCT	.	_	4	punct	_	start_char=234|end_char=235
+
+# text = My owner takes me out for walks.
+# sent_id = 9
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=236|end_char=238
+2	owner	owner	NOUN	NN	Number=Sing	3	nsubj	_	start_char=239|end_char=244
+3	takes	take	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=245|end_char=250
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	start_char=251|end_char=253
+5	out	out	ADP	RP	_	3	compound:prt	_	start_char=254|end_char=257
+6	for	for	ADP	IN	_	7	case	_	start_char=258|end_char=261
+7	walks	walk	NOUN	NNS	Number=Plur	3	obl	_	start_char=262|end_char=267|SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	start_char=267|end_char=268
+
+# text = My owner loves me.
+# sent_id = 10
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=269|end_char=271
+2	owner	owner	NOUN	NN	Number=Sing	3	nsubj	_	start_char=272|end_char=277
+3	loves	love	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=278|end_char=283
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	start_char=284|end_char=286|SpaceAfter=No
+5	.	.	PUNCT	.	_	3	punct	_	start_char=286|end_char=287
+
+# text = I eat.
+# sent_id = 11
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=288|end_char=289
+2	eat	eat	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=290|end_char=293|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	start_char=293|end_char=294
+
+# text = I go out for walks.
+# sent_id = 12
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=295|end_char=296
+2	go	go	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=297|end_char=299
+3	out	out	ADV	RB	_	2	advmod	_	start_char=300|end_char=303
+4	for	for	ADP	IN	_	5	case	_	start_char=304|end_char=307
+5	walks	walk	NOUN	NNS	Number=Plur	2	obl	_	start_char=308|end_char=313|SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	start_char=313|end_char=314
+
+# text = I sleep.
+# sent_id = 13
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=315|end_char=316
+2	sleep	sleep	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=317|end_char=322|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	start_char=322|end_char=323
+
+# text = I'm a lazy, happy dog."
+# sent_id = 14
+1-2	I'm	_	_	_	_	_	_	_	start_char=324|end_char=327
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	start_char=324|end_char=325
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=325|end_char=327
+3	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=328|end_char=329
+4	lazy	lazy	ADJ	JJ	Degree=Pos	7	amod	_	start_char=330|end_char=334|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	start_char=334|end_char=335
+6	happy	happy	ADJ	JJ	Degree=Pos	7	amod	_	start_char=336|end_char=341
+7	dog	dog	NOUN	NN	Number=Sing	0	root	_	start_char=342|end_char=345|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	punct	_	start_char=345|end_char=346|SpaceAfter=No
+9	"	"	PUNCT	''	_	7	punct	_	start_char=346|end_char=347
+
+# text = "But don't you have any ambition?" asked the fox.
+# sent_id = 15
+1	"	"	PUNCT	``	_	6	punct	_	start_char=348|end_char=349|SpaceAfter=No
+2	But	but	CCONJ	CC	_	6	cc	_	start_char=349|end_char=352
+3-4	don't	_	_	_	_	_	_	_	start_char=353|end_char=358
+3	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=353|end_char=355
+4	n't	not	PART	RB	Polarity=Neg	6	advmod	_	start_char=355|end_char=358
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	start_char=359|end_char=362
+6	have	have	VERB	VB	VerbForm=Inf	11	ccomp	_	start_char=363|end_char=367
+7	any	any	DET	DT	PronType=Ind	8	det	_	start_char=368|end_char=371
+8	ambition	ambition	NOUN	NN	Number=Sing	6	obj	_	start_char=372|end_char=380|SpaceAfter=No
+9	?	?	PUNCT	.	_	6	punct	_	start_char=380|end_char=381|SpaceAfter=No
+10	"	"	PUNCT	''	_	6	punct	_	start_char=381|end_char=382
+11	asked	ask	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=383|end_char=388
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	start_char=389|end_char=392
+13	fox	fox	NOUN	NN	Number=Sing	11	nsubj	_	start_char=393|end_char=396|SpaceAfter=No
+14	.	.	PUNCT	.	_	11	punct	_	start_char=396|end_char=397
+
+# text = "Ambition?
+# sent_id = 16
+1	"	"	PUNCT	``	_	2	punct	_	start_char=398|end_char=399|SpaceAfter=No
+2	Ambition	ambition	NOUN	NN	Number=Sing	0	root	_	start_char=399|end_char=407|SpaceAfter=No
+3	?	?	PUNCT	.	_	2	punct	_	start_char=407|end_char=408
+
+# text = Ambition to do what?
+# sent_id = 17
+1	Ambition	ambition	NOUN	NN	Number=Sing	0	root	_	start_char=409|end_char=417
+2	to	to	PART	TO	_	3	mark	_	start_char=418|end_char=420
+3	do	do	VERB	VB	VerbForm=Inf	1	acl	_	start_char=421|end_char=423
+4	what	what	PRON	WP	PronType=Int	3	obj	_	start_char=424|end_char=428|SpaceAfter=No
+5	?	?	PUNCT	.	_	1	punct	_	start_char=428|end_char=429
+
+# text = I'm just a dog," said the dog.
+# sent_id = 18
+1-2	I'm	_	_	_	_	_	_	_	start_char=430|end_char=433
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=430|end_char=431
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=431|end_char=433
+3	just	just	ADV	RB	_	5	advmod	_	start_char=434|end_char=438
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=439|end_char=440
+5	dog	dog	NOUN	NN	Number=Sing	8	ccomp	_	start_char=441|end_char=444|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	start_char=444|end_char=445|SpaceAfter=No
+7	"	"	PUNCT	''	_	5	punct	_	start_char=445|end_char=446
+8	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=447|end_char=451
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=452|end_char=455
+10	dog	dog	NOUN	NN	Number=Sing	8	nsubj	_	start_char=456|end_char=459|SpaceAfter=No
+11	.	.	PUNCT	.	_	8	punct	_	start_char=459|end_char=460
+
+# text = "Lassie was a dog.
+# sent_id = 19
+1	"	"	PUNCT	``	_	5	punct	_	start_char=461|end_char=462|SpaceAfter=No
+2	Lassie	Lassie	PROPN	NNP	Number=Sing	5	nsubj	_	start_char=462|end_char=468
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	start_char=469|end_char=472
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=473|end_char=474
+5	dog	dog	NOUN	NN	Number=Sing	0	root	_	start_char=475|end_char=478|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	start_char=478|end_char=479
+
+# text = She saved people's lives," said the fox.
+# sent_id = 20
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=480|end_char=483
+2	saved	save	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	ccomp	_	start_char=484|end_char=489
+3-4	people's	_	_	_	_	_	_	_	start_char=490|end_char=498
+3	people	person	NOUN	NNS	Number=Plur	5	nmod:poss	_	start_char=490|end_char=496
+4	's	's	PART	POS	_	3	case	_	start_char=496|end_char=498
+5	lives	life	NOUN	NNS	Number=Plur	2	obj	_	start_char=499|end_char=504|SpaceAfter=No
+6	,	,	PUNCT	,	_	2	punct	_	start_char=504|end_char=505|SpaceAfter=No
+7	"	"	PUNCT	''	_	2	punct	_	start_char=505|end_char=506
+8	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=507|end_char=511
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=512|end_char=515
+10	fox	fox	NOUN	NN	Number=Sing	8	nsubj	_	start_char=516|end_char=519|SpaceAfter=No
+11	.	.	PUNCT	.	_	8	punct	_	start_char=519|end_char=520
+
+# text = "I'm too lazy to save people's lives," said the dog.
+# sent_id = 21
+1	"	"	PUNCT	``	_	5	punct	_	start_char=521|end_char=522|SpaceAfter=No
+2-3	I'm	_	_	_	_	_	_	_	start_char=522|end_char=525
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=522|end_char=523
+3	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=523|end_char=525
+4	too	too	ADV	RB	_	5	advmod	_	start_char=526|end_char=529
+5	lazy	lazy	ADJ	JJ	Degree=Pos	13	ccomp	_	start_char=530|end_char=534
+6	to	to	PART	TO	_	7	mark	_	start_char=535|end_char=537
+7	save	save	VERB	VB	VerbForm=Inf	5	xcomp	_	start_char=538|end_char=542
+8-9	people's	_	_	_	_	_	_	_	start_char=543|end_char=551
+8	people	person	NOUN	NNS	Number=Plur	10	nmod:poss	_	start_char=543|end_char=549
+9	's	's	PART	POS	_	8	case	_	start_char=549|end_char=551
+10	lives	life	NOUN	NNS	Number=Plur	7	obj	_	start_char=552|end_char=557|SpaceAfter=No
+11	,	,	PUNCT	,	_	5	punct	_	start_char=557|end_char=558|SpaceAfter=No
+12	"	"	PUNCT	''	_	5	punct	_	start_char=558|end_char=559
+13	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=560|end_char=564
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	start_char=565|end_char=568
+15	dog	dog	NOUN	NN	Number=Sing	13	nsubj	_	start_char=569|end_char=572|SpaceAfter=No
+16	.	.	PUNCT	.	_	13	punct	_	start_char=572|end_char=573
+
+# text = "Let Lassie save people's lives."
+# sent_id = 22
+1	"	"	PUNCT	``	_	2	punct	_	start_char=574|end_char=575|SpaceAfter=No
+2	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=575|end_char=578
+3	Lassie	Lassie	PROPN	NNP	Number=Sing	2	obj	_	start_char=579|end_char=585
+4	save	save	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=586|end_char=590
+5-6	people's	_	_	_	_	_	_	_	start_char=591|end_char=599
+5	people	person	NOUN	NNS	Number=Plur	7	nmod:poss	_	start_char=591|end_char=597
+6	's	's	PART	POS	_	5	case	_	start_char=597|end_char=599
+7	lives	life	NOUN	NNS	Number=Plur	4	obj	_	start_char=600|end_char=605|SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	start_char=605|end_char=606|SpaceAfter=No
+9	"	"	PUNCT	''	_	2	punct	_	start_char=606|end_char=607|SpaceAfter=No
+

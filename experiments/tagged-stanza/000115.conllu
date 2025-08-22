@@ -1,0 +1,188 @@
+# text = Dotty looked at the door.
+# sent_id = 0
+1	Dotty	Dotty	PROPN	NNP	Number=Sing	2	nsubj	_	start_char=0|end_char=5
+2	looked	look	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=6|end_char=12
+3	at	at	ADP	IN	_	5	case	_	start_char=13|end_char=15
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=16|end_char=19
+5	door	door	NOUN	NN	Number=Sing	2	obl	_	start_char=20|end_char=24|SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	start_char=24|end_char=25
+
+# text = It was a closet door.
+# sent_id = 1
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=26|end_char=28
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	start_char=29|end_char=32
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=33|end_char=34
+4	closet	closet	NOUN	NN	Number=Sing	5	compound	_	start_char=35|end_char=41
+5	door	door	NOUN	NN	Number=Sing	0	root	_	start_char=42|end_char=46|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	start_char=46|end_char=47
+
+# text = The door had a silver handle.
+# sent_id = 2
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=48|end_char=51
+2	door	door	NOUN	NN	Number=Sing	3	nsubj	_	start_char=52|end_char=56
+3	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=57|end_char=60
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=61|end_char=62
+5	silver	silver	ADJ	JJ	Degree=Pos	6	amod	_	start_char=63|end_char=69
+6	handle	handle	NOUN	NN	Number=Sing	3	obj	_	start_char=70|end_char=76|SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	start_char=76|end_char=77
+
+# text = The silver handle was round.
+# sent_id = 3
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=78|end_char=81
+2	silver	silver	NOUN	NN	Number=Sing	3	compound	_	start_char=82|end_char=88
+3	handle	handle	NOUN	NN	Number=Sing	5	nsubj	_	start_char=89|end_char=95
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	start_char=96|end_char=99
+5	round	round	ADJ	JJ	Degree=Pos	0	root	_	start_char=100|end_char=105|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	start_char=105|end_char=106
+
+# text = The round, silver handle was a doorknob.
+# sent_id = 4
+1	The	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=107|end_char=110
+2	round	round	NOUN	NN	Number=Sing	8	nsubj	_	start_char=111|end_char=116|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	start_char=116|end_char=117
+4	silver	silver	NOUN	NN	Number=Sing	5	compound	_	start_char=118|end_char=124
+5	handle	handle	NOUN	NN	Number=Sing	8	nsubj	_	start_char=125|end_char=131
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	start_char=132|end_char=135
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=136|end_char=137
+8	doorknob	doorknob	NOUN	NN	Number=Sing	0	root	_	start_char=138|end_char=146|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	punct	_	start_char=146|end_char=147
+
+# text = One day she tried to turn the doorknob.
+# sent_id = 5
+1	One	one	NUM	CD	NumForm=Word|NumType=Card	2	nummod	_	start_char=148|end_char=151
+2	day	day	NOUN	NN	Number=Sing	4	obl:unmarked	_	start_char=152|end_char=155
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=156|end_char=159
+4	tried	try	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=160|end_char=165
+5	to	to	PART	TO	_	6	mark	_	start_char=166|end_char=168
+6	turn	turn	VERB	VB	VerbForm=Inf	4	xcomp	_	start_char=169|end_char=173
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=174|end_char=177
+8	doorknob	doorknob	NOUN	NN	Number=Sing	6	obj	_	start_char=178|end_char=186|SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	start_char=186|end_char=187
+
+# text = She tried to open the closet door.
+# sent_id = 6
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=188|end_char=191
+2	tried	try	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=192|end_char=197
+3	to	to	PART	TO	_	4	mark	_	start_char=198|end_char=200
+4	open	open	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=201|end_char=205
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=206|end_char=209
+6	closet	closet	NOUN	NN	Number=Sing	7	compound	_	start_char=210|end_char=216
+7	door	door	NOUN	NN	Number=Sing	4	obj	_	start_char=217|end_char=221|SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	start_char=221|end_char=222
+
+# text = But the doorknob didn't turn.
+# sent_id = 7
+1	But	but	CCONJ	CC	_	6	cc	_	start_char=223|end_char=226
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=227|end_char=230
+3	doorknob	doorknob	NOUN	NN	Number=Sing	6	nsubj	_	start_char=231|end_char=239
+4-5	didn't	_	_	_	_	_	_	_	start_char=240|end_char=246
+4	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	start_char=240|end_char=243
+5	n't	not	PART	RB	Polarity=Neg	6	advmod	_	start_char=243|end_char=246
+6	turn	turn	VERB	VB	VerbForm=Inf	0	root	_	start_char=247|end_char=251|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	start_char=251|end_char=252
+
+# text = She couldn't open the closet door.
+# sent_id = 8
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=253|end_char=256
+2-3	couldn't	_	_	_	_	_	_	_	start_char=257|end_char=265
+2	could	could	AUX	MD	VerbForm=Fin	4	aux	_	start_char=257|end_char=262
+3	n't	not	PART	RB	Polarity=Neg	4	advmod	_	start_char=262|end_char=265
+4	open	open	VERB	VB	VerbForm=Inf	0	root	_	start_char=266|end_char=270
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=271|end_char=274
+6	closet	closet	NOUN	NN	Number=Sing	7	compound	_	start_char=275|end_char=281
+7	door	door	NOUN	NN	Number=Sing	4	obj	_	start_char=282|end_char=286|SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	start_char=286|end_char=287
+
+# text = The closet door wouldn't open.
+# sent_id = 9
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=288|end_char=291
+2	closet	closet	NOUN	NN	Number=Sing	3	compound	_	start_char=292|end_char=298
+3	door	door	NOUN	NN	Number=Sing	6	nsubj	_	start_char=299|end_char=303
+4-5	wouldn't	_	_	_	_	_	_	_	start_char=304|end_char=312
+4	would	would	AUX	MD	VerbForm=Fin	6	aux	_	start_char=304|end_char=309
+5	n't	not	PART	RB	Polarity=Neg	6	advmod	_	start_char=309|end_char=312
+6	open	open	VERB	VB	VerbForm=Inf	0	root	_	start_char=313|end_char=317|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	start_char=317|end_char=318
+
+# text = The door was locked.
+# sent_id = 10
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=319|end_char=322
+2	door	door	NOUN	NN	Number=Sing	4	nsubj:pass	_	start_char=323|end_char=327
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	start_char=328|end_char=331
+4	locked	lock	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=332|end_char=338|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	start_char=338|end_char=339
+
+# text = "Why is the door locked?"
+# sent_id = 11
+1	"	"	PUNCT	``	_	6	punct	_	start_char=340|end_char=341|SpaceAfter=No
+2	Why	why	ADV	WRB	PronType=Int	6	advmod	_	start_char=341|end_char=344
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	start_char=345|end_char=347
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=348|end_char=351
+5	door	door	NOUN	NN	Number=Sing	6	nsubj:pass	_	start_char=352|end_char=356
+6	locked	lock	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=357|end_char=363|SpaceAfter=No
+7	?	?	PUNCT	.	_	6	punct	_	start_char=363|end_char=364|SpaceAfter=No
+8	"	"	PUNCT	''	_	6	punct	_	start_char=364|end_char=365
+
+# text = Dotty asked her mom.
+# sent_id = 12
+1	Dotty	Dotty	PROPN	NNP	Number=Sing	2	nsubj	_	start_char=366|end_char=371
+2	asked	ask	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=372|end_char=377
+3	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	start_char=378|end_char=381
+4	mom	mom	NOUN	NN	Number=Sing	2	iobj	_	start_char=382|end_char=385|SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	start_char=385|end_char=386
+
+# text = Her mom said it was locked for her safety.
+# sent_id = 13
+1	Her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=387|end_char=390
+2	mom	mom	NOUN	NN	Number=Sing	3	nsubj	_	start_char=391|end_char=394
+3	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=395|end_char=399
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj:pass	_	start_char=400|end_char=402
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux:pass	_	start_char=403|end_char=406
+6	locked	lock	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	ccomp	_	start_char=407|end_char=413
+7	for	for	ADP	IN	_	9	case	_	start_char=414|end_char=417
+8	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	start_char=418|end_char=421
+9	safety	safety	NOUN	NN	Number=Sing	6	obl	_	start_char=422|end_char=428|SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	start_char=428|end_char=429
+
+# text = "What's behind the door?" she asked her mom.
+# sent_id = 14
+1	"	"	PUNCT	``	_	6	punct	_	start_char=430|end_char=431|SpaceAfter=No
+2-3	What's	_	_	_	_	_	_	_	start_char=431|end_char=437
+2	What	what	PRON	WP	PronType=Int	6	nsubj	_	start_char=431|end_char=435
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=435|end_char=437
+4	behind	behind	ADP	IN	_	6	case	_	start_char=438|end_char=444
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=445|end_char=448
+6	door	door	NOUN	NN	Number=Sing	10	ccomp	_	start_char=449|end_char=453|SpaceAfter=No
+7	?	?	PUNCT	.	_	6	punct	_	start_char=453|end_char=454|SpaceAfter=No
+8	"	"	PUNCT	''	_	6	punct	_	start_char=454|end_char=455
+9	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	start_char=456|end_char=459
+10	asked	ask	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=460|end_char=465
+11	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	start_char=466|end_char=469
+12	mom	mom	NOUN	NN	Number=Sing	10	iobj	_	start_char=470|end_char=473|SpaceAfter=No
+13	.	.	PUNCT	.	_	10	punct	_	start_char=473|end_char=474
+
+# text = Her mom said a rifle was behind the locked door.
+# sent_id = 15
+1	Her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=475|end_char=478
+2	mom	mom	NOUN	NN	Number=Sing	3	nsubj	_	start_char=479|end_char=482
+3	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=483|end_char=487
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=488|end_char=489
+5	rifle	rifle	NOUN	NN	Number=Sing	10	nsubj	_	start_char=490|end_char=495
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	start_char=496|end_char=499
+7	behind	behind	ADP	IN	_	10	case	_	start_char=500|end_char=506
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=507|end_char=510
+9	locked	lock	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	amod	_	start_char=511|end_char=517
+10	door	door	NOUN	NN	Number=Sing	3	ccomp	_	start_char=518|end_char=522|SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	start_char=522|end_char=523
+
+# text = Daddy kept a rifle in the closet.
+# sent_id = 16
+1	Daddy	Daddy	PROPN	NNP	Number=Sing	2	nsubj	_	start_char=524|end_char=529
+2	kept	keep	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=530|end_char=534
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	start_char=535|end_char=536
+4	rifle	rifle	NOUN	NN	Number=Sing	2	obj	_	start_char=537|end_char=542
+5	in	in	ADP	IN	_	7	case	_	start_char=543|end_char=545
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=546|end_char=549
+7	closet	closet	NOUN	NN	Number=Sing	2	obl	_	start_char=550|end_char=556|SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	start_char=556|end_char=557|SpaceAfter=No
+
