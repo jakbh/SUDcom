@@ -1,0 +1,159 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# text = You need to try harder in school!
+# sent_id = 0
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	subj	_	end_char=3|start_char=0
+2	need	need	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	end_char=8|start_char=4
+3	to	to	PART	TO	_	2	comp:obl	_	end_char=11|start_char=9
+4	try	try	VERB	VB	VerbForm=Inf	3	comp:obj	_	end_char=15|start_char=12|Subject=SubjRaising
+5	harder	hard	ADJ	JJR	Degree=Cmp	4	mod	_	end_char=22|start_char=16
+6	in	in	ADP	IN	_	4	udep	_	end_char=25|start_char=23
+7	school	school	NOUN	NN	Number=Sing	6	comp:obj	_	end_char=32|SpaceAfter=No|start_char=26
+8	!	!	PUNCT	.	_	2	punct	_	end_char=33|SpacesAfter=\n|start_char=32
+
+# text = I am doing well in school.
+# sent_id = 1
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	end_char=35|start_char=34
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	end_char=38|start_char=36
+3	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	2	comp:aux	_	end_char=44|start_char=39
+4	well	well	ADV	RB	Degree=Pos	3	mod	_	end_char=49|start_char=45
+5	in	in	ADP	IN	_	3	udep	_	end_char=52|start_char=50
+6	school	school	NOUN	NN	Number=Sing	5	comp:obj	_	end_char=59|SpaceAfter=No|start_char=53
+7	.	.	PUNCT	.	_	2	punct	_	end_char=60|SpacesAfter=\n|start_char=59
+
+# text = Then why are your marks in science so low?
+# sent_id = 2
+1	Then	then	ADV	RB	PronType=Dem	3	mod	_	end_char=65|start_char=61
+2	why	why	ADV	WRB	PronType=Int	3	mod	_	end_char=69|start_char=66
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=73|start_char=70
+4	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	5	mod@poss	_	end_char=78|start_char=74
+5	marks	mark	NOUN	NNS	Number=Plur	3	subj	_	end_char=84|start_char=79
+6	in	in	ADP	IN	_	3	comp:pred	_	end_char=87|start_char=85
+7	science	science	NOUN	NN	Number=Sing	6	comp:obj	_	end_char=95|start_char=88
+8	so	so	ADV	RB	_	9	mod	_	end_char=98|start_char=96
+9	low	low	ADJ	JJ	Degree=Pos	7	mod	_	end_char=102|SpaceAfter=No|start_char=99
+10	?	?	PUNCT	.	_	3	punct	_	end_char=103|SpacesAfter=\n|start_char=102
+
+# text = I don't understand science, that's all.
+# sent_id = 3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	end_char=105|start_char=104
+2-3	don't	_	_	_	_	_	_	_	end_char=111|start_char=106
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	end_char=108|start_char=106
+3	n't	not	PART	RB	Polarity=Neg	2	mod	_	end_char=111|start_char=108
+4	understand	understand	VERB	VB	VerbForm=Inf	2	comp:aux	_	end_char=122|start_char=112
+5	science	science	NOUN	NN	Number=Sing	4	comp:obj	_	end_char=130|SpaceAfter=No|start_char=123
+6	,	,	PUNCT	,	_	8	punct	_	end_char=131|start_char=130
+7-8	that's	_	_	_	_	_	_	_	end_char=138|start_char=132
+7	that	that	PRON	DT	Number=Sing|PronType=Dem	8	subj	_	end_char=136|start_char=132
+8	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	end_char=138|start_char=136
+9	all	all	DET	DT	PronType=Tot	8	comp:pred	_	end_char=142|SpaceAfter=No|start_char=139
+10	.	.	PUNCT	.	_	2	punct	_	end_char=143|SpacesAfter=\n|start_char=142
+
+# text = Is that the same reasoning you have for math?
+# sent_id = 4
+1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=146|start_char=144
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	1	subj	_	end_char=151|start_char=147
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	end_char=155|start_char=152
+4	same	same	ADJ	JJ	Degree=Pos	5	mod	_	end_char=160|start_char=156
+5	reasoning	reasoning	NOUN	NN	Number=Sing	1	comp:pred	_	end_char=170|start_char=161
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	subj	_	end_char=174|start_char=171
+7	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	mod@relcl	_	end_char=179|start_char=175
+8	for	for	ADP	IN	_	7	udep	_	end_char=183|start_char=180
+9	math	math	NOUN	NN	Number=Sing	8	comp:obj	_	end_char=188|SpaceAfter=No|start_char=184
+10	?	?	PUNCT	.	_	1	punct	_	end_char=189|SpacesAfter=\n|start_char=188
+
+# text = Yes, and English, too.
+# sent_id = 5
+1	Yes	yes	INTJ	UH	Polarity=Pos	4	discourse	_	end_char=193|SpaceAfter=No|start_char=190
+2	,	,	PUNCT	,	_	1	punct	_	end_char=194|start_char=193
+3	and	and	CCONJ	CC	_	4	cc	_	end_char=198|start_char=195
+4	English	English	PROPN	NNP	Number=Sing	0	root	_	end_char=206|SpaceAfter=No|start_char=199
+5	,	,	PUNCT	,	_	6	punct	_	end_char=207|start_char=206
+6	too	too	ADV	RB	_	4	mod	_	end_char=211|SpaceAfter=No|start_char=208
+7	.	.	PUNCT	.	_	4	punct	_	end_char=212|SpacesAfter=\n|start_char=211
+
+# text = Tell me one single subject you're doing well in.
+# sent_id = 6
+1	Tell	tell	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	end_char=217|start_char=213
+2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	comp:obl	_	end_char=220|start_char=218
+3	one	one	NUM	CD	NumForm=Word|NumType=Card	5	mod	_	end_char=224|start_char=221
+4	single	single	ADJ	JJ	Degree=Pos	5	mod	_	end_char=231|start_char=225
+5	subject	subject	NOUN	NN	Number=Sing	1	comp:obj	_	end_char=239|start_char=232
+6-7	you're	_	_	_	_	_	_	_	end_char=246|start_char=240
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	subj	_	end_char=243|start_char=240
+7	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	mod@relcl	_	end_char=246|start_char=243
+8	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	7	comp:aux	_	end_char=252|start_char=247
+9	well	well	ADV	RB	Degree=Pos	8	mod	_	end_char=257|start_char=253
+10	in	in	ADP	IN	_	8	udep	_	end_char=260|SpaceAfter=No|start_char=258
+11	.	.	PUNCT	.	_	1	punct	_	end_char=261|SpacesAfter=\n|start_char=260
+
+# text = Well, I'm doing wonderfully in my music class.
+# sent_id = 7
+1	Well	well	INTJ	UH	_	4	discourse	_	end_char=266|SpaceAfter=No|start_char=262
+2	,	,	PUNCT	,	_	1	punct	_	end_char=267|start_char=266
+3-4	I'm	_	_	_	_	_	_	_	end_char=271|start_char=268
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	subj	_	end_char=269|start_char=268
+4	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	end_char=271|start_char=269
+5	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	4	comp:aux	_	end_char=277|start_char=272
+6	wonderfully	wonderfully	ADV	RB	_	5	mod	_	end_char=289|start_char=278
+7	in	in	ADP	IN	_	5	udep	_	end_char=292|start_char=290
+8	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	mod@poss	_	end_char=295|start_char=293
+9	music	music	NOUN	NN	Number=Sing	10	compound	_	end_char=301|start_char=296
+10	class	class	NOUN	NN	Number=Sing	7	comp:obj	_	end_char=307|SpaceAfter=No|start_char=302
+11	.	.	PUNCT	.	_	4	punct	_	end_char=308|SpacesAfter=\n|start_char=307
+
+# text = What about history?
+# sent_id = 8
+1	What	what	PRON	WP	PronType=Int	0	root	_	end_char=313|start_char=309
+2	about	about	ADP	IN	_	1	udep	_	end_char=319|start_char=314
+3	history	history	NOUN	NN	Number=Sing	2	comp:obj	_	end_char=327|SpaceAfter=No|start_char=320
+4	?	?	PUNCT	.	_	1	punct	_	end_char=328|SpacesAfter=\n|start_char=327
+
+# text = Only the parts about Woodstock.
+# sent_id = 9
+1	Only	only	ADV	RB	_	3	mod	_	end_char=333|start_char=329
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	end_char=337|start_char=334
+3	parts	part	NOUN	NNS	Number=Plur	0	root	_	end_char=343|start_char=338
+4	about	about	ADP	IN	_	3	udep	_	end_char=349|start_char=344
+5	Woodstock	Woodstock	PROPN	NNP	Number=Sing	4	comp:obj	_	end_char=359|SpaceAfter=No|start_char=350
+6	.	.	PUNCT	.	_	3	punct	_	end_char=360|SpacesAfter=\n|start_char=359
+
+# text = That's it!
+# sent_id = 10
+1-2	That's	_	_	_	_	_	_	_	end_char=367|start_char=361
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	2	subj	_	end_char=365|start_char=361
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=367|start_char=365
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	comp:pred	_	end_char=370|SpaceAfter=No|start_char=368
+4	!	!	PUNCT	.	_	2	punct	_	end_char=371|start_char=370
+
+# text = You're grounded!
+# sent_id = 11
+1-2	You're	_	_	_	_	_	_	_	end_char=378|start_char=372
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	subj@pass	_	end_char=375|start_char=372
+2	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	end_char=378|start_char=375
+3	grounded	ground	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	comp:aux@pass	_	end_char=387|SpaceAfter=No|start_char=379
+4	!	!	PUNCT	.	_	2	punct	_	end_char=388|start_char=387
+
+# text = No guitar for a month.
+# sent_id = 12
+1	No	no	DET	DT	PronType=Neg	2	det	_	end_char=391|start_char=389
+2	guitar	guitar	NOUN	NN	Number=Sing	0	root	_	end_char=398|start_char=392
+3	for	for	ADP	IN	_	2	udep	_	end_char=402|start_char=399
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	end_char=404|start_char=403
+5	month	month	NOUN	NN	Number=Sing	3	comp:obj	_	end_char=410|SpaceAfter=No|start_char=405
+6	.	.	PUNCT	.	_	2	punct	_	end_char=411|SpacesAfter=\n|start_char=410
+
+# text = Great, now I'll surely have a low GPA.
+# sent_id = 13
+1	Great	great	ADJ	JJ	Degree=Pos	5	discourse	_	end_char=417|SpaceAfter=No|start_char=412
+2	,	,	PUNCT	,	_	1	punct	_	end_char=418|start_char=417
+3	now	now	ADV	RB	_	5	mod	_	end_char=422|start_char=419
+4-5	I'll	_	_	_	_	_	_	_	end_char=427|start_char=423
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	subj	_	end_char=424|start_char=423
+5	'll	will	AUX	MD	VerbForm=Fin	0	root	_	end_char=427|start_char=424
+6	surely	surely	ADV	RB	_	5	mod	_	end_char=434|start_char=428
+7	have	have	VERB	VB	VerbForm=Inf	5	comp:aux	_	end_char=439|start_char=435
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	end_char=441|start_char=440
+9	low	low	ADJ	JJ	Degree=Pos	10	mod	_	end_char=445|start_char=442
+10	GPA	GPA	NOUN	NN	Number=Sing	7	comp:obj	_	end_char=449|SpaceAfter=No|start_char=446
+11	.	.	PUNCT	.	_	5	punct	_	end_char=450|SpaceAfter=No|start_char=449
+

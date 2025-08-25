@@ -1,0 +1,237 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# text = A strong earthquake shook central Japan on Saturday night, injuring dozens of people and destroying homes in a well-known ski resort, authorities said.
+# sent_id = 0
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	end_char=1|start_char=0
+2	strong	strong	ADJ	JJ	Degree=Pos	3	mod	_	end_char=8|start_char=2
+3	earthquake	earthquake	NOUN	NN	Number=Sing	4	subj	_	end_char=19|start_char=9
+4	shook	shake	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	comp:obj	_	end_char=25|start_char=20
+5	central	central	ADJ	JJ	Degree=Pos	6	mod	_	end_char=33|start_char=26
+6	Japan	Japan	PROPN	NNP	Number=Sing	4	comp:obj	_	end_char=39|start_char=34
+7	on	on	ADP	IN	_	4	udep	_	end_char=42|start_char=40
+8	Saturday	Saturday	PROPN	NNP	Number=Sing	9	compound	_	end_char=51|start_char=43
+9	night	night	NOUN	NN	Number=Sing	7	comp:obj	_	end_char=57|SpaceAfter=No|start_char=52
+10	,	,	PUNCT	,	Shared=Yes	11	punct	_	end_char=58|start_char=57
+11	injuring	injure	VERB	VBG	Tense=Pres|VerbForm=Part	4	mod	_	end_char=67|start_char=59
+12	dozens	dozen	NOUN	NNS	Number=Plur	11	comp:obj	_	end_char=74|start_char=68
+13	of	of	ADP	IN	_	12	udep	_	end_char=77|start_char=75
+14	people	person	NOUN	NNS	Number=Plur	13	comp:obj	_	end_char=84|start_char=78
+15	and	and	CCONJ	CC	_	16	cc	_	end_char=88|start_char=85
+16	destroying	destroy	VERB	VBG	Tense=Pres|VerbForm=Part	11	conj:coord	_	end_char=99|start_char=89
+17	homes	home	NOUN	NNS	Number=Plur|Shared=No	16	comp:obj	_	end_char=105|start_char=100
+18	in	in	ADP	IN	Shared=No	16	udep	_	end_char=108|start_char=106
+19	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	end_char=110|start_char=109
+20	well	well	ADV	RB	Degree=Pos	22	mod	_	end_char=115|SpaceAfter=No|start_char=111
+21	-	-	PUNCT	HYPH	_	20	punct	_	end_char=116|SpaceAfter=No|start_char=115
+22	known	know	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	24	mod	_	end_char=121|start_char=116
+23	ski	ski	NOUN	NN	Number=Sing	24	compound	_	end_char=125|start_char=122
+24	resort	resort	NOUN	NN	Number=Sing	18	comp:obj	_	end_char=132|SpaceAfter=No|start_char=126
+25	,	,	PUNCT	,	_	4	punct	_	end_char=133|start_char=132
+26	authorities	authority	NOUN	NNS	Number=Plur	27	subj	_	end_char=145|start_char=134
+27	said	say	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=150|SpaceAfter=No|start_char=146
+28	.	.	PUNCT	.	_	27	punct	_	end_char=151|SpacesAfter=\n|start_char=150
+
+# text = Reports differed on the intensity of the quake, centered in a remote mountainous area of Nagano prefecture.
+# sent_id = 1
+1	Reports	report	NOUN	NNS	Number=Plur	2	subj	_	end_char=159|start_char=152
+2	differed	differ	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=168|start_char=160
+3	on	on	ADP	IN	_	2	udep	_	end_char=171|start_char=169
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	end_char=175|start_char=172
+5	intensity	intensity	NOUN	NN	Number=Sing	3	comp:obj	_	end_char=185|start_char=176
+6	of	of	ADP	IN	_	5	udep	_	end_char=188|start_char=186
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	end_char=192|start_char=189
+8	quake	quake	NOUN	NN	Number=Sing	6	comp:obj	_	end_char=198|SpaceAfter=No|start_char=193
+9	,	,	PUNCT	,	_	10	punct	_	end_char=199|start_char=198
+10	centered	center	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	mod	_	end_char=208|start_char=200
+11	in	in	ADP	IN	_	10	udep	_	end_char=211|start_char=209
+12	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	end_char=213|start_char=212
+13	remote	remote	ADJ	JJ	Degree=Pos	15	mod	_	end_char=220|start_char=214
+14	mountainous	mountainous	ADJ	JJ	Degree=Pos	15	mod	_	end_char=232|start_char=221
+15	area	area	NOUN	NN	Number=Sing	11	comp:obj	_	end_char=237|start_char=233
+16	of	of	ADP	IN	_	15	udep	_	end_char=240|start_char=238
+17	Nagano	Nagano	PROPN	NNP	Number=Sing	18	compound	_	end_char=247|start_char=241
+18	prefecture	prefecture	NOUN	NN	Number=Sing	16	comp:obj	_	end_char=258|SpaceAfter=No|start_char=248
+19	.	.	PUNCT	.	_	2	punct	_	end_char=259|start_char=258
+
+# text = The Japan Meteorological Agency reported it was magnitude 6.8; the U.S. Geological Survey -LRB- USGS -RRB- said it was magnitude 6.2.
+# sent_id = 2
+1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	end_char=263|start_char=260
+2	Japan	Japan	PROPN	NNP	Number=Sing	4	compound	_	end_char=269|start_char=264
+3	Meteorological	meteorological	ADJ	NNP	Degree=Pos	4	mod	_	end_char=284|start_char=270
+4	Agency	Agency	PROPN	NNP	Number=Sing	5	subj	_	end_char=291|start_char=285
+5	reported	report	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=300|start_char=292
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	subj	_	end_char=303|start_char=301
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	comp:obj	_	end_char=307|start_char=304
+8	magnitude	magnitude	NOUN	NN	Number=Sing	7	comp:pred	_	end_char=317|start_char=308
+9	6.8	6.8	NUM	CD	NumForm=Digit|NumType=Frac	8	mod	_	end_char=321|SpaceAfter=No|start_char=318
+10	;	;	PUNCT	:	_	22	punct	_	end_char=322|start_char=321
+11	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	end_char=326|start_char=323
+12	U.S.	U.S.	PROPN	NNP	Number=Sing	14	compound	_	end_char=331|start_char=327
+13	Geological	geological	ADJ	NNP	Degree=Pos	14	mod	_	end_char=342|start_char=332
+14	Survey	Survey	PROPN	NNP	Number=Sing	22	subj	_	end_char=349|start_char=343
+15	-	-	PUNCT	HYPH	_	16	punct	_	end_char=351|SpaceAfter=No|start_char=350
+16	LRB	LRB	PROPN	NNP	Number=Sing	14	flat	_	end_char=354|SpaceAfter=No|start_char=351
+17	-	-	PUNCT	HYPH	_	18	punct	_	end_char=355|start_char=354
+18	USGS	USGS	PROPN	NNP	Number=Sing	20	compound	_	end_char=360|start_char=356
+19	-	-	PUNCT	HYPH	_	20	punct	_	end_char=362|SpaceAfter=No|start_char=361
+20	RRB	RRB	PROPN	NNP	Number=Sing	14	conj:appos	_	end_char=365|SpaceAfter=No|start_char=362
+21	-	-	PUNCT	,	_	14	punct	_	end_char=366|start_char=365
+22	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	parataxis	_	end_char=371|start_char=367
+23	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	subj	_	end_char=374|start_char=372
+24	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	comp:obj	_	end_char=378|start_char=375
+25	magnitude	magnitude	NOUN	NN	Number=Sing	24	comp:pred	_	end_char=388|start_char=379
+26	6.2	6.2	NUM	CD	NumForm=Digit|NumType=Frac	25	mod	_	end_char=392|SpaceAfter=No|start_char=389
+27	.	.	PUNCT	.	_	5	punct	_	end_char=393|SpacesAfter=\n|start_char=392
+
+# text = One of the hardest hit areas was the skiing village of Hakuba, where at least seven housing and storage structures collapsed.
+# sent_id = 3
+1	One	one	NUM	CD	NumForm=Word|NumType=Card	7	subj	_	end_char=397|start_char=394
+2	of	of	ADP	IN	_	1	udep	_	end_char=400|start_char=398
+3	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	end_char=404|start_char=401
+4	hardest	hard	ADJ	JJS	Degree=Sup	6	mod	_	end_char=412|start_char=405
+5	hit	hit	NOUN	NN	Number=Sing	6	compound	_	end_char=416|start_char=413
+6	areas	area	NOUN	NNS	Number=Plur	2	comp:obj	_	end_char=422|start_char=417
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=426|start_char=423
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	end_char=430|start_char=427
+9	skiing	ski	NOUN	NN	Number=Sing	10	compound	_	end_char=437|start_char=431
+10	village	village	NOUN	NN	Number=Sing	7	comp:pred	_	end_char=445|start_char=438
+11	of	of	ADP	IN	_	10	udep	_	end_char=448|start_char=446
+12	Hakuba	Hakuba	PROPN	NNP	Number=Sing	11	comp:obj	_	end_char=455|SpaceAfter=No|start_char=449
+13	,	,	PUNCT	,	_	22	punct	_	end_char=456|start_char=455
+14	where	where	ADV	WRB	PronType=Rel	22	mod	_	end_char=462|start_char=457
+15	at	at	ADP	IN	ExtPos=ADV	17	udep	_	end_char=465|start_char=463
+16	least	least	ADJ	JJS	Degree=Sup	15	comp:obj	_	end_char=471|start_char=466
+17	seven	seven	NUM	CD	NumForm=Word|NumType=Card	21	mod	_	end_char=477|start_char=472
+18	housing	housing	NOUN	NN	Number=Sing	21	compound	_	end_char=485|start_char=478
+19	and	and	CCONJ	CC	_	20	cc	_	end_char=489|start_char=486
+20	storage	storage	NOUN	NN	Number=Sing	18	conj:coord	_	end_char=497|start_char=490
+21	structures	structure	NOUN	NNS	Number=Plur	22	subj	_	end_char=508|start_char=498
+22	collapsed	collapse	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	mod@relcl	_	end_char=518|SpaceAfter=No|start_char=509
+23	.	.	PUNCT	.	_	7	punct	_	end_char=519|SpacesAfter=\n|start_char=518
+
+# text = Seven of the 39 people hurt in the quake suffered serious injuries, Nagano prefectural police said.
+# sent_id = 4
+1	Seven	seven	NUM	CD	NumForm=Word|NumType=Card	10	subj	_	end_char=525|start_char=520
+2	of	of	ADP	IN	_	1	udep	_	end_char=528|start_char=526
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	end_char=532|start_char=529
+4	39	39	NUM	CD	NumForm=Digit|NumType=Card	5	mod	_	end_char=535|start_char=533
+5	people	person	NOUN	NNS	Number=Plur	2	comp:obj	_	end_char=542|start_char=536
+6	hurt	hurt	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	mod	_	end_char=547|start_char=543
+7	in	in	ADP	IN	_	6	udep	_	end_char=550|start_char=548
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	end_char=554|start_char=551
+9	quake	quake	NOUN	NN	Number=Sing	7	comp:obj	_	end_char=560|start_char=555
+10	suffered	suffer	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=569|start_char=561
+11	serious	serious	ADJ	JJ	Degree=Pos	12	mod	_	end_char=577|start_char=570
+12	injuries	injury	NOUN	NNS	Number=Plur	10	comp:obj	_	end_char=586|SpaceAfter=No|start_char=578
+13	,	,	PUNCT	,	_	10	punct	_	end_char=587|start_char=586
+14	Nagano	Nagano	PROPN	NNP	Number=Sing	16	compound	_	end_char=594|start_char=588
+15	prefectural	prefectural	ADJ	JJ	Degree=Pos	16	mod	_	end_char=606|start_char=595
+16	police	police	NOUN	NNS	Number=Plur	17	subj	_	end_char=613|start_char=607
+17	said	say	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	parataxis	_	end_char=618|SpaceAfter=No|start_char=614
+18	.	.	PUNCT	.	_	17	punct	_	end_char=619|SpacesAfter=\n|start_char=618
+
+# text = Japanese television stations carried images of landslides that had cut off roads and railroads, as well as flattened houses and warped highways.
+# sent_id = 5
+1	Japanese	Japanese	ADJ	JJ	Degree=Pos	3	mod	_	end_char=628|start_char=620
+2	television	television	NOUN	NN	Number=Sing	3	compound	_	end_char=639|start_char=629
+3	stations	station	NOUN	NNS	Number=Plur	4	subj	_	end_char=648|start_char=640
+4	carried	carry	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=656|start_char=649
+5	images	image	NOUN	NNS	Number=Plur	4	comp:obj	_	end_char=663|start_char=657
+6	of	of	ADP	IN	_	5	udep	_	end_char=666|start_char=664
+7	landslides	landslide	NOUN	NNS	Number=Plur	6	comp:obj	_	end_char=677|start_char=667
+8	that	that	PRON	WDT	PronType=Rel	9	subj	_	end_char=682|start_char=678
+9	had	have	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	mod@relcl	_	end_char=686|start_char=683
+10	cut	cut	VERB	VBN	Tense=Past|VerbForm=Part	9	comp:aux	_	end_char=690|start_char=687
+11	off	off	ADP	RP	_	10	compound@prt	_	end_char=694|start_char=691
+12	roads	road	NOUN	NNS	Number=Plur	10	comp:obj	_	end_char=700|start_char=695
+13	and	and	CCONJ	CC	_	14	cc	_	end_char=704|start_char=701
+14	railroads	railroad	NOUN	NNS	Number=Plur	12	conj:coord	_	end_char=714|SpaceAfter=No|start_char=705
+15	,	,	PUNCT	,	Shared=Yes	20	punct	_	end_char=715|start_char=714
+16	as	as	ADV	RB	ExtPos=CCONJ|Shared=Yes	20	cc	_	end_char=718|Idiom=Yes|start_char=716
+17	well	well	ADV	RB	Degree=Pos	16	unk	_	end_char=723|InIdiom=Yes|start_char=719
+18	as	as	ADP	IN	_	17	unk	_	end_char=726|InIdiom=Yes|start_char=724
+19	flattened	flateen	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	20	mod	_	end_char=736|start_char=727
+20	houses	house	NOUN	NNS	Number=Plur	14	conj:coord	_	end_char=743|start_char=737
+21	and	and	CCONJ	CC	_	23	cc	_	end_char=747|start_char=744
+22	warped	warp	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	23	mod	_	end_char=754|start_char=748
+23	highways	highway	NOUN	NNS	Number=Plur	20	conj:coord@emb	_	end_char=763|SpaceAfter=No|start_char=755
+24	.	.	PUNCT	.	_	4	punct	_	end_char=764|SpacesAfter=\n|start_char=763
+
+# text = More than 300 rescue workers were deployed to search for people trapped in collapsed homes.
+# sent_id = 6
+1	More	more	ADJ	JJR	Degree=Cmp|ExtPos=ADV	3	mod	_	end_char=769|Idiom=Yes|start_char=765
+2	than	than	ADP	IN	_	1	unk	_	end_char=774|InIdiom=Yes|start_char=770
+3	300	300	NUM	CD	NumForm=Digit|NumType=Card	5	mod	_	end_char=778|start_char=775
+4	rescue	rescue	NOUN	NN	Number=Sing	5	compound	_	end_char=785|start_char=779
+5	workers	worker	NOUN	NNS	Number=Plur	6	subj@pass	_	end_char=793|start_char=786
+6	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=798|start_char=794
+7	deployed	deploy	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	comp:aux@pass	_	end_char=807|start_char=799
+8	to	to	PART	TO	_	6	mod	_	end_char=810|start_char=808
+9	search	search	VERB	VB	VerbForm=Inf	8	comp:obj	_	end_char=817|start_char=811
+10	for	for	ADP	IN	_	9	udep	_	end_char=821|start_char=818
+11	people	person	NOUN	NNS	Number=Plur	10	comp:obj	_	end_char=828|start_char=822
+12	trapped	trap	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	mod	_	end_char=836|start_char=829
+13	in	in	ADP	IN	_	12	udep	_	end_char=839|start_char=837
+14	collapsed	collapse	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	15	mod	_	end_char=849|start_char=840
+15	homes	home	NOUN	NNS	Number=Plur	13	comp:obj	_	end_char=855|SpaceAfter=No|start_char=850
+16	.	.	PUNCT	.	_	6	punct	_	end_char=856|start_char=855
+
+# text = Authorities said the rescue operation was completed.
+# sent_id = 7
+1	Authorities	authority	NOUN	NNS	Number=Plur	2	subj	_	end_char=868|start_char=857
+2	said	say	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=873|start_char=869
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	end_char=877|start_char=874
+4	rescue	rescue	NOUN	NN	Number=Sing	5	compound	_	end_char=884|start_char=878
+5	operation	operation	NOUN	NN	Number=Sing	6	subj@pass	_	end_char=894|start_char=885
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	comp:obj	_	end_char=898|start_char=895
+7	completed	complete	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	comp:aux@pass	_	end_char=908|SpaceAfter=No|start_char=899
+8	.	.	PUNCT	.	_	2	punct	_	end_char=909|SpacesAfter=\n|start_char=908
+
+# text = No electric facilities, including nuclear power plants, were damaged, the Tokyo Electric Power Co. said via Twitter Saturday.
+# sent_id = 8
+1	No	no	DET	DT	PronType=Neg	3	det	_	end_char=912|start_char=910
+2	electric	electric	ADJ	JJ	Degree=Pos	3	mod	_	end_char=921|start_char=913
+3	facilities	facility	NOUN	NNS	Number=Plur	10	subj@pass	_	end_char=932|SpaceAfter=No|start_char=922
+4	,	,	PUNCT	,	_	5	punct	_	end_char=933|start_char=932
+5	including	include	VERB	VBG	Tense=Pres|VerbForm=Part	3	udep	_	end_char=943|start_char=934
+6	nuclear	nuclear	ADJ	JJ	Degree=Pos	8	mod	_	end_char=951|start_char=944
+7	power	power	NOUN	NN	Number=Sing	8	compound	_	end_char=957|start_char=952
+8	plants	plant	NOUN	NNS	Number=Plur	5	comp:obj	_	end_char=964|SpaceAfter=No|start_char=958
+9	,	,	PUNCT	,	_	3	punct	_	end_char=965|start_char=964
+10	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=970|start_char=966
+11	damaged	damage	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	comp:aux@pass	_	end_char=978|SpaceAfter=No|start_char=971
+12	,	,	PUNCT	,	_	18	punct	_	end_char=979|start_char=978
+13	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	end_char=983|start_char=980
+14	Tokyo	Tokyo	PROPN	NNP	Number=Sing	16	compound	_	end_char=989|start_char=984
+15	Electric	electric	ADJ	NNP	Degree=Pos	16	mod	_	end_char=998|start_char=990
+16	Power	Power	PROPN	NNP	Number=Sing	17	compound	_	end_char=1004|start_char=999
+17	Co.	Co.	PROPN	NNP	Number=Sing	18	subj	_	end_char=1008|start_char=1005
+18	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	parataxis	_	end_char=1013|start_char=1009
+19	via	via	ADP	IN	_	18	udep	_	end_char=1017|start_char=1014
+20	Twitter	Twitter	PROPN	NNP	Number=Sing	19	comp:obj	_	end_char=1025|start_char=1018
+21	Saturday	Saturday	PROPN	NNP	Number=Sing	18	udep@unmarked	_	end_char=1034|SpaceAfter=No|start_char=1026
+22	.	.	PUNCT	.	_	10	punct	_	end_char=1035|SpacesAfter=\n|start_char=1034
+
+# text = Aftershocks followed the main quake Saturday night, including one measured at magnitude 4.1, the Japan Meteorological Agency said.
+# sent_id = 9
+1	Aftershocks	aftershock	NOUN	NNS	Number=Plur	2	subj	_	end_char=1047|start_char=1036
+2	followed	follow	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	20	comp:obj	_	end_char=1056|start_char=1048
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	end_char=1060|start_char=1057
+4	main	main	ADJ	JJ	Degree=Pos	5	mod	_	end_char=1065|start_char=1061
+5	quake	quake	NOUN	NN	Number=Sing	2	comp:obj	_	end_char=1071|start_char=1066
+6	Saturday	Saturday	PROPN	NNP	Number=Sing	7	compound	_	end_char=1080|start_char=1072
+7	night	night	NOUN	NN	Number=Sing	2	udep@unmarked	_	end_char=1086|SpaceAfter=No|start_char=1081
+8	,	,	PUNCT	,	_	9	punct	_	end_char=1087|start_char=1086
+9	including	include	VERB	VBG	Tense=Pres|VerbForm=Part	2	udep	_	end_char=1097|start_char=1088
+10	one	one	NUM	CD	NumForm=Word|NumType=Card	9	comp:obj	_	end_char=1101|start_char=1098
+11	measured	measure	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	mod	_	end_char=1110|start_char=1102
+12	at	at	ADP	IN	_	11	udep	_	end_char=1113|start_char=1111
+13	magnitude	magnitude	NOUN	NN	Number=Sing	12	comp:obj	_	end_char=1123|start_char=1114
+14	4.1	4.1	NUM	CD	NumForm=Digit|NumType=Frac	13	mod	_	end_char=1127|SpaceAfter=No|start_char=1124
+15	,	,	PUNCT	,	_	2	punct	_	end_char=1128|start_char=1127
+16	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	end_char=1132|start_char=1129
+17	Japan	Japan	PROPN	NNP	Number=Sing	19	compound	_	end_char=1138|start_char=1133
+18	Meteorological	meteorological	ADJ	NNP	Degree=Pos	19	mod	_	end_char=1153|start_char=1139
+19	Agency	Agency	PROPN	NNP	Number=Sing	20	subj	_	end_char=1160|start_char=1154
+20	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1165|SpaceAfter=No|start_char=1161
+21	.	.	PUNCT	.	_	2	punct	_	end_char=1166|SpacesAfter=\n|start_char=1165
+

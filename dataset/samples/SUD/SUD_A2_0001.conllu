@@ -1,0 +1,281 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# text = Hi Samia, Just a quick email to say that sounds like a great idea.
+# sent_id = 0
+1	Hi	hi	INTJ	UH	_	7	discourse	_	end_char=2|start_char=0
+2	Samia	Samia	PROPN	NNP	Number=Sing	7	vocative	_	end_char=8|SpaceAfter=No|start_char=3
+3	,	,	PUNCT	,	_	2	punct	_	end_char=9|SpacesAfter=\n|start_char=8
+4	Just	just	ADV	RB	_	7	mod	_	end_char=14|start_char=10
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	end_char=16|start_char=15
+6	quick	quick	ADJ	JJ	Degree=Pos	7	mod	_	end_char=22|start_char=17
+7	email	email	NOUN	NN	Number=Sing	0	root	_	end_char=28|start_char=23
+8	to	to	PART	TO	_	7	udep	_	end_char=31|start_char=29
+9	say	say	VERB	VB	VerbForm=Inf	8	comp:obj	_	end_char=35|start_char=32
+10	that	that	PRON	DT	Number=Sing|PronType=Dem	11	subj	_	end_char=40|start_char=36
+11	sounds	sound	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	comp:obj	_	end_char=47|start_char=41
+12	like	like	ADP	IN	_	11	udep	_	end_char=52|start_char=48
+13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	end_char=54|start_char=53
+14	great	great	ADJ	JJ	Degree=Pos	15	mod	_	end_char=60|start_char=55
+15	idea	idea	NOUN	NN	Number=Sing	12	comp:obj	_	end_char=65|SpaceAfter=No|start_char=61
+16	.	.	PUNCT	.	_	7	punct	_	end_char=66|start_char=65
+
+# text = Saturday is better for me because I'm meeting my parents on Sunday.
+# sent_id = 1
+1	Saturday	Saturday	PROPN	NNP	Number=Sing	2	subj	_	end_char=75|start_char=67
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=78|start_char=76
+3	better	good	ADJ	JJR	Degree=Cmp	2	comp:pred	_	end_char=85|start_char=79
+4	for	for	ADP	IN	_	3	udep	_	end_char=89|start_char=86
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	comp:obj	_	end_char=92|start_char=90
+6	because	because	SCONJ	IN	_	2	mod	_	end_char=100|start_char=93
+7-8	I'm	_	_	_	_	_	_	_	end_char=104|start_char=101
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	subj	_	end_char=102|start_char=101
+8	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	comp:obj	_	end_char=104|start_char=102
+9	meeting	meet	VERB	VBG	Tense=Pres|VerbForm=Part	8	comp:aux	_	end_char=112|start_char=105
+10	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	mod@poss	_	end_char=115|start_char=113
+11	parents	parent	NOUN	NNS	Number=Plur	9	comp:obj	_	end_char=123|start_char=116
+12	on	on	ADP	IN	_	9	udep	_	end_char=126|start_char=124
+13	Sunday	Sunday	PROPN	NNP	Number=Sing	12	comp:obj	_	end_char=133|SpaceAfter=No|start_char=127
+14	.	.	PUNCT	.	_	2	punct	_	end_char=134|start_char=133
+
+# text = So if that's still good for you, why don't you come here?
+# sent_id = 2
+1	So	so	ADV	RB	_	11	mod	_	end_char=137|start_char=135
+2	if	if	SCONJ	IN	_	11	mod	_	end_char=140|start_char=138
+3-4	that's	_	_	_	_	_	_	_	end_char=147|start_char=141
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	4	subj	_	end_char=145|start_char=141
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj	_	end_char=147|start_char=145
+5	still	still	ADV	RB	_	4	mod	_	end_char=153|start_char=148
+6	good	good	ADJ	JJ	Degree=Pos	4	comp:pred	_	end_char=158|start_char=154
+7	for	for	ADP	IN	_	6	udep	_	end_char=162|start_char=159
+8	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	7	comp:obj	_	end_char=166|SpaceAfter=No|start_char=163
+9	,	,	PUNCT	,	_	2	punct	_	end_char=167|start_char=166
+10	why	why	ADV	WRB	PronType=Int	11	mod	_	end_char=171|start_char=168
+11-12	don't	_	_	_	_	_	_	_	end_char=177|start_char=172
+11	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	end_char=174|start_char=172
+12	n't	not	PART	RB	Polarity=Neg	11	mod	_	end_char=177|start_char=174
+13	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	subj	_	end_char=181|start_char=178
+14	come	come	VERB	VB	VerbForm=Inf	11	comp:aux	_	end_char=186|start_char=182
+15	here	here	ADV	RB	PronType=Dem	11	mod	_	end_char=191|SpaceAfter=No|start_char=187
+16	?	?	PUNCT	.	_	11	punct	_	end_char=192|start_char=191
+
+# text = Then you can see the new flat and all the work we've done on the kitchen since we moved in.
+# sent_id = 3
+1	Then	then	ADV	RB	PronType=Dem	3	mod	_	end_char=197|start_char=193
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	subj	_	end_char=201|start_char=198
+3	can	can	AUX	MD	VerbForm=Fin	0	root	_	end_char=205|start_char=202
+4	see	see	VERB	VB	VerbForm=Inf	3	comp:aux	_	end_char=209|start_char=206
+5	the	the	DET	DT	Definite=Def|PronType=Art|Shared=No	7	det	_	end_char=213|start_char=210
+6	new	new	ADJ	JJ	Degree=Pos|Shared=No	7	mod	_	end_char=217|start_char=214
+7	flat	flat	NOUN	NN	Number=Sing	4	comp:obj	_	end_char=222|start_char=218
+8	and	and	CCONJ	CC	_	11	cc	_	end_char=226|start_char=223
+9	all	all	DET	PDT	PronType=Tot	11	det@predet	_	end_char=230|start_char=227
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	end_char=234|start_char=231
+11	work	work	NOUN	NN	Number=Sing	7	conj:coord	_	end_char=239|start_char=235
+12-13	we've	_	_	_	_	_	_	_	end_char=245|start_char=240
+12	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	subj	_	end_char=242|start_char=240
+13	've	have	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Shared=No|Tense=Pres|VerbForm=Fin	11	mod@relcl	_	end_char=245|start_char=242
+14	done	do	VERB	VBN	Tense=Past|VerbForm=Part	13	comp:aux	_	end_char=250|start_char=246
+15	on	on	ADP	IN	_	14	udep	_	end_char=253|start_char=251
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	end_char=257|start_char=254
+17	kitchen	kitchen	NOUN	NN	Number=Sing	15	comp:obj	_	end_char=265|start_char=258
+18	since	since	SCONJ	IN	_	13	mod	_	end_char=271|start_char=266
+19	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	20	subj	_	end_char=274|start_char=272
+20	moved	move	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	18	comp:obj	_	end_char=280|start_char=275
+21	in	in	ADP	RP	_	20	compound@prt	_	end_char=283|SpaceAfter=No|start_char=281
+22	.	.	PUNCT	.	_	3	punct	_	end_char=284|start_char=283
+
+# text = We can eat at home and then go for a walk in the afternoon.
+# sent_id = 4
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	subj	_	end_char=287|start_char=285
+2	can	can	AUX	MD	VerbForm=Fin	0	root	_	end_char=291|start_char=288
+3	eat	eat	VERB	VB	VerbForm=Inf	2	comp:aux	_	end_char=295|start_char=292
+4	at	at	ADP	IN	_	3	udep	_	end_char=298|start_char=296
+5	home	home	NOUN	NN	Number=Sing	4	comp:obj	_	end_char=303|start_char=299
+6	and	and	CCONJ	CC	_	8	cc	_	end_char=307|start_char=304
+7	then	then	ADV	RB	PronType=Dem	8	mod	_	end_char=312|start_char=308
+8	go	go	VERB	VB	VerbForm=Inf	3	conj:coord	_	end_char=315|start_char=313
+9	for	for	ADP	IN	Shared=No	8	udep	_	end_char=319|start_char=316
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	end_char=321|start_char=320
+11	walk	walk	NOUN	NN	Number=Sing	9	comp:obj	_	end_char=326|start_char=322
+12	in	in	ADP	IN	Shared=No	8	udep	_	end_char=329|start_char=327
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	end_char=333|start_char=330
+14	afternoon	afternoon	NOUN	NN	Number=Sing	12	comp:obj	_	end_char=343|SpaceAfter=No|start_char=334
+15	.	.	PUNCT	.	_	2	punct	_	end_char=344|start_char=343
+
+# text = It's going to be so good to catch up finally.
+# sent_id = 5
+1-2	It's	_	_	_	_	_	_	_	end_char=349|start_char=345
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=347|start_char=345
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=349|start_char=347
+3	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	2	comp:aux	_	end_char=355|start_char=350
+4	to	to	PART	TO	_	3	comp:obl	_	end_char=358|start_char=356
+5	be	be	AUX	VB	VerbForm=Inf	4	comp:obj	_	end_char=361|start_char=359|Subject=SubjRaising
+6	so	so	ADV	RB	_	5	mod	_	end_char=364|start_char=362
+7	good	good	ADJ	JJ	Degree=Pos	5	comp:pred	_	end_char=369|start_char=365
+8	to	to	PART	TO	_	7	comp:obl	_	end_char=372|start_char=370
+9	catch	catch	VERB	VB	VerbForm=Inf	8	comp:obj	_	end_char=378|start_char=373|Subject=SubjRaising
+10	up	up	ADP	RP	_	9	compound@prt	_	end_char=381|start_char=379
+11	finally	finally	ADV	RB	_	9	mod	_	end_char=389|SpaceAfter=No|start_char=382
+12	.	.	PUNCT	.	_	2	punct	_	end_char=390|start_char=389
+
+# text = I want to hear all about your new job!
+# sent_id = 6
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	end_char=392|start_char=391
+2	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	end_char=397|start_char=393
+3	to	to	PART	TO	_	2	comp:obl	_	end_char=400|start_char=398
+4	hear	hear	VERB	VB	VerbForm=Inf	3	comp:obj	_	end_char=405|start_char=401|Subject=SubjRaising
+5	all	all	DET	DT	PronType=Tot	4	comp:obj	_	end_char=409|start_char=406
+6	about	about	ADP	IN	_	5	udep	_	end_char=415|start_char=410
+7	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	9	mod@poss	_	end_char=420|start_char=416
+8	new	new	ADJ	JJ	Degree=Pos	9	mod	_	end_char=424|start_char=421
+9	job	job	NOUN	NN	Number=Sing	6	comp:obj	_	end_char=428|SpaceAfter=No|start_char=425
+10	!	!	PUNCT	.	_	2	punct	_	end_char=429|SpacesAfter=\n|start_char=428
+
+# text = Our address is 52 Charles Road, but it's a bit difficult to find because the house numbers are really strange here.
+# sent_id = 7
+1	Our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	mod@poss	_	end_char=433|start_char=430
+2	address	address	NOUN	NN	Number=Sing|Shared=No	3	subj	_	end_char=441|start_char=434
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=444|start_char=442
+4	52	52	NUM	CD	NumForm=Digit|NumType=Card	3	mod	_	end_char=447|start_char=445
+5	Charles	Charles	PROPN	NNP	Number=Sing	6	compound	_	end_char=455|start_char=448
+6	Road	Road	PROPN	NNP	Number=Sing	3	comp:pred	_	end_char=460|SpaceAfter=No|start_char=456
+7	,	,	PUNCT	,	_	10	punct	_	end_char=461|start_char=460
+8	but	but	CCONJ	CC	_	10	cc	_	end_char=465|start_char=462
+9-10	it's	_	_	_	_	_	_	_	end_char=470|start_char=466
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	unk@expl	_	end_char=468|start_char=466
+10	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj:coord	_	end_char=470|start_char=468
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	end_char=472|start_char=471
+12	bit	bit	NOUN	NN	Number=Sing	13	udep@unmarked	_	end_char=476|start_char=473
+13	difficult	difficult	ADJ	JJ	Degree=Pos|Shared=No	10	comp:pred	_	end_char=486|start_char=477
+14	to	to	PART	TO	Shared=No	10	subj	_	end_char=489|start_char=487
+15	find	find	VERB	VB	VerbForm=Inf	14	comp:obj	_	end_char=494|start_char=490
+16	because	because	SCONJ	IN	_	15	mod	_	end_char=502|start_char=495
+17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	end_char=506|start_char=503
+18	house	house	NOUN	NN	Number=Sing	19	compound	_	end_char=512|start_char=507
+19	numbers	number	NOUN	NNS	Number=Plur	20	subj	_	end_char=520|start_char=513
+20	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	comp:obj	_	end_char=524|start_char=521
+21	really	really	ADV	RB	_	20	mod	_	end_char=531|start_char=525
+22	strange	strange	ADJ	JJ	Degree=Pos	20	comp:pred	_	end_char=539|start_char=532
+23	here	here	ADV	RB	PronType=Dem	20	mod	_	end_char=544|SpaceAfter=No|start_char=540
+24	.	.	PUNCT	.	_	3	punct	_	end_char=545|start_char=544
+
+# text = If you turn left at the post office and keep going past the big white house on Charles Road, there's a small side street behind it with the houses 50–56 in.
+# sent_id = 8
+1	If	if	SCONJ	IN	_	22	mod	_	end_char=548|start_char=546
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs|Shared=Yes	3	subj	_	end_char=552|start_char=549
+3	turn	turn	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	comp:obj	_	end_char=557|start_char=553
+4	left	left	ADV	RB	_	3	mod	_	end_char=562|start_char=558
+5	at	at	ADP	IN	_	3	udep	_	end_char=565|start_char=563
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	end_char=569|start_char=566
+7	post	post	NOUN	NN	Number=Sing	8	compound	_	end_char=574|start_char=570
+8	office	office	NOUN	NN	Number=Sing	5	comp:obj	_	end_char=581|start_char=575
+9	and	and	CCONJ	CC	_	10	cc	_	end_char=585|start_char=582
+10	keep	keep	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	conj:coord	_	end_char=590|start_char=586
+11	going	go	VERB	VBG	Shared=No|VerbForm=Ger	10	comp:obj	_	end_char=596|start_char=591|Subject=SubjRaising
+12	past	past	ADP	IN	_	11	udep	_	end_char=601|start_char=597
+13	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	end_char=605|start_char=602
+14	big	big	ADJ	JJ	Degree=Pos	16	mod	_	end_char=609|start_char=606
+15	white	white	ADJ	JJ	Degree=Pos	16	mod	_	end_char=615|start_char=610
+16	house	house	NOUN	NN	Number=Sing	12	comp:obj	_	end_char=621|start_char=616
+17	on	on	ADP	IN	_	16	udep	_	end_char=624|start_char=622
+18	Charles	Charles	PROPN	NNP	Number=Sing	17	comp:obj	_	end_char=632|start_char=625
+19	Road	Road	PROPN	NNP	Number=Sing	18	flat	_	end_char=637|SpaceAfter=No|start_char=633
+20	,	,	PUNCT	,	_	1	punct	_	end_char=638|start_char=637
+21-22	there's	_	_	_	_	_	_	_	end_char=646|start_char=639
+21	there	there	PRON	EX	_	22	comp@expl	_	end_char=644|start_char=639
+22	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=646|start_char=644
+23	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	end_char=648|start_char=647
+24	small	small	ADJ	JJ	Degree=Pos	26	mod	_	end_char=654|start_char=649
+25	side	side	NOUN	NN	Number=Sing	26	compound	_	end_char=659|start_char=655
+26	street	street	NOUN	NN	Number=Sing	22	subj	_	end_char=666|start_char=660
+27	behind	behind	ADP	IN	_	26	udep	_	end_char=673|start_char=667
+28	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	27	comp:obj	_	end_char=676|start_char=674
+29	with	with	ADP	IN	_	22	udep	_	end_char=681|start_char=677
+30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	end_char=685|start_char=682
+31	houses	house	NOUN	NNS	Number=Plur	29	comp:obj	_	end_char=692|start_char=686
+32	50	50	NUM	CD	NumForm=Digit|NumType=Card	35	udep@unmarked	_	end_char=695|SpaceAfter=No|start_char=693
+33	–	-	SYM	SYM	_	32	udep	_	end_char=696|SpaceAfter=No|start_char=695
+34	56	56	NUM	CD	NumForm=Digit|NumType=Card	33	comp:obj	_	end_char=698|start_char=696
+35	in	in	ADP	RP	_	29	mod	_	end_char=701|SpaceAfter=No|start_char=699
+36	.	.	PUNCT	.	_	22	punct	_	end_char=702|start_char=701
+
+# text = Don't ask me why the side street doesn't have a different name!
+# sent_id = 9
+1-2	Don't	_	_	_	_	_	_	_	end_char=708|start_char=703
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	root	_	end_char=705|start_char=703
+2	n't	not	PART	RB	Polarity=Neg	1	mod	_	end_char=708|start_char=705
+3	ask	ask	VERB	VB	Mood=Imp|VerbForm=Fin	1	comp:aux	_	end_char=712|start_char=709
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	comp:obl	_	end_char=715|start_char=713
+5	why	why	ADV	WRB	PronType=Int	3	comp:obj	_	end_char=719|start_char=716
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	end_char=723|start_char=720
+7	side	side	NOUN	NN	Number=Sing	8	compound	_	end_char=728|start_char=724
+8	street	street	NOUN	NN	Number=Sing	9	subj	_	end_char=735|start_char=729
+9-10	doesn't	_	_	_	_	_	_	_	end_char=743|start_char=736
+9	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	mod@relcl	_	end_char=740|start_char=736
+10	n't	not	PART	RB	Polarity=Neg	9	mod	_	end_char=743|start_char=740
+11	have	have	VERB	VB	VerbForm=Inf	9	comp:aux	_	end_char=748|start_char=744
+12	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	end_char=750|start_char=749
+13	different	different	ADJ	JJ	Degree=Pos	14	mod	_	end_char=760|start_char=751
+14	name	name	NOUN	NN	Number=Sing	11	comp:obj	_	end_char=765|SpaceAfter=No|start_char=761
+15	!	!	PUNCT	.	_	1	punct	_	end_char=766|start_char=765
+
+# text = But call me if you get lost and I'll come and get you.
+# sent_id = 10
+1	But	but	CCONJ	CC	Shared=Yes	2	cc	_	end_char=770|start_char=767
+2	call	call	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	end_char=775|start_char=771
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	comp:obj	_	end_char=778|start_char=776
+4	if	if	SCONJ	IN	_	2	mod	_	end_char=781|start_char=779
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	subj@pass	_	end_char=785|start_char=782
+6	get	get	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	comp:obj	_	end_char=789|start_char=786
+7	lost	lose	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	comp:aux@pass	_	end_char=794|start_char=790
+8	and	and	CCONJ	CC	_	10	cc	_	end_char=798|start_char=795
+9-10	I'll	_	_	_	_	_	_	_	end_char=803|start_char=799
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	subj	_	end_char=800|start_char=799
+10	'll	will	AUX	MD	VerbForm=Fin	2	conj:coord	_	end_char=803|start_char=800
+11	come	come	VERB	VB	Shared=No|VerbForm=Inf	10	comp:aux	_	end_char=808|start_char=804
+12	and	and	CCONJ	CC	_	13	cc	_	end_char=812|start_char=809
+13	get	get	VERB	VB	VerbForm=Inf	11	conj:coord	_	end_char=816|start_char=813
+14	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs|Shared=No	13	comp:obj	_	end_char=820|SpaceAfter=No|start_char=817
+15	.	.	PUNCT	.	_	2	punct	_	end_char=821|SpacesAfter=\n|start_char=820
+
+# text = Let me know if there's anything you do/don't like to eat.
+# sent_id = 11
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	end_char=825|start_char=822
+2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	comp:obj	_	end_char=828|start_char=826
+3	know	know	VERB	VB	VerbForm=Inf	1	comp:obl	_	end_char=833|start_char=829|Subject=ObjRaising
+4	if	if	SCONJ	IN	_	3	comp:obj	_	end_char=836|start_char=834
+5-6	there's	_	_	_	_	_	_	_	end_char=844|start_char=837
+5	there	there	PRON	EX	_	6	comp@expl	_	end_char=842|start_char=837
+6	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	comp:obj	_	end_char=844|start_char=842
+7	anything	anything	PRON	NN	Number=Sing|PronType=Ind	6	subj	_	end_char=853|start_char=845
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	subj	_	end_char=857|start_char=854
+9	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	mod@relcl	_	end_char=860|SpaceAfter=No|start_char=858
+10	/	/	SYM	SYM	_	11	cc	_	end_char=861|SpaceAfter=No|start_char=860
+11-12	don't	_	_	_	_	_	_	_	end_char=866|start_char=861
+11	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	mod@relcl	_	end_char=863|start_char=861
+12	n't	not	PART	RB	Polarity=Neg	11	mod	_	end_char=866|start_char=863
+13	like	like	VERB	VB	VerbForm=Inf	11	comp:aux	_	end_char=871|start_char=867
+14	to	to	PART	TO	_	13	comp:obl	_	end_char=874|start_char=872
+15	eat	eat	VERB	VB	VerbForm=Inf	14	comp:obj	_	end_char=878|SpaceAfter=No|start_char=875|Subject=SubjRaising
+16	.	.	PUNCT	.	_	1	punct	_	end_char=879|start_char=878
+
+# text = Really looking forward to seeing you!
+# sent_id = 12
+1	Really	really	ADV	RB	_	2	mod	_	end_char=886|start_char=880
+2	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	end_char=894|start_char=887
+3	forward	forward	ADV	RB	_	2	mod	_	end_char=902|start_char=895
+4	to	to	SCONJ	IN	_	2	mod	_	end_char=905|start_char=903
+5	seeing	see	VERB	VBG	Tense=Pres|VerbForm=Part	4	comp:obj	_	end_char=912|start_char=906
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	comp:obj	_	end_char=916|SpaceAfter=No|start_char=913
+7	!	!	PUNCT	.	_	2	punct	_	end_char=917|SpacesAfter=\n|start_char=916
+
+# text = See you soon!
+# sent_id = 13
+1	See	see	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	end_char=921|start_char=918
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	comp:obj	_	end_char=925|start_char=922
+3	soon	soon	ADV	RB	Degree=Pos	1	mod	_	end_char=930|SpaceAfter=No|start_char=926
+4	!	!	PUNCT	.	_	1	punct	_	end_char=931|SpacesAfter=\n|start_char=930
+
+# text = Gregor
+# sent_id = 14
+1	Gregor	Gregor	PROPN	NNP	Number=Sing	0	root	_	end_char=938|SpaceAfter=No|start_char=932
+

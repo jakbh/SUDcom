@@ -1,0 +1,626 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# text = Hi!
+# sent_id = 0
+1	Hi	hi	INTJ	UH	_	0	root	_	end_char=2|SpaceAfter=No|start_char=0
+2	!	!	PUNCT	.	_	1	punct	_	end_char=3|SpacesAfter=\n|start_char=2
+
+# text = I've been meaning to write for ages and finally today I'm actually doing something about it.
+# sent_id = 1
+1-2	I've	_	_	_	_	_	_	_	end_char=8|start_char=4
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs|Shared=No	2	subj	_	end_char=5|start_char=4
+2	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	end_char=8|start_char=5
+3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	2	comp:aux	_	end_char=13|start_char=9
+4	meaning	mean	VERB	VBG	Tense=Pres|VerbForm=Part	3	comp:aux	_	end_char=21|start_char=14
+5	to	to	PART	TO	_	4	comp:obl	_	end_char=24|start_char=22
+6	write	write	VERB	VB	VerbForm=Inf	5	comp:obj	_	end_char=30|start_char=25|Subject=SubjRaising
+7	for	for	ADP	IN	_	6	udep	_	end_char=34|start_char=31
+8	ages	age	NOUN	NNS	Number=Plur	7	comp:obj	_	end_char=39|start_char=35
+9	and	and	CCONJ	CC	_	13	cc	_	end_char=43|start_char=40
+10	finally	finally	ADV	RB	_	13	mod	_	end_char=51|start_char=44
+11	today	today	NOUN	NN	Number=Sing	13	udep@unmarked	_	end_char=57|start_char=52
+12-13	I'm	_	_	_	_	_	_	_	end_char=61|start_char=58
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	subj	_	end_char=59|start_char=58
+13	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj:coord	_	end_char=61|start_char=59
+14	actually	actually	ADV	RB	Shared=No	13	mod	_	end_char=70|start_char=62
+15	doing	do	VERB	VBG	Shared=No|Tense=Pres|VerbForm=Part	13	comp:aux	_	end_char=76|start_char=71
+16	something	something	PRON	NN	Number=Sing|PronType=Ind	15	comp:obj	_	end_char=86|start_char=77
+17	about	about	ADP	IN	_	15	udep	_	end_char=92|start_char=87
+18	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	comp:obj	_	end_char=95|SpaceAfter=No|start_char=93
+19	.	.	PUNCT	.	_	2	punct	_	end_char=96|start_char=95
+
+# text = Not that I'm trying to make excuses for myself, it's been really hard to sit down and write, as I've been moving around so much.
+# sent_id = 2
+1	Not	not	PART	RB	Polarity=Neg	2	mod	_	end_char=100|start_char=97
+2	that	that	SCONJ	IN	_	13	mod	_	end_char=105|start_char=101
+3-4	I'm	_	_	_	_	_	_	_	end_char=109|start_char=106
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	subj	_	end_char=107|start_char=106
+4	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	comp:obj	_	end_char=109|start_char=107
+5	trying	try	VERB	VBG	Tense=Pres|VerbForm=Part	4	comp:aux	_	end_char=116|start_char=110
+6	to	to	PART	TO	_	5	comp:obl	_	end_char=119|start_char=117
+7	make	make	VERB	VB	VerbForm=Inf	6	comp:obj	_	end_char=124|start_char=120|Subject=SubjRaising
+8	excuses	excuse	NOUN	NNS	Number=Plur	7	comp:obj	_	end_char=132|start_char=125
+9	for	for	ADP	IN	_	7	udep	_	end_char=136|start_char=133
+10	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	9	comp:obj	_	end_char=143|SpaceAfter=No|start_char=137
+11	,	,	PUNCT	,	_	2	punct	_	end_char=144|start_char=143
+12-13	it's	_	_	_	_	_	_	_	end_char=149|start_char=145
+12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	unk@expl	_	end_char=147|start_char=145
+13	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=149|start_char=147
+14	been	be	AUX	VBN	Tense=Past|VerbForm=Part	13	comp:pred	_	end_char=154|start_char=150
+15	really	really	ADV	RB	_	14	mod	_	end_char=161|start_char=155
+16	hard	hard	ADJ	JJ	Degree=Pos	14	comp:pred	_	end_char=166|start_char=162
+17	to	to	PART	TO	_	13	subj	_	end_char=169|start_char=167
+18	sit	sit	VERB	VB	VerbForm=Inf	17	comp:obj	_	end_char=173|start_char=170
+19	down	down	ADP	RP	_	18	compound@prt	_	end_char=178|start_char=174
+20	and	and	CCONJ	CC	_	21	cc	_	end_char=182|start_char=179
+21	write	write	VERB	VB	VerbForm=Inf	18	conj:coord	_	end_char=188|SpaceAfter=No|start_char=183
+22	,	,	PUNCT	,	_	23	punct	_	end_char=189|start_char=188
+23	as	as	SCONJ	IN	Shared=Yes	21	mod	_	end_char=192|start_char=190
+24-25	I've	_	_	_	_	_	_	_	end_char=197|start_char=193
+24	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	subj	_	end_char=194|start_char=193
+25	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	23	comp:obj	_	end_char=197|start_char=194
+26	been	be	AUX	VBN	Tense=Past|VerbForm=Part	25	comp:aux	_	end_char=202|start_char=198
+27	moving	move	VERB	VBG	Tense=Pres|VerbForm=Part	26	comp:aux	_	end_char=209|start_char=203
+28	around	around	ADV	RB	_	25	mod	_	end_char=216|start_char=210
+29	so	so	ADV	RB	_	30	mod	_	end_char=219|start_char=217
+30	much	much	ADV	RB	Degree=Pos	25	mod	_	end_char=224|SpaceAfter=No|start_char=220
+31	.	.	PUNCT	.	_	13	punct	_	end_char=225|start_char=224
+
+# text = Since we last saw each other I've unpacked my bags in four different cities.
+# sent_id = 3
+1	Since	since	SCONJ	IN	_	8	mod	_	end_char=231|start_char=226
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	subj	_	end_char=234|start_char=232
+3	last	last	ADV	RB	_	4	mod	_	end_char=239|start_char=235
+4	saw	see	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	1	comp:obj	_	end_char=243|start_char=240
+5	each	each	DET	DT	ExtPos=PRON|PronType=Rcp	4	comp:obj	_	end_char=248|Idiom=Yes|start_char=244
+6	other	other	ADJ	JJ	Degree=Pos	5	unk	_	end_char=254|InIdiom=Yes|start_char=249
+7-8	I've	_	_	_	_	_	_	_	end_char=259|start_char=255
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	subj	_	end_char=256|start_char=255
+8	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	end_char=259|start_char=256
+9	unpacked	unpack	VERB	VBN	Tense=Past|VerbForm=Part	8	comp:aux	_	end_char=268|start_char=260
+10	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	mod@poss	_	end_char=271|start_char=269
+11	bags	bag	NOUN	NNS	Number=Plur	9	comp:obj	_	end_char=276|start_char=272
+12	in	in	ADP	IN	_	9	udep	_	end_char=279|start_char=277
+13	four	four	NUM	CD	NumForm=Word|NumType=Card	15	mod	_	end_char=284|start_char=280
+14	different	different	ADJ	JJ	Degree=Pos	15	mod	_	end_char=294|start_char=285
+15	cities	city	NOUN	NNS	Number=Plur	12	comp:obj	_	end_char=301|SpaceAfter=No|start_char=295
+16	.	.	PUNCT	.	_	8	punct	_	end_char=302|start_char=301
+
+# text = This job has turned out to be more of a whirlwind than I expected, but it's all good!
+# sent_id = 4
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	end_char=307|start_char=303
+2	job	job	NOUN	NN	Number=Sing|Shared=No	3	subj	_	end_char=311|start_char=308
+3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=315|start_char=312
+4	turned	turn	VERB	VBN	Tense=Past|VerbForm=Part	3	comp:aux	_	end_char=322|start_char=316
+5	out	out	ADP	RP	_	4	compound@prt	_	end_char=326|start_char=323
+6	to	to	PART	TO	_	4	comp:obl	_	end_char=329|start_char=327
+7	be	be	AUX	VB	VerbForm=Inf	6	comp:obj	_	end_char=332|start_char=330|Subject=SubjRaising
+8	more	more	ADJ	JJR	Degree=Cmp	7	comp:pred	_	end_char=337|start_char=333
+9	of	of	ADP	IN	_	8	udep	_	end_char=340|start_char=338
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	end_char=342|start_char=341
+11	whirlwind	whirlwind	NOUN	NN	Number=Sing	9	comp:obj	_	end_char=352|start_char=343
+12	than	than	SCONJ	IN	_	7	mod	_	end_char=357|start_char=353
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	subj	_	end_char=359|start_char=358
+14	expected	expect	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	12	comp:obj	_	end_char=368|SpaceAfter=No|start_char=360
+15	,	,	PUNCT	,	_	18	punct	_	end_char=369|start_char=368
+16	but	but	CCONJ	CC	_	18	cc	_	end_char=373|start_char=370
+17-18	it's	_	_	_	_	_	_	_	end_char=378|start_char=374
+17	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	subj	_	end_char=376|start_char=374
+18	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj:coord	_	end_char=378|start_char=376
+19	all	all	ADV	RB	Shared=No	18	mod	_	end_char=382|start_char=379
+20	good	good	ADJ	JJ	Degree=Pos|Shared=No	18	comp:pred	_	end_char=387|SpaceAfter=No|start_char=383
+21	!	!	PUNCT	.	_	3	punct	_	end_char=388|SpacesAfter=\s\n|start_char=387
+
+# text = I went from London to Prague to set up a new regional office there.
+# sent_id = 5
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	end_char=391|start_char=390
+2	went	go	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	end_char=396|start_char=392
+3	from	from	ADP	IN	_	2	udep	_	end_char=401|start_char=397
+4	London	London	PROPN	NNP	Number=Sing	3	comp:obj	_	end_char=408|start_char=402
+5	to	to	ADP	IN	_	2	udep	_	end_char=411|start_char=409
+6	Prague	Prague	PROPN	NNP	Number=Sing	5	comp:obj	_	end_char=418|start_char=412
+7	to	to	PART	TO	_	2	mod	_	end_char=421|start_char=419
+8	set	set	VERB	VB	VerbForm=Inf	7	comp:obj	_	end_char=425|start_char=422
+9	up	up	ADP	RP	_	8	compound@prt	_	end_char=428|start_char=426
+10	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	end_char=430|start_char=429
+11	new	new	ADJ	JJ	Degree=Pos	13	mod	_	end_char=434|start_char=431
+12	regional	regional	ADJ	JJ	Degree=Pos	13	mod	_	end_char=443|start_char=435
+13	office	office	NOUN	NN	Number=Sing	8	comp:obj	_	end_char=450|start_char=444
+14	there	there	ADV	RB	PronType=Dem	8	mod	_	end_char=456|SpaceAfter=No|start_char=451
+15	.	.	PUNCT	.	_	2	punct	_	end_char=457|start_char=456
+
+# text = You know I'd always wanted to go, but maybe I was imagining Prague in spring when I used to talk about that.
+# sent_id = 6
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	subj	_	end_char=461|start_char=458
+2	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	end_char=466|start_char=462
+3-4	I'd	_	_	_	_	_	_	_	end_char=470|start_char=467
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs|Shared=No	4	subj	_	end_char=468|start_char=467
+4	'd	would	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	comp:obj	_	end_char=470|start_char=468
+5	always	always	ADV	RB	PronType=Tot	4	mod	_	end_char=477|start_char=471
+6	wanted	want	VERB	VBN	Tense=Past|VerbForm=Part	4	comp:aux	_	end_char=484|start_char=478
+7	to	to	PART	TO	_	6	comp:obl	_	end_char=487|start_char=485
+8	go	go	VERB	VB	VerbForm=Inf	7	comp:obj	_	end_char=490|SpaceAfter=No|start_char=488|Subject=SubjRaising
+9	,	,	PUNCT	,	_	13	punct	_	end_char=491|start_char=490
+10	but	but	CCONJ	CC	_	13	cc	_	end_char=495|start_char=492
+11	maybe	maybe	ADV	RB	_	13	mod	_	end_char=501|start_char=496
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	subj	_	end_char=503|start_char=502
+13	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	conj:coord	_	end_char=507|start_char=504
+14	imagining	imagin	VERB	VBG	Shared=No|Tense=Pres|VerbForm=Part	13	comp:aux	_	end_char=517|start_char=508
+15	Prague	Prague	PROPN	NNP	Number=Sing	14	comp:obj	_	end_char=524|start_char=518
+16	in	in	ADP	IN	_	14	udep	_	end_char=527|start_char=525
+17	spring	spring	NOUN	NN	Number=Sing	16	comp:obj	_	end_char=534|start_char=528
+18	when	when	ADV	WRB	PronType=Int	20	mod	_	end_char=539|start_char=535
+19	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	subj	_	end_char=541|start_char=540
+20	used	use	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Shared=No|Tense=Past|VerbForm=Fin	13	mod	_	end_char=546|start_char=542
+21	to	to	PART	TO	_	20	comp:obl	_	end_char=549|start_char=547
+22	talk	talk	VERB	VB	VerbForm=Inf	21	comp:obj	_	end_char=554|start_char=550|Subject=SubjRaising
+23	about	about	ADP	IN	_	22	udep	_	end_char=560|start_char=555
+24	that	that	PRON	DT	Number=Sing|PronType=Dem	23	comp:obj	_	end_char=565|SpaceAfter=No|start_char=561
+25	.	.	PUNCT	.	_	4	punct	_	end_char=566|start_char=565
+
+# text = Winter was really hard, with minus 15 degrees in the mornings and dark really early in the evening.
+# sent_id = 7
+1	Winter	Winter	PROPN	NNP	Number=Sing	2	subj	_	end_char=573|start_char=567
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=577|start_char=574
+3	really	really	ADV	RB	_	2	mod	_	end_char=584|start_char=578
+4	hard	hard	ADJ	JJ	Degree=Pos	2	comp:pred	_	end_char=589|SpaceAfter=No|start_char=585
+5	,	,	PUNCT	,	Shared=Yes	6	punct	_	end_char=590|start_char=589
+6	with	with	ADP	IN	_	4	udep	_	end_char=595|start_char=591
+7	minus	minus	ADV	RB	_	8	mod	_	end_char=601|start_char=596
+8	15	15	NUM	CD	NumForm=Digit|NumType=Card	9	mod	_	end_char=604|start_char=602
+9	degrees	degree	NOUN	NNS	Number=Plur	6	comp:obj	_	end_char=612|start_char=605
+10	in	in	ADP	IN	_	9	udep	_	end_char=615|start_char=613
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	end_char=619|start_char=616
+12	mornings	morning	NOUN	NNS	Number=Plur	10	comp:obj	_	end_char=628|start_char=620
+13	and	and	CCONJ	CC	_	14	cc	_	end_char=632|start_char=629
+14	dark	dark	ADJ	JJ	Degree=Pos	6	conj:coord	_	end_char=637|start_char=633
+15	really	really	ADV	RB	_	16	mod	_	end_char=644|start_char=638
+16	early	early	ADV	RB	Degree=Pos|Shared=No	14	mod	_	end_char=650|start_char=645
+17	in	in	ADP	IN	Shared=No	14	udep	_	end_char=653|start_char=651
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	end_char=657|start_char=654
+19	evening	evening	NOUN	NN	Number=Sing	17	comp:obj	_	end_char=665|SpaceAfter=No|start_char=658
+20	.	.	PUNCT	.	_	2	punct	_	end_char=666|start_char=665
+
+# text = But at least it was blue skies and white snow and not days on end of grey skies and rain, like at home.
+# sent_id = 8
+1	But	but	CCONJ	CC	_	5	cc	_	end_char=670|start_char=667
+2	at	at	ADP	IN	ExtPos=ADV	5	mod	_	end_char=673|Idiom=Yes|start_char=671
+3	least	least	ADJ	JJS	Degree=Sup	2	unk	_	end_char=679|InIdiom=Yes|start_char=674
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	subj	_	end_char=682|start_char=680
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=686|start_char=683
+6	blue	blue	ADJ	JJ	Degree=Pos	7	mod	_	end_char=691|start_char=687
+7	skies	sky	NOUN	NNS	Number=Plur	5	comp:pred	_	end_char=697|start_char=692
+8	and	and	CCONJ	CC	_	10	cc	_	end_char=701|start_char=698
+9	white	white	ADJ	JJ	Degree=Pos	10	mod	_	end_char=707|start_char=702
+10	snow	snow	NOUN	NN	Number=Sing	7	conj:coord	_	end_char=712|start_char=708
+11	and	and	CCONJ	CC	_	13	cc	_	end_char=716|start_char=713
+12	not	not	PART	RB	Polarity=Neg	13	mod	_	end_char=720|start_char=717
+13	days	day	NOUN	NNS	Number=Plur	10	conj:coord	_	end_char=725|start_char=721
+14	on	on	ADP	IN	Shared=No	13	udep	_	end_char=728|start_char=726
+15	end	end	NOUN	NN	Number=Sing	14	comp:obj	_	end_char=732|start_char=729
+16	of	of	ADP	IN	_	15	udep	_	end_char=735|start_char=733
+17	grey	grey	ADJ	JJ	Degree=Pos	18	mod	_	end_char=740|start_char=736
+18	skies	sky	NOUN	NNS	Number=Plur	16	comp:obj	_	end_char=746|start_char=741
+19	and	and	CCONJ	CC	_	20	cc	_	end_char=750|start_char=747
+20	rain	rain	NOUN	NN	Number=Sing	18	conj:coord	_	end_char=755|SpaceAfter=No|start_char=751
+21	,	,	PUNCT	,	_	23	punct	_	end_char=756|start_char=755
+22	like	like	INTJ	UH	_	23	discourse	_	end_char=761|start_char=757
+23	at	at	ADP	IN	_	15	udep	_	end_char=764|start_char=762
+24	home	home	NOUN	NN	Number=Sing	23	comp:obj	_	end_char=769|SpaceAfter=No|start_char=765
+25	.	.	PUNCT	.	_	5	punct	_	end_char=770|start_char=769
+
+# text = It's tough being away from home over Christmas, though, and Skype on Christmas Day wasn't really the same as being with everyone.
+# sent_id = 9
+1-2	It's	_	_	_	_	_	_	_	end_char=775|start_char=771
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	unk@expl	_	end_char=773|start_char=771
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=775|start_char=773
+3	tough	tough	ADJ	JJ	Degree=Pos	2	comp:pred	_	end_char=781|start_char=776
+4	being	be	AUX	VBG	Tense=Pres|VerbForm=Part	3	mod	_	end_char=787|start_char=782
+5	away	away	ADV	RB	_	4	comp:pred	_	end_char=792|start_char=788
+6	from	from	ADP	IN	_	5	udep	_	end_char=797|start_char=793
+7	home	home	NOUN	NN	Number=Sing	6	comp:obj	_	end_char=802|start_char=798
+8	over	over	ADP	IN	_	5	udep	_	end_char=807|start_char=803
+9	Christmas	Christmas	PROPN	NNP	Number=Sing	8	comp:obj	_	end_char=817|SpaceAfter=No|start_char=808
+10	,	,	PUNCT	,	_	11	punct	_	end_char=818|start_char=817
+11	though	though	ADV	RB	_	2	mod	_	end_char=825|SpaceAfter=No|start_char=819
+12	,	,	PUNCT	,	_	18	punct	_	end_char=826|start_char=825
+13	and	and	CCONJ	CC	_	18	cc	_	end_char=830|start_char=827
+14	Skype	Skype	PROPN	NNP	Number=Sing	18	subj	_	end_char=836|start_char=831
+15	on	on	ADP	IN	_	14	udep	_	end_char=839|start_char=837
+16	Christmas	Christmas	PROPN	NNP	Number=Sing	17	compound	_	end_char=849|start_char=840
+17	Day	Day	PROPN	NNP	Number=Sing	15	comp:obj	_	end_char=853|start_char=850
+18-19	wasn't	_	_	_	_	_	_	_	end_char=860|start_char=854
+18	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj:coord	_	end_char=857|start_char=854
+19	n't	not	PART	RB	Polarity=Neg|Shared=No	18	mod	_	end_char=860|start_char=857
+20	really	really	ADV	RB	Shared=No	18	mod	_	end_char=867|start_char=861
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	end_char=871|start_char=868
+22	same	same	ADJ	JJ	Degree=Pos|Shared=No	18	comp:pred	_	end_char=876|start_char=872
+23	as	as	SCONJ	IN	Shared=No	18	mod	_	end_char=879|start_char=877
+24	being	be	AUX	VBG	Tense=Pres|VerbForm=Part	23	comp:obj	_	end_char=885|start_char=880
+25	with	with	ADP	IN	_	24	comp:pred	_	end_char=890|start_char=886
+26	everyone	everyone	PRON	NN	Number=Sing|PronType=Tot	25	comp:obj	_	end_char=899|SpaceAfter=No|start_char=891
+27	.	.	PUNCT	.	_	2	punct	_	end_char=900|SpacesAfter=\n|start_char=899
+
+# text = From there I was on another three-month mission to oversee the set-up of the office in New York.
+# sent_id = 10
+1	From	from	ADP	IN	_	4	udep	_	end_char=905|start_char=901
+2	there	there	ADV	RB	PronType=Dem	1	comp:obj	_	end_char=911|start_char=906
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	subj	_	end_char=913|start_char=912
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	end_char=917|start_char=914
+5	on	on	ADP	IN	_	4	comp:pred	_	end_char=920|start_char=918
+6	another	another	DET	DT	PronType=Ind	10	det	_	end_char=928|start_char=921
+7	three	three	NUM	CD	NumForm=Word|NumType=Card	9	mod	_	end_char=934|SpaceAfter=No|start_char=929
+8	-	-	PUNCT	HYPH	_	7	punct	_	end_char=935|SpaceAfter=No|start_char=934
+9	month	month	NOUN	NN	Number=Sing	10	compound	_	end_char=940|start_char=935
+10	mission	mission	NOUN	NN	Number=Sing	5	comp:obj	_	end_char=948|start_char=941
+11	to	to	PART	TO	_	10	udep	_	end_char=951|start_char=949
+12	oversee	oversee	VERB	VB	VerbForm=Inf	11	comp:obj	_	end_char=959|start_char=952
+13	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	end_char=963|start_char=960
+14	set	set	NOUN	NN	Number=Sing	16	compound	_	end_char=967|SpaceAfter=No|start_char=964
+15	-	-	PUNCT	HYPH	_	14	punct	_	end_char=968|SpaceAfter=No|start_char=967
+16	up	up	NOUN	NN	Number=Sing	12	comp:obj	_	end_char=970|start_char=968
+17	of	of	ADP	IN	_	16	udep	_	end_char=973|start_char=971
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	end_char=977|start_char=974
+19	office	office	NOUN	NN	Number=Sing	17	comp:obj	_	end_char=984|start_char=978
+20	in	in	ADP	IN	_	19	udep	_	end_char=987|start_char=985
+21	New	New	ADJ	NNP	Degree=Pos	22	mod	_	end_char=991|start_char=988
+22	York	York	PROPN	NNP	Number=Sing	20	comp:obj	_	end_char=996|SpaceAfter=No|start_char=992
+23	.	.	PUNCT	.	_	4	punct	_	end_char=997|start_char=996
+
+# text = Loved, loved, loved New York!
+# sent_id = 11
+1	Loved	love	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	end_char=1003|SpaceAfter=No|start_char=998
+2	,	,	PUNCT	,	_	3	punct	_	end_char=1004|start_char=1003
+3	loved	love	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	1	comp:pred	_	end_char=1010|SpaceAfter=No|start_char=1005|Subject=SubjRaising
+4	,	,	PUNCT	,	_	5	punct	_	end_char=1011|start_char=1010
+5	loved	love	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	parataxis	_	end_char=1017|start_char=1012
+6	New	New	ADJ	NNP	Degree=Pos	7	mod	_	end_char=1021|start_char=1018
+7	York	York	PROPN	NNP	Number=Sing	5	comp:obj	_	end_char=1026|SpaceAfter=No|start_char=1022
+8	!	!	PUNCT	.	_	1	punct	_	end_char=1027|start_char=1026
+
+# text = It's like being in one big TV show, as everywhere looks just a little bit familiar.
+# sent_id = 12
+1-2	It's	_	_	_	_	_	_	_	end_char=1032|start_char=1028
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=1030|start_char=1028
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=1032|start_char=1030
+3	like	like	SCONJ	IN	_	2	comp:pred	_	end_char=1037|start_char=1033
+4	being	be	AUX	VBG	Tense=Pres|VerbForm=Part	3	comp:obj	_	end_char=1043|start_char=1038
+5	in	in	ADP	IN	_	4	comp:pred	_	end_char=1046|start_char=1044
+6	one	one	NUM	CD	NumForm=Word|NumType=Card	9	mod	_	end_char=1050|start_char=1047
+7	big	big	ADJ	JJ	Degree=Pos	9	mod	_	end_char=1054|start_char=1051
+8	TV	TV	NOUN	NN	Number=Sing	9	compound	_	end_char=1057|start_char=1055
+9	show	show	NOUN	NN	Number=Sing	5	comp:obj	_	end_char=1062|SpaceAfter=No|start_char=1058
+10	,	,	PUNCT	,	_	11	punct	_	end_char=1063|start_char=1062
+11	as	as	SCONJ	IN	_	4	mod	_	end_char=1066|start_char=1064
+12	everywhere	everywhere	ADV	RB	_	13	mod	_	end_char=1077|start_char=1067
+13	looks	look	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	comp:obj	_	end_char=1083|start_char=1078
+14	just	just	ADV	RB	_	18	mod	_	end_char=1088|start_char=1084
+15	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	end_char=1090|start_char=1089
+16	little	little	ADJ	JJ	Degree=Pos	17	mod	_	end_char=1097|start_char=1091
+17	bit	bit	NOUN	NN	Number=Sing	18	udep@unmarked	_	end_char=1101|start_char=1098
+18	familiar	familiar	ADJ	JJ	Degree=Pos	13	comp:pred	_	end_char=1110|SpaceAfter=No|start_char=1102
+19	.	.	PUNCT	.	_	2	punct	_	end_char=1111|start_char=1110
+
+# text = I did every tourist thing you can think of when I wasn't working, and must have spent most of my salary on eating out.
+# sent_id = 13
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs|Shared=Yes	2	subj	_	end_char=1113|start_char=1112
+2	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	end_char=1117|start_char=1114
+3	every	every	DET	DT	PronType=Tot	5	det	_	end_char=1123|start_char=1118
+4	tourist	tourist	NOUN	NN	Number=Sing	5	compound	_	end_char=1131|start_char=1124
+5	thing	thing	NOUN	NN	Number=Sing	2	comp:obj	_	end_char=1137|start_char=1132
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	subj	_	end_char=1141|start_char=1138
+7	can	can	AUX	MD	VerbForm=Fin	5	mod@relcl	_	end_char=1145|start_char=1142
+8	think	think	VERB	VB	VerbForm=Inf	7	comp:aux	_	end_char=1151|start_char=1146
+9	of	of	ADP	IN	_	8	udep	_	end_char=1154|start_char=1152
+10	when	when	ADV	WRB	PronType=Int	12	mod	_	end_char=1159|start_char=1155
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	subj	_	end_char=1161|start_char=1160
+12-13	wasn't	_	_	_	_	_	_	_	end_char=1168|start_char=1162
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	7	mod	_	end_char=1165|start_char=1162
+13	n't	not	PART	RB	Polarity=Neg	12	mod	_	end_char=1168|start_char=1165
+14	working	work	VERB	VBG	Tense=Pres|VerbForm=Part	12	comp:aux	_	end_char=1176|SpaceAfter=No|start_char=1169
+15	,	,	PUNCT	,	_	17	punct	_	end_char=1177|start_char=1176
+16	and	and	CCONJ	CC	_	17	cc	_	end_char=1181|start_char=1178
+17	must	must	AUX	MD	VerbForm=Fin	2	conj:coord	_	end_char=1186|start_char=1182
+18	have	have	AUX	VB	Shared=No|VerbForm=Inf	17	comp:aux	_	end_char=1191|start_char=1187
+19	spent	spend	VERB	VBN	Tense=Past|VerbForm=Part	18	comp:aux	_	end_char=1197|start_char=1192
+20	most	most	ADJ	JJS	Degree=Sup	19	comp:obj	_	end_char=1202|start_char=1198
+21	of	of	ADP	IN	_	20	udep	_	end_char=1205|start_char=1203
+22	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	23	mod@poss	_	end_char=1208|start_char=1206
+23	salary	salary	NOUN	NN	Number=Sing	21	comp:obj	_	end_char=1215|start_char=1209
+24	on	on	SCONJ	IN	Shared=No	17	mod	_	end_char=1218|start_char=1216
+25	eating	eat	VERB	VBG	Tense=Pres|VerbForm=Part	24	comp:obj	_	end_char=1225|start_char=1219
+26	out	out	ADP	RP	_	25	compound@prt	_	end_char=1229|SpaceAfter=No|start_char=1226
+27	.	.	PUNCT	.	_	2	punct	_	end_char=1230|start_char=1229
+
+# text = It was really hard to leave for the next job, especially as I kind of met someone (!)
+# sent_id = 14
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	unk@expl	_	end_char=1233|start_char=1231
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1237|start_char=1234
+3	really	really	ADV	RB	_	2	mod	_	end_char=1244|start_char=1238
+4	hard	hard	ADJ	JJ	Degree=Pos	2	comp:pred	_	end_char=1249|start_char=1245
+5	to	to	PART	TO	_	2	subj	_	end_char=1252|start_char=1250
+6	leave	leave	VERB	VB	VerbForm=Inf	5	comp:obj	_	end_char=1258|start_char=1253
+7	for	for	ADP	IN	_	6	udep	_	end_char=1262|start_char=1259
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	end_char=1266|start_char=1263
+9	next	next	ADJ	JJ	Degree=Pos	10	mod	_	end_char=1271|start_char=1267
+10	job	job	NOUN	NN	Number=Sing	7	comp:obj	_	end_char=1275|SpaceAfter=No|start_char=1272
+11	,	,	PUNCT	,	_	13	punct	_	end_char=1276|start_char=1275
+12	especially	especially	ADV	RB	_	13	mod	_	end_char=1287|start_char=1277
+13	as	as	SCONJ	IN	_	6	mod	_	end_char=1290|start_char=1288
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	subj	_	end_char=1292|start_char=1291
+15	kind	kind	NOUN	NN	ExtPos=ADV|Number=Sing	17	mod	_	end_char=1297|Idiom=Yes|start_char=1293
+16	of	of	ADP	IN	_	15	unk	_	end_char=1300|InIdiom=Yes|start_char=1298
+17	met	meet	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	13	comp:obj	_	end_char=1304|start_char=1301
+18	someone	someone	PRON	NN	Number=Sing|PronType=Ind	17	comp:obj	_	end_char=1312|start_char=1305
+19	(	(	PUNCT	-LRB-	_	13	punct	_	end_char=1314|SpaceAfter=No|start_char=1313
+20	!	!	PUNCT	.	_	2	punct	_	end_char=1315|SpaceAfter=No|start_char=1314
+21	)	)	PUNCT	-RRB-	_	2	punct	_	end_char=1316|start_char=1315
+
+# text = More about Michael later ...
+# sent_id = 15
+1	More	more	ADJ	JJR	Degree=Cmp	0	root	_	end_char=1321|start_char=1317
+2	about	about	ADP	IN	_	1	udep	_	end_char=1327|start_char=1322
+3	Michael	Michael	PROPN	NNP	Number=Sing	2	comp:obj	_	end_char=1335|start_char=1328
+4	later	late	ADV	RBR	Degree=Cmp	1	mod	_	end_char=1341|start_char=1336
+5	...	...	PUNCT	.	_	1	punct	_	end_char=1345|SpacesAfter=\n|start_char=1342
+
+# text = So then I was posted to LA, which felt like a whole other country compared with the East Coast.
+# sent_id = 16
+1	So	so	ADV	RB	_	4	mod	_	end_char=1348|start_char=1346
+2	then	then	ADV	RB	PronType=Dem	4	mod	_	end_char=1353|start_char=1349
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	subj@pass	_	end_char=1355|start_char=1354
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	end_char=1359|start_char=1356
+5	posted	post	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	comp:aux@pass	_	end_char=1366|start_char=1360
+6	to	to	ADP	IN	_	5	udep	_	end_char=1369|start_char=1367
+7	LA	LA	PROPN	NNP	Number=Sing	6	comp:obj	_	end_char=1372|SpaceAfter=No|start_char=1370
+8	,	,	PUNCT	,	_	10	punct	_	end_char=1373|start_char=1372
+9	which	which	PRON	WDT	PronType=Rel	10	subj	_	end_char=1379|start_char=1374
+10	felt	feel	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	mod@relcl	_	end_char=1384|start_char=1380
+11	like	like	ADP	IN	_	10	udep	_	end_char=1389|start_char=1385
+12	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	end_char=1391|start_char=1390
+13	whole	whole	ADJ	JJ	Degree=Pos	15	mod	_	end_char=1397|start_char=1392
+14	other	other	ADJ	JJ	Degree=Pos	15	mod	_	end_char=1403|start_char=1398
+15	country	country	NOUN	NN	Number=Sing	11	comp:obj	_	end_char=1411|start_char=1404
+16	compared	compare	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	15	mod	_	end_char=1420|start_char=1412
+17	with	with	ADP	IN	_	16	udep	_	end_char=1425|start_char=1421
+18	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	end_char=1429|start_char=1426
+19	East	East	PROPN	NNP	Number=Sing	20	compound	_	end_char=1434|start_char=1430
+20	Coast	Coast	PROPN	NNP	Number=Sing	17	comp:obj	_	end_char=1440|SpaceAfter=No|start_char=1435
+21	.	.	PUNCT	.	_	4	punct	_	end_char=1441|start_char=1440
+
+# text = I could definitely get used to that kind of outdoor, beach lifestyle, but I didn't spend as much time getting to know California as I could have because I was flying back to see Michael every other weekend.
+# sent_id = 17
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs|Shared=No	2	subj@pass	_	end_char=1443|start_char=1442
+2	could	could	AUX	MD	VerbForm=Fin	0	root	_	end_char=1449|start_char=1444
+3	definitely	definitely	ADV	RB	_	2	mod	_	end_char=1460|start_char=1450
+4	get	get	AUX	VB	VerbForm=Inf	2	comp:aux	_	end_char=1464|start_char=1461
+5	used	use	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	comp:aux@pass	_	end_char=1469|start_char=1465
+6	to	to	ADP	IN	_	5	udep	_	end_char=1472|start_char=1470
+7	that	that	DET	DT	Number=Sing|PronType=Dem	8	det	_	end_char=1477|start_char=1473
+8	kind	kind	NOUN	NN	Number=Sing	6	comp:obj	_	end_char=1482|start_char=1478
+9	of	of	ADP	IN	_	8	udep	_	end_char=1485|start_char=1483
+10	outdoor	outdoor	ADJ	JJ	Degree=Pos	13	mod	_	end_char=1493|SpaceAfter=No|start_char=1486
+11	,	,	PUNCT	,	_	10	punct	_	end_char=1494|start_char=1493
+12	beach	beach	NOUN	NN	Number=Sing	13	compound	_	end_char=1500|start_char=1495
+13	lifestyle	lifestyle	NOUN	NN	Number=Sing	9	comp:obj	_	end_char=1510|SpaceAfter=No|start_char=1501
+14	,	,	PUNCT	,	_	17	punct	_	end_char=1511|start_char=1510
+15	but	but	CCONJ	CC	_	17	cc	_	end_char=1515|start_char=1512
+16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	subj	_	end_char=1517|start_char=1516
+17-18	didn't	_	_	_	_	_	_	_	end_char=1524|start_char=1518
+17	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	conj:coord	_	end_char=1521|start_char=1518
+18	n't	not	PART	RB	Polarity=Neg|Shared=No	17	mod	_	end_char=1524|start_char=1521
+19	spend	spend	VERB	VB	Shared=No|VerbForm=Inf	17	comp:aux	_	end_char=1530|start_char=1525
+20	as	as	ADV	RB	_	21	mod	_	end_char=1533|start_char=1531
+21	much	much	ADJ	JJ	Degree=Pos	22	mod	_	end_char=1538|start_char=1534
+22	time	time	NOUN	NN	Number=Sing	19	comp:obj	_	end_char=1543|start_char=1539
+23	getting	get	VERB	VBG	Tense=Pres|VerbForm=Part	22	mod	_	end_char=1551|start_char=1544
+24	to	to	PART	TO	_	23	comp:obl	_	end_char=1554|start_char=1552
+25	know	know	VERB	VB	VerbForm=Inf	24	comp:obj	_	end_char=1559|start_char=1555|Subject=SubjRaising
+26	California	California	PROPN	NNP	Number=Sing	25	comp:obj	_	end_char=1570|start_char=1560
+27	as	as	SCONJ	IN	_	23	mod	_	end_char=1573|start_char=1571
+28	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	29	subj	_	end_char=1575|start_char=1574
+29	could	could	AUX	MD	VerbForm=Fin	27	comp:obj	_	end_char=1581|start_char=1576
+30	have	have	VERB	VB	VerbForm=Inf	29	comp:aux	_	end_char=1586|start_char=1582
+31	because	because	SCONJ	IN	Shared=No	17	mod	_	end_char=1594|start_char=1587
+32	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	33	subj	_	end_char=1596|start_char=1595
+33	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	31	comp:obj	_	end_char=1600|start_char=1597
+34	flying	fly	VERB	VBG	Tense=Pres|VerbForm=Part	33	comp:aux	_	end_char=1607|start_char=1601
+35	back	back	ADV	RB	_	33	mod	_	end_char=1612|start_char=1608
+36	to	to	PART	TO	_	33	mod	_	end_char=1615|start_char=1613
+37	see	see	VERB	VB	VerbForm=Inf	36	comp:obj	_	end_char=1619|start_char=1616
+38	Michael	Michael	PROPN	NNP	Number=Sing	37	comp:obj	_	end_char=1627|start_char=1620
+39	every	every	DET	DT	PronType=Tot	41	det	_	end_char=1633|start_char=1628
+40	other	other	ADJ	JJ	Degree=Pos	41	mod	_	end_char=1639|start_char=1634
+41	weekend	weekend	NOUN	NN	Number=Sing	37	udep@unmarked	_	end_char=1647|SpaceAfter=No|start_char=1640
+42	.	.	PUNCT	.	_	2	punct	_	end_char=1648|start_char=1647
+
+# text = He came to see me when he could, but his job means he's often working at weekends, so he couldn't make the flight very often.
+# sent_id = 18
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=No	2	subj	_	end_char=1651|start_char=1649
+2	came	come	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1656|start_char=1652
+3	to	to	PART	TO	_	2	comp:obl	_	end_char=1659|start_char=1657
+4	see	see	VERB	VB	VerbForm=Inf	3	comp:obj	_	end_char=1663|start_char=1660|Subject=SubjRaising
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	comp:obj	_	end_char=1666|start_char=1664
+6	when	when	ADV	WRB	PronType=Int	8	mod	_	end_char=1671|start_char=1667
+7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	subj	_	end_char=1674|start_char=1672
+8	could	could	AUX	MD	VerbForm=Fin	4	mod	_	end_char=1680|SpaceAfter=No|start_char=1675
+9	,	,	PUNCT	,	_	13	punct	_	end_char=1681|start_char=1680
+10	but	but	CCONJ	CC	_	13	cc	_	end_char=1685|start_char=1682
+11	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	mod@poss	_	end_char=1689|start_char=1686
+12	job	job	NOUN	NN	Number=Sing	13	subj	_	end_char=1693|start_char=1690
+13	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj:coord	_	end_char=1699|start_char=1694
+14-15	he's	_	_	_	_	_	_	_	end_char=1704|start_char=1700
+14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	subj	_	end_char=1702|start_char=1700
+15	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Shared=No|Tense=Pres|VerbForm=Fin	13	comp:obj	_	end_char=1704|start_char=1702
+16	often	often	ADV	RB	_	15	mod	_	end_char=1710|start_char=1705
+17	working	work	VERB	VBG	Tense=Pres|VerbForm=Part	15	comp:aux	_	end_char=1718|start_char=1711
+18	at	at	ADP	IN	_	17	udep	_	end_char=1721|start_char=1719
+19	weekends	weekend	NOUN	NNS	Number=Plur	18	comp:obj	_	end_char=1730|SpaceAfter=No|start_char=1722
+20	,	,	PUNCT	,	_	21	punct	_	end_char=1731|start_char=1730
+21	so	so	SCONJ	IN	Shared=No	13	parataxis	_	end_char=1734|start_char=1732
+22	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	subj	_	end_char=1737|start_char=1735
+23-24	couldn't	_	_	_	_	_	_	_	end_char=1746|start_char=1738
+23	could	could	AUX	MD	VerbForm=Fin	21	comp:obj	_	end_char=1743|start_char=1738
+24	n't	not	PART	RB	Polarity=Neg	23	mod	_	end_char=1746|start_char=1743
+25	make	make	VERB	VB	VerbForm=Inf	23	comp:aux	_	end_char=1751|start_char=1747
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	end_char=1755|start_char=1752
+27	flight	flight	NOUN	NN	Number=Sing	25	comp:obj	_	end_char=1762|start_char=1756
+28	very	very	ADV	RB	_	29	mod	_	end_char=1767|start_char=1763
+29	often	often	ADV	RB	_	23	mod	_	end_char=1773|SpaceAfter=No|start_char=1768
+30	.	.	PUNCT	.	_	2	punct	_	end_char=1774|start_char=1773
+
+# text = Those three months flew by and then I was off again, to Frankfurt, which is where I am now.
+# sent_id = 19
+1	Those	that	DET	DT	Number=Plur|PronType=Dem	3	det	_	end_char=1780|start_char=1775
+2	three	three	NUM	CD	NumForm=Word|NumType=Card	3	mod	_	end_char=1786|start_char=1781
+3	months	month	NOUN	NNS	Number=Plur|Shared=No	4	subj	_	end_char=1793|start_char=1787
+4	flew	fly	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1798|start_char=1794
+5	by	by	ADP	IN	_	4	mod	_	end_char=1801|start_char=1799
+6	and	and	CCONJ	CC	_	9	cc	_	end_char=1805|start_char=1802
+7	then	then	ADV	RB	PronType=Dem	9	mod	_	end_char=1810|start_char=1806
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	subj	_	end_char=1812|start_char=1811
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	conj:coord	_	end_char=1816|start_char=1813
+10	off	off	ADV	RB	Shared=No	9	comp:pred	_	end_char=1820|start_char=1817
+11	again	again	ADV	RB	_	10	mod	_	end_char=1826|SpaceAfter=No|start_char=1821
+12	,	,	PUNCT	,	_	13	punct	_	end_char=1827|start_char=1826
+13	to	to	ADP	IN	_	10	udep	_	end_char=1830|start_char=1828
+14	Frankfurt	Frankfurt	PROPN	NNP	Number=Sing	13	comp:obj	_	end_char=1840|SpaceAfter=No|start_char=1831
+15	,	,	PUNCT	,	_	17	punct	_	end_char=1841|start_char=1840
+16	which	which	PRON	WDT	PronType=Rel	17	subj	_	end_char=1847|start_char=1842
+17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	mod@relcl	_	end_char=1850|start_char=1848
+18	where	where	ADV	WRB	PronType=Rel	20	comp:pred	_	end_char=1856|start_char=1851
+19	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	subj	_	end_char=1858|start_char=1857
+20	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	comp:pred	_	end_char=1861|start_char=1859
+21	now	now	ADV	RB	PronType=Dem	18	mod@relcl	_	end_char=1865|SpaceAfter=No|start_char=1862
+22	.	.	PUNCT	.	_	4	punct	_	end_char=1866|start_char=1865
+
+# text = And … so is Michael!
+# sent_id = 20
+1	And	and	CCONJ	CC	_	3	reparandum	_	end_char=1870|start_char=1867
+2	…	…	PUNCT	:	_	1	punct	_	end_char=1872|start_char=1871
+3	so	so	ADV	RB	_	4	comp:pred	_	end_char=1875|start_char=1873
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=1878|start_char=1876
+5	Michael	Michael	PROPN	NNP	Number=Sing	4	subj	_	end_char=1886|SpaceAfter=No|start_char=1879
+6	!	!	PUNCT	.	_	4	punct	_	end_char=1887|start_char=1886
+
+# text = He got a month off work and we're trying to work out how we can be in the same place at the same time for a while.
+# sent_id = 21
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=No	2	subj	_	end_char=1890|start_char=1888
+2	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1894|start_char=1891
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	end_char=1896|start_char=1895
+4	month	month	NOUN	NN	Number=Sing	2	comp:obj	_	end_char=1902|start_char=1897
+5	off	off	ADP	IN	_	2	udep	_	end_char=1906|start_char=1903
+6	work	work	NOUN	NN	Number=Sing	5	comp:obj	_	end_char=1911|start_char=1907
+7	and	and	CCONJ	CC	_	9	cc	_	end_char=1915|start_char=1912
+8-9	we're	_	_	_	_	_	_	_	end_char=1921|start_char=1916
+8	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	subj	_	end_char=1918|start_char=1916
+9	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	conj:coord	_	end_char=1921|start_char=1918
+10	trying	try	VERB	VBG	Shared=No|Tense=Pres|VerbForm=Part	9	comp:aux	_	end_char=1928|start_char=1922
+11	to	to	PART	TO	_	10	comp:obl	_	end_char=1931|start_char=1929
+12	work	work	VERB	VB	VerbForm=Inf	11	comp:obj	_	end_char=1936|start_char=1932|Subject=SubjRaising
+13	out	out	ADP	RP	_	12	compound@prt	_	end_char=1940|start_char=1937
+14	how	how	ADV	WRB	PronType=Int	12	comp:obj	_	end_char=1944|start_char=1941
+15	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	subj	_	end_char=1947|start_char=1945
+16	can	can	AUX	MD	VerbForm=Fin	14	mod@relcl	_	end_char=1951|start_char=1948
+17	be	be	AUX	VB	VerbForm=Inf	16	comp:aux	_	end_char=1954|start_char=1952
+18	in	in	ADP	IN	_	17	comp:pred	_	end_char=1957|start_char=1955
+19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	end_char=1961|start_char=1958
+20	same	same	ADJ	JJ	Degree=Pos	21	mod	_	end_char=1966|start_char=1962
+21	place	place	NOUN	NN	Number=Sing	18	comp:obj	_	end_char=1972|start_char=1967
+22	at	at	ADP	IN	_	21	udep	_	end_char=1975|start_char=1973
+23	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	end_char=1979|start_char=1976
+24	same	same	ADJ	JJ	Degree=Pos	25	mod	_	end_char=1984|start_char=1980
+25	time	time	NOUN	NN	Number=Sing	22	comp:obj	_	end_char=1989|start_char=1985
+26	for	for	ADP	IN	_	21	udep	_	end_char=1993|start_char=1990
+27	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	end_char=1995|start_char=1994
+28	while	while	NOUN	NN	Number=Sing	26	comp:obj	_	end_char=2001|SpaceAfter=No|start_char=1996
+29	.	.	PUNCT	.	_	2	punct	_	end_char=2002|start_char=2001
+
+# text = We figure the first step in that direction is getting married, which is also why I wanted to write – I can't get married without my oldest friend there!
+# sent_id = 22
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	subj	_	end_char=2005|start_char=2003
+2	figure	figure	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	end_char=2012|start_char=2006
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	end_char=2016|start_char=2013
+4	first	first	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	5	mod	_	end_char=2022|start_char=2017
+5	step	step	NOUN	NN	Number=Sing	9	subj	_	end_char=2027|start_char=2023
+6	in	in	ADP	IN	_	5	udep	_	end_char=2030|start_char=2028
+7	that	that	DET	DT	Number=Sing|PronType=Dem	8	det	_	end_char=2035|start_char=2031
+8	direction	direction	NOUN	NN	Number=Sing	6	comp:obj	_	end_char=2045|start_char=2036
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj	_	end_char=2048|start_char=2046
+10	getting	get	VERB	VBG	Tense=Pres|VerbForm=Part	9	comp:aux	_	end_char=2056|start_char=2049
+11	married	married	ADJ	JJ	Degree=Pos	10	comp:pred	_	end_char=2064|SpaceAfter=No|start_char=2057
+12	,	,	PUNCT	,	_	14	punct	_	end_char=2065|start_char=2064
+13	which	which	PRON	WDT	PronType=Rel	14	subj	_	end_char=2071|start_char=2066
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	mod@relcl	_	end_char=2074|start_char=2072
+15	also	also	ADV	RB	_	14	mod	_	end_char=2079|start_char=2075
+16	why	why	ADV	WRB	PronType=Rel	14	comp:pred	_	end_char=2083|start_char=2080
+17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	subj	_	end_char=2085|start_char=2084
+18	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	16	mod@relcl	_	end_char=2092|start_char=2086
+19	to	to	PART	TO	_	18	comp:obl	_	end_char=2095|start_char=2093
+20	write	write	VERB	VB	VerbForm=Inf	19	comp:obj	_	end_char=2101|start_char=2096|Subject=SubjRaising
+21	–	-	PUNCT	:	_	23	punct	_	end_char=2103|start_char=2102
+22	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	subj@pass	_	end_char=2105|start_char=2104
+23-24	can't	_	_	_	_	_	_	_	end_char=2111|start_char=2106
+23	ca	can	AUX	MD	VerbForm=Fin	2	parataxis	_	end_char=2108|start_char=2106
+24	n't	not	PART	RB	Polarity=Neg	23	mod	_	end_char=2111|start_char=2108
+25	get	get	AUX	VB	VerbForm=Inf	23	comp:aux	_	end_char=2115|start_char=2112
+26	married	marry	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	25	comp:aux@pass	_	end_char=2123|start_char=2116
+27	without	without	ADP	IN	_	26	udep	_	end_char=2131|start_char=2124
+28	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	30	mod@poss	_	end_char=2134|start_char=2132
+29	oldest	old	ADJ	JJS	Degree=Sup	30	mod	_	end_char=2141|start_char=2135
+30	friend	friend	NOUN	NN	Number=Sing	27	comp:obj	_	end_char=2148|start_char=2142
+31	there	there	ADV	RB	PronType=Dem	23	mod	_	end_char=2154|SpaceAfter=No|start_char=2149
+32	!	!	PUNCT	.	_	2	punct	_	end_char=2155|start_char=2154
+
+# text = The wedding's going to be at home in London in September and I hope you can come!
+# sent_id = 23
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	end_char=2159|start_char=2156
+2-3	wedding's	_	_	_	_	_	_	_	end_char=2169|start_char=2160
+2	wedding	wedding	NOUN	NN	Number=Sing|Shared=No	3	subj	_	end_char=2167|start_char=2160
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=2169|start_char=2167
+4	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	3	comp:aux	_	end_char=2175|start_char=2170
+5	to	to	PART	TO	_	4	comp:obl	_	end_char=2178|start_char=2176
+6	be	be	AUX	VB	VerbForm=Inf	5	comp:obj	_	end_char=2181|start_char=2179|Subject=SubjRaising
+7	at	at	ADP	IN	_	6	comp:pred	_	end_char=2184|start_char=2182
+8	home	home	NOUN	NN	Number=Sing	7	comp:obj	_	end_char=2189|start_char=2185
+9	in	in	ADP	IN	_	8	udep	_	end_char=2192|start_char=2190
+10	London	London	PROPN	NNP	Number=Sing	9	comp:obj	_	end_char=2199|start_char=2193
+11	in	in	ADP	IN	_	8	udep	_	end_char=2202|start_char=2200
+12	September	September	PROPN	NNP	Number=Sing	11	comp:obj	_	end_char=2212|start_char=2203
+13	and	and	CCONJ	CC	_	15	cc	_	end_char=2216|start_char=2213
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	subj	_	end_char=2218|start_char=2217
+15	hope	hope	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj:coord	_	end_char=2223|start_char=2219
+16	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	17	subj	_	end_char=2227|start_char=2224
+17	can	can	AUX	MD	Shared=No|VerbForm=Fin	15	comp:obj	_	end_char=2231|start_char=2228
+18	come	come	VERB	VB	VerbForm=Inf	17	comp:aux	_	end_char=2236|SpaceAfter=No|start_char=2232
+19	!	!	PUNCT	.	_	3	punct	_	end_char=2237|SpacesAfter=\n|start_char=2236
+
+# text = Anyway, tell me all your news and I promise not to leave it so long this time!
+# sent_id = 24
+1	Anyway	anyway	INTJ	UH	_	3	discourse	_	end_char=2244|SpaceAfter=No|start_char=2238
+2	,	,	PUNCT	,	_	1	punct	_	end_char=2245|start_char=2244
+3	tell	tell	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	end_char=2250|start_char=2246
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	comp:obl	_	end_char=2253|start_char=2251
+5	all	all	DET	PDT	PronType=Tot	7	det@predet	_	end_char=2257|start_char=2254
+6	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	7	mod@poss	_	end_char=2262|start_char=2258
+7	news	news	NOUN	NN	Number=Sing	3	comp:obj	_	end_char=2267|start_char=2263
+8	and	and	CCONJ	CC	_	10	cc	_	end_char=2271|start_char=2268
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	subj	_	end_char=2273|start_char=2272
+10	promise	promise	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj:coord	_	end_char=2281|start_char=2274
+11	not	not	PART	RB	Polarity=Neg	12	mod	_	end_char=2285|start_char=2282
+12	to	to	PART	TO	Shared=No	10	comp:obl	_	end_char=2288|start_char=2286
+13	leave	leave	VERB	VB	VerbForm=Inf	12	comp:obj	_	end_char=2294|start_char=2289|Subject=SubjRaising
+14	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	comp:obj	_	end_char=2297|start_char=2295
+15	so	so	ADV	RB	_	16	mod	_	end_char=2300|start_char=2298
+16	long	long	ADV	RB	Degree=Pos	13	mod	_	end_char=2305|start_char=2301
+17	this	this	DET	DT	Number=Sing|PronType=Dem	18	det	_	end_char=2310|start_char=2306
+18	time	time	NOUN	NN	Number=Sing	16	udep@unmarked	_	end_char=2315|SpaceAfter=No|start_char=2311
+19	!	!	PUNCT	.	_	3	punct	_	end_char=2316|SpacesAfter=\n|start_char=2315
+
+# text = Lots of love, Kath
+# sent_id = 25
+1	Lots	lot	NOUN	NNS	Number=Plur	0	root	_	end_char=2321|start_char=2317
+2	of	of	ADP	IN	_	1	udep	_	end_char=2324|start_char=2322
+3	love	love	NOUN	NN	Number=Sing	2	comp:obj	_	end_char=2329|SpaceAfter=No|start_char=2325
+4	,	,	PUNCT	,	_	5	punct	_	end_char=2330|SpacesAfter=\n|start_char=2329
+5	Kath	Kath	PROPN	NNP	Number=Sing	3	conj:appos	_	end_char=2335|SpaceAfter=No|start_char=2331
+
