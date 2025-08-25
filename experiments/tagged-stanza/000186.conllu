@@ -1,0 +1,153 @@
+# text = Jimmy dropped a piece of paper on the floor.
+# sent_id = 0
+1	Jimmy	Jimmy	PROPN	NNP	Number=Sing	2	nsubj	_	start_char=0|end_char=5
+2	dropped	drop	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=6|end_char=13
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	start_char=14|end_char=15
+4	piece	piece	NOUN	NN	Number=Sing	2	obj	_	start_char=16|end_char=21
+5	of	of	ADP	IN	_	6	case	_	start_char=22|end_char=24
+6	paper	paper	NOUN	NN	Number=Sing	4	nmod	_	start_char=25|end_char=30
+7	on	on	ADP	IN	_	9	case	_	start_char=31|end_char=33
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=34|end_char=37
+9	floor	floor	NOUN	NN	Number=Sing	2	obl	_	start_char=38|end_char=43|SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	start_char=43|end_char=44
+
+# text = He bent over and picked it up.
+# sent_id = 1
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=45|end_char=47
+2	bent	bend	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=48|end_char=52
+3	over	over	ADP	RP	_	2	compound:prt	_	start_char=53|end_char=57
+4	and	and	CCONJ	CC	_	5	cc	_	start_char=58|end_char=61
+5	picked	pick	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	start_char=62|end_char=68
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	_	start_char=69|end_char=71
+7	up	up	ADP	RP	_	5	compound:prt	_	start_char=72|end_char=74|SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	start_char=74|end_char=75
+
+# text = He folded the piece of paper in two.
+# sent_id = 2
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=76|end_char=78
+2	folded	fold	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=79|end_char=85
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=86|end_char=89
+4	piece	piece	NOUN	NN	Number=Sing	2	obj	_	start_char=90|end_char=95
+5	of	of	ADP	IN	_	6	case	_	start_char=96|end_char=98
+6	paper	paper	NOUN	NN	Number=Sing	4	nmod	_	start_char=99|end_char=104
+7	in	in	ADP	IN	_	8	case	_	start_char=105|end_char=107
+8	two	two	NUM	CD	NumForm=Word|NumType=Card	2	obl	_	start_char=108|end_char=111|SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	start_char=111|end_char=112
+
+# text = He put it on the table.
+# sent_id = 3
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=113|end_char=115
+2	put	put	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=116|end_char=119
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	start_char=120|end_char=122
+4	on	on	ADP	IN	_	6	case	_	start_char=123|end_char=125
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=126|end_char=129
+6	table	table	NOUN	NN	Number=Sing	2	obl	_	start_char=130|end_char=135|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	start_char=135|end_char=136
+
+# text = He picked up a pencil.
+# sent_id = 4
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=137|end_char=139
+2	picked	pick	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=140|end_char=146
+3	up	up	ADP	RP	_	2	compound:prt	_	start_char=147|end_char=149
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=150|end_char=151
+5	pencil	pencil	NOUN	NN	Number=Sing	2	obj	_	start_char=152|end_char=158|SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	start_char=158|end_char=159
+
+# text = He wrote a phone number on the piece of paper.
+# sent_id = 5
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=160|end_char=162
+2	wrote	write	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=163|end_char=168
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=169|end_char=170
+4	phone	phone	NOUN	NN	Number=Sing	5	compound	_	start_char=171|end_char=176
+5	number	number	NOUN	NN	Number=Sing	2	obj	_	start_char=177|end_char=183
+6	on	on	ADP	IN	_	8	case	_	start_char=184|end_char=186
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=187|end_char=190
+8	piece	piece	NOUN	NN	Number=Sing	2	obl	_	start_char=191|end_char=196
+9	of	of	ADP	IN	_	10	case	_	start_char=197|end_char=199
+10	paper	paper	NOUN	NN	Number=Sing	8	nmod	_	start_char=200|end_char=205|SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	start_char=205|end_char=206
+
+# text = He put the pencil on the table.
+# sent_id = 6
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=207|end_char=209
+2	put	put	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=210|end_char=213
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=214|end_char=217
+4	pencil	pencil	NOUN	NN	Number=Sing	2	obj	_	start_char=218|end_char=224
+5	on	on	ADP	IN	_	7	case	_	start_char=225|end_char=227
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=228|end_char=231
+7	table	table	NOUN	NN	Number=Sing	2	obl	_	start_char=232|end_char=237|SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	start_char=237|end_char=238
+
+# text = He picked up the scissors.
+# sent_id = 7
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=239|end_char=241
+2	picked	pick	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=242|end_char=248
+3	up	up	ADP	RP	_	2	compound:prt	_	start_char=249|end_char=251
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=252|end_char=255
+5	scissors	scissors	NOUN	NNS	Number=Plur	2	obj	_	start_char=256|end_char=264|SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	start_char=264|end_char=265
+
+# text = He picked up the piece of paper.
+# sent_id = 8
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=266|end_char=268
+2	picked	pick	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=269|end_char=275
+3	up	up	ADP	RP	_	2	compound:prt	_	start_char=276|end_char=278
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=279|end_char=282
+5	piece	piece	NOUN	NN	Number=Sing	2	obj	_	start_char=283|end_char=288
+6	of	of	ADP	IN	_	7	case	_	start_char=289|end_char=291
+7	paper	paper	NOUN	NN	Number=Sing	5	nmod	_	start_char=292|end_char=297|SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	start_char=297|end_char=298
+
+# text = He cut the paper in half.
+# sent_id = 9
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=299|end_char=301
+2	cut	cut	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=302|end_char=305
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=306|end_char=309
+4	paper	paper	NOUN	NN	Number=Sing	2	obj	_	start_char=310|end_char=315
+5	in	in	ADP	IN	_	6	case	_	start_char=316|end_char=318
+6	half	half	NOUN	NN	NumForm=Word|NumType=Frac|Number=Sing	2	obl	_	start_char=319|end_char=323|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	start_char=323|end_char=324
+
+# text = He put one-half of the paper on the table.
+# sent_id = 10
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=325|end_char=327
+2	put	put	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=328|end_char=331
+3	one	one	NUM	CD	NumForm=Word|NumType=Card	5	nummod	_	start_char=332|end_char=335|SpaceAfter=No
+4	-	-	PUNCT	HYPH	_	3	punct	_	start_char=335|end_char=336|SpaceAfter=No
+5	half	half	NOUN	NN	NumForm=Word|NumType=Frac|Number=Sing	2	obj	_	start_char=336|end_char=340
+6	of	of	ADP	IN	_	8	case	_	start_char=341|end_char=343
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=344|end_char=347
+8	paper	paper	NOUN	NN	Number=Sing	5	nmod	_	start_char=348|end_char=353
+9	on	on	ADP	IN	_	11	case	_	start_char=354|end_char=356
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=357|end_char=360
+11	table	table	NOUN	NN	Number=Sing	2	obl	_	start_char=361|end_char=366|SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	start_char=366|end_char=367
+
+# text = He put the other half with the phone number in his shirt pocket.
+# sent_id = 11
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=368|end_char=370
+2	put	put	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=371|end_char=374
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=375|end_char=378
+4	other	other	ADJ	JJ	Degree=Pos	5	amod	_	start_char=379|end_char=384
+5	half	half	NOUN	NN	NumForm=Word|NumType=Frac|Number=Sing	2	obj	_	start_char=385|end_char=389
+6	with	with	ADP	IN	_	9	case	_	start_char=390|end_char=394
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=395|end_char=398
+8	phone	phone	NOUN	NN	Number=Sing	9	compound	_	start_char=399|end_char=404
+9	number	number	NOUN	NN	Number=Sing	2	obl	_	start_char=405|end_char=411
+10	in	in	ADP	IN	_	13	case	_	start_char=412|end_char=414
+11	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	start_char=415|end_char=418
+12	shirt	shirt	NOUN	NN	Number=Sing	13	compound	_	start_char=419|end_char=424
+13	pocket	pocket	NOUN	NN	Number=Sing	2	obl	_	start_char=425|end_char=431|SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	start_char=431|end_char=432
+
+# text = He put the scissors on the table.
+# sent_id = 12
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=433|end_char=435
+2	put	put	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=436|end_char=439
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=440|end_char=443
+4	scissors	scissors	NOUN	NNS	Number=Plur	2	obj	_	start_char=444|end_char=452
+5	on	on	ADP	IN	_	7	case	_	start_char=453|end_char=455
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=456|end_char=459
+7	table	table	NOUN	NN	Number=Sing	2	obl	_	start_char=460|end_char=465|SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	start_char=465|end_char=466|SpaceAfter=No
+

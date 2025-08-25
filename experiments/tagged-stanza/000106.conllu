@@ -1,0 +1,243 @@
+# text = She was angry.
+# sent_id = 0
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=0|end_char=3
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	start_char=4|end_char=7
+3	angry	angry	ADJ	JJ	Degree=Pos	0	root	_	start_char=8|end_char=13|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	start_char=13|end_char=14
+
+# text = She was angry with her brother.
+# sent_id = 1
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=15|end_char=18
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	start_char=19|end_char=22
+3	angry	angry	ADJ	JJ	Degree=Pos	0	root	_	start_char=23|end_char=28
+4	with	with	ADP	IN	_	6	case	_	start_char=29|end_char=33
+5	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	start_char=34|end_char=37
+6	brother	brother	NOUN	NN	Number=Sing	3	obl	_	start_char=38|end_char=45|SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	start_char=45|end_char=46
+
+# text = Her brother didn't help her.
+# sent_id = 2
+1	Her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=47|end_char=50
+2	brother	brother	NOUN	NN	Number=Sing	5	nsubj	_	start_char=51|end_char=58
+3-4	didn't	_	_	_	_	_	_	_	start_char=59|end_char=65
+3	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	start_char=59|end_char=62
+4	n't	not	PART	RB	Polarity=Neg	5	advmod	_	start_char=62|end_char=65
+5	help	help	VERB	VB	VerbForm=Inf	0	root	_	start_char=66|end_char=70
+6	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	start_char=71|end_char=74|SpaceAfter=No
+7	.	.	PUNCT	.	_	5	punct	_	start_char=74|end_char=75
+
+# text = She needed to borrow $1,000.
+# sent_id = 3
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=76|end_char=79
+2	needed	need	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=80|end_char=86
+3	to	to	PART	TO	_	4	mark	_	start_char=87|end_char=89
+4	borrow	borrow	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=90|end_char=96
+5	$	$	SYM	$	_	4	obj	_	start_char=97|end_char=98|SpaceAfter=No
+6	1,000	1000	NUM	CD	NumForm=Digit|NumType=Card	5	nummod	_	start_char=98|end_char=103|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	start_char=103|end_char=104
+
+# text = She had asked her brother to lend her $1,000.
+# sent_id = 4
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=105|end_char=108
+2	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	start_char=109|end_char=112
+3	asked	ask	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=113|end_char=118
+4	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=119|end_char=122
+5	brother	brother	NOUN	NN	Number=Sing	3	iobj	_	start_char=123|end_char=130
+6	to	to	PART	TO	_	7	mark	_	start_char=131|end_char=133
+7	lend	lend	VERB	VB	VerbForm=Inf	3	xcomp	_	start_char=134|end_char=138
+8	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	iobj	_	start_char=139|end_char=142
+9	$	$	SYM	$	_	7	obj	_	start_char=143|end_char=144|SpaceAfter=No
+10	1,000	1000	NUM	CD	NumForm=Digit|NumType=Card	9	nummod	_	start_char=144|end_char=149|SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	start_char=149|end_char=150
+
+# text = He said no.
+# sent_id = 5
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=151|end_char=153
+2	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=154|end_char=158
+3	no	no	INTJ	UH	Polarity=Neg	2	discourse	_	start_char=159|end_char=161|SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	start_char=161|end_char=162
+
+# text = Her brother said he didn't have $1,000.
+# sent_id = 6
+1	Her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=163|end_char=166
+2	brother	brother	NOUN	NN	Number=Sing	3	nsubj	_	start_char=167|end_char=174
+3	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=175|end_char=179
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=180|end_char=182
+5-6	didn't	_	_	_	_	_	_	_	start_char=183|end_char=189
+5	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	start_char=183|end_char=186
+6	n't	not	PART	RB	Polarity=Neg	7	advmod	_	start_char=186|end_char=189
+7	have	have	VERB	VB	VerbForm=Inf	3	ccomp	_	start_char=190|end_char=194
+8	$	$	SYM	$	_	7	obj	_	start_char=195|end_char=196|SpaceAfter=No
+9	1,000	1000	NUM	CD	NumForm=Digit|NumType=Card	8	nummod	_	start_char=196|end_char=201|SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	start_char=201|end_char=202
+
+# text = Her brother was lying.
+# sent_id = 7
+1	Her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=203|end_char=206
+2	brother	brother	NOUN	NN	Number=Sing	4	nsubj	_	start_char=207|end_char=214
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	start_char=215|end_char=218
+4	lying	lie	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=219|end_char=224|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	start_char=224|end_char=225
+
+# text = Her brother had $10,000.
+# sent_id = 8
+1	Her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=226|end_char=229
+2	brother	brother	NOUN	NN	Number=Sing	3	nsubj	_	start_char=230|end_char=237
+3	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=238|end_char=241
+4	$	$	SYM	$	_	3	obj	_	start_char=242|end_char=243|SpaceAfter=No
+5	10,000	10000	NUM	CD	NumForm=Digit|NumType=Card	4	nummod	_	start_char=243|end_char=249|SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	start_char=249|end_char=250
+
+# text = He had ten times $1,000.
+# sent_id = 9
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=251|end_char=253
+2	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=254|end_char=257
+3	ten	ten	NUM	CD	NumForm=Word|NumType=Card	4	nummod	_	start_char=258|end_char=261
+4	times	time	NOUN	NNS	Number=Plur	5	nmod:unmarked	_	start_char=262|end_char=267
+5	$	$	SYM	$	_	2	obj	_	start_char=268|end_char=269|SpaceAfter=No
+6	1,000	1000	NUM	CD	NumForm=Digit|NumType=Card	5	nummod	_	start_char=269|end_char=274|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	start_char=274|end_char=275
+
+# text = Why did he lie to her?
+# sent_id = 10
+1	Why	why	ADV	WRB	PronType=Int	4	advmod	_	start_char=276|end_char=279
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	start_char=280|end_char=283
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=284|end_char=286
+4	lie	lie	VERB	VB	VerbForm=Inf	0	root	_	start_char=287|end_char=290
+5	to	to	ADP	IN	_	6	case	_	start_char=291|end_char=293
+6	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obl	_	start_char=294|end_char=297|SpaceAfter=No
+7	?	?	PUNCT	.	_	4	punct	_	start_char=297|end_char=298
+
+# text = Why didn't he tell her the truth?
+# sent_id = 11
+1	Why	why	ADV	WRB	PronType=Int	5	advmod	_	start_char=299|end_char=302
+2-3	didn't	_	_	_	_	_	_	_	start_char=303|end_char=309
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	start_char=303|end_char=306
+3	n't	not	PART	RB	Polarity=Neg	5	advmod	_	start_char=306|end_char=309
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=310|end_char=312
+5	tell	tell	VERB	VB	VerbForm=Inf	0	root	_	start_char=313|end_char=317
+6	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	iobj	_	start_char=318|end_char=321
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=322|end_char=325
+8	truth	truth	NOUN	NN	Number=Sing	5	obj	_	start_char=326|end_char=331|SpaceAfter=No
+9	?	?	PUNCT	.	_	5	punct	_	start_char=331|end_char=332
+
+# text = Why didn't he lend her $1,000?
+# sent_id = 12
+1	Why	why	ADV	WRB	PronType=Int	5	advmod	_	start_char=333|end_char=336
+2-3	didn't	_	_	_	_	_	_	_	start_char=337|end_char=343
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	start_char=337|end_char=340
+3	n't	not	PART	RB	Polarity=Neg	5	advmod	_	start_char=340|end_char=343
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=344|end_char=346
+5	lend	lend	VERB	VB	VerbForm=Inf	0	root	_	start_char=347|end_char=351
+6	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	iobj	_	start_char=352|end_char=355
+7	$	$	SYM	$	_	5	obj	_	start_char=356|end_char=357|SpaceAfter=No
+8	1,000	1000	NUM	CD	NumForm=Digit|NumType=Card	7	nummod	_	start_char=357|end_char=362|SpaceAfter=No
+9	?	?	PUNCT	.	_	5	punct	_	start_char=362|end_char=363
+
+# text = She said, "I know you have $10,000.
+# sent_id = 13
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=364|end_char=367
+2	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=368|end_char=372|SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	start_char=372|end_char=373
+4	"	"	PUNCT	``	_	6	punct	_	start_char=374|end_char=375|SpaceAfter=No
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=375|end_char=376
+6	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	ccomp	_	start_char=377|end_char=381
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	start_char=382|end_char=385
+8	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	ccomp	_	start_char=386|end_char=390
+9	$	$	SYM	$	_	8	obj	_	start_char=391|end_char=392|SpaceAfter=No
+10	10,000	10000	NUM	CD	NumForm=Digit|NumType=Card	9	nummod	_	start_char=392|end_char=398|SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	start_char=398|end_char=399
+
+# text = All I want is $1,000.
+# sent_id = 14
+1	All	all	DET	DT	PronType=Tot	5	nsubj	_	start_char=400|end_char=403
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=404|end_char=405
+3	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	start_char=406|end_char=410
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=411|end_char=413
+5	$	$	SYM	$	_	0	root	_	start_char=414|end_char=415|SpaceAfter=No
+6	1,000	1000	NUM	CD	NumForm=Digit|NumType=Card	5	nummod	_	start_char=415|end_char=420|SpaceAfter=No
+7	.	.	PUNCT	.	_	5	punct	_	start_char=420|end_char=421
+
+# text = I will pay you back next year.
+# sent_id = 15
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=422|end_char=423
+2	will	will	AUX	MD	VerbForm=Fin	3	aux	_	start_char=424|end_char=428
+3	pay	pay	VERB	VB	VerbForm=Inf	0	root	_	start_char=429|end_char=432
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	obj	_	start_char=433|end_char=436
+5	back	back	ADP	RP	_	3	compound:prt	_	start_char=437|end_char=441
+6	next	next	ADJ	JJ	Degree=Pos	7	amod	_	start_char=442|end_char=446
+7	year	year	NOUN	NN	Number=Sing	3	obl:unmarked	_	start_char=447|end_char=451|SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	start_char=451|end_char=452
+
+# text = You will get your money back next year."
+# sent_id = 16
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=453|end_char=456
+2	will	will	AUX	MD	VerbForm=Fin	3	aux	_	start_char=457|end_char=461
+3	get	get	VERB	VB	VerbForm=Inf	0	root	_	start_char=462|end_char=465
+4	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=466|end_char=470
+5	money	money	NOUN	NN	Number=Sing	3	obj	_	start_char=471|end_char=476
+6	back	back	ADV	RB	_	3	advmod	_	start_char=477|end_char=481
+7	next	next	ADJ	JJ	Degree=Pos	8	amod	_	start_char=482|end_char=486
+8	year	year	NOUN	NN	Number=Sing	3	obl:unmarked	_	start_char=487|end_char=491|SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	start_char=491|end_char=492|SpaceAfter=No
+10	"	"	PUNCT	''	_	3	punct	_	start_char=492|end_char=493
+
+# text = He said no.
+# sent_id = 17
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=494|end_char=496
+2	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=497|end_char=501
+3	no	no	INTJ	UH	Polarity=Neg	2	discourse	_	start_char=502|end_char=504|SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	start_char=504|end_char=505
+
+# text = He said people shouldn't borrow money.
+# sent_id = 18
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=506|end_char=508
+2	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=509|end_char=513
+3	people	person	NOUN	NNS	Number=Plur	6	nsubj	_	start_char=514|end_char=520
+4-5	shouldn't	_	_	_	_	_	_	_	start_char=521|end_char=530
+4	should	should	AUX	MD	VerbForm=Fin	6	aux	_	start_char=521|end_char=527
+5	n't	not	PART	RB	Polarity=Neg	6	advmod	_	start_char=527|end_char=530
+6	borrow	borrow	VERB	VB	VerbForm=Inf	2	ccomp	_	start_char=531|end_char=537
+7	money	money	NOUN	NN	Number=Sing	6	obj	_	start_char=538|end_char=543|SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	start_char=543|end_char=544
+
+# text = He said people shouldn't lend money.
+# sent_id = 19
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=545|end_char=547
+2	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=548|end_char=552
+3	people	person	NOUN	NNS	Number=Plur	6	nsubj	_	start_char=553|end_char=559
+4-5	shouldn't	_	_	_	_	_	_	_	start_char=560|end_char=569
+4	should	should	AUX	MD	VerbForm=Fin	6	aux	_	start_char=560|end_char=566
+5	n't	not	PART	RB	Polarity=Neg	6	advmod	_	start_char=566|end_char=569
+6	lend	lend	VERB	VB	VerbForm=Inf	2	ccomp	_	start_char=570|end_char=574
+7	money	money	NOUN	NN	Number=Sing	6	obj	_	start_char=575|end_char=580|SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	start_char=580|end_char=581
+
+# text = "But I'm not 'people,'" she said.
+# sent_id = 20
+1	"	"	PUNCT	``	_	7	punct	_	start_char=582|end_char=583|SpaceAfter=No
+2	But	but	CCONJ	CC	_	7	cc	_	start_char=583|end_char=586
+3-4	I'm	_	_	_	_	_	_	_	start_char=587|end_char=590
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	start_char=587|end_char=588
+4	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=588|end_char=590
+5	not	not	PART	RB	Polarity=Neg	7	advmod	_	start_char=591|end_char=594
+6	'	'	PUNCT	``	_	7	punct	_	start_char=595|end_char=596|SpaceAfter=No
+7	people	person	NOUN	NNS	Number=Plur	12	ccomp	_	start_char=596|end_char=602|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	start_char=602|end_char=603|SpaceAfter=No
+9	'	'	PUNCT	''	_	7	punct	_	start_char=603|end_char=604|SpaceAfter=No
+10	"	"	PUNCT	''	_	7	punct	_	start_char=604|end_char=605
+11	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	start_char=606|end_char=609
+12	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=610|end_char=614|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	punct	_	start_char=614|end_char=615
+
+# text = "I'm your sister!"
+# sent_id = 21
+1	"	"	PUNCT	``	_	5	punct	_	start_char=616|end_char=617|SpaceAfter=No
+2-3	I'm	_	_	_	_	_	_	_	start_char=617|end_char=620
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=617|end_char=618
+3	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=618|end_char=620
+4	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=621|end_char=625
+5	sister	sister	NOUN	NN	Number=Sing	0	root	_	start_char=626|end_char=632|SpaceAfter=No
+6	!	!	PUNCT	.	_	5	punct	_	start_char=632|end_char=633|SpaceAfter=No
+7	"	"	PUNCT	''	_	5	punct	_	start_char=633|end_char=634|SpaceAfter=No
+

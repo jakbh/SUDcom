@@ -1,0 +1,215 @@
+# text = Up, down.
+# sent_id = 0
+1	Up	up	ADP	RP	_	0	root	_	start_char=0|end_char=2|SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	start_char=2|end_char=3
+3	down	down	ADV	RB	_	1	advmod	_	start_char=4|end_char=8|SpaceAfter=No
+4	.	.	PUNCT	.	_	1	punct	_	start_char=8|end_char=9
+
+# text = Up, down.
+# sent_id = 1
+1	Up	up	ADP	RP	_	0	root	_	start_char=10|end_char=12|SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	start_char=12|end_char=13
+3	down	down	ADV	RB	_	1	advmod	_	start_char=14|end_char=18|SpaceAfter=No
+4	.	.	PUNCT	.	_	1	punct	_	start_char=18|end_char=19
+
+# text = Billy was doing pushups.
+# sent_id = 2
+1	Billy	Billy	PROPN	NNP	Number=Sing	3	nsubj	_	start_char=20|end_char=25
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	start_char=26|end_char=29
+3	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=30|end_char=35
+4	pushups	pushup	NOUN	NNS	Number=Plur	3	obj	_	start_char=36|end_char=43|SpaceAfter=No
+5	.	.	PUNCT	.	_	3	punct	_	start_char=43|end_char=44
+
+# text = His arms were bent.
+# sent_id = 3
+1	His	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=45|end_char=48
+2	arms	arm	NOUN	NNS	Number=Plur	4	nsubj:pass	_	start_char=49|end_char=53
+3	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	start_char=54|end_char=58
+4	bent	bend	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=59|end_char=63|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	start_char=63|end_char=64
+
+# text = His palms were on the ground.
+# sent_id = 4
+1	His	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=65|end_char=68
+2	palms	palm	NOUN	NNS	Number=Plur	6	nsubj	_	start_char=69|end_char=74
+3	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	start_char=75|end_char=79
+4	on	on	ADP	IN	_	6	case	_	start_char=80|end_char=82
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=83|end_char=86
+6	ground	ground	NOUN	NN	Number=Sing	0	root	_	start_char=87|end_char=93|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	start_char=93|end_char=94
+
+# text = His toes were on the ground.
+# sent_id = 5
+1	His	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=95|end_char=98
+2	toes	toe	NOUN	NNS	Number=Plur	6	nsubj	_	start_char=99|end_char=103
+3	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	start_char=104|end_char=108
+4	on	on	ADP	IN	_	6	case	_	start_char=109|end_char=111
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=112|end_char=115
+6	ground	ground	NOUN	NN	Number=Sing	0	root	_	start_char=116|end_char=122|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	start_char=122|end_char=123
+
+# text = His back was straight.
+# sent_id = 6
+1	His	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=124|end_char=127
+2	back	back	NOUN	NN	Number=Sing	4	nsubj	_	start_char=128|end_char=132
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	start_char=133|end_char=136
+4	straight	straight	ADJ	JJ	Degree=Pos	0	root	_	start_char=137|end_char=145|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	start_char=145|end_char=146
+
+# text = His belly was close to the ground.
+# sent_id = 7
+1	His	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=147|end_char=150
+2	belly	belly	NOUN	NN	Number=Sing	4	nsubj	_	start_char=151|end_char=156
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	start_char=157|end_char=160
+4	close	close	ADJ	JJ	Degree=Pos	0	root	_	start_char=161|end_char=166
+5	to	to	ADP	IN	_	7	case	_	start_char=167|end_char=169
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=170|end_char=173
+7	ground	ground	NOUN	NN	Number=Sing	4	obl	_	start_char=174|end_char=180|SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	start_char=180|end_char=181
+
+# text = His nose was close to the ground.
+# sent_id = 8
+1	His	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=182|end_char=185
+2	nose	nose	NOUN	NN	Number=Sing	4	nsubj	_	start_char=186|end_char=190
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	start_char=191|end_char=194
+4	close	close	ADJ	JJ	Degree=Pos	0	root	_	start_char=195|end_char=200
+5	to	to	ADP	IN	_	7	case	_	start_char=201|end_char=203
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=204|end_char=207
+7	ground	ground	NOUN	NN	Number=Sing	4	obl	_	start_char=208|end_char=214|SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	start_char=214|end_char=215
+
+# text = Then he straightened his arms.
+# sent_id = 9
+1	Then	then	ADV	RB	PronType=Dem	3	advmod	_	start_char=216|end_char=220
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=221|end_char=223
+3	straightened	straighten	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=224|end_char=236
+4	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=237|end_char=240
+5	arms	arm	NOUN	NNS	Number=Plur	3	obj	_	start_char=241|end_char=245|SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	start_char=245|end_char=246
+
+# text = Now his nose was almost two feet above the ground.
+# sent_id = 10
+1	Now	now	ADV	RB	_	10	advmod	_	start_char=247|end_char=250
+2	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	start_char=251|end_char=254
+3	nose	nose	NOUN	NN	Number=Sing	10	nsubj	_	start_char=255|end_char=259
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	start_char=260|end_char=263
+5	almost	almost	ADV	RB	_	6	advmod	_	start_char=264|end_char=270
+6	two	two	NUM	CD	NumForm=Word|NumType=Card	7	nummod	_	start_char=271|end_char=274
+7	feet	foot	NOUN	NNS	Number=Plur	10	obl:unmarked	_	start_char=275|end_char=279
+8	above	above	ADP	IN	_	10	case	_	start_char=280|end_char=285
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=286|end_char=289
+10	ground	ground	NOUN	NN	Number=Sing	0	root	_	start_char=290|end_char=296|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	punct	_	start_char=296|end_char=297
+
+# text = His back was straight.
+# sent_id = 11
+1	His	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=298|end_char=301
+2	back	back	NOUN	NN	Number=Sing	4	nsubj	_	start_char=302|end_char=306
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	start_char=307|end_char=310
+4	straight	straight	ADJ	JJ	Degree=Pos	0	root	_	start_char=311|end_char=319|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	start_char=319|end_char=320
+
+# text = His arms were straight.
+# sent_id = 12
+1	His	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=321|end_char=324
+2	arms	arm	NOUN	NNS	Number=Plur	4	nsubj	_	start_char=325|end_char=329
+3	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	start_char=330|end_char=334
+4	straight	straight	ADJ	JJ	Degree=Pos	0	root	_	start_char=335|end_char=343|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	start_char=343|end_char=344
+
+# text = His head was higher than his feet.
+# sent_id = 13
+1	His	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=345|end_char=348
+2	head	head	NOUN	NN	Number=Sing	4	nsubj	_	start_char=349|end_char=353
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	start_char=354|end_char=357
+4	higher	high	ADJ	JJR	Degree=Cmp	0	root	_	start_char=358|end_char=364
+5	than	than	ADP	IN	_	7	case	_	start_char=365|end_char=369
+6	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	start_char=370|end_char=373
+7	feet	foot	NOUN	NNS	Number=Plur	4	obl	_	start_char=374|end_char=378|SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	start_char=378|end_char=379
+
+# text = His feet were lower than his head.
+# sent_id = 14
+1	His	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=380|end_char=383
+2	feet	foot	NOUN	NNS	Number=Plur	4	nsubj	_	start_char=384|end_char=388
+3	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	start_char=389|end_char=393
+4	lower	low	ADJ	JJR	Degree=Cmp	0	root	_	start_char=394|end_char=399
+5	than	than	ADP	IN	_	7	case	_	start_char=400|end_char=404
+6	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	start_char=405|end_char=408
+7	head	head	NOUN	NN	Number=Sing	4	obl	_	start_char=409|end_char=413|SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	start_char=413|end_char=414
+
+# text = That was one pushup.
+# sent_id = 15
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	start_char=415|end_char=419
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	start_char=420|end_char=423
+3	one	one	NUM	CD	NumForm=Word|NumType=Card	4	nummod	_	start_char=424|end_char=427
+4	pushup	pushup	NOUN	NN	Number=Sing	0	root	_	start_char=428|end_char=434|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	start_char=434|end_char=435
+
+# text = Then Billy bent his arms.
+# sent_id = 16
+1	Then	then	ADV	RB	PronType=Dem	3	advmod	_	start_char=436|end_char=440
+2	Billy	Billy	PROPN	NNP	Number=Sing	3	nsubj	_	start_char=441|end_char=446
+3	bent	bend	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=447|end_char=451
+4	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=452|end_char=455
+5	arms	arm	NOUN	NNS	Number=Plur	3	obj	_	start_char=456|end_char=460|SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	start_char=460|end_char=461
+
+# text = His nose and belly almost touched the ground.
+# sent_id = 17
+1	His	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=462|end_char=465
+2	nose	nose	NOUN	NN	Number=Sing	6	nsubj	_	start_char=466|end_char=470
+3	and	and	CCONJ	CC	_	4	cc	_	start_char=471|end_char=474
+4	belly	belly	NOUN	NN	Number=Sing	2	conj	_	start_char=475|end_char=480
+5	almost	almost	ADV	RB	_	6	advmod	_	start_char=481|end_char=487
+6	touched	touch	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=488|end_char=495
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=496|end_char=499
+8	ground	ground	NOUN	NN	Number=Sing	6	obj	_	start_char=500|end_char=506|SpaceAfter=No
+9	.	.	PUNCT	.	_	6	punct	_	start_char=506|end_char=507
+
+# text = Then he straightened his arms again.
+# sent_id = 18
+1	Then	then	ADV	RB	PronType=Dem	3	advmod	_	start_char=508|end_char=512
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=513|end_char=515
+3	straightened	straighten	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=516|end_char=528
+4	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=529|end_char=532
+5	arms	arm	NOUN	NNS	Number=Plur	3	obj	_	start_char=533|end_char=537
+6	again	again	ADV	RB	_	3	advmod	_	start_char=538|end_char=543|SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	start_char=543|end_char=544
+
+# text = That was another pushup.
+# sent_id = 19
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	start_char=545|end_char=549
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	start_char=550|end_char=553
+3	another	another	DET	DT	PronType=Ind	4	det	_	start_char=554|end_char=561
+4	pushup	pushup	NOUN	NN	Number=Sing	0	root	_	start_char=562|end_char=568|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	start_char=568|end_char=569
+
+# text = Billy did eight more pushups.
+# sent_id = 20
+1	Billy	Billy	PROPN	NNP	Number=Sing	2	nsubj	_	start_char=570|end_char=575
+2	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=576|end_char=579
+3	eight	eight	NUM	CD	NumForm=Word|NumType=Card	5	nummod	_	start_char=580|end_char=585
+4	more	more	ADJ	JJR	Degree=Cmp	5	amod	_	start_char=586|end_char=590
+5	pushups	pushup	NOUN	NNS	Number=Plur	2	obj	_	start_char=591|end_char=598|SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	start_char=598|end_char=599
+
+# text = He did ten pushups.
+# sent_id = 21
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=600|end_char=602
+2	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=603|end_char=606
+3	ten	ten	NUM	CD	NumForm=Word|NumType=Card	4	nummod	_	start_char=607|end_char=610
+4	pushups	pushup	NOUN	NNS	Number=Plur	2	obj	_	start_char=611|end_char=618|SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	start_char=618|end_char=619
+
+# text = He did ten pushups every day.
+# sent_id = 22
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=620|end_char=622
+2	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=623|end_char=626
+3	ten	ten	NUM	CD	NumForm=Word|NumType=Card	4	nummod	_	start_char=627|end_char=630
+4	pushups	pushup	NOUN	NNS	Number=Plur	2	obj	_	start_char=631|end_char=638
+5	every	every	DET	DT	PronType=Tot	6	det	_	start_char=639|end_char=644
+6	day	day	NOUN	NN	Number=Sing	2	obl:unmarked	_	start_char=645|end_char=648|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	start_char=648|end_char=649|SpaceAfter=No
+

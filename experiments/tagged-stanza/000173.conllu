@@ -1,0 +1,183 @@
+# text = It's 4 a.m. already?
+# sent_id = 0
+1-2	It's	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=0|end_char=2
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=2|end_char=4
+3	4	4	NUM	CD	NumForm=Digit|NumType=Card	0	root	_	start_char=5|end_char=6
+4	a.m.	a.m.	NOUN	NN	Abbr=Yes|Number=Sing	3	nmod:unmarked	_	start_char=7|end_char=11
+5	already	already	ADV	RB	_	3	advmod	_	start_char=12|end_char=19|SpaceAfter=No
+6	?	?	PUNCT	.	_	3	punct	_	start_char=19|end_char=20
+
+# text = I have to be getting home.
+# sent_id = 1
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=21|end_char=22
+2	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=23|end_char=27
+3	to	to	PART	TO	_	5	mark	_	start_char=28|end_char=30
+4	be	be	AUX	VB	VerbForm=Inf	5	aux	_	start_char=31|end_char=33
+5	getting	get	VERB	VBG	Tense=Pres|VerbForm=Part	2	xcomp	_	start_char=34|end_char=41
+6	home	home	ADV	RB	_	5	advmod	_	start_char=42|end_char=46|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	start_char=46|end_char=47|SpacesAfter=\r\n
+
+# text = You can stay over if you want.
+# sent_id = 2
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=49|end_char=52
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	start_char=53|end_char=56
+3	stay	stay	VERB	VB	VerbForm=Inf	0	root	_	start_char=57|end_char=61
+4	over	over	ADV	RB	_	3	advmod	_	start_char=62|end_char=66
+5	if	if	SCONJ	IN	_	7	mark	_	start_char=67|end_char=69
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	start_char=70|end_char=73
+7	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	advcl	_	start_char=74|end_char=78|SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	start_char=78|end_char=79
+
+# text = I have an extra bed.
+# sent_id = 3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=80|end_char=81
+2	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=82|end_char=86
+3	an	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=87|end_char=89
+4	extra	extra	ADJ	JJ	Degree=Pos	5	amod	_	start_char=90|end_char=95
+5	bed	bed	NOUN	NN	Number=Sing	2	obj	_	start_char=96|end_char=99|SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	start_char=99|end_char=100|SpacesAfter=\r\n
+
+# text = I appreciate the gesture, but I must get home.
+# sent_id = 4
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=102|end_char=103
+2	appreciate	appreciate	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=104|end_char=114
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=115|end_char=118
+4	gesture	gesture	NOUN	NN	Number=Sing	2	obj	_	start_char=119|end_char=126|SpaceAfter=No
+5	,	,	PUNCT	,	_	9	punct	_	start_char=126|end_char=127
+6	but	but	CCONJ	CC	_	9	cc	_	start_char=128|end_char=131
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	start_char=132|end_char=133
+8	must	must	AUX	MD	VerbForm=Fin	9	aux	_	start_char=134|end_char=138
+9	get	get	VERB	VB	VerbForm=Inf	2	conj	_	start_char=139|end_char=142
+10	home	home	ADV	RB	Degree=Pos	9	advmod	_	start_char=143|end_char=147|SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	start_char=147|end_char=148|SpacesAfter=\r\n
+
+# text = Do you want to hang out tomorrow night?
+# sent_id = 5
+1	Do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=150|end_char=152
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=153|end_char=156
+3	want	want	VERB	VB	VerbForm=Inf	0	root	_	start_char=157|end_char=161
+4	to	to	PART	TO	_	5	mark	_	start_char=162|end_char=164
+5	hang	hang	VERB	VB	VerbForm=Inf	3	xcomp	_	start_char=165|end_char=169
+6	out	out	ADP	RP	_	5	compound:prt	_	start_char=170|end_char=173
+7	tomorrow	tomorrow	NOUN	NN	Number=Sing	8	compound	_	start_char=174|end_char=182
+8	night	night	NOUN	NN	Number=Sing	5	obl:unmarked	_	start_char=183|end_char=188|SpaceAfter=No
+9	?	?	PUNCT	.	_	3	punct	_	start_char=188|end_char=189|SpacesAfter=\r\n
+
+# text = I would love that.
+# sent_id = 6
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=191|end_char=192
+2	would	would	AUX	MD	VerbForm=Fin	3	aux	_	start_char=193|end_char=198
+3	love	love	VERB	VB	VerbForm=Inf	0	root	_	start_char=199|end_char=203
+4	that	that	PRON	DT	Number=Sing|PronType=Dem	3	obj	_	start_char=204|end_char=208|SpaceAfter=No
+5	.	.	PUNCT	.	_	3	punct	_	start_char=208|end_char=209
+
+# text = I will call you after I get out of work.
+# sent_id = 7
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=210|end_char=211
+2	will	will	AUX	MD	VerbForm=Fin	3	aux	_	start_char=212|end_char=216
+3	call	call	VERB	VB	VerbForm=Inf	0	root	_	start_char=217|end_char=221
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	obj	_	start_char=222|end_char=225
+5	after	after	SCONJ	IN	_	7	mark	_	start_char=226|end_char=231
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	start_char=232|end_char=233
+7	get	get	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	advcl	_	start_char=234|end_char=237
+8	out	out	ADP	IN	_	10	case	_	start_char=238|end_char=241
+9	of	of	ADP	IN	_	10	case	_	start_char=242|end_char=244
+10	work	work	NOUN	NN	Number=Sing	7	obl	_	start_char=245|end_char=249|SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	start_char=249|end_char=250|SpacesAfter=\r\n
+
+# text = What time do you get out?
+# sent_id = 8
+1	What	what	DET	WDT	PronType=Int	2	det	_	start_char=252|end_char=256
+2	time	time	NOUN	NN	Number=Sing	5	obj	_	start_char=257|end_char=261
+3	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=262|end_char=264
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	start_char=265|end_char=268
+5	get	get	VERB	VB	VerbForm=Inf	0	root	_	start_char=269|end_char=272
+6	out	out	ADP	RP	_	5	compound:prt	_	start_char=273|end_char=276|SpaceAfter=No
+7	?	?	PUNCT	.	_	5	punct	_	start_char=276|end_char=277|SpacesAfter=\r\n
+
+# text = If my boss isn't there, I should be getting out at around 8:00 p.m.
+# sent_id = 9
+1	If	if	SCONJ	IN	_	6	mark	_	start_char=279|end_char=281
+2	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	start_char=282|end_char=284
+3	boss	boss	NOUN	NN	Number=Sing	6	nsubj	_	start_char=285|end_char=289
+4-5	isn't	_	_	_	_	_	_	_	start_char=290|end_char=295
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=290|end_char=292
+5	n't	not	PART	RB	Polarity=Neg	6	advmod	_	start_char=292|end_char=295
+6	there	there	ADV	RB	PronType=Dem	11	advcl	_	start_char=296|end_char=301|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	start_char=301|end_char=302
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	start_char=303|end_char=304
+9	should	should	AUX	MD	VerbForm=Fin	11	aux	_	start_char=305|end_char=311
+10	be	be	AUX	VB	VerbForm=Inf	11	aux	_	start_char=312|end_char=314
+11	getting	get	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=315|end_char=322
+12	out	out	ADP	RP	_	11	compound:prt	_	start_char=323|end_char=326
+13	at	at	ADP	IN	_	16	case	_	start_char=327|end_char=329
+14	around	around	ADP	IN	_	16	case	_	start_char=330|end_char=336
+15	8:00	8:00	NUM	CD	NumForm=Digit|NumType=Card	16	nummod	_	start_char=337|end_char=341
+16	p.m	p.m.	NOUN	NN	Number=Sing	11	obl	_	start_char=342|end_char=345|SpaceAfter=No
+17	.	.	PUNCT	.	_	11	punct	_	start_char=345|end_char=346|SpacesAfter=\r\n
+
+# text = And if your boss is there?
+# sent_id = 10
+1	And	and	CCONJ	CC	_	6	cc	_	start_char=348|end_char=351
+2	if	if	SCONJ	IN	_	6	mark	_	start_char=352|end_char=354
+3	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	4	nmod:poss	_	start_char=355|end_char=359
+4	boss	boss	NOUN	NN	Number=Sing	6	nsubj	_	start_char=360|end_char=364
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=365|end_char=367
+6	there	there	ADV	RB	PronType=Dem	0	root	_	start_char=368|end_char=373|SpaceAfter=No
+7	?	?	PUNCT	.	_	6	punct	_	start_char=373|end_char=374|SpacesAfter=\r\n
+
+# text = Then I will be getting out sometime around 10:00 p.m. Great.
+# sent_id = 11
+1	Then	then	ADV	RB	PronType=Dem	5	advmod	_	start_char=376|end_char=380
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=381|end_char=382
+3	will	will	AUX	MD	VerbForm=Fin	5	aux	_	start_char=383|end_char=387
+4	be	be	AUX	VB	VerbForm=Inf	5	aux	_	start_char=388|end_char=390
+5	getting	get	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=391|end_char=398
+6	out	out	ADP	RP	_	5	compound:prt	_	start_char=399|end_char=402
+7	sometime	sometime	ADV	RB	PronType=Ind	5	advmod	_	start_char=403|end_char=411
+8	around	around	ADP	IN	_	9	case	_	start_char=412|end_char=418
+9	10:00	10:00	NUM	CD	NumForm=Digit|NumType=Card	5	obl	_	start_char=419|end_char=424
+10	p.m.	p.m.	NOUN	NN	Number=Sing	5	obl:unmarked	_	start_char=425|end_char=429|SpacesAfter=\r\n
+11	Great	great	ADJ	JJ	Degree=Pos	10	amod	_	start_char=431|end_char=436|SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	start_char=436|end_char=437
+
+# text = We could go grab a drink after you get out of work.
+# sent_id = 12
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=438|end_char=440
+2	could	could	AUX	MD	VerbForm=Fin	3	aux	_	start_char=441|end_char=446
+3	go	go	VERB	VB	VerbForm=Inf	0	root	_	start_char=447|end_char=449
+4	grab	grab	VERB	VB	VerbForm=Inf	3	xcomp	_	start_char=450|end_char=454
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=455|end_char=456
+6	drink	drink	NOUN	NN	Number=Sing	4	obj	_	start_char=457|end_char=462
+7	after	after	SCONJ	IN	_	9	mark	_	start_char=463|end_char=468
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	start_char=469|end_char=472
+9	get	get	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	advcl	_	start_char=473|end_char=476
+10	out	out	ADP	IN	_	12	case	_	start_char=477|end_char=480
+11	of	of	ADP	IN	_	12	case	_	start_char=481|end_char=483
+12	work	work	NOUN	NN	Number=Sing	9	obl	_	start_char=484|end_char=488|SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	start_char=488|end_char=489|SpacesAfter=\r\n
+
+# text = That sounds lovely, good night.
+# sent_id = 13
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	2	nsubj	_	start_char=491|end_char=495
+2	sounds	sound	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=496|end_char=502
+3	lovely	lovely	ADJ	JJ	Degree=Pos	2	xcomp	_	start_char=503|end_char=509|SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	start_char=509|end_char=510
+5	good	good	ADJ	JJ	Degree=Pos	6	amod	_	start_char=511|end_char=515
+6	night	night	NOUN	NN	Number=Sing	2	obl:unmarked	_	start_char=516|end_char=521|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	start_char=521|end_char=522|SpacesAfter=\r\n
+
+# text = Good night.
+# sent_id = 14
+1	Good	good	ADJ	JJ	Degree=Pos	2	amod	_	start_char=524|end_char=528
+2	night	night	NOUN	NN	Number=Sing	0	root	_	start_char=529|end_char=534|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	start_char=534|end_char=535
+
+# text = Drive home safely.
+# sent_id = 15
+1	Drive	drive	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=536|end_char=541
+2	home	home	ADV	RB	_	1	advmod	_	start_char=542|end_char=546
+3	safely	safely	ADV	RB	_	1	advmod	_	start_char=547|end_char=553|SpaceAfter=No
+4	.	.	PUNCT	.	_	1	punct	_	start_char=553|end_char=554|SpaceAfter=No
+

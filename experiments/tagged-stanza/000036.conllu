@@ -1,0 +1,267 @@
+# text = Do you like cars?
+# sent_id = 0
+1	Do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=0|end_char=2
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=3|end_char=6
+3	like	like	VERB	VB	VerbForm=Inf	0	root	_	start_char=7|end_char=11
+4	cars	car	NOUN	NNS	Number=Plur	3	obj	_	start_char=12|end_char=16|SpaceAfter=No
+5	?	?	PUNCT	.	_	3	punct	_	start_char=16|end_char=17
+
+# text = Are you friendly and do you like chatting with people?
+# sent_id = 1
+1	Are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=18|end_char=21
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=22|end_char=25
+3	friendly	friendly	ADJ	JJ	Degree=Pos	0	root	_	start_char=26|end_char=34
+4	and	and	CCONJ	CC	_	7	cc	_	start_char=35|end_char=38
+5	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=39|end_char=41
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	start_char=42|end_char=45
+7	like	like	VERB	VB	VerbForm=Inf	3	conj	_	start_char=46|end_char=50
+8	chatting	chat	VERB	VBG	VerbForm=Ger	7	xcomp	_	start_char=51|end_char=59
+9	with	with	ADP	IN	_	10	case	_	start_char=60|end_char=64
+10	people	person	NOUN	NNS	Number=Plur	8	obl	_	start_char=65|end_char=71|SpaceAfter=No
+11	?	?	PUNCT	.	_	3	punct	_	start_char=71|end_char=72
+
+# text = Would you like to make GBP200 a day selling cars?
+# sent_id = 2
+1	Would	would	AUX	MD	VerbForm=Fin	3	aux	_	start_char=73|end_char=78
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=79|end_char=82
+3	like	like	VERB	VB	VerbForm=Inf	0	root	_	start_char=83|end_char=87
+4	to	to	PART	TO	_	5	mark	_	start_char=88|end_char=90
+5	make	make	VERB	VB	VerbForm=Inf	3	xcomp	_	start_char=91|end_char=95
+6	GBP200	gbp200	NOUN	NN	Number=Sing	5	obj	_	start_char=96|end_char=102
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=103|end_char=104
+8	day	day	NOUN	NN	Number=Sing	5	obl:unmarked	_	start_char=105|end_char=108
+9	selling	sell	VERB	VBG	Tense=Pres|VerbForm=Part	5	advcl	_	start_char=109|end_char=116
+10	cars	car	NOUN	NNS	Number=Plur	9	obj	_	start_char=117|end_char=121|SpaceAfter=No
+11	?	?	PUNCT	.	_	3	punct	_	start_char=121|end_char=122
+
+# text = If you answered yes to the above questions, we'd like you to be on our team!
+# sent_id = 3
+1	If	if	SCONJ	IN	_	3	mark	_	start_char=123|end_char=125
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=126|end_char=129
+3	answered	answer	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	12	advcl	_	start_char=130|end_char=138
+4	yes	yes	INTJ	UH	Polarity=Pos	3	obj	_	start_char=139|end_char=142
+5	to	to	ADP	IN	_	8	case	_	start_char=143|end_char=145
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=146|end_char=149
+7	above	above	ADJ	JJ	Degree=Pos	8	amod	_	start_char=150|end_char=155
+8	questions	question	NOUN	NNS	Number=Plur	3	obl	_	start_char=156|end_char=165|SpaceAfter=No
+9	,	,	PUNCT	,	_	3	punct	_	start_char=165|end_char=166
+10-11	we'd	_	_	_	_	_	_	_	start_char=167|end_char=171
+10	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	start_char=167|end_char=169
+11	'd	would	AUX	MD	VerbForm=Fin	12	aux	_	start_char=169|end_char=171
+12	like	like	VERB	VB	VerbForm=Inf	0	root	_	start_char=172|end_char=176
+13	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	12	obj	_	start_char=177|end_char=180
+14	to	to	PART	TO	_	18	mark	_	start_char=181|end_char=183
+15	be	be	AUX	VB	VerbForm=Inf	18	cop	_	start_char=184|end_char=186
+16	on	on	ADP	IN	_	18	case	_	start_char=187|end_char=189
+17	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	18	nmod:poss	_	start_char=190|end_char=193
+18	team	team	NOUN	NN	Number=Sing	12	xcomp	_	start_char=194|end_char=198|SpaceAfter=No
+19	!	!	PUNCT	.	_	12	punct	_	start_char=198|end_char=199
+
+# text = (Driving licence required.)
+# sent_id = 4
+1	(	(	PUNCT	-LRB-	_	3	punct	_	start_char=200|end_char=201|SpaceAfter=No
+2	Driving	driving	NOUN	NN	Number=Sing	3	compound	_	start_char=201|end_char=208
+3	licence	licence	NOUN	NN	Number=Sing	0	root	_	start_char=209|end_char=216
+4	required	require	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	acl	_	start_char=217|end_char=225|SpaceAfter=No
+5	.	.	PUNCT	.	_	3	punct	_	start_char=225|end_char=226|SpaceAfter=No
+6	)	)	PUNCT	-RRB-	_	3	punct	_	start_char=226|end_char=227|SpacesAfter=\r\n
+
+# text = Company Motor Ground is a car sales company that buys and sells used cars.
+# sent_id = 5
+1	Company	Company	PROPN	NNP	Number=Sing	3	compound	_	start_char=229|end_char=236|SpacesAfter=\r\n
+2	Motor	Motor	PROPN	NNP	Number=Sing	3	compound	_	start_char=238|end_char=243
+3	Ground	Ground	PROPN	NNP	Number=Sing	8	nsubj	_	start_char=244|end_char=250
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=251|end_char=253
+5	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=254|end_char=255
+6	car	car	NOUN	NN	Number=Sing	8	compound	_	start_char=256|end_char=259
+7	sales	sale	NOUN	NN	Number=Sing	8	compound	_	start_char=260|end_char=265
+8	company	company	NOUN	NN	Number=Sing	0	root	_	start_char=266|end_char=273
+9	that	that	PRON	WDT	PronType=Rel	10	nsubj	_	start_char=274|end_char=278
+10	buys	buy	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	start_char=279|end_char=283
+11	and	and	CCONJ	CC	_	12	cc	_	start_char=284|end_char=287
+12	sells	sell	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	start_char=288|end_char=293
+13	used	use	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	amod	_	start_char=294|end_char=298
+14	cars	car	NOUN	NNS	Number=Plur	10	obj	_	start_char=299|end_char=303|SpaceAfter=No
+15	.	.	PUNCT	.	_	8	punct	_	start_char=303|end_char=304|SpacesAfter=\r\n
+
+# text = Location Chennai, India
+# sent_id = 6
+1	Location	location	NOUN	NN	Number=Sing	0	root	_	start_char=306|end_char=314|SpacesAfter=\r\n
+2	Chennai	Chennai	PROPN	NNP	Number=Sing	1	appos	_	start_char=316|end_char=323|SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	start_char=323|end_char=324
+4	India	India	PROPN	NNP	Number=Sing	2	appos	_	start_char=325|end_char=330|SpacesAfter=\r\n\s\r\n
+
+# text = We're looking for a marketing manager to manage an international team.
+# sent_id = 7
+1-2	We're	_	_	_	_	_	_	_	start_char=335|end_char=340
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=335|end_char=337
+2	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=337|end_char=340
+3	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=341|end_char=348
+4	for	for	ADP	IN	_	7	case	_	start_char=349|end_char=352
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=353|end_char=354
+6	marketing	marketing	NOUN	NN	Number=Sing	7	compound	_	start_char=355|end_char=364
+7	manager	manager	NOUN	NN	Number=Sing	3	obl	_	start_char=365|end_char=372
+8	to	to	PART	TO	_	9	mark	_	start_char=373|end_char=375
+9	manage	manage	VERB	VB	VerbForm=Inf	7	acl	_	start_char=376|end_char=382
+10	an	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	start_char=383|end_char=385
+11	international	international	ADJ	JJ	Degree=Pos	12	amod	_	start_char=386|end_char=399
+12	team	team	NOUN	NN	Number=Sing	9	obj	_	start_char=400|end_char=404|SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	start_char=404|end_char=405
+
+# text = Ability to speak English necessary.
+# sent_id = 8
+1	Ability	ability	NOUN	NN	Number=Sing	0	root	_	start_char=406|end_char=413
+2	to	to	PART	TO	_	3	mark	_	start_char=414|end_char=416
+3	speak	speak	VERB	VB	VerbForm=Inf	1	acl	_	start_char=417|end_char=422
+4	English	English	PROPN	NNP	Number=Sing	3	obj	_	start_char=423|end_char=430
+5	necessary	necessary	ADJ	JJ	Degree=Pos	3	xcomp	_	start_char=431|end_char=440|SpaceAfter=No
+6	.	.	PUNCT	.	_	1	punct	_	start_char=440|end_char=441
+
+# text = Salary is GBP50,000 a year.
+# sent_id = 9
+1	Salary	salary	NOUN	NN	Number=Sing	3	nsubj	_	start_char=442|end_char=448
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=449|end_char=451
+3	GBP	GBP	PROPN	NNP	Number=Sing	0	root	_	start_char=452|end_char=455|SpaceAfter=No
+4	50,000	50000	NUM	CD	NumForm=Digit|NumType=Card	3	nummod	_	start_char=455|end_char=461
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=462|end_char=463
+6	year	year	NOUN	NN	Number=Sing	3	nmod:unmarked	_	start_char=464|end_char=468|SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	start_char=468|end_char=469|SpacesAfter=\r\n
+
+# text = Company Groovy is a German clothes company that has shops in countries across Europe.
+# sent_id = 10
+1	Company	Company	PROPN	NNP	Number=Sing	2	compound	_	start_char=471|end_char=478|SpacesAfter=\r\n
+2	Groovy	Groovy	PROPN	NNP	Number=Sing	7	nsubj	_	start_char=480|end_char=486
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=487|end_char=489
+4	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=490|end_char=491
+5	German	German	ADJ	JJ	Degree=Pos	7	amod	_	start_char=492|end_char=498
+6	clothes	clothes	NOUN	NN	Number=Sing	7	compound	_	start_char=499|end_char=506
+7	company	company	NOUN	NN	Number=Sing	0	root	_	start_char=507|end_char=514
+8	that	that	PRON	WDT	PronType=Rel	9	nsubj	_	start_char=515|end_char=519
+9	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	start_char=520|end_char=523
+10	shops	shop	NOUN	NNS	Number=Plur	9	obj	_	start_char=524|end_char=529
+11	in	in	ADP	IN	_	12	case	_	start_char=530|end_char=532
+12	countries	country	NOUN	NNS	Number=Plur	9	obl	_	start_char=533|end_char=542
+13	across	across	ADP	IN	_	14	case	_	start_char=543|end_char=549
+14	Europe	Europe	PROPN	NNP	Number=Sing	12	nmod	_	start_char=550|end_char=556|SpaceAfter=No
+15	.	.	PUNCT	.	_	7	punct	_	start_char=556|end_char=557|SpacesAfter=\r\n
+
+# text = Location Munich, Germany
+# sent_id = 11
+1	Location	location	NOUN	NN	Number=Sing	0	root	_	start_char=559|end_char=567|SpacesAfter=\r\n
+2	Munich	Munich	PROPN	NNP	Number=Sing	1	appos	_	start_char=569|end_char=575|SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	start_char=575|end_char=576
+4	Germany	Germany	PROPN	NNP	Number=Sing	2	appos	_	start_char=577|end_char=584|SpacesAfter=\r\n\s\r\n
+
+# text = French teacher wanted to teach children between the ages of 3 and 12.
+# sent_id = 12
+1	French	French	ADJ	JJ	Degree=Pos	2	amod	_	start_char=589|end_char=595
+2	teacher	teacher	NOUN	NN	Number=Sing	3	nsubj	_	start_char=596|end_char=603
+3	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=604|end_char=610
+4	to	to	PART	TO	_	5	mark	_	start_char=611|end_char=613
+5	teach	teach	VERB	VB	VerbForm=Inf	3	xcomp	_	start_char=614|end_char=619
+6	children	child	NOUN	NNS	Number=Plur	5	obj	_	start_char=620|end_char=628
+7	between	between	ADP	IN	_	9	case	_	start_char=629|end_char=636
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=637|end_char=640
+9	ages	age	NOUN	NNS	Number=Plur	5	obl	_	start_char=641|end_char=645
+10	of	of	ADP	IN	_	11	case	_	start_char=646|end_char=648
+11	3	3	NUM	CD	NumForm=Digit|NumType=Card	9	nmod	_	start_char=649|end_char=650
+12	and	and	CCONJ	CC	_	13	cc	_	start_char=651|end_char=654
+13	12	12	NUM	CD	NumForm=Digit|NumType=Card	11	conj	_	start_char=655|end_char=657|SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	start_char=657|end_char=658
+
+# text = Applicants must have teaching experience.
+# sent_id = 13
+1	Applicants	applicant	NOUN	NNS	Number=Plur	3	nsubj	_	start_char=659|end_char=669
+2	must	must	AUX	MD	VerbForm=Fin	3	aux	_	start_char=670|end_char=674
+3	have	have	VERB	VB	VerbForm=Inf	0	root	_	start_char=675|end_char=679
+4	teaching	teaching	NOUN	NN	Number=Sing	5	compound	_	start_char=680|end_char=688
+5	experience	experience	NOUN	NN	Number=Sing	3	obj	_	start_char=689|end_char=699|SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	start_char=699|end_char=700
+
+# text = GBP15 per hour.
+# sent_id = 14
+1	GBP15	gbp15	NOUN	NN	Number=Sing	0	root	_	start_char=701|end_char=706
+2	per	per	ADP	IN	_	3	case	_	start_char=707|end_char=710
+3	hour	hour	NOUN	NN	Number=Sing	1	nmod	_	start_char=711|end_char=715|SpaceAfter=No
+4	.	.	PUNCT	.	_	1	punct	_	start_char=715|end_char=716|SpacesAfter=\r\n
+
+# text = Company LinguaFun is a language school that offers modern language classes to students of all ages.
+# sent_id = 15
+1	Company	Company	PROPN	NNP	Number=Sing	6	nsubj	_	start_char=718|end_char=725|SpacesAfter=\r\n
+2	LinguaFun	LinguaFun	PROPN	NNP	Number=Sing	1	flat	_	start_char=727|end_char=736
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=737|end_char=739
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=740|end_char=741
+5	language	language	NOUN	NN	Number=Sing	6	compound	_	start_char=742|end_char=750
+6	school	school	NOUN	NN	Number=Sing	0	root	_	start_char=751|end_char=757
+7	that	that	PRON	WDT	PronType=Rel	8	nsubj	_	start_char=758|end_char=762
+8	offers	offer	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	start_char=763|end_char=769
+9	modern	modern	ADJ	JJ	Degree=Pos	11	amod	_	start_char=770|end_char=776
+10	language	language	NOUN	NN	Number=Sing	11	compound	_	start_char=777|end_char=785
+11	classes	class	NOUN	NNS	Number=Plur	8	obj	_	start_char=786|end_char=793
+12	to	to	ADP	IN	_	13	case	_	start_char=794|end_char=796
+13	students	student	NOUN	NNS	Number=Plur	8	obl	_	start_char=797|end_char=805
+14	of	of	ADP	IN	_	16	case	_	start_char=806|end_char=808
+15	all	all	DET	DT	PronType=Tot	16	det	_	start_char=809|end_char=812
+16	ages	age	NOUN	NNS	Number=Plur	13	nmod	_	start_char=813|end_char=817|SpaceAfter=No
+17	.	.	PUNCT	.	_	6	punct	_	start_char=817|end_char=818|SpacesAfter=\r\n
+
+# text = Location Singapore
+# sent_id = 16
+1	Location	location	NOUN	NN	Number=Sing	2	compound	_	start_char=820|end_char=828|SpacesAfter=\r\n
+2	Singapore	Singapore	PROPN	NNP	Number=Sing	0	root	_	start_char=830|end_char=839|SpacesAfter=\r\n\s\r\n
+
+# text = Nurse needed in private hospital.
+# sent_id = 17
+1	Nurse	nurse	NOUN	NN	Number=Sing	2	nsubj	_	start_char=844|end_char=849
+2	needed	need	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=850|end_char=856
+3	in	in	ADP	IN	_	5	case	_	start_char=857|end_char=859
+4	private	private	ADJ	JJ	Degree=Pos	5	amod	_	start_char=860|end_char=867
+5	hospital	hospital	NOUN	NN	Number=Sing	2	obl	_	start_char=868|end_char=876|SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	start_char=876|end_char=877
+
+# text = Must be registered to work in the UK.
+# sent_id = 18
+1	Must	must	AUX	MD	VerbForm=Fin	3	aux	_	start_char=878|end_char=882
+2	be	be	AUX	VB	VerbForm=Inf	3	aux:pass	_	start_char=883|end_char=885
+3	registered	register	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=886|end_char=896
+4	to	to	PART	TO	_	5	mark	_	start_char=897|end_char=899
+5	work	work	VERB	VB	VerbForm=Inf	3	advcl	_	start_char=900|end_char=904
+6	in	in	ADP	IN	_	8	case	_	start_char=905|end_char=907
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=908|end_char=911
+8	UK	UK	PROPN	NNP	Abbr=Yes|Number=Sing	5	obl	_	start_char=912|end_char=914|SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	start_char=914|end_char=915
+
+# text = GBP25,000 per year.
+# sent_id = 19
+1	GBP	gbp	NOUN	NN	Number=Sing	0	root	_	start_char=916|end_char=919|SpaceAfter=No
+2	25,000	25000	NUM	CD	NumForm=Digit|NumType=Card	1	dep	_	start_char=919|end_char=925
+3	per	per	ADP	IN	_	4	case	_	start_char=926|end_char=929
+4	year	year	NOUN	NN	Number=Sing	1	nmod	_	start_char=930|end_char=934|SpaceAfter=No
+5	.	.	PUNCT	.	_	1	punct	_	start_char=934|end_char=935|SpacesAfter=\r\n
+
+# text = Company Private hospital with 50 years' experience providing high-quality health care.
+# sent_id = 20
+1	Company	company	NOUN	NN	Number=Sing	3	compound	_	start_char=937|end_char=944|SpacesAfter=\r\n
+2	Private	private	ADJ	JJ	Degree=Pos	3	amod	_	start_char=946|end_char=953
+3	hospital	hospital	NOUN	NN	Number=Sing	0	root	_	start_char=954|end_char=962
+4	with	with	ADP	IN	_	8	case	_	start_char=963|end_char=967
+5	50	50	NUM	CD	NumForm=Digit|NumType=Card	6	nummod	_	start_char=968|end_char=970
+6-7	years'	_	_	_	_	_	_	_	start_char=971|end_char=977
+6	years	year	NOUN	NNS	Number=Plur	8	nmod:poss	_	start_char=971|end_char=976
+7	'	's	PART	POS	_	6	case	_	start_char=976|end_char=977
+8	experience	experience	NOUN	NN	Number=Sing	3	nmod	_	start_char=978|end_char=988
+9	providing	provide	VERB	VBG	VerbForm=Ger	8	acl	_	start_char=989|end_char=998
+10	high	high	ADJ	JJ	Degree=Pos	12	amod	_	start_char=999|end_char=1003|SpaceAfter=No
+11	-	-	PUNCT	HYPH	_	10	punct	_	start_char=1003|end_char=1004|SpaceAfter=No
+12	quality	quality	NOUN	NN	Number=Sing	14	compound	_	start_char=1004|end_char=1011
+13	health	health	NOUN	NN	Number=Sing	14	compound	_	start_char=1012|end_char=1018
+14	care	care	NOUN	NN	Number=Sing	9	obj	_	start_char=1019|end_char=1023|SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	_	start_char=1023|end_char=1024|SpacesAfter=\r\n
+
+# text = Location London, UK
+# sent_id = 21
+1	Location	location	NOUN	NN	Number=Sing	0	root	_	start_char=1026|end_char=1034|SpacesAfter=\r\n
+2	London	London	PROPN	NNP	Number=Sing	1	appos	_	start_char=1036|end_char=1042|SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	start_char=1042|end_char=1043
+4	UK	UK	PROPN	NNP	Abbr=Yes|Number=Sing	2	appos	_	start_char=1044|end_char=1046|SpaceAfter=No
+

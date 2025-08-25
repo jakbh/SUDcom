@@ -1,0 +1,220 @@
+# text = Would you like to go see a movie tomorrow night?
+# sent_id = 0
+1	Would	would	AUX	MD	VerbForm=Fin	3	aux	_	start_char=0|end_char=5
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=6|end_char=9
+3	like	like	VERB	VB	VerbForm=Inf	0	root	_	start_char=10|end_char=14
+4	to	to	PART	TO	_	5	mark	_	start_char=15|end_char=17
+5	go	go	VERB	VB	VerbForm=Inf	3	xcomp	_	start_char=18|end_char=20
+6	see	see	VERB	VB	VerbForm=Inf	5	xcomp	_	start_char=21|end_char=24
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=25|end_char=26
+8	movie	movie	NOUN	NN	Number=Sing	6	obj	_	start_char=27|end_char=32
+9	tomorrow	tomorrow	NOUN	NN	Number=Sing	10	compound	_	start_char=33|end_char=41
+10	night	night	NOUN	NN	Number=Sing	6	obl:unmarked	_	start_char=42|end_char=47|SpaceAfter=No
+11	?	?	PUNCT	.	_	3	punct	_	start_char=47|end_char=48|SpacesAfter=\r\n
+
+# text = I am busy tomorrow night, but I am free the night after.
+# sent_id = 1
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=50|end_char=51
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=52|end_char=54
+3	busy	busy	ADJ	JJ	Degree=Pos	0	root	_	start_char=55|end_char=59
+4	tomorrow	tomorrow	NOUN	NN	Number=Sing	5	compound	_	start_char=60|end_char=68
+5	night	night	NOUN	NN	Number=Sing	3	obl:unmarked	_	start_char=69|end_char=74|SpaceAfter=No
+6	,	,	PUNCT	,	_	10	punct	_	start_char=74|end_char=75
+7	but	but	CCONJ	CC	_	10	cc	_	start_char=76|end_char=79
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	start_char=80|end_char=81
+9	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=82|end_char=84
+10	free	free	ADJ	JJ	Degree=Pos	3	conj	_	start_char=85|end_char=89
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=90|end_char=93
+12	night	night	NOUN	NN	Number=Sing	13	obl:unmarked	_	start_char=94|end_char=99
+13	after	after	ADV	RB	_	10	advmod	_	start_char=100|end_char=105|SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	start_char=105|end_char=106|SpacesAfter=\r\n
+
+# text = That's great!
+# sent_id = 2
+1-2	That's	_	_	_	_	_	_	_	start_char=108|end_char=114
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	start_char=108|end_char=112
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=112|end_char=114
+3	great	great	ADJ	JJ	Degree=Pos	0	root	_	start_char=115|end_char=120|SpaceAfter=No
+4	!	!	PUNCT	.	_	3	punct	_	start_char=120|end_char=121
+
+# text = What time should I pick you up?
+# sent_id = 3
+1	What	what	DET	WDT	PronType=Int	2	det	_	start_char=122|end_char=126
+2	time	time	NOUN	NN	Number=Sing	5	obj	_	start_char=127|end_char=131
+3	should	should	AUX	MD	VerbForm=Fin	5	aux	_	start_char=132|end_char=138
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=139|end_char=140
+5	pick	pick	VERB	VB	VerbForm=Inf	0	root	_	start_char=141|end_char=145
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	obj	_	start_char=146|end_char=149
+7	up	up	ADP	RP	_	5	compound:prt	_	start_char=150|end_char=152|SpaceAfter=No
+8	?	?	PUNCT	.	_	5	punct	_	start_char=152|end_char=153|SpacesAfter=\r\n
+
+# text = 8 p.m. would be great.
+# sent_id = 4
+1	8	8	NUM	CD	NumForm=Digit|NumType=Card	2	nummod	_	start_char=155|end_char=156
+2	p.m.	p.m.	NOUN	NN	Number=Sing	5	nsubj	_	start_char=157|end_char=161
+3	would	would	AUX	MD	VerbForm=Fin	5	aux	_	start_char=162|end_char=167
+4	be	be	AUX	VB	VerbForm=Inf	5	cop	_	start_char=168|end_char=170
+5	great	great	ADJ	JJ	Degree=Pos	0	root	_	start_char=171|end_char=176|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	start_char=176|end_char=177|SpacesAfter=\r\n
+
+# text = Well, 8 p.m. it is.
+# sent_id = 5
+1	Well	well	INTJ	UH	_	6	discourse	_	start_char=179|end_char=183|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=183|end_char=184
+3	8	8	NUM	CD	NumForm=Digit|NumType=Card	4	nummod	_	start_char=185|end_char=186
+4	p.m.	p.m.	NOUN	NN	Number=Sing	6	obl:unmarked	_	start_char=187|end_char=191
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=192|end_char=194
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=195|end_char=197|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	start_char=197|end_char=198
+
+# text = What movie would you like to see?
+# sent_id = 6
+1	What	what	DET	WDT	PronType=Int	2	det	_	start_char=199|end_char=203
+2	movie	movie	NOUN	NN	Number=Sing	7	obj	_	start_char=204|end_char=209
+3	would	would	AUX	MD	VerbForm=Fin	5	aux	_	start_char=210|end_char=215
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	start_char=216|end_char=219
+5	like	like	VERB	VB	VerbForm=Inf	0	root	_	start_char=220|end_char=224
+6	to	to	PART	TO	_	7	mark	_	start_char=225|end_char=227
+7	see	see	VERB	VB	VerbForm=Inf	5	xcomp	_	start_char=228|end_char=231|SpaceAfter=No
+8	?	?	PUNCT	.	_	5	punct	_	start_char=231|end_char=232|SpacesAfter=\r\n
+
+# text = I'm not sure.
+# sent_id = 7
+1-2	I'm	_	_	_	_	_	_	_	start_char=234|end_char=237
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=234|end_char=235
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=235|end_char=237
+3	not	not	PART	RB	Polarity=Neg	4	advmod	_	start_char=238|end_char=241
+4	sure	sure	ADJ	JJ	Degree=Pos	0	root	_	start_char=242|end_char=246|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	start_char=246|end_char=247
+
+# text = Which movies are out right now?
+# sent_id = 8
+1	Which	which	DET	WDT	PronType=Int	2	det	_	start_char=248|end_char=253
+2	movies	movie	NOUN	NNS	Number=Plur	4	nsubj	_	start_char=254|end_char=260
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=261|end_char=264
+4	out	out	ADV	RB	_	0	root	_	start_char=265|end_char=268
+5	right	right	ADV	RB	_	6	advmod	_	start_char=269|end_char=274
+6	now	now	ADV	RB	_	4	advmod	_	start_char=275|end_char=278|SpaceAfter=No
+7	?	?	PUNCT	.	_	4	punct	_	start_char=278|end_char=279|SpacesAfter=\r\n
+
+# text = I actually don't know.
+# sent_id = 9
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=281|end_char=282
+2	actually	actually	ADV	RB	_	5	advmod	_	start_char=283|end_char=291
+3-4	don't	_	_	_	_	_	_	_	start_char=292|end_char=297
+3	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=292|end_char=294
+4	n't	not	PART	RB	Polarity=Neg	5	advmod	_	start_char=294|end_char=297
+5	know	know	VERB	VB	VerbForm=Inf	0	root	_	start_char=298|end_char=302|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	start_char=302|end_char=303
+
+# text = How about we choose when we get there?
+# sent_id = 10
+1	How	how	ADV	WRB	PronType=Int	0	root	_	start_char=304|end_char=307
+2	about	about	SCONJ	IN	_	4	mark	_	start_char=308|end_char=313
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	start_char=314|end_char=316
+4	choose	choose	VERB	VB	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	acl	_	start_char=317|end_char=323
+5	when	when	ADV	WRB	PronType=Int	7	advmod	_	start_char=324|end_char=328
+6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	start_char=329|end_char=331
+7	get	get	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	advcl	_	start_char=332|end_char=335
+8	there	there	ADV	RB	PronType=Dem	7	advmod	_	start_char=336|end_char=341|SpaceAfter=No
+9	?	?	PUNCT	.	_	1	punct	_	start_char=341|end_char=342|SpacesAfter=\r\n
+
+# text = Sure thing, that sounds great.
+# sent_id = 11
+1	Sure	sure	ADJ	JJ	Degree=Pos	2	amod	_	start_char=344|end_char=348
+2	thing	thing	NOUN	NN	Number=Sing	5	obl:unmarked	_	start_char=349|end_char=354|SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	start_char=354|end_char=355
+4	that	that	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	start_char=356|end_char=360
+5	sounds	sound	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=361|end_char=367
+6	great	great	ADJ	JJ	Degree=Pos	5	xcomp	_	start_char=368|end_char=373|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	start_char=373|end_char=374|SpacesAfter=\r\n
+
+# text = Okay, should I pick you up at your house?
+# sent_id = 12
+1	Okay	okay	INTJ	UH	_	5	discourse	_	start_char=376|end_char=380|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=380|end_char=381
+3	should	should	AUX	MD	VerbForm=Fin	5	aux	_	start_char=382|end_char=388
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=389|end_char=390
+5	pick	pick	VERB	VB	VerbForm=Inf	0	root	_	start_char=391|end_char=395
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	obj	_	start_char=396|end_char=399
+7	up	up	ADP	RP	_	5	compound:prt	_	start_char=400|end_char=402
+8	at	at	ADP	IN	_	10	case	_	start_char=403|end_char=405
+9	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	10	nmod:poss	_	start_char=406|end_char=410
+10	house	house	NOUN	NN	Number=Sing	5	obl	_	start_char=411|end_char=416|SpaceAfter=No
+11	?	?	PUNCT	.	_	5	punct	_	start_char=416|end_char=417
+
+# text = Or do you want to meet somewhere?
+# sent_id = 13
+1	Or	or	CCONJ	CC	_	4	cc	_	start_char=418|end_char=420
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=421|end_char=423
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	start_char=424|end_char=427
+4	want	want	VERB	VB	VerbForm=Inf	0	root	_	start_char=428|end_char=432
+5	to	to	PART	TO	_	6	mark	_	start_char=433|end_char=435
+6	meet	meet	VERB	VB	VerbForm=Inf	4	xcomp	_	start_char=436|end_char=440
+7	somewhere	somewhere	ADV	RB	PronType=Ind	6	advmod	_	start_char=441|end_char=450|SpaceAfter=No
+8	?	?	PUNCT	.	_	4	punct	_	start_char=450|end_char=451|SpacesAfter=\r\n
+
+# text = I live by school; if you want, we could meet there.
+# sent_id = 14
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=453|end_char=454
+2	live	live	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=455|end_char=459
+3	by	by	ADP	IN	_	4	case	_	start_char=460|end_char=462
+4	school	school	NOUN	NN	Number=Sing	2	obl	_	start_char=463|end_char=469|SpaceAfter=No
+5	;	;	PUNCT	,	_	12	punct	_	start_char=469|end_char=470
+6	if	if	SCONJ	IN	_	8	mark	_	start_char=471|end_char=473
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	start_char=474|end_char=477
+8	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	12	advcl	_	start_char=478|end_char=482|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	start_char=482|end_char=483
+10	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	start_char=484|end_char=486
+11	could	could	AUX	MD	VerbForm=Fin	12	aux	_	start_char=487|end_char=492
+12	meet	meet	VERB	VB	VerbForm=Inf	2	parataxis	_	start_char=493|end_char=497
+13	there	there	ADV	RB	PronType=Dem	12	advmod	_	start_char=498|end_char=503|SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	start_char=503|end_char=504|SpacesAfter=\r\n
+
+# text = Sure.
+# sent_id = 15
+1	Sure	sure	ADJ	JJ	Degree=Pos	0	root	_	start_char=506|end_char=510|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	_	start_char=510|end_char=511
+
+# text = I drive a white Nissan Sentra.
+# sent_id = 16
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=512|end_char=513
+2	drive	drive	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=514|end_char=519
+3	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=520|end_char=521
+4	white	white	ADJ	JJ	Degree=Pos	6	amod	_	start_char=522|end_char=527
+5	Nissan	Nissan	PROPN	NNP	Number=Sing	6	compound	_	start_char=528|end_char=534
+6	Sentra	Sentra	PROPN	NNP	Number=Sing	2	obj	_	start_char=535|end_char=541|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	start_char=541|end_char=542
+
+# text = I'll text you later on, okay?
+# sent_id = 17
+1-2	I'll	_	_	_	_	_	_	_	start_char=543|end_char=547
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=543|end_char=544
+2	'll	will	AUX	MD	VerbForm=Fin	3	aux	_	start_char=544|end_char=547
+3	text	text	VERB	VB	VerbForm=Inf	0	root	_	start_char=548|end_char=552
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	obj	_	start_char=553|end_char=556
+5	later	late	ADV	RBR	Degree=Cmp	3	advmod	_	start_char=557|end_char=562
+6	on	on	ADP	IN	_	3	advmod	_	start_char=563|end_char=565|SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	start_char=565|end_char=566
+8	okay	okay	INTJ	UH	_	3	discourse	_	start_char=567|end_char=571|SpaceAfter=No
+9	?	?	PUNCT	.	_	3	punct	_	start_char=571|end_char=572|SpacesAfter=\r\n
+
+# text = That sounds great.
+# sent_id = 18
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	2	nsubj	_	start_char=574|end_char=578
+2	sounds	sound	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=579|end_char=585
+3	great	great	ADJ	JJ	Degree=Pos	2	xcomp	_	start_char=586|end_char=591|SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	start_char=591|end_char=592
+
+# text = I'll be waiting for your text.
+# sent_id = 19
+1-2	I'll	_	_	_	_	_	_	_	start_char=593|end_char=597
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=593|end_char=594
+2	'll	will	AUX	MD	VerbForm=Fin	4	aux	_	start_char=594|end_char=597
+3	be	be	AUX	VB	VerbForm=Inf	4	aux	_	start_char=598|end_char=600
+4	waiting	wait	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=601|end_char=608
+5	for	for	ADP	IN	_	7	case	_	start_char=609|end_char=612
+6	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	7	nmod:poss	_	start_char=613|end_char=617
+7	text	text	NOUN	NN	Number=Sing	4	obl	_	start_char=618|end_char=622|SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	start_char=622|end_char=623|SpaceAfter=No
+

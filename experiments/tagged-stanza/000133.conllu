@@ -1,0 +1,149 @@
+# text = Tracy looked at the flag.
+# sent_id = 0
+1	Tracy	Tracy	PROPN	NNP	Number=Sing	2	nsubj	_	start_char=0|end_char=5
+2	looked	look	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=6|end_char=12
+3	at	at	ADP	IN	_	5	case	_	start_char=13|end_char=15
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=16|end_char=19
+5	flag	flag	NOUN	NN	Number=Sing	2	obl	_	start_char=20|end_char=24|SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	start_char=24|end_char=25
+
+# text = The flag is red, white, and blue.
+# sent_id = 1
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=26|end_char=29
+2	flag	flag	NOUN	NN	Number=Sing	4	nsubj	_	start_char=30|end_char=34
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=35|end_char=37
+4	red	red	ADJ	JJ	Degree=Pos	0	root	_	start_char=38|end_char=41|SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	start_char=41|end_char=42
+6	white	white	ADJ	JJ	Degree=Pos	4	conj	_	start_char=43|end_char=48|SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	start_char=48|end_char=49
+8	and	and	CCONJ	CC	_	9	cc	_	start_char=50|end_char=53
+9	blue	blue	ADJ	JJ	Degree=Pos	4	conj	_	start_char=54|end_char=58|SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	start_char=58|end_char=59
+
+# text = It has 50 white stars.
+# sent_id = 2
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=60|end_char=62
+2	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=63|end_char=66
+3	50	50	NUM	CD	NumForm=Digit|NumType=Card	5	nummod	_	start_char=67|end_char=69
+4	white	white	ADJ	JJ	Degree=Pos	5	amod	_	start_char=70|end_char=75
+5	stars	star	NOUN	NNS	Number=Plur	2	obj	_	start_char=76|end_char=81|SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	start_char=81|end_char=82
+
+# text = The white stars are on a blue square.
+# sent_id = 3
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=83|end_char=86
+2	white	white	ADJ	JJ	Degree=Pos	3	amod	_	start_char=87|end_char=92
+3	stars	star	NOUN	NNS	Number=Plur	8	nsubj	_	start_char=93|end_char=98
+4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=99|end_char=102
+5	on	on	ADP	IN	_	8	case	_	start_char=103|end_char=105
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=106|end_char=107
+7	blue	blue	ADJ	JJ	Degree=Pos	8	amod	_	start_char=108|end_char=112
+8	square	square	NOUN	NN	Number=Sing	0	root	_	start_char=113|end_char=119|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	punct	_	start_char=119|end_char=120
+
+# text = The flag has six white stripes.
+# sent_id = 4
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=121|end_char=124
+2	flag	flag	NOUN	NN	Number=Sing	3	nsubj	_	start_char=125|end_char=129
+3	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=130|end_char=133
+4	six	six	NUM	CD	NumForm=Word|NumType=Card	6	nummod	_	start_char=134|end_char=137
+5	white	white	ADJ	JJ	Degree=Pos	6	amod	_	start_char=138|end_char=143
+6	stripes	stripe	NOUN	NNS	Number=Plur	3	obj	_	start_char=144|end_char=151|SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	start_char=151|end_char=152
+
+# text = It has seven red stripes.
+# sent_id = 5
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=153|end_char=155
+2	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=156|end_char=159
+3	seven	seven	NUM	CD	NumForm=Word|NumType=Card	5	nummod	_	start_char=160|end_char=165
+4	red	red	ADJ	JJ	Degree=Pos	5	amod	_	start_char=166|end_char=169
+5	stripes	stripe	NOUN	NNS	Number=Plur	2	obj	_	start_char=170|end_char=177|SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	start_char=177|end_char=178
+
+# text = All the stripes are horizontal.
+# sent_id = 6
+1	All	all	DET	PDT	PronType=Tot	3	det:predet	_	start_char=179|end_char=182
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=183|end_char=186
+3	stripes	stripe	NOUN	NNS	Number=Plur	5	nsubj	_	start_char=187|end_char=194
+4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=195|end_char=198
+5	horizontal	horizontal	ADJ	JJ	Degree=Pos	0	root	_	start_char=199|end_char=209|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	start_char=209|end_char=210
+
+# text = They are not vertical.
+# sent_id = 7
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	start_char=211|end_char=215
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=216|end_char=219
+3	not	not	PART	RB	Polarity=Neg	4	advmod	_	start_char=220|end_char=223
+4	vertical	vertical	ADJ	JJ	Degree=Pos	0	root	_	start_char=224|end_char=232|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	start_char=232|end_char=233
+
+# text = The stripes do not go up and down.
+# sent_id = 8
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=234|end_char=237
+2	stripes	stripe	NOUN	NNS	Number=Plur	5	nsubj	_	start_char=238|end_char=245
+3	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=246|end_char=248
+4	not	not	PART	RB	Polarity=Neg	5	advmod	_	start_char=249|end_char=252
+5	go	go	VERB	VB	VerbForm=Inf	0	root	_	start_char=253|end_char=255
+6	up	up	ADP	RP	_	5	compound:prt	_	start_char=256|end_char=258
+7	and	and	CCONJ	CC	_	8	cc	_	start_char=259|end_char=262
+8	down	down	ADV	RB	_	6	conj	_	start_char=263|end_char=267|SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	start_char=267|end_char=268
+
+# text = They go from left to right.
+# sent_id = 9
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=269|end_char=273
+2	go	go	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=274|end_char=276
+3	from	from	ADP	IN	_	4	case	_	start_char=277|end_char=281
+4	left	left	ADJ	JJ	Degree=Pos	2	obl	_	start_char=282|end_char=286
+5	to	to	ADP	IN	_	6	case	_	start_char=287|end_char=289
+6	right	right	ADJ	JJ	Degree=Pos	2	obl	_	start_char=290|end_char=295|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	start_char=295|end_char=296
+
+# text = Tracy loves her flag.
+# sent_id = 10
+1	Tracy	Tracy	PROPN	NNP	Number=Sing	2	nsubj	_	start_char=297|end_char=302
+2	loves	love	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=303|end_char=308
+3	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	start_char=309|end_char=312
+4	flag	flag	NOUN	NN	Number=Sing	2	obj	_	start_char=313|end_char=317|SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	start_char=317|end_char=318
+
+# text = It is the flag of her country.
+# sent_id = 11
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=319|end_char=321
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=322|end_char=324
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=325|end_char=328
+4	flag	flag	NOUN	NN	Number=Sing	0	root	_	start_char=329|end_char=333
+5	of	of	ADP	IN	_	7	case	_	start_char=334|end_char=336
+6	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	start_char=337|end_char=340
+7	country	country	NOUN	NN	Number=Sing	4	nmod	_	start_char=341|end_char=348|SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	start_char=348|end_char=349
+
+# text = It is a pretty flag.
+# sent_id = 12
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=350|end_char=352
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=353|end_char=355
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=356|end_char=357
+4	pretty	pretty	ADJ	JJ	Degree=Pos	5	amod	_	start_char=358|end_char=364
+5	flag	flag	NOUN	NN	Number=Sing	0	root	_	start_char=365|end_char=369|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	start_char=369|end_char=370
+
+# text = No other flag has 50 stars.
+# sent_id = 13
+1	No	no	DET	DT	PronType=Neg	3	det	_	start_char=371|end_char=373
+2	other	other	ADJ	JJ	Degree=Pos	3	amod	_	start_char=374|end_char=379
+3	flag	flag	NOUN	NN	Number=Sing	4	nsubj	_	start_char=380|end_char=384
+4	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=385|end_char=388
+5	50	50	NUM	CD	NumForm=Digit|NumType=Card	6	nummod	_	start_char=389|end_char=391
+6	stars	star	NOUN	NNS	Number=Plur	4	obj	_	start_char=392|end_char=397|SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	start_char=397|end_char=398
+
+# text = No other flag has 13 stripes.
+# sent_id = 14
+1	No	no	DET	DT	PronType=Neg	3	det	_	start_char=399|end_char=401
+2	other	other	ADJ	JJ	Degree=Pos	3	amod	_	start_char=402|end_char=407
+3	flag	flag	NOUN	NN	Number=Sing	4	nsubj	_	start_char=408|end_char=412
+4	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=413|end_char=416
+5	13	13	NUM	CD	NumForm=Digit|NumType=Card	6	nummod	_	start_char=417|end_char=419
+6	stripes	stripe	NOUN	NNS	Number=Plur	4	obj	_	start_char=420|end_char=427|SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	start_char=427|end_char=428|SpaceAfter=No
+

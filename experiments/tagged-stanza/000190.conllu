@@ -1,0 +1,188 @@
+# text = I'm running 10 mins late, sorry!
+# sent_id = 0
+1-2	I'm	_	_	_	_	_	_	_	start_char=0|end_char=3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=0|end_char=1
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=1|end_char=3
+3	running	run	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=4|end_char=11
+4	10	10	NUM	CD	NumForm=Digit|NumType=Card	5	nummod	_	start_char=12|end_char=14
+5	mins	minute	NOUN	NNS	Abbr=Yes|Number=Plur	6	obl:unmarked	_	start_char=15|end_char=19
+6	late	late	ADJ	JJ	Degree=Pos	3	advmod	_	start_char=20|end_char=24|SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	start_char=24|end_char=25
+8	sorry	sorry	ADJ	JJ	Degree=Pos	3	parataxis	_	start_char=26|end_char=31|SpaceAfter=No
+9	!	!	PUNCT	.	_	3	punct	_	start_char=31|end_char=32|SpacesAfter=\r\n
+
+# text = No problem!
+# sent_id = 1
+1	No	no	DET	DT	PronType=Neg	2	det	_	start_char=34|end_char=36
+2	problem	problem	NOUN	NN	Number=Sing	0	root	_	start_char=37|end_char=44|SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	start_char=44|end_char=45|SpacesAfter=\r\n
+
+# text = Aargh!
+# sent_id = 2
+1	Aargh	aargh	INTJ	UH	_	0	root	_	start_char=47|end_char=52|SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	start_char=52|end_char=53
+
+# text = Traffic is really bad.
+# sent_id = 3
+1	Traffic	traffic	NOUN	NN	Number=Sing	4	nsubj	_	start_char=54|end_char=61
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=62|end_char=64
+3	really	really	ADV	RB	_	4	advmod	_	start_char=65|end_char=71
+4	bad	bad	ADJ	JJ	Degree=Pos	0	root	_	start_char=72|end_char=75|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	start_char=75|end_char=76
+
+# text = I'll be more than 10 mins late now, sorry again!!
+# sent_id = 4
+1-2	I'll	_	_	_	_	_	_	_	start_char=77|end_char=81
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	start_char=77|end_char=78
+2	'll	will	AUX	MD	VerbForm=Fin	8	aux	_	start_char=78|end_char=81
+3	be	be	AUX	VB	VerbForm=Inf	8	cop	_	start_char=82|end_char=84
+4	more	more	ADJ	JJR	Degree=Cmp|ExtPos=ADV	6	advmod	_	start_char=85|end_char=89
+5	than	than	ADP	IN	_	4	fixed	_	start_char=90|end_char=94
+6	10	10	NUM	CD	NumForm=Digit|NumType=Card	7	nummod	_	start_char=95|end_char=97
+7	mins	minute	NOUN	NNS	Abbr=Yes|Number=Plur	8	obl:unmarked	_	start_char=98|end_char=102
+8	late	late	ADJ	JJ	Degree=Pos	0	root	_	start_char=103|end_char=107
+9	now	now	ADV	RB	_	8	advmod	_	start_char=108|end_char=111|SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	_	start_char=111|end_char=112
+11	sorry	sorry	ADJ	JJ	Degree=Pos	8	parataxis	_	start_char=113|end_char=118
+12	again	again	ADV	RB	_	11	advmod	_	start_char=119|end_char=124|SpaceAfter=No
+13	!!	!!	PUNCT	.	_	8	punct	_	start_char=124|end_char=126|SpacesAfter=\r\n
+
+# text = It's OK, don't worry.
+# sent_id = 5
+1-2	It's	_	_	_	_	_	_	_	start_char=128|end_char=132
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=128|end_char=130
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=130|end_char=132
+3	OK	ok	ADJ	JJ	Degree=Pos	0	root	_	start_char=133|end_char=135|SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	start_char=135|end_char=136
+5-6	don't	_	_	_	_	_	_	_	start_char=137|end_char=142
+5	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	7	aux	_	start_char=137|end_char=139
+6	n't	not	PART	RB	Polarity=Neg	7	advmod	_	start_char=139|end_char=142
+7	worry	worry	VERB	VB	Mood=Imp|VerbForm=Fin	3	parataxis	_	start_char=143|end_char=148|SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	start_char=148|end_char=149
+
+# text = I'm in the cafe already so it's fine
+# sent_id = 6
+1-2	I'm	_	_	_	_	_	_	_	start_char=150|end_char=153
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=150|end_char=151
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=151|end_char=153
+3	in	in	ADP	IN	_	5	case	_	start_char=154|end_char=156
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=157|end_char=160
+5	cafe	cafe	NOUN	NN	Number=Sing	0	root	_	start_char=161|end_char=165
+6	already	already	ADV	RB	_	5	advmod	_	start_char=166|end_char=173
+7	so	so	ADV	RB	_	10	advmod	_	start_char=174|end_char=176
+8-9	it's	_	_	_	_	_	_	_	start_char=177|end_char=181
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	start_char=177|end_char=179
+9	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=179|end_char=181
+10	fine	fine	ADJ	JJ	Degree=Pos	5	parataxis	_	start_char=182|end_char=186|SpacesAfter=\r\n
+
+# text = This is not my day!
+# sent_id = 7
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	start_char=188|end_char=192
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=193|end_char=195
+3	not	not	PART	RB	Polarity=Neg	5	advmod	_	start_char=196|end_char=199
+4	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=200|end_char=202
+5	day	day	NOUN	NN	Number=Sing	0	root	_	start_char=203|end_char=206|SpaceAfter=No
+6	!	!	PUNCT	.	_	5	punct	_	start_char=206|end_char=207
+
+# text = I'm here but can't find a place to park.
+# sent_id = 8
+1-2	I'm	_	_	_	_	_	_	_	start_char=208|end_char=211
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=208|end_char=209
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=209|end_char=211
+3	here	here	ADV	RB	PronType=Dem	0	root	_	start_char=212|end_char=216
+4	but	but	CCONJ	CC	_	7	cc	_	start_char=217|end_char=220
+5-6	can't	_	_	_	_	_	_	_	start_char=221|end_char=226
+5	ca	can	AUX	MD	VerbForm=Fin	7	aux	_	start_char=221|end_char=223
+6	n't	not	PART	RB	Polarity=Neg	7	advmod	_	start_char=223|end_char=226
+7	find	find	VERB	VB	VerbForm=Inf	3	conj	_	start_char=227|end_char=231
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	start_char=232|end_char=233
+9	place	place	NOUN	NN	Number=Sing	7	obj	_	start_char=234|end_char=239
+10	to	to	PART	TO	_	11	mark	_	start_char=240|end_char=242
+11	park	park	VERB	VB	VerbForm=Inf	9	acl	_	start_char=243|end_char=247|SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	start_char=247|end_char=248
+
+# text = I'm looking for a different car park.
+# sent_id = 9
+1-2	I'm	_	_	_	_	_	_	_	start_char=249|end_char=252
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=249|end_char=250
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=250|end_char=252
+3	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=253|end_char=260
+4	for	for	ADP	IN	_	8	case	_	start_char=261|end_char=264
+5	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=265|end_char=266
+6	different	different	ADJ	JJ	Degree=Pos	8	amod	_	start_char=267|end_char=276
+7	car	car	NOUN	NN	Number=Sing	8	compound	_	start_char=277|end_char=280
+8	park	park	NOUN	NN	Number=Sing	3	obl	_	start_char=281|end_char=285|SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	start_char=285|end_char=286
+
+# text = Not sure how long I'll be OK, LMK when you find a place I might get something to eat tho Of course!
+# sent_id = 10
+1	Not	not	PART	RB	Polarity=Neg	2	advmod	_	start_char=287|end_char=290
+2	sure	sure	ADJ	JJ	Degree=Pos	0	root	_	start_char=291|end_char=295
+3	how	how	ADV	WRB	PronType=Int	4	advmod	_	start_char=296|end_char=299
+4	long	long	ADV	RB	Degree=Pos	2	ccomp	_	start_char=300|end_char=304
+5-6	I'll	_	_	_	_	_	_	_	start_char=305|end_char=309
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	start_char=305|end_char=306
+6	'll	will	AUX	MD	VerbForm=Fin	8	aux	_	start_char=306|end_char=309
+7	be	be	AUX	VB	VerbForm=Inf	8	cop	_	start_char=310|end_char=312|SpacesAfter=\r\n
+8	OK	ok	ADJ	JJ	Degree=Pos	2	ccomp	_	start_char=314|end_char=316|SpaceAfter=No
+9	,	,	PUNCT	,	_	18	punct	_	start_char=316|end_char=317
+10	LMK	lmk	INTJ	UH	_	18	discourse	_	start_char=318|end_char=321
+11	when	when	ADV	WRB	PronType=Int	13	advmod	_	start_char=322|end_char=326
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	start_char=327|end_char=330
+13	find	find	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	18	advcl	_	start_char=331|end_char=335
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	start_char=336|end_char=337
+15	place	place	NOUN	NN	Number=Sing	13	obj	_	start_char=338|end_char=343|SpacesAfter=\r\n
+16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	start_char=345|end_char=346
+17	might	might	AUX	MD	VerbForm=Fin	18	aux	_	start_char=347|end_char=352
+18	get	get	VERB	VB	VerbForm=Inf	2	parataxis	_	start_char=353|end_char=356
+19	something	something	PRON	NN	Number=Sing|PronType=Ind	18	obj	_	start_char=357|end_char=366
+20	to	to	PART	TO	_	21	mark	_	start_char=367|end_char=369
+21	eat	eat	VERB	VB	VerbForm=Inf	19	acl	_	start_char=370|end_char=373
+22	tho	though	ADP	IN	_	23	case	_	start_char=374|end_char=377|SpacesAfter=\r\n
+23	Of	of	ADP	IN	ExtPos=ADV	18	advmod	_	start_char=379|end_char=381
+24	course	course	NOUN	NN	Number=Sing	23	fixed	_	start_char=382|end_char=388|SpaceAfter=No
+25	!	!	PUNCT	.	_	2	punct	_	start_char=388|end_char=389
+
+# text = I'll be as quick as I can OK!
+# sent_id = 11
+1-2	I'll	_	_	_	_	_	_	_	start_char=390|end_char=394
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=390|end_char=391
+2	'll	will	AUX	MD	VerbForm=Fin	5	aux	_	start_char=391|end_char=394
+3	be	be	AUX	VB	VerbForm=Inf	5	cop	_	start_char=395|end_char=397
+4	as	as	ADV	RB	_	5	advmod	_	start_char=398|end_char=400
+5	quick	quick	ADJ	JJ	Degree=Pos	0	root	_	start_char=401|end_char=406
+6	as	as	SCONJ	IN	_	8	mark	_	start_char=407|end_char=409
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	start_char=410|end_char=411
+8	can	can	AUX	MD	VerbForm=Fin	5	advcl	_	start_char=412|end_char=415|SpacesAfter=\r\n
+9	OK	ok	INTJ	UH	_	8	discourse	_	start_char=417|end_char=419|SpaceAfter=No
+10	!	!	PUNCT	.	_	5	punct	_	start_char=419|end_char=420|SpacesAfter=\r\n
+
+# text = Found one!
+# sent_id = 12
+1	Found	find	VERB	VBD	Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	start_char=422|end_char=427
+2	one	one	NUM	CD	NumForm=Word|NumType=Card	1	obj	_	start_char=428|end_char=431|SpaceAfter=No
+3	!	!	PUNCT	.	_	1	punct	_	start_char=431|end_char=432
+
+# text = Be there in 10 mins Well done!
+# sent_id = 13
+1	Be	be	AUX	VB	Mood=Imp|VerbForm=Fin	2	cop	_	start_char=433|end_char=435
+2	there	there	ADV	RB	PronType=Dem	0	root	_	start_char=436|end_char=441
+3	in	in	ADP	IN	_	5	case	_	start_char=442|end_char=444
+4	10	10	NUM	CD	NumForm=Digit|NumType=Card	5	nummod	_	start_char=445|end_char=447
+5	mins	minute	NOUN	NNS	Abbr=Yes|Number=Plur	2	obl	_	start_char=448|end_char=452|SpacesAfter=\r\n
+6	Well	well	ADV	RB	Degree=Pos	7	advmod	_	start_char=454|end_char=458
+7	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	advcl	_	start_char=459|end_char=463|SpaceAfter=No
+8	!	!	PUNCT	.	_	2	punct	_	start_char=463|end_char=464
+
+# text = See you soon
+# sent_id = 14
+1	See	see	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=465|end_char=468
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	obj	_	start_char=469|end_char=472
+3	soon	soon	ADV	RB	Degree=Pos	1	advmod	_	start_char=473|end_char=477|SpacesAfter=\r\n
+
+# text = Thx for waiting
+# sent_id = 15
+1	Thx	thx	INTJ	UH	_	0	root	_	start_char=479|end_char=482
+2	for	for	ADP	IN	_	3	case	_	start_char=483|end_char=486
+3	waiting	waiting	NOUN	NN	Number=Sing	1	nmod	_	start_char=487|end_char=494|SpaceAfter=No
+

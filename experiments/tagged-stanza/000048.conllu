@@ -1,0 +1,206 @@
+# text = She won the contest.
+# sent_id = 0
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=0|end_char=3
+2	won	win	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=4|end_char=7
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=8|end_char=11
+4	contest	contest	NOUN	NN	Number=Sing	2	obj	_	start_char=12|end_char=19|SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	start_char=19|end_char=20
+
+# text = She won the Rose Queen contest.
+# sent_id = 1
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=21|end_char=24
+2	won	win	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=25|end_char=28
+3	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=29|end_char=32
+4	Rose	Rose	PROPN	NNP	Number=Sing	6	compound	_	start_char=33|end_char=37
+5	Queen	Queen	PROPN	NNP	Number=Sing	6	compound	_	start_char=38|end_char=43
+6	contest	contest	NOUN	NN	Number=Sing	2	obj	_	start_char=44|end_char=51|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	start_char=51|end_char=52
+
+# text = She was the new queen for the Rose Parade.
+# sent_id = 2
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=53|end_char=56
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	start_char=57|end_char=60
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=61|end_char=64
+4	new	new	ADJ	JJ	Degree=Pos	5	amod	_	start_char=65|end_char=68
+5	queen	queen	NOUN	NN	Number=Sing	0	root	_	start_char=69|end_char=74
+6	for	for	ADP	IN	_	9	case	_	start_char=75|end_char=78
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=79|end_char=82
+8	Rose	Rose	PROPN	NNP	Number=Sing	9	compound	_	start_char=83|end_char=87
+9	Parade	Parade	PROPN	NNP	Number=Sing	5	nmod	_	start_char=88|end_char=94|SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	_	start_char=94|end_char=95
+
+# text = She was so happy.
+# sent_id = 3
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=96|end_char=99
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	start_char=100|end_char=103
+3	so	so	ADV	RB	_	4	advmod	_	start_char=104|end_char=106
+4	happy	happy	ADJ	JJ	Degree=Pos	0	root	_	start_char=107|end_char=112|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	start_char=112|end_char=113
+
+# text = She would be in the parade on New Year's Day.
+# sent_id = 4
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=114|end_char=117
+2	would	would	AUX	MD	VerbForm=Fin	6	aux	_	start_char=118|end_char=123
+3	be	be	AUX	VB	VerbForm=Inf	6	cop	_	start_char=124|end_char=126
+4	in	in	ADP	IN	_	6	case	_	start_char=127|end_char=129
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=130|end_char=133
+6	parade	parade	NOUN	NN	Number=Sing	0	root	_	start_char=134|end_char=140
+7	on	on	ADP	IN	_	11	case	_	start_char=141|end_char=143
+8	New	New	ADJ	NNP	Degree=Pos	9	amod	_	start_char=144|end_char=147
+9-10	Year's	_	_	_	_	_	_	_	start_char=148|end_char=154
+9	Year	Year	PROPN	NNP	Number=Sing	11	nmod:poss	_	start_char=148|end_char=152
+10	's	's	PART	POS	_	9	case	_	start_char=152|end_char=154
+11	Day	Day	PROPN	NNP	Number=Sing	6	obl	_	start_char=155|end_char=158|SpaceAfter=No
+12	.	.	PUNCT	.	_	6	punct	_	start_char=158|end_char=159
+
+# text = She was so excited.
+# sent_id = 5
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=160|end_char=163
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	start_char=164|end_char=167
+3	so	so	ADV	RB	_	4	advmod	_	start_char=168|end_char=170
+4	excited	excited	ADJ	JJ	Degree=Pos	0	root	_	start_char=171|end_char=178|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	start_char=178|end_char=179
+
+# text = She would be on TV.
+# sent_id = 6
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=180|end_char=183
+2	would	would	AUX	MD	VerbForm=Fin	5	aux	_	start_char=184|end_char=189
+3	be	be	AUX	VB	VerbForm=Inf	5	cop	_	start_char=190|end_char=192
+4	on	on	ADP	IN	_	5	case	_	start_char=193|end_char=195
+5	TV	TV	NOUN	NN	Number=Sing	0	root	_	start_char=196|end_char=198|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	start_char=198|end_char=199
+
+# text = Millions of people would see her.
+# sent_id = 7
+1	Millions	million	NOUN	NNS	Number=Plur	5	nsubj	_	start_char=200|end_char=208
+2	of	of	ADP	IN	_	3	case	_	start_char=209|end_char=211
+3	people	person	NOUN	NNS	Number=Plur	1	nmod	_	start_char=212|end_char=218
+4	would	would	AUX	MD	VerbForm=Fin	5	aux	_	start_char=219|end_char=224
+5	see	see	VERB	VB	VerbForm=Inf	0	root	_	start_char=225|end_char=228
+6	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	start_char=229|end_char=232|SpaceAfter=No
+7	.	.	PUNCT	.	_	5	punct	_	start_char=232|end_char=233
+
+# text = She would wave to people on the sidewalks in Pasadena.
+# sent_id = 8
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=234|end_char=237
+2	would	would	AUX	MD	VerbForm=Fin	3	aux	_	start_char=238|end_char=243
+3	wave	wave	VERB	VB	VerbForm=Inf	0	root	_	start_char=244|end_char=248
+4	to	to	ADP	IN	_	5	case	_	start_char=249|end_char=251
+5	people	person	NOUN	NNS	Number=Plur	3	obl	_	start_char=252|end_char=258
+6	on	on	ADP	IN	_	8	case	_	start_char=259|end_char=261
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=262|end_char=265
+8	sidewalks	sidewalk	NOUN	NNS	Number=Plur	3	obl	_	start_char=266|end_char=275
+9	in	in	ADP	IN	_	10	case	_	start_char=276|end_char=278
+10	Pasadena	Pasadena	PROPN	NNP	Number=Sing	8	nmod	_	start_char=279|end_char=287|SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	start_char=287|end_char=288
+
+# text = Pasadena was the home of the Rose Parade.
+# sent_id = 9
+1	Pasadena	Pasadena	PROPN	NNP	Number=Sing	4	nsubj	_	start_char=289|end_char=297
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	start_char=298|end_char=301
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=302|end_char=305
+4	home	home	NOUN	NN	Number=Sing	0	root	_	start_char=306|end_char=310
+5	of	of	ADP	IN	_	8	case	_	start_char=311|end_char=313
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=314|end_char=317
+7	Rose	Rose	PROPN	NNP	Number=Sing	8	compound	_	start_char=318|end_char=322
+8	Parade	Parade	PROPN	NNP	Number=Sing	4	nmod	_	start_char=323|end_char=329|SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	start_char=329|end_char=330
+
+# text = Every year, thousands of people spent New Year's Eve on the sidewalks of Pasadena.
+# sent_id = 10
+1	Every	every	DET	DT	PronType=Tot	2	det	_	start_char=331|end_char=336
+2	year	year	NOUN	NN	Number=Sing	7	obl:unmarked	_	start_char=337|end_char=341|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	start_char=341|end_char=342
+4	thousands	thousand	NOUN	NNS	Number=Plur	7	nsubj	_	start_char=343|end_char=352
+5	of	of	ADP	IN	_	6	case	_	start_char=353|end_char=355
+6	people	person	NOUN	NNS	Number=Plur	4	nmod	_	start_char=356|end_char=362
+7	spent	spend	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=363|end_char=368
+8	New	New	ADJ	NNP	Degree=Pos	9	amod	_	start_char=369|end_char=372
+9-10	Year's	_	_	_	_	_	_	_	start_char=373|end_char=379
+9	Year	Year	PROPN	NNP	Number=Sing	11	nmod:poss	_	start_char=373|end_char=377
+10	's	's	PART	POS	_	9	case	_	start_char=377|end_char=379
+11	Eve	Eve	PROPN	NNP	Number=Sing	7	obj	_	start_char=380|end_char=383
+12	on	on	ADP	IN	_	14	case	_	start_char=384|end_char=386
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	start_char=387|end_char=390
+14	sidewalks	sidewalk	NOUN	NNS	Number=Plur	7	obl	_	start_char=391|end_char=400
+15	of	of	ADP	IN	_	16	case	_	start_char=401|end_char=403
+16	Pasadena	Pasadena	PROPN	NNP	Number=Sing	14	nmod	_	start_char=404|end_char=412|SpaceAfter=No
+17	.	.	PUNCT	.	_	7	punct	_	start_char=412|end_char=413
+
+# text = They wanted to see the Rose Parade.
+# sent_id = 11
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=414|end_char=418
+2	wanted	want	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=419|end_char=425
+3	to	to	PART	TO	_	4	mark	_	start_char=426|end_char=428
+4	see	see	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=429|end_char=432
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=433|end_char=436
+6	Rose	Rose	PROPN	NNP	Number=Sing	7	compound	_	start_char=437|end_char=441
+7	Parade	Parade	PROPN	NNP	Number=Sing	4	obj	_	start_char=442|end_char=448|SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	start_char=448|end_char=449
+
+# text = Almost 50 floats are in the Rose Parade every year.
+# sent_id = 12
+1	Almost	almost	ADV	RB	_	2	advmod	_	start_char=450|end_char=456
+2	50	50	NUM	CD	NumForm=Digit|NumType=Card	3	nummod	_	start_char=457|end_char=459
+3	floats	float	NOUN	NNS	Number=Plur	8	nsubj	_	start_char=460|end_char=466
+4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=467|end_char=470
+5	in	in	ADP	IN	_	8	case	_	start_char=471|end_char=473
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=474|end_char=477
+7	Rose	Rose	PROPN	NNP	Number=Sing	8	compound	_	start_char=478|end_char=482
+8	Parade	Parade	PROPN	NNP	Number=Sing	0	root	_	start_char=483|end_char=489
+9	every	every	DET	DT	PronType=Tot	10	det	_	start_char=490|end_char=495
+10	year	year	NOUN	NN	Number=Sing	8	obl:unmarked	_	start_char=496|end_char=500|SpaceAfter=No
+11	.	.	PUNCT	.	_	8	punct	_	start_char=500|end_char=501
+
+# text = All the floats are beautiful.
+# sent_id = 13
+1	All	all	DET	PDT	PronType=Tot	3	det:predet	_	start_char=502|end_char=505
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=506|end_char=509
+3	floats	float	NOUN	NNS	Number=Plur	5	nsubj	_	start_char=510|end_char=516
+4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=517|end_char=520
+5	beautiful	beautiful	ADJ	JJ	Degree=Pos	0	root	_	start_char=521|end_char=530|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	start_char=530|end_char=531
+
+# text = They have lots of beautiful flowers.
+# sent_id = 14
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=532|end_char=536
+2	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=537|end_char=541
+3	lots	lot	NOUN	NNS	Number=Plur	2	obj	_	start_char=542|end_char=546
+4	of	of	ADP	IN	_	6	case	_	start_char=547|end_char=549
+5	beautiful	beautiful	ADJ	JJ	Degree=Pos	6	amod	_	start_char=550|end_char=559
+6	flowers	flower	NOUN	NNS	Number=Plur	3	nmod	_	start_char=560|end_char=567|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	start_char=567|end_char=568
+
+# text = She would ride on a beautiful float.
+# sent_id = 15
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=569|end_char=572
+2	would	would	AUX	MD	VerbForm=Fin	3	aux	_	start_char=573|end_char=578
+3	ride	ride	VERB	VB	VerbForm=Inf	0	root	_	start_char=579|end_char=583
+4	on	on	ADP	IN	_	7	case	_	start_char=584|end_char=586
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=587|end_char=588
+6	beautiful	beautiful	ADJ	JJ	Degree=Pos	7	amod	_	start_char=589|end_char=598
+7	float	float	NOUN	NN	Number=Sing	3	obl	_	start_char=599|end_char=604|SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	start_char=604|end_char=605
+
+# text = She would wave to everyone.
+# sent_id = 16
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=606|end_char=609
+2	would	would	AUX	MD	VerbForm=Fin	3	aux	_	start_char=610|end_char=615
+3	wave	wave	VERB	VB	VerbForm=Inf	0	root	_	start_char=616|end_char=620
+4	to	to	ADP	IN	_	5	case	_	start_char=621|end_char=623
+5	everyone	everyone	PRON	NN	Number=Sing|PronType=Tot	3	obl	_	start_char=624|end_char=632|SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	start_char=632|end_char=633
+
+# text = Her parents and friends were so happy for her.
+# sent_id = 17
+1	Her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=634|end_char=637
+2	parents	parent	NOUN	NNS	Number=Plur	7	nsubj	_	start_char=638|end_char=645
+3	and	and	CCONJ	CC	_	4	cc	_	start_char=646|end_char=649
+4	friends	friend	NOUN	NNS	Number=Plur	2	conj	_	start_char=650|end_char=657
+5	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	start_char=658|end_char=662
+6	so	so	ADV	RB	_	7	advmod	_	start_char=663|end_char=665
+7	happy	happy	ADJ	JJ	Degree=Pos	0	root	_	start_char=666|end_char=671
+8	for	for	ADP	IN	_	9	case	_	start_char=672|end_char=675
+9	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	obl	_	start_char=676|end_char=679|SpaceAfter=No
+10	.	.	PUNCT	.	_	7	punct	_	start_char=679|end_char=680|SpaceAfter=No
+

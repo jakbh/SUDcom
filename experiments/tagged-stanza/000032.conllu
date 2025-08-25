@@ -1,0 +1,98 @@
+# text = This is my first boat ride, Patricia.
+# sent_id = 0
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	6	nsubj	_	start_char=0|end_char=4
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=5|end_char=7
+3	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	start_char=8|end_char=10
+4	first	first	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	6	amod	_	start_char=11|end_char=16
+5	boat	boat	NOUN	NN	Number=Sing	6	compound	_	start_char=17|end_char=21
+6	ride	ride	NOUN	NN	Number=Sing	0	root	_	start_char=22|end_char=26|SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	start_char=26|end_char=27
+8	Patricia	Patricia	PROPN	NNP	Number=Sing	6	vocative	_	start_char=28|end_char=36|SpaceAfter=No
+9	.	.	PUNCT	.	_	6	punct	_	start_char=36|end_char=37|SpacesAfter=\r\n
+
+# text = It's mine too, Sandra.
+# sent_id = 1
+1-2	It's	_	_	_	_	_	_	_	start_char=39|end_char=43
+1	It	it	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=39|end_char=41
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=41|end_char=43
+3	mine	my	PRON	PRP	Gender=Neut|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	root	_	start_char=44|end_char=48
+4	too	too	ADV	RB	_	3	advmod	_	start_char=49|end_char=52|SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	start_char=52|end_char=53
+6	Sandra	Sandra	PROPN	NNP	Number=Sing	3	vocative	_	start_char=54|end_char=60|SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	start_char=60|end_char=61|SpacesAfter=\r\n
+
+# text = Is it safe?
+# sent_id = 2
+1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=63|end_char=65
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=66|end_char=68
+3	safe	safe	ADJ	JJ	Degree=Pos	0	root	_	start_char=69|end_char=73|SpaceAfter=No
+4	?	?	PUNCT	.	_	3	punct	_	start_char=73|end_char=74|SpacesAfter=\r\n
+
+# text = I thinks so.
+# sent_id = 3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=76|end_char=77
+2	thinks	think	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=78|end_char=84
+3	so	so	ADV	RB	_	2	advmod	_	start_char=85|end_char=87|SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	start_char=87|end_char=88
+
+# text = Daddy goes all the time.
+# sent_id = 4
+1	Daddy	Daddy	PROPN	NNP	Number=Sing	2	nsubj	_	start_char=89|end_char=94
+2	goes	go	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=95|end_char=99
+3	all	all	DET	PDT	PronType=Tot	5	det:predet	_	start_char=100|end_char=103
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=104|end_char=107
+5	time	time	NOUN	NN	Number=Sing	2	obl:unmarked	_	start_char=108|end_char=112|SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	start_char=112|end_char=113|SpacesAfter=\r\n
+
+# text = He told me we can row the boat.
+# sent_id = 5
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=115|end_char=117
+2	told	tell	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=118|end_char=122
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	iobj	_	start_char=123|end_char=125
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	start_char=126|end_char=128
+5	can	can	AUX	MD	VerbForm=Fin	6	aux	_	start_char=129|end_char=132
+6	row	row	VERB	VB	VerbForm=Inf	2	ccomp	_	start_char=133|end_char=136
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=137|end_char=140
+8	boat	boat	NOUN	NN	Number=Sing	6	obj	_	start_char=141|end_char=145|SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	start_char=145|end_char=146|SpacesAfter=\r\n
+
+# text = Row the boat?
+# sent_id = 6
+1	Row	row	VERB	VB	Mood=Imp|VerbForm=Inf	0	root	_	start_char=148|end_char=151
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=152|end_char=155
+3	boat	boat	NOUN	NN	Number=Sing	1	obj	_	start_char=156|end_char=160|SpaceAfter=No
+4	?	?	PUNCT	.	_	1	punct	_	start_char=160|end_char=161|SpacesAfter=\r\n
+
+# text = Yes.
+# sent_id = 7
+1	Yes	yes	INTJ	UH	Polarity=Pos	0	root	_	start_char=163|end_char=166|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	_	start_char=166|end_char=167
+
+# text = Take this oar and row.
+# sent_id = 8
+1	Take	take	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=168|end_char=172
+2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	_	start_char=173|end_char=177
+3	oar	oar	NOUN	NN	Number=Sing	1	obj	_	start_char=178|end_char=181
+4	and	and	CCONJ	CC	_	5	cc	_	start_char=182|end_char=185
+5	row	row	NOUN	NN	Number=Sing	3	conj	_	start_char=186|end_char=189|SpaceAfter=No
+6	.	.	PUNCT	.	_	1	punct	_	start_char=189|end_char=190|SpacesAfter=\r\n
+
+# text = Wow.
+# sent_id = 9
+1	Wow	wow	INTJ	UH	_	0	root	_	start_char=192|end_char=195|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	_	start_char=195|end_char=196
+
+# text = This is fun.
+# sent_id = 10
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	start_char=197|end_char=201
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=202|end_char=204
+3	fun	fun	ADJ	JJ	Degree=Pos	0	root	_	start_char=205|end_char=208|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	start_char=208|end_char=209
+
+# text = We are moving.
+# sent_id = 11
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=210|end_char=212
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=213|end_char=216
+3	moving	move	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=217|end_char=223|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	start_char=223|end_char=224|SpaceAfter=No
+

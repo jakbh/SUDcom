@@ -1,0 +1,145 @@
+# text = Brenda sang a song.
+# sent_id = 0
+1	Brenda	Brenda	PROPN	NNP	Number=Sing	2	nsubj	_	start_char=0|end_char=6
+2	sang	sing	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=7|end_char=11
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	start_char=12|end_char=13
+4	song	song	NOUN	NN	Number=Sing	2	obj	_	start_char=14|end_char=18|SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	start_char=18|end_char=19
+
+# text = She sang the song while she walked to school.
+# sent_id = 1
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=20|end_char=23
+2	sang	sing	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=24|end_char=28
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=29|end_char=32
+4	song	song	NOUN	NN	Number=Sing	2	obj	_	start_char=33|end_char=37
+5	while	while	SCONJ	IN	_	7	mark	_	start_char=38|end_char=43
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=44|end_char=47
+7	walked	walk	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	advcl	_	start_char=48|end_char=54
+8	to	to	ADP	IN	_	9	case	_	start_char=55|end_char=57
+9	school	school	NOUN	NN	Number=Sing	7	obl	_	start_char=58|end_char=64|SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	start_char=64|end_char=65
+
+# text = The name of the song was "Row, Row, Row Your Boat."
+# sent_id = 2
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=66|end_char=69
+2	name	name	NOUN	NN	Number=Sing	8	nsubj	_	start_char=70|end_char=74
+3	of	of	ADP	IN	_	5	case	_	start_char=75|end_char=77
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=78|end_char=81
+5	song	song	NOUN	NN	Number=Sing	2	nmod	_	start_char=82|end_char=86
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	start_char=87|end_char=90
+7	"	"	PUNCT	``	_	8	punct	_	start_char=91|end_char=92|SpaceAfter=No
+8	Row	row	NOUN	NN	Number=Sing	0	root	_	start_char=92|end_char=95|SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	start_char=95|end_char=96
+10	Row	row	NOUN	NN	Number=Sing	8	conj	_	start_char=97|end_char=100|SpaceAfter=No
+11	,	,	PUNCT	,	_	12	punct	_	start_char=100|end_char=101
+12	Row	row	NOUN	NN	Number=Sing	8	conj	_	start_char=102|end_char=105
+13	Your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	14	nmod:poss	_	start_char=106|end_char=110
+14	Boat	Boat	PROPN	NNP	Number=Sing	8	conj	_	start_char=111|end_char=115|SpaceAfter=No
+15	.	.	PUNCT	.	_	8	punct	_	start_char=115|end_char=116|SpaceAfter=No
+16	"	"	PUNCT	''	_	8	punct	_	start_char=116|end_char=117
+
+# text = Brenda liked to sing this song.
+# sent_id = 3
+1	Brenda	Brenda	PROPN	NNP	Number=Sing	2	nsubj	_	start_char=118|end_char=124
+2	liked	like	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=125|end_char=130
+3	to	to	PART	TO	_	4	mark	_	start_char=131|end_char=133
+4	sing	sing	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=134|end_char=138
+5	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	_	start_char=139|end_char=143
+6	song	song	NOUN	NN	Number=Sing	4	obj	_	start_char=144|end_char=148|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	start_char=148|end_char=149
+
+# text = It was her favorite song to sing.
+# sent_id = 4
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=150|end_char=152
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	start_char=153|end_char=156
+3	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=157|end_char=160
+4	favorite	favorite	ADJ	JJ	Degree=Pos	5	amod	_	start_char=161|end_char=169
+5	song	song	NOUN	NN	Number=Sing	0	root	_	start_char=170|end_char=174
+6	to	to	PART	TO	_	7	mark	_	start_char=175|end_char=177
+7	sing	sing	VERB	VB	VerbForm=Inf	5	acl	_	start_char=178|end_char=182|SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	start_char=182|end_char=183
+
+# text = She sang it every day while she walked to school.
+# sent_id = 5
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=184|end_char=187
+2	sang	sing	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=188|end_char=192
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	start_char=193|end_char=195
+4	every	every	DET	DT	PronType=Tot	5	det	_	start_char=196|end_char=201
+5	day	day	NOUN	NN	Number=Sing	2	obl:unmarked	_	start_char=202|end_char=205
+6	while	while	SCONJ	IN	_	8	mark	_	start_char=206|end_char=211
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	start_char=212|end_char=215
+8	walked	walk	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	advcl	_	start_char=216|end_char=222
+9	to	to	ADP	IN	_	10	case	_	start_char=223|end_char=225
+10	school	school	NOUN	NN	Number=Sing	8	obl	_	start_char=226|end_char=232|SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	start_char=232|end_char=233
+
+# text = Sometimes she sang it with her best friend.
+# sent_id = 6
+1	Sometimes	sometimes	ADV	RB	_	3	advmod	_	start_char=234|end_char=243
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=244|end_char=247
+3	sang	sing	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=248|end_char=252
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	start_char=253|end_char=255
+5	with	with	ADP	IN	_	8	case	_	start_char=256|end_char=260
+6	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	start_char=261|end_char=264
+7	best	good	ADJ	JJS	Degree=Sup	8	amod	_	start_char=265|end_char=269
+8	friend	friend	NOUN	NN	Number=Sing	3	obl	_	start_char=270|end_char=276|SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	start_char=276|end_char=277
+
+# text = Sometimes her best friend walked to school with Brenda.
+# sent_id = 7
+1	Sometimes	sometimes	ADV	RB	_	5	advmod	_	start_char=278|end_char=287
+2	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	start_char=288|end_char=291
+3	best	good	ADJ	JJS	Degree=Sup	4	amod	_	start_char=292|end_char=296
+4	friend	friend	NOUN	NN	Number=Sing	5	nsubj	_	start_char=297|end_char=303
+5	walked	walk	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=304|end_char=310
+6	to	to	ADP	IN	_	7	case	_	start_char=311|end_char=313
+7	school	school	NOUN	NN	Number=Sing	5	obl	_	start_char=314|end_char=320
+8	with	with	ADP	IN	_	9	case	_	start_char=321|end_char=325
+9	Brenda	Brenda	PROPN	NNP	Number=Sing	5	obl	_	start_char=326|end_char=332|SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	_	start_char=332|end_char=333
+
+# text = Then they both sang the song together.
+# sent_id = 8
+1	Then	then	ADV	RB	PronType=Dem	4	advmod	_	start_char=334|end_char=338
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	start_char=339|end_char=343
+3	both	both	DET	DT	PronType=Tot	2	det	_	start_char=344|end_char=348
+4	sang	sing	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=349|end_char=353
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=354|end_char=357
+6	song	song	NOUN	NN	Number=Sing	4	obj	_	start_char=358|end_char=362
+7	together	together	ADV	RB	_	4	advmod	_	start_char=363|end_char=371|SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	start_char=371|end_char=372
+
+# text = Brenda liked the song because it was easy to remember the words.
+# sent_id = 9
+1	Brenda	Brenda	PROPN	NNP	Number=Sing	2	nsubj	_	start_char=373|end_char=379
+2	liked	like	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=380|end_char=385
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=386|end_char=389
+4	song	song	NOUN	NN	Number=Sing	2	obj	_	start_char=390|end_char=394
+5	because	because	SCONJ	IN	_	8	mark	_	start_char=395|end_char=402
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	start_char=403|end_char=405
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	start_char=406|end_char=409
+8	easy	easy	ADJ	JJ	Degree=Pos	2	advcl	_	start_char=410|end_char=414
+9	to	to	PART	TO	_	10	mark	_	start_char=415|end_char=417
+10	remember	remember	VERB	VB	VerbForm=Inf	8	csubj	_	start_char=418|end_char=426
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=427|end_char=430
+12	words	word	NOUN	NNS	Number=Plur	10	obj	_	start_char=431|end_char=436|SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	start_char=436|end_char=437
+
+# text = "Row, row, row your boat" are easy words to remember.
+# sent_id = 10
+1	"	"	PUNCT	``	_	12	punct	_	start_char=438|end_char=439|SpaceAfter=No
+2	Row	row	NOUN	NN	Number=Sing	12	nsubj	_	start_char=439|end_char=442|SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	start_char=442|end_char=443
+4	row	row	NOUN	NN	Number=Sing	2	conj	_	start_char=444|end_char=447|SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	start_char=447|end_char=448
+6	row	row	VERB	VB	Mood=Imp|VerbForm=Fin	2	parataxis	_	start_char=449|end_char=452
+7	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	8	nmod:poss	_	start_char=453|end_char=457
+8	boat	boat	NOUN	NN	Number=Sing	6	obj	_	start_char=458|end_char=462|SpaceAfter=No
+9	"	"	PUNCT	''	_	6	punct	_	start_char=462|end_char=463
+10	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	start_char=464|end_char=467
+11	easy	easy	ADJ	JJ	Degree=Pos	12	amod	_	start_char=468|end_char=472
+12	words	word	NOUN	NNS	Number=Plur	0	root	_	start_char=473|end_char=478
+13	to	to	PART	TO	_	14	mark	_	start_char=479|end_char=481
+14	remember	remember	VERB	VB	VerbForm=Inf	12	acl	_	start_char=482|end_char=490|SpaceAfter=No
+15	.	.	PUNCT	.	_	12	punct	_	start_char=490|end_char=491|SpaceAfter=No
+

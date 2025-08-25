@@ -1,0 +1,152 @@
+# text = How long do you want to check that video out for?
+# sent_id = 0
+1	How	how	ADV	WRB	PronType=Int	2	advmod	_	start_char=0|end_char=3
+2	long	long	ADV	RB	Degree=Pos	5	advmod	_	start_char=4|end_char=8
+3	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=9|end_char=11
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	start_char=12|end_char=15
+5	want	want	VERB	VB	VerbForm=Inf	0	root	_	start_char=16|end_char=20
+6	to	to	PART	TO	_	7	mark	_	start_char=21|end_char=23
+7	check	check	VERB	VB	VerbForm=Inf	5	xcomp	_	start_char=24|end_char=29
+8	that	that	DET	DT	Number=Sing|PronType=Dem	9	det	_	start_char=30|end_char=34
+9	video	video	NOUN	NN	Number=Sing	7	obj	_	start_char=35|end_char=40
+10	out	out	ADP	RP	_	7	compound:prt	_	start_char=41|end_char=44
+11	for	for	ADP	IN	_	7	obl	_	start_char=45|end_char=48|SpaceAfter=No
+12	?	?	PUNCT	.	_	5	punct	_	start_char=48|end_char=49|SpacesAfter=\r\n
+
+# text = One week would be nice.
+# sent_id = 1
+1	One	one	NUM	CD	NumForm=Word|NumType=Card	2	nummod	_	start_char=51|end_char=54
+2	week	week	NOUN	NN	Number=Sing	5	nsubj	_	start_char=55|end_char=59
+3	would	would	AUX	MD	VerbForm=Fin	5	aux	_	start_char=60|end_char=65
+4	be	be	AUX	VB	VerbForm=Inf	5	cop	_	start_char=66|end_char=68
+5	nice	nice	ADJ	JJ	Degree=Pos	0	root	_	start_char=69|end_char=73|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	start_char=73|end_char=74|SpacesAfter=\r\n
+
+# text = That will be $5. What?!
+# sent_id = 2
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	start_char=76|end_char=80
+2	will	will	AUX	MD	VerbForm=Fin	4	aux	_	start_char=81|end_char=85
+3	be	be	AUX	VB	VerbForm=Inf	4	cop	_	start_char=86|end_char=88
+4	$	$	SYM	$	_	0	root	_	start_char=89|end_char=90|SpaceAfter=No
+5	5	5	NUM	CD	NumForm=Digit|NumType=Card	4	nummod	_	start_char=90|end_char=91|SpaceAfter=No
+6	.	.	PUNCT	.	_	4	punct	_	start_char=91|end_char=92|SpacesAfter=\r\n
+7	What	what	PRON	WP	PronType=Int	4	parataxis	_	start_char=94|end_char=98|SpaceAfter=No
+8	?!	?!	PUNCT	.	_	4	punct	_	start_char=98|end_char=100
+
+# text = I thought I could check out videos for free.
+# sent_id = 3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=101|end_char=102
+2	thought	think	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=103|end_char=110
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=111|end_char=112
+4	could	could	AUX	MD	VerbForm=Fin	5	aux	_	start_char=113|end_char=118
+5	check	check	VERB	VB	VerbForm=Inf	2	ccomp	_	start_char=119|end_char=124
+6	out	out	ADP	RP	_	5	compound:prt	_	start_char=125|end_char=128
+7	videos	video	NOUN	NNS	Number=Plur	5	obj	_	start_char=129|end_char=135
+8	for	for	ADP	IN	_	9	case	_	start_char=136|end_char=139
+9	free	free	ADJ	JJ	Degree=Pos	5	obl	_	start_char=140|end_char=144|SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	start_char=144|end_char=145|SpacesAfter=\r\n
+
+# text = You can check out educational videos for free.
+# sent_id = 4
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=147|end_char=150
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	start_char=151|end_char=154
+3	check	check	VERB	VB	VerbForm=Inf	0	root	_	start_char=155|end_char=160
+4	out	out	ADP	RP	_	3	compound:prt	_	start_char=161|end_char=164
+5	educational	educational	ADJ	JJ	Degree=Pos	6	amod	_	start_char=165|end_char=176
+6	videos	video	NOUN	NNS	Number=Plur	3	obj	_	start_char=177|end_char=183
+7	for	for	ADP	IN	_	8	case	_	start_char=184|end_char=187
+8	free	free	ADJ	JJ	Degree=Pos	3	obl	_	start_char=188|end_char=192|SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	start_char=192|end_char=193|SpacesAfter=\r\n
+
+# text = This is bogus.
+# sent_id = 5
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	start_char=195|end_char=199
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=200|end_char=202
+3	bogus	bogus	ADJ	JJ	Degree=Pos	0	root	_	start_char=203|end_char=208|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	start_char=208|end_char=209|SpacesAfter=\r\n
+
+# text = It's still not a bad price.
+# sent_id = 6
+1-2	It's	_	_	_	_	_	_	_	start_char=211|end_char=215
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=211|end_char=213
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=213|end_char=215
+3	still	still	ADV	RB	_	7	advmod	_	start_char=216|end_char=221
+4	not	not	PART	RB	Polarity=Neg	7	advmod	_	start_char=222|end_char=225
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=226|end_char=227
+6	bad	bad	ADJ	JJ	Degree=Pos	7	amod	_	start_char=228|end_char=231
+7	price	price	NOUN	NN	Number=Sing	0	root	_	start_char=232|end_char=237|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	punct	_	start_char=237|end_char=238|SpacesAfter=\r\n
+
+# text = Okay, what if I only borrow it for a day?
+# sent_id = 7
+1	Okay	okay	INTJ	UH	_	3	discourse	_	start_char=240|end_char=244|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=244|end_char=245
+3	what	what	PRON	WP	PronType=Int	0	root	_	start_char=246|end_char=250
+4	if	if	SCONJ	IN	_	7	mark	_	start_char=251|end_char=253
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	start_char=254|end_char=255
+6	only	only	ADV	RB	_	7	advmod	_	start_char=256|end_char=260
+7	borrow	borrow	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	advcl	_	start_char=261|end_char=267
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obj	_	start_char=268|end_char=270
+9	for	for	ADP	IN	_	11	case	_	start_char=271|end_char=274
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	start_char=275|end_char=276
+11	day	day	NOUN	NN	Number=Sing	7	obl	_	start_char=277|end_char=280|SpaceAfter=No
+12	?	?	PUNCT	.	_	3	punct	_	start_char=280|end_char=281|SpacesAfter=\r\n
+
+# text = It will be $2.
+# sent_id = 8
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=283|end_char=285
+2	will	will	AUX	MD	VerbForm=Fin	4	aux	_	start_char=286|end_char=290
+3	be	be	AUX	VB	VerbForm=Inf	4	cop	_	start_char=291|end_char=293
+4	$	$	SYM	$	_	0	root	_	start_char=294|end_char=295|SpaceAfter=No
+5	2	2	NUM	CD	NumForm=Digit|NumType=Card	4	nummod	_	start_char=295|end_char=296|SpaceAfter=No
+6	.	.	PUNCT	.	_	4	punct	_	start_char=296|end_char=297|SpacesAfter=\r\n
+
+# text = Okay, here's $2.
+# sent_id = 9
+1	Okay	okay	INTJ	UH	_	3	discourse	_	start_char=299|end_char=303|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=303|end_char=304
+3-4	here's	_	_	_	_	_	_	_	start_char=305|end_char=311
+3	here	here	ADV	RB	PronType=Dem	0	root	_	start_char=305|end_char=309
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=309|end_char=311
+5	$	$	SYM	$	_	3	nsubj	_	start_char=312|end_char=313|SpaceAfter=No
+6	2	2	NUM	CD	NumForm=Digit|NumType=Card	5	nummod	_	start_char=313|end_char=314|SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	start_char=314|end_char=315
+
+# text = So much for a library that services the public.
+# sent_id = 10
+1	So	so	ADV	RB	_	2	advmod	_	start_char=316|end_char=318
+2	much	much	ADJ	JJ	Degree=Pos	0	root	_	start_char=319|end_char=323
+3	for	for	ADP	IN	_	5	case	_	start_char=324|end_char=327
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=328|end_char=329
+5	library	library	NOUN	NN	Number=Sing	2	obl	_	start_char=330|end_char=337
+6	that	that	PRON	WDT	PronType=Rel	7	nsubj	_	start_char=338|end_char=342
+7	services	service	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	start_char=343|end_char=351
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=352|end_char=355
+9	public	public	NOUN	NN	Number=Sing	7	obj	_	start_char=356|end_char=362|SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	start_char=362|end_char=363|SpacesAfter=\r\n
+
+# text = I hope you enjoy the movie.
+# sent_id = 11
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=365|end_char=366
+2	hope	hope	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=367|end_char=371
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	start_char=372|end_char=375
+4	enjoy	enjoy	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	ccomp	_	start_char=376|end_char=381
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=382|end_char=385
+6	movie	movie	NOUN	NN	Number=Sing	4	obj	_	start_char=386|end_char=391|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	start_char=391|end_char=392|SpacesAfter=\r\n
+
+# text = For 2 bucks, I'd better love the movie.
+# sent_id = 12
+1	For	for	ADP	IN	_	3	case	_	start_char=394|end_char=397
+2	2	2	NUM	CD	NumForm=Digit|NumType=Card	3	nummod	_	start_char=398|end_char=399
+3	bucks	buck	NOUN	NNS	Number=Plur	8	obl	_	start_char=400|end_char=405|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	start_char=405|end_char=406
+5-6	I'd	_	_	_	_	_	_	_	start_char=407|end_char=410
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	start_char=407|end_char=408
+6	'd	would	AUX	MD	VerbForm=Fin	8	aux	_	start_char=408|end_char=410
+7	better	well	ADV	RBR	Degree=Cmp	8	advmod	_	start_char=411|end_char=417
+8	love	love	VERB	VB	VerbForm=Inf	0	root	_	start_char=418|end_char=422
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=423|end_char=426
+10	movie	movie	NOUN	NN	Number=Sing	8	obj	_	start_char=427|end_char=432|SpaceAfter=No
+11	.	.	PUNCT	.	_	8	punct	_	start_char=432|end_char=433|SpaceAfter=No
+

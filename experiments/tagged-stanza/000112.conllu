@@ -1,0 +1,181 @@
+# text = Anthony went to the book store.
+# sent_id = 0
+1	Anthony	Anthony	PROPN	NNP	Number=Sing	2	nsubj	_	start_char=0|end_char=7
+2	went	go	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=8|end_char=12
+3	to	to	ADP	IN	_	6	case	_	start_char=13|end_char=15
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=16|end_char=19
+5	book	book	NOUN	NN	Number=Sing	6	compound	_	start_char=20|end_char=24
+6	store	store	NOUN	NN	Number=Sing	2	obl	_	start_char=25|end_char=30|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	start_char=30|end_char=31
+
+# text = He wanted to buy a book.
+# sent_id = 1
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=32|end_char=34
+2	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=35|end_char=41
+3	to	to	PART	TO	_	4	mark	_	start_char=42|end_char=44
+4	buy	buy	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=45|end_char=48
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=49|end_char=50
+6	book	book	NOUN	NN	Number=Sing	4	obj	_	start_char=51|end_char=55|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	start_char=55|end_char=56
+
+# text = He wanted to buy a book about bugs.
+# sent_id = 2
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=57|end_char=59
+2	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=60|end_char=66
+3	to	to	PART	TO	_	4	mark	_	start_char=67|end_char=69
+4	buy	buy	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=70|end_char=73
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=74|end_char=75
+6	book	book	NOUN	NN	Number=Sing	4	obj	_	start_char=76|end_char=80
+7	about	about	ADP	IN	_	8	case	_	start_char=81|end_char=86
+8	bugs	bug	NOUN	NNS	Number=Plur	6	nmod	_	start_char=87|end_char=91|SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	start_char=91|end_char=92
+
+# text = He liked bugs.
+# sent_id = 3
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=93|end_char=95
+2	liked	like	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=96|end_char=101
+3	bugs	bug	NOUN	NNS	Number=Plur	2	obj	_	start_char=102|end_char=106|SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	start_char=106|end_char=107
+
+# text = He picked up bugs in his yard.
+# sent_id = 4
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=108|end_char=110
+2	picked	pick	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=111|end_char=117
+3	up	up	ADP	RP	_	2	compound:prt	_	start_char=118|end_char=120
+4	bugs	bug	NOUN	NNS	Number=Plur	2	obj	_	start_char=121|end_char=125
+5	in	in	ADP	IN	_	7	case	_	start_char=126|end_char=128
+6	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	start_char=129|end_char=132
+7	yard	yard	NOUN	NN	Number=Sing	2	obl	_	start_char=133|end_char=137|SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	start_char=137|end_char=138
+
+# text = He took them to school.
+# sent_id = 5
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=139|end_char=141
+2	took	take	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=142|end_char=146
+3	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	obj	_	start_char=147|end_char=151
+4	to	to	ADP	IN	_	5	case	_	start_char=152|end_char=154
+5	school	school	NOUN	NN	Number=Sing	2	obl	_	start_char=155|end_char=161|SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	start_char=161|end_char=162
+
+# text = He showed the bugs to his teacher.
+# sent_id = 6
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=163|end_char=165
+2	showed	show	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=166|end_char=172
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=173|end_char=176
+4	bugs	bug	NOUN	NNS	Number=Plur	2	obj	_	start_char=177|end_char=181
+5	to	to	ADP	IN	_	7	case	_	start_char=182|end_char=184
+6	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	start_char=185|end_char=188
+7	teacher	teacher	NOUN	NN	Number=Sing	2	obl	_	start_char=189|end_char=196|SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	start_char=196|end_char=197
+
+# text = His teacher told him the name of each bug.
+# sent_id = 7
+1	His	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=198|end_char=201
+2	teacher	teacher	NOUN	NN	Number=Sing	3	nsubj	_	start_char=202|end_char=209
+3	told	tell	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=210|end_char=214
+4	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	iobj	_	start_char=215|end_char=218
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=219|end_char=222
+6	name	name	NOUN	NN	Number=Sing	3	obj	_	start_char=223|end_char=227
+7	of	of	ADP	IN	_	9	case	_	start_char=228|end_char=230
+8	each	each	DET	DT	PronType=Tot	9	det	_	start_char=231|end_char=235
+9	bug	bug	NOUN	NN	Number=Sing	6	nmod	_	start_char=236|end_char=239|SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	start_char=239|end_char=240
+
+# text = Then Anthony took the bugs home.
+# sent_id = 8
+1	Then	then	ADV	RB	PronType=Dem	3	advmod	_	start_char=241|end_char=245
+2	Anthony	Anthony	PROPN	NNP	Number=Sing	3	nsubj	_	start_char=246|end_char=253
+3	took	take	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=254|end_char=258
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=259|end_char=262
+5	bugs	bug	NOUN	NNS	Number=Plur	3	obj	_	start_char=263|end_char=267
+6	home	home	ADV	RB	_	3	advmod	_	start_char=268|end_char=272|SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	start_char=272|end_char=273
+
+# text = He showed them to his parents.
+# sent_id = 9
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=274|end_char=276
+2	showed	show	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=277|end_char=283
+3	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	obj	_	start_char=284|end_char=288
+4	to	to	ADP	IN	_	6	case	_	start_char=289|end_char=291
+5	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	start_char=292|end_char=295
+6	parents	parent	NOUN	NNS	Number=Plur	2	obl	_	start_char=296|end_char=303|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	start_char=303|end_char=304
+
+# text = His mom told him to take the bugs out of the house.
+# sent_id = 10
+1	His	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=305|end_char=308
+2	mom	mom	NOUN	NN	Number=Sing	3	nsubj	_	start_char=309|end_char=312
+3	told	tell	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=313|end_char=317
+4	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	iobj	_	start_char=318|end_char=321
+5	to	to	PART	TO	_	6	mark	_	start_char=322|end_char=324
+6	take	take	VERB	VB	VerbForm=Inf	3	xcomp	_	start_char=325|end_char=329
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=330|end_char=333
+8	bugs	bug	NOUN	NNS	Number=Plur	6	obj	_	start_char=334|end_char=338
+9	out	out	ADP	IN	_	12	case	_	start_char=339|end_char=342
+10	of	of	ADP	IN	_	12	case	_	start_char=343|end_char=345
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=346|end_char=349
+12	house	house	NOUN	NN	Number=Sing	6	obl	_	start_char=350|end_char=355|SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	start_char=355|end_char=356
+
+# text = His dad liked to see the bugs.
+# sent_id = 11
+1	His	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=357|end_char=360
+2	dad	dad	NOUN	NN	Number=Sing	3	nsubj	_	start_char=361|end_char=364
+3	liked	like	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=365|end_char=370
+4	to	to	PART	TO	_	5	mark	_	start_char=371|end_char=373
+5	see	see	VERB	VB	VerbForm=Inf	3	xcomp	_	start_char=374|end_char=377
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=378|end_char=381
+7	bugs	bug	NOUN	NNS	Number=Plur	5	obj	_	start_char=382|end_char=386|SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	start_char=386|end_char=387
+
+# text = He said Anthony did a good job.
+# sent_id = 12
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=388|end_char=390
+2	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=391|end_char=395
+3	Anthony	Anthony	PROPN	NNP	Number=Sing	4	nsubj	_	start_char=396|end_char=403
+4	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	_	start_char=404|end_char=407
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=408|end_char=409
+6	good	good	ADJ	JJ	Degree=Pos	7	amod	_	start_char=410|end_char=414
+7	job	job	NOUN	NN	Number=Sing	4	obj	_	start_char=415|end_char=418|SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	start_char=418|end_char=419
+
+# text = He gave Anthony money to buy a book.
+# sent_id = 13
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=420|end_char=422
+2	gave	give	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=423|end_char=427
+3	Anthony	Anthony	PROPN	NNP	Number=Sing	2	iobj	_	start_char=428|end_char=435
+4	money	money	NOUN	NN	Number=Sing	2	obj	_	start_char=436|end_char=441
+5	to	to	PART	TO	_	6	mark	_	start_char=442|end_char=444
+6	buy	buy	VERB	VB	VerbForm=Inf	2	advcl	_	start_char=445|end_char=448
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=449|end_char=450
+8	book	book	NOUN	NN	Number=Sing	6	obj	_	start_char=451|end_char=455|SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	start_char=455|end_char=456
+
+# text = So Anthony took the money to the book store.
+# sent_id = 14
+1	So	so	ADV	RB	_	3	advmod	_	start_char=457|end_char=459
+2	Anthony	Anthony	PROPN	NNP	Number=Sing	3	nsubj	_	start_char=460|end_char=467
+3	took	take	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=468|end_char=472
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=473|end_char=476
+5	money	money	NOUN	NN	Number=Sing	3	obj	_	start_char=477|end_char=482
+6	to	to	ADP	IN	_	9	case	_	start_char=483|end_char=485
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=486|end_char=489
+8	book	book	NOUN	NN	Number=Sing	9	compound	_	start_char=490|end_char=494
+9	store	store	NOUN	NN	Number=Sing	3	obl	_	start_char=495|end_char=500|SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	start_char=500|end_char=501
+
+# text = He looked for a book with lots of pictures of bugs.
+# sent_id = 15
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=502|end_char=504
+2	looked	look	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=505|end_char=511
+3	for	for	ADP	IN	_	5	case	_	start_char=512|end_char=515
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=516|end_char=517
+5	book	book	NOUN	NN	Number=Sing	2	obl	_	start_char=518|end_char=522
+6	with	with	ADP	IN	_	7	case	_	start_char=523|end_char=527
+7	lots	lot	NOUN	NNS	Number=Plur	5	nmod	_	start_char=528|end_char=532
+8	of	of	ADP	IN	_	9	case	_	start_char=533|end_char=535
+9	pictures	picture	NOUN	NNS	Number=Plur	7	nmod	_	start_char=536|end_char=544
+10	of	of	ADP	IN	_	11	case	_	start_char=545|end_char=547
+11	bugs	bug	NOUN	NNS	Number=Plur	9	nmod	_	start_char=548|end_char=552|SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	start_char=552|end_char=553|SpaceAfter=No
+

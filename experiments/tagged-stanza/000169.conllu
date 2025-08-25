@@ -1,0 +1,199 @@
+# text = Carol felt tired.
+# sent_id = 0
+1	Carol	Carol	PROPN	NNP	Number=Sing	2	nsubj	_	start_char=0|end_char=5
+2	felt	feel	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=6|end_char=10
+3	tired	tired	ADJ	JJ	Degree=Pos	2	xcomp	_	start_char=11|end_char=16|SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	start_char=16|end_char=17
+
+# text = She felt tired all the time.
+# sent_id = 1
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=18|end_char=21
+2	felt	feel	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=22|end_char=26
+3	tired	tired	ADJ	JJ	Degree=Pos	2	xcomp	_	start_char=27|end_char=32
+4	all	all	DET	PDT	PronType=Tot	6	det:predet	_	start_char=33|end_char=36
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=37|end_char=40
+6	time	time	NOUN	NN	Number=Sing	2	obl:unmarked	_	start_char=41|end_char=45|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	start_char=45|end_char=46
+
+# text = She didn't use to feel tired.
+# sent_id = 2
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=47|end_char=50
+2-3	didn't	_	_	_	_	_	_	_	start_char=51|end_char=57
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	start_char=51|end_char=54
+3	n't	not	PART	RB	Polarity=Neg	4	advmod	_	start_char=54|end_char=57
+4	use	use	VERB	VB	VerbForm=Inf	0	root	_	start_char=58|end_char=61
+5	to	to	PART	TO	_	6	mark	_	start_char=62|end_char=64
+6	feel	feel	VERB	VB	VerbForm=Inf	4	xcomp	_	start_char=65|end_char=69
+7	tired	tired	ADJ	JJ	Degree=Pos	6	xcomp	_	start_char=70|end_char=75|SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	start_char=75|end_char=76
+
+# text = She used to have a lot of energy.
+# sent_id = 3
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=77|end_char=80
+2	used	use	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=81|end_char=85
+3	to	to	PART	TO	_	4	mark	_	start_char=86|end_char=88
+4	have	have	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=89|end_char=93
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=94|end_char=95
+6	lot	lot	NOUN	NN	Number=Sing	4	obj	_	start_char=96|end_char=99
+7	of	of	ADP	IN	_	8	case	_	start_char=100|end_char=102
+8	energy	energy	NOUN	NN	Number=Sing	6	nmod	_	start_char=103|end_char=109|SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	start_char=109|end_char=110
+
+# text = Why was she so tired all the time?
+# sent_id = 4
+1	Why	why	ADV	WRB	PronType=Int	5	advmod	_	start_char=111|end_char=114
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	start_char=115|end_char=118
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=119|end_char=122
+4	so	so	ADV	RB	_	5	advmod	_	start_char=123|end_char=125
+5	tired	tired	ADJ	JJ	Degree=Pos	0	root	_	start_char=126|end_char=131
+6	all	all	DET	PDT	PronType=Tot	8	det:predet	_	start_char=132|end_char=135
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=136|end_char=139
+8	time	time	NOUN	NN	Number=Sing	5	obl:unmarked	_	start_char=140|end_char=144|SpaceAfter=No
+9	?	?	PUNCT	.	_	5	punct	_	start_char=144|end_char=145
+
+# text = "You should eat more sugar," her friend told her.
+# sent_id = 5
+1	"	"	PUNCT	``	_	4	punct	_	start_char=146|end_char=147|SpaceAfter=No
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	start_char=147|end_char=150
+3	should	should	AUX	MD	VerbForm=Fin	4	aux	_	start_char=151|end_char=157
+4	eat	eat	VERB	VB	VerbForm=Inf	11	ccomp	_	start_char=158|end_char=161
+5	more	more	ADJ	JJR	Degree=Cmp	6	amod	_	start_char=162|end_char=166
+6	sugar	sugar	NOUN	NN	Number=Sing	4	obj	_	start_char=167|end_char=172|SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	start_char=172|end_char=173|SpaceAfter=No
+8	"	"	PUNCT	''	_	4	punct	_	start_char=173|end_char=174
+9	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	start_char=175|end_char=178
+10	friend	friend	NOUN	NN	Number=Sing	11	nsubj	_	start_char=179|end_char=185
+11	told	tell	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=186|end_char=190
+12	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	iobj	_	start_char=191|end_char=194|SpaceAfter=No
+13	.	.	PUNCT	.	_	11	punct	_	start_char=194|end_char=195
+
+# text = "Sugar will give you energy."
+# sent_id = 6
+1	"	"	PUNCT	``	_	4	punct	_	start_char=196|end_char=197|SpaceAfter=No
+2	Sugar	sugar	NOUN	NN	Number=Sing	4	nsubj	_	start_char=197|end_char=202
+3	will	will	AUX	MD	VerbForm=Fin	4	aux	_	start_char=203|end_char=207
+4	give	give	VERB	VB	VerbForm=Inf	0	root	_	start_char=208|end_char=212
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	iobj	_	start_char=213|end_char=216
+6	energy	energy	NOUN	NN	Number=Sing	4	obj	_	start_char=217|end_char=223|SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	start_char=223|end_char=224|SpaceAfter=No
+8	"	"	PUNCT	''	_	4	punct	_	start_char=224|end_char=225
+
+# text = But Carol didn't want to eat more sugar.
+# sent_id = 7
+1	But	but	CCONJ	CC	_	5	cc	_	start_char=226|end_char=229
+2	Carol	Carol	PROPN	NNP	Number=Sing	5	nsubj	_	start_char=230|end_char=235
+3-4	didn't	_	_	_	_	_	_	_	start_char=236|end_char=242
+3	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	start_char=236|end_char=239
+4	n't	not	PART	RB	Polarity=Neg	5	advmod	_	start_char=239|end_char=242
+5	want	want	VERB	VB	VerbForm=Inf	0	root	_	start_char=243|end_char=247
+6	to	to	PART	TO	_	7	mark	_	start_char=248|end_char=250
+7	eat	eat	VERB	VB	VerbForm=Inf	5	xcomp	_	start_char=251|end_char=254
+8	more	more	ADJ	JJR	Degree=Cmp	9	amod	_	start_char=255|end_char=259
+9	sugar	sugar	NOUN	NN	Number=Sing	7	obj	_	start_char=260|end_char=265|SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	_	start_char=265|end_char=266
+
+# text = More sugar would give her more weight.
+# sent_id = 8
+1	More	more	ADJ	JJR	Degree=Cmp	2	amod	_	start_char=267|end_char=271
+2	sugar	sugar	NOUN	NN	Number=Sing	4	nsubj	_	start_char=272|end_char=277
+3	would	would	AUX	MD	VerbForm=Fin	4	aux	_	start_char=278|end_char=283
+4	give	give	VERB	VB	VerbForm=Inf	0	root	_	start_char=284|end_char=288
+5	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	iobj	_	start_char=289|end_char=292
+6	more	more	ADJ	JJR	Degree=Cmp	7	amod	_	start_char=293|end_char=297
+7	weight	weight	NOUN	NN	Number=Sing	4	obj	_	start_char=298|end_char=304|SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	start_char=304|end_char=305
+
+# text = She didn't want to put on weight.
+# sent_id = 9
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=306|end_char=309
+2-3	didn't	_	_	_	_	_	_	_	start_char=310|end_char=316
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	start_char=310|end_char=313
+3	n't	not	PART	RB	Polarity=Neg	4	advmod	_	start_char=313|end_char=316
+4	want	want	VERB	VB	VerbForm=Inf	0	root	_	start_char=317|end_char=321
+5	to	to	PART	TO	_	6	mark	_	start_char=322|end_char=324
+6	put	put	VERB	VB	VerbForm=Inf	4	xcomp	_	start_char=325|end_char=328
+7	on	on	ADP	IN	_	6	compound:prt	_	start_char=329|end_char=331
+8	weight	weight	NOUN	NN	Number=Sing	6	obj	_	start_char=332|end_char=338|SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	start_char=338|end_char=339
+
+# text = She wanted to have energy again.
+# sent_id = 10
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=340|end_char=343
+2	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=344|end_char=350
+3	to	to	PART	TO	_	4	mark	_	start_char=351|end_char=353
+4	have	have	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=354|end_char=358
+5	energy	energy	NOUN	NN	Number=Sing	4	obj	_	start_char=359|end_char=365
+6	again	again	ADV	RB	_	4	advmod	_	start_char=366|end_char=371|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	start_char=371|end_char=372
+
+# text = She finally decided to see a doctor.
+# sent_id = 11
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=373|end_char=376
+2	finally	finally	ADV	RB	_	3	advmod	_	start_char=377|end_char=384
+3	decided	decide	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=385|end_char=392
+4	to	to	PART	TO	_	5	mark	_	start_char=393|end_char=395
+5	see	see	VERB	VB	VerbForm=Inf	3	xcomp	_	start_char=396|end_char=399
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=400|end_char=401
+7	doctor	doctor	NOUN	NN	Number=Sing	5	obj	_	start_char=402|end_char=408|SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	start_char=408|end_char=409
+
+# text = Her doctor told her that she had a thyroid problem.
+# sent_id = 12
+1	Her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=410|end_char=413
+2	doctor	doctor	NOUN	NN	Number=Sing	3	nsubj	_	start_char=414|end_char=420
+3	told	tell	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=421|end_char=425
+4	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	iobj	_	start_char=426|end_char=429
+5	that	that	SCONJ	IN	_	7	mark	_	start_char=430|end_char=434
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=435|end_char=438
+7	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	ccomp	_	start_char=439|end_char=442
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	start_char=443|end_char=444
+9	thyroid	thyroid	NOUN	NN	Number=Sing	10	compound	_	start_char=445|end_char=452
+10	problem	problem	NOUN	NN	Number=Sing	7	obj	_	start_char=453|end_char=460|SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	start_char=460|end_char=461
+
+# text = "What is a thyroid?" she asked her doctor.
+# sent_id = 13
+1	"	"	PUNCT	``	_	5	punct	_	start_char=462|end_char=463|SpaceAfter=No
+2	What	what	PRON	WP	PronType=Int	5	nsubj	_	start_char=463|end_char=467
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=468|end_char=470
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=471|end_char=472
+5	thyroid	thyroid	NOUN	NN	Number=Sing	9	ccomp	_	start_char=473|end_char=480|SpaceAfter=No
+6	?	?	PUNCT	.	_	5	punct	_	start_char=480|end_char=481|SpaceAfter=No
+7	"	"	PUNCT	''	_	5	punct	_	start_char=481|end_char=482
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	start_char=483|end_char=486
+9	asked	ask	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=487|end_char=492
+10	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	start_char=493|end_char=496
+11	doctor	doctor	NOUN	NN	Number=Sing	9	iobj	_	start_char=497|end_char=503|SpaceAfter=No
+12	.	.	PUNCT	.	_	9	punct	_	start_char=503|end_char=504
+
+# text = "It can make you feel very tired.
+# sent_id = 14
+1	"	"	PUNCT	``	_	4	punct	_	start_char=505|end_char=506|SpaceAfter=No
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=506|end_char=508
+3	can	can	AUX	MD	VerbForm=Fin	4	aux	_	start_char=509|end_char=512
+4	make	make	VERB	VB	VerbForm=Inf	0	root	_	start_char=513|end_char=517
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	obj	_	start_char=518|end_char=521
+6	feel	feel	VERB	VB	VerbForm=Inf	4	xcomp	_	start_char=522|end_char=526
+7	very	very	ADV	RB	_	8	advmod	_	start_char=527|end_char=531
+8	tired	tired	ADJ	JJ	Degree=Pos	6	xcomp	_	start_char=532|end_char=537|SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	start_char=537|end_char=538
+
+# text = But don't worry, I can fix it," he told her.
+# sent_id = 15
+1	But	but	CCONJ	CC	_	4	cc	_	start_char=539|end_char=542
+2-3	don't	_	_	_	_	_	_	_	start_char=543|end_char=548
+2	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	4	aux	_	start_char=543|end_char=545
+3	n't	not	PART	RB	Polarity=Neg	4	advmod	_	start_char=545|end_char=548
+4	worry	worry	VERB	VB	Mood=Imp|VerbForm=Fin	13	ccomp	_	start_char=549|end_char=554|SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	start_char=554|end_char=555
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	start_char=556|end_char=557
+7	can	can	AUX	MD	VerbForm=Fin	8	aux	_	start_char=558|end_char=561
+8	fix	fix	VERB	VB	VerbForm=Inf	4	parataxis	_	start_char=562|end_char=565
+9	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obj	_	start_char=566|end_char=568|SpaceAfter=No
+10	,	,	PUNCT	,	_	4	punct	_	start_char=568|end_char=569|SpaceAfter=No
+11	"	"	PUNCT	''	_	4	punct	_	start_char=569|end_char=570
+12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	start_char=571|end_char=573
+13	told	tell	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=574|end_char=578
+14	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	iobj	_	start_char=579|end_char=582|SpaceAfter=No
+15	.	.	PUNCT	.	_	13	punct	_	start_char=582|end_char=583|SpaceAfter=No
+

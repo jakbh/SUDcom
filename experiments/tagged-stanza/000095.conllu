@@ -1,0 +1,176 @@
+# text = Mr. and Mrs. Smith have one son and one daughter.
+# sent_id = 0
+1	Mr.	Mr.	PROPN	NNP	Number=Sing	5	nsubj	_	start_char=0|end_char=3
+2	and	and	CCONJ	CC	_	3	cc	_	start_char=4|end_char=7
+3	Mrs.	Mrs.	PROPN	NNP	Abbr=Yes|Number=Sing	1	conj	_	start_char=8|end_char=12
+4	Smith	Smith	PROPN	NNP	Number=Sing	3	flat	_	start_char=13|end_char=18
+5	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=19|end_char=23
+6	one	one	NUM	CD	NumForm=Word|NumType=Card	7	nummod	_	start_char=24|end_char=27
+7	son	son	NOUN	NN	Number=Sing	5	obj	_	start_char=28|end_char=31
+8	and	and	CCONJ	CC	_	10	cc	_	start_char=32|end_char=35
+9	one	one	NUM	CD	NumForm=Word|NumType=Card	10	nummod	_	start_char=36|end_char=39
+10	daughter	daughter	NOUN	NN	Number=Sing	7	conj	_	start_char=40|end_char=48|SpaceAfter=No
+11	.	.	PUNCT	.	_	5	punct	_	start_char=48|end_char=49
+
+# text = The son's name is John.
+# sent_id = 1
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=50|end_char=53
+2-3	son's	_	_	_	_	_	_	_	start_char=54|end_char=59
+2	son	son	NOUN	NN	Number=Sing	4	nmod:poss	_	start_char=54|end_char=57
+3	's	's	PART	POS	_	2	case	_	start_char=57|end_char=59
+4	name	name	NOUN	NN	Number=Sing	6	nsubj	_	start_char=60|end_char=64
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=65|end_char=67
+6	John	John	PROPN	NNP	Number=Sing	0	root	_	start_char=68|end_char=72|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	start_char=72|end_char=73
+
+# text = The daughter's name is Sarah.
+# sent_id = 2
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=74|end_char=77
+2-3	daughter's	_	_	_	_	_	_	_	start_char=78|end_char=88
+2	daughter	daughter	NOUN	NN	Number=Sing	4	nmod:poss	_	start_char=78|end_char=86
+3	's	's	PART	POS	_	2	case	_	start_char=86|end_char=88
+4	name	name	NOUN	NN	Number=Sing	6	nsubj	_	start_char=89|end_char=93
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=94|end_char=96
+6	Sarah	Sarah	PROPN	NNP	Number=Sing	0	root	_	start_char=97|end_char=102|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	start_char=102|end_char=103|SpacesAfter=\r\n
+
+# text = The Smiths live in a house.
+# sent_id = 3
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=105|end_char=108
+2	Smiths	Smiths	PROPN	NNPS	Number=Plur	3	nsubj	_	start_char=109|end_char=115
+3	live	live	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=116|end_char=120
+4	in	in	ADP	IN	_	6	case	_	start_char=121|end_char=123
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=124|end_char=125
+6	house	house	NOUN	NN	Number=Sing	3	obl	_	start_char=126|end_char=131|SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	start_char=131|end_char=132
+
+# text = They have a living room.
+# sent_id = 4
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=133|end_char=137
+2	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=138|end_char=142
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=143|end_char=144
+4	living	living	NOUN	NN	Number=Sing	5	compound	_	start_char=145|end_char=151
+5	room	room	NOUN	NN	Number=Sing	2	obj	_	start_char=152|end_char=156|SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	start_char=156|end_char=157
+
+# text = They watch TV in the living room.
+# sent_id = 5
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=158|end_char=162
+2	watch	watch	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=163|end_char=168
+3	TV	TV	NOUN	NN	Number=Sing	2	obj	_	start_char=169|end_char=171
+4	in	in	ADP	IN	_	7	case	_	start_char=172|end_char=174
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=175|end_char=178
+6	living	living	NOUN	NN	Number=Sing	7	compound	_	start_char=179|end_char=185
+7	room	room	NOUN	NN	Number=Sing	2	obl	_	start_char=186|end_char=190|SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	start_char=190|end_char=191
+
+# text = The father cooks food in the kitchen.
+# sent_id = 6
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=192|end_char=195
+2	father	father	NOUN	NN	Number=Sing	3	nsubj	_	start_char=196|end_char=202
+3	cooks	cook	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=203|end_char=208
+4	food	food	NOUN	NN	Number=Sing	3	obj	_	start_char=209|end_char=213
+5	in	in	ADP	IN	_	7	case	_	start_char=214|end_char=216
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=217|end_char=220
+7	kitchen	kitchen	NOUN	NN	Number=Sing	3	obl	_	start_char=221|end_char=228|SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	start_char=228|end_char=229
+
+# text = They eat in the dining room.
+# sent_id = 7
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=230|end_char=234
+2	eat	eat	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=235|end_char=238
+3	in	in	ADP	IN	_	6	case	_	start_char=239|end_char=241
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=242|end_char=245
+5	dining	dining	NOUN	NN	Number=Sing	6	compound	_	start_char=246|end_char=252
+6	room	room	NOUN	NN	Number=Sing	2	obl	_	start_char=253|end_char=257|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	start_char=257|end_char=258
+
+# text = The house has two bedrooms.
+# sent_id = 8
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=259|end_char=262
+2	house	house	NOUN	NN	Number=Sing	3	nsubj	_	start_char=263|end_char=268
+3	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=269|end_char=272
+4	two	two	NUM	CD	NumForm=Word|NumType=Card	5	nummod	_	start_char=273|end_char=276
+5	bedrooms	bedroom	NOUN	NNS	Number=Plur	3	obj	_	start_char=277|end_char=285|SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	start_char=285|end_char=286
+
+# text = They sleep in the bedrooms.
+# sent_id = 9
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=287|end_char=291
+2	sleep	sleep	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=292|end_char=297
+3	in	in	ADP	IN	_	5	case	_	start_char=298|end_char=300
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=301|end_char=304
+5	bedrooms	bedroom	NOUN	NNS	Number=Plur	2	obl	_	start_char=305|end_char=313|SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	start_char=313|end_char=314
+
+# text = They keep their clothes in the closet.
+# sent_id = 10
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=315|end_char=319
+2	keep	keep	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=320|end_char=324
+3	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	start_char=325|end_char=330
+4	clothes	clothes	NOUN	NNS	Number=Ptan	2	obj	_	start_char=331|end_char=338
+5	in	in	ADP	IN	_	7	case	_	start_char=339|end_char=341
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=342|end_char=345
+7	closet	closet	NOUN	NN	Number=Sing	2	obl	_	start_char=346|end_char=352|SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	start_char=352|end_char=353
+
+# text = There is one bathroom.
+# sent_id = 11
+1	There	there	PRON	EX	_	2	expl	_	start_char=354|end_char=359
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=360|end_char=362
+3	one	one	NUM	CD	NumForm=Word|NumType=Card	4	nummod	_	start_char=363|end_char=366
+4	bathroom	bathroom	NOUN	NN	Number=Sing	2	nsubj	_	start_char=367|end_char=375|SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	start_char=375|end_char=376
+
+# text = They brush their teeth in the bathroom.
+# sent_id = 12
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=377|end_char=381
+2	brush	brush	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=382|end_char=387
+3	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	start_char=388|end_char=393
+4	teeth	tooth	NOUN	NNS	Number=Plur	2	obj	_	start_char=394|end_char=399
+5	in	in	ADP	IN	_	7	case	_	start_char=400|end_char=402
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=403|end_char=406
+7	bathroom	bathroom	NOUN	NN	Number=Sing	2	obl	_	start_char=407|end_char=415|SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	start_char=415|end_char=416|SpacesAfter=\r\n
+
+# text = The house has a garden.
+# sent_id = 13
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=418|end_char=421
+2	house	house	NOUN	NN	Number=Sing	3	nsubj	_	start_char=422|end_char=427
+3	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=428|end_char=431
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=432|end_char=433
+5	garden	garden	NOUN	NN	Number=Sing	3	obj	_	start_char=434|end_char=440|SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	start_char=440|end_char=441
+
+# text = John and Sarah play in the garden.
+# sent_id = 14
+1	John	John	PROPN	NNP	Number=Sing	4	nsubj	_	start_char=442|end_char=446
+2	and	and	CCONJ	CC	_	3	cc	_	start_char=447|end_char=450
+3	Sarah	Sarah	PROPN	NNP	Number=Sing	1	conj	_	start_char=451|end_char=456
+4	play	play	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=457|end_char=461
+5	in	in	ADP	IN	_	7	case	_	start_char=462|end_char=464
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=465|end_char=468
+7	garden	garden	NOUN	NN	Number=Sing	4	obl	_	start_char=469|end_char=475|SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	start_char=475|end_char=476
+
+# text = They have a dog.
+# sent_id = 15
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=477|end_char=481
+2	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=482|end_char=486
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	start_char=487|end_char=488
+4	dog	dog	NOUN	NN	Number=Sing	2	obj	_	start_char=489|end_char=492|SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	start_char=492|end_char=493
+
+# text = John and Sarah like to play with the dog.
+# sent_id = 16
+1	John	John	PROPN	NNP	Number=Sing	4	nsubj	_	start_char=494|end_char=498
+2	and	and	CCONJ	CC	_	3	cc	_	start_char=499|end_char=502
+3	Sarah	Sarah	PROPN	NNP	Number=Sing	1	conj	_	start_char=503|end_char=508
+4	like	like	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=509|end_char=513
+5	to	to	PART	TO	_	6	mark	_	start_char=514|end_char=516
+6	play	play	VERB	VB	VerbForm=Inf	4	xcomp	_	start_char=517|end_char=521
+7	with	with	ADP	IN	_	9	case	_	start_char=522|end_char=526
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=527|end_char=530
+9	dog	dog	NOUN	NN	Number=Sing	6	obl	_	start_char=531|end_char=534|SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	start_char=534|end_char=535|SpaceAfter=No
+

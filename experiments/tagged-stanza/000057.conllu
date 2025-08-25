@@ -1,0 +1,169 @@
+# text = Hello, is this the Smith residence?
+# sent_id = 0
+1	Hello	hello	INTJ	UH	_	7	discourse	_	start_char=0|end_char=5|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=5|end_char=6
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=7|end_char=9
+4	this	this	PRON	DT	Number=Sing|PronType=Dem	7	nsubj	_	start_char=10|end_char=14
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=15|end_char=18
+6	Smith	Smith	PROPN	NNP	Number=Sing	7	compound	_	start_char=19|end_char=24
+7	residence	residence	NOUN	NN	Number=Sing	0	root	_	start_char=25|end_char=34|SpaceAfter=No
+8	?	?	PUNCT	.	_	7	punct	_	start_char=34|end_char=35|SpacesAfter=\r\n
+
+# text = What's for dinner?
+# sent_id = 1
+1-2	What's	_	_	_	_	_	_	_	start_char=37|end_char=43
+1	What	what	PRON	WP	PronType=Int	4	nsubj	_	start_char=37|end_char=41
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=41|end_char=43
+3	for	for	ADP	IN	_	4	case	_	start_char=44|end_char=47
+4	dinner	dinner	NOUN	NN	Number=Sing	0	root	_	start_char=48|end_char=54|SpaceAfter=No
+5	?	?	PUNCT	.	_	1	punct	_	start_char=54|end_char=55|SpacesAfter=\r\n
+
+# text = I should be asking you that.
+# sent_id = 2
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=57|end_char=58
+2	should	should	AUX	MD	VerbForm=Fin	4	aux	_	start_char=59|end_char=65
+3	be	be	AUX	VB	VerbForm=Inf	4	aux	_	start_char=66|end_char=68
+4	asking	ask	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=69|end_char=75
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	iobj	_	start_char=76|end_char=79
+6	that	that	PRON	DT	Number=Sing|PronType=Dem	4	obj	_	start_char=80|end_char=84|SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	start_char=84|end_char=85|SpacesAfter=\r\n
+
+# text = What?
+# sent_id = 3
+1	What	what	PRON	WP	PronType=Int	0	root	_	start_char=87|end_char=91|SpaceAfter=No
+2	?	?	PUNCT	.	_	1	punct	_	start_char=91|end_char=92
+
+# text = Why do you say that?
+# sent_id = 4
+1	Why	why	ADV	WRB	PronType=Int	4	advmod	_	start_char=93|end_char=96
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=97|end_char=99
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	start_char=100|end_char=103
+4	say	say	VERB	VB	VerbForm=Inf	0	root	_	start_char=104|end_char=107
+5	that	that	PRON	DT	Number=Sing|PronType=Dem	4	obj	_	start_char=108|end_char=112|SpaceAfter=No
+6	?	?	PUNCT	.	_	4	punct	_	start_char=112|end_char=113|SpacesAfter=\r\n
+
+# text = You're old enough to cook dinner.
+# sent_id = 5
+1-2	You're	_	_	_	_	_	_	_	start_char=115|end_char=121
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=115|end_char=118
+2	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=118|end_char=121
+3	old	old	ADJ	JJ	Degree=Pos	0	root	_	start_char=122|end_char=125
+4	enough	enough	ADV	RB	_	3	advmod	_	start_char=126|end_char=132
+5	to	to	PART	TO	_	6	mark	_	start_char=133|end_char=135
+6	cook	cook	VERB	VB	VerbForm=Inf	3	advcl	_	start_char=136|end_char=140
+7	dinner	dinner	NOUN	NN	Number=Sing	6	obj	_	start_char=141|end_char=147|SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	start_char=147|end_char=148|SpacesAfter=\r\n
+
+# text = Are you saying it's my turn now?
+# sent_id = 6
+1	Are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=150|end_char=153
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=154|end_char=157
+3	saying	say	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=158|end_char=164
+4-5	it's	_	_	_	_	_	_	_	start_char=165|end_char=169
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=165|end_char=167
+5	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=167|end_char=169
+6	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	start_char=170|end_char=172
+7	turn	turn	NOUN	NN	Number=Sing	3	ccomp	_	start_char=173|end_char=177
+8	now	now	ADV	RB	_	7	advmod	_	start_char=178|end_char=181|SpaceAfter=No
+9	?	?	PUNCT	.	_	3	punct	_	start_char=181|end_char=182|SpacesAfter=\r\n
+
+# text = Actually, that's exactly what I'm saying.
+# sent_id = 7
+1	Actually	actually	ADV	RB	_	6	advmod	_	start_char=184|end_char=192|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=192|end_char=193
+3-4	that's	_	_	_	_	_	_	_	start_char=194|end_char=200
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	6	nsubj	_	start_char=194|end_char=198
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=198|end_char=200
+5	exactly	exactly	ADV	RB	_	6	advmod	_	start_char=201|end_char=208
+6	what	what	PRON	WP	PronType=Rel	0	root	_	start_char=209|end_char=213
+7-8	I'm	_	_	_	_	_	_	_	start_char=214|end_char=217
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	start_char=214|end_char=215
+8	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=215|end_char=217
+9	saying	say	VERB	VBG	Tense=Pres|VerbForm=Part	6	acl:relcl	_	start_char=218|end_char=224|SpaceAfter=No
+10	.	.	PUNCT	.	_	6	punct	_	start_char=224|end_char=225|SpacesAfter=\r\n
+
+# text = What would you like to eat, then?
+# sent_id = 8
+1	What	what	PRON	WP	PronType=Int	6	obj	_	start_char=227|end_char=231
+2	would	would	AUX	MD	VerbForm=Fin	4	aux	_	start_char=232|end_char=237
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	start_char=238|end_char=241
+4	like	like	VERB	VB	VerbForm=Inf	0	root	_	start_char=242|end_char=246
+5	to	to	PART	TO	_	6	mark	_	start_char=247|end_char=249
+6	eat	eat	VERB	VB	VerbForm=Inf	4	xcomp	_	start_char=250|end_char=253|SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	start_char=253|end_char=254
+8	then	then	ADV	RB	PronType=Dem	4	advmod	_	start_char=255|end_char=259|SpaceAfter=No
+9	?	?	PUNCT	.	_	4	punct	_	start_char=259|end_char=260|SpacesAfter=\r\n
+
+# text = I'm craving some spaghetti, bread, and even a salad.
+# sent_id = 9
+1-2	I'm	_	_	_	_	_	_	_	start_char=262|end_char=265
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=262|end_char=263
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=263|end_char=265
+3	craving	craving	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=266|end_char=273
+4	some	some	DET	DT	PronType=Ind	5	det	_	start_char=274|end_char=278
+5	spaghetti	spaghetti	NOUN	NN	Number=Sing	3	obj	_	start_char=279|end_char=288|SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	start_char=288|end_char=289
+7	bread	bread	NOUN	NN	Number=Sing	5	conj	_	start_char=290|end_char=295|SpaceAfter=No
+8	,	,	PUNCT	,	_	12	punct	_	start_char=295|end_char=296
+9	and	and	CCONJ	CC	_	12	cc	_	start_char=297|end_char=300
+10	even	even	ADV	RB	_	12	advmod	_	start_char=301|end_char=305
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	start_char=306|end_char=307
+12	salad	salad	NOUN	NN	Number=Sing	5	conj	_	start_char=308|end_char=313|SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	start_char=313|end_char=314|SpacesAfter=\r\n
+
+# text = Frozen pizza it is, then!
+# sent_id = 10
+1	Frozen	frozen	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	start_char=316|end_char=322
+2	pizza	pizza	NOUN	NN	Number=Sing	0	root	_	start_char=323|end_char=328
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=329|end_char=331
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	start_char=332|end_char=334|SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	start_char=334|end_char=335
+6	then	then	ADV	RB	PronType=Dem	4	advmod	_	start_char=336|end_char=340|SpaceAfter=No
+7	!	!	PUNCT	.	_	2	punct	_	start_char=340|end_char=341|SpacesAfter=\r\n
+
+# text = You are so lazy!
+# sent_id = 11
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	start_char=343|end_char=346
+2	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=347|end_char=350
+3	so	so	ADV	RB	_	4	advmod	_	start_char=351|end_char=353
+4	lazy	lazy	ADJ	JJ	Degree=Pos	0	root	_	start_char=354|end_char=358|SpaceAfter=No
+5	!	!	PUNCT	.	_	4	punct	_	start_char=358|end_char=359
+
+# text = Can you even cook?
+# sent_id = 12
+1	Can	can	AUX	MD	VerbForm=Fin	4	aux	_	start_char=360|end_char=363
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	start_char=364|end_char=367
+3	even	even	ADV	RB	_	4	advmod	_	start_char=368|end_char=372
+4	cook	cook	VERB	VB	VerbForm=Inf	0	root	_	start_char=373|end_char=377|SpaceAfter=No
+5	?	?	PUNCT	.	_	4	punct	_	start_char=377|end_char=378|SpacesAfter=\r\n
+
+# text = Of course I can cook!
+# sent_id = 13
+1	Of	of	ADP	IN	ExtPos=ADV	5	advmod	_	start_char=380|end_char=382
+2	course	course	NOUN	NN	Number=Sing	1	fixed	_	start_char=383|end_char=389
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=390|end_char=391
+4	can	can	AUX	MD	VerbForm=Fin	5	aux	_	start_char=392|end_char=395
+5	cook	cook	VERB	VB	VerbForm=Inf	0	root	_	start_char=396|end_char=400|SpaceAfter=No
+6	!	!	PUNCT	.	_	5	punct	_	start_char=400|end_char=401
+
+# text = I choose not to.
+# sent_id = 14
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=402|end_char=403
+2	choose	choose	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=404|end_char=410
+3	not	not	PART	RB	Polarity=Neg	2	advmod	_	start_char=411|end_char=414
+4	to	to	PART	TO	_	2	xcomp	_	start_char=415|end_char=417|SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	start_char=417|end_char=418|SpacesAfter=\r\n
+
+# text = You're having hot pockets for dinner tomorrow.
+# sent_id = 15
+1-2	You're	_	_	_	_	_	_	_	start_char=420|end_char=426
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=420|end_char=423
+2	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=423|end_char=426
+3	having	have	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=427|end_char=433
+4	hot	hot	ADJ	JJ	Degree=Pos	5	amod	_	start_char=434|end_char=437
+5	pockets	pocket	NOUN	NNS	Number=Plur	3	obj	_	start_char=438|end_char=445
+6	for	for	ADP	IN	_	7	case	_	start_char=446|end_char=449
+7	dinner	dinner	NOUN	NN	Number=Sing	3	obl	_	start_char=450|end_char=456
+8	tomorrow	tomorrow	NOUN	NN	Number=Sing	3	obl:unmarked	_	start_char=457|end_char=465|SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	start_char=465|end_char=466|SpaceAfter=No
+

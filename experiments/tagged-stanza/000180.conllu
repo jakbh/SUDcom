@@ -1,0 +1,106 @@
+# text = What's that bell for?
+# sent_id = 0
+1-2	What's	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	What	what	PRON	WP	PronType=Int	0	root	_	start_char=0|end_char=4
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	start_char=4|end_char=6
+3	that	that	DET	DT	Number=Sing|PronType=Dem	4	det	_	start_char=7|end_char=11
+4	bell	bell	NOUN	NN	Number=Sing	1	nsubj	_	start_char=12|end_char=16
+5	for	for	ADP	IN	_	1	case	_	start_char=17|end_char=20|SpaceAfter=No
+6	?	?	PUNCT	.	_	1	punct	_	start_char=20|end_char=21|SpacesAfter=\r\n
+
+# text = It means it's recess time, Charles.
+# sent_id = 1
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=23|end_char=25
+2	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=26|end_char=31
+3-4	it's	_	_	_	_	_	_	_	start_char=32|end_char=36
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=32|end_char=34
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=34|end_char=36
+5	recess	recess	NOUN	NN	Number=Sing	6	compound	_	start_char=37|end_char=43
+6	time	time	NOUN	NN	Number=Sing	2	ccomp	_	start_char=44|end_char=48|SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	start_char=48|end_char=49
+8	Charles	Charles	PROPN	NNP	Number=Sing	6	vocative	_	start_char=50|end_char=57|SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	start_char=57|end_char=58|SpacesAfter=\r\n
+
+# text = What's that?
+# sent_id = 2
+1-2	What's	_	_	_	_	_	_	_	start_char=60|end_char=66
+1	What	what	PRON	WP	PronType=Int	0	root	_	start_char=60|end_char=64
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	start_char=64|end_char=66
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	1	nsubj	_	start_char=67|end_char=71|SpaceAfter=No
+4	?	?	PUNCT	.	_	1	punct	_	start_char=71|end_char=72|SpacesAfter=\r\n
+
+# text = It's a break from class.
+# sent_id = 3
+1-2	It's	_	_	_	_	_	_	_	start_char=74|end_char=78
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=74|end_char=76
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=76|end_char=78
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	start_char=79|end_char=80
+4	break	break	NOUN	NN	Number=Sing	0	root	_	start_char=81|end_char=86
+5	from	from	ADP	IN	_	6	case	_	start_char=87|end_char=91
+6	class	class	NOUN	NN	Number=Sing	4	nmod	_	start_char=92|end_char=97|SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	start_char=97|end_char=98|SpacesAfter=\r\n
+
+# text = A break?
+# sent_id = 4
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	start_char=100|end_char=101
+2	break	break	NOUN	NN	Number=Sing	0	root	_	start_char=102|end_char=107|SpaceAfter=No
+3	?	?	PUNCT	.	_	2	punct	_	start_char=107|end_char=108
+
+# text = For what, Kevin?
+# sent_id = 5
+1	For	for	ADP	IN	_	2	case	_	start_char=109|end_char=112
+2	what	what	PRON	WP	PronType=Int	0	root	_	start_char=113|end_char=117|SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	start_char=117|end_char=118
+4	Kevin	Kevin	PROPN	NNP	Number=Sing	2	vocative	_	start_char=119|end_char=124|SpaceAfter=No
+5	?	?	PUNCT	.	_	2	punct	_	start_char=124|end_char=125|SpacesAfter=\r\n
+
+# text = So we can play outside.
+# sent_id = 6
+1	So	so	ADV	RB	_	4	advmod	_	start_char=127|end_char=129
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	start_char=130|end_char=132
+3	can	can	AUX	MD	VerbForm=Fin	4	aux	_	start_char=133|end_char=136
+4	play	play	VERB	VB	VerbForm=Inf	0	root	_	start_char=137|end_char=141
+5	outside	outside	ADV	RB	_	4	advmod	_	start_char=142|end_char=149|SpaceAfter=No
+6	.	.	PUNCT	.	_	4	punct	_	start_char=149|end_char=150|SpacesAfter=\r\n
+
+# text = Really?
+# sent_id = 7
+1	Really	really	ADV	RB	_	0	root	_	start_char=152|end_char=158|SpaceAfter=No
+2	?	?	PUNCT	.	_	1	punct	_	start_char=158|end_char=159
+
+# text = Wow!
+# sent_id = 8
+1	Wow	wow	INTJ	UH	_	0	root	_	start_char=160|end_char=163|SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	start_char=163|end_char=164
+
+# text = Let's go.
+# sent_id = 9
+1-2	Let's	_	_	_	_	_	_	_	start_char=165|end_char=170
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=165|end_char=168
+2	's	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	obj	_	start_char=168|end_char=170
+3	go	go	VERB	VB	VerbForm=Inf	1	xcomp	_	start_char=171|end_char=173|SpaceAfter=No
+4	.	.	PUNCT	.	_	1	punct	_	start_char=173|end_char=174|SpacesAfter=\r\n
+
+# text = Yes.
+# sent_id = 10
+1	Yes	yes	INTJ	UH	Polarity=Pos	0	root	_	start_char=176|end_char=179|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	_	start_char=179|end_char=180
+
+# text = It's fun.
+# sent_id = 11
+1-2	It's	_	_	_	_	_	_	_	start_char=181|end_char=185
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=181|end_char=183
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=183|end_char=185
+3	fun	fun	ADJ	JJ	Degree=Pos	0	root	_	start_char=186|end_char=189|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	start_char=189|end_char=190
+
+# text = We get one break per hour.
+# sent_id = 12
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=191|end_char=193
+2	get	get	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=194|end_char=197
+3	one	one	NUM	CD	NumForm=Word|NumType=Card	4	nummod	_	start_char=198|end_char=201
+4	break	break	NOUN	NN	Number=Sing	2	obj	_	start_char=202|end_char=207
+5	per	per	ADP	IN	_	6	case	_	start_char=208|end_char=211
+6	hour	hour	NOUN	NN	Number=Sing	2	obl	_	start_char=212|end_char=216|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	start_char=216|end_char=217|SpaceAfter=No
+

@@ -1,0 +1,197 @@
+# text = Don has cancer.
+# sent_id = 0
+1	Don	Don	PROPN	NNP	Number=Sing	2	nsubj	_	start_char=0|end_char=3
+2	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4|end_char=7
+3	cancer	cancer	NOUN	NN	Number=Sing	2	obj	_	start_char=8|end_char=14|SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	start_char=14|end_char=15
+
+# text = He is 12 years old.
+# sent_id = 1
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=16|end_char=18
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=19|end_char=21
+3	12	12	NUM	CD	NumForm=Digit|NumType=Card	4	nummod	_	start_char=22|end_char=24
+4	years	year	NOUN	NNS	Number=Plur	5	obl:unmarked	_	start_char=25|end_char=30
+5	old	old	ADJ	JJ	Degree=Pos	0	root	_	start_char=31|end_char=34|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	start_char=34|end_char=35
+
+# text = But he is lucky.
+# sent_id = 2
+1	But	but	CCONJ	CC	_	4	cc	_	start_char=36|end_char=39
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=40|end_char=42
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=43|end_char=45
+4	lucky	lucky	ADJ	JJ	Degree=Pos	0	root	_	start_char=46|end_char=51|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	start_char=51|end_char=52
+
+# text = The doctor knows how to fix Don's cancer.
+# sent_id = 3
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=53|end_char=56
+2	doctor	doctor	NOUN	NN	Number=Sing	3	nsubj	_	start_char=57|end_char=63
+3	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=64|end_char=69
+4	how	how	ADV	WRB	PronType=Int	3	obj	_	start_char=70|end_char=73
+5	to	to	PART	TO	_	6	mark	_	start_char=74|end_char=76
+6	fix	fix	VERB	VB	VerbForm=Inf	4	acl	_	start_char=77|end_char=80
+7-8	Don's	_	_	_	_	_	_	_	start_char=81|end_char=86
+7	Don	Don	PROPN	NNP	Number=Sing	9	nmod:poss	_	start_char=81|end_char=84
+8	's	's	PART	POS	_	7	case	_	start_char=84|end_char=86
+9	cancer	cancer	NOUN	NN	Number=Sing	6	obj	_	start_char=87|end_char=93|SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	start_char=93|end_char=94
+
+# text = The doctor told Don's mom to bring him to the hospital.
+# sent_id = 4
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=95|end_char=98
+2	doctor	doctor	NOUN	NN	Number=Sing	3	nsubj	_	start_char=99|end_char=105
+3	told	tell	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=106|end_char=110
+4-5	Don's	_	_	_	_	_	_	_	start_char=111|end_char=116
+4	Don	Don	PROPN	NNP	Number=Sing	6	nmod:poss	_	start_char=111|end_char=114
+5	's	's	PART	POS	_	4	case	_	start_char=114|end_char=116
+6	mom	mom	NOUN	NN	Number=Sing	3	iobj	_	start_char=117|end_char=120
+7	to	to	PART	TO	_	8	mark	_	start_char=121|end_char=123
+8	bring	bring	VERB	VB	VerbForm=Inf	3	xcomp	_	start_char=124|end_char=129
+9	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	start_char=130|end_char=133
+10	to	to	ADP	IN	_	12	case	_	start_char=134|end_char=136
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=137|end_char=140
+12	hospital	hospital	NOUN	NN	Number=Sing	8	obl	_	start_char=141|end_char=149|SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	start_char=149|end_char=150
+
+# text = Don's mom said no.
+# sent_id = 5
+1-2	Don's	_	_	_	_	_	_	_	start_char=151|end_char=156
+1	Don	Don	PROPN	NNP	Number=Sing	3	nmod:poss	_	start_char=151|end_char=154
+2	's	's	PART	POS	_	1	case	_	start_char=154|end_char=156
+3	mom	mom	NOUN	NN	Number=Sing	4	nsubj	_	start_char=157|end_char=160
+4	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=161|end_char=165
+5	no	no	INTJ	UH	Polarity=Neg	4	ccomp	_	start_char=166|end_char=168|SpaceAfter=No
+6	.	.	PUNCT	.	_	4	punct	_	start_char=168|end_char=169
+
+# text = She will let God fix Don's cancer.
+# sent_id = 6
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=170|end_char=173
+2	will	will	AUX	MD	VerbForm=Fin	3	aux	_	start_char=174|end_char=178
+3	let	let	VERB	VB	VerbForm=Inf	0	root	_	start_char=179|end_char=182
+4	God	God	PROPN	NNP	Number=Sing	3	obj	_	start_char=183|end_char=186
+5	fix	fix	VERB	VB	VerbForm=Inf	3	xcomp	_	start_char=187|end_char=190
+6-7	Don's	_	_	_	_	_	_	_	start_char=191|end_char=196
+6	Don	Don	PROPN	NNP	Number=Sing	8	nmod:poss	_	start_char=191|end_char=194
+7	's	's	PART	POS	_	6	case	_	start_char=194|end_char=196
+8	cancer	cancer	NOUN	NN	Number=Sing	5	obj	_	start_char=197|end_char=203|SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	start_char=203|end_char=204
+
+# text = God will fix Don's cancer.
+# sent_id = 7
+1	God	God	PROPN	NNP	Number=Sing	3	nsubj	_	start_char=205|end_char=208
+2	will	will	AUX	MD	VerbForm=Fin	3	aux	_	start_char=209|end_char=213
+3	fix	fix	VERB	VB	VerbForm=Inf	0	root	_	start_char=214|end_char=217
+4-5	Don's	_	_	_	_	_	_	_	start_char=218|end_char=223
+4	Don	Don	PROPN	NNP	Number=Sing	6	nmod:poss	_	start_char=218|end_char=221
+5	's	's	PART	POS	_	4	case	_	start_char=221|end_char=223
+6	cancer	cancer	NOUN	NN	Number=Sing	3	obj	_	start_char=224|end_char=230|SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	start_char=230|end_char=231
+
+# text = She does not trust the doctor.
+# sent_id = 8
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=232|end_char=235
+2	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=236|end_char=240
+3	not	not	PART	RB	Polarity=Neg	4	advmod	_	start_char=241|end_char=244
+4	trust	trust	VERB	VB	VerbForm=Inf	0	root	_	start_char=245|end_char=250
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=251|end_char=254
+6	doctor	doctor	NOUN	NN	Number=Sing	4	obj	_	start_char=255|end_char=261|SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	start_char=261|end_char=262
+
+# text = She doesn't trust the hospital.
+# sent_id = 9
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=263|end_char=266
+2-3	doesn't	_	_	_	_	_	_	_	start_char=267|end_char=274
+2	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=267|end_char=271
+3	n't	not	PART	RB	Polarity=Neg	4	advmod	_	start_char=271|end_char=274
+4	trust	trust	VERB	VB	VerbForm=Inf	0	root	_	start_char=275|end_char=280
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=281|end_char=284
+6	hospital	hospital	NOUN	NN	Number=Sing	4	obj	_	start_char=285|end_char=293|SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	start_char=293|end_char=294
+
+# text = She only trusts God.
+# sent_id = 10
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=295|end_char=298
+2	only	only	ADV	RB	_	3	advmod	_	start_char=299|end_char=303
+3	trusts	trust	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=304|end_char=310
+4	God	God	PROPN	NNP	Number=Sing	3	obj	_	start_char=311|end_char=314|SpaceAfter=No
+5	.	.	PUNCT	.	_	3	punct	_	start_char=314|end_char=315
+
+# text = The doctor said Don will die.
+# sent_id = 11
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=316|end_char=319
+2	doctor	doctor	NOUN	NN	Number=Sing	3	nsubj	_	start_char=320|end_char=326
+3	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=327|end_char=331
+4	Don	Don	PROPN	NNP	Number=Sing	6	nsubj	_	start_char=332|end_char=335
+5	will	will	AUX	MD	VerbForm=Fin	6	aux	_	start_char=336|end_char=340
+6	die	die	VERB	VB	VerbForm=Inf	3	ccomp	_	start_char=341|end_char=344|SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	start_char=344|end_char=345
+
+# text = He said Don must come to the hospital.
+# sent_id = 12
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=346|end_char=348
+2	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=349|end_char=353
+3	Don	Don	PROPN	NNP	Number=Sing	5	nsubj	_	start_char=354|end_char=357
+4	must	must	AUX	MD	VerbForm=Fin	5	aux	_	start_char=358|end_char=362
+5	come	come	VERB	VB	VerbForm=Inf	2	ccomp	_	start_char=363|end_char=367
+6	to	to	ADP	IN	_	8	case	_	start_char=368|end_char=370
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=371|end_char=374
+8	hospital	hospital	NOUN	NN	Number=Sing	5	obl	_	start_char=375|end_char=383|SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	start_char=383|end_char=384
+
+# text = Don's mom ran away.
+# sent_id = 13
+1-2	Don's	_	_	_	_	_	_	_	start_char=385|end_char=390
+1	Don	Don	PROPN	NNP	Number=Sing	3	nmod:poss	_	start_char=385|end_char=388
+2	's	's	PART	POS	_	1	case	_	start_char=388|end_char=390
+3	mom	mom	NOUN	NN	Number=Sing	4	nsubj	_	start_char=391|end_char=394
+4	ran	run	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=395|end_char=398
+5	away	away	ADV	RB	_	4	advmod	_	start_char=399|end_char=403|SpaceAfter=No
+6	.	.	PUNCT	.	_	4	punct	_	start_char=403|end_char=404
+
+# text = She ran away with Don.
+# sent_id = 14
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=405|end_char=408
+2	ran	run	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=409|end_char=412
+3	away	away	ADV	RB	_	2	advmod	_	start_char=413|end_char=417
+4	with	with	ADP	IN	_	5	case	_	start_char=418|end_char=422
+5	Don	Don	PROPN	NNP	Number=Sing	2	obl	_	start_char=423|end_char=426|SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	start_char=426|end_char=427
+
+# text = The police are looking for Don and his mom.
+# sent_id = 15
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=428|end_char=431
+2	police	police	NOUN	NNS	Number=Plur	4	nsubj	_	start_char=432|end_char=438
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=439|end_char=442
+4	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=443|end_char=450
+5	for	for	ADP	IN	_	6	case	_	start_char=451|end_char=454
+6	Don	Don	PROPN	NNP	Number=Sing	4	obl	_	start_char=455|end_char=458
+7	and	and	CCONJ	CC	_	9	cc	_	start_char=459|end_char=462
+8	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	start_char=463|end_char=466
+9	mom	mom	NOUN	NN	Number=Sing	6	conj	_	start_char=467|end_char=470|SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	start_char=470|end_char=471
+
+# text = They want to save Don's life.
+# sent_id = 16
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=472|end_char=476
+2	want	want	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=477|end_char=481
+3	to	to	PART	TO	_	4	mark	_	start_char=482|end_char=484
+4	save	save	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=485|end_char=489
+5-6	Don's	_	_	_	_	_	_	_	start_char=490|end_char=495
+5	Don	Don	PROPN	NNP	Number=Sing	7	nmod:poss	_	start_char=490|end_char=493
+6	's	's	PART	POS	_	5	case	_	start_char=493|end_char=495
+7	life	life	NOUN	NN	Number=Sing	4	obj	_	start_char=496|end_char=500|SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	start_char=500|end_char=501
+
+# text = Only the doctor can save Don's life.
+# sent_id = 17
+1	Only	only	ADV	RB	_	5	advmod	_	start_char=502|end_char=506
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=507|end_char=510
+3	doctor	doctor	NOUN	NN	Number=Sing	5	nsubj	_	start_char=511|end_char=517
+4	can	can	AUX	MD	VerbForm=Fin	5	aux	_	start_char=518|end_char=521
+5	save	save	VERB	VB	VerbForm=Inf	0	root	_	start_char=522|end_char=526
+6-7	Don's	_	_	_	_	_	_	_	start_char=527|end_char=532
+6	Don	Don	PROPN	NNP	Number=Sing	8	nmod:poss	_	start_char=527|end_char=530
+7	's	's	PART	POS	_	6	case	_	start_char=530|end_char=532
+8	life	life	NOUN	NN	Number=Sing	5	obj	_	start_char=533|end_char=537|SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	start_char=537|end_char=538|SpaceAfter=No
+

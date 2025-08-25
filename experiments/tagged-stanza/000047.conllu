@@ -1,0 +1,96 @@
+# text = Okay Laura.
+# sent_id = 0
+1	Okay	okay	INTJ	UH	_	2	discourse	_	start_char=0|end_char=4
+2	Laura	Laura	PROPN	NNP	Number=Sing	0	root	_	start_char=5|end_char=10|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	start_char=10|end_char=11
+
+# text = Let's go.
+# sent_id = 1
+1-2	Let's	_	_	_	_	_	_	_	start_char=12|end_char=17
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=12|end_char=15
+2	's	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	obj	_	start_char=15|end_char=17
+3	go	go	VERB	VB	VerbForm=Inf	1	xcomp	_	start_char=18|end_char=20|SpaceAfter=No
+4	.	.	PUNCT	.	_	1	punct	_	start_char=20|end_char=21|SpacesAfter=\r\n
+
+# text = Just a second, mom.
+# sent_id = 2
+1	Just	just	ADV	RB	_	3	advmod	_	start_char=23|end_char=27
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	start_char=28|end_char=29
+3	second	second	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	0	root	_	start_char=30|end_char=36|SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	start_char=36|end_char=37
+5	mom	mom	NOUN	NN	Number=Sing	3	vocative	_	start_char=38|end_char=41|SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	start_char=41|end_char=42|SpacesAfter=\r\n
+
+# text = Don't forget to put on your seatbelts.
+# sent_id = 3
+1-2	Don't	_	_	_	_	_	_	_	start_char=44|end_char=49
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	3	aux	_	start_char=44|end_char=46
+2	n't	not	PART	RB	Polarity=Neg	3	advmod	_	start_char=46|end_char=49
+3	forget	forget	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=50|end_char=56
+4	to	to	PART	TO	_	5	mark	_	start_char=57|end_char=59
+5	put	put	VERB	VB	VerbForm=Inf	3	xcomp	_	start_char=60|end_char=63
+6	on	on	ADP	IN	_	5	compound:prt	_	start_char=64|end_char=66
+7	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	8	nmod:poss	_	start_char=67|end_char=71
+8	seatbelts	seatbelt	NOUN	NNS	Number=Plur	5	obj	_	start_char=72|end_char=81|SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	start_char=81|end_char=82|SpacesAfter=\r\n
+
+# text = Do I have to?
+# sent_id = 4
+1	Do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=84|end_char=86
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=87|end_char=88
+3	have	have	VERB	VB	VerbForm=Inf	0	root	_	start_char=89|end_char=93
+4	to	to	PART	TO	_	3	xcomp	_	start_char=94|end_char=96|SpaceAfter=No
+5	?	?	PUNCT	.	_	3	punct	_	start_char=96|end_char=97|SpacesAfter=\r\n
+
+# text = Yes.
+# sent_id = 5
+1	Yes	yes	INTJ	UH	Polarity=Pos	0	root	_	start_char=99|end_char=102|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	_	start_char=102|end_char=103
+
+# text = You have to.
+# sent_id = 6
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	start_char=104|end_char=107
+2	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=108|end_char=112
+3	to	to	PART	TO	_	2	xcomp	_	start_char=113|end_char=115|SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	start_char=115|end_char=116|SpacesAfter=\s\r\n
+
+# text = But we are only going to the store.
+# sent_id = 7
+1	But	but	CCONJ	CC	_	5	cc	_	start_char=119|end_char=122
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	start_char=123|end_char=125
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=126|end_char=129
+4	only	only	ADV	RB	_	5	advmod	_	start_char=130|end_char=134
+5	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=135|end_char=140
+6	to	to	ADP	IN	_	8	case	_	start_char=141|end_char=143
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=144|end_char=147
+8	store	store	NOUN	NN	Number=Sing	5	obl	_	start_char=148|end_char=153|SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	start_char=153|end_char=154|SpacesAfter=\r\n
+
+# text = It's the law, Laura.
+# sent_id = 8
+1-2	It's	_	_	_	_	_	_	_	start_char=156|end_char=160
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=156|end_char=158
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=158|end_char=160
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=161|end_char=164
+4	law	law	NOUN	NN	Number=Sing	0	root	_	start_char=165|end_char=168|SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	start_char=168|end_char=169
+6	Laura	Laura	PROPN	NNP	Number=Sing	4	vocative	_	start_char=170|end_char=175|SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	start_char=175|end_char=176|SpacesAfter=\r\n
+
+# text = And to be safe, too.
+# sent_id = 9
+1	And	and	CCONJ	CC	_	4	cc	_	start_char=178|end_char=181
+2	to	to	PART	TO	_	4	mark	_	start_char=182|end_char=184
+3	be	be	AUX	VB	VerbForm=Inf	4	cop	_	start_char=185|end_char=187
+4	safe	safe	ADJ	JJ	Degree=Pos	0	root	_	start_char=188|end_char=192|SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	start_char=192|end_char=193
+6	too	too	ADV	RB	_	4	advmod	_	start_char=194|end_char=197|SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	start_char=197|end_char=198
+
+# text = Right, mom?
+# sent_id = 10
+1	Right	right	ADJ	JJ	Degree=Pos	3	discourse	_	start_char=199|end_char=204|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=204|end_char=205
+3	mom	mom	NOUN	NN	Number=Sing	0	root	_	start_char=206|end_char=209|SpaceAfter=No
+4	?	?	PUNCT	.	_	3	punct	_	start_char=209|end_char=210|SpaceAfter=No
+

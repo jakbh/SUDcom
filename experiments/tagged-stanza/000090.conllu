@@ -1,0 +1,220 @@
+# text = It is winter.
+# sent_id = 0
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=0|end_char=2
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=3|end_char=5
+3	winter	winter	NOUN	NN	Number=Sing	0	root	_	start_char=6|end_char=12|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	start_char=12|end_char=13
+
+# text = The sky is usually gray.
+# sent_id = 1
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=14|end_char=17
+2	sky	sky	NOUN	NN	Number=Sing	5	nsubj	_	start_char=18|end_char=21
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=22|end_char=24
+4	usually	usually	ADV	RB	_	5	advmod	_	start_char=25|end_char=32
+5	gray	gray	ADJ	JJ	Degree=Pos	0	root	_	start_char=33|end_char=37|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	start_char=37|end_char=38
+
+# text = The sun is not big.
+# sent_id = 2
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=39|end_char=42
+2	sun	sun	NOUN	NN	Number=Sing	5	nsubj	_	start_char=43|end_char=46
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=47|end_char=49
+4	not	not	PART	RB	Polarity=Neg	5	advmod	_	start_char=50|end_char=53
+5	big	big	ADJ	JJ	Degree=Pos	0	root	_	start_char=54|end_char=57|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	start_char=57|end_char=58
+
+# text = The sun is not warm.
+# sent_id = 3
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=59|end_char=62
+2	sun	sun	NOUN	NN	Number=Sing	5	nsubj	_	start_char=63|end_char=66
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=67|end_char=69
+4	not	not	PART	RB	Polarity=Neg	5	advmod	_	start_char=70|end_char=73
+5	warm	warm	ADJ	JJ	Degree=Pos	0	root	_	start_char=74|end_char=78|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	start_char=78|end_char=79
+
+# text = The sun is never high in the sky.
+# sent_id = 4
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=80|end_char=83
+2	sun	sun	NOUN	NN	Number=Sing	5	nsubj	_	start_char=84|end_char=87
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=88|end_char=90
+4	never	never	ADV	RB	PronType=Neg	5	advmod	_	start_char=91|end_char=96
+5	high	high	ADJ	JJ	Degree=Pos	0	root	_	start_char=97|end_char=101
+6	in	in	ADP	IN	_	8	case	_	start_char=102|end_char=104
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=105|end_char=108
+8	sky	sky	NOUN	NN	Number=Sing	5	obl	_	start_char=109|end_char=112|SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	start_char=112|end_char=113
+
+# text = It's always low in the sky.
+# sent_id = 5
+1-2	It's	_	_	_	_	_	_	_	start_char=114|end_char=118
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=114|end_char=116
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=116|end_char=118
+3	always	always	ADV	RB	PronType=Tot	4	advmod	_	start_char=119|end_char=125
+4	low	low	ADJ	JJ	Degree=Pos	0	root	_	start_char=126|end_char=129
+5	in	in	ADP	IN	_	7	case	_	start_char=130|end_char=132
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=133|end_char=136
+7	sky	sky	NOUN	NN	Number=Sing	4	obl	_	start_char=137|end_char=140|SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	start_char=140|end_char=141
+
+# text = The shadows are long.
+# sent_id = 6
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=142|end_char=145
+2	shadows	shadow	NOUN	NNS	Number=Plur	4	nsubj	_	start_char=146|end_char=153
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=154|end_char=157
+4	long	long	ADJ	JJ	Degree=Pos	0	root	_	start_char=158|end_char=162|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	start_char=162|end_char=163
+
+# text = In the morning they are long.
+# sent_id = 7
+1	In	in	ADP	IN	_	3	case	_	start_char=164|end_char=166
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=167|end_char=170
+3	morning	morning	NOUN	NN	Number=Sing	6	obl	_	start_char=171|end_char=178
+4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	start_char=179|end_char=183
+5	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=184|end_char=187
+6	long	long	ADJ	JJ	Degree=Pos	0	root	_	start_char=188|end_char=192|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	start_char=192|end_char=193
+
+# text = In the afternoon they are long.
+# sent_id = 8
+1	In	in	ADP	IN	_	3	case	_	start_char=194|end_char=196
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=197|end_char=200
+3	afternoon	afternoon	NOUN	NN	Number=Sing	6	obl	_	start_char=201|end_char=210
+4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	start_char=211|end_char=215
+5	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=216|end_char=219
+6	long	long	ADJ	JJ	Degree=Pos	0	root	_	start_char=220|end_char=224|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	start_char=224|end_char=225
+
+# text = The shadows are cold.
+# sent_id = 9
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=226|end_char=229
+2	shadows	shadow	NOUN	NNS	Number=Plur	4	nsubj	_	start_char=230|end_char=237
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=238|end_char=241
+4	cold	cold	ADJ	JJ	Degree=Pos	0	root	_	start_char=242|end_char=246|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	start_char=246|end_char=247
+
+# text = The wind blows.
+# sent_id = 10
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=248|end_char=251
+2	wind	wind	NOUN	NN	Number=Sing	3	nsubj	_	start_char=252|end_char=256
+3	blows	blow	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=257|end_char=262|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	start_char=262|end_char=263
+
+# text = The wind blows almost every day.
+# sent_id = 11
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=264|end_char=267
+2	wind	wind	NOUN	NN	Number=Sing	3	nsubj	_	start_char=268|end_char=272
+3	blows	blow	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=273|end_char=278
+4	almost	almost	ADV	RB	_	6	advmod	_	start_char=279|end_char=285
+5	every	every	DET	DT	PronType=Tot	6	det	_	start_char=286|end_char=291
+6	day	day	NOUN	NN	Number=Sing	3	obl:unmarked	_	start_char=292|end_char=295|SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	start_char=295|end_char=296
+
+# text = Sometimes it is a strong wind.
+# sent_id = 12
+1	Sometimes	sometimes	ADV	RB	PronType=Ind	6	advmod	_	start_char=297|end_char=306
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=307|end_char=309
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=310|end_char=312
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=313|end_char=314
+5	strong	strong	ADJ	JJ	Degree=Pos	6	amod	_	start_char=315|end_char=321
+6	wind	wind	NOUN	NN	Number=Sing	0	root	_	start_char=322|end_char=326|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	start_char=326|end_char=327
+
+# text = Paper blows everywhere.
+# sent_id = 13
+1	Paper	Paper	NOUN	NN	Number=Sing	2	nsubj	_	start_char=328|end_char=333
+2	blows	blow	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=334|end_char=339
+3	everywhere	everywhere	ADV	RB	_	2	advmod	_	start_char=340|end_char=350|SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	start_char=350|end_char=351
+
+# text = It is always a cold wind.
+# sent_id = 14
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=352|end_char=354
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=355|end_char=357
+3	always	always	ADV	RB	PronType=Tot	6	advmod	_	start_char=358|end_char=364
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=365|end_char=366
+5	cold	cold	ADJ	JJ	Degree=Pos	6	amod	_	start_char=367|end_char=371
+6	wind	wind	NOUN	NN	Number=Sing	0	root	_	start_char=372|end_char=376|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	start_char=376|end_char=377
+
+# text = People wear heavy jackets.
+# sent_id = 15
+1	People	person	NOUN	NNS	Number=Plur	2	nsubj	_	start_char=378|end_char=384
+2	wear	wear	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=385|end_char=389
+3	heavy	heavy	ADJ	JJ	Degree=Pos	4	amod	_	start_char=390|end_char=395
+4	jackets	jacket	NOUN	NNS	Number=Plur	2	obj	_	start_char=396|end_char=403|SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	start_char=403|end_char=404
+
+# text = People stand with their hands in their pockets.
+# sent_id = 16
+1	People	person	NOUN	NNS	Number=Plur	2	nsubj	_	start_char=405|end_char=411
+2	stand	stand	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=412|end_char=417
+3	with	with	ADP	IN	_	5	case	_	start_char=418|end_char=422
+4	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=423|end_char=428
+5	hands	hand	NOUN	NNS	Number=Plur	2	obl	_	start_char=429|end_char=434
+6	in	in	ADP	IN	_	8	case	_	start_char=435|end_char=437
+7	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	start_char=438|end_char=443
+8	pockets	pocket	NOUN	NNS	Number=Plur	2	obl	_	start_char=444|end_char=451|SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	start_char=451|end_char=452
+
+# text = People blow on their hands to keep their hands warm.
+# sent_id = 17
+1	People	person	NOUN	NNS	Number=Plur	2	nsubj	_	start_char=453|end_char=459
+2	blow	blow	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=460|end_char=464
+3	on	on	ADP	IN	_	5	case	_	start_char=465|end_char=467
+4	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=468|end_char=473
+5	hands	hand	NOUN	NNS	Number=Plur	2	obl	_	start_char=474|end_char=479
+6	to	to	PART	TO	_	7	mark	_	start_char=480|end_char=482
+7	keep	keep	VERB	VB	VerbForm=Inf	2	advcl	_	start_char=483|end_char=487
+8	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	start_char=488|end_char=493
+9	hands	hand	NOUN	NNS	Number=Plur	7	obj	_	start_char=494|end_char=499
+10	warm	warm	ADJ	JJ	Degree=Pos	7	xcomp	_	start_char=500|end_char=504|SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	start_char=504|end_char=505
+
+# text = You can see people's warm breath.
+# sent_id = 18
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=506|end_char=509
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	start_char=510|end_char=513
+3	see	see	VERB	VB	VerbForm=Inf	0	root	_	start_char=514|end_char=517
+4-5	people's	_	_	_	_	_	_	_	start_char=518|end_char=526
+4	people	person	NOUN	NNS	Number=Plur	7	nmod:poss	_	start_char=518|end_char=524
+5	's	's	PART	POS	_	4	case	_	start_char=524|end_char=526
+6	warm	warm	ADJ	JJ	Degree=Pos	7	amod	_	start_char=527|end_char=531
+7	breath	breath	NOUN	NN	Number=Sing	3	obj	_	start_char=532|end_char=538|SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	start_char=538|end_char=539
+
+# text = When they breathe, you can see their warm breath.
+# sent_id = 19
+1	When	when	ADV	WRB	PronType=Int	3	advmod	_	start_char=540|end_char=544
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=545|end_char=549
+3	breathe	breathe	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	start_char=550|end_char=557|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	start_char=557|end_char=558
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	start_char=559|end_char=562
+6	can	can	AUX	MD	VerbForm=Fin	7	aux	_	start_char=563|end_char=566
+7	see	see	VERB	VB	VerbForm=Inf	0	root	_	start_char=567|end_char=570
+8	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	start_char=571|end_char=576
+9	warm	warm	ADJ	JJ	Degree=Pos	10	amod	_	start_char=577|end_char=581
+10	breath	breath	NOUN	NN	Number=Sing	7	obj	_	start_char=582|end_char=588|SpaceAfter=No
+11	.	.	PUNCT	.	_	7	punct	_	start_char=588|end_char=589
+
+# text = Their breath is like steam from a teapot.
+# sent_id = 20
+1	Their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=590|end_char=595
+2	breath	breath	NOUN	NN	Number=Sing	5	nsubj	_	start_char=596|end_char=602
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=603|end_char=605
+4	like	like	ADP	IN	_	5	case	_	start_char=606|end_char=610
+5	steam	steam	NOUN	NN	Number=Sing	0	root	_	start_char=611|end_char=616
+6	from	from	ADP	IN	_	8	case	_	start_char=617|end_char=621
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=622|end_char=623
+8	teapot	teapot	NOUN	NN	Number=Sing	5	nmod	_	start_char=624|end_char=630|SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	start_char=630|end_char=631
+
+# text = Everyone is cold in the winter.
+# sent_id = 21
+1	Everyone	everyone	PRON	NN	Number=Sing|PronType=Tot	3	nsubj	_	start_char=632|end_char=640
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=641|end_char=643
+3	cold	cold	ADJ	JJ	Degree=Pos	0	root	_	start_char=644|end_char=648
+4	in	in	ADP	IN	_	6	case	_	start_char=649|end_char=651
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=652|end_char=655
+6	winter	winter	NOUN	NN	Number=Sing	3	obl	_	start_char=656|end_char=662|SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	start_char=662|end_char=663|SpaceAfter=No
+

@@ -1,0 +1,231 @@
+# text = It was a new pet store.
+# sent_id = 0
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=0|end_char=2
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	start_char=3|end_char=6
+3	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=7|end_char=8
+4	new	new	ADJ	JJ	Degree=Pos	6	amod	_	start_char=9|end_char=12
+5	pet	pet	NOUN	NN	Number=Sing	6	compound	_	start_char=13|end_char=16
+6	store	store	NOUN	NN	Number=Sing	0	root	_	start_char=17|end_char=22|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	start_char=22|end_char=23
+
+# text = Brian walked into the new pet store.
+# sent_id = 1
+1	Brian	Brian	PROPN	NNP	Number=Sing	2	nsubj	_	start_char=24|end_char=29
+2	walked	walk	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=30|end_char=36
+3	into	into	ADP	IN	_	7	case	_	start_char=37|end_char=41
+4	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=42|end_char=45
+5	new	new	ADJ	JJ	Degree=Pos	7	amod	_	start_char=46|end_char=49
+6	pet	pet	NOUN	NN	Number=Sing	7	compound	_	start_char=50|end_char=53
+7	store	store	NOUN	NN	Number=Sing	2	obl	_	start_char=54|end_char=59|SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	start_char=59|end_char=60
+
+# text = He said hello to Paul, the owner.
+# sent_id = 2
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=61|end_char=63
+2	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=64|end_char=68
+3	hello	hello	INTJ	UH	_	2	obj	_	start_char=69|end_char=74
+4	to	to	ADP	IN	_	5	case	_	start_char=75|end_char=77
+5	Paul	Paul	PROPN	NNP	Number=Sing	2	obl	_	start_char=78|end_char=82|SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	start_char=82|end_char=83
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=84|end_char=87
+8	owner	owner	NOUN	NN	Number=Sing	5	appos	_	start_char=88|end_char=93|SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	start_char=93|end_char=94
+
+# text = Paul said hello to Brian.
+# sent_id = 3
+1	Paul	Paul	PROPN	NNP	Number=Sing	2	nsubj	_	start_char=95|end_char=99
+2	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=100|end_char=104
+3	hello	hello	INTJ	UH	_	2	obj	_	start_char=105|end_char=110
+4	to	to	ADP	IN	_	5	case	_	start_char=111|end_char=113
+5	Brian	Brian	PROPN	NNP	Number=Sing	2	obl	_	start_char=114|end_char=119|SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	start_char=119|end_char=120
+
+# text = Brian said, "This is a clean pet store.
+# sent_id = 4
+1	Brian	Brian	PROPN	NNP	Number=Sing	2	nsubj	_	start_char=121|end_char=126
+2	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=127|end_char=131|SpaceAfter=No
+3	,	,	PUNCT	,	_	10	punct	_	start_char=131|end_char=132
+4	"	"	PUNCT	``	_	10	punct	_	start_char=133|end_char=134|SpaceAfter=No
+5	This	this	PRON	DT	Number=Sing|PronType=Dem	10	nsubj	_	start_char=134|end_char=138
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=139|end_char=141
+7	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	start_char=142|end_char=143
+8	clean	clean	ADJ	JJ	Degree=Pos	10	amod	_	start_char=144|end_char=149
+9	pet	pet	NOUN	NN	Number=Sing	10	compound	_	start_char=150|end_char=153
+10	store	store	NOUN	NN	Number=Sing	2	ccomp	_	start_char=154|end_char=159|SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	start_char=159|end_char=160
+
+# text = This is a quiet pet store.
+# sent_id = 5
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	6	nsubj	_	start_char=161|end_char=165
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=166|end_char=168
+3	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=169|end_char=170
+4	quiet	quiet	ADJ	JJ	Degree=Pos	6	amod	_	start_char=171|end_char=176
+5	pet	pet	NOUN	NN	Number=Sing	6	compound	_	start_char=177|end_char=180
+6	store	store	NOUN	NN	Number=Sing	0	root	_	start_char=181|end_char=186|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	start_char=186|end_char=187
+
+# text = This pet store doesn't smell."
+# sent_id = 6
+1	This	this	DET	DT	Number=Sing|PronType=Dem	3	det	_	start_char=188|end_char=192
+2	pet	pet	NOUN	NN	Number=Sing	3	compound	_	start_char=193|end_char=196
+3	store	store	NOUN	NN	Number=Sing	6	nsubj	_	start_char=197|end_char=202
+4-5	doesn't	_	_	_	_	_	_	_	start_char=203|end_char=210
+4	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=203|end_char=207
+5	n't	not	PART	RB	Polarity=Neg	6	advmod	_	start_char=207|end_char=210
+6	smell	smell	VERB	VB	VerbForm=Inf	0	root	_	start_char=211|end_char=216|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	start_char=216|end_char=217|SpaceAfter=No
+8	"	"	PUNCT	''	_	6	punct	_	start_char=217|end_char=218
+
+# text = Brian looked around the store.
+# sent_id = 7
+1	Brian	Brian	PROPN	NNP	Number=Sing	2	nsubj	_	start_char=219|end_char=224
+2	looked	look	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=225|end_char=231
+3	around	around	ADP	IN	_	5	case	_	start_char=232|end_char=238
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=239|end_char=242
+5	store	store	NOUN	NN	Number=Sing	2	obl	_	start_char=243|end_char=248|SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	start_char=248|end_char=249
+
+# text = Brian walked around the store.
+# sent_id = 8
+1	Brian	Brian	PROPN	NNP	Number=Sing	2	nsubj	_	start_char=250|end_char=255
+2	walked	walk	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=256|end_char=262
+3	around	around	ADP	IN	_	5	case	_	start_char=263|end_char=269
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=270|end_char=273
+5	store	store	NOUN	NN	Number=Sing	2	obl	_	start_char=274|end_char=279|SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	start_char=279|end_char=280
+
+# text = He didn't see any pets.
+# sent_id = 9
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=281|end_char=283
+2-3	didn't	_	_	_	_	_	_	_	start_char=284|end_char=290
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	start_char=284|end_char=287
+3	n't	not	PART	RB	Polarity=Neg	4	advmod	_	start_char=287|end_char=290
+4	see	see	VERB	VB	VerbForm=Inf	0	root	_	start_char=291|end_char=294
+5	any	any	DET	DT	PronType=Ind	6	det	_	start_char=295|end_char=298
+6	pets	pet	NOUN	NNS	Number=Plur	4	obj	_	start_char=299|end_char=303|SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	start_char=303|end_char=304
+
+# text = He didn't see one pet.
+# sent_id = 10
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=305|end_char=307
+2-3	didn't	_	_	_	_	_	_	_	start_char=308|end_char=314
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	start_char=308|end_char=311
+3	n't	not	PART	RB	Polarity=Neg	4	advmod	_	start_char=311|end_char=314
+4	see	see	VERB	VB	VerbForm=Inf	0	root	_	start_char=315|end_char=318
+5	one	one	NUM	CD	NumForm=Word|NumType=Card	6	nummod	_	start_char=319|end_char=322
+6	pet	pet	NOUN	NN	Number=Sing	4	obj	_	start_char=323|end_char=326|SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	start_char=326|end_char=327
+
+# text = "Where are the pets?" he asked.
+# sent_id = 11
+1	"	"	PUNCT	``	_	2	punct	_	start_char=328|end_char=329|SpaceAfter=No
+2	Where	where	ADV	WRB	PronType=Int	9	ccomp	_	start_char=329|end_char=334
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	start_char=335|end_char=338
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=339|end_char=342
+5	pets	pet	NOUN	NNS	Number=Plur	2	nsubj	_	start_char=343|end_char=347|SpaceAfter=No
+6	?	?	PUNCT	.	_	2	punct	_	start_char=347|end_char=348|SpaceAfter=No
+7	"	"	PUNCT	''	_	2	punct	_	start_char=348|end_char=349
+8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	start_char=350|end_char=352
+9	asked	ask	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=353|end_char=358|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	punct	_	start_char=358|end_char=359
+
+# text = "The pets are right here," said Paul.
+# sent_id = 12
+1	"	"	PUNCT	``	_	6	punct	_	start_char=360|end_char=361|SpaceAfter=No
+2	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=361|end_char=364
+3	pets	pet	NOUN	NNS	Number=Plur	6	nsubj	_	start_char=365|end_char=369
+4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=370|end_char=373
+5	right	right	ADJ	JJ	Degree=Pos	6	advmod	_	start_char=374|end_char=379
+6	here	here	ADV	RB	PronType=Dem	9	ccomp	_	start_char=380|end_char=384|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	start_char=384|end_char=385|SpaceAfter=No
+8	"	"	PUNCT	''	_	6	punct	_	start_char=385|end_char=386
+9	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=387|end_char=391
+10	Paul	Paul	PROPN	NNP	Number=Sing	9	nsubj	_	start_char=392|end_char=396|SpaceAfter=No
+11	.	.	PUNCT	.	_	9	punct	_	start_char=396|end_char=397
+
+# text = Paul opened a catalog.
+# sent_id = 13
+1	Paul	Paul	PROPN	NNP	Number=Sing	2	nsubj	_	start_char=398|end_char=402
+2	opened	open	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=403|end_char=409
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	start_char=410|end_char=411
+4	catalog	catalog	NOUN	NN	Number=Sing	2	obj	_	start_char=412|end_char=419|SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	start_char=419|end_char=420
+
+# text = The catalog was full of pictures.
+# sent_id = 14
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=421|end_char=424
+2	catalog	catalog	NOUN	NN	Number=Sing	4	nsubj	_	start_char=425|end_char=432
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	start_char=433|end_char=436
+4	full	full	ADJ	JJ	Degree=Pos	0	root	_	start_char=437|end_char=441
+5	of	of	ADP	IN	_	6	case	_	start_char=442|end_char=444
+6	pictures	picture	NOUN	NNS	Number=Plur	4	obl	_	start_char=445|end_char=453|SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	start_char=453|end_char=454
+
+# text = It was full of pictures of pets.
+# sent_id = 15
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=455|end_char=457
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	start_char=458|end_char=461
+3	full	full	ADJ	JJ	Degree=Pos	0	root	_	start_char=462|end_char=466
+4	of	of	ADP	IN	_	5	case	_	start_char=467|end_char=469
+5	pictures	picture	NOUN	NNS	Number=Plur	3	obl	_	start_char=470|end_char=478
+6	of	of	ADP	IN	_	7	case	_	start_char=479|end_char=481
+7	pets	pet	NOUN	NNS	Number=Plur	5	nmod	_	start_char=482|end_char=486|SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	start_char=486|end_char=487
+
+# text = "Just pick any pet you like," said Paul.
+# sent_id = 16
+1	"	"	PUNCT	``	_	3	punct	_	start_char=488|end_char=489|SpaceAfter=No
+2	Just	just	ADV	RB	_	3	advmod	_	start_char=489|end_char=493
+3	pick	pick	VERB	VB	Mood=Imp|VerbForm=Fin	10	ccomp	_	start_char=494|end_char=498
+4	any	any	DET	DT	PronType=Ind	5	det	_	start_char=499|end_char=502
+5	pet	pet	NOUN	NN	Number=Sing	3	obj	_	start_char=503|end_char=506
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	start_char=507|end_char=510
+7	like	like	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	start_char=511|end_char=515|SpaceAfter=No
+8	,	,	PUNCT	,	_	3	punct	_	start_char=515|end_char=516|SpaceAfter=No
+9	"	"	PUNCT	''	_	3	punct	_	start_char=516|end_char=517
+10	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=518|end_char=522
+11	Paul	Paul	PROPN	NNP	Number=Sing	10	nsubj	_	start_char=523|end_char=527|SpaceAfter=No
+12	.	.	PUNCT	.	_	10	punct	_	start_char=527|end_char=528
+
+# text = "We will mail it to you."
+# sent_id = 17
+1	"	"	PUNCT	``	_	4	punct	_	start_char=529|end_char=530|SpaceAfter=No
+2	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	start_char=530|end_char=532
+3	will	will	AUX	MD	VerbForm=Fin	4	aux	_	start_char=533|end_char=537
+4	mail	mail	VERB	VB	VerbForm=Inf	0	root	_	start_char=538|end_char=542
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	start_char=543|end_char=545
+6	to	to	ADP	IN	_	7	case	_	start_char=546|end_char=548
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	obl	_	start_char=549|end_char=552|SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	start_char=552|end_char=553|SpaceAfter=No
+9	"	"	PUNCT	''	_	4	punct	_	start_char=553|end_char=554
+
+# text = "What if I don't like it?" asked Brian.
+# sent_id = 18
+1	"	"	PUNCT	``	_	2	punct	_	start_char=555|end_char=556|SpaceAfter=No
+2	What	what	PRON	WP	PronType=Int	11	ccomp	_	start_char=556|end_char=560
+3	if	if	SCONJ	IN	_	7	mark	_	start_char=561|end_char=563
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	start_char=564|end_char=565
+5-6	don't	_	_	_	_	_	_	_	start_char=566|end_char=571
+5	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=566|end_char=568
+6	n't	not	PART	RB	Polarity=Neg	7	advmod	_	start_char=568|end_char=571
+7	like	like	VERB	VB	VerbForm=Inf	2	advcl	_	start_char=572|end_char=576
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obj	_	start_char=577|end_char=579|SpaceAfter=No
+9	?	?	PUNCT	.	_	2	punct	_	start_char=579|end_char=580|SpaceAfter=No
+10	"	"	PUNCT	''	_	2	punct	_	start_char=580|end_char=581
+11	asked	ask	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=582|end_char=587
+12	Brian	Brian	PROPN	NNP	Number=Sing	11	nsubj	_	start_char=588|end_char=593|SpaceAfter=No
+13	.	.	PUNCT	.	_	11	punct	_	start_char=593|end_char=594
+
+# text = "Just mail it back," said Paul.
+# sent_id = 19
+1	"	"	PUNCT	``	_	3	punct	_	start_char=595|end_char=596|SpaceAfter=No
+2	Just	just	ADV	RB	_	3	advmod	_	start_char=596|end_char=600
+3	mail	mail	VERB	VB	Mood=Imp|VerbForm=Fin	8	ccomp	_	start_char=601|end_char=605
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	start_char=606|end_char=608
+5	back	back	ADP	RP	_	3	compound:prt	_	start_char=609|end_char=613|SpaceAfter=No
+6	,	,	PUNCT	,	_	3	punct	_	start_char=613|end_char=614|SpaceAfter=No
+7	"	"	PUNCT	''	_	3	punct	_	start_char=614|end_char=615
+8	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=616|end_char=620
+9	Paul	Paul	PROPN	NNP	Number=Sing	8	nsubj	_	start_char=621|end_char=625|SpaceAfter=No
+10	.	.	PUNCT	.	_	8	punct	_	start_char=625|end_char=626|SpaceAfter=No
+

@@ -1,0 +1,177 @@
+# text = Frank is not an old man.
+# sent_id = 0
+1	Frank	Frank	PROPN	NNP	Number=Sing	6	nsubj	_	start_char=0|end_char=5
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=6|end_char=8
+3	not	not	PART	RB	Polarity=Neg	6	advmod	_	start_char=9|end_char=12
+4	an	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=13|end_char=15
+5	old	old	ADJ	JJ	Degree=Pos	6	amod	_	start_char=16|end_char=19
+6	man	man	NOUN	NN	Number=Sing	0	root	_	start_char=20|end_char=23|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	start_char=23|end_char=24
+
+# text = He is only 61 years old.
+# sent_id = 1
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=25|end_char=27
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=28|end_char=30
+3	only	only	ADV	RB	_	6	advmod	_	start_char=31|end_char=35
+4	61	61	NUM	CD	NumForm=Digit|NumType=Card	5	nummod	_	start_char=36|end_char=38
+5	years	year	NOUN	NNS	Number=Plur	6	obl:unmarked	_	start_char=39|end_char=44
+6	old	old	ADJ	JJ	Degree=Pos	0	root	_	start_char=45|end_char=48|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	start_char=48|end_char=49
+
+# text = But he is dying.
+# sent_id = 2
+1	But	but	CCONJ	CC	_	4	cc	_	start_char=50|end_char=53
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=54|end_char=56
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=57|end_char=59
+4	dying	die	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=60|end_char=65|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	start_char=65|end_char=66
+
+# text = He is in the home for old people.
+# sent_id = 3
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=67|end_char=69
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=70|end_char=72
+3	in	in	ADP	IN	_	5	case	_	start_char=73|end_char=75
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=76|end_char=79
+5	home	home	NOUN	NN	Number=Sing	0	root	_	start_char=80|end_char=84
+6	for	for	ADP	IN	_	8	case	_	start_char=85|end_char=88
+7	old	old	ADJ	JJ	Degree=Pos	8	amod	_	start_char=89|end_char=92
+8	people	person	NOUN	NNS	Number=Plur	5	nmod	_	start_char=93|end_char=99|SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	start_char=99|end_char=100
+
+# text = Nobody visits him.
+# sent_id = 4
+1	Nobody	nobody	PRON	NN	Number=Sing|PronType=Neg	2	nsubj	_	start_char=101|end_char=107
+2	visits	visit	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=108|end_char=114
+3	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	start_char=115|end_char=118|SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	start_char=118|end_char=119
+
+# text = His wife doesn't visit him.
+# sent_id = 5
+1	His	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=120|end_char=123
+2	wife	wife	NOUN	NN	Number=Sing	5	nsubj	_	start_char=124|end_char=128
+3-4	doesn't	_	_	_	_	_	_	_	start_char=129|end_char=136
+3	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=129|end_char=133
+4	n't	not	PART	RB	Polarity=Neg	5	advmod	_	start_char=133|end_char=136
+5	visit	visit	VERB	VB	VerbForm=Inf	0	root	_	start_char=137|end_char=142
+6	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	start_char=143|end_char=146|SpaceAfter=No
+7	.	.	PUNCT	.	_	5	punct	_	start_char=146|end_char=147
+
+# text = She is already dead.
+# sent_id = 6
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=148|end_char=151
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=152|end_char=154
+3	already	already	ADV	RB	_	4	advmod	_	start_char=155|end_char=162
+4	dead	dead	ADJ	JJ	Degree=Pos	0	root	_	start_char=163|end_char=167|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	start_char=167|end_char=168
+
+# text = She died six months ago.
+# sent_id = 7
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=169|end_char=172
+2	died	die	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=173|end_char=177
+3	six	six	NUM	CD	NumForm=Word|NumType=Card	4	nummod	_	start_char=178|end_char=181
+4	months	month	NOUN	NNS	Number=Plur	5	obl:unmarked	_	start_char=182|end_char=188
+5	ago	ago	ADV	RB	_	2	advmod	_	start_char=189|end_char=192|SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	start_char=192|end_char=193
+
+# text = She died in the street.
+# sent_id = 8
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=194|end_char=197
+2	died	die	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=198|end_char=202
+3	in	in	ADP	IN	_	5	case	_	start_char=203|end_char=205
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=206|end_char=209
+5	street	street	NOUN	NN	Number=Sing	2	obl	_	start_char=210|end_char=216|SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	start_char=216|end_char=217
+
+# text = She was crossing the street.
+# sent_id = 9
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=218|end_char=221
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	start_char=222|end_char=225
+3	crossing	cross	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=226|end_char=234
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=235|end_char=238
+5	street	street	NOUN	NN	Number=Sing	3	obj	_	start_char=239|end_char=245|SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	start_char=245|end_char=246
+
+# text = A car ran over her.
+# sent_id = 10
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	start_char=247|end_char=248
+2	car	car	NOUN	NN	Number=Sing	3	nsubj	_	start_char=249|end_char=252
+3	ran	run	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=253|end_char=256
+4	over	over	ADP	IN	_	5	case	_	start_char=257|end_char=261
+5	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obl	_	start_char=262|end_char=265|SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	start_char=265|end_char=266
+
+# text = Frank loves his wife.
+# sent_id = 11
+1	Frank	Frank	PROPN	NNP	Number=Sing	2	nsubj	_	start_char=267|end_char=272
+2	loves	love	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=273|end_char=278
+3	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	start_char=279|end_char=282
+4	wife	wife	NOUN	NN	Number=Sing	2	obj	_	start_char=283|end_char=287|SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	start_char=287|end_char=288
+
+# text = He got sick after she died.
+# sent_id = 12
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=289|end_char=291
+2	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=292|end_char=295
+3	sick	sick	ADJ	JJ	Degree=Pos	2	xcomp	_	start_char=296|end_char=300
+4	after	after	SCONJ	IN	_	6	mark	_	start_char=301|end_char=306
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=307|end_char=310
+6	died	die	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	advcl	_	start_char=311|end_char=315|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	start_char=315|end_char=316
+
+# text = He never got better.
+# sent_id = 13
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=317|end_char=319
+2	never	never	ADV	RB	PronType=Neg	3	advmod	_	start_char=320|end_char=325
+3	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=326|end_char=329
+4	better	good	ADJ	JJR	Degree=Cmp	3	xcomp	_	start_char=330|end_char=336|SpaceAfter=No
+5	.	.	PUNCT	.	_	3	punct	_	start_char=336|end_char=337
+
+# text = The doctor says that nothing is wrong with Frank's body.
+# sent_id = 14
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=338|end_char=341
+2	doctor	doctor	NOUN	NN	Number=Sing	3	nsubj	_	start_char=342|end_char=348
+3	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=349|end_char=353
+4	that	that	SCONJ	IN	_	7	mark	_	start_char=354|end_char=358
+5	nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	7	nsubj	_	start_char=359|end_char=366
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=367|end_char=369
+7	wrong	wrong	ADJ	JJ	Degree=Pos	3	ccomp	_	start_char=370|end_char=375
+8	with	with	ADP	IN	_	11	case	_	start_char=376|end_char=380
+9-10	Frank's	_	_	_	_	_	_	_	start_char=381|end_char=388
+9	Frank	Frank	PROPN	NNP	Number=Sing	11	nmod:poss	_	start_char=381|end_char=386
+10	's	's	PART	POS	_	9	case	_	start_char=386|end_char=388
+11	body	body	NOUN	NN	Number=Sing	7	obl	_	start_char=389|end_char=393|SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	start_char=393|end_char=394
+
+# text = The doctor says that Frank wants to die.
+# sent_id = 15
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=395|end_char=398
+2	doctor	doctor	NOUN	NN	Number=Sing	3	nsubj	_	start_char=399|end_char=405
+3	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=406|end_char=410
+4	that	that	SCONJ	IN	_	6	mark	_	start_char=411|end_char=415
+5	Frank	Frank	PROPN	NNP	Number=Sing	6	nsubj	_	start_char=416|end_char=421
+6	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	start_char=422|end_char=427
+7	to	to	PART	TO	_	8	mark	_	start_char=428|end_char=430
+8	die	die	VERB	VB	VerbForm=Inf	6	xcomp	_	start_char=431|end_char=434|SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	start_char=434|end_char=435
+
+# text = The doctor is right.
+# sent_id = 16
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=436|end_char=439
+2	doctor	doctor	NOUN	NN	Number=Sing	4	nsubj	_	start_char=440|end_char=446
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=447|end_char=449
+4	right	right	ADJ	JJ	Degree=Pos	0	root	_	start_char=450|end_char=455|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	start_char=455|end_char=456
+
+# text = Frank does not want to live without his wife.
+# sent_id = 17
+1	Frank	Frank	PROPN	NNP	Number=Sing	4	nsubj	_	start_char=457|end_char=462
+2	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=463|end_char=467
+3	not	not	PART	RB	Polarity=Neg	4	advmod	_	start_char=468|end_char=471
+4	want	want	VERB	VB	VerbForm=Inf	0	root	_	start_char=472|end_char=476
+5	to	to	PART	TO	_	6	mark	_	start_char=477|end_char=479
+6	live	live	VERB	VB	VerbForm=Inf	4	xcomp	_	start_char=480|end_char=484
+7	without	without	ADP	IN	_	9	case	_	start_char=485|end_char=492
+8	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	start_char=493|end_char=496
+9	wife	wife	NOUN	NN	Number=Sing	6	obl	_	start_char=497|end_char=501|SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	start_char=501|end_char=502|SpaceAfter=No
+

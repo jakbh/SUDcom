@@ -1,0 +1,218 @@
+# text = She wanted to have a baby.
+# sent_id = 0
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=0|end_char=3
+2	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=4|end_char=10
+3	to	to	PART	TO	_	4	mark	_	start_char=11|end_char=13
+4	have	have	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=14|end_char=18
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=19|end_char=20
+6	baby	baby	NOUN	NN	Number=Sing	4	obj	_	start_char=21|end_char=25|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	start_char=25|end_char=26
+
+# text = She wanted to have a baby girl.
+# sent_id = 1
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=27|end_char=30
+2	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=31|end_char=37
+3	to	to	PART	TO	_	4	mark	_	start_char=38|end_char=40
+4	have	have	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=41|end_char=45
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=46|end_char=47
+6	baby	baby	NOUN	NN	Number=Sing	7	compound	_	start_char=48|end_char=52
+7	girl	girl	NOUN	NN	Number=Sing	4	obj	_	start_char=53|end_char=57|SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	start_char=57|end_char=58
+
+# text = He wanted to have a baby.
+# sent_id = 2
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=59|end_char=61
+2	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=62|end_char=68
+3	to	to	PART	TO	_	4	mark	_	start_char=69|end_char=71
+4	have	have	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=72|end_char=76
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=77|end_char=78
+6	baby	baby	NOUN	NN	Number=Sing	4	obj	_	start_char=79|end_char=83|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	start_char=83|end_char=84
+
+# text = He wanted to have a baby boy.
+# sent_id = 3
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=85|end_char=87
+2	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=88|end_char=94
+3	to	to	PART	TO	_	4	mark	_	start_char=95|end_char=97
+4	have	have	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=98|end_char=102
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=103|end_char=104
+6	baby	baby	NOUN	NN	Number=Sing	7	compound	_	start_char=105|end_char=109
+7	boy	boy	NOUN	NN	Number=Sing	4	obj	_	start_char=110|end_char=113|SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	start_char=113|end_char=114
+
+# text = He loved her.
+# sent_id = 4
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=115|end_char=117
+2	loved	love	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=118|end_char=123
+3	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obj	_	start_char=124|end_char=127|SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	start_char=127|end_char=128
+
+# text = He said, "Okay, we will have a baby girl."
+# sent_id = 5
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=129|end_char=131
+2	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=132|end_char=136|SpaceAfter=No
+3	,	,	PUNCT	,	_	9	punct	_	start_char=136|end_char=137
+4	"	"	PUNCT	``	_	9	punct	_	start_char=138|end_char=139|SpaceAfter=No
+5	Okay	okay	INTJ	UH	_	9	discourse	_	start_char=139|end_char=143|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	start_char=143|end_char=144
+7	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	start_char=145|end_char=147
+8	will	will	AUX	MD	VerbForm=Fin	9	aux	_	start_char=148|end_char=152
+9	have	have	VERB	VB	VerbForm=Inf	2	ccomp	_	start_char=153|end_char=157
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	start_char=158|end_char=159
+11	baby	baby	NOUN	NN	Number=Sing	12	compound	_	start_char=160|end_char=164
+12	girl	girl	NOUN	NN	Number=Sing	9	obj	_	start_char=165|end_char=169|SpaceAfter=No
+13	.	.	PUNCT	.	_	9	punct	_	start_char=169|end_char=170|SpaceAfter=No
+14	"	"	PUNCT	''	_	9	punct	_	start_char=170|end_char=171
+
+# text = She loved him.
+# sent_id = 6
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=172|end_char=175
+2	loved	love	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=176|end_char=181
+3	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	start_char=182|end_char=185|SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	start_char=185|end_char=186
+
+# text = She said, "Okay, we will have a baby boy."
+# sent_id = 7
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=187|end_char=190
+2	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=191|end_char=195|SpaceAfter=No
+3	,	,	PUNCT	,	_	9	punct	_	start_char=195|end_char=196
+4	"	"	PUNCT	``	_	9	punct	_	start_char=197|end_char=198|SpaceAfter=No
+5	Okay	okay	INTJ	UH	_	9	discourse	_	start_char=198|end_char=202|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	start_char=202|end_char=203
+7	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	start_char=204|end_char=206
+8	will	will	AUX	MD	VerbForm=Fin	9	aux	_	start_char=207|end_char=211
+9	have	have	VERB	VB	VerbForm=Inf	2	ccomp	_	start_char=212|end_char=216
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	start_char=217|end_char=218
+11	baby	baby	NOUN	NN	Number=Sing	12	compound	_	start_char=219|end_char=223
+12	boy	boy	NOUN	NN	Number=Sing	9	obj	_	start_char=224|end_char=227|SpaceAfter=No
+13	.	.	PUNCT	.	_	9	punct	_	start_char=227|end_char=228|SpaceAfter=No
+14	"	"	PUNCT	''	_	9	punct	_	start_char=228|end_char=229
+
+# text = They both loved each other.
+# sent_id = 8
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=230|end_char=234
+2	both	both	DET	DT	PronType=Tot	1	det	_	start_char=235|end_char=239
+3	loved	love	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=240|end_char=245
+4	each	each	DET	DT	ExtPos=PRON|PronType=Rcp	3	obj	_	start_char=246|end_char=250
+5	other	other	ADJ	JJ	Degree=Pos	4	fixed	_	start_char=251|end_char=256|SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	start_char=256|end_char=257
+
+# text = They both wanted to make each other happy.
+# sent_id = 9
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=258|end_char=262
+2	both	both	DET	DT	PronType=Tot	1	det	_	start_char=263|end_char=267
+3	wanted	want	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=268|end_char=274
+4	to	to	PART	TO	_	5	mark	_	start_char=275|end_char=277
+5	make	make	VERB	VB	VerbForm=Inf	3	xcomp	_	start_char=278|end_char=282
+6	each	each	DET	DT	ExtPos=PRON|PronType=Rcp	5	obj	_	start_char=283|end_char=287
+7	other	other	ADJ	JJ	Degree=Pos	6	fixed	_	start_char=288|end_char=293
+8	happy	happy	ADJ	JJ	Degree=Pos	5	xcomp	_	start_char=294|end_char=299|SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	start_char=299|end_char=300
+
+# text = He talked to his parents.
+# sent_id = 10
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=301|end_char=303
+2	talked	talk	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=304|end_char=310
+3	to	to	ADP	IN	_	5	case	_	start_char=311|end_char=313
+4	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=314|end_char=317
+5	parents	parent	NOUN	NNS	Number=Plur	2	obl	_	start_char=318|end_char=325|SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	start_char=325|end_char=326
+
+# text = He asked them what to do.
+# sent_id = 11
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=327|end_char=329
+2	asked	ask	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=330|end_char=335
+3	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	iobj	_	start_char=336|end_char=340
+4	what	what	PRON	WP	PronType=Int	6	obj	_	start_char=341|end_char=345
+5	to	to	PART	TO	_	6	mark	_	start_char=346|end_char=348
+6	do	do	VERB	VB	VerbForm=Inf	2	ccomp	_	start_char=349|end_char=351|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	start_char=351|end_char=352
+
+# text = She talked to her parents.
+# sent_id = 12
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=353|end_char=356
+2	talked	talk	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=357|end_char=363
+3	to	to	ADP	IN	_	5	case	_	start_char=364|end_char=366
+4	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=367|end_char=370
+5	parents	parent	NOUN	NNS	Number=Plur	2	obl	_	start_char=371|end_char=378|SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	start_char=378|end_char=379
+
+# text = She asked them what to do.
+# sent_id = 13
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=380|end_char=383
+2	asked	ask	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=384|end_char=389
+3	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	iobj	_	start_char=390|end_char=394
+4	what	what	PRON	WP	PronType=Int	6	obj	_	start_char=395|end_char=399
+5	to	to	PART	TO	_	6	mark	_	start_char=400|end_char=402
+6	do	do	VERB	VB	VerbForm=Inf	2	ccomp	_	start_char=403|end_char=405|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	start_char=405|end_char=406
+
+# text = His parents said, "No problem.
+# sent_id = 14
+1	His	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=407|end_char=410
+2	parents	parent	NOUN	NNS	Number=Plur	3	nsubj	_	start_char=411|end_char=418
+3	said	say	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=419|end_char=423|SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	start_char=423|end_char=424
+5	"	"	PUNCT	``	_	7	punct	_	start_char=425|end_char=426|SpaceAfter=No
+6	No	no	DET	DT	PronType=Neg	7	det	_	start_char=426|end_char=428
+7	problem	problem	NOUN	NN	Number=Sing	3	ccomp	_	start_char=429|end_char=436|SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	start_char=436|end_char=437
+
+# text = Have two babies.
+# sent_id = 15
+1	Have	have	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=438|end_char=442
+2	two	two	NUM	CD	NumForm=Word|NumType=Card	3	nummod	_	start_char=443|end_char=446
+3	babies	baby	NOUN	NNS	Number=Plur	1	obj	_	start_char=447|end_char=453|SpaceAfter=No
+4	.	.	PUNCT	.	_	1	punct	_	start_char=453|end_char=454
+
+# text = Have a baby girl and a baby boy."
+# sent_id = 16
+1	Have	have	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=455|end_char=459
+2	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	start_char=460|end_char=461
+3	baby	baby	NOUN	NN	Number=Sing	4	compound	_	start_char=462|end_char=466
+4	girl	girl	NOUN	NN	Number=Sing	1	obj	_	start_char=467|end_char=471
+5	and	and	CCONJ	CC	_	8	cc	_	start_char=472|end_char=475
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=476|end_char=477
+7	baby	baby	NOUN	NN	Number=Sing	8	compound	_	start_char=478|end_char=482
+8	boy	boy	NOUN	NN	Number=Sing	4	conj	_	start_char=483|end_char=486|SpaceAfter=No
+9	.	.	PUNCT	.	_	1	punct	_	start_char=486|end_char=487|SpaceAfter=No
+10	"	"	PUNCT	''	_	1	punct	_	start_char=487|end_char=488
+
+# text = Her parents said the same thing!
+# sent_id = 17
+1	Her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=489|end_char=492
+2	parents	parent	NOUN	NNS	Number=Plur	3	nsubj	_	start_char=493|end_char=500
+3	said	say	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=501|end_char=505
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=506|end_char=509
+5	same	same	ADJ	JJ	Degree=Pos	6	amod	_	start_char=510|end_char=514
+6	thing	thing	NOUN	NN	Number=Sing	3	obj	_	start_char=515|end_char=520|SpaceAfter=No
+7	!	!	PUNCT	.	_	3	punct	_	start_char=520|end_char=521
+
+# text = So they had two babies.
+# sent_id = 18
+1	So	so	ADV	RB	_	3	advmod	_	start_char=522|end_char=524
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=525|end_char=529
+3	had	have	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=530|end_char=533
+4	two	two	NUM	CD	NumForm=Word|NumType=Card	5	nummod	_	start_char=534|end_char=537
+5	babies	baby	NOUN	NNS	Number=Plur	3	obj	_	start_char=538|end_char=544|SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	start_char=544|end_char=545
+
+# text = They had a baby girl.
+# sent_id = 19
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=546|end_char=550
+2	had	have	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=551|end_char=554
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=555|end_char=556
+4	baby	baby	NOUN	NN	Number=Sing	5	compound	_	start_char=557|end_char=561
+5	girl	girl	NOUN	NN	Number=Sing	2	obj	_	start_char=562|end_char=566|SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	start_char=566|end_char=567
+
+# text = Then they had a baby boy.
+# sent_id = 20
+1	Then	then	ADV	RB	PronType=Dem	3	advmod	_	start_char=568|end_char=572
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=573|end_char=577
+3	had	have	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=578|end_char=581
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=582|end_char=583
+5	baby	baby	NOUN	NN	Number=Sing	6	compound	_	start_char=584|end_char=588
+6	boy	boy	NOUN	NN	Number=Sing	3	obj	_	start_char=589|end_char=592|SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	start_char=592|end_char=593|SpaceAfter=No
+

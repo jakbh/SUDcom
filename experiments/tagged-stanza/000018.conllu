@@ -1,0 +1,217 @@
+# text = Heard it's supposed to rain.
+# sent_id = 0
+1	Heard	Heard	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=0|end_char=5
+2-3	it's	_	_	_	_	_	_	_	start_char=6|end_char=10
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	_	start_char=6|end_char=8
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	start_char=8|end_char=10
+4	supposed	suppose	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	1	ccomp	_	start_char=11|end_char=19
+5	to	to	PART	TO	_	6	mark	_	start_char=20|end_char=22
+6	rain	rain	VERB	VB	VerbForm=Inf	4	xcomp	_	start_char=23|end_char=27|SpaceAfter=No
+7	.	.	PUNCT	.	_	1	punct	_	start_char=27|end_char=28|SpacesAfter=\r\n
+
+# text = Where did you hear that from?
+# sent_id = 1
+1	Where	where	ADV	WRB	PronType=Int	4	advmod	_	start_char=30|end_char=35
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	4	aux	_	start_char=36|end_char=39
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	start_char=40|end_char=43
+4	hear	hear	VERB	VB	VerbForm=Inf	0	root	_	start_char=44|end_char=48
+5	that	that	PRON	DT	Number=Sing|PronType=Dem	4	obj	_	start_char=49|end_char=53
+6	from	from	ADP	IN	_	4	obl	_	start_char=54|end_char=58|SpaceAfter=No
+7	?	?	PUNCT	.	_	4	punct	_	start_char=58|end_char=59|SpacesAfter=\r\n
+
+# text = The news.
+# sent_id = 2
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=61|end_char=64
+2	news	news	NOUN	NN	Number=Sing	0	root	_	start_char=65|end_char=69|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	start_char=69|end_char=70
+
+# text = The weatherman said there is a high probability of rain.
+# sent_id = 3
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=71|end_char=74
+2	weatherman	weatherman	NOUN	NN	Number=Sing	3	nsubj	_	start_char=75|end_char=85
+3	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=86|end_char=90
+4	there	there	PRON	EX	_	5	expl	_	start_char=91|end_char=96
+5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	start_char=97|end_char=99
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=100|end_char=101
+7	high	high	ADJ	JJ	Degree=Pos	8	amod	_	start_char=102|end_char=106
+8	probability	probability	NOUN	NN	Number=Sing	5	nsubj	_	start_char=107|end_char=118
+9	of	of	ADP	IN	_	10	case	_	start_char=119|end_char=121
+10	rain	rain	NOUN	NN	Number=Sing	8	nmod	_	start_char=122|end_char=126|SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	start_char=126|end_char=127|SpacesAfter=\r\n
+
+# text = Since when have you started watching the news?
+# sent_id = 4
+1	Since	since	SCONJ	IN	_	5	mark	_	start_char=129|end_char=134
+2	when	when	ADV	WRB	PronType=Int	5	advmod	_	start_char=135|end_char=139
+3	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=140|end_char=144
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	start_char=145|end_char=148
+5	started	start	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=149|end_char=156
+6	watching	watch	VERB	VBG	VerbForm=Ger	5	xcomp	_	start_char=157|end_char=165
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=166|end_char=169
+8	news	news	NOUN	NN	Number=Sing	6	obj	_	start_char=170|end_char=174|SpaceAfter=No
+9	?	?	PUNCT	.	_	5	punct	_	start_char=174|end_char=175|SpacesAfter=\r\n
+
+# text = I've always watched the news.
+# sent_id = 5
+1-2	I've	_	_	_	_	_	_	_	start_char=177|end_char=181
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=177|end_char=178
+2	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=178|end_char=181
+3	always	always	ADV	RB	PronType=Tot	4	advmod	_	start_char=182|end_char=188
+4	watched	watch	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=189|end_char=196
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=197|end_char=200
+6	news	news	NOUN	NN	Number=Sing	4	obj	_	start_char=201|end_char=205|SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	start_char=205|end_char=206
+
+# text = Well, at least to check out the weather.
+# sent_id = 6
+1	Well	well	INTJ	UH	_	6	discourse	_	start_char=207|end_char=211|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=211|end_char=212
+3	at	at	ADP	IN	ExtPos=ADV	6	advmod	_	start_char=213|end_char=215
+4	least	least	ADJ	JJS	Degree=Sup	3	fixed	_	start_char=216|end_char=221
+5	to	to	PART	TO	_	6	mark	_	start_char=222|end_char=224
+6	check	check	VERB	VB	VerbForm=Inf	0	root	_	start_char=225|end_char=230
+7	out	out	ADP	RP	_	6	compound:prt	_	start_char=231|end_char=234
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=235|end_char=238
+9	weather	weather	NOUN	NN	Number=Sing	6	obj	_	start_char=239|end_char=246|SpaceAfter=No
+10	.	.	PUNCT	.	_	6	punct	_	start_char=246|end_char=247|SpacesAfter=\r\n
+
+# text = What else did they say about the weekend?
+# sent_id = 7
+1	What	what	PRON	WP	PronType=Int	5	obj	_	start_char=249|end_char=253
+2	else	else	ADV	RB	Degree=Pos	1	advmod	_	start_char=254|end_char=258
+3	did	do	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	start_char=259|end_char=262
+4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	start_char=263|end_char=267
+5	say	say	VERB	VB	VerbForm=Inf	0	root	_	start_char=268|end_char=271
+6	about	about	ADP	IN	_	8	case	_	start_char=272|end_char=277
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=278|end_char=281
+8	weekend	weekend	NOUN	NN	Number=Sing	5	obl	_	start_char=282|end_char=289|SpaceAfter=No
+9	?	?	PUNCT	.	_	5	punct	_	start_char=289|end_char=290|SpacesAfter=\r\n
+
+# text = I think they said it was going to rain throughout the weekend.
+# sent_id = 8
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=292|end_char=293
+2	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=294|end_char=299
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	start_char=300|end_char=304
+4	said	say	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	_	start_char=305|end_char=309
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=310|end_char=312
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	start_char=313|end_char=316
+7	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	4	ccomp	_	start_char=317|end_char=322
+8	to	to	PART	TO	_	9	mark	_	start_char=323|end_char=325
+9	rain	rain	VERB	VB	VerbForm=Inf	7	xcomp	_	start_char=326|end_char=330
+10	throughout	throughout	ADP	IN	_	12	case	_	start_char=331|end_char=341
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=342|end_char=345
+12	weekend	weekend	NOUN	NN	Number=Sing	9	obl	_	start_char=346|end_char=353|SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	start_char=353|end_char=354|SpacesAfter=\r\n
+
+# text = Throughout the weekend?
+# sent_id = 9
+1	Throughout	throughout	ADP	IN	_	3	case	_	start_char=356|end_char=366
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=367|end_char=370
+3	weekend	weekend	NOUN	NN	Number=Sing	0	root	_	start_char=371|end_char=378|SpaceAfter=No
+4	?	?	PUNCT	.	_	3	punct	_	start_char=378|end_char=379
+
+# text = Don't pull my chain.
+# sent_id = 10
+1-2	Don't	_	_	_	_	_	_	_	start_char=380|end_char=385
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	3	aux	_	start_char=380|end_char=382
+2	n't	not	PART	RB	Polarity=Neg	3	advmod	_	start_char=382|end_char=385
+3	pull	pull	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=386|end_char=390
+4	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=391|end_char=393
+5	chain	chain	NOUN	NN	Number=Sing	3	obj	_	start_char=394|end_char=399|SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	start_char=399|end_char=400|SpacesAfter=\r\n
+
+# text = I'm not.
+# sent_id = 11
+1-2	I'm	_	_	_	_	_	_	_	start_char=402|end_char=405
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=402|end_char=403
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=403|end_char=405
+3	not	not	PART	RB	Polarity=Neg	2	advmod	_	start_char=406|end_char=409|SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	start_char=409|end_char=410
+
+# text = They said it, not me.
+# sent_id = 12
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=411|end_char=415
+2	said	say	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=416|end_char=420
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	start_char=421|end_char=423|SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	start_char=423|end_char=424
+5	not	not	PART	RB	Polarity=Neg	6	advmod	_	start_char=425|end_char=428
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	parataxis	_	start_char=429|end_char=431|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	start_char=431|end_char=432
+
+# text = I know you had plans.
+# sent_id = 13
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=433|end_char=434
+2	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=435|end_char=439
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	start_char=440|end_char=443
+4	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	2	ccomp	_	start_char=444|end_char=447
+5	plans	plan	NOUN	NNS	Number=Plur	4	obj	_	start_char=448|end_char=453|SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	start_char=453|end_char=454|SpacesAfter=\r\n
+
+# text = Well, I don't believe it.
+# sent_id = 14
+1	Well	well	INTJ	UH	_	6	discourse	_	start_char=456|end_char=460|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=460|end_char=461
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=462|end_char=463
+4-5	don't	_	_	_	_	_	_	_	start_char=464|end_char=469
+4	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=464|end_char=466
+5	n't	not	PART	RB	Polarity=Neg	6	advmod	_	start_char=466|end_char=469
+6	believe	believe	VERB	VB	VerbForm=Inf	0	root	_	start_char=470|end_char=477
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	obj	_	start_char=478|end_char=480|SpaceAfter=No
+8	.	.	PUNCT	.	_	6	punct	_	start_char=480|end_char=481
+
+# text = Just like I don't believe you watch the news.
+# sent_id = 15
+1	Just	just	ADV	RB	_	6	advmod	_	start_char=482|end_char=486
+2	like	like	SCONJ	IN	_	6	mark	_	start_char=487|end_char=491
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=492|end_char=493
+4-5	don't	_	_	_	_	_	_	_	start_char=494|end_char=499
+4	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=494|end_char=496
+5	n't	not	PART	RB	Polarity=Neg	6	advmod	_	start_char=496|end_char=499
+6	believe	believe	VERB	VB	VerbForm=Inf	0	root	_	start_char=500|end_char=507
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	start_char=508|end_char=511
+8	watch	watch	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	ccomp	_	start_char=512|end_char=517
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=518|end_char=521
+10	news	news	NOUN	NN	Number=Sing	8	obj	_	start_char=522|end_char=526|SpaceAfter=No
+11	.	.	PUNCT	.	_	6	punct	_	start_char=526|end_char=527|SpacesAfter=\r\n
+
+# text = Okay, suit yourself.
+# sent_id = 16
+1	Okay	okay	INTJ	UH	_	3	discourse	_	start_char=529|end_char=533|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=533|end_char=534
+3	suit	suit	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=535|end_char=539
+4	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	3	obj	_	start_char=540|end_char=548|SpaceAfter=No
+5	.	.	PUNCT	.	_	3	punct	_	start_char=548|end_char=549
+
+# text = I'd take an umbrella though.
+# sent_id = 17
+1-2	I'd	_	_	_	_	_	_	_	start_char=550|end_char=553
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=550|end_char=551
+2	'd	would	AUX	MD	VerbForm=Fin	3	aux	_	start_char=551|end_char=553
+3	take	take	VERB	VB	VerbForm=Inf	0	root	_	start_char=554|end_char=558
+4	an	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=559|end_char=561
+5	umbrella	umbrella	NOUN	NN	Number=Sing	3	obj	_	start_char=562|end_char=570
+6	though	though	ADV	RB	_	3	advmod	_	start_char=571|end_char=577|SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	start_char=577|end_char=578|SpacesAfter=\r\n
+
+# text = I won't.
+# sent_id = 18
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=580|end_char=581
+2-3	won't	_	_	_	_	_	_	_	start_char=582|end_char=587|SpaceAfter=No
+2	wo	will	AUX	MD	VerbForm=Fin	0	root	_	start_char=582|end_char=584
+3	n't	not	PART	RB	Polarity=Neg	2	advmod	_	start_char=584|end_char=587
+4	.	.	PUNCT	.	_	2	punct	_	start_char=587|end_char=588
+
+# text = I'd rather get wet than listen to you.
+# sent_id = 19
+1-2	I'd	_	_	_	_	_	_	_	start_char=589|end_char=592
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=589|end_char=590
+2	'd	would	AUX	MD	VerbForm=Fin	4	aux	_	start_char=590|end_char=592
+3	rather	rather	ADV	RB	_	4	advmod	_	start_char=593|end_char=599
+4	get	get	VERB	VB	VerbForm=Inf	0	root	_	start_char=600|end_char=603
+5	wet	wet	ADJ	JJ	Degree=Pos	4	xcomp	_	start_char=604|end_char=607
+6	than	than	ADP	IN	_	7	mark	_	start_char=608|end_char=612
+7	listen	listen	VERB	VB	VerbForm=Inf	4	advcl	_	start_char=613|end_char=619
+8	to	to	ADP	IN	_	9	case	_	start_char=620|end_char=622
+9	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	7	obl	_	start_char=623|end_char=626|SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	start_char=626|end_char=627|SpaceAfter=No
+

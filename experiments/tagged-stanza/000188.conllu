@@ -1,0 +1,83 @@
+# text = Are we going fishing, dad?
+# sent_id = 0
+1	Are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=3|end_char=6|SpacesBefore=\t\r\n
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=7|end_char=9
+3	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=10|end_char=15
+4	fishing	fishing	NOUN	NN	Number=Sing	3	obj	_	start_char=16|end_char=23|SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	start_char=23|end_char=24
+6	dad	dad	NOUN	NN	Number=Sing	3	vocative	_	start_char=25|end_char=28|SpaceAfter=No
+7	?	?	PUNCT	.	_	3	punct	_	start_char=28|end_char=29|SpacesAfter=\r\n
+
+# text = Yes, Christopher.
+# sent_id = 1
+1	Yes	yes	INTJ	UH	Polarity=Pos	3	discourse	_	start_char=31|end_char=34|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=34|end_char=35
+3	Christopher	Christopher	PROPN	NNP	Number=Sing	0	root	_	start_char=36|end_char=47|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	start_char=47|end_char=48
+
+# text = Today is the day.
+# sent_id = 2
+1	Today	today	NOUN	NN	Number=Sing	4	nsubj	_	start_char=49|end_char=54
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=55|end_char=57
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=58|end_char=61
+4	day	day	NOUN	NN	Number=Sing	0	root	_	start_char=62|end_char=65|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	start_char=65|end_char=66|SpacesAfter=\r\n
+
+# text = Where are we going?
+# sent_id = 3
+1	Where	where	ADV	WRB	PronType=Int	4	advmod	_	start_char=68|end_char=73
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=74|end_char=77
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	start_char=78|end_char=80
+4	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=81|end_char=86|SpaceAfter=No
+5	?	?	PUNCT	.	_	4	punct	_	start_char=86|end_char=87|SpacesAfter=\r\n
+
+# text = To the lake, son.
+# sent_id = 4
+1	To	to	ADP	IN	_	3	case	_	start_char=89|end_char=91
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=92|end_char=95
+3	lake	lake	NOUN	NN	Number=Sing	0	root	_	start_char=96|end_char=100|SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	start_char=100|end_char=101
+5	son	son	NOUN	NN	Number=Sing	3	vocative	_	start_char=102|end_char=105|SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	start_char=105|end_char=106|SpacesAfter=\r\n
+
+# text = What do I bring?
+# sent_id = 5
+1	What	what	PRON	WP	PronType=Int	4	obj	_	start_char=108|end_char=112
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=113|end_char=115
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=116|end_char=117
+4	bring	bring	VERB	VB	VerbForm=Inf	0	root	_	start_char=118|end_char=123|SpaceAfter=No
+5	?	?	PUNCT	.	_	4	punct	_	start_char=123|end_char=124|SpacesAfter=\r\n
+
+# text = Just get your pole.
+# sent_id = 6
+1	Just	just	ADV	RB	_	2	advmod	_	start_char=126|end_char=130
+2	get	get	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=131|end_char=134
+3	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	4	nmod:poss	_	start_char=135|end_char=139
+4	pole	pole	NOUN	NN	Number=Sing	2	obj	_	start_char=140|end_char=144|SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	start_char=144|end_char=145
+
+# text = I got the rest.
+# sent_id = 7
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=146|end_char=147
+2	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=148|end_char=151
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=152|end_char=155
+4	rest	rest	NOUN	NN	Number=Sing	2	obj	_	start_char=156|end_char=160|SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	start_char=160|end_char=161|SpacesAfter=\r\n
+
+# text = I'm so happy.
+# sent_id = 8
+1-2	I'm	_	_	_	_	_	_	_	start_char=163|end_char=166
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=163|end_char=164
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=164|end_char=166
+3	so	so	ADV	RB	_	4	advmod	_	start_char=167|end_char=169
+4	happy	happy	ADJ	JJ	Degree=Pos	0	root	_	start_char=170|end_char=175|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	start_char=175|end_char=176|SpacesAfter=\r\n
+
+# text = Me too, son.
+# sent_id = 9
+1	Me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	0	root	_	start_char=178|end_char=180
+2	too	too	ADV	RB	_	1	advmod	_	start_char=181|end_char=184|SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	start_char=184|end_char=185
+4	son	son	NOUN	NN	Number=Sing	1	vocative	_	start_char=186|end_char=189|SpaceAfter=No
+5	.	.	PUNCT	.	_	1	punct	_	start_char=189|end_char=190|SpaceAfter=No
+

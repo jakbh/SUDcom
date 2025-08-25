@@ -1,0 +1,198 @@
+# text = Miss, you have been using the computer for over an hour now.
+# sent_id = 0
+1	Miss	Miss	PROPN	NNP	Number=Sing	6	vocative	_	start_char=0|end_char=4|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=4|end_char=5
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	start_char=6|end_char=9
+4	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=10|end_char=14
+5	been	be	AUX	VBN	Tense=Past|VerbForm=Part	6	aux	_	start_char=15|end_char=19
+6	using	use	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=20|end_char=25
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=26|end_char=29
+8	computer	computer	NOUN	NN	Number=Sing	6	obj	_	start_char=30|end_char=38
+9	for	for	ADP	IN	_	12	case	_	start_char=39|end_char=42
+10	over	over	ADP	IN	_	12	case	_	start_char=43|end_char=47
+11	an	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	start_char=48|end_char=50
+12	hour	hour	NOUN	NN	Number=Sing	6	obl	_	start_char=51|end_char=55
+13	now	now	ADV	RB	_	6	advmod	_	start_char=56|end_char=59|SpaceAfter=No
+14	.	.	PUNCT	.	_	6	punct	_	start_char=59|end_char=60|SpacesAfter=\r\n
+
+# text = I know, I'm sorry.
+# sent_id = 1
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=62|end_char=63
+2	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	parataxis	_	start_char=64|end_char=68|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	start_char=68|end_char=69
+4-5	I'm	_	_	_	_	_	_	_	start_char=70|end_char=73
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=70|end_char=71
+5	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=71|end_char=73
+6	sorry	sorry	ADJ	JJ	Degree=Pos	0	root	_	start_char=74|end_char=79|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	start_char=79|end_char=80|SpacesAfter=\r\n
+
+# text = Are you looking for something?
+# sent_id = 2
+1	Are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=82|end_char=85
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=86|end_char=89
+3	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=90|end_char=97
+4	for	for	ADP	IN	_	5	case	_	start_char=98|end_char=101
+5	something	something	PRON	NN	Number=Sing|PronType=Ind	3	obl	_	start_char=102|end_char=111|SpaceAfter=No
+6	?	?	PUNCT	.	_	3	punct	_	start_char=111|end_char=112|SpacesAfter=\r\n
+
+# text = I'm researching for my project.
+# sent_id = 3
+1-2	I'm	_	_	_	_	_	_	_	start_char=114|end_char=117
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=114|end_char=115
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=115|end_char=117
+3	researching	research	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=118|end_char=129
+4	for	for	ADP	IN	_	6	case	_	start_char=130|end_char=133
+5	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	start_char=134|end_char=136
+6	project	project	NOUN	NN	Number=Sing	3	obl	_	start_char=137|end_char=144|SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	start_char=144|end_char=145|SpacesAfter=\r\n
+
+# text = Can you come back tomorrow?
+# sent_id = 4
+1	Can	can	AUX	MD	VerbForm=Fin	3	aux	_	start_char=147|end_char=150
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=151|end_char=154
+3	come	come	VERB	VB	VerbForm=Inf	0	root	_	start_char=155|end_char=159
+4	back	back	ADV	RB	_	3	advmod	_	start_char=160|end_char=164
+5	tomorrow	tomorrow	NOUN	NN	Number=Sing	3	obl:unmarked	_	start_char=165|end_char=173|SpaceAfter=No
+6	?	?	PUNCT	.	_	3	punct	_	start_char=173|end_char=174
+
+# text = Your daily computer limit time is up.
+# sent_id = 5
+1	Your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=175|end_char=179
+2	daily	daily	ADJ	JJ	Degree=Pos	5	amod	_	start_char=180|end_char=185
+3	computer	computer	NOUN	NN	Number=Sing	4	compound	_	start_char=186|end_char=194
+4	limit	limit	NOUN	NN	Number=Sing	5	compound	_	start_char=195|end_char=200
+5	time	time	NOUN	NN	Number=Sing	7	nsubj	_	start_char=201|end_char=205
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=206|end_char=208
+7	up	up	ADV	RB	_	0	root	_	start_char=209|end_char=211|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	punct	_	start_char=211|end_char=212|SpacesAfter=\r\n
+
+# text = I don't have a computer at home.
+# sent_id = 6
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=214|end_char=215
+2-3	don't	_	_	_	_	_	_	_	start_char=216|end_char=221
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=216|end_char=218
+3	n't	not	PART	RB	Polarity=Neg	4	advmod	_	start_char=218|end_char=221
+4	have	have	VERB	VB	VerbForm=Inf	0	root	_	start_char=222|end_char=226
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=227|end_char=228
+6	computer	computer	NOUN	NN	Number=Sing	4	obj	_	start_char=229|end_char=237
+7	at	at	ADP	IN	_	8	case	_	start_char=238|end_char=240
+8	home	home	NOUN	NN	Number=Sing	4	obl	_	start_char=241|end_char=245|SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	start_char=245|end_char=246|SpacesAfter=\r\n
+
+# text = I'm sorry to hear that, but other people need to use the computer, too.
+# sent_id = 7
+1-2	I'm	_	_	_	_	_	_	_	start_char=248|end_char=251
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=248|end_char=249
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=249|end_char=251
+3	sorry	sorry	ADJ	JJ	Degree=Pos	0	root	_	start_char=252|end_char=257
+4	to	to	PART	TO	_	5	mark	_	start_char=258|end_char=260
+5	hear	hear	VERB	VB	VerbForm=Inf	3	xcomp	_	start_char=261|end_char=265
+6	that	that	PRON	DT	Number=Sing|PronType=Dem	5	obj	_	start_char=266|end_char=270|SpaceAfter=No
+7	,	,	PUNCT	,	_	11	punct	_	start_char=270|end_char=271
+8	but	but	CCONJ	CC	_	11	cc	_	start_char=272|end_char=275
+9	other	other	ADJ	JJ	Degree=Pos	10	amod	_	start_char=276|end_char=281
+10	people	person	NOUN	NNS	Number=Plur	11	nsubj	_	start_char=282|end_char=288
+11	need	need	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=289|end_char=293
+12	to	to	PART	TO	_	13	mark	_	start_char=294|end_char=296
+13	use	use	VERB	VB	VerbForm=Inf	11	xcomp	_	start_char=297|end_char=300
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	start_char=301|end_char=304
+15	computer	computer	NOUN	NN	Number=Sing	13	obj	_	start_char=305|end_char=313|SpaceAfter=No
+16	,	,	PUNCT	,	_	17	punct	_	start_char=313|end_char=314
+17	too	too	ADV	RB	_	13	advmod	_	start_char=315|end_char=318|SpaceAfter=No
+18	.	.	PUNCT	.	_	3	punct	_	start_char=318|end_char=319|SpacesAfter=\r\n
+
+# text = My project is due very soon.
+# sent_id = 8
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=321|end_char=323
+2	project	project	NOUN	NN	Number=Sing	4	nsubj	_	start_char=324|end_char=331
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=332|end_char=334
+4	due	due	ADJ	JJ	Degree=Pos	0	root	_	start_char=335|end_char=338
+5	very	very	ADV	RB	_	6	advmod	_	start_char=339|end_char=343
+6	soon	soon	ADV	RB	Degree=Pos	4	advmod	_	start_char=344|end_char=348|SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	start_char=348|end_char=349
+
+# text = I need to research.
+# sent_id = 9
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=350|end_char=351
+2	need	need	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=352|end_char=356
+3	to	to	PART	TO	_	4	mark	_	start_char=357|end_char=359
+4	research	research	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=360|end_char=368|SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	start_char=368|end_char=369|SpacesAfter=\r\n
+
+# text = How about books?
+# sent_id = 10
+1	How	how	ADV	WRB	PronType=Int	0	root	_	start_char=371|end_char=374
+2	about	about	ADP	IN	_	3	case	_	start_char=375|end_char=380
+3	books	book	NOUN	NNS	Number=Plur	1	obl	_	start_char=381|end_char=386|SpaceAfter=No
+4	?	?	PUNCT	.	_	1	punct	_	start_char=386|end_char=387
+
+# text = This is a library after all.
+# sent_id = 11
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	start_char=388|end_char=392
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=393|end_char=395
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	start_char=396|end_char=397
+4	library	library	NOUN	NN	Number=Sing	0	root	_	start_char=398|end_char=405
+5	after	after	ADP	IN	_	6	case	_	start_char=406|end_char=411
+6	all	all	DET	DT	PronType=Tot	4	obl	_	start_char=412|end_char=415|SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	start_char=415|end_char=416|SpacesAfter=\r\n
+
+# text = I looked for books on my project.
+# sent_id = 12
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=418|end_char=419
+2	looked	look	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=420|end_char=426
+3	for	for	ADP	IN	_	4	case	_	start_char=427|end_char=430
+4	books	book	NOUN	NNS	Number=Plur	2	obl	_	start_char=431|end_char=436
+5	on	on	ADP	IN	_	7	case	_	start_char=437|end_char=439
+6	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	start_char=440|end_char=442
+7	project	project	NOUN	NN	Number=Sing	2	obl	_	start_char=443|end_char=450|SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	start_char=450|end_char=451
+
+# text = They're not good at all.
+# sent_id = 13
+1-2	They're	_	_	_	_	_	_	_	start_char=452|end_char=459
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	start_char=452|end_char=456
+2	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=456|end_char=459
+3	not	not	PART	RB	Polarity=Neg	4	advmod	_	start_char=460|end_char=463
+4	good	good	ADJ	JJ	Degree=Pos	0	root	_	start_char=464|end_char=468
+5	at	at	ADP	IN	_	6	case	_	start_char=469|end_char=471
+6	all	all	DET	DT	PronType=Tot	4	obl	_	start_char=472|end_char=475|SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	start_char=475|end_char=476|SpacesAfter=\r\n
+
+# text = Maybe you don't know how to look for good books.
+# sent_id = 14
+1	Maybe	maybe	ADV	RB	_	5	advmod	_	start_char=478|end_char=483
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	start_char=484|end_char=487
+3-4	don't	_	_	_	_	_	_	_	start_char=488|end_char=493
+3	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=488|end_char=490
+4	n't	not	PART	RB	Polarity=Neg	5	advmod	_	start_char=490|end_char=493
+5	know	know	VERB	VB	VerbForm=Inf	0	root	_	start_char=494|end_char=498
+6	how	how	ADV	WRB	PronType=Int	5	obj	_	start_char=499|end_char=502
+7	to	to	PART	TO	_	8	mark	_	start_char=503|end_char=505
+8	look	look	VERB	VB	VerbForm=Inf	6	acl	_	start_char=506|end_char=510
+9	for	for	ADP	IN	_	11	case	_	start_char=511|end_char=514
+10	good	good	ADJ	JJ	Degree=Pos	11	amod	_	start_char=515|end_char=519
+11	books	book	NOUN	NNS	Number=Plur	8	obl	_	start_char=520|end_char=525|SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	start_char=525|end_char=526
+
+# text = I'll help you.
+# sent_id = 15
+1-2	I'll	_	_	_	_	_	_	_	start_char=527|end_char=531
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=527|end_char=528
+2	'll	will	AUX	MD	VerbForm=Fin	3	aux	_	start_char=528|end_char=531
+3	help	help	VERB	VB	VerbForm=Inf	0	root	_	start_char=532|end_char=536
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	obj	_	start_char=537|end_char=540|SpaceAfter=No
+5	.	.	PUNCT	.	_	3	punct	_	start_char=540|end_char=541|SpacesAfter=\r\n
+
+# text = Thank you.
+# sent_id = 16
+1	Thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=543|end_char=548
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	obj	_	start_char=549|end_char=552|SpaceAfter=No
+3	.	.	PUNCT	.	_	1	punct	_	start_char=552|end_char=553
+
+# text = I appreciate it.
+# sent_id = 17
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=554|end_char=555
+2	appreciate	appreciate	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=556|end_char=566
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	start_char=567|end_char=569|SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	start_char=569|end_char=570|SpaceAfter=No
+

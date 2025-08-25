@@ -1,0 +1,219 @@
+# text = She was thinking about her boyfriend.
+# sent_id = 0
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=0|end_char=3
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	start_char=4|end_char=7
+3	thinking	think	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=8|end_char=16
+4	about	about	ADP	IN	_	6	case	_	start_char=17|end_char=22
+5	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	start_char=23|end_char=26
+6	boyfriend	boyfriend	NOUN	NN	Number=Sing	3	obl	_	start_char=27|end_char=36|SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	start_char=36|end_char=37
+
+# text = Why did she stay with him?
+# sent_id = 1
+1	Why	why	ADV	WRB	PronType=Int	4	advmod	_	start_char=38|end_char=41
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	start_char=42|end_char=45
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=46|end_char=49
+4	stay	stay	VERB	VB	VerbForm=Inf	0	root	_	start_char=50|end_char=54
+5	with	with	ADP	IN	_	6	case	_	start_char=55|end_char=59
+6	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obl	_	start_char=60|end_char=63|SpaceAfter=No
+7	?	?	PUNCT	.	_	4	punct	_	start_char=63|end_char=64
+
+# text = Why didn't she leave him?
+# sent_id = 2
+1	Why	why	ADV	WRB	PronType=Int	5	advmod	_	start_char=65|end_char=68
+2-3	didn't	_	_	_	_	_	_	_	start_char=69|end_char=75
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	start_char=69|end_char=72
+3	n't	not	PART	RB	Polarity=Neg	5	advmod	_	start_char=72|end_char=75
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=76|end_char=79
+5	leave	leave	VERB	VB	VerbForm=Inf	0	root	_	start_char=80|end_char=85
+6	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	start_char=86|end_char=89|SpaceAfter=No
+7	?	?	PUNCT	.	_	5	punct	_	start_char=89|end_char=90
+
+# text = She didn't trust him.
+# sent_id = 3
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=91|end_char=94
+2-3	didn't	_	_	_	_	_	_	_	start_char=95|end_char=101
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	start_char=95|end_char=98
+3	n't	not	PART	RB	Polarity=Neg	4	advmod	_	start_char=98|end_char=101
+4	trust	trust	VERB	VB	VerbForm=Inf	0	root	_	start_char=102|end_char=107
+5	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	iobj	_	start_char=108|end_char=111|SpaceAfter=No
+6	.	.	PUNCT	.	_	4	punct	_	start_char=111|end_char=112
+
+# text = He said that he loved her.
+# sent_id = 4
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=113|end_char=115
+2	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=116|end_char=120
+3	that	that	SCONJ	IN	_	5	mark	_	start_char=121|end_char=125
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=126|end_char=128
+5	loved	love	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	_	start_char=129|end_char=134
+6	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	start_char=135|end_char=138|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	start_char=138|end_char=139
+
+# text = But he was mean to her.
+# sent_id = 5
+1	But	but	CCONJ	CC	_	4	cc	_	start_char=140|end_char=143
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=144|end_char=146
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	start_char=147|end_char=150
+4	mean	mean	ADJ	JJ	Degree=Pos	0	root	_	start_char=151|end_char=155
+5	to	to	ADP	IN	_	6	case	_	start_char=156|end_char=158
+6	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obl	_	start_char=159|end_char=162|SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	start_char=162|end_char=163
+
+# text = He said bad things.
+# sent_id = 6
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=164|end_char=166
+2	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=167|end_char=171
+3	bad	bad	ADJ	JJ	Degree=Pos	4	amod	_	start_char=172|end_char=175
+4	things	thing	NOUN	NNS	Number=Plur	2	obj	_	start_char=176|end_char=182|SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	start_char=182|end_char=183
+
+# text = He said she was too fat.
+# sent_id = 7
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=184|end_char=186
+2	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=187|end_char=191
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=192|end_char=195
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	start_char=196|end_char=199
+5	too	too	ADV	RB	_	6	advmod	_	start_char=200|end_char=203
+6	fat	fat	ADJ	JJ	Degree=Pos	2	ccomp	_	start_char=204|end_char=207|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	start_char=207|end_char=208
+
+# text = He said she should eat less.
+# sent_id = 8
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=209|end_char=211
+2	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=212|end_char=216
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=217|end_char=220
+4	should	should	AUX	MD	VerbForm=Fin	5	aux	_	start_char=221|end_char=227
+5	eat	eat	VERB	VB	VerbForm=Inf	2	ccomp	_	start_char=228|end_char=231
+6	less	less	ADJ	JJR	Degree=Cmp	5	advmod	_	start_char=232|end_char=236|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	start_char=236|end_char=237
+
+# text = He did bad things.
+# sent_id = 9
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=238|end_char=240
+2	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=241|end_char=244
+3	bad	bad	ADJ	JJ	Degree=Pos	4	amod	_	start_char=245|end_char=248
+4	things	thing	NOUN	NNS	Number=Plur	2	obj	_	start_char=249|end_char=255|SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	start_char=255|end_char=256
+
+# text = He gave her a cheap card from the 99 Cents store for her birthday.
+# sent_id = 10
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=257|end_char=259
+2	gave	give	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=260|end_char=264
+3	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	iobj	_	start_char=265|end_char=268
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=269|end_char=270
+5	cheap	cheap	ADJ	JJ	Degree=Pos	6	amod	_	start_char=271|end_char=276
+6	card	card	NOUN	NN	Number=Sing	2	obj	_	start_char=277|end_char=281
+7	from	from	ADP	IN	_	11	case	_	start_char=282|end_char=286
+8	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=287|end_char=290
+9	99	99	NUM	CD	NumForm=Digit|NumType=Card	10	nummod	_	start_char=291|end_char=293
+10	Cents	Cent	PROPN	NNPS	Number=Plur	11	compound	_	start_char=294|end_char=299
+11	store	store	NOUN	NN	Number=Sing	2	obl	_	start_char=300|end_char=305
+12	for	for	ADP	IN	_	14	case	_	start_char=306|end_char=309
+13	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	start_char=310|end_char=313
+14	birthday	birthday	NOUN	NN	Number=Sing	2	obl	_	start_char=314|end_char=322|SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	_	start_char=322|end_char=323
+
+# text = He gave her a bag of apples for Christmas.
+# sent_id = 11
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=324|end_char=326
+2	gave	give	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=327|end_char=331
+3	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	iobj	_	start_char=332|end_char=335
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=336|end_char=337
+5	bag	bag	NOUN	NN	Number=Sing	2	obj	_	start_char=338|end_char=341
+6	of	of	ADP	IN	_	7	case	_	start_char=342|end_char=344
+7	apples	apple	NOUN	NNS	Number=Plur	5	nmod	_	start_char=345|end_char=351
+8	for	for	ADP	IN	_	9	case	_	start_char=352|end_char=355
+9	Christmas	Christmas	PROPN	NNP	Number=Sing	2	obl	_	start_char=356|end_char=365|SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	start_char=365|end_char=366
+
+# text = Then he ate all the apples.
+# sent_id = 12
+1	Then	then	ADV	RB	PronType=Dem	3	advmod	_	start_char=367|end_char=371
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=372|end_char=374
+3	ate	eat	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=375|end_char=378
+4	all	all	DET	PDT	PronType=Tot	6	det:predet	_	start_char=379|end_char=382
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=383|end_char=386
+6	apples	apple	NOUN	NNS	Number=Plur	3	obj	_	start_char=387|end_char=393|SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	start_char=393|end_char=394
+
+# text = He said things that made her cry.
+# sent_id = 13
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=395|end_char=397
+2	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=398|end_char=402
+3	things	thing	NOUN	NNS	Number=Plur	2	obj	_	start_char=403|end_char=409
+4	that	that	PRON	WDT	PronType=Rel	5	nsubj	_	start_char=410|end_char=414
+5	made	make	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	acl:relcl	_	start_char=415|end_char=419
+6	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	start_char=420|end_char=423
+7	cry	cry	VERB	VB	VerbForm=Inf	5	xcomp	_	start_char=424|end_char=427|SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	start_char=427|end_char=428
+
+# text = He did things that made her cry.
+# sent_id = 14
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=429|end_char=431
+2	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=432|end_char=435
+3	things	thing	NOUN	NNS	Number=Plur	2	obj	_	start_char=436|end_char=442
+4	that	that	PRON	WDT	PronType=Rel	5	nsubj	_	start_char=443|end_char=447
+5	made	make	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	acl:relcl	_	start_char=448|end_char=452
+6	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	start_char=453|end_char=456
+7	cry	cry	VERB	VB	VerbForm=Inf	5	xcomp	_	start_char=457|end_char=460|SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	start_char=460|end_char=461
+
+# text = Then he said he was sorry.
+# sent_id = 15
+1	Then	then	ADV	RB	PronType=Dem	3	advmod	_	start_char=462|end_char=466
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=467|end_char=469
+3	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=470|end_char=474
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=475|end_char=477
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	start_char=478|end_char=481
+6	sorry	sorry	ADJ	JJ	Degree=Pos	3	ccomp	_	start_char=482|end_char=487|SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	start_char=487|end_char=488
+
+# text = He always said he was sorry.
+# sent_id = 16
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=489|end_char=491
+2	always	always	ADV	RB	_	3	advmod	_	start_char=492|end_char=498
+3	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=499|end_char=503
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=504|end_char=506
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	start_char=507|end_char=510
+6	sorry	sorry	ADJ	JJ	Degree=Pos	3	ccomp	_	start_char=511|end_char=516|SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	start_char=516|end_char=517
+
+# text = She wanted to leave him.
+# sent_id = 17
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=518|end_char=521
+2	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=522|end_char=528
+3	to	to	PART	TO	_	4	mark	_	start_char=529|end_char=531
+4	leave	leave	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=532|end_char=537
+5	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	start_char=538|end_char=541|SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	start_char=541|end_char=542
+
+# text = She wanted to find another boyfriend.
+# sent_id = 18
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=543|end_char=546
+2	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=547|end_char=553
+3	to	to	PART	TO	_	4	mark	_	start_char=554|end_char=556
+4	find	find	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=557|end_char=561
+5	another	another	DET	DT	PronType=Ind	6	det	_	start_char=562|end_char=569
+6	boyfriend	boyfriend	NOUN	NN	Number=Sing	4	obj	_	start_char=570|end_char=579|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	start_char=579|end_char=580
+
+# text = But she didn't leave him.
+# sent_id = 19
+1	But	but	CCONJ	CC	_	5	cc	_	start_char=581|end_char=584
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=585|end_char=588
+3-4	didn't	_	_	_	_	_	_	_	start_char=589|end_char=595
+3	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	start_char=589|end_char=592
+4	n't	not	PART	RB	Polarity=Neg	5	advmod	_	start_char=592|end_char=595
+5	leave	leave	VERB	VB	VerbForm=Inf	0	root	_	start_char=596|end_char=601
+6	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	start_char=602|end_char=605|SpaceAfter=No
+7	.	.	PUNCT	.	_	5	punct	_	start_char=605|end_char=606
+
+# text = She loved him too much.
+# sent_id = 20
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=607|end_char=610
+2	loved	love	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=611|end_char=616
+3	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	start_char=617|end_char=620
+4	too	too	ADV	RB	_	5	advmod	_	start_char=621|end_char=624
+5	much	much	ADJ	JJ	Degree=Pos	2	advmod	_	start_char=625|end_char=629|SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	start_char=629|end_char=630|SpaceAfter=No
+

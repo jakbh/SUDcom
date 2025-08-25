@@ -1,0 +1,120 @@
+# text = Hey, Lisa.
+# sent_id = 0
+1	Hey	hey	INTJ	UH	_	3	discourse	_	start_char=0|end_char=3|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=3|end_char=4
+3	Lisa	Lisa	PROPN	NNP	Number=Sing	0	root	_	start_char=5|end_char=9|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	start_char=9|end_char=10
+
+# text = Let's go ride the merry-go-round.
+# sent_id = 1
+1-2	Let's	_	_	_	_	_	_	_	start_char=11|end_char=16
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=11|end_char=14
+2	's	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	obj	_	start_char=14|end_char=16
+3	go	go	VERB	VB	VerbForm=Inf	1	xcomp	_	start_char=17|end_char=19
+4	ride	ride	VERB	VB	VerbForm=Inf	3	xcomp	_	start_char=20|end_char=24
+5	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=25|end_char=28
+6	merry	merry	NOUN	NN	Number=Sing	10	compound	_	start_char=29|end_char=34|SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	8	punct	_	start_char=34|end_char=35|SpaceAfter=No
+8	go	go	NOUN	NN	Number=Sing	10	compound	_	start_char=35|end_char=37|SpaceAfter=No
+9	-	-	PUNCT	HYPH	_	8	punct	_	start_char=37|end_char=38|SpaceAfter=No
+10	round	round	ADV	RB	Degree=Pos	4	advmod	_	start_char=38|end_char=43|SpaceAfter=No
+11	.	.	PUNCT	.	_	1	punct	_	start_char=43|end_char=44|SpacesAfter=\r\n
+
+# text = What is that?
+# sent_id = 2
+1	What	what	PRON	WP	PronType=Int	0	root	_	start_char=46|end_char=50
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	start_char=51|end_char=53
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	1	nsubj	_	start_char=54|end_char=58|SpaceAfter=No
+4	?	?	PUNCT	.	_	1	punct	_	start_char=58|end_char=59|SpacesAfter=\r\n
+
+# text = It's a game we can play.
+# sent_id = 3
+1-2	It's	_	_	_	_	_	_	_	start_char=61|end_char=65
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=61|end_char=63
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=63|end_char=65
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	start_char=66|end_char=67
+4	game	game	NOUN	NN	Number=Sing	0	root	_	start_char=68|end_char=72
+5	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	start_char=73|end_char=75
+6	can	can	AUX	MD	VerbForm=Fin	7	aux	_	start_char=76|end_char=79
+7	play	play	VERB	VB	VerbForm=Inf	4	acl:relcl	_	start_char=80|end_char=84|SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	start_char=84|end_char=85
+
+# text = Follow me.
+# sent_id = 4
+1	Follow	follow	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=86|end_char=92
+2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	obj	_	start_char=93|end_char=95|SpaceAfter=No
+3	.	.	PUNCT	.	_	1	punct	_	start_char=95|end_char=96|SpacesAfter=\r\n
+
+# text = Okay, Carol.
+# sent_id = 5
+1	Okay	okay	INTJ	UH	_	3	discourse	_	start_char=98|end_char=102|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=102|end_char=103
+3	Carol	Carol	PROPN	NNP	Number=Sing	0	root	_	start_char=104|end_char=109|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	start_char=109|end_char=110
+
+# text = Let's go.
+# sent_id = 6
+1-2	Let's	_	_	_	_	_	_	_	start_char=111|end_char=116
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=111|end_char=114
+2	's	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	obj	_	start_char=114|end_char=116
+3	go	go	VERB	VB	VerbForm=Inf	1	xcomp	_	start_char=117|end_char=119|SpaceAfter=No
+4	.	.	PUNCT	.	_	1	punct	_	start_char=119|end_char=120|SpacesAfter=\r\n
+
+# text = Here you get on.
+# sent_id = 7
+1	Here	here	ADV	RB	PronType=Dem	0	root	_	start_char=122|end_char=126
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=127|end_char=130
+3	get	get	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	advcl:relcl	_	start_char=131|end_char=134
+4	on	on	ADP	RP	_	3	compound:prt	_	start_char=135|end_char=137|SpaceAfter=No
+5	.	.	PUNCT	.	_	1	punct	_	start_char=137|end_char=138
+
+# text = I'll push.
+# sent_id = 8
+1-2	I'll	_	_	_	_	_	_	_	start_char=139|end_char=143
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=139|end_char=140
+2	'll	will	AUX	MD	VerbForm=Fin	3	aux	_	start_char=140|end_char=143
+3	push	push	VERB	VB	VerbForm=Inf	0	root	_	start_char=144|end_char=148|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	start_char=148|end_char=149|SpacesAfter=\r\n
+
+# text = Wow!
+# sent_id = 9
+1	Wow	wow	INTJ	UH	_	0	root	_	start_char=151|end_char=154|SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	start_char=154|end_char=155
+
+# text = This goes fast.
+# sent_id = 10
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	2	nsubj	_	start_char=156|end_char=160
+2	goes	go	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=161|end_char=165
+3	fast	fast	ADJ	JJ	Degree=Pos	2	xcomp	_	start_char=166|end_char=170|SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	start_char=170|end_char=171
+
+# text = Jump on!
+# sent_id = 11
+1	Jump	jump	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=172|end_char=176
+2	on	on	ADP	RP	_	1	compound:prt	_	start_char=177|end_char=179|SpaceAfter=No
+3	!	!	PUNCT	.	_	1	punct	_	start_char=179|end_char=180|SpacesAfter=\r\n
+
+# text = Okay.
+# sent_id = 12
+1	Okay	okay	INTJ	UH	_	0	root	_	start_char=182|end_char=186|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	_	start_char=186|end_char=187
+
+# text = Here I go!
+# sent_id = 13
+1	Here	here	ADV	RB	PronType=Dem	0	root	_	start_char=188|end_char=192
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=193|end_char=194
+3	go	go	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	advcl:relcl	_	start_char=195|end_char=197|SpaceAfter=No
+4	!	!	PUNCT	.	_	1	punct	_	start_char=197|end_char=198|SpacesAfter=\r\n
+
+# text = Yay!
+# sent_id = 14
+1	Yay	yay	INTJ	UH	_	0	root	_	start_char=200|end_char=203|SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	start_char=203|end_char=204
+
+# text = This is fun!
+# sent_id = 15
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	start_char=205|end_char=209
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=210|end_char=212
+3	fun	fun	ADJ	JJ	Degree=Pos	0	root	_	start_char=213|end_char=216|SpaceAfter=No
+4	!	!	PUNCT	.	_	3	punct	_	start_char=216|end_char=217|SpaceAfter=No
+

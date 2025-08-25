@@ -1,0 +1,111 @@
+# text = Hi Maria.
+# sent_id = 0
+1	Hi	hi	INTJ	UH	_	0	root	_	start_char=0|end_char=2
+2	Maria	Maria	PROPN	NNP	Number=Sing	1	vocative	_	start_char=3|end_char=8|SpaceAfter=No
+3	.	.	PUNCT	.	_	1	punct	_	start_char=8|end_char=9
+
+# text = Want to color with me?
+# sent_id = 1
+1	Want	want	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=10|end_char=14
+2	to	to	PART	TO	_	3	mark	_	start_char=15|end_char=17
+3	color	color	VERB	VB	VerbForm=Inf	1	xcomp	_	start_char=18|end_char=23
+4	with	with	ADP	IN	_	5	case	_	start_char=24|end_char=28
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obl	_	start_char=29|end_char=31|SpaceAfter=No
+6	?	?	PUNCT	.	_	1	punct	_	start_char=31|end_char=32|SpacesAfter=\r\n
+
+# text = Sure, Sandra.
+# sent_id = 2
+1	Sure	sure	INTJ	UH	_	3	discourse	_	start_char=34|end_char=38|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=38|end_char=39
+3	Sandra	Sandra	PROPN	NNP	Number=Sing	0	root	_	start_char=40|end_char=46|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	start_char=46|end_char=47
+
+# text = I love to color.
+# sent_id = 3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=48|end_char=49
+2	love	love	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=50|end_char=54
+3	to	to	PART	TO	_	4	mark	_	start_char=55|end_char=57
+4	color	color	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=58|end_char=63|SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	start_char=63|end_char=64|SpacesAfter=\r\n
+
+# text = This is blue.
+# sent_id = 4
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	start_char=66|end_char=70
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=71|end_char=73
+3	blue	blue	ADJ	JJ	Degree=Pos	0	root	_	start_char=74|end_char=78|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	start_char=78|end_char=79
+
+# text = It's my favorite color.
+# sent_id = 5
+1-2	It's	_	_	_	_	_	_	_	start_char=80|end_char=84
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=80|end_char=82
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=82|end_char=84
+3	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=85|end_char=87
+4	favorite	favorite	ADJ	JJ	Degree=Pos	5	amod	_	start_char=88|end_char=96
+5	color	color	NOUN	NN	Number=Sing	0	root	_	start_char=97|end_char=102|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	start_char=102|end_char=103|SpacesAfter=\r\n
+
+# text = I like blue, too.
+# sent_id = 6
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=105|end_char=106
+2	like	like	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=107|end_char=111
+3	blue	blue	ADJ	JJ	Degree=Pos	2	obj	_	start_char=112|end_char=116|SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	start_char=116|end_char=117
+5	too	too	ADV	RB	_	2	advmod	_	start_char=118|end_char=121|SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	start_char=121|end_char=122|SpacesAfter=\r\n
+
+# text = What's your favorite color?
+# sent_id = 7
+1-2	What's	_	_	_	_	_	_	_	start_char=124|end_char=130
+1	What	what	PRON	WP	PronType=Int	0	root	_	start_char=124|end_char=128
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	start_char=128|end_char=130
+3	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=131|end_char=135
+4	favorite	favorite	ADJ	JJ	Degree=Pos	5	amod	_	start_char=136|end_char=144
+5	color	color	NOUN	NN	Number=Sing	1	nsubj	_	start_char=145|end_char=150|SpaceAfter=No
+6	?	?	PUNCT	.	_	1	punct	_	start_char=150|end_char=151|SpacesAfter=\r\n
+
+# text = I don't know, maybe pink.
+# sent_id = 8
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=153|end_char=154
+2-3	don't	_	_	_	_	_	_	_	start_char=155|end_char=160
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=155|end_char=157
+3	n't	not	PART	RB	Polarity=Neg	4	advmod	_	start_char=157|end_char=160
+4	know	know	VERB	VB	VerbForm=Inf	0	root	_	start_char=161|end_char=165|SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	start_char=165|end_char=166
+6	maybe	maybe	ADV	RB	_	7	advmod	_	start_char=167|end_char=172
+7	pink	pink	ADJ	JJ	Degree=Pos	4	parataxis	_	start_char=173|end_char=177|SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	start_char=177|end_char=178|SpacesAfter=\r\n
+
+# text = Here, try this pink.
+# sent_id = 9
+1	Here	here	ADV	RB	PronType=Dem	3	advmod	_	start_char=180|end_char=184|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=184|end_char=185
+3	try	try	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=186|end_char=189
+4	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	_	start_char=190|end_char=194
+5	pink	pink	NOUN	NN	Number=Sing	3	obj	_	start_char=195|end_char=199|SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	start_char=199|end_char=200
+
+# text = It's pretty.
+# sent_id = 10
+1-2	It's	_	_	_	_	_	_	_	start_char=201|end_char=205
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=201|end_char=203
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=203|end_char=205
+3	pretty	pretty	ADJ	JJ	Degree=Pos	0	root	_	start_char=206|end_char=212|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	start_char=212|end_char=213|SpacesAfter=\r\n
+
+# text = Yes, it is.
+# sent_id = 11
+1	Yes	yes	INTJ	UH	Polarity=Pos	4	discourse	_	start_char=215|end_char=218|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=218|end_char=219
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=220|end_char=222
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=223|end_char=225|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	start_char=225|end_char=226
+
+# text = It's perfect!
+# sent_id = 12
+1-2	It's	_	_	_	_	_	_	_	start_char=227|end_char=231
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=227|end_char=229
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=229|end_char=231
+3	perfect	perfect	ADJ	JJ	Degree=Pos	0	root	_	start_char=232|end_char=239|SpaceAfter=No
+4	!	!	PUNCT	.	_	3	punct	_	start_char=239|end_char=240|SpaceAfter=No
+

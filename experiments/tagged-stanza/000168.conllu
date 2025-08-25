@@ -1,0 +1,87 @@
+# text = Can you give me a hand, Nancy?
+# sent_id = 0
+1	Can	can	AUX	MD	VerbForm=Fin	3	aux	_	start_char=3|end_char=6|SpacesBefore=\t\r\n
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=7|end_char=10
+3	give	give	VERB	VB	VerbForm=Inf	0	root	_	start_char=11|end_char=15
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	iobj	_	start_char=16|end_char=18
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=19|end_char=20
+6	hand	hand	NOUN	NN	Number=Sing	3	obj	_	start_char=21|end_char=25|SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	start_char=25|end_char=26
+8	Nancy	Nancy	PROPN	NNP	Number=Sing	6	vocative	_	start_char=27|end_char=32|SpaceAfter=No
+9	?	?	PUNCT	.	_	3	punct	_	start_char=32|end_char=33|SpacesAfter=\r\n
+
+# text = Sure, dad.
+# sent_id = 1
+1	Sure	sure	INTJ	UH	_	3	discourse	_	start_char=35|end_char=39|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=39|end_char=40
+3	dad	dad	NOUN	NN	Number=Sing	0	root	_	start_char=41|end_char=44|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	start_char=44|end_char=45
+
+# text = What can I do?
+# sent_id = 2
+1	What	what	PRON	WP	PronType=Int	4	obj	_	start_char=46|end_char=50
+2	can	can	AUX	MD	VerbForm=Fin	4	aux	_	start_char=51|end_char=54
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=55|end_char=56
+4	do	do	VERB	VB	VerbForm=Inf	0	root	_	start_char=57|end_char=59|SpaceAfter=No
+5	?	?	PUNCT	.	_	4	punct	_	start_char=59|end_char=60|SpacesAfter=\r\n
+
+# text = I need to change a tire.
+# sent_id = 3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=62|end_char=63
+2	need	need	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=64|end_char=68
+3	to	to	PART	TO	_	4	mark	_	start_char=69|end_char=71
+4	change	change	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=72|end_char=78
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=79|end_char=80
+6	tire	tire	NOUN	NN	Number=Sing	4	obj	_	start_char=81|end_char=85|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	start_char=85|end_char=86|SpacesAfter=\r\n
+
+# text = Okay.
+# sent_id = 4
+1	Okay	okay	INTJ	UH	_	0	root	_	start_char=88|end_char=92|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	_	start_char=92|end_char=93
+
+# text = I'd love to help.
+# sent_id = 5
+1-2	I'd	_	_	_	_	_	_	_	start_char=94|end_char=97
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=94|end_char=95
+2	'd	would	AUX	MD	VerbForm=Fin	3	aux	_	start_char=95|end_char=97
+3	love	love	VERB	VB	VerbForm=Inf	0	root	_	start_char=98|end_char=102
+4	to	to	PART	TO	_	5	mark	_	start_char=103|end_char=105
+5	help	help	VERB	VB	VerbForm=Inf	3	xcomp	_	start_char=106|end_char=110|SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	start_char=110|end_char=111|SpacesAfter=\r\n
+
+# text = Hand me that tool, dear.
+# sent_id = 6
+1	Hand	hand	VERB	VB	VerbForm=Inf	0	root	_	start_char=113|end_char=117
+2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	start_char=118|end_char=120
+3	that	that	DET	DT	Number=Sing|PronType=Dem	4	det	_	start_char=121|end_char=125
+4	tool	tool	NOUN	NN	Number=Sing	1	obj	_	start_char=126|end_char=130|SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	start_char=130|end_char=131
+6	dear	dear	ADJ	JJ	Degree=Pos	4	amod	_	start_char=132|end_char=136|SpaceAfter=No
+7	.	.	PUNCT	.	_	1	punct	_	start_char=136|end_char=137|SpacesAfter=\r\n
+
+# text = Here it is, dad.
+# sent_id = 7
+1	Here	here	ADV	RB	PronType=Dem	0	root	_	start_char=139|end_char=143
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	start_char=144|end_char=146
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	start_char=147|end_char=149|SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	start_char=149|end_char=150
+5	dad	dad	NOUN	NN	Number=Sing	1	nsubj	_	start_char=151|end_char=154|SpaceAfter=No
+6	.	.	PUNCT	.	_	1	punct	_	start_char=154|end_char=155|SpacesAfter=\r\n
+
+# text = You are a good helper.
+# sent_id = 8
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	start_char=157|end_char=160
+2	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=161|end_char=164
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=165|end_char=166
+4	good	good	ADJ	JJ	Degree=Pos	5	amod	_	start_char=167|end_char=171
+5	helper	helper	NOUN	NN	Number=Sing	0	root	_	start_char=172|end_char=178|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	start_char=178|end_char=179|SpacesAfter=\r\n
+
+# text = Thanks, dad.
+# sent_id = 9
+1	Thanks	thanks	NOUN	NN	Number=Sing	0	root	_	start_char=181|end_char=187|SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	start_char=187|end_char=188
+3	dad	dad	NOUN	NN	Number=Sing	1	vocative	_	start_char=189|end_char=192|SpaceAfter=No
+4	.	.	PUNCT	.	_	1	punct	_	start_char=192|end_char=193|SpaceAfter=No
+
