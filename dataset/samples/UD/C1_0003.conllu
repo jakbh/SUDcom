@@ -1,0 +1,1721 @@
+# text = To many who watched his long, rambling video statement, Boko Haram leader Abubakar Shekau appeared strangely distracted, unfocused, perhaps under the influence of drugs while boasting of abducting nearly 300 Nigerian schoolgirls.
+# sent_id = 0
+1	To	to	ADP	IN	_	2	case	_	start_char=0|end_char=2
+2	many	many	ADJ	JJ	Degree=Pos	17	obl	_	start_char=3|end_char=7
+3	who	who	PRON	WP	PronType=Rel	4	nsubj	_	start_char=8|end_char=11
+4	watched	watch	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	acl:relcl	_	start_char=12|end_char=19
+5	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	start_char=20|end_char=23
+6	long	long	ADJ	JJ	Degree=Pos	10	amod	_	start_char=24|end_char=28|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	start_char=28|end_char=29
+8	rambling	rambling	ADJ	JJ	Degree=Pos	10	amod	_	start_char=30|end_char=38
+9	video	video	NOUN	NN	Number=Sing	10	compound	_	start_char=39|end_char=44
+10	statement	statement	NOUN	NN	Number=Sing	4	obj	_	start_char=45|end_char=54|SpaceAfter=No
+11	,	,	PUNCT	,	_	2	punct	_	start_char=54|end_char=55
+12	Boko	Boko	PROPN	NNP	Number=Sing	14	compound	_	start_char=56|end_char=60
+13	Haram	Haram	PROPN	NNP	Number=Sing	12	flat	_	start_char=61|end_char=66
+14	leader	leader	NOUN	NN	Number=Sing	17	nsubj	_	start_char=67|end_char=73
+15	Abubakar	Abubakar	PROPN	NNP	Number=Sing	14	flat	_	start_char=74|end_char=82
+16	Shekau	Shekau	PROPN	NNP	Number=Sing	15	flat	_	start_char=83|end_char=89
+17	appeared	appear	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=90|end_char=98
+18	strangely	strangely	ADV	RB	_	19	advmod	_	start_char=99|end_char=108
+19	distracted	distract	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	17	xcomp	_	start_char=109|end_char=119|SpaceAfter=No
+20	,	,	PUNCT	,	_	21	punct	_	start_char=119|end_char=120
+21	unfocused	unfocused	ADJ	JJ	Degree=Pos	19	conj	_	start_char=121|end_char=130|SpaceAfter=No
+22	,	,	PUNCT	,	_	26	punct	_	start_char=130|end_char=131
+23	perhaps	perhaps	ADV	RB	_	26	advmod	_	start_char=132|end_char=139
+24	under	under	ADP	IN	_	26	case	_	start_char=140|end_char=145
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	start_char=146|end_char=149
+26	influence	influence	NOUN	NN	Number=Sing	19	obl	_	start_char=150|end_char=159
+27	of	of	ADP	IN	_	28	case	_	start_char=160|end_char=162
+28	drugs	drug	NOUN	NNS	Number=Plur	26	nmod	_	start_char=163|end_char=168
+29	while	while	SCONJ	IN	_	30	mark	_	start_char=169|end_char=174
+30	boasting	boast	VERB	VBG	Tense=Pres|VerbForm=Part	17	advcl	_	start_char=175|end_char=183
+31	of	of	SCONJ	IN	_	32	mark	_	start_char=184|end_char=186
+32	abducting	abduct	VERB	VBG	Tense=Pres|VerbForm=Part	30	advcl	_	start_char=187|end_char=196
+33	nearly	nearly	ADV	RB	_	34	advmod	_	start_char=197|end_char=203
+34	300	300	NUM	CD	NumForm=Digit|NumType=Card	36	nummod	_	start_char=204|end_char=207
+35	Nigerian	Nigerian	ADJ	JJ	Degree=Pos	36	amod	_	start_char=208|end_char=216
+36	schoolgirls	schoolgirl	NOUN	NNS	Number=Plur	32	obj	_	start_char=217|end_char=228|SpaceAfter=No
+37	.	.	PUNCT	.	_	17	punct	_	start_char=228|end_char=229|SpacesAfter=\n
+
+# text = But there is calculation in such cruelty, and method where some see madness.
+# sent_id = 1
+1	But	but	CCONJ	CC	_	3	cc	_	start_char=230|end_char=233
+2	there	there	PRON	EX	_	3	expl	_	start_char=234|end_char=239
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=240|end_char=242
+4	calculation	calculation	NOUN	NN	Number=Sing	3	nsubj	_	start_char=243|end_char=254
+5	in	in	ADP	IN	_	7	case	_	start_char=255|end_char=257
+6	such	such	ADJ	JJ	Degree=Pos	7	amod	_	start_char=258|end_char=262
+7	cruelty	cruelty	NOUN	NN	Number=Sing	4	nmod	_	start_char=263|end_char=270|SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	start_char=270|end_char=271
+9	and	and	CCONJ	CC	_	10	cc	_	start_char=272|end_char=275
+10	method	method	NOUN	NN	Number=Sing	4	conj	_	start_char=276|end_char=282
+11	where	where	ADV	WRB	PronType=Rel	13	advmod	_	start_char=283|end_char=288
+12	some	some	DET	DT	PronType=Ind	13	nsubj	_	start_char=289|end_char=293
+13	see	see	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	start_char=294|end_char=297
+14	madness	madness	NOUN	NN	Number=Sing	13	obj	_	start_char=298|end_char=305|SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	_	start_char=305|end_char=306
+
+# text = The kidnapping serves Shekau on many levels, and observers of Boko Haram say he should not be underestimated.
+# sent_id = 2
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=307|end_char=310
+2	kidnapping	kidnap	NOUN	NN	Number=Sing	3	nsubj	_	start_char=311|end_char=321
+3	serves	serve	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=322|end_char=328
+4	Shekau	Shekau	PROPN	NNP	Number=Sing	3	obj	_	start_char=329|end_char=335
+5	on	on	ADP	IN	_	7	case	_	start_char=336|end_char=338
+6	many	many	ADJ	JJ	Degree=Pos	7	amod	_	start_char=339|end_char=343
+7	levels	level	NOUN	NNS	Number=Plur	3	obl	_	start_char=344|end_char=350|SpaceAfter=No
+8	,	,	PUNCT	,	_	14	punct	_	start_char=350|end_char=351
+9	and	and	CCONJ	CC	_	14	cc	_	start_char=352|end_char=355
+10	observers	observer	NOUN	NNS	Number=Plur	14	nsubj	_	start_char=356|end_char=365
+11	of	of	ADP	IN	_	12	case	_	start_char=366|end_char=368
+12	Boko	Boko	PROPN	NNP	Number=Sing	10	nmod	_	start_char=369|end_char=373
+13	Haram	Haram	PROPN	NNP	Number=Sing	12	flat	_	start_char=374|end_char=379
+14	say	say	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=380|end_char=383
+15	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj:pass	_	start_char=384|end_char=386
+16	should	should	AUX	MD	VerbForm=Fin	19	aux	_	start_char=387|end_char=393
+17	not	not	PART	RB	Polarity=Neg	19	advmod	_	start_char=394|end_char=397
+18	be	be	AUX	VB	VerbForm=Inf	19	aux:pass	_	start_char=398|end_char=400
+19	underestimated	underestimate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	ccomp	_	start_char=401|end_char=415|SpaceAfter=No
+20	.	.	PUNCT	.	_	3	punct	_	start_char=415|end_char=416|SpacesAfter=\n
+
+# text = Shekau's on-camera performances are the opposite of the composed appearances of late al Qaeda leader Osama bin Laden and the terror group's current chief, Ayman al-Zawahiri.
+# sent_id = 3
+1-2	Shekau's	_	_	_	_	_	_	_	start_char=417|end_char=425
+1	Shekau	Shekau	PROPN	NNP	Number=Sing	6	nmod:poss	_	start_char=417|end_char=423
+2	's	's	PART	POS	_	1	case	_	start_char=423|end_char=425
+3	on	on	ADP	IN	_	5	case	_	start_char=426|end_char=428|SpaceAfter=No
+4	-	-	PUNCT	HYPH	_	3	punct	_	start_char=428|end_char=429|SpaceAfter=No
+5	camera	camera	NOUN	NN	Number=Sing	6	compound	_	start_char=429|end_char=435
+6	performances	performance	NOUN	NNS	Number=Plur	9	nsubj	_	start_char=436|end_char=448
+7	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=449|end_char=452
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=453|end_char=456
+9	opposite	opposite	NOUN	NN	Number=Sing	0	root	_	start_char=457|end_char=465
+10	of	of	ADP	IN	_	13	case	_	start_char=466|end_char=468
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	start_char=469|end_char=472
+12	composed	compose	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	amod	_	start_char=473|end_char=481
+13	appearances	appearance	NOUN	NNS	Number=Plur	9	nmod	_	start_char=482|end_char=493
+14	of	of	ADP	IN	_	18	case	_	start_char=494|end_char=496
+15	late	late	ADJ	JJ	Degree=Pos	18	amod	_	start_char=497|end_char=501
+16	al	al	PROPN	NNP	Number=Sing	18	compound	_	start_char=502|end_char=504
+17	Qaeda	Qaeda	PROPN	NNP	Number=Sing	16	flat	_	start_char=505|end_char=510
+18	leader	leader	NOUN	NN	Number=Sing	13	nmod	_	start_char=511|end_char=517
+19	Osama	Osama	PROPN	NNP	Number=Sing	18	appos	_	start_char=518|end_char=523
+20	bin	bin	PROPN	NNP	Number=Sing	19	flat	_	start_char=524|end_char=527
+21	Laden	Laden	PROPN	NNP	Number=Sing	19	flat	_	start_char=528|end_char=533
+22	and	and	CCONJ	CC	_	28	cc	_	start_char=534|end_char=537
+23	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	start_char=538|end_char=541
+24	terror	terror	NOUN	NN	Number=Sing	25	compound	_	start_char=542|end_char=548
+25-26	group's	_	_	_	_	_	_	_	start_char=549|end_char=556
+25	group	group	NOUN	NN	Number=Sing	28	nmod:poss	_	start_char=549|end_char=554
+26	's	's	PART	POS	_	25	case	_	start_char=554|end_char=556
+27	current	current	ADJ	JJ	Degree=Pos	28	amod	_	start_char=557|end_char=564
+28	chief	chief	NOUN	NN	Number=Sing	19	conj	_	start_char=565|end_char=570|SpaceAfter=No
+29	,	,	PUNCT	,	_	30	punct	_	start_char=570|end_char=571
+30	Ayman	Ayman	PROPN	NNP	Number=Sing	28	appos	_	start_char=572|end_char=577
+31	al	al	PROPN	NNP	Number=Sing	30	flat	_	start_char=578|end_char=580|SpaceAfter=No
+32	-	-	PUNCT	HYPH	_	33	punct	_	start_char=580|end_char=581|SpaceAfter=No
+33	Zawahiri	Zawahiri	PROPN	NNP	Number=Sing	30	flat	_	start_char=581|end_char=589|SpaceAfter=No
+34	.	.	PUNCT	.	_	9	punct	_	start_char=589|end_char=590
+
+# text = Jacob Zenn, an expert on Boko Haram with the Jamestown Foundation, a Washington, D.C.-based research and analysis firm, says Shekau has even acknowledged the intellectual chaos of his presentations.
+# sent_id = 4
+1	Jacob	Jacob	PROPN	NNP	Number=Sing	25	nsubj	_	start_char=591|end_char=596
+2	Zenn	Zenn	PROPN	NNP	Number=Sing	1	flat	_	start_char=597|end_char=601|SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	start_char=601|end_char=602
+4	an	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=603|end_char=605
+5	expert	expert	NOUN	NN	Number=Sing	1	appos	_	start_char=606|end_char=612
+6	on	on	ADP	IN	_	7	case	_	start_char=613|end_char=615
+7	Boko	Boko	PROPN	NNP	Number=Sing	5	nmod	_	start_char=616|end_char=620
+8	Haram	Haram	PROPN	NNP	Number=Sing	7	flat	_	start_char=621|end_char=626
+9	with	with	ADP	IN	_	12	case	_	start_char=627|end_char=631
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=632|end_char=635
+11	Jamestown	Jamestown	PROPN	NNP	Number=Sing	12	compound	_	start_char=636|end_char=645
+12	Foundation	Foundation	PROPN	NNP	Number=Sing	5	nmod	_	start_char=646|end_char=656|SpaceAfter=No
+13	,	,	PUNCT	,	_	1	punct	_	start_char=656|end_char=657
+14	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	start_char=658|end_char=659
+15	Washington	Washington	PROPN	NNP	Number=Sing	23	compound	_	start_char=660|end_char=670|SpaceAfter=No
+16	,	,	PUNCT	,	_	15	punct	_	start_char=670|end_char=671
+17	D.C.	D.C.	PROPN	NNP	Abbr=Yes|Number=Sing	19	compound	_	start_char=672|end_char=676|SpaceAfter=No
+18	-	-	PUNCT	HYPH	_	17	punct	_	start_char=676|end_char=677|SpaceAfter=No
+19	based	base	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	23	amod	_	start_char=677|end_char=682
+20	research	research	NOUN	NN	Number=Sing	23	compound	_	start_char=683|end_char=691
+21	and	and	CCONJ	CC	_	22	cc	_	start_char=692|end_char=695
+22	analysis	analysis	NOUN	NN	Number=Sing	20	conj	_	start_char=696|end_char=704
+23	firm	firm	NOUN	NN	Number=Sing	1	appos	_	start_char=705|end_char=709|SpaceAfter=No
+24	,	,	PUNCT	,	_	1	punct	_	start_char=709|end_char=710
+25	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=711|end_char=715
+26	Shekau	Shekau	PROPN	NNP	Number=Sing	29	nsubj	_	start_char=716|end_char=722
+27	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	start_char=723|end_char=726
+28	even	even	ADV	RB	_	29	advmod	_	start_char=727|end_char=731
+29	acknowledged	acknowledge	VERB	VBN	Tense=Past|VerbForm=Part	25	ccomp	_	start_char=732|end_char=744
+30	the	the	DET	DT	Definite=Def|PronType=Art	32	det	_	start_char=745|end_char=748
+31	intellectual	intellectual	ADJ	JJ	Degree=Pos	32	amod	_	start_char=749|end_char=761
+32	chaos	chaos	NOUN	NN	Number=Sing	29	obj	_	start_char=762|end_char=767
+33	of	of	ADP	IN	_	35	case	_	start_char=768|end_char=770
+34	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	35	nmod:poss	_	start_char=771|end_char=774
+35	presentations	presentation	NOUN	NNS	Number=Plur	32	nmod	_	start_char=775|end_char=788|SpaceAfter=No
+36	.	.	PUNCT	.	_	25	punct	_	start_char=788|end_char=789
+
+# text = But they impress his followers.
+# sent_id = 5
+1	But	but	CCONJ	CC	_	3	cc	_	start_char=790|end_char=793
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=794|end_char=798
+3	impress	impress	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=799|end_char=806
+4	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=807|end_char=810
+5	followers	follower	NOUN	NNS	Number=Plur	3	obj	_	start_char=811|end_char=820|SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	start_char=820|end_char=821|SpacesAfter=\n
+
+# text = Shekau speaks classical Arabic and Hausa, the language of northern Nigerian Muslims, and had a religious education.
+# sent_id = 6
+1	Shekau	Shekau	PROPN	NNP	Number=Sing	2	nsubj	_	start_char=822|end_char=828
+2	speaks	speak	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=829|end_char=835
+3	classical	classical	ADJ	JJ	Degree=Pos	4	amod	_	start_char=836|end_char=845
+4	Arabic	Arabic	PROPN	NNP	Number=Sing	2	obj	_	start_char=846|end_char=852
+5	and	and	CCONJ	CC	_	6	cc	_	start_char=853|end_char=856
+6	Hausa	Hausa	PROPN	NNP	Number=Sing	4	conj	_	start_char=857|end_char=862|SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	start_char=862|end_char=863
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=864|end_char=867
+9	language	language	NOUN	NN	Number=Sing	4	appos	_	start_char=868|end_char=876
+10	of	of	ADP	IN	_	13	case	_	start_char=877|end_char=879
+11	northern	northern	ADJ	JJ	Degree=Pos	13	amod	_	start_char=880|end_char=888
+12	Nigerian	Nigerian	ADJ	JJ	Degree=Pos	13	amod	_	start_char=889|end_char=897
+13	Muslims	Muslim	PROPN	NNPS	Number=Plur	9	nmod	_	start_char=898|end_char=905|SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	_	start_char=905|end_char=906
+15	and	and	CCONJ	CC	_	16	cc	_	start_char=907|end_char=910
+16	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	start_char=911|end_char=914
+17	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	start_char=915|end_char=916
+18	religious	religious	ADJ	JJ	Degree=Pos	19	amod	_	start_char=917|end_char=926
+19	education	education	NOUN	NN	Number=Sing	16	obj	_	start_char=927|end_char=936|SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	_	start_char=936|end_char=937
+
+# text = As deputy to former Boko Haram leader Mohamed Yusuf, who was killed in 2009, Shekau delivered sermons littered with references to Islamic scholars.
+# sent_id = 7
+1	As	as	ADP	IN	_	2	case	_	start_char=938|end_char=940
+2	deputy	deputy	NOUN	NN	Number=Sing	18	obl	_	start_char=941|end_char=947
+3	to	to	ADP	IN	_	7	case	_	start_char=948|end_char=950
+4	former	former	ADJ	JJ	Degree=Pos	7	amod	_	start_char=951|end_char=957
+5	Boko	Boko	PROPN	NNP	Number=Sing	7	compound	_	start_char=958|end_char=962
+6	Haram	Haram	PROPN	NNP	Number=Sing	5	flat	_	start_char=963|end_char=968
+7	leader	leader	NOUN	NN	Number=Sing	2	nmod	_	start_char=969|end_char=975
+8	Mohamed	Mohamed	PROPN	NNP	Number=Sing	7	appos	_	start_char=976|end_char=983
+9	Yusuf	Yusuf	PROPN	NNP	Number=Sing	8	flat	_	start_char=984|end_char=989|SpaceAfter=No
+10	,	,	PUNCT	,	_	13	punct	_	start_char=989|end_char=990
+11	who	who	PRON	WP	PronType=Rel	13	nsubj:pass	_	start_char=991|end_char=994
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux:pass	_	start_char=995|end_char=998
+13	killed	kill	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	acl:relcl	_	start_char=999|end_char=1005
+14	in	in	ADP	IN	_	15	case	_	start_char=1006|end_char=1008
+15	2009	2009	NUM	CD	NumForm=Digit|NumType=Card	13	obl	_	start_char=1009|end_char=1013|SpaceAfter=No
+16	,	,	PUNCT	,	_	2	punct	_	start_char=1013|end_char=1014
+17	Shekau	Shekau	PROPN	NNP	Number=Sing	18	nsubj	_	start_char=1015|end_char=1021
+18	delivered	deliver	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=1022|end_char=1031
+19	sermons	sermon	NOUN	NNS	Number=Plur	18	obj	_	start_char=1032|end_char=1039
+20	littered	litter	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	19	acl	_	start_char=1040|end_char=1048
+21	with	with	ADP	IN	_	22	case	_	start_char=1049|end_char=1053
+22	references	reference	NOUN	NNS	Number=Plur	20	obl	_	start_char=1054|end_char=1064
+23	to	to	ADP	IN	_	25	case	_	start_char=1065|end_char=1067
+24	Islamic	Islamic	ADJ	JJ	Degree=Pos	25	amod	_	start_char=1068|end_char=1075
+25	scholars	scholar	NOUN	NNS	Number=Plur	22	nmod	_	start_char=1076|end_char=1084|SpaceAfter=No
+26	.	.	PUNCT	.	_	18	punct	_	start_char=1084|end_char=1085
+
+# text = He also expressed admiration for al Qaeda as a jihadist movement, although Boko Haram is not an affiliate of the group.
+# sent_id = 8
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=1086|end_char=1088
+2	also	also	ADV	RB	_	3	advmod	_	start_char=1089|end_char=1093
+3	expressed	express	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=1094|end_char=1103
+4	admiration	admiration	NOUN	NN	Number=Sing	3	obj	_	start_char=1104|end_char=1114
+5	for	for	ADP	IN	_	6	case	_	start_char=1115|end_char=1118
+6	al	al	PROPN	NNP	Number=Sing	4	nmod	_	start_char=1119|end_char=1121
+7	Qaeda	Qaeda	PROPN	NNP	Number=Sing	6	flat	_	start_char=1122|end_char=1127
+8	as	as	ADP	IN	_	11	case	_	start_char=1128|end_char=1130
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	start_char=1131|end_char=1132
+10	jihadist	jihadist	ADJ	JJ	Degree=Pos	11	amod	_	start_char=1133|end_char=1141
+11	movement	movement	NOUN	NN	Number=Sing	3	obl	_	start_char=1142|end_char=1150|SpaceAfter=No
+12	,	,	PUNCT	,	_	19	punct	_	start_char=1150|end_char=1151
+13	although	although	SCONJ	IN	_	19	mark	_	start_char=1152|end_char=1160
+14	Boko	Boko	PROPN	NNP	Number=Sing	19	nsubj	_	start_char=1161|end_char=1165
+15	Haram	Haram	PROPN	NNP	Number=Sing	14	flat	_	start_char=1166|end_char=1171
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	start_char=1172|end_char=1174
+17	not	not	PART	RB	Polarity=Neg	19	advmod	_	start_char=1175|end_char=1178
+18	an	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	start_char=1179|end_char=1181
+19	affiliate	affiliate	NOUN	NN	Number=Sing	3	advcl	_	start_char=1182|end_char=1191
+20	of	of	ADP	IN	_	22	case	_	start_char=1192|end_char=1194
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	start_char=1195|end_char=1198
+22	group	group	NOUN	NN	Number=Sing	19	nmod	_	start_char=1199|end_char=1204|SpaceAfter=No
+23	.	.	PUNCT	.	_	3	punct	_	start_char=1204|end_char=1205|SpacesAfter=\n
+
+# text = Shekau's rejection of the Christian calendar and of allegiance to the Nigerian flag resonates in a region where resentment of a corrupt and distant government runs deep.
+# sent_id = 9
+1-2	Shekau's	_	_	_	_	_	_	_	start_char=1206|end_char=1214
+1	Shekau	Shekau	PROPN	NNP	Number=Sing	3	nmod:poss	_	start_char=1206|end_char=1212
+2	's	's	PART	POS	_	1	case	_	start_char=1212|end_char=1214
+3	rejection	rejection	NOUN	NN	Number=Sing	15	nsubj	_	start_char=1215|end_char=1224
+4	of	of	ADP	IN	_	7	case	_	start_char=1225|end_char=1227
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=1228|end_char=1231
+6	Christian	Christian	ADJ	JJ	Degree=Pos	7	amod	_	start_char=1232|end_char=1241
+7	calendar	calendar	NOUN	NN	Number=Sing	3	nmod	_	start_char=1242|end_char=1250
+8	and	and	CCONJ	CC	_	10	cc	_	start_char=1251|end_char=1254
+9	of	of	ADP	IN	_	10	case	_	start_char=1255|end_char=1257
+10	allegiance	allegiance	NOUN	NN	Number=Sing	3	conj	_	start_char=1258|end_char=1268
+11	to	to	ADP	IN	_	14	case	_	start_char=1269|end_char=1271
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	start_char=1272|end_char=1275
+13	Nigerian	Nigerian	ADJ	JJ	Degree=Pos	14	amod	_	start_char=1276|end_char=1284
+14	flag	flag	NOUN	NN	Number=Sing	10	nmod	_	start_char=1285|end_char=1289
+15	resonates	resonate	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1290|end_char=1299
+16	in	in	ADP	IN	_	18	case	_	start_char=1300|end_char=1302
+17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	start_char=1303|end_char=1304
+18	region	region	NOUN	NN	Number=Sing	15	obl	_	start_char=1305|end_char=1311
+19	where	where	ADV	WRB	PronType=Rel	27	advmod	_	start_char=1312|end_char=1317
+20	resentment	resentment	NOUN	NN	Number=Sing	27	nsubj	_	start_char=1318|end_char=1328
+21	of	of	ADP	IN	_	26	case	_	start_char=1329|end_char=1331
+22	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	start_char=1332|end_char=1333
+23	corrupt	corrupt	ADJ	JJ	Degree=Pos	26	amod	_	start_char=1334|end_char=1341
+24	and	and	CCONJ	CC	_	25	cc	_	start_char=1342|end_char=1345
+25	distant	distant	ADJ	JJ	Degree=Pos	23	conj	_	start_char=1346|end_char=1353
+26	government	government	NOUN	NN	Number=Sing	20	nmod	_	start_char=1354|end_char=1364
+27	runs	run	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	start_char=1365|end_char=1369
+28	deep	deep	ADJ	JJ	Degree=Pos	27	xcomp	_	start_char=1370|end_char=1374|SpaceAfter=No
+29	.	.	PUNCT	.	_	15	punct	_	start_char=1374|end_char=1375
+
+# text = And his frequent reference to the great Bornu Empire -- a Muslim kingdom that ruled northern Nigeria for some 500 years -- harks back to a golden age.
+# sent_id = 10
+1	And	and	CCONJ	CC	_	23	cc	_	start_char=1376|end_char=1379
+2	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	start_char=1380|end_char=1383
+3	frequent	frequent	ADJ	JJ	Degree=Pos	4	amod	_	start_char=1384|end_char=1392
+4	reference	reference	NOUN	NN	Number=Sing	23	nsubj	_	start_char=1393|end_char=1402
+5	to	to	ADP	IN	_	9	case	_	start_char=1403|end_char=1405
+6	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=1406|end_char=1409
+7	great	great	ADJ	JJ	Degree=Pos	9	amod	_	start_char=1410|end_char=1415
+8	Bornu	Bornu	PROPN	NNP	Number=Sing	9	compound	_	start_char=1416|end_char=1421
+9	Empire	Empire	PROPN	NNP	Number=Sing	4	nmod	_	start_char=1422|end_char=1428
+10	--	--	PUNCT	,	_	13	punct	_	start_char=1429|end_char=1431
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	start_char=1432|end_char=1433
+12	Muslim	Muslim	ADJ	JJ	Degree=Pos	13	amod	_	start_char=1434|end_char=1440
+13	kingdom	kingdom	NOUN	NN	Number=Sing	9	appos	_	start_char=1441|end_char=1448
+14	that	that	PRON	WDT	PronType=Rel	15	nsubj	_	start_char=1449|end_char=1453
+15	ruled	rule	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	acl:relcl	_	start_char=1454|end_char=1459
+16	northern	northern	ADJ	JJ	Degree=Pos	17	amod	_	start_char=1460|end_char=1468
+17	Nigeria	Nigeria	PROPN	NNP	Number=Sing	15	obj	_	start_char=1469|end_char=1476
+18	for	for	ADP	IN	_	21	case	_	start_char=1477|end_char=1480
+19	some	some	DET	DT	PronType=Ind	21	det	_	start_char=1481|end_char=1485
+20	500	500	NUM	CD	NumForm=Digit|NumType=Card	21	nummod	_	start_char=1486|end_char=1489
+21	years	year	NOUN	NNS	Number=Plur	15	obl	_	start_char=1490|end_char=1495
+22	--	--	PUNCT	,	_	4	punct	_	start_char=1496|end_char=1498
+23	harks	hark	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1499|end_char=1504
+24	back	back	ADV	RB	_	23	advmod	_	start_char=1505|end_char=1509
+25	to	to	ADP	IN	_	28	case	_	start_char=1510|end_char=1512
+26	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	start_char=1513|end_char=1514
+27	golden	golden	ADJ	JJ	Degree=Pos	28	amod	_	start_char=1515|end_char=1521
+28	age	age	NOUN	NN	Number=Sing	23	obl	_	start_char=1522|end_char=1525|SpaceAfter=No
+29	.	.	PUNCT	.	_	23	punct	_	start_char=1525|end_char=1526|SpacesAfter=\n
+
+# text = He is also ruthless in dealing with dissent.
+# sent_id = 11
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=1527|end_char=1529
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=1530|end_char=1532
+3	also	also	ADV	RB	_	4	advmod	_	start_char=1533|end_char=1537
+4	ruthless	ruthless	ADJ	JJ	Degree=Pos	0	root	_	start_char=1538|end_char=1546
+5	in	in	SCONJ	IN	_	6	mark	_	start_char=1547|end_char=1549
+6	dealing	deal	VERB	VBG	Tense=Pres|VerbForm=Part	4	advcl	_	start_char=1550|end_char=1557
+7	with	with	ADP	IN	_	8	case	_	start_char=1558|end_char=1562
+8	dissent	dissent	NOUN	NN	Number=Sing	6	obl	_	start_char=1563|end_char=1570|SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	start_char=1570|end_char=1571
+
+# text = Shekau has no deputy and Zenn says that videos issued by the group never show other commanders.
+# sent_id = 12
+1	Shekau	Shekau	PROPN	NNP	Number=Sing	2	nsubj	_	start_char=1572|end_char=1578
+2	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1579|end_char=1582
+3	no	no	DET	DT	PronType=Neg	4	det	_	start_char=1583|end_char=1585
+4	deputy	deputy	NOUN	NN	Number=Sing	2	obj	_	start_char=1586|end_char=1592
+5	and	and	CCONJ	CC	_	7	cc	_	start_char=1593|end_char=1596
+6	Zenn	Zenn	PROPN	NNP	Number=Sing	7	nsubj	_	start_char=1597|end_char=1601
+7	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=1602|end_char=1606
+8	that	that	SCONJ	IN	_	15	mark	_	start_char=1607|end_char=1611
+9	videos	video	NOUN	NNS	Number=Plur	15	nsubj	_	start_char=1612|end_char=1618
+10	issued	issue	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	acl	_	start_char=1619|end_char=1625
+11	by	by	ADP	IN	_	13	case	_	start_char=1626|end_char=1628
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	start_char=1629|end_char=1632
+13	group	group	NOUN	NN	Number=Sing	10	obl:agent	_	start_char=1633|end_char=1638
+14	never	never	ADV	RB	PronType=Neg	15	advmod	_	start_char=1639|end_char=1644
+15	show	show	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	start_char=1645|end_char=1649
+16	other	other	ADJ	JJ	Degree=Pos	17	amod	_	start_char=1650|end_char=1655
+17	commanders	commander	NOUN	NNS	Number=Plur	15	obj	_	start_char=1656|end_char=1666|SpaceAfter=No
+18	.	.	PUNCT	.	_	2	punct	_	start_char=1666|end_char=1667
+
+# text = He kills anyone who challenges him, but to blow him off as a madman would be to underestimate his capabilities, says Zenn.
+# sent_id = 13
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=1668|end_char=1670
+2	kills	kill	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1671|end_char=1676
+3	anyone	anyone	PRON	NN	Number=Sing|PronType=Ind	2	obj	_	start_char=1677|end_char=1683
+4	who	who	PRON	WP	PronType=Rel	5	nsubj	_	start_char=1684|end_char=1687
+5	challenges	challenge	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	start_char=1688|end_char=1698
+6	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	start_char=1699|end_char=1702|SpaceAfter=No
+7	,	,	PUNCT	,	_	19	punct	_	start_char=1702|end_char=1703
+8	but	but	CCONJ	CC	_	19	cc	_	start_char=1704|end_char=1707
+9	to	to	PART	TO	_	10	mark	_	start_char=1708|end_char=1710
+10	blow	blow	VERB	VB	VerbForm=Inf	19	csubj:outer	_	start_char=1711|end_char=1715
+11	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	start_char=1716|end_char=1719
+12	off	off	ADP	RP	_	10	compound:prt	_	start_char=1720|end_char=1723
+13	as	as	ADP	IN	_	15	case	_	start_char=1724|end_char=1726
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	start_char=1727|end_char=1728
+15	madman	madman	NOUN	NN	Number=Sing	10	obl	_	start_char=1729|end_char=1735
+16	would	would	AUX	MD	VerbForm=Fin	19	aux	_	start_char=1736|end_char=1741
+17	be	be	AUX	VB	VerbForm=Inf	19	cop	_	start_char=1742|end_char=1744
+18	to	to	PART	TO	_	19	mark	_	start_char=1745|end_char=1747
+19	underestimate	underestimate	VERB	VB	VerbForm=Inf	2	conj	_	start_char=1748|end_char=1761
+20	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	start_char=1762|end_char=1765
+21	capabilities	capability	NOUN	NNS	Number=Plur	19	obj	_	start_char=1766|end_char=1778|SpaceAfter=No
+22	,	,	PUNCT	,	_	2	punct	_	start_char=1778|end_char=1779
+23	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=1780|end_char=1784
+24	Zenn	Zenn	PROPN	NNP	Number=Sing	23	nsubj	_	start_char=1785|end_char=1789|SpaceAfter=No
+25	.	.	PUNCT	.	_	2	punct	_	start_char=1789|end_char=1790|SpacesAfter=\n
+
+# text = Twice wounded himself -- in 2009 and 2012 -- Shekau appears to revel in violence.
+# sent_id = 14
+1	Twice	twice	ADV	RB	NumForm=Word|NumType=Mult	2	advmod	_	start_char=1791|end_char=1796
+2	wounded	wound	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	advcl	_	start_char=1797|end_char=1804
+3	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	start_char=1805|end_char=1812
+4	--	--	PUNCT	,	_	6	punct	_	start_char=1813|end_char=1815
+5	in	in	ADP	IN	_	6	case	_	start_char=1816|end_char=1818
+6	2009	2009	NUM	CD	NumForm=Digit|NumType=Card	2	obl	_	start_char=1819|end_char=1823
+7	and	and	CCONJ	CC	_	8	cc	_	start_char=1824|end_char=1827
+8	2012	2012	NUM	CD	NumForm=Digit|NumType=Card	6	conj	_	start_char=1828|end_char=1832
+9	--	--	PUNCT	,	_	6	punct	_	start_char=1833|end_char=1835
+10	Shekau	Shekau	PROPN	NNP	Number=Sing	11	nsubj	_	start_char=1836|end_char=1842
+11	appears	appear	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1843|end_char=1850
+12	to	to	PART	TO	_	13	mark	_	start_char=1851|end_char=1853
+13	revel	revel	VERB	VB	VerbForm=Inf	11	xcomp	_	start_char=1854|end_char=1859
+14	in	in	ADP	IN	_	15	case	_	start_char=1860|end_char=1862
+15	violence	violence	NOUN	NN	Number=Sing	13	obl	_	start_char=1863|end_char=1871|SpaceAfter=No
+16	.	.	PUNCT	.	_	11	punct	_	start_char=1871|end_char=1872
+
+# text = After a series of attacks in Kano in 2012, he said: I enjoy killing anyone that God commands me to kill, the way I enjoy killing chickens and rams.
+# sent_id = 15
+1	After	after	ADP	IN	_	3	case	_	start_char=1873|end_char=1878
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	start_char=1879|end_char=1880
+3	series	series	NOUN	NN	Number=Sing	12	obl	_	start_char=1881|end_char=1887
+4	of	of	ADP	IN	_	5	case	_	start_char=1888|end_char=1890
+5	attacks	attack	NOUN	NNS	Number=Plur	3	nmod	_	start_char=1891|end_char=1898
+6	in	in	ADP	IN	_	7	case	_	start_char=1899|end_char=1901
+7	Kano	Kano	PROPN	NNP	Number=Sing	5	nmod	_	start_char=1902|end_char=1906
+8	in	in	ADP	IN	_	9	case	_	start_char=1907|end_char=1909
+9	2012	2012	NUM	CD	NumForm=Digit|NumType=Card	3	nmod	_	start_char=1910|end_char=1914|SpaceAfter=No
+10	,	,	PUNCT	,	_	3	punct	_	start_char=1914|end_char=1915
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	start_char=1916|end_char=1918
+12	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=1919|end_char=1923|SpaceAfter=No
+13	:	:	PUNCT	:	_	15	punct	_	start_char=1923|end_char=1924
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	start_char=1925|end_char=1926
+15	enjoy	enjoy	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	ccomp	_	start_char=1927|end_char=1932
+16	killing	kill	VERB	VBG	VerbForm=Ger	15	xcomp	_	start_char=1933|end_char=1940
+17	anyone	anyone	PRON	NN	Number=Sing|PronType=Ind	16	obj	_	start_char=1941|end_char=1947
+18	that	that	PRON	WDT	PronType=Rel	20	obj	_	start_char=1948|end_char=1952
+19	God	God	PROPN	NNP	Number=Sing	20	nsubj	_	start_char=1953|end_char=1956
+20	commands	command	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	start_char=1957|end_char=1965
+21	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	20	obj	_	start_char=1966|end_char=1968
+22	to	to	PART	TO	_	23	mark	_	start_char=1969|end_char=1971
+23	kill	kill	VERB	VB	VerbForm=Inf	20	xcomp	_	start_char=1972|end_char=1976|SpaceAfter=No
+24	,	,	PUNCT	,	_	26	punct	_	start_char=1976|end_char=1977
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	start_char=1978|end_char=1981
+26	way	way	NOUN	NN	Number=Sing	17	appos	_	start_char=1982|end_char=1985
+27	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	28	nsubj	_	start_char=1986|end_char=1987
+28	enjoy	enjoy	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	start_char=1988|end_char=1993
+29	killing	kill	VERB	VBG	VerbForm=Ger	28	xcomp	_	start_char=1994|end_char=2001
+30	chickens	chicken	NOUN	NNS	Number=Plur	29	obj	_	start_char=2002|end_char=2010
+31	and	and	CCONJ	CC	_	32	cc	_	start_char=2011|end_char=2014
+32	rams	ram	NOUN	NNS	Number=Plur	30	conj	_	start_char=2015|end_char=2019|SpaceAfter=No
+33	.	.	PUNCT	.	_	12	punct	_	start_char=2019|end_char=2020|SpacesAfter=\s\n
+
+# text = Nor would Zenn be surprised if Shekau were under the influence of drugs when he recorded his video statement; they have sometimes been found in Boko Haram camps by the Nigerian military. ' I said I would... '
+# sent_id = 16
+1	Nor	nor	CCONJ	CC	Polarity=Neg	5	cc	_	start_char=2022|end_char=2025
+2	would	would	AUX	MD	VerbForm=Fin	5	aux	_	start_char=2026|end_char=2031
+3	Zenn	Zenn	PROPN	NNP	Number=Sing	5	nsubj:pass	_	start_char=2032|end_char=2036
+4	be	be	AUX	VB	VerbForm=Inf	5	aux:pass	_	start_char=2037|end_char=2039
+5	surprised	surprise	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=2040|end_char=2049
+6	if	if	SCONJ	IN	_	11	mark	_	start_char=2050|end_char=2052
+7	Shekau	Shekau	PROPN	NNP	Number=Sing	11	nsubj	_	start_char=2053|end_char=2059
+8	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	start_char=2060|end_char=2064
+9	under	under	ADP	IN	_	11	case	_	start_char=2065|end_char=2070
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=2071|end_char=2074
+11	influence	influence	NOUN	NN	Number=Sing	5	ccomp	_	start_char=2075|end_char=2084
+12	of	of	ADP	IN	_	13	case	_	start_char=2085|end_char=2087
+13	drugs	drug	NOUN	NNS	Number=Plur	11	nmod	_	start_char=2088|end_char=2093
+14	when	when	ADV	WRB	PronType=Int	16	advmod	_	start_char=2094|end_char=2098
+15	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	start_char=2099|end_char=2101
+16	recorded	record	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	advcl	_	start_char=2102|end_char=2110
+17	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	start_char=2111|end_char=2114
+18	video	video	NOUN	NN	Number=Sing	19	compound	_	start_char=2115|end_char=2120
+19	statement	statement	NOUN	NN	Number=Sing	16	obj	_	start_char=2121|end_char=2130|SpaceAfter=No
+20	;	;	PUNCT	,	_	25	punct	_	start_char=2130|end_char=2131
+21	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	25	nsubj:pass	_	start_char=2132|end_char=2136
+22	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	start_char=2137|end_char=2141
+23	sometimes	sometimes	ADV	RB	_	25	advmod	_	start_char=2142|end_char=2151
+24	been	be	AUX	VBN	Tense=Past|VerbForm=Part	25	aux:pass	_	start_char=2152|end_char=2156
+25	found	find	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	parataxis	_	start_char=2157|end_char=2162
+26	in	in	ADP	IN	_	29	case	_	start_char=2163|end_char=2165
+27	Boko	Boko	PROPN	NNP	Number=Sing	29	compound	_	start_char=2166|end_char=2170
+28	Haram	Haram	PROPN	NNP	Number=Sing	29	compound	_	start_char=2171|end_char=2176
+29	camps	camp	NOUN	NNS	Number=Plur	25	obl	_	start_char=2177|end_char=2182
+30	by	by	ADP	IN	_	33	case	_	start_char=2183|end_char=2185
+31	the	the	DET	DT	Definite=Def|PronType=Art	33	det	_	start_char=2186|end_char=2189
+32	Nigerian	Nigerian	ADJ	JJ	Degree=Pos	33	amod	_	start_char=2190|end_char=2198
+33	military	military	NOUN	NN	Number=Sing	25	obl:agent	_	start_char=2199|end_char=2207|SpaceAfter=No
+34	.	.	PUNCT	.	_	25	punct	_	start_char=2207|end_char=2208|SpacesAfter=\n
+35	'	'	PUNCT	''	_	25	punct	_	start_char=2209|end_char=2210
+36	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	37	nsubj	_	start_char=2211|end_char=2212
+37	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	parataxis	_	start_char=2213|end_char=2217
+38	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	39	nsubj	_	start_char=2218|end_char=2219
+39	would	would	AUX	MD	VerbForm=Fin	37	ccomp	_	start_char=2220|end_char=2225|SpaceAfter=No
+40	...	...	PUNCT	,	_	37	punct	_	start_char=2225|end_char=2228
+41	'	'	PUNCT	''	_	37	punct	_	start_char=2229|end_char=2230|SpacesAfter=\n
+
+# text = The mass abduction of teenage girls yet again delivered on a threat that Shekau has made repeatedly.
+# sent_id = 17
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=2231|end_char=2234
+2	mass	mass	ADJ	JJ	Degree=Pos	3	amod	_	start_char=2235|end_char=2239
+3	abduction	abduction	NOUN	NN	Number=Sing	9	nsubj	_	start_char=2240|end_char=2249
+4	of	of	ADP	IN	_	6	case	_	start_char=2250|end_char=2252
+5	teenage	teenage	ADJ	JJ	Degree=Pos	6	amod	_	start_char=2253|end_char=2260
+6	girls	girl	NOUN	NNS	Number=Plur	3	nmod	_	start_char=2261|end_char=2266
+7	yet	yet	ADV	RB	_	8	advmod	_	start_char=2267|end_char=2270
+8	again	again	ADV	RB	_	9	advmod	_	start_char=2271|end_char=2276
+9	delivered	deliver	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=2277|end_char=2286
+10	on	on	ADP	IN	_	12	case	_	start_char=2287|end_char=2289
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	start_char=2290|end_char=2291
+12	threat	threat	NOUN	NN	Number=Sing	9	obl	_	start_char=2292|end_char=2298
+13	that	that	PRON	WDT	PronType=Rel	16	obj	_	start_char=2299|end_char=2303
+14	Shekau	Shekau	PROPN	NNP	Number=Sing	16	nsubj	_	start_char=2304|end_char=2310
+15	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	start_char=2311|end_char=2314
+16	made	make	VERB	VBN	Tense=Past|VerbForm=Part	12	acl:relcl	_	start_char=2315|end_char=2319
+17	repeatedly	repeatedly	ADV	RB	_	16	advmod	_	start_char=2320|end_char=2330|SpaceAfter=No
+18	.	.	PUNCT	.	_	9	punct	_	start_char=2330|end_char=2331
+
+# text = Western education is a prime target of Boko Haram because in the group's view, it reinforces colonial and Christian influence and suppresses Islam.
+# sent_id = 18
+1	Western	western	ADJ	JJ	Degree=Pos	2	amod	_	start_char=2332|end_char=2339
+2	education	education	NOUN	NN	Number=Sing	6	nsubj	_	start_char=2340|end_char=2349
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=2350|end_char=2352
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=2353|end_char=2354
+5	prime	prime	ADJ	JJ	Degree=Pos	6	amod	_	start_char=2355|end_char=2360
+6	target	target	NOUN	NN	Number=Sing	0	root	_	start_char=2361|end_char=2367
+7	of	of	ADP	IN	_	8	case	_	start_char=2368|end_char=2370
+8	Boko	Boko	PROPN	NNP	Number=Sing	6	nmod	_	start_char=2371|end_char=2375
+9	Haram	Haram	PROPN	NNP	Number=Sing	8	flat	_	start_char=2376|end_char=2381
+10	because	because	ADP	IN	ExtPos=ADP	15	case	_	start_char=2382|end_char=2389
+11	in	in	ADP	IN	_	10	fixed	_	start_char=2390|end_char=2392
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	start_char=2393|end_char=2396
+13-14	group's	_	_	_	_	_	_	_	start_char=2397|end_char=2404
+13	group	group	NOUN	NN	Number=Sing	15	nmod:poss	_	start_char=2397|end_char=2402
+14	's	's	PART	POS	_	13	case	_	start_char=2402|end_char=2404
+15	view	view	NOUN	NN	Number=Sing	18	obl	_	start_char=2405|end_char=2409|SpaceAfter=No
+16	,	,	PUNCT	,	_	15	punct	_	start_char=2409|end_char=2410
+17	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	start_char=2411|end_char=2413
+18	reinforces	reinforce	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	start_char=2414|end_char=2424
+19	colonial	colonial	ADJ	JJ	Degree=Pos	22	amod	_	start_char=2425|end_char=2433
+20	and	and	CCONJ	CC	_	21	cc	_	start_char=2434|end_char=2437
+21	Christian	Christian	ADJ	JJ	Degree=Pos	19	conj	_	start_char=2438|end_char=2447
+22	influence	influence	NOUN	NN	Number=Sing	18	obj	_	start_char=2448|end_char=2457
+23	and	and	CCONJ	CC	_	24	cc	_	start_char=2458|end_char=2461
+24	suppresses	suppress	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	conj	_	start_char=2462|end_char=2472
+25	Islam	Islam	PROPN	NNP	Number=Sing	24	obj	_	start_char=2473|end_char=2478|SpaceAfter=No
+26	.	.	PUNCT	.	_	6	punct	_	start_char=2478|end_char=2479|SpacesAfter=\n
+
+# text = In a July 2013 video, Shekau promised that schools would be burned and teachers killed.
+# sent_id = 19
+1	In	in	ADP	IN	_	5	case	_	start_char=2480|end_char=2482
+2	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=2483|end_char=2484
+3	July	July	PROPN	NNP	Number=Sing	5	compound	_	start_char=2485|end_char=2489
+4	2013	2013	NUM	CD	NumForm=Digit|NumType=Card	5	compound	_	start_char=2490|end_char=2494
+5	video	video	NOUN	NN	Number=Sing	8	obl	_	start_char=2495|end_char=2500|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	start_char=2500|end_char=2501
+7	Shekau	Shekau	PROPN	NNP	Number=Sing	8	nsubj	_	start_char=2502|end_char=2508
+8	promised	promise	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=2509|end_char=2517
+9	that	that	SCONJ	IN	_	13	mark	_	start_char=2518|end_char=2522
+10	schools	school	NOUN	NNS	Number=Plur	13	nsubj:pass	_	start_char=2523|end_char=2530
+11	would	would	AUX	MD	VerbForm=Fin	13	aux	_	start_char=2531|end_char=2536
+12	be	be	AUX	VB	VerbForm=Inf	13	aux:pass	_	start_char=2537|end_char=2539
+13	burned	burn	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	ccomp	_	start_char=2540|end_char=2546
+14	and	and	CCONJ	CC	_	16	cc	_	start_char=2547|end_char=2550
+15	teachers	teacher	NOUN	NNS	Number=Plur	16	nsubj:pass	_	start_char=2551|end_char=2559
+16	killed	kill	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	conj	_	start_char=2560|end_char=2566|SpaceAfter=No
+17	.	.	PUNCT	.	_	8	punct	_	start_char=2566|end_char=2567
+
+# text = He has been true to his word.
+# sent_id = 20
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=2568|end_char=2570
+2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=2571|end_char=2574
+3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	4	cop	_	start_char=2575|end_char=2579
+4	true	true	ADJ	JJ	Degree=Pos	0	root	_	start_char=2580|end_char=2584
+5	to	to	ADP	IN	_	7	case	_	start_char=2585|end_char=2587
+6	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	start_char=2588|end_char=2591
+7	word	word	NOUN	NN	Number=Sing	4	obl	_	start_char=2592|end_char=2596|SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	start_char=2596|end_char=2597
+
+# text = In February, a school in Nigeria's northern
+# sent_id = 21
+1	In	in	ADP	IN	_	2	case	_	start_char=2598|end_char=2600
+2	February	February	PROPN	NNP	Number=Sing	5	nmod	_	start_char=2601|end_char=2609|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	start_char=2609|end_char=2610
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=2611|end_char=2612
+5	school	school	NOUN	NN	Number=Sing	0	root	_	start_char=2613|end_char=2619
+6	in	in	ADP	IN	_	9	case	_	start_char=2620|end_char=2622
+7-8	Nigeria's	_	_	_	_	_	_	_	start_char=2623|end_char=2632
+7	Nigeria	Nigeria	PROPN	NNP	Number=Sing	9	nmod:poss	_	start_char=2623|end_char=2630
+8	's	's	PART	POS	_	7	case	_	start_char=2630|end_char=2632
+9	northern	northern	ADJ	JJ	Degree=Pos	5	nmod	_	start_char=2633|end_char=2641
+
+# text = Yobe state was attacked and burned down, leaving 29 boys dead.
+# sent_id = 22
+1	Yobe	Yobe	PROPN	NNP	Number=Sing	2	compound	_	start_char=2642|end_char=2646
+2	state	state	NOUN	NN	Number=Sing	4	nsubj:pass	_	start_char=2647|end_char=2652
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	start_char=2653|end_char=2656
+4	attacked	attack	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=2657|end_char=2665
+5	and	and	CCONJ	CC	_	6	cc	_	start_char=2666|end_char=2669
+6	burned	burn	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	conj	_	start_char=2670|end_char=2676
+7	down	down	ADP	RP	_	6	compound:prt	_	start_char=2677|end_char=2681|SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	_	start_char=2681|end_char=2682
+9	leaving	leave	VERB	VBG	Tense=Pres|VerbForm=Part	4	advcl	_	start_char=2683|end_char=2690
+10	29	29	NUM	CD	NumForm=Digit|NumType=Card	11	nummod	_	start_char=2691|end_char=2693
+11	boys	boy	NOUN	NNS	Number=Plur	9	obj	_	start_char=2694|end_char=2698
+12	dead	dead	ADJ	JJ	Degree=Pos	9	xcomp	_	start_char=2699|end_char=2703|SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	start_char=2703|end_char=2704
+
+# text = And last September, more than 40 students at an agricultural college were killed.
+# sent_id = 23
+1	And	and	CCONJ	CC	_	14	cc	_	start_char=2705|end_char=2708
+2	last	last	ADJ	JJ	Degree=Pos	3	amod	_	start_char=2709|end_char=2713
+3	September	September	PROPN	NNP	Number=Sing	14	obl:unmarked	_	start_char=2714|end_char=2723|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	start_char=2723|end_char=2724
+5	more	more	ADJ	JJR	Degree=Cmp|ExtPos=ADV	7	advmod	_	start_char=2725|end_char=2729
+6	than	than	ADP	IN	_	5	fixed	_	start_char=2730|end_char=2734
+7	40	40	NUM	CD	NumForm=Digit|NumType=Card	8	nummod	_	start_char=2735|end_char=2737
+8	students	student	NOUN	NNS	Number=Plur	14	nsubj:pass	_	start_char=2738|end_char=2746
+9	at	at	ADP	IN	_	12	case	_	start_char=2747|end_char=2749
+10	an	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	start_char=2750|end_char=2752
+11	agricultural	agricultural	ADJ	JJ	Degree=Pos	12	amod	_	start_char=2753|end_char=2765
+12	college	college	NOUN	NN	Number=Sing	8	nmod	_	start_char=2766|end_char=2773
+13	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	14	aux:pass	_	start_char=2774|end_char=2778
+14	killed	kill	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=2779|end_char=2785|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	punct	_	start_char=2785|end_char=2786|SpacesAfter=\n
+
+# text = In abducting so many schoolgirls, Shekau may also have wanted to humiliate the Nigerian government just as the World Economic Forum gathered in the Nigerian capital, Abuja.
+# sent_id = 24
+1	In	in	SCONJ	IN	_	2	mark	_	start_char=2787|end_char=2789
+2	abducting	abduct	VERB	VBG	Tense=Pres|VerbForm=Part	11	advcl	_	start_char=2790|end_char=2799
+3	so	so	ADV	RB	_	4	advmod	_	start_char=2800|end_char=2802
+4	many	many	ADJ	JJ	Degree=Pos	5	amod	_	start_char=2803|end_char=2807
+5	schoolgirls	schoolgirl	NOUN	NNS	Number=Plur	2	obj	_	start_char=2808|end_char=2819|SpaceAfter=No
+6	,	,	PUNCT	,	_	2	punct	_	start_char=2819|end_char=2820
+7	Shekau	Shekau	PROPN	NNP	Number=Sing	11	nsubj	_	start_char=2821|end_char=2827
+8	may	may	AUX	MD	VerbForm=Fin	11	aux	_	start_char=2828|end_char=2831
+9	also	also	ADV	RB	_	11	advmod	_	start_char=2832|end_char=2836
+10	have	have	AUX	VB	VerbForm=Inf	11	aux	_	start_char=2837|end_char=2841
+11	wanted	want	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=2842|end_char=2848
+12	to	to	PART	TO	_	13	mark	_	start_char=2849|end_char=2851
+13	humiliate	humiliate	VERB	VB	VerbForm=Inf	11	xcomp	_	start_char=2852|end_char=2861
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	start_char=2862|end_char=2865
+15	Nigerian	Nigerian	ADJ	JJ	Degree=Pos	16	amod	_	start_char=2866|end_char=2874
+16	government	government	NOUN	NN	Number=Sing	13	obj	_	start_char=2875|end_char=2885
+17	just	just	ADV	RB	_	23	advmod	_	start_char=2886|end_char=2890
+18	as	as	SCONJ	IN	_	23	mark	_	start_char=2891|end_char=2893
+19	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	start_char=2894|end_char=2897
+20	World	World	PROPN	NNP	Number=Sing	22	compound	_	start_char=2898|end_char=2903
+21	Economic	Economic	ADJ	NNP	Degree=Pos	22	amod	_	start_char=2904|end_char=2912
+22	Forum	Forum	PROPN	NNP	Number=Sing	23	nsubj	_	start_char=2913|end_char=2918
+23	gathered	gather	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	advcl	_	start_char=2919|end_char=2927
+24	in	in	ADP	IN	_	27	case	_	start_char=2928|end_char=2930
+25	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	start_char=2931|end_char=2934
+26	Nigerian	Nigerian	ADJ	JJ	Degree=Pos	27	amod	_	start_char=2935|end_char=2943
+27	capital	capital	NOUN	NN	Number=Sing	23	obl	_	start_char=2944|end_char=2951|SpaceAfter=No
+28	,	,	PUNCT	,	_	29	punct	_	start_char=2951|end_char=2952
+29	Abuja	Abuja	PROPN	NNP	Number=Sing	27	appos	_	start_char=2953|end_char=2958|SpaceAfter=No
+30	.	.	PUNCT	.	_	11	punct	_	start_char=2958|end_char=2959|SpacesAfter=\n
+
+# text = Shehu Sani, a human rights activist in northern Nigeria who has previously been involved in mediating with Boko Haram, believes the abduction and other recent attacks are messages to the Nigerian government that the recent arrest of Boko Haram followers in Islamic schools will be avenged.
+# sent_id = 25
+1	Shehu	Shehu	PROPN	NNP	Number=Sing	22	nsubj	_	start_char=2960|end_char=2965
+2	Sani	Sani	PROPN	NNP	Number=Sing	1	flat	_	start_char=2966|end_char=2970|SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	start_char=2970|end_char=2971
+4	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=2972|end_char=2973
+5	human	human	ADJ	JJ	Degree=Pos	6	amod	_	start_char=2974|end_char=2979
+6	rights	right	NOUN	NNS	Number=Plur	7	compound	_	start_char=2980|end_char=2986
+7	activist	activist	NOUN	NN	Number=Sing	1	appos	_	start_char=2987|end_char=2995
+8	in	in	ADP	IN	_	10	case	_	start_char=2996|end_char=2998
+9	northern	northern	ADJ	JJ	Degree=Pos	10	amod	_	start_char=2999|end_char=3007
+10	Nigeria	Nigeria	PROPN	NNP	Number=Sing	7	nmod	_	start_char=3008|end_char=3015
+11	who	who	PRON	WP	PronType=Rel	15	nsubj:pass	_	start_char=3016|end_char=3019
+12	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	start_char=3020|end_char=3023
+13	previously	previously	ADV	RB	_	15	advmod	_	start_char=3024|end_char=3034
+14	been	be	AUX	VBN	Tense=Past|VerbForm=Part	15	aux:pass	_	start_char=3035|end_char=3039
+15	involved	involve	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	acl:relcl	_	start_char=3040|end_char=3048
+16	in	in	SCONJ	IN	_	17	mark	_	start_char=3049|end_char=3051
+17	mediating	mediat	VERB	VBG	Tense=Pres|VerbForm=Part	15	advcl	_	start_char=3052|end_char=3061
+18	with	with	ADP	IN	_	19	case	_	start_char=3062|end_char=3066
+19	Boko	Boko	PROPN	NNP	Number=Sing	17	obl	_	start_char=3067|end_char=3071
+20	Haram	Haram	PROPN	NNP	Number=Sing	19	flat	_	start_char=3072|end_char=3077|SpaceAfter=No
+21	,	,	PUNCT	,	_	1	punct	_	start_char=3077|end_char=3078
+22	believes	believe	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3079|end_char=3087
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	start_char=3088|end_char=3091
+24	abduction	abduction	NOUN	NN	Number=Sing	30	nsubj	_	start_char=3092|end_char=3101
+25	and	and	CCONJ	CC	_	28	cc	_	start_char=3102|end_char=3105
+26	other	other	ADJ	JJ	Degree=Pos	28	amod	_	start_char=3106|end_char=3111
+27	recent	recent	ADJ	JJ	Degree=Pos	28	amod	_	start_char=3112|end_char=3118
+28	attacks	attack	NOUN	NNS	Number=Plur	24	conj	_	start_char=3119|end_char=3126
+29	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	start_char=3127|end_char=3130
+30	messages	message	NOUN	NNS	Number=Plur	22	ccomp	_	start_char=3131|end_char=3139
+31	to	to	ADP	IN	_	34	case	_	start_char=3140|end_char=3142
+32	the	the	DET	DT	Definite=Def|PronType=Art	34	det	_	start_char=3143|end_char=3146
+33	Nigerian	Nigerian	ADJ	JJ	Degree=Pos	34	amod	_	start_char=3147|end_char=3155
+34	government	government	NOUN	NN	Number=Sing	30	nmod	_	start_char=3156|end_char=3166
+35	that	that	SCONJ	IN	_	48	mark	_	start_char=3167|end_char=3171
+36	the	the	DET	DT	Definite=Def|PronType=Art	38	det	_	start_char=3172|end_char=3175
+37	recent	recent	ADJ	JJ	Degree=Pos	38	amod	_	start_char=3176|end_char=3182
+38	arrest	arrest	NOUN	NN	Number=Sing	48	nsubj:pass	_	start_char=3183|end_char=3189
+39	of	of	ADP	IN	_	42	case	_	start_char=3190|end_char=3192
+40	Boko	Boko	PROPN	NNP	Number=Sing	42	compound	_	start_char=3193|end_char=3197
+41	Haram	Haram	PROPN	NNP	Number=Sing	40	flat	_	start_char=3198|end_char=3203
+42	followers	follower	NOUN	NNS	Number=Plur	38	nmod	_	start_char=3204|end_char=3213
+43	in	in	ADP	IN	_	45	case	_	start_char=3214|end_char=3216
+44	Islamic	Islamic	ADJ	JJ	Degree=Pos	45	amod	_	start_char=3217|end_char=3224
+45	schools	school	NOUN	NNS	Number=Plur	42	nmod	_	start_char=3225|end_char=3232
+46	will	will	AUX	MD	VerbForm=Fin	48	aux	_	start_char=3233|end_char=3237
+47	be	be	AUX	VB	VerbForm=Inf	48	aux:pass	_	start_char=3238|end_char=3240
+48	avenged	avenge	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	30	acl	_	start_char=3241|end_char=3248|SpaceAfter=No
+49	.	.	PUNCT	.	_	22	punct	_	start_char=3248|end_char=3249
+
+# text = In 2012, Shekau's wife and three children were reportedly taken into military custody.
+# sent_id = 26
+1	In	in	ADP	IN	_	2	case	_	start_char=3250|end_char=3252
+2	2012	2012	NUM	CD	NumForm=Digit|NumType=Card	12	obl	_	start_char=3253|end_char=3257|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	start_char=3257|end_char=3258
+4-5	Shekau's	_	_	_	_	_	_	_	start_char=3259|end_char=3267
+4	Shekau	Shekau	PROPN	NNP	Number=Sing	6	nmod:poss	_	start_char=3259|end_char=3265
+5	's	's	PART	POS	_	4	case	_	start_char=3265|end_char=3267
+6	wife	wife	NOUN	NN	Number=Sing	12	nsubj:pass	_	start_char=3268|end_char=3272
+7	and	and	CCONJ	CC	_	9	cc	_	start_char=3273|end_char=3276
+8	three	three	NUM	CD	NumForm=Word|NumType=Card	9	nummod	_	start_char=3277|end_char=3282
+9	children	child	NOUN	NNS	Number=Plur	6	conj	_	start_char=3283|end_char=3291
+10	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	aux:pass	_	start_char=3292|end_char=3296
+11	reportedly	reportedly	ADV	RB	_	12	advmod	_	start_char=3297|end_char=3307
+12	taken	take	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=3308|end_char=3313
+13	into	into	ADP	IN	_	15	case	_	start_char=3314|end_char=3318
+14	military	military	ADJ	JJ	Degree=Pos	15	amod	_	start_char=3319|end_char=3327
+15	custody	custody	NOUN	NN	Number=Sing	12	obl	_	start_char=3328|end_char=3335|SpaceAfter=No
+16	.	.	PUNCT	.	_	12	punct	_	start_char=3335|end_char=3336|SpacesAfter=\n\s
+
+# text = Every time people have started talking about the decline of Boko Haram, it has emerged as deadlier and more fierce, Sani told CNN.
+# sent_id = 27
+1	Every	every	DET	DT	PronType=Tot	2	det	_	start_char=3338|end_char=3343
+2	time	time	NOUN	NN	Number=Sing	16	obl:unmarked	_	start_char=3344|end_char=3348
+3	people	person	NOUN	NNS	Number=Plur	5	nsubj	_	start_char=3349|end_char=3355
+4	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=3356|end_char=3360
+5	started	start	VERB	VBN	Tense=Past|VerbForm=Part	2	acl:relcl	_	start_char=3361|end_char=3368
+6	talking	talk	VERB	VBG	VerbForm=Ger	5	xcomp	_	start_char=3369|end_char=3376
+7	about	about	ADP	IN	_	9	case	_	start_char=3377|end_char=3382
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=3383|end_char=3386
+9	decline	decline	NOUN	NN	Number=Sing	6	obl	_	start_char=3387|end_char=3394
+10	of	of	ADP	IN	_	11	case	_	start_char=3395|end_char=3397
+11	Boko	Boko	PROPN	NNP	Number=Sing	9	nmod	_	start_char=3398|end_char=3402
+12	Haram	Haram	PROPN	NNP	Number=Sing	11	flat	_	start_char=3403|end_char=3408|SpaceAfter=No
+13	,	,	PUNCT	,	_	2	punct	_	start_char=3408|end_char=3409
+14	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	start_char=3410|end_char=3412
+15	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	start_char=3413|end_char=3416
+16	emerged	emerge	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=3417|end_char=3424
+17	as	as	ADP	IN	_	18	case	_	start_char=3425|end_char=3427
+18	deadlier	deadly	ADJ	JJR	Degree=Cmp	16	obl	_	start_char=3428|end_char=3436
+19	and	and	CCONJ	CC	_	21	cc	_	start_char=3437|end_char=3440
+20	more	more	ADV	RBR	Degree=Cmp	21	advmod	_	start_char=3441|end_char=3445
+21	fierce	fierce	ADJ	JJ	Degree=Pos	18	conj	_	start_char=3446|end_char=3452|SpaceAfter=No
+22	,	,	PUNCT	,	_	16	punct	_	start_char=3452|end_char=3453
+23	Sani	Sani	PROPN	NNP	Number=Sing	24	nsubj	_	start_char=3454|end_char=3458
+24	told	tell	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	parataxis	_	start_char=3459|end_char=3463
+25	CNN	CNN	PROPN	NNP	Abbr=Yes|Number=Sing	24	iobj	_	start_char=3464|end_char=3467|SpaceAfter=No
+26	.	.	PUNCT	.	_	16	punct	_	start_char=3467|end_char=3468
+
+# text = This is about a strategy of violence more than about ideology.
+# sent_id = 28
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	start_char=3469|end_char=3473
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=3474|end_char=3476
+3	about	about	ADP	IN	_	5	case	_	start_char=3477|end_char=3482
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=3483|end_char=3484
+5	strategy	strategy	NOUN	NN	Number=Sing	0	root	_	start_char=3485|end_char=3493
+6	of	of	ADP	IN	_	7	case	_	start_char=3494|end_char=3496
+7	violence	violence	NOUN	NN	Number=Sing	5	nmod	_	start_char=3497|end_char=3505
+8	more	more	ADJ	JJR	Degree=Cmp	5	advmod	_	start_char=3506|end_char=3510
+9	than	than	ADP	IN	_	11	case	_	start_char=3511|end_char=3515
+10	about	about	ADP	IN	_	11	case	_	start_char=3516|end_char=3521
+11	ideology	ideology	NOUN	NN	Number=Sing	8	obl	_	start_char=3522|end_char=3530|SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	start_char=3530|end_char=3531|SpacesAfter=\s\n
+
+# text = Rewarding the fighters Boko Haram has suffered several setbacks in the last year.
+# sent_id = 29
+1	Rewarding	reward	VERB	VBG	VerbForm=Ger	7	csubj	_	start_char=3533|end_char=3542
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=3543|end_char=3546
+3	fighters	fighter	NOUN	NNS	Number=Plur	1	obj	_	start_char=3547|end_char=3555|SpacesAfter=\n
+4	Boko	Boko	PROPN	NNP	Number=Sing	7	nsubj	_	start_char=3556|end_char=3560
+5	Haram	Haram	PROPN	NNP	Number=Sing	4	flat	_	start_char=3561|end_char=3566
+6	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=3567|end_char=3570
+7	suffered	suffer	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=3571|end_char=3579
+8	several	several	ADJ	JJ	Degree=Pos	9	amod	_	start_char=3580|end_char=3587
+9	setbacks	setback	NOUN	NNS	Number=Plur	7	obj	_	start_char=3588|end_char=3596
+10	in	in	ADP	IN	_	13	case	_	start_char=3597|end_char=3599
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	start_char=3600|end_char=3603
+12	last	last	ADJ	JJ	Degree=Pos	13	amod	_	start_char=3604|end_char=3608
+13	year	year	NOUN	NN	Number=Sing	7	obl	_	start_char=3609|end_char=3613|SpaceAfter=No
+14	.	.	PUNCT	.	_	7	punct	_	start_char=3613|end_char=3614
+
+# text = The emergence of civilian vigilante groups in cities like Maiduguri has pushed it into rural areas and the Nigerian military has gone on the offensive against the group.
+# sent_id = 30
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=3615|end_char=3618
+2	emergence	emergence	NOUN	NN	Number=Sing	12	nsubj	_	start_char=3619|end_char=3628
+3	of	of	ADP	IN	_	6	case	_	start_char=3629|end_char=3631
+4	civilian	civilian	ADJ	JJ	Degree=Pos	6	amod	_	start_char=3632|end_char=3640
+5	vigilante	vigilante	NOUN	NN	Number=Sing	6	compound	_	start_char=3641|end_char=3650
+6	groups	group	NOUN	NNS	Number=Plur	2	nmod	_	start_char=3651|end_char=3657
+7	in	in	ADP	IN	_	8	case	_	start_char=3658|end_char=3660
+8	cities	city	NOUN	NNS	Number=Plur	6	nmod	_	start_char=3661|end_char=3667
+9	like	like	ADP	IN	_	10	case	_	start_char=3668|end_char=3672
+10	Maiduguri	Maiduguri	PROPN	NNP	Number=Sing	8	nmod	_	start_char=3673|end_char=3682
+11	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=3683|end_char=3686
+12	pushed	push	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=3687|end_char=3693
+13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	obj	_	start_char=3694|end_char=3696
+14	into	into	ADP	IN	_	16	case	_	start_char=3697|end_char=3701
+15	rural	rural	ADJ	JJ	Degree=Pos	16	amod	_	start_char=3702|end_char=3707
+16	areas	area	NOUN	NNS	Number=Plur	12	obl	_	start_char=3708|end_char=3713
+17	and	and	CCONJ	CC	_	22	cc	_	start_char=3714|end_char=3717
+18	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	start_char=3718|end_char=3721
+19	Nigerian	Nigerian	ADJ	JJ	Degree=Pos	20	amod	_	start_char=3722|end_char=3730
+20	military	military	NOUN	NN	Number=Sing	22	nsubj	_	start_char=3731|end_char=3739
+21	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	start_char=3740|end_char=3743
+22	gone	go	VERB	VBN	Tense=Past|VerbForm=Part	12	conj	_	start_char=3744|end_char=3748
+23	on	on	ADP	IN	_	25	case	_	start_char=3749|end_char=3751
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	start_char=3752|end_char=3755
+25	offensive	offensive	NOUN	NN	Number=Sing	22	obl	_	start_char=3756|end_char=3765
+26	against	against	ADP	IN	_	28	case	_	start_char=3766|end_char=3773
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	start_char=3774|end_char=3777
+28	group	group	NOUN	NN	Number=Sing	25	nmod	_	start_char=3778|end_char=3783|SpaceAfter=No
+29	.	.	PUNCT	.	_	12	punct	_	start_char=3783|end_char=3784|SpacesAfter=\n
+
+# text = According to Sani, Boko Haram now does most of its recruiting in the countryside, coercing or financially inducing vulnerable youngsters from poor homes to join its ranks.
+# sent_id = 31
+1	According	accord	VERB	VBG	ExtPos=ADP|Tense=Pres|VerbForm=Part	3	case	_	start_char=3785|end_char=3794
+2	to	to	ADP	IN	_	1	fixed	_	start_char=3795|end_char=3797
+3	Sani	Sani	PROPN	NNP	Number=Sing	8	obl	_	start_char=3798|end_char=3802|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	start_char=3802|end_char=3803
+5	Boko	Boko	PROPN	NNP	Number=Sing	8	nsubj	_	start_char=3804|end_char=3808
+6	Haram	Haram	PROPN	NNP	Number=Sing	5	flat	_	start_char=3809|end_char=3814
+7	now	now	ADV	RB	_	8	advmod	_	start_char=3815|end_char=3818
+8	does	do	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3819|end_char=3823
+9	most	most	ADJ	JJS	Degree=Sup	8	obj	_	start_char=3824|end_char=3828
+10	of	of	ADP	IN	_	12	case	_	start_char=3829|end_char=3831
+11	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	start_char=3832|end_char=3835
+12	recruiting	recruiting	NOUN	NN	Number=Sing	9	nmod	_	start_char=3836|end_char=3846
+13	in	in	ADP	IN	_	15	case	_	start_char=3847|end_char=3849
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	start_char=3850|end_char=3853
+15	countryside	countryside	NOUN	NN	Number=Sing	8	obl	_	start_char=3854|end_char=3865|SpaceAfter=No
+16	,	,	PUNCT	,	_	17	punct	_	start_char=3865|end_char=3866
+17	coercing	coerce	VERB	VBG	Tense=Pres|VerbForm=Part	8	advcl	_	start_char=3867|end_char=3875
+18	or	or	CCONJ	CC	_	20	cc	_	start_char=3876|end_char=3878
+19	financially	financially	ADV	RB	_	20	advmod	_	start_char=3879|end_char=3890
+20	inducing	induce	VERB	VBG	Tense=Pres|VerbForm=Part	17	conj	_	start_char=3891|end_char=3899
+21	vulnerable	vulnerable	ADJ	JJ	Degree=Pos	22	amod	_	start_char=3900|end_char=3910
+22	youngsters	youngster	NOUN	NNS	Number=Plur	20	obj	_	start_char=3911|end_char=3921
+23	from	from	ADP	IN	_	25	case	_	start_char=3922|end_char=3926
+24	poor	poor	ADJ	JJ	Degree=Pos	25	amod	_	start_char=3927|end_char=3931
+25	homes	home	NOUN	NNS	Number=Plur	20	obl	_	start_char=3932|end_char=3937
+26	to	to	PART	TO	_	27	mark	_	start_char=3938|end_char=3940
+27	join	join	VERB	VB	VerbForm=Inf	20	advcl	_	start_char=3941|end_char=3945
+28	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	_	start_char=3946|end_char=3949
+29	ranks	rank	NOUN	NNS	Number=Plur	27	obj	_	start_char=3950|end_char=3955|SpaceAfter=No
+30	.	.	PUNCT	.	_	8	punct	_	start_char=3955|end_char=3956
+
+# text = The mass kidnapping of the teenage girls from Chibok may have been part of an effort by Shekau to reinforce the loyalty of these largely uneducated young men by providing them with free servants or sex slaves, Zenn suggests.
+# sent_id = 32
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=3957|end_char=3960
+2	mass	mass	ADJ	JJ	Degree=Pos	3	amod	_	start_char=3961|end_char=3965
+3	kidnapping	kidnap	NOUN	NN	Number=Sing	13	nsubj	_	start_char=3966|end_char=3976
+4	of	of	ADP	IN	_	7	case	_	start_char=3977|end_char=3979
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=3980|end_char=3983
+6	teenage	teenage	ADJ	JJ	Degree=Pos	7	amod	_	start_char=3984|end_char=3991
+7	girls	girl	NOUN	NNS	Number=Plur	3	nmod	_	start_char=3992|end_char=3997
+8	from	from	ADP	IN	_	9	case	_	start_char=3998|end_char=4002
+9	Chibok	Chibok	PROPN	NNP	Number=Sing	7	nmod	_	start_char=4003|end_char=4009
+10	may	may	AUX	MD	VerbForm=Fin	13	aux	_	start_char=4010|end_char=4013
+11	have	have	AUX	VB	VerbForm=Inf	13	aux	_	start_char=4014|end_char=4018
+12	been	be	AUX	VBN	Tense=Past|VerbForm=Part	13	cop	_	start_char=4019|end_char=4023
+13	part	part	NOUN	NN	Number=Sing	0	root	_	start_char=4024|end_char=4028
+14	of	of	ADP	IN	_	16	case	_	start_char=4029|end_char=4031
+15	an	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	start_char=4032|end_char=4034
+16	effort	effort	NOUN	NN	Number=Sing	13	nmod	_	start_char=4035|end_char=4041
+17	by	by	ADP	IN	_	18	case	_	start_char=4042|end_char=4044
+18	Shekau	Shekau	PROPN	NNP	Number=Sing	16	nmod	_	start_char=4045|end_char=4051
+19	to	to	PART	TO	_	20	mark	_	start_char=4052|end_char=4054
+20	reinforce	reinforce	VERB	VB	VerbForm=Inf	16	acl	_	start_char=4055|end_char=4064
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	start_char=4065|end_char=4068
+22	loyalty	loyalty	NOUN	NN	Number=Sing	20	obj	_	start_char=4069|end_char=4076
+23	of	of	ADP	IN	_	28	case	_	start_char=4077|end_char=4079
+24	these	this	DET	DT	Number=Plur|PronType=Dem	28	det	_	start_char=4080|end_char=4085
+25	largely	largely	ADV	RB	_	26	advmod	_	start_char=4086|end_char=4093
+26	uneducated	uneducated	ADJ	JJ	Degree=Pos	28	amod	_	start_char=4094|end_char=4104
+27	young	young	ADJ	JJ	Degree=Pos	28	amod	_	start_char=4105|end_char=4110
+28	men	man	NOUN	NNS	Number=Plur	22	nmod	_	start_char=4111|end_char=4114
+29	by	by	SCONJ	IN	_	30	mark	_	start_char=4115|end_char=4117
+30	providing	provide	VERB	VBG	Tense=Pres|VerbForm=Part	20	advcl	_	start_char=4118|end_char=4127
+31	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	30	obj	_	start_char=4128|end_char=4132
+32	with	with	ADP	IN	_	34	case	_	start_char=4133|end_char=4137
+33	free	free	ADJ	JJ	Degree=Pos	34	amod	_	start_char=4138|end_char=4142
+34	servants	servant	NOUN	NNS	Number=Plur	30	obl	_	start_char=4143|end_char=4151
+35	or	or	CCONJ	CC	_	37	cc	_	start_char=4152|end_char=4154
+36	sex	sex	NOUN	NN	Number=Sing	37	compound	_	start_char=4155|end_char=4158
+37	slaves	slave	NOUN	NNS	Number=Plur	34	conj	_	start_char=4159|end_char=4165|SpaceAfter=No
+38	,	,	PUNCT	,	_	13	punct	_	start_char=4165|end_char=4166
+39	Zenn	Zenn	PROPN	NNP	Number=Sing	40	nsubj	_	start_char=4167|end_char=4171
+40	suggests	suggest	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	parataxis	_	start_char=4172|end_char=4180|SpaceAfter=No
+41	.	.	PUNCT	.	_	40	punct	_	start_char=4180|end_char=4181
+
+# text = In his video, Shekau said of the girls:
+# sent_id = 33
+1	In	in	ADP	IN	_	3	case	_	start_char=4182|end_char=4184
+2	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	start_char=4185|end_char=4188
+3	video	video	NOUN	NN	Number=Sing	6	obl	_	start_char=4189|end_char=4194|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	start_char=4194|end_char=4195
+5	Shekau	Shekau	PROPN	NNP	Number=Sing	6	nsubj	_	start_char=4196|end_char=4202
+6	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=4203|end_char=4207
+7	of	of	ADP	IN	_	9	case	_	start_char=4208|end_char=4210
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=4211|end_char=4214
+9	girls	girl	NOUN	NNS	Number=Plur	6	obl	_	start_char=4215|end_char=4220|SpaceAfter=No
+10	:	:	PUNCT	:	_	6	punct	_	start_char=4220|end_char=4221
+
+# text = We would also give their hands in marriage because they are our slaves.
+# sent_id = 34
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	start_char=4222|end_char=4224
+2	would	would	AUX	MD	VerbForm=Fin	4	aux	_	start_char=4225|end_char=4230
+3	also	also	ADV	RB	_	4	advmod	_	start_char=4231|end_char=4235
+4	give	give	VERB	VB	VerbForm=Inf	0	root	_	start_char=4236|end_char=4240
+5	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	start_char=4241|end_char=4246
+6	hands	hand	NOUN	NNS	Number=Plur	4	obj	_	start_char=4247|end_char=4252
+7	in	in	ADP	IN	_	8	case	_	start_char=4253|end_char=4255
+8	marriage	marriage	NOUN	NN	Number=Sing	4	obl	_	start_char=4256|end_char=4264
+9	because	because	SCONJ	IN	_	13	mark	_	start_char=4265|end_char=4272
+10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	start_char=4273|end_char=4277
+11	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	start_char=4278|end_char=4281
+12	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	start_char=4282|end_char=4285
+13	slaves	slave	NOUN	NNS	Number=Plur	4	advcl	_	start_char=4286|end_char=4292|SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	start_char=4292|end_char=4293|SpacesAfter=\s\n\s
+
+# text = Many will likely end up becoming mothers -- it's a real horror and over the next years we 'll slowly hear the stories of girls few-by-few as they manage to make it out, Zenn told CNN.
+# sent_id = 35
+1	Many	many	ADJ	JJ	Degree=Pos	4	nsubj	_	start_char=4296|end_char=4300
+2	will	will	AUX	MD	VerbForm=Fin	4	aux	_	start_char=4301|end_char=4305
+3	likely	likely	ADV	RB	_	4	advmod	_	start_char=4306|end_char=4312
+4	end	end	VERB	VB	VerbForm=Inf	0	root	_	start_char=4313|end_char=4316
+5	up	up	ADP	RP	_	4	compound:prt	_	start_char=4317|end_char=4319
+6	becoming	become	VERB	VBG	VerbForm=Ger	4	xcomp	_	start_char=4320|end_char=4328
+7	mothers	mother	NOUN	NNS	Number=Plur	6	xcomp	_	start_char=4329|end_char=4336
+8	--	--	PUNCT	,	_	13	punct	_	start_char=4337|end_char=4339
+9-10	it's	_	_	_	_	_	_	_	start_char=4340|end_char=4344
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	start_char=4340|end_char=4342
+10	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	start_char=4342|end_char=4344
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	start_char=4345|end_char=4346
+12	real	real	ADJ	JJ	Degree=Pos	13	amod	_	start_char=4347|end_char=4351
+13	horror	horror	NOUN	NN	Number=Sing	4	parataxis	_	start_char=4352|end_char=4358
+14	and	and	CCONJ	CC	_	22	cc	_	start_char=4359|end_char=4362
+15	over	over	ADP	IN	_	18	case	_	start_char=4363|end_char=4367
+16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	start_char=4368|end_char=4371
+17	next	next	ADJ	JJ	Degree=Pos	18	amod	_	start_char=4372|end_char=4376
+18	years	year	NOUN	NNS	Number=Plur	22	obl	_	start_char=4377|end_char=4382
+19	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	22	nsubj	_	start_char=4383|end_char=4385
+20	'll	will	AUX	MD	VerbForm=Fin	22	aux	_	start_char=4386|end_char=4389
+21	slowly	slowly	ADV	RB	_	22	advmod	_	start_char=4390|end_char=4396
+22	hear	hear	VERB	VB	VerbForm=Inf	4	conj	_	start_char=4397|end_char=4401
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	start_char=4402|end_char=4405
+24	stories	story	NOUN	NNS	Number=Plur	22	obj	_	start_char=4406|end_char=4413
+25	of	of	ADP	IN	_	26	case	_	start_char=4414|end_char=4416
+26	girls	girl	NOUN	NNS	Number=Plur	24	nmod	_	start_char=4417|end_char=4422
+27	few	few	ADJ	JJ	Degree=Pos	31	amod	_	start_char=4423|end_char=4426|SpaceAfter=No
+28	-	-	PUNCT	HYPH	_	29	punct	_	start_char=4426|end_char=4427|SpaceAfter=No
+29	by	by	ADP	IN	_	31	case	_	start_char=4427|end_char=4429|SpaceAfter=No
+30	-	-	PUNCT	HYPH	_	29	punct	_	start_char=4429|end_char=4430|SpaceAfter=No
+31	few	few	ADJ	JJ	Degree=Pos	26	nmod	_	start_char=4430|end_char=4433
+32	as	as	SCONJ	IN	_	34	mark	_	start_char=4434|end_char=4436
+33	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	34	nsubj	_	start_char=4437|end_char=4441
+34	manage	manage	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	advcl	_	start_char=4442|end_char=4448
+35	to	to	PART	TO	_	36	mark	_	start_char=4449|end_char=4451
+36	make	make	VERB	VB	VerbForm=Inf	34	xcomp	_	start_char=4452|end_char=4456
+37	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	36	obj	_	start_char=4457|end_char=4459
+38	out	out	ADP	RP	_	36	compound:prt	_	start_char=4460|end_char=4463|SpaceAfter=No
+39	,	,	PUNCT	,	_	4	punct	_	start_char=4463|end_char=4464
+40	Zenn	Zenn	PROPN	NNP	Number=Sing	41	nsubj	_	start_char=4465|end_char=4469
+41	told	tell	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	parataxis	_	start_char=4470|end_char=4474
+42	CNN	CNN	PROPN	NNP	Abbr=Yes|Number=Sing	41	iobj	_	start_char=4475|end_char=4478|SpaceAfter=No
+43	.	.	PUNCT	.	_	41	punct	_	start_char=4478|end_char=4479|SpacesAfter=\n
+
+# text = Shekau's unbending, almost medieval Salafism sees girls and women as servants for whom education is a sin.
+# sent_id = 36
+1-2	Shekau's	_	_	_	_	_	_	_	start_char=4480|end_char=4488
+1	Shekau	Shekau	PROPN	NNP	Number=Sing	7	nmod:poss	_	start_char=4480|end_char=4486
+2	's	's	PART	POS	_	1	case	_	start_char=4486|end_char=4488
+3	unbending	unbending	ADJ	JJ	Degree=Pos	7	amod	_	start_char=4489|end_char=4498|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	start_char=4498|end_char=4499
+5	almost	almost	ADV	RB	_	6	advmod	_	start_char=4500|end_char=4506
+6	medieval	medieval	ADJ	JJ	Degree=Pos	7	amod	_	start_char=4507|end_char=4515
+7	Salafism	Salafism	PROPN	NNP	Number=Sing	8	nsubj	_	start_char=4516|end_char=4524
+8	sees	see	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4525|end_char=4529
+9	girls	girl	NOUN	NNS	Number=Plur	8	obj	_	start_char=4530|end_char=4535
+10	and	and	CCONJ	CC	_	11	cc	_	start_char=4536|end_char=4539
+11	women	woman	NOUN	NNS	Number=Plur	9	conj	_	start_char=4540|end_char=4545
+12	as	as	ADP	IN	_	13	case	_	start_char=4546|end_char=4548
+13	servants	servant	NOUN	NNS	Number=Plur	8	obl	_	start_char=4549|end_char=4557
+14	for	for	ADP	IN	_	15	case	_	start_char=4558|end_char=4561
+15	whom	whom	PRON	WP	PronType=Rel	19	obl	_	start_char=4562|end_char=4566
+16	education	education	NOUN	NN	Number=Sing	19	nsubj	_	start_char=4567|end_char=4576
+17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	start_char=4577|end_char=4579
+18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	start_char=4580|end_char=4581
+19	sin	sin	NOUN	NN	Number=Sing	13	acl:relcl	_	start_char=4582|end_char=4585|SpaceAfter=No
+20	.	.	PUNCT	.	_	8	punct	_	start_char=4585|end_char=4586
+
+# text = Women must go and marry, he said in the video statement.
+# sent_id = 37
+1	Women	woman	NOUN	NNS	Number=Plur	3	nsubj	_	start_char=4587|end_char=4592
+2	must	must	AUX	MD	VerbForm=Fin	3	aux	_	start_char=4593|end_char=4597
+3	go	go	VERB	VB	VerbForm=Inf	8	ccomp	_	start_char=4598|end_char=4600
+4	and	and	CCONJ	CC	_	5	cc	_	start_char=4601|end_char=4604
+5	marry	marry	VERB	VB	VerbForm=Inf	3	conj	_	start_char=4605|end_char=4610|SpaceAfter=No
+6	,	,	PUNCT	,	_	3	punct	_	start_char=4610|end_char=4611
+7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	start_char=4612|end_char=4614
+8	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=4615|end_char=4619
+9	in	in	ADP	IN	_	12	case	_	start_char=4620|end_char=4622
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=4623|end_char=4626
+11	video	video	NOUN	NN	Number=Sing	12	compound	_	start_char=4627|end_char=4632
+12	statement	statement	NOUN	NN	Number=Sing	8	obl	_	start_char=4633|end_char=4642|SpaceAfter=No
+13	.	.	PUNCT	.	_	8	punct	_	start_char=4642|end_char=4643|SpacesAfter=\n
+
+# text = You ca n't get them back The location of the abduction and the numbers involved were shrewd choices by Boko Haram.
+# sent_id = 38
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	start_char=4644|end_char=4647
+2	ca	can	AUX	MD	VerbForm=Fin	4	aux	_	start_char=4648|end_char=4650
+3	n't	not	PART	RB	Polarity=Neg	4	advmod	_	start_char=4651|end_char=4654
+4	get	get	VERB	VB	VerbForm=Inf	0	root	_	start_char=4655|end_char=4658
+5	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	obj	_	start_char=4659|end_char=4663
+6	back	back	ADV	RB	_	4	advmod	_	start_char=4664|end_char=4668|SpacesAfter=\n
+7	The	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=4669|end_char=4672
+8	location	location	NOUN	NN	Number=Sing	4	obj	_	start_char=4673|end_char=4681
+9	of	of	ADP	IN	_	11	case	_	start_char=4682|end_char=4684
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=4685|end_char=4688
+11	abduction	abduction	NOUN	NN	Number=Sing	8	nmod	_	start_char=4689|end_char=4698
+12	and	and	CCONJ	CC	_	18	cc	_	start_char=4699|end_char=4702
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	start_char=4703|end_char=4706
+14	numbers	number	NOUN	NNS	Number=Plur	18	nsubj	_	start_char=4707|end_char=4714
+15	involved	involve	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	acl	_	start_char=4715|end_char=4723
+16	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	18	cop	_	start_char=4724|end_char=4728
+17	shrewd	shrewd	ADJ	JJ	Degree=Pos	18	amod	_	start_char=4729|end_char=4735
+18	choices	choice	NOUN	NNS	Number=Plur	4	conj	_	start_char=4736|end_char=4743
+19	by	by	ADP	IN	_	20	case	_	start_char=4744|end_char=4746
+20	Boko	Boko	PROPN	NNP	Number=Sing	18	nmod	_	start_char=4747|end_char=4751
+21	Haram	Haram	PROPN	NNP	Number=Sing	20	flat	_	start_char=4752|end_char=4757|SpaceAfter=No
+22	.	.	PUNCT	.	_	4	punct	_	start_char=4757|end_char=4758
+
+# text = The girls were pulled from their beds at the school, loaded onto buses and trucks and swiftly transported to remote, hilly, forested areas in the northeastern corner of Nigeria.
+# sent_id = 39
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=4759|end_char=4762
+2	girls	girl	NOUN	NNS	Number=Plur	4	nsubj:pass	_	start_char=4763|end_char=4768
+3	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	start_char=4769|end_char=4773
+4	pulled	pull	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=4774|end_char=4780
+5	from	from	ADP	IN	_	7	case	_	start_char=4781|end_char=4785
+6	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	start_char=4786|end_char=4791
+7	beds	bed	NOUN	NNS	Number=Plur	4	obl	_	start_char=4792|end_char=4796
+8	at	at	ADP	IN	_	10	case	_	start_char=4797|end_char=4799
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=4800|end_char=4803
+10	school	school	NOUN	NN	Number=Sing	4	obl	_	start_char=4804|end_char=4810|SpaceAfter=No
+11	,	,	PUNCT	,	_	12	punct	_	start_char=4810|end_char=4811
+12	loaded	load	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	advcl	_	start_char=4812|end_char=4818
+13	onto	onto	ADP	IN	_	14	case	_	start_char=4819|end_char=4823
+14	buses	bus	NOUN	NNS	Number=Plur	12	obl	_	start_char=4824|end_char=4829
+15	and	and	CCONJ	CC	_	16	cc	_	start_char=4830|end_char=4833
+16	trucks	truck	NOUN	NNS	Number=Plur	14	conj	_	start_char=4834|end_char=4840
+17	and	and	CCONJ	CC	_	19	cc	_	start_char=4841|end_char=4844
+18	swiftly	swiftly	ADV	RB	_	19	advmod	_	start_char=4845|end_char=4852
+19	transported	transport	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	conj	_	start_char=4853|end_char=4864
+20	to	to	ADP	IN	_	26	case	_	start_char=4865|end_char=4867
+21	remote	remote	ADJ	JJ	Degree=Pos	26	amod	_	start_char=4868|end_char=4874|SpaceAfter=No
+22	,	,	PUNCT	,	_	21	punct	_	start_char=4874|end_char=4875
+23	hilly	hilly	ADJ	JJ	Degree=Pos	26	amod	_	start_char=4876|end_char=4881|SpaceAfter=No
+24	,	,	PUNCT	,	_	23	punct	_	start_char=4881|end_char=4882
+25	forested	forest	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	26	amod	_	start_char=4883|end_char=4891
+26	areas	area	NOUN	NNS	Number=Plur	19	obl	_	start_char=4892|end_char=4897
+27	in	in	ADP	IN	_	30	case	_	start_char=4898|end_char=4900
+28	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	start_char=4901|end_char=4904
+29	northeastern	northeastern	ADJ	JJ	Degree=Pos	30	amod	_	start_char=4905|end_char=4917
+30	corner	corner	NOUN	NN	Number=Sing	19	obl	_	start_char=4918|end_char=4924
+31	of	of	ADP	IN	_	32	case	_	start_char=4925|end_char=4927
+32	Nigeria	Nigeria	PROPN	NNP	Number=Sing	30	nmod	_	start_char=4928|end_char=4935|SpaceAfter=No
+33	.	.	PUNCT	.	_	4	punct	_	start_char=4935|end_char=4936
+
+# text = Boko Haram fighters are able to cross the permeable borders with Cameroon and Chad for resupply and to hide out, and U.S. officials believe some of the girls may already have been taken out of Nigeria.
+# sent_id = 40
+1	Boko	Boko	PROPN	NNP	Number=Sing	3	compound	_	start_char=4937|end_char=4941
+2	Haram	Haram	PROPN	NNP	Number=Sing	1	flat	_	start_char=4942|end_char=4947
+3	fighters	fighter	NOUN	NNS	Number=Plur	5	nsubj	_	start_char=4948|end_char=4956
+4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=4957|end_char=4960
+5	able	able	ADJ	JJ	Degree=Pos	0	root	_	start_char=4961|end_char=4965
+6	to	to	PART	TO	_	7	mark	_	start_char=4966|end_char=4968
+7	cross	cross	VERB	VB	VerbForm=Inf	5	xcomp	_	start_char=4969|end_char=4974
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=4975|end_char=4978
+9	permeable	permeable	ADJ	JJ	Degree=Pos	10	amod	_	start_char=4979|end_char=4988
+10	borders	border	NOUN	NNS	Number=Plur	7	obj	_	start_char=4989|end_char=4996
+11	with	with	ADP	IN	_	12	case	_	start_char=4997|end_char=5001
+12	Cameroon	Cameroon	PROPN	NNP	Number=Sing	10	nmod	_	start_char=5002|end_char=5010
+13	and	and	CCONJ	CC	_	14	cc	_	start_char=5011|end_char=5014
+14	Chad	Chad	PROPN	NNP	Number=Sing	12	conj	_	start_char=5015|end_char=5019
+15	for	for	ADP	IN	_	16	case	_	start_char=5020|end_char=5023
+16	resupply	resupply	NOUN	NN	Number=Sing	7	obl	_	start_char=5024|end_char=5032
+17	and	and	CCONJ	CC	_	19	cc	_	start_char=5033|end_char=5036
+18	to	to	PART	TO	_	19	mark	_	start_char=5037|end_char=5039
+19	hide	hide	VERB	VB	VerbForm=Inf	7	conj	_	start_char=5040|end_char=5044
+20	out	out	ADP	RP	_	19	compound:prt	_	start_char=5045|end_char=5048|SpaceAfter=No
+21	,	,	PUNCT	,	_	25	punct	_	start_char=5048|end_char=5049
+22	and	and	CCONJ	CC	_	25	cc	_	start_char=5050|end_char=5053
+23	U.S.	U.S.	PROPN	NNP	Number=Sing	24	compound	_	start_char=5054|end_char=5058
+24	officials	official	NOUN	NNS	Number=Plur	25	nsubj	_	start_char=5059|end_char=5068
+25	believe	believe	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	start_char=5069|end_char=5076
+26	some	some	DET	DT	PronType=Ind	34	nsubj:pass	_	start_char=5077|end_char=5081
+27	of	of	ADP	IN	_	29	case	_	start_char=5082|end_char=5084
+28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	start_char=5085|end_char=5088
+29	girls	girl	NOUN	NNS	Number=Plur	26	nmod	_	start_char=5089|end_char=5094
+30	may	may	AUX	MD	VerbForm=Fin	34	aux	_	start_char=5095|end_char=5098
+31	already	already	ADV	RB	_	34	advmod	_	start_char=5099|end_char=5106
+32	have	have	AUX	VB	VerbForm=Inf	34	aux	_	start_char=5107|end_char=5111
+33	been	be	AUX	VBN	Tense=Past|VerbForm=Part	34	aux:pass	_	start_char=5112|end_char=5116
+34	taken	take	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	25	ccomp	_	start_char=5117|end_char=5122
+35	out	out	ADP	IN	_	37	case	_	start_char=5123|end_char=5126
+36	of	of	ADP	IN	_	37	case	_	start_char=5127|end_char=5129
+37	Nigeria	Nigeria	PROPN	NNP	Number=Sing	34	obl	_	start_char=5130|end_char=5137|SpaceAfter=No
+38	.	.	PUNCT	.	_	5	punct	_	start_char=5137|end_char=5138|SpacesAfter=\n
+
+# text = Sani said the timing was no accident: the school was full of both Muslim and Christian pupils taking their final exams.
+# sent_id = 41
+1	Sani	Sani	PROPN	NNP	Number=Sing	2	nsubj	_	start_char=5139|end_char=5143
+2	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=5144|end_char=5148
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=5149|end_char=5152
+4	timing	timing	NOUN	NN	Number=Sing	7	nsubj	_	start_char=5153|end_char=5159
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	start_char=5160|end_char=5163
+6	no	no	DET	DT	PronType=Neg	7	det	_	start_char=5164|end_char=5166
+7	accident	accident	NOUN	NN	Number=Sing	2	ccomp	_	start_char=5167|end_char=5175|SpaceAfter=No
+8	:	:	PUNCT	:	_	12	punct	_	start_char=5175|end_char=5176
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=5177|end_char=5180
+10	school	school	NOUN	NN	Number=Sing	12	nsubj	_	start_char=5181|end_char=5187
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	start_char=5188|end_char=5191
+12	full	full	ADJ	JJ	Degree=Pos	2	parataxis	_	start_char=5192|end_char=5196
+13	of	of	ADP	IN	_	18	case	_	start_char=5197|end_char=5199
+14	both	both	CCONJ	CC	_	18	cc:preconj	_	start_char=5200|end_char=5204
+15	Muslim	Muslim	ADJ	JJ	Degree=Pos	18	amod	_	start_char=5205|end_char=5211
+16	and	and	CCONJ	CC	_	17	cc	_	start_char=5212|end_char=5215
+17	Christian	Christian	ADJ	JJ	Degree=Pos	15	conj	_	start_char=5216|end_char=5225
+18	pupils	pupil	NOUN	NNS	Number=Plur	12	obl	_	start_char=5226|end_char=5232
+19	taking	take	VERB	VBG	VerbForm=Ger	18	acl	_	start_char=5233|end_char=5239
+20	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	start_char=5240|end_char=5245
+21	final	final	ADJ	JJ	Degree=Pos	22	amod	_	start_char=5246|end_char=5251
+22	exams	exam	NOUN	NNS	Number=Plur	19	obj	_	start_char=5252|end_char=5257|SpaceAfter=No
+23	.	.	PUNCT	.	_	2	punct	_	start_char=5257|end_char=5258|SpacesAfter=\n\s
+
+# text = They are likely to be in rural, mountainous and forested areas on the move with fighters, with some forced into marriages, he told CNN.
+# sent_id = 42
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=5260|end_char=5264
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=5265|end_char=5268
+3	likely	likely	ADJ	JJ	Degree=Pos	0	root	_	start_char=5269|end_char=5275
+4	to	to	PART	TO	_	12	mark	_	start_char=5276|end_char=5278
+5	be	be	AUX	VB	VerbForm=Inf	12	cop	_	start_char=5279|end_char=5281
+6	in	in	ADP	IN	_	12	case	_	start_char=5282|end_char=5284
+7	rural	rural	ADJ	JJ	Degree=Pos	12	amod	_	start_char=5285|end_char=5290|SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	_	start_char=5290|end_char=5291
+9	mountainous	mountainous	ADJ	JJ	Degree=Pos	7	conj	_	start_char=5292|end_char=5303
+10	and	and	CCONJ	CC	_	11	cc	_	start_char=5304|end_char=5307
+11	forested	forest	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	conj	_	start_char=5308|end_char=5316
+12	areas	area	NOUN	NNS	Number=Plur	3	xcomp	_	start_char=5317|end_char=5322
+13	on	on	ADP	IN	_	15	case	_	start_char=5323|end_char=5325
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	start_char=5326|end_char=5329
+15	move	move	NOUN	NN	Number=Sing	12	nmod	_	start_char=5330|end_char=5334
+16	with	with	ADP	IN	_	17	case	_	start_char=5335|end_char=5339
+17	fighters	fighter	NOUN	NNS	Number=Plur	15	nmod	_	start_char=5340|end_char=5348|SpaceAfter=No
+18	,	,	PUNCT	,	_	21	punct	_	start_char=5348|end_char=5349
+19	with	with	SCONJ	IN	_	21	mark	_	start_char=5350|end_char=5354
+20	some	some	DET	DT	PronType=Ind	21	nsubj:pass	_	start_char=5355|end_char=5359
+21	forced	force	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	advcl	_	start_char=5360|end_char=5366
+22	into	into	ADP	IN	_	23	case	_	start_char=5367|end_char=5371
+23	marriages	marriage	NOUN	NNS	Number=Plur	21	obl	_	start_char=5372|end_char=5381|SpaceAfter=No
+24	,	,	PUNCT	,	_	3	punct	_	start_char=5381|end_char=5382
+25	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	start_char=5383|end_char=5385
+26	told	tell	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	parataxis	_	start_char=5386|end_char=5390
+27	CNN	CNN	PROPN	NNP	Abbr=Yes|Number=Sing	26	iobj	_	start_char=5391|end_char=5394|SpaceAfter=No
+28	.	.	PUNCT	.	_	3	punct	_	start_char=5394|end_char=5395|SpacesAfter=\n
+
+# text = Zenn says it will be very tough to get them back.
+# sent_id = 43
+1	Zenn	Zenn	PROPN	NNP	Number=Sing	2	nsubj	_	start_char=5396|end_char=5400
+2	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5401|end_char=5405
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	_	start_char=5406|end_char=5408
+4	will	will	AUX	MD	VerbForm=Fin	7	aux	_	start_char=5409|end_char=5413
+5	be	be	AUX	VB	VerbForm=Inf	7	cop	_	start_char=5414|end_char=5416
+6	very	very	ADV	RB	_	7	advmod	_	start_char=5417|end_char=5421
+7	tough	tough	ADJ	JJ	Degree=Pos	2	ccomp	_	start_char=5422|end_char=5427
+8	to	to	PART	TO	_	9	mark	_	start_char=5428|end_char=5430
+9	get	get	VERB	VB	VerbForm=Inf	7	csubj	_	start_char=5431|end_char=5434
+10	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	9	obj	_	start_char=5435|end_char=5439
+11	back	back	ADP	RP	_	9	compound:prt	_	start_char=5440|end_char=5444|SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	start_char=5444|end_char=5445|SpacesAfter=\n\s
+
+# text = Boko Haram has likely split up or sold the girls into many small groups, and they can be used as human shields in the event of an attack, he said.
+# sent_id = 44
+1	Boko	Boko	PROPN	NNP	Number=Sing	5	nsubj	_	start_char=5447|end_char=5451
+2	Haram	Haram	PROPN	NNP	Number=Sing	1	flat	_	start_char=5452|end_char=5457
+3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=5458|end_char=5461
+4	likely	likely	ADV	RB	_	5	advmod	_	start_char=5462|end_char=5468
+5	split	split	VERB	VBN	Tense=Past|VerbForm=Part	32	ccomp	_	start_char=5469|end_char=5474
+6	up	up	ADP	RP	_	5	compound:prt	_	start_char=5475|end_char=5477
+7	or	or	CCONJ	CC	_	8	cc	_	start_char=5478|end_char=5480
+8	sold	sell	VERB	VBN	Tense=Past|VerbForm=Part	5	conj	_	start_char=5481|end_char=5485
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=5486|end_char=5489
+10	girls	girl	NOUN	NNS	Number=Plur	8	obj	_	start_char=5490|end_char=5495
+11	into	into	ADP	IN	_	14	case	_	start_char=5496|end_char=5500
+12	many	many	ADJ	JJ	Degree=Pos	14	amod	_	start_char=5501|end_char=5505
+13	small	small	ADJ	JJ	Degree=Pos	14	amod	_	start_char=5506|end_char=5511
+14	groups	group	NOUN	NNS	Number=Plur	8	obl	_	start_char=5512|end_char=5518|SpaceAfter=No
+15	,	,	PUNCT	,	_	20	punct	_	start_char=5518|end_char=5519
+16	and	and	CCONJ	CC	_	20	cc	_	start_char=5520|end_char=5523
+17	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj:pass	_	start_char=5524|end_char=5528
+18	can	can	AUX	MD	VerbForm=Fin	20	aux	_	start_char=5529|end_char=5532
+19	be	be	AUX	VB	VerbForm=Inf	20	aux:pass	_	start_char=5533|end_char=5535
+20	used	use	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	conj	_	start_char=5536|end_char=5540
+21	as	as	ADP	IN	_	23	case	_	start_char=5541|end_char=5543
+22	human	human	ADJ	JJ	Degree=Pos	23	amod	_	start_char=5544|end_char=5549
+23	shields	shield	NOUN	NNS	Number=Plur	20	obl	_	start_char=5550|end_char=5557
+24	in	in	ADP	IN	_	26	case	_	start_char=5558|end_char=5560
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	start_char=5561|end_char=5564
+26	event	event	NOUN	NN	Number=Sing	20	obl	_	start_char=5565|end_char=5570
+27	of	of	ADP	IN	_	29	case	_	start_char=5571|end_char=5573
+28	an	a	DET	DT	Definite=Ind|PronType=Art	29	det	_	start_char=5574|end_char=5576
+29	attack	attack	NOUN	NN	Number=Sing	26	nmod	_	start_char=5577|end_char=5583|SpaceAfter=No
+30	,	,	PUNCT	,	_	5	punct	_	start_char=5583|end_char=5584
+31	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	nsubj	_	start_char=5585|end_char=5587
+32	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=5588|end_char=5592|SpaceAfter=No
+33	.	.	PUNCT	.	_	32	punct	_	start_char=5592|end_char=5593|SpacesAfter=\n
+
+# text = Sani also dreads any military operation.
+# sent_id = 45
+1	Sani	Sani	PROPN	NNP	Number=Sing	3	nsubj	_	start_char=5594|end_char=5598
+2	also	also	ADV	RB	_	3	advmod	_	start_char=5599|end_char=5603
+3	dreads	dread	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5604|end_char=5610
+4	any	any	DET	DT	PronType=Ind	6	det	_	start_char=5611|end_char=5614
+5	military	military	ADJ	JJ	Degree=Pos	6	amod	_	start_char=5615|end_char=5623
+6	operation	operation	NOUN	NN	Number=Sing	3	obj	_	start_char=5624|end_char=5633|SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	start_char=5633|end_char=5634|SpacesAfter=\n\s
+
+# text = Any attempt to rescue the girls by force will end in a tragic result -- it could be Nigeria's Beslan, he said, referring to the attempt to free hostages at a school in Russia in 2004 that left more than 300 dead, many of them children.
+# sent_id = 46
+1	Any	any	DET	DT	PronType=Ind	2	det	_	start_char=5636|end_char=5639
+2	attempt	attempt	NOUN	NN	Number=Sing	10	nsubj	_	start_char=5640|end_char=5647
+3	to	to	PART	TO	_	4	mark	_	start_char=5648|end_char=5650
+4	rescue	rescue	VERB	VB	VerbForm=Inf	2	acl	_	start_char=5651|end_char=5657
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=5658|end_char=5661
+6	girls	girl	NOUN	NNS	Number=Plur	4	obj	_	start_char=5662|end_char=5667
+7	by	by	ADP	IN	_	8	case	_	start_char=5668|end_char=5670
+8	force	force	NOUN	NN	Number=Sing	4	obl	_	start_char=5671|end_char=5676
+9	will	will	AUX	MD	VerbForm=Fin	10	aux	_	start_char=5677|end_char=5681
+10	end	end	VERB	VB	VerbForm=Inf	0	root	_	start_char=5682|end_char=5685
+11	in	in	ADP	IN	_	14	case	_	start_char=5686|end_char=5688
+12	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	start_char=5689|end_char=5690
+13	tragic	tragic	ADJ	JJ	Degree=Pos	14	amod	_	start_char=5691|end_char=5697
+14	result	result	NOUN	NN	Number=Sing	10	obl	_	start_char=5698|end_char=5704
+15	--	--	PUNCT	,	_	21	punct	_	start_char=5705|end_char=5707
+16	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	start_char=5708|end_char=5710
+17	could	could	AUX	MD	VerbForm=Fin	21	aux	_	start_char=5711|end_char=5716
+18	be	be	AUX	VB	VerbForm=Inf	21	cop	_	start_char=5717|end_char=5719
+19-20	Nigeria's	_	_	_	_	_	_	_	start_char=5720|end_char=5729
+19	Nigeria	Nigeria	PROPN	NNP	Number=Sing	21	nmod:poss	_	start_char=5720|end_char=5727
+20	's	's	PART	POS	_	19	case	_	start_char=5727|end_char=5729
+21	Beslan	Beslan	PROPN	NNP	Number=Sing	10	parataxis	_	start_char=5730|end_char=5736|SpaceAfter=No
+22	,	,	PUNCT	,	_	24	punct	_	start_char=5736|end_char=5737
+23	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	start_char=5738|end_char=5740
+24	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	parataxis	_	start_char=5741|end_char=5745|SpaceAfter=No
+25	,	,	PUNCT	,	_	26	punct	_	start_char=5745|end_char=5746
+26	referring	refer	VERB	VBG	Tense=Pres|VerbForm=Part	24	advcl	_	start_char=5747|end_char=5756
+27	to	to	ADP	IN	_	29	case	_	start_char=5757|end_char=5759
+28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	start_char=5760|end_char=5763
+29	attempt	attempt	NOUN	NN	Number=Sing	26	obl	_	start_char=5764|end_char=5771
+30	to	to	PART	TO	_	31	mark	_	start_char=5772|end_char=5774
+31	free	free	VERB	VB	VerbForm=Inf	29	acl	_	start_char=5775|end_char=5779
+32	hostages	hostage	NOUN	NNS	Number=Plur	31	obj	_	start_char=5780|end_char=5788
+33	at	at	ADP	IN	_	35	case	_	start_char=5789|end_char=5791
+34	a	a	DET	DT	Definite=Ind|PronType=Art	35	det	_	start_char=5792|end_char=5793
+35	school	school	NOUN	NN	Number=Sing	31	obl	_	start_char=5794|end_char=5800
+36	in	in	ADP	IN	_	37	case	_	start_char=5801|end_char=5803
+37	Russia	Russia	PROPN	NNP	Number=Sing	35	nmod	_	start_char=5804|end_char=5810
+38	in	in	ADP	IN	_	39	case	_	start_char=5811|end_char=5813
+39	2004	2004	NUM	CD	NumForm=Digit|NumType=Card	31	obl	_	start_char=5814|end_char=5818
+40	that	that	PRON	WDT	PronType=Rel	41	nsubj	_	start_char=5819|end_char=5823
+41	left	leave	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	29	acl:relcl	_	start_char=5824|end_char=5828
+42	more	more	ADJ	JJR	Degree=Cmp|ExtPos=ADV	44	advmod	_	start_char=5829|end_char=5833
+43	than	than	ADP	IN	_	42	fixed	_	start_char=5834|end_char=5838
+44	300	300	NUM	CD	NumForm=Digit|NumType=Card	41	obj	_	start_char=5839|end_char=5842
+45	dead	dead	ADJ	JJ	Degree=Pos	41	xcomp	_	start_char=5843|end_char=5847|SpaceAfter=No
+46	,	,	PUNCT	,	_	50	punct	_	start_char=5847|end_char=5848
+47	many	many	ADJ	JJ	Degree=Pos	50	nsubj	_	start_char=5849|end_char=5853
+48	of	of	ADP	IN	_	49	case	_	start_char=5854|end_char=5856
+49	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	47	nmod	_	start_char=5857|end_char=5861
+50	children	child	NOUN	NNS	Number=Plur	45	parataxis	_	start_char=5862|end_char=5870|SpaceAfter=No
+51	.	.	PUNCT	.	_	10	punct	_	start_char=5870|end_char=5871|SpacesAfter=\n
+
+# text = Bargaining chips for prisoners, cash or concessions Shekau is not beyond negotiating with the Nigerian government, despite his apocalyptic rhetoric and frequent denials of President Goodluck Jonathan's legitimacy.
+# sent_id = 47
+1	Bargaining	bargain	VERB	VBG	VerbForm=Ger	2	amod	_	start_char=5872|end_char=5882
+2	chips	chip	NOUN	NNS	Number=Plur	13	nsubj	_	start_char=5883|end_char=5888
+3	for	for	ADP	IN	_	4	case	_	start_char=5889|end_char=5892
+4	prisoners	prisoner	NOUN	NNS	Number=Plur	2	nmod	_	start_char=5893|end_char=5902|SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	start_char=5902|end_char=5903
+6	cash	cash	NOUN	NN	Number=Sing	4	conj	_	start_char=5904|end_char=5908
+7	or	or	CCONJ	CC	_	8	cc	_	start_char=5909|end_char=5911
+8	concessions	concession	NOUN	NNS	Number=Plur	4	conj	_	start_char=5912|end_char=5923|SpacesAfter=\n
+9	Shekau	Shekau	PROPN	NNP	Number=Sing	13	nsubj	_	start_char=5924|end_char=5930
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	start_char=5931|end_char=5933
+11	not	not	PART	RB	Polarity=Neg	13	advmod	_	start_char=5934|end_char=5937
+12	beyond	beyond	SCONJ	IN	_	13	mark	_	start_char=5938|end_char=5944
+13	negotiating	negotiate	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=5945|end_char=5956
+14	with	with	ADP	IN	_	17	case	_	start_char=5957|end_char=5961
+15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	start_char=5962|end_char=5965
+16	Nigerian	Nigerian	ADJ	JJ	Degree=Pos	17	amod	_	start_char=5966|end_char=5974
+17	government	government	NOUN	NN	Number=Sing	13	obl	_	start_char=5975|end_char=5985|SpaceAfter=No
+18	,	,	PUNCT	,	_	22	punct	_	start_char=5985|end_char=5986
+19	despite	despite	ADP	IN	_	22	case	_	start_char=5987|end_char=5994
+20	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	start_char=5995|end_char=5998
+21	apocalyptic	apocalyptic	ADJ	JJ	Degree=Pos	22	amod	_	start_char=5999|end_char=6010
+22	rhetoric	rhetoric	NOUN	NN	Number=Sing	13	obl	_	start_char=6011|end_char=6019
+23	and	and	CCONJ	CC	_	25	cc	_	start_char=6020|end_char=6023
+24	frequent	frequent	ADJ	JJ	Degree=Pos	25	amod	_	start_char=6024|end_char=6032
+25	denials	denial	NOUN	NNS	Number=Plur	22	conj	_	start_char=6033|end_char=6040
+26	of	of	ADP	IN	_	31	case	_	start_char=6041|end_char=6043
+27	President	President	PROPN	NNP	Number=Sing	31	nmod:poss	_	start_char=6044|end_char=6053
+28	Goodluck	Goodluck	PROPN	NNP	Number=Sing	27	flat	_	start_char=6054|end_char=6062
+29-30	Jonathan's	_	_	_	_	_	_	_	start_char=6063|end_char=6073
+29	Jonathan	Jonathan	PROPN	NNP	Number=Sing	27	flat	_	start_char=6063|end_char=6071
+30	's	's	PART	POS	_	27	case	_	start_char=6071|end_char=6073
+31	legitimacy	legitimacy	NOUN	NN	Number=Sing	25	nmod	_	start_char=6074|end_char=6084|SpaceAfter=No
+32	.	.	PUNCT	.	_	13	punct	_	start_char=6084|end_char=6085
+
+# text = According to the International Crisis Group, negotiations in Ivory Coast a year ago were on the verge of producing an apparent peace agreement that was to begin with a ceasefire.
+# sent_id = 48
+1	According	accord	VERB	VBG	ExtPos=ADP|Tense=Pres|VerbForm=Part	6	case	_	start_char=6086|end_char=6095
+2	to	to	ADP	IN	_	1	fixed	_	start_char=6096|end_char=6098
+3	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=6099|end_char=6102
+4	International	International	ADJ	NNP	Degree=Pos	6	amod	_	start_char=6103|end_char=6116
+5	Crisis	crisis	PROPN	NNP	Number=Sing	6	compound	_	start_char=6117|end_char=6123
+6	Group	Group	PROPN	NNP	Number=Sing	18	obl	_	start_char=6124|end_char=6129|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	start_char=6129|end_char=6130
+8	negotiations	negotiation	NOUN	NNS	Number=Plur	18	nsubj	_	start_char=6131|end_char=6143
+9	in	in	ADP	IN	_	11	case	_	start_char=6144|end_char=6146
+10	Ivory	Ivory	PROPN	NNP	Number=Sing	11	compound	_	start_char=6147|end_char=6152
+11	Coast	Coast	PROPN	NNP	Number=Sing	8	nmod	_	start_char=6153|end_char=6158
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	start_char=6159|end_char=6160
+13	year	year	NOUN	NN	Number=Sing	14	obl:unmarked	_	start_char=6161|end_char=6165
+14	ago	ago	ADV	RB	_	18	advmod	_	start_char=6166|end_char=6169
+15	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	18	cop	_	start_char=6170|end_char=6174
+16	on	on	ADP	IN	_	18	case	_	start_char=6175|end_char=6177
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	start_char=6178|end_char=6181
+18	verge	verge	NOUN	NN	Number=Sing	0	root	_	start_char=6182|end_char=6187
+19	of	of	SCONJ	IN	_	20	mark	_	start_char=6188|end_char=6190
+20	producing	produce	VERB	VBG	VerbForm=Ger	18	acl	_	start_char=6191|end_char=6200
+21	an	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	start_char=6201|end_char=6203
+22	apparent	apparent	ADJ	JJ	Degree=Pos	24	amod	_	start_char=6204|end_char=6212
+23	peace	peace	NOUN	NN	Number=Sing	24	compound	_	start_char=6213|end_char=6218
+24	agreement	agreement	NOUN	NN	Number=Sing	20	obj	_	start_char=6219|end_char=6228
+25	that	that	PRON	WDT	PronType=Rel	28	nsubj	_	start_char=6229|end_char=6233
+26	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	28	cop	_	start_char=6234|end_char=6237
+27	to	to	PART	TO	_	28	mark	_	start_char=6238|end_char=6240
+28	begin	begin	VERB	VB	VerbForm=Inf	24	acl:relcl	_	start_char=6241|end_char=6246
+29	with	with	ADP	IN	_	31	case	_	start_char=6247|end_char=6251
+30	a	a	DET	DT	Definite=Ind|PronType=Art	31	det	_	start_char=6252|end_char=6253
+31	ceasefire	ceasefire	NOUN	NN	Number=Sing	28	obl	_	start_char=6254|end_char=6263|SpaceAfter=No
+32	.	.	PUNCT	.	_	18	punct	_	start_char=6263|end_char=6264
+
+# text = Then Shekau was designated a terrorist by the U.S. State Department and abandoned the talks.
+# sent_id = 49
+1	Then	then	ADV	RB	PronType=Dem	4	advmod	_	start_char=6265|end_char=6269
+2	Shekau	Shekau	PROPN	NNP	Number=Sing	4	nsubj:pass	_	start_char=6270|end_char=6276
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	start_char=6277|end_char=6280
+4	designated	designate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=6281|end_char=6291
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=6292|end_char=6293
+6	terrorist	terrorist	NOUN	NN	Number=Sing	4	xcomp	_	start_char=6294|end_char=6303
+7	by	by	ADP	IN	_	11	case	_	start_char=6304|end_char=6306
+8	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=6307|end_char=6310
+9	U.S.	U.S.	PROPN	NNP	Number=Sing	11	compound	_	start_char=6311|end_char=6315
+10	State	State	PROPN	NNP	Number=Sing	11	compound	_	start_char=6316|end_char=6321
+11	Department	Department	PROPN	NNP	Number=Sing	6	nmod	_	start_char=6322|end_char=6332
+12	and	and	CCONJ	CC	_	13	cc	_	start_char=6333|end_char=6336
+13	abandoned	abandon	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	start_char=6337|end_char=6346
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	start_char=6347|end_char=6350
+15	talks	talk	NOUN	NNS	Number=Plur	13	obj	_	start_char=6351|end_char=6356|SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	start_char=6356|end_char=6357|SpacesAfter=\n
+
+# text = Sani believes Boko Haram targeted the girls to force concessions from the Nigerian government -- beginning perhaps with the release of Boko Haram followers from prisons.
+# sent_id = 50
+1	Sani	Sani	PROPN	NNP	Number=Sing	2	nsubj	_	start_char=6358|end_char=6362
+2	believes	believe	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6363|end_char=6371
+3	Boko	Boko	PROPN	NNP	Number=Sing	5	nsubj	_	start_char=6372|end_char=6376
+4	Haram	Haram	PROPN	NNP	Number=Sing	3	flat	_	start_char=6377|end_char=6382
+5	targeted	target	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	_	start_char=6383|end_char=6391
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=6392|end_char=6395
+7	girls	girl	NOUN	NNS	Number=Plur	5	obj	_	start_char=6396|end_char=6401
+8	to	to	PART	TO	_	9	mark	_	start_char=6402|end_char=6404
+9	force	force	VERB	VB	VerbForm=Inf	5	advcl	_	start_char=6405|end_char=6410
+10	concessions	concession	NOUN	NNS	Number=Plur	9	obj	_	start_char=6411|end_char=6422
+11	from	from	ADP	IN	_	14	case	_	start_char=6423|end_char=6427
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	start_char=6428|end_char=6431
+13	Nigerian	Nigerian	ADJ	JJ	Degree=Pos	14	amod	_	start_char=6432|end_char=6440
+14	government	government	NOUN	NN	Number=Sing	9	obl	_	start_char=6441|end_char=6451
+15	--	--	PUNCT	,	_	16	punct	_	start_char=6452|end_char=6454
+16	beginning	begin	VERB	VBG	Tense=Pres|VerbForm=Part	5	advcl	_	start_char=6455|end_char=6464
+17	perhaps	perhaps	ADV	RB	_	16	advmod	_	start_char=6465|end_char=6472
+18	with	with	ADP	IN	_	20	case	_	start_char=6473|end_char=6477
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	start_char=6478|end_char=6481
+20	release	release	NOUN	NN	Number=Sing	16	obl	_	start_char=6482|end_char=6489
+21	of	of	ADP	IN	_	24	case	_	start_char=6490|end_char=6492
+22	Boko	Boko	PROPN	NNP	Number=Sing	24	compound	_	start_char=6493|end_char=6497
+23	Haram	Haram	PROPN	NNP	Number=Sing	22	flat	_	start_char=6498|end_char=6503
+24	followers	follower	NOUN	NNS	Number=Plur	20	nmod	_	start_char=6504|end_char=6513
+25	from	from	ADP	IN	_	26	case	_	start_char=6514|end_char=6518
+26	prisons	prison	NOUN	NNS	Number=Plur	24	nmod	_	start_char=6519|end_char=6526|SpaceAfter=No
+27	.	.	PUNCT	.	_	2	punct	_	start_char=6526|end_char=6527|SpacesAfter=\n\s
+
+# text = The fact Shekau said he would sell the girls and did not say he would kill them is a clear indication that negotiation is possible.
+# sent_id = 51
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=6529|end_char=6532
+2	fact	fact	NOUN	NN	Number=Sing	7	nsubj:outer	_	start_char=6533|end_char=6537
+3	Shekau	Shekau	PROPN	NNP	Number=Sing	4	nsubj	_	start_char=6538|end_char=6544
+4	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	acl:relcl	_	start_char=6545|end_char=6549
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=6550|end_char=6552
+6	would	would	AUX	MD	VerbForm=Fin	7	aux	_	start_char=6553|end_char=6558
+7	sell	sell	VERB	VB	VerbForm=Inf	0	root	_	start_char=6559|end_char=6563
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=6564|end_char=6567
+9	girls	girl	NOUN	NNS	Number=Plur	7	obj	_	start_char=6568|end_char=6573
+10	and	and	CCONJ	CC	_	13	cc	_	start_char=6574|end_char=6577
+11	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux	_	start_char=6578|end_char=6581
+12	not	not	PART	RB	Polarity=Neg	13	advmod	_	start_char=6582|end_char=6585
+13	say	say	VERB	VB	VerbForm=Inf	7	conj	_	start_char=6586|end_char=6589
+14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	start_char=6590|end_char=6592
+15	would	would	AUX	MD	VerbForm=Fin	16	aux	_	start_char=6593|end_char=6598
+16	kill	kill	VERB	VB	VerbForm=Inf	13	ccomp	_	start_char=6599|end_char=6603
+17	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	16	obj	_	start_char=6604|end_char=6608
+18	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	start_char=6609|end_char=6611
+19	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	start_char=6612|end_char=6613
+20	clear	clear	ADJ	JJ	Degree=Pos	21	amod	_	start_char=6614|end_char=6619
+21	indication	indication	NOUN	NN	Number=Sing	13	ccomp	_	start_char=6620|end_char=6630
+22	that	that	SCONJ	IN	_	25	mark	_	start_char=6631|end_char=6635
+23	negotiation	negotiation	NOUN	NN	Number=Sing	25	nsubj	_	start_char=6636|end_char=6647
+24	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	start_char=6648|end_char=6650
+25	possible	possible	ADJ	JJ	Degree=Pos	21	acl	_	start_char=6651|end_char=6659|SpaceAfter=No
+26	.	.	PUNCT	.	_	7	punct	_	start_char=6659|end_char=6660
+
+# text = Shekau's video is not going to be the last word from the group on the girls.
+# sent_id = 52
+1-2	Shekau's	_	_	_	_	_	_	_	start_char=6661|end_char=6669
+1	Shekau	Shekau	PROPN	NNP	Number=Sing	3	nmod:poss	_	start_char=6661|end_char=6667
+2	's	's	PART	POS	_	1	case	_	start_char=6667|end_char=6669
+3	video	video	NOUN	NN	Number=Sing	6	nsubj	_	start_char=6670|end_char=6675
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=6676|end_char=6678
+5	not	not	PART	RB	Polarity=Neg	6	advmod	_	start_char=6679|end_char=6682
+6	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=6683|end_char=6688
+7	to	to	PART	TO	_	11	mark	_	start_char=6689|end_char=6691
+8	be	be	AUX	VB	VerbForm=Inf	11	cop	_	start_char=6692|end_char=6694
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=6695|end_char=6698
+10	last	last	ADJ	JJ	Degree=Pos	11	amod	_	start_char=6699|end_char=6703
+11	word	word	NOUN	NN	Number=Sing	6	xcomp	_	start_char=6704|end_char=6708
+12	from	from	ADP	IN	_	14	case	_	start_char=6709|end_char=6713
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	start_char=6714|end_char=6717
+14	group	group	NOUN	NN	Number=Sing	11	nmod	_	start_char=6718|end_char=6723
+15	on	on	ADP	IN	_	17	case	_	start_char=6724|end_char=6726
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	start_char=6727|end_char=6730
+17	girls	girl	NOUN	NNS	Number=Plur	14	nmod	_	start_char=6731|end_char=6736|SpaceAfter=No
+18	.	.	PUNCT	.	_	6	punct	_	start_char=6736|end_char=6737|SpacesAfter=\s\n
+
+# text = And Sani suggests the notion of selling the girls should not be taken literally.
+# sent_id = 53
+1	And	and	CCONJ	CC	_	3	cc	_	start_char=6739|end_char=6742
+2	Sani	Sani	PROPN	NNP	Number=Sing	3	nsubj	_	start_char=6743|end_char=6747
+3	suggests	suggest	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6748|end_char=6756
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=6757|end_char=6760
+5	notion	notion	NOUN	NN	Number=Sing	13	nsubj:pass	_	start_char=6761|end_char=6767
+6	of	of	SCONJ	IN	_	7	mark	_	start_char=6768|end_char=6770
+7	selling	sell	VERB	VBG	VerbForm=Ger	5	acl	_	start_char=6771|end_char=6778
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=6779|end_char=6782
+9	girls	girl	NOUN	NNS	Number=Plur	7	obj	_	start_char=6783|end_char=6788
+10	should	should	AUX	MD	VerbForm=Fin	13	aux	_	start_char=6789|end_char=6795
+11	not	not	PART	RB	Polarity=Neg	13	advmod	_	start_char=6796|end_char=6799
+12	be	be	AUX	VB	VerbForm=Inf	13	aux:pass	_	start_char=6800|end_char=6802
+13	taken	take	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	ccomp	_	start_char=6803|end_char=6808
+14	literally	literally	ADV	RB	_	13	advmod	_	start_char=6809|end_char=6818|SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	_	start_char=6818|end_char=6819
+
+# text = People do n't buy girls in this part Africa, he said.
+# sent_id = 54
+1	People	person	NOUN	NNS	Number=Plur	4	nsubj	_	start_char=6820|end_char=6826
+2	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=6827|end_char=6829
+3	n't	not	PART	RB	Polarity=Neg	4	advmod	_	start_char=6830|end_char=6833
+4	buy	buy	VERB	VB	VerbForm=Inf	12	ccomp	_	start_char=6834|end_char=6837
+5	girls	girl	NOUN	NNS	Number=Plur	4	obj	_	start_char=6838|end_char=6843
+6	in	in	ADP	IN	_	8	case	_	start_char=6844|end_char=6846
+7	this	this	DET	DT	Number=Sing|PronType=Dem	8	det	_	start_char=6847|end_char=6851
+8	part	part	NOUN	NN	Number=Sing	4	obl	_	start_char=6852|end_char=6856
+9	Africa	Africa	PROPN	NNP	Number=Sing	8	appos	_	start_char=6857|end_char=6863|SpaceAfter=No
+10	,	,	PUNCT	,	_	4	punct	_	start_char=6863|end_char=6864
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	start_char=6865|end_char=6867
+12	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=6868|end_char=6872|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	punct	_	start_char=6872|end_char=6873|SpacesAfter=\n
+
+# text = But at least some of them may be traded for ransom money.
+# sent_id = 55
+1	But	but	CCONJ	CC	_	9	cc	_	start_char=6874|end_char=6877
+2	at	at	ADP	IN	ExtPos=ADV	9	advmod	_	start_char=6878|end_char=6880
+3	least	least	ADJ	JJS	Degree=Sup	2	fixed	_	start_char=6881|end_char=6886
+4	some	some	DET	DT	PronType=Ind	9	nsubj:pass	_	start_char=6887|end_char=6891
+5	of	of	ADP	IN	_	6	case	_	start_char=6892|end_char=6894
+6	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	nmod	_	start_char=6895|end_char=6899
+7	may	may	AUX	MD	VerbForm=Fin	9	aux	_	start_char=6900|end_char=6903
+8	be	be	AUX	VB	VerbForm=Inf	9	aux:pass	_	start_char=6904|end_char=6906
+9	traded	trade	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=6907|end_char=6913
+10	for	for	ADP	IN	_	12	case	_	start_char=6914|end_char=6917
+11	ransom	ransom	NOUN	NN	Number=Sing	12	compound	_	start_char=6918|end_char=6924
+12	money	money	NOUN	NN	Number=Sing	9	obl	_	start_char=6925|end_char=6930|SpaceAfter=No
+13	.	.	PUNCT	.	_	9	punct	_	start_char=6930|end_char=6931
+
+# text = Boko Haram has begun trading hostages for cash -- most notably in the case of a French family kidnapped in northern Cameroon last year and reportedly freed for some $3 million.
+# sent_id = 56
+1	Boko	Boko	PROPN	NNP	Number=Sing	4	nsubj	_	start_char=6932|end_char=6936
+2	Haram	Haram	PROPN	NNP	Number=Sing	1	flat	_	start_char=6937|end_char=6942
+3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=6943|end_char=6946
+4	begun	begin	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=6947|end_char=6952
+5	trading	trade	VERB	VBG	VerbForm=Ger	4	xcomp	_	start_char=6953|end_char=6960
+6	hostages	hostage	NOUN	NNS	Number=Plur	5	obj	_	start_char=6961|end_char=6969
+7	for	for	ADP	IN	_	8	case	_	start_char=6970|end_char=6973
+8	cash	cash	NOUN	NN	Number=Sing	5	obl	_	start_char=6974|end_char=6978
+9	--	--	PUNCT	,	_	14	punct	_	start_char=6979|end_char=6981
+10	most	most	ADV	RBS	Degree=Sup	11	advmod	_	start_char=6982|end_char=6986
+11	notably	notably	ADV	RB	_	14	advmod	_	start_char=6987|end_char=6994
+12	in	in	ADP	IN	_	14	case	_	start_char=6995|end_char=6997
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	start_char=6998|end_char=7001
+14	case	case	NOUN	NN	Number=Sing	5	obl	_	start_char=7002|end_char=7006
+15	of	of	ADP	IN	_	18	case	_	start_char=7007|end_char=7009
+16	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	start_char=7010|end_char=7011
+17	French	French	ADJ	JJ	Degree=Pos	18	amod	_	start_char=7012|end_char=7018
+18	family	family	NOUN	NN	Number=Sing	14	nmod	_	start_char=7019|end_char=7025
+19	kidnapped	kidnap	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	18	acl	_	start_char=7026|end_char=7035
+20	in	in	ADP	IN	_	22	case	_	start_char=7036|end_char=7038
+21	northern	northern	ADJ	JJ	Degree=Pos	22	amod	_	start_char=7039|end_char=7047
+22	Cameroon	Cameroon	PROPN	NNP	Number=Sing	19	obl	_	start_char=7048|end_char=7056
+23	last	last	ADJ	JJ	Degree=Pos	24	amod	_	start_char=7057|end_char=7061
+24	year	year	NOUN	NN	Number=Sing	19	obl:unmarked	_	start_char=7062|end_char=7066
+25	and	and	CCONJ	CC	_	27	cc	_	start_char=7067|end_char=7070
+26	reportedly	reportedly	ADV	RB	_	27	advmod	_	start_char=7071|end_char=7081
+27	freed	free	VERB	VBD	Tense=Past|VerbForm=Part|Voice=Pass	4	conj	_	start_char=7082|end_char=7087
+28	for	for	ADP	IN	_	30	case	_	start_char=7088|end_char=7091
+29	some	some	DET	DT	PronType=Ind	30	det	_	start_char=7092|end_char=7096
+30	$	$	SYM	$	_	27	obl	_	start_char=7097|end_char=7098|SpaceAfter=No
+31	3	3	NUM	CD	NumForm=Digit|NumType=Card	32	compound	_	start_char=7098|end_char=7099
+32	million	million	NUM	CD	NumForm=Word|NumType=Card	30	nummod	_	start_char=7100|end_char=7107|SpaceAfter=No
+33	.	.	PUNCT	.	_	4	punct	_	start_char=7107|end_char=7108
+
+# text = It also threatens business leaders in the North with abduction or worse unless they pay up.
+# sent_id = 57
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=7109|end_char=7111
+2	also	also	ADV	RB	_	3	advmod	_	start_char=7112|end_char=7116
+3	threatens	threaten	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7117|end_char=7126
+4	business	business	NOUN	NN	Number=Sing	5	compound	_	start_char=7127|end_char=7135
+5	leaders	leader	NOUN	NNS	Number=Plur	3	obj	_	start_char=7136|end_char=7143
+6	in	in	ADP	IN	_	8	case	_	start_char=7144|end_char=7146
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=7147|end_char=7150
+8	North	North	PROPN	NNP	Number=Sing	3	obl	_	start_char=7151|end_char=7156
+9	with	with	ADP	IN	_	10	case	_	start_char=7157|end_char=7161
+10	abduction	abduction	NOUN	NN	Number=Sing	3	obl	_	start_char=7162|end_char=7171
+11	or	or	CCONJ	CC	_	12	cc	_	start_char=7172|end_char=7174
+12	worse	bad	ADJ	JJR	Degree=Cmp	10	conj	_	start_char=7175|end_char=7180
+13	unless	unless	SCONJ	IN	_	15	mark	_	start_char=7181|end_char=7187
+14	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	start_char=7188|end_char=7192
+15	pay	pay	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	start_char=7193|end_char=7196
+16	up	up	ADP	RP	_	15	compound:prt	_	start_char=7197|end_char=7199|SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	start_char=7199|end_char=7200|SpacesAfter=\n
+
+# text = The international outrage sparked by the abduction also serves Shekau.
+# sent_id = 58
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=7201|end_char=7204
+2	international	international	ADJ	JJ	Degree=Pos	3	amod	_	start_char=7205|end_char=7218
+3	outrage	outrage	NOUN	NN	Number=Sing	9	nsubj	_	start_char=7219|end_char=7226
+4	sparked	spark	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	acl	_	start_char=7227|end_char=7234
+5	by	by	ADP	IN	_	7	case	_	start_char=7235|end_char=7237
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=7238|end_char=7241
+7	abduction	abduction	NOUN	NN	Number=Sing	4	obl:agent	_	start_char=7242|end_char=7251
+8	also	also	ADV	RB	_	9	advmod	_	start_char=7252|end_char=7256
+9	serves	serve	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7257|end_char=7263
+10	Shekau	Shekau	PROPN	NNP	Number=Sing	9	obj	_	start_char=7264|end_char=7270|SpaceAfter=No
+11	.	.	PUNCT	.	_	9	punct	_	start_char=7270|end_char=7271|SpacesAfter=\n\s
+
+# text = He does n't care at all about international opinion but he knows it has put pressure on the government to reach out to him, Sani said.
+# sent_id = 59
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=7273|end_char=7275
+2	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=7276|end_char=7280
+3	n't	not	PART	RB	Polarity=Neg	4	advmod	_	start_char=7281|end_char=7284
+4	care	care	VERB	VB	VerbForm=Inf	27	ccomp	_	start_char=7285|end_char=7289
+5	at	at	ADP	IN	_	6	case	_	start_char=7290|end_char=7292
+6	all	all	DET	DT	PronType=Tot	4	obl	_	start_char=7293|end_char=7296
+7	about	about	ADP	IN	_	9	case	_	start_char=7297|end_char=7302
+8	international	international	ADJ	JJ	Degree=Pos	9	amod	_	start_char=7303|end_char=7316
+9	opinion	opinion	NOUN	NN	Number=Sing	4	obl	_	start_char=7317|end_char=7324
+10	but	but	CCONJ	CC	_	12	cc	_	start_char=7325|end_char=7328
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	start_char=7329|end_char=7331
+12	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	start_char=7332|end_char=7337
+13	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	start_char=7338|end_char=7340
+14	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	start_char=7341|end_char=7344
+15	put	put	VERB	VBN	Tense=Past|VerbForm=Part	12	ccomp	_	start_char=7345|end_char=7348
+16	pressure	pressure	NOUN	NN	Number=Sing	15	obj	_	start_char=7349|end_char=7357
+17	on	on	ADP	IN	_	19	case	_	start_char=7358|end_char=7360
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	start_char=7361|end_char=7364
+19	government	government	NOUN	NN	Number=Sing	16	nmod	_	start_char=7365|end_char=7375
+20	to	to	PART	TO	_	21	mark	_	start_char=7376|end_char=7378
+21	reach	reach	VERB	VB	VerbForm=Inf	15	advcl	_	start_char=7379|end_char=7384
+22	out	out	ADP	RP	_	21	compound:prt	_	start_char=7385|end_char=7388
+23	to	to	ADP	IN	_	24	case	_	start_char=7389|end_char=7391
+24	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	obl	_	start_char=7392|end_char=7395|SpaceAfter=No
+25	,	,	PUNCT	,	_	4	punct	_	start_char=7395|end_char=7396
+26	Sani	Sani	PROPN	NNP	Number=Sing	27	nsubj	_	start_char=7397|end_char=7401
+27	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=7402|end_char=7406|SpaceAfter=No
+28	.	.	PUNCT	.	_	27	punct	_	start_char=7406|end_char=7407|SpacesAfter=\n
+
+# text = Just how that process might work is unclear, but Sani has called for a group of Islamic clerics and others to be set up to seek mediation.
+# sent_id = 60
+1	Just	just	ADV	RB	_	2	advmod	_	start_char=7408|end_char=7412
+2	how	how	ADV	WRB	PronType=Int	8	advmod	_	start_char=7413|end_char=7416
+3	that	that	DET	DT	Number=Sing|PronType=Dem	4	det	_	start_char=7417|end_char=7421
+4	process	process	NOUN	NN	Number=Sing	6	nsubj	_	start_char=7422|end_char=7429
+5	might	might	AUX	MD	VerbForm=Fin	6	aux	_	start_char=7430|end_char=7435
+6	work	work	VERB	VB	VerbForm=Inf	2	advcl:relcl	_	start_char=7436|end_char=7440
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=7441|end_char=7443
+8	unclear	unclear	ADJ	JJ	Degree=Pos	0	root	_	start_char=7444|end_char=7451|SpaceAfter=No
+9	,	,	PUNCT	,	_	13	punct	_	start_char=7451|end_char=7452
+10	but	but	CCONJ	CC	_	13	cc	_	start_char=7453|end_char=7456
+11	Sani	Sani	PROPN	NNP	Number=Sing	13	nsubj	_	start_char=7457|end_char=7461
+12	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=7462|end_char=7465
+13	called	call	VERB	VBN	Tense=Past|VerbForm=Part	8	conj	_	start_char=7466|end_char=7472
+14	for	for	ADP	IN	_	16	case	_	start_char=7473|end_char=7476
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	start_char=7477|end_char=7478
+16	group	group	NOUN	NN	Number=Sing	13	obl	_	start_char=7479|end_char=7484
+17	of	of	ADP	IN	_	19	case	_	start_char=7485|end_char=7487
+18	Islamic	Islamic	ADJ	JJ	Degree=Pos	19	amod	_	start_char=7488|end_char=7495
+19	clerics	cleric	NOUN	NNS	Number=Plur	16	nmod	_	start_char=7496|end_char=7503
+20	and	and	CCONJ	CC	_	21	cc	_	start_char=7504|end_char=7507
+21	others	other	NOUN	NNS	Number=Plur	19	conj	_	start_char=7508|end_char=7514
+22	to	to	PART	TO	_	24	mark	_	start_char=7515|end_char=7517
+23	be	be	AUX	VB	VerbForm=Inf	24	aux:pass	_	start_char=7518|end_char=7520
+24	set	set	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	xcomp	_	start_char=7521|end_char=7524
+25	up	up	ADP	RP	_	24	compound:prt	_	start_char=7525|end_char=7527
+26	to	to	PART	TO	_	27	mark	_	start_char=7528|end_char=7530
+27	seek	seek	VERB	VB	VerbForm=Inf	24	advcl	_	start_char=7531|end_char=7535
+28	mediation	mediation	NOUN	NN	Number=Sing	27	obj	_	start_char=7536|end_char=7545|SpaceAfter=No
+29	.	.	PUNCT	.	_	8	punct	_	start_char=7545|end_char=7546
+
+# text = That would require recent laws banning anyone from having contact with Boko Haram to be waived.
+# sent_id = 61
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	start_char=7547|end_char=7551
+2	would	would	AUX	MD	VerbForm=Fin	3	aux	_	start_char=7552|end_char=7557
+3	require	require	VERB	VB	VerbForm=Inf	0	root	_	start_char=7558|end_char=7565
+4	recent	recent	ADJ	JJ	Degree=Pos	5	amod	_	start_char=7566|end_char=7572
+5	laws	law	NOUN	NNS	Number=Plur	3	obj	_	start_char=7573|end_char=7577
+6	banning	bann	VERB	VBG	VerbForm=Ger	5	acl	_	start_char=7578|end_char=7585
+7	anyone	anyone	PRON	NN	Number=Sing|PronType=Ind	6	obj	_	start_char=7586|end_char=7592
+8	from	from	SCONJ	IN	_	9	mark	_	start_char=7593|end_char=7597
+9	having	have	VERB	VBG	Tense=Pres|VerbForm=Part	6	advcl	_	start_char=7598|end_char=7604
+10	contact	contact	NOUN	NN	Number=Sing	9	obj	_	start_char=7605|end_char=7612
+11	with	with	ADP	IN	_	12	case	_	start_char=7613|end_char=7617
+12	Boko	Boko	PROPN	NNP	Number=Sing	10	nmod	_	start_char=7618|end_char=7622
+13	Haram	Haram	PROPN	NNP	Number=Sing	12	flat	_	start_char=7623|end_char=7628
+14	to	to	PART	TO	_	16	mark	_	start_char=7629|end_char=7631
+15	be	be	AUX	VB	VerbForm=Inf	16	aux:pass	_	start_char=7632|end_char=7634
+16	waived	waive	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	advcl	_	start_char=7635|end_char=7641|SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	start_char=7641|end_char=7642|SpacesAfter=\n
+
+# text = Few believe Boko Haram is going to wither away until the government addresses inequalities in the allocation of funds between the Christian oil-producing south and the Muslim north.
+# sent_id = 62
+1	Few	few	ADJ	JJ	Degree=Pos	2	nsubj	_	start_char=7643|end_char=7646
+2	believe	believe	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7647|end_char=7654
+3	Boko	Boko	PROPN	NNP	Number=Sing	6	nsubj	_	start_char=7655|end_char=7659
+4	Haram	Haram	PROPN	NNP	Number=Sing	3	flat	_	start_char=7660|end_char=7665
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=7666|end_char=7668
+6	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	2	ccomp	_	start_char=7669|end_char=7674
+7	to	to	PART	TO	_	8	mark	_	start_char=7675|end_char=7677
+8	wither	wither	VERB	VB	VerbForm=Inf	6	xcomp	_	start_char=7678|end_char=7684
+9	away	away	ADV	RB	_	8	advmod	_	start_char=7685|end_char=7689
+10	until	until	SCONJ	IN	_	13	mark	_	start_char=7690|end_char=7695
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=7696|end_char=7699
+12	government	government	NOUN	NN	Number=Sing	13	nsubj	_	start_char=7700|end_char=7710
+13	addresses	address	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	start_char=7711|end_char=7720
+14	inequalities	inequality	NOUN	NNS	Number=Plur	13	obj	_	start_char=7721|end_char=7733
+15	in	in	ADP	IN	_	17	case	_	start_char=7734|end_char=7736
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	start_char=7737|end_char=7740
+17	allocation	allocation	NOUN	NN	Number=Sing	14	nmod	_	start_char=7741|end_char=7751
+18	of	of	ADP	IN	_	19	case	_	start_char=7752|end_char=7754
+19	funds	fund	NOUN	NNS	Number=Plur	17	nmod	_	start_char=7755|end_char=7760
+20	between	between	ADP	IN	_	26	case	_	start_char=7761|end_char=7768
+21	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	start_char=7769|end_char=7772
+22	Christian	Christian	ADJ	JJ	Degree=Pos	26	amod	_	start_char=7773|end_char=7782
+23	oil	oil	NOUN	NN	Number=Sing	25	compound	_	start_char=7783|end_char=7786|SpaceAfter=No
+24	-	-	PUNCT	HYPH	_	23	punct	_	start_char=7786|end_char=7787|SpaceAfter=No
+25	producing	produce	VERB	VBG	VerbForm=Ger	26	amod	_	start_char=7787|end_char=7796
+26	south	south	NOUN	NN	Number=Sing	19	nmod	_	start_char=7797|end_char=7802
+27	and	and	CCONJ	CC	_	30	cc	_	start_char=7803|end_char=7806
+28	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	start_char=7807|end_char=7810
+29	Muslim	Muslim	ADJ	JJ	Degree=Pos	30	amod	_	start_char=7811|end_char=7817
+30	north	north	NOUN	NN	Number=Sing	26	conj	_	start_char=7818|end_char=7823|SpaceAfter=No
+31	.	.	PUNCT	.	_	2	punct	_	start_char=7823|end_char=7824|SpacesAfter=\n
+
+# text = Sani says the stakes could not be higher for the region.
+# sent_id = 63
+1	Sani	Sani	PROPN	NNP	Number=Sing	2	nsubj	_	start_char=7825|end_char=7829
+2	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7830|end_char=7834
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=7835|end_char=7838
+4	stakes	stake	NOUN	NNS	Number=Plur	8	nsubj	_	start_char=7839|end_char=7845
+5	could	could	AUX	MD	VerbForm=Fin	8	aux	_	start_char=7846|end_char=7851
+6	not	not	PART	RB	Polarity=Neg	8	advmod	_	start_char=7852|end_char=7855
+7	be	be	AUX	VB	VerbForm=Inf	8	cop	_	start_char=7856|end_char=7858
+8	higher	high	ADJ	JJR	Degree=Cmp	2	ccomp	_	start_char=7859|end_char=7865
+9	for	for	ADP	IN	_	11	case	_	start_char=7866|end_char=7869
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=7870|end_char=7873
+11	region	region	NOUN	NN	Number=Sing	8	obl	_	start_char=7874|end_char=7880|SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	start_char=7880|end_char=7881|SpacesAfter=\n\s
+
+# text = For now, Boko Haram's focus remains Nigeria, but as they become emboldened they will spread like a cancer throughout central and West Africa.
+# sent_id = 64
+1	For	for	ADP	IN	_	2	case	_	start_char=7883|end_char=7886
+2	now	now	ADV	RB	_	8	obl	_	start_char=7887|end_char=7890|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	start_char=7890|end_char=7891
+4	Boko	Boko	PROPN	NNP	Number=Sing	7	nmod:poss	_	start_char=7892|end_char=7896
+5-6	Haram's	_	_	_	_	_	_	_	start_char=7897|end_char=7904
+5	Haram	Haram	PROPN	NNP	Number=Sing	4	flat	_	start_char=7897|end_char=7902
+6	's	's	PART	POS	_	4	case	_	start_char=7902|end_char=7904
+7	focus	focus	NOUN	NN	Number=Sing	8	nsubj	_	start_char=7905|end_char=7910
+8	remains	remain	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7911|end_char=7918
+9	Nigeria	Nigeria	PROPN	NNP	Number=Sing	8	xcomp	_	start_char=7919|end_char=7926|SpaceAfter=No
+10	,	,	PUNCT	,	_	18	punct	_	start_char=7926|end_char=7927
+11	but	but	CCONJ	CC	_	18	cc	_	start_char=7928|end_char=7931
+12	as	as	SCONJ	IN	_	14	mark	_	start_char=7932|end_char=7934
+13	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	start_char=7935|end_char=7939
+14	become	become	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	advcl	_	start_char=7940|end_char=7946
+15	emboldened	embolden	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	xcomp	_	start_char=7947|end_char=7957
+16	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	start_char=7958|end_char=7962
+17	will	will	AUX	MD	VerbForm=Fin	18	aux	_	start_char=7963|end_char=7967
+18	spread	spread	VERB	VB	VerbForm=Inf	8	conj	_	start_char=7968|end_char=7974
+19	like	like	ADP	IN	_	21	case	_	start_char=7975|end_char=7979
+20	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	start_char=7980|end_char=7981
+21	cancer	cancer	NOUN	NN	Number=Sing	18	obl	_	start_char=7982|end_char=7988
+22	throughout	throughout	ADP	IN	_	26	case	_	start_char=7989|end_char=7999
+23	central	central	ADJ	JJ	Degree=Pos	26	amod	_	start_char=8000|end_char=8007
+24	and	and	CCONJ	CC	_	25	cc	_	start_char=8008|end_char=8011
+25	West	West	PROPN	NNP	Number=Sing	23	conj	_	start_char=8012|end_char=8016
+26	Africa	Africa	PROPN	NNP	Number=Sing	18	obl	_	start_char=8017|end_char=8023|SpaceAfter=No
+27	.	.	PUNCT	.	_	8	punct	_	start_char=8023|end_char=8024|SpacesAfter=\s\n
+

@@ -1,0 +1,383 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# text = There can be different kinds of entertainment at a wedding reception.
+# sent_id = 0
+1	There	there	PRON	EX	_	3	comp@expl	_	end_char=5|start_char=0
+2	can	can	AUX	MD	VerbForm=Fin	0	root	_	end_char=9|start_char=6
+3	be	be	VERB	VB	VerbForm=Inf	2	comp:aux	_	end_char=12|start_char=10
+4	different	different	ADJ	JJ	Degree=Pos	5	mod	_	end_char=22|start_char=13
+5	kinds	kind	NOUN	NNS	Number=Plur	2	subj	_	end_char=28|start_char=23
+6	of	of	ADP	IN	_	5	udep	_	end_char=31|start_char=29
+7	entertainment	entertainment	NOUN	NN	Number=Sing	6	comp:obj	_	end_char=45|start_char=32
+8	at	at	ADP	IN	_	3	udep	_	end_char=48|start_char=46
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	end_char=50|start_char=49
+10	wedding	wedding	NOUN	NN	Number=Sing	11	compound	_	end_char=58|start_char=51
+11	reception	reception	NOUN	NN	Number=Sing	8	comp:obj	_	end_char=68|SpaceAfter=No|start_char=59
+12	.	.	PUNCT	.	_	2	punct	_	end_char=69|start_char=68
+
+# text = Usually there will be a Master of Ceremonies, or MC, who helps move the reception along by making announcements of what will happen next.
+# sent_id = 1
+1	Usually	usually	ADV	RB	_	3	mod	_	end_char=77|start_char=70
+2	there	there	PRON	EX	_	4	comp@expl	_	end_char=83|start_char=78
+3	will	will	AUX	MD	VerbForm=Fin	0	root	_	end_char=88|start_char=84
+4	be	be	VERB	VB	VerbForm=Inf	3	comp:aux	_	end_char=91|start_char=89
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	end_char=93|start_char=92
+6	Master	master	NOUN	NN	Number=Sing	3	subj	_	end_char=100|start_char=94
+7	of	of	ADP	IN	_	6	udep	_	end_char=103|start_char=101
+8	Ceremonies	ceremony	NOUN	NNS	Number=Plur	7	comp:obj	_	end_char=114|SpaceAfter=No|start_char=104
+9	,	,	PUNCT	,	_	11	punct	_	end_char=115|start_char=114
+10	or	or	CCONJ	CC	_	11	cc	_	end_char=118|start_char=116
+11	MC	MC	PROPN	NNP	Number=Sing	6	conj:coord	_	end_char=121|SpaceAfter=No|start_char=119
+12	,	,	PUNCT	,	_	14	punct	_	end_char=122|start_char=121
+13	who	who	PRON	WP	PronType=Rel	14	subj	_	end_char=126|start_char=123
+14	helps	help	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Shared=No|Tense=Pres|VerbForm=Fin	11	mod@relcl	_	end_char=132|start_char=127
+15	move	move	VERB	VB	VerbForm=Inf	14	comp:obj	_	end_char=137|start_char=133|Subject=SubjRaising
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	end_char=141|start_char=138
+17	reception	reception	NOUN	NN	Number=Sing	15	comp:obj	_	end_char=151|start_char=142
+18	along	along	ADV	RB	_	15	mod	_	end_char=157|start_char=152
+19	by	by	SCONJ	IN	_	15	mod	_	end_char=160|start_char=158
+20	making	make	VERB	VBG	Tense=Pres|VerbForm=Part	19	comp:obj	_	end_char=167|start_char=161
+21	announcements	announcement	NOUN	NNS	Number=Plur	20	comp:obj	_	end_char=181|start_char=168
+22	of	of	ADP	IN	_	21	udep	_	end_char=184|start_char=182
+23	what	what	PRON	WP	PronType=Int	22	comp:obj	_	end_char=189|start_char=185
+24	will	will	AUX	MD	VerbForm=Fin	23	mod@relcl	_	end_char=194|start_char=190
+25	happen	happen	VERB	VB	VerbForm=Inf	24	comp:aux	_	end_char=201|start_char=195
+26	next	next	ADV	RB	_	24	mod	_	end_char=206|SpaceAfter=No|start_char=202
+27	.	.	PUNCT	.	_	3	punct	_	end_char=207|start_char=206
+
+# text = For example, the MC will announce when the newly married couple enters the reception hall, and all the guests will stand up and applaud.
+# sent_id = 2
+1	For	for	ADP	IN	Shared=Yes	6	udep	_	end_char=211|start_char=208
+2	example	example	NOUN	NN	Number=Sing	1	comp:obj	_	end_char=219|SpaceAfter=No|start_char=212
+3	,	,	PUNCT	,	_	1	punct	_	end_char=220|start_char=219
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	end_char=224|start_char=221
+5	MC	MC	PROPN	NNP	Number=Sing|Shared=No	6	subj	_	end_char=227|start_char=225
+6	will	will	AUX	MD	VerbForm=Fin	0	root	_	end_char=232|start_char=228
+7	announce	announce	VERB	VB	VerbForm=Inf	6	comp:aux	_	end_char=241|start_char=233
+8	when	when	ADV	WRB	PronType=Int	13	mod	_	end_char=246|start_char=242
+9	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	end_char=250|start_char=247
+10	newly	newly	ADV	RB	_	11	mod	_	end_char=256|start_char=251
+11	married	marry	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	mod	_	end_char=264|start_char=257
+12	couple	couple	NOUN	NN	Number=Sing	13	subj	_	end_char=271|start_char=265
+13	enters	enter	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	mod	_	end_char=278|start_char=272
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	end_char=282|start_char=279
+15	reception	reception	NOUN	NN	Number=Sing	16	compound	_	end_char=292|start_char=283
+16	hall	hall	NOUN	NN	Number=Sing	13	comp:obj	_	end_char=297|SpaceAfter=No|start_char=293
+17	,	,	PUNCT	,	_	22	punct	_	end_char=298|start_char=297
+18	and	and	CCONJ	CC	_	22	cc	_	end_char=302|start_char=299
+19	all	all	DET	PDT	PronType=Tot	21	det@predet	_	end_char=306|start_char=303
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	end_char=310|start_char=307
+21	guests	guest	NOUN	NNS	Number=Plur	22	subj	_	end_char=317|start_char=311
+22	will	will	AUX	MD	VerbForm=Fin	6	conj:coord	_	end_char=322|start_char=318
+23	stand	stand	VERB	VB	Shared=No|VerbForm=Inf	22	comp:aux	_	end_char=328|start_char=323
+24	up	up	ADP	RP	_	23	compound@prt	_	end_char=331|start_char=329
+25	and	and	CCONJ	CC	_	26	cc	_	end_char=335|start_char=332
+26	applaud	applaud	VERB	VB	VerbForm=Inf	23	conj:coord	_	end_char=343|SpaceAfter=No|start_char=336
+27	.	.	PUNCT	.	_	6	punct	_	end_char=344|start_char=343
+
+# text = A wedding reception usually has music and guests are expected to dance.
+# sent_id = 3
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	end_char=346|start_char=345
+2	wedding	wedding	NOUN	NN	Number=Sing	3	compound	_	end_char=354|start_char=347
+3	reception	reception	NOUN	NN	Number=Sing|Shared=No	5	subj	_	end_char=364|start_char=355
+4	usually	usually	ADV	RB	Shared=No	5	mod	_	end_char=372|start_char=365
+5	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=376|start_char=373
+6	music	music	NOUN	NN	Number=Sing	5	comp:obj	_	end_char=382|start_char=377
+7	and	and	CCONJ	CC	_	8	cc	_	end_char=386|start_char=383
+8	guests	guest	NOUN	NNS	Number=Plur	9	subj@pass	_	end_char=393|start_char=387
+9	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	conj:coord	_	end_char=397|start_char=394
+10	expected	expect	VERB	VBN	Shared=No|Tense=Past|VerbForm=Part|Voice=Pass	9	comp:aux@pass	_	end_char=406|start_char=398
+11	to	to	PART	TO	_	10	comp:obl	_	end_char=409|start_char=407
+12	dance	dance	VERB	VB	VerbForm=Inf	11	comp:obj	_	end_char=415|SpaceAfter=No|start_char=410|Subject=SubjRaising
+13	.	.	PUNCT	.	_	5	punct	_	end_char=416|start_char=415
+
+# text = The music can be provided by a DJ or by a live band.
+# sent_id = 4
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	end_char=420|start_char=417
+2	music	music	NOUN	NN	Number=Sing	3	subj@pass	_	end_char=426|start_char=421
+3	can	can	AUX	MD	VerbForm=Fin	0	root	_	end_char=430|start_char=427
+4	be	be	AUX	VB	VerbForm=Inf	3	comp:aux	_	end_char=433|start_char=431
+5	provided	provide	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	comp:aux@pass	_	end_char=442|start_char=434
+6	by	by	ADP	IN	_	5	comp:obl@agent	_	end_char=445|start_char=443
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	end_char=447|start_char=446
+8	DJ	dj	NOUN	NN	Number=Sing	6	comp:obj	_	end_char=450|start_char=448
+9	or	or	CCONJ	CC	_	10	cc	_	end_char=453|start_char=451
+10	by	by	ADP	IN	_	6	conj:coord	_	end_char=456|start_char=454
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	end_char=458|start_char=457
+12	live	live	ADJ	JJ	Degree=Pos	13	mod	_	end_char=463|start_char=459
+13	band	band	NOUN	NN	Number=Sing|Shared=No	10	comp:obj	_	end_char=468|SpaceAfter=No|start_char=464
+14	.	.	PUNCT	.	_	3	punct	_	end_char=469|start_char=468
+
+# text = Sometimes the DJ or live band will accept requests from guests to play a certain song.
+# sent_id = 5
+1	Sometimes	sometimes	ADV	RB	PronType=Ind	7	mod	_	end_char=479|start_char=470
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	end_char=483|start_char=480
+3	DJ	DJ	PROPN	NNP	Number=Sing	7	subj	_	end_char=486|start_char=484
+4	or	or	CCONJ	CC	_	6	cc	_	end_char=489|start_char=487
+5	live	live	ADJ	JJ	Degree=Pos	6	mod	_	end_char=494|start_char=490
+6	band	band	NOUN	NN	Number=Sing	3	conj:coord	_	end_char=499|start_char=495
+7	will	will	AUX	MD	VerbForm=Fin	0	root	_	end_char=504|start_char=500
+8	accept	accept	VERB	VB	VerbForm=Inf	7	comp:aux	_	end_char=511|start_char=505
+9	requests	request	NOUN	NNS	Number=Plur	8	comp:obj	_	end_char=520|start_char=512
+10	from	from	ADP	IN	_	9	udep	_	end_char=525|start_char=521
+11	guests	guest	NOUN	NNS	Number=Plur	10	comp:obj	_	end_char=532|start_char=526
+12	to	to	PART	TO	_	7	mod	_	end_char=535|start_char=533
+13	play	play	VERB	VB	VerbForm=Inf	12	comp:obj	_	end_char=540|start_char=536
+14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	end_char=542|start_char=541
+15	certain	certain	ADJ	JJ	Degree=Pos	16	mod	_	end_char=550|start_char=543
+16	song	song	NOUN	NN	Number=Sing	13	comp:obj	_	end_char=555|SpaceAfter=No|start_char=551
+17	.	.	PUNCT	.	_	7	punct	_	end_char=556|start_char=555
+
+# text = When the newly married couple enters the reception, they will share a dance by themselves to a song they picked beforehand.
+# sent_id = 6
+1	When	when	ADV	WRB	PronType=Int	6	mod	_	end_char=561|start_char=557
+2	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	end_char=565|start_char=562
+3	newly	newly	ADV	RB	_	4	mod	_	end_char=571|start_char=566
+4	married	marry	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	mod	_	end_char=579|start_char=572
+5	couple	couple	NOUN	NN	Number=Sing	6	subj	_	end_char=586|start_char=580
+6	enters	enter	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	mod	_	end_char=593|start_char=587
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	end_char=597|start_char=594
+8	reception	reception	NOUN	NN	Number=Sing	6	comp:obj	_	end_char=607|SpaceAfter=No|start_char=598
+9	,	,	PUNCT	,	_	6	punct	_	end_char=608|start_char=607
+10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	subj	_	end_char=613|start_char=609
+11	will	will	AUX	MD	VerbForm=Fin	0	root	_	end_char=618|start_char=614
+12	share	share	VERB	VB	VerbForm=Inf	11	comp:aux	_	end_char=624|start_char=619
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	end_char=626|start_char=625
+14	dance	dance	NOUN	NN	Number=Sing	12	comp:obj	_	end_char=632|start_char=627
+15	by	by	ADP	IN	_	12	udep	_	end_char=635|start_char=633
+16	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	15	comp:obj	_	end_char=646|start_char=636
+17	to	to	ADP	IN	_	12	udep	_	end_char=649|start_char=647
+18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	end_char=651|start_char=650
+19	song	song	NOUN	NN	Number=Sing	17	comp:obj	_	end_char=656|start_char=652
+20	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	subj	_	end_char=661|start_char=657
+21	picked	pick	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	19	mod@relcl	_	end_char=668|start_char=662
+22	beforehand	beforehand	ADV	RB	_	21	mod	_	end_char=679|SpaceAfter=No|start_char=669
+23	.	.	PUNCT	.	_	11	punct	_	end_char=680|start_char=679
+
+# text = Usually the song is something romantic and represents the couple's love for one another.
+# sent_id = 7
+1	Usually	usually	ADV	RB	Shared=Yes	4	mod	_	end_char=688|start_char=681
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	end_char=692|start_char=689
+3	song	song	NOUN	NN	Number=Sing|Shared=Yes	4	subj	_	end_char=697|start_char=693
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=700|start_char=698
+5	something	something	PRON	NN	Number=Sing|PronType=Ind	4	comp:pred	_	end_char=710|start_char=701
+6	romantic	romantic	ADJ	JJ	Degree=Pos	5	mod	_	end_char=719|start_char=711
+7	and	and	CCONJ	CC	_	8	cc	_	end_char=723|start_char=720
+8	represents	represent	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj:coord	_	end_char=734|start_char=724
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	end_char=738|start_char=735
+10-11	couple's	_	_	_	_	_	_	_	end_char=747|start_char=739
+10	couple	couple	NOUN	NN	Number=Sing	11	comp:obj	_	end_char=745|start_char=739
+11	's	's	PART	POS	_	12	udep@poss	_	end_char=747|start_char=745
+12	love	love	NOUN	NN	Number=Sing|Shared=No	8	comp:obj	_	end_char=752|start_char=748
+13	for	for	ADP	IN	Shared=No	8	udep	_	end_char=756|start_char=753
+14	one	one	PRON	CD	ExtPos=PRON|Number=Sing|PronType=Rcp	13	comp:obj	_	end_char=760|Idiom=Yes|start_char=757
+15	another	another	DET	DT	PronType=Ind	14	unk	_	end_char=768|InIdiom=Yes|SpaceAfter=No|start_char=761
+16	.	.	PUNCT	.	_	4	punct	_	end_char=769|start_char=768
+
+# text = Sometimes the bride will share a dance with her father and the groom will share a dance with his mother.
+# sent_id = 8
+1	Sometimes	sometimes	ADV	RB	PronType=Ind	4	mod	_	end_char=779|start_char=770
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	end_char=783|start_char=780
+3	bride	bride	NOUN	NN	Number=Sing|Shared=No	4	subj	_	end_char=789|start_char=784
+4	will	will	AUX	MD	VerbForm=Fin	0	root	_	end_char=794|start_char=790
+5	share	share	VERB	VB	VerbForm=Inf	4	comp:aux	_	end_char=800|start_char=795
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	end_char=802|start_char=801
+7	dance	dance	NOUN	NN	Number=Sing	5	comp:obj	_	end_char=808|start_char=803
+8	with	with	ADP	IN	_	5	udep	_	end_char=813|start_char=809
+9	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	mod@poss	_	end_char=817|start_char=814
+10	father	father	NOUN	NN	Number=Sing	8	comp:obj	_	end_char=824|start_char=818
+11	and	and	CCONJ	CC	_	14	cc	_	end_char=828|start_char=825
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	end_char=832|start_char=829
+13	groom	groom	NOUN	NN	Number=Sing	14	subj	_	end_char=838|start_char=833
+14	will	will	AUX	MD	VerbForm=Fin	4	conj:coord	_	end_char=843|start_char=839
+15	share	share	VERB	VB	Shared=No|VerbForm=Inf	14	comp:aux	_	end_char=849|start_char=844
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	end_char=851|start_char=850
+17	dance	dance	NOUN	NN	Number=Sing	15	comp:obj	_	end_char=857|start_char=852
+18	with	with	ADP	IN	_	15	udep	_	end_char=862|start_char=858
+19	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	mod@poss	_	end_char=866|start_char=863
+20	mother	mother	NOUN	NN	Number=Sing	18	comp:obj	_	end_char=873|SpaceAfter=No|start_char=867
+21	.	.	PUNCT	.	_	4	punct	_	end_char=874|start_char=873
+
+# text = After these special dances, the guests are invited to the dance floor.
+# sent_id = 9
+1	After	after	ADP	IN	_	8	udep	_	end_char=880|start_char=875
+2	these	this	DET	DT	Number=Plur|PronType=Dem	4	det	_	end_char=886|start_char=881
+3	special	special	ADJ	JJ	Degree=Pos	4	mod	_	end_char=894|start_char=887
+4	dances	dance	NOUN	NNS	Number=Plur	1	comp:obj	_	end_char=901|SpaceAfter=No|start_char=895
+5	,	,	PUNCT	,	_	1	punct	_	end_char=902|start_char=901
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	end_char=906|start_char=903
+7	guests	guest	NOUN	NNS	Number=Plur	8	subj@pass	_	end_char=913|start_char=907
+8	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=917|start_char=914
+9	invited	invite	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	comp:aux@pass	_	end_char=925|start_char=918
+10	to	to	ADP	IN	_	9	udep	_	end_char=928|start_char=926
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	end_char=932|start_char=929
+12	dance	dance	NOUN	NN	Number=Sing	13	compound	_	end_char=938|start_char=933
+13	floor	floor	NOUN	NN	Number=Sing	10	comp:obj	_	end_char=944|SpaceAfter=No|start_char=939
+14	.	.	PUNCT	.	_	8	punct	_	end_char=945|SpacesAfter=\n\s\n|start_char=944
+
+# text = Food at a wedding reception can be buffet style, where everyone serves himself or herself, or it can be a sit-down meal served by waiters.
+# sent_id = 10
+1	Food	food	NOUN	NN	Number=Sing|Shared=No	6	subj	_	end_char=952|start_char=948
+2	at	at	ADP	IN	_	1	udep	_	end_char=955|start_char=953
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	end_char=957|start_char=956
+4	wedding	wedding	NOUN	NN	Number=Sing	5	compound	_	end_char=965|start_char=958
+5	reception	reception	NOUN	NN	Number=Sing	2	comp:obj	_	end_char=975|start_char=966
+6	can	can	AUX	MD	VerbForm=Fin	0	root	_	end_char=979|start_char=976
+7	be	be	AUX	VB	VerbForm=Inf	6	comp:aux	_	end_char=982|start_char=980
+8	buffet	buffet	NOUN	NN	Number=Sing	9	compound	_	end_char=989|start_char=983
+9	style	style	NOUN	NN	Number=Sing	7	comp:pred	_	end_char=995|SpaceAfter=No|start_char=990
+10	,	,	PUNCT	,	_	13	punct	_	end_char=996|start_char=995
+11	where	where	ADV	WRB	PronType=Rel	13	mod	_	end_char=1002|start_char=997
+12	everyone	everyone	PRON	NN	Number=Sing|PronType=Tot	13	subj	_	end_char=1011|start_char=1003
+13	serves	serve	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	mod@relcl	_	end_char=1018|start_char=1012
+14	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	13	comp:obj	_	end_char=1026|start_char=1019
+15	or	or	CCONJ	CC	_	16	cc	_	end_char=1029|start_char=1027
+16	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	14	conj:coord	_	end_char=1037|SpaceAfter=No|start_char=1030
+17	,	,	PUNCT	,	_	20	punct	_	end_char=1038|start_char=1037
+18	or	or	CCONJ	CC	_	20	cc	_	end_char=1041|start_char=1039
+19	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	subj	_	end_char=1044|start_char=1042
+20	can	can	AUX	MD	VerbForm=Fin	6	conj:coord	_	end_char=1048|start_char=1045
+21	be	be	AUX	VB	Shared=No|VerbForm=Inf	20	comp:aux	_	end_char=1051|start_char=1049
+22	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	end_char=1053|start_char=1052
+23	sit	sit	NOUN	NN	Number=Sing	26	compound	_	end_char=1057|SpaceAfter=No|start_char=1054
+24	-	-	PUNCT	HYPH	_	25	punct	_	end_char=1058|SpaceAfter=No|start_char=1057
+25	down	down	ADP	RP	_	26	compound	_	end_char=1062|start_char=1058
+26	meal	meal	NOUN	NN	Number=Sing	21	comp:pred	_	end_char=1067|start_char=1063
+27	served	serve	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	26	mod	_	end_char=1074|start_char=1068
+28	by	by	ADP	IN	_	27	comp:obl@agent	_	end_char=1077|start_char=1075
+29	waiters	waiter	NOUN	NNS	Number=Plur	28	comp:obj	_	end_char=1085|SpaceAfter=No|start_char=1078
+30	.	.	PUNCT	.	_	6	punct	_	end_char=1086|start_char=1085
+
+# text = Guests get to choose among a meat, chicken or fish deal.
+# sent_id = 11
+1	Guests	guest	NOUN	NNS	Number=Plur	2	subj	_	end_char=1093|start_char=1087
+2	get	get	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=1097|start_char=1094
+3	to	to	PART	TO	_	2	comp:obl	_	end_char=1100|start_char=1098
+4	choose	choose	VERB	VB	VerbForm=Inf	3	comp:obj	_	end_char=1107|start_char=1101|Subject=SubjRaising
+5	among	among	ADP	IN	_	4	udep	_	end_char=1113|start_char=1108
+6	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	end_char=1115|start_char=1114
+7	meat	meat	NOUN	NN	Number=Sing	12	compound	_	end_char=1120|SpaceAfter=No|start_char=1116
+8	,	,	PUNCT	,	_	9	punct	_	end_char=1121|start_char=1120
+9	chicken	chicken	NOUN	NN	Number=Sing	12	compound	_	end_char=1129|start_char=1122
+10	or	or	CCONJ	CC	_	11	cc	_	end_char=1132|start_char=1130
+11	fish	fish	NOUN	NN	Number=Sing	7	conj:coord	_	end_char=1137|start_char=1133
+12	deal	deal	NOUN	NN	Number=Sing	5	comp:obj	_	end_char=1142|SpaceAfter=No|start_char=1138
+13	.	.	PUNCT	.	_	2	punct	_	end_char=1143|start_char=1142
+
+# text = Guests generally make their choices when they respond to the initial wedding invitations.
+# sent_id = 12
+1	Guests	guest	NOUN	NNS	Number=Plur	3	subj	_	end_char=1150|start_char=1144
+2	generally	generally	ADV	RB	_	3	mod	_	end_char=1160|start_char=1151
+3	make	make	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=1165|start_char=1161
+4	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	5	mod@poss	_	end_char=1171|start_char=1166
+5	choices	choice	NOUN	NNS	Number=Plur	3	comp:obj	_	end_char=1179|start_char=1172
+6	when	when	ADV	WRB	PronType=Int	8	mod	_	end_char=1184|start_char=1180
+7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	subj	_	end_char=1189|start_char=1185
+8	respond	respond	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	mod	_	end_char=1197|start_char=1190
+9	to	to	ADP	IN	_	8	udep	_	end_char=1200|start_char=1198
+10	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	end_char=1204|start_char=1201
+11	initial	initial	ADJ	JJ	Degree=Pos	13	mod	_	end_char=1212|start_char=1205
+12	wedding	wedding	NOUN	NN	Number=Sing	13	compound	_	end_char=1220|start_char=1213
+13	invitations	invitation	NOUN	NNS	Number=Plur	9	comp:obj	_	end_char=1232|SpaceAfter=No|start_char=1221
+14	.	.	PUNCT	.	_	3	punct	_	end_char=1233|SpacesAfter=\n|start_char=1232
+
+# text = During a wedding, guests shouldn't expect to spend too much time with the bride and groom.
+# sent_id = 13
+1	During	during	ADP	IN	_	6	udep	_	end_char=1240|start_char=1234
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	end_char=1242|start_char=1241
+3	wedding	wedding	NOUN	NN	Number=Sing	1	comp:obj	_	end_char=1250|SpaceAfter=No|start_char=1243
+4	,	,	PUNCT	,	_	1	punct	_	end_char=1251|start_char=1250
+5	guests	guest	NOUN	NNS	Number=Plur	6	subj	_	end_char=1258|start_char=1252
+6-7	shouldn't	_	_	_	_	_	_	_	end_char=1268|start_char=1259
+6	should	should	AUX	MD	VerbForm=Fin	0	root	_	end_char=1265|start_char=1259
+7	n't	not	PART	RB	Polarity=Neg	6	mod	_	end_char=1268|start_char=1265
+8	expect	expect	VERB	VB	VerbForm=Inf	6	comp:aux	_	end_char=1275|start_char=1269
+9	to	to	PART	TO	_	8	comp:obl	_	end_char=1278|start_char=1276
+10	spend	spend	VERB	VB	VerbForm=Inf	9	comp:obj	_	end_char=1284|start_char=1279|Subject=SubjRaising
+11	too	too	ADV	RB	_	12	mod	_	end_char=1288|start_char=1285
+12	much	much	ADJ	JJ	Degree=Pos	13	mod	_	end_char=1293|start_char=1289
+13	time	time	NOUN	NN	Number=Sing	10	comp:obj	_	end_char=1298|start_char=1294
+14	with	with	ADP	IN	_	10	udep	_	end_char=1303|start_char=1299
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	end_char=1307|start_char=1304
+16	bride	bride	NOUN	NN	Number=Sing	14	comp:obj	_	end_char=1313|start_char=1308
+17	and	and	CCONJ	CC	_	18	cc	_	end_char=1317|start_char=1314
+18	groom	groom	NOUN	NN	Number=Sing	16	conj:coord	_	end_char=1323|SpaceAfter=No|start_char=1318
+19	.	.	PUNCT	.	_	6	punct	_	end_char=1324|start_char=1323
+
+# text = The new couple is usually very busy greeting all of their guests.
+# sent_id = 14
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	end_char=1328|start_char=1325
+2	new	new	ADJ	JJ	Degree=Pos	3	mod	_	end_char=1332|start_char=1329
+3	couple	couple	NOUN	NN	Number=Sing	4	subj	_	end_char=1339|start_char=1333
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=1342|start_char=1340
+5	usually	usually	ADV	RB	_	4	mod	_	end_char=1350|start_char=1343
+6	very	very	ADV	RB	_	4	mod	_	end_char=1355|start_char=1351
+7	busy	busy	ADJ	JJ	Degree=Pos	4	comp:pred	_	end_char=1360|start_char=1356
+8	greeting	greeting	VERB	VBG	Tense=Pres|VerbForm=Part	7	mod	_	end_char=1369|start_char=1361
+9	all	all	DET	DT	PronType=Tot	8	comp:obj	_	end_char=1373|start_char=1370
+10	of	of	ADP	IN	_	9	udep	_	end_char=1376|start_char=1374
+11	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	mod@poss	_	end_char=1382|start_char=1377
+12	guests	guest	NOUN	NNS	Number=Plur	10	comp:obj	_	end_char=1389|SpaceAfter=No|start_char=1383
+13	.	.	PUNCT	.	_	4	punct	_	end_char=1390|start_char=1389
+
+# text = Sometimes the couple doesn't even get a chance to eat.
+# sent_id = 15
+1	Sometimes	sometimes	ADV	RB	_	4	mod	_	end_char=1400|start_char=1391
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	end_char=1404|start_char=1401
+3	couple	couple	NOUN	NN	Number=Sing	4	subj	_	end_char=1411|start_char=1405
+4-5	doesn't	_	_	_	_	_	_	_	end_char=1419|start_char=1412
+4	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=1416|start_char=1412
+5	n't	not	PART	RB	Polarity=Neg	4	mod	_	end_char=1419|start_char=1416
+6	even	even	ADV	RB	_	4	mod	_	end_char=1424|start_char=1420
+7	get	get	VERB	VB	VerbForm=Inf	4	comp:aux	_	end_char=1428|start_char=1425
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	end_char=1430|start_char=1429
+9	chance	chance	NOUN	NN	Number=Sing	7	comp:obj	_	end_char=1437|start_char=1431
+10	to	to	PART	TO	_	9	udep	_	end_char=1440|start_char=1438
+11	eat	eat	VERB	VB	VerbForm=Inf	10	comp:obj	_	end_char=1444|SpaceAfter=No|start_char=1441
+12	.	.	PUNCT	.	_	4	punct	_	end_char=1445|start_char=1444
+
+# text = What almost every newly married couple does get to eat at their wedding reception is the wedding cake.
+# sent_id = 16
+1	What	what	PRON	WP	PronType=Int	15	subj	_	end_char=1450|start_char=1446
+2	almost	almost	ADV	RB	_	5	mod	_	end_char=1457|start_char=1451
+3	every	every	DET	DT	PronType=Tot	6	det	_	end_char=1463|start_char=1458
+4	newly	newly	ADV	RB	_	5	mod	_	end_char=1469|start_char=1464
+5	married	marry	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	mod	_	end_char=1477|start_char=1470
+6	couple	couple	NOUN	NN	Number=Sing	7	subj	_	end_char=1484|start_char=1478
+7	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	mod@relcl	_	end_char=1489|start_char=1485
+8	get	get	VERB	VB	VerbForm=Inf	7	comp:aux	_	end_char=1493|start_char=1490
+9	to	to	PART	TO	_	8	comp:obl	_	end_char=1496|start_char=1494
+10	eat	eat	VERB	VB	VerbForm=Inf	9	comp:obj	_	end_char=1500|start_char=1497|Subject=SubjRaising
+11	at	at	ADP	IN	_	10	udep	_	end_char=1503|start_char=1501
+12	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	mod@poss	_	end_char=1509|start_char=1504
+13	wedding	wedding	NOUN	NN	Number=Sing	14	compound	_	end_char=1517|start_char=1510
+14	reception	reception	NOUN	NN	Number=Sing	11	comp:obj	_	end_char=1527|start_char=1518
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=1530|start_char=1528
+16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	end_char=1534|start_char=1531
+17	wedding	wedding	NOUN	NN	Number=Sing	18	compound	_	end_char=1542|start_char=1535
+18	cake	cake	NOUN	NN	Number=Sing	15	comp:pred	_	end_char=1547|SpaceAfter=No|start_char=1543
+19	.	.	PUNCT	.	_	15	punct	_	end_char=1548|start_char=1547
+
+# text = The bride and groom traditionally cut through the wedding cake together, and then feed the other person a bite.
+# sent_id = 17
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	end_char=1552|start_char=1549
+2	bride	bride	NOUN	NN	Number=Sing|Shared=Yes	6	subj	_	end_char=1558|start_char=1553
+3	and	and	CCONJ	CC	_	4	cc	_	end_char=1562|start_char=1559
+4	groom	groom	NOUN	NN	Number=Sing	2	conj:coord	_	end_char=1568|start_char=1563
+5	traditionally	traditionally	ADV	RB	_	6	mod	_	end_char=1582|start_char=1569
+6	cut	cut	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1586|start_char=1583
+7	through	through	ADP	IN	_	6	udep	_	end_char=1594|start_char=1587
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	end_char=1598|start_char=1595
+9	wedding	wedding	NOUN	NN	Number=Sing	10	compound	_	end_char=1606|start_char=1599
+10	cake	cake	NOUN	NN	Number=Sing	7	comp:obj	_	end_char=1611|start_char=1607
+11	together	together	ADV	RB	_	6	mod	_	end_char=1620|SpaceAfter=No|start_char=1612
+12	,	,	PUNCT	,	_	15	punct	_	end_char=1621|start_char=1620
+13	and	and	CCONJ	CC	_	15	cc	_	end_char=1625|start_char=1622
+14	then	then	ADV	RB	PronType=Dem	15	mod	_	end_char=1630|start_char=1626
+15	feed	feed	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj:coord	_	end_char=1635|start_char=1631
+16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	end_char=1639|start_char=1636
+17	other	other	ADJ	JJ	Degree=Pos	18	mod	_	end_char=1645|start_char=1640
+18	person	person	NOUN	NN	Number=Sing|Shared=No	15	comp:obl	_	end_char=1652|start_char=1646
+19	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	end_char=1654|start_char=1653
+20	bite	bite	NOUN	NN	Number=Sing|Shared=No	15	comp:obj	_	end_char=1659|SpaceAfter=No|start_char=1655
+21	.	.	PUNCT	.	_	6	punct	_	end_char=1660|SpaceAfter=No|start_char=1659
+

@@ -1,0 +1,398 @@
+# text = The American Civil War happened from 1861 to 1865.
+# sent_id = 0
+1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=0|end_char=3
+2	American	American	ADJ	NNP	Degree=Pos	4	amod	_	start_char=4|end_char=12
+3	Civil	Civil	ADJ	NNP	Degree=Pos	4	amod	_	start_char=13|end_char=18
+4	War	War	PROPN	NNP	Number=Sing	5	nsubj	_	start_char=19|end_char=22
+5	happened	happen	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=23|end_char=31
+6	from	from	ADP	IN	_	7	case	_	start_char=32|end_char=36
+7	1861	1861	NUM	CD	NumForm=Digit|NumType=Card	5	obl	_	start_char=37|end_char=41
+8	to	to	ADP	IN	_	9	case	_	start_char=42|end_char=44
+9	1865	1865	NUM	CD	NumForm=Digit|NumType=Card	5	obl	_	start_char=45|end_char=49|SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	_	start_char=49|end_char=50
+
+# text = The main cause was Southern states feeling that the U.S. federal government in Washington D.C. should not have the power to tell them what to do.
+# sent_id = 1
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=51|end_char=54
+2	main	main	ADJ	JJ	Degree=Pos	3	amod	_	start_char=55|end_char=59
+3	cause	cause	NOUN	NN	Number=Sing	6	nsubj	_	start_char=60|end_char=65
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	start_char=66|end_char=69
+5	Southern	Southern	ADJ	JJ	Degree=Pos	6	amod	_	start_char=70|end_char=78
+6	states	state	NOUN	NNS	Number=Plur	0	root	_	start_char=79|end_char=85
+7	feeling	feel	VERB	VBG	VerbForm=Ger	6	acl	_	start_char=86|end_char=93
+8	that	that	SCONJ	IN	_	18	mark	_	start_char=94|end_char=98
+9	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=99|end_char=102
+10	U.S.	U.S.	PROPN	NNP	Number=Sing	12	compound	_	start_char=103|end_char=107
+11	federal	federal	ADJ	JJ	Degree=Pos	12	amod	_	start_char=108|end_char=115
+12	government	government	NOUN	NN	Number=Sing	18	nsubj	_	start_char=116|end_char=126
+13	in	in	ADP	IN	_	14	case	_	start_char=127|end_char=129
+14	Washington	Washington	PROPN	NNP	Number=Sing	12	nmod	_	start_char=130|end_char=140
+15	D.C.	D.C.	PROPN	NNP	Abbr=Yes|Number=Sing	12	nmod	_	start_char=141|end_char=145
+16	should	should	AUX	MD	VerbForm=Fin	18	aux	_	start_char=146|end_char=152
+17	not	not	PART	RB	Polarity=Neg	18	advmod	_	start_char=153|end_char=156
+18	have	have	VERB	VB	VerbForm=Inf	7	ccomp	_	start_char=157|end_char=161
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	start_char=162|end_char=165
+20	power	power	NOUN	NN	Number=Sing	18	obj	_	start_char=166|end_char=171
+21	to	to	PART	TO	_	22	mark	_	start_char=172|end_char=174
+22	tell	tell	VERB	VB	VerbForm=Inf	20	acl	_	start_char=175|end_char=179
+23	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	22	iobj	_	start_char=180|end_char=184
+24	what	what	PRON	WP	PronType=Int	26	obj	_	start_char=185|end_char=189
+25	to	to	PART	TO	_	26	mark	_	start_char=190|end_char=192
+26	do	do	VERB	VB	VerbForm=Inf	22	ccomp	_	start_char=193|end_char=195|SpaceAfter=No
+27	.	.	PUNCT	.	_	6	punct	_	start_char=195|end_char=196
+
+# text = This was especially true about two issues, taxes and slavery.
+# sent_id = 2
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	start_char=197|end_char=201
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	start_char=202|end_char=205
+3	especially	especially	ADV	RB	_	4	advmod	_	start_char=206|end_char=216
+4	true	true	ADJ	JJ	Degree=Pos	0	root	_	start_char=217|end_char=221
+5	about	about	ADP	IN	_	7	case	_	start_char=222|end_char=227
+6	two	two	NUM	CD	NumForm=Word|NumType=Card	7	nummod	_	start_char=228|end_char=231
+7	issues	issue	NOUN	NNS	Number=Plur	4	obl	_	start_char=232|end_char=238|SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	_	start_char=238|end_char=239
+9	taxes	tax	NOUN	NNS	Number=Plur	7	conj	_	start_char=240|end_char=245
+10	and	and	CCONJ	CC	_	11	cc	_	start_char=246|end_char=249
+11	slavery	slavery	NOUN	NN	Number=Sing	7	conj	_	start_char=250|end_char=257|SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	start_char=257|end_char=258
+
+# text = The Southern economy was based on agriculture while the Northern economy was based on manufacturing.
+# sent_id = 3
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=259|end_char=262
+2	Southern	Southern	ADJ	JJ	Degree=Pos	3	amod	_	start_char=263|end_char=271
+3	economy	economy	NOUN	NN	Number=Sing	5	nsubj:pass	_	start_char=272|end_char=279
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	start_char=280|end_char=283
+5	based	base	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=284|end_char=289
+6	on	on	ADP	IN	_	7	case	_	start_char=290|end_char=292
+7	agriculture	agriculture	NOUN	NN	Number=Sing	5	obl	_	start_char=293|end_char=304
+8	while	while	SCONJ	IN	_	13	mark	_	start_char=305|end_char=310
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=311|end_char=314
+10	Northern	Northern	ADJ	JJ	Degree=Pos	11	amod	_	start_char=315|end_char=323
+11	economy	economy	NOUN	NN	Number=Sing	13	nsubj:pass	_	start_char=324|end_char=331
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux:pass	_	start_char=332|end_char=335
+13	based	base	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	advcl	_	start_char=336|end_char=341
+14	on	on	ADP	IN	_	15	case	_	start_char=342|end_char=344
+15	manufacturing	manufacturing	NOUN	NN	Number=Sing	13	obl	_	start_char=345|end_char=358|SpaceAfter=No
+16	.	.	PUNCT	.	_	5	punct	_	start_char=358|end_char=359
+
+# text = Southern crops like cotton were sold to factories and then Southerners had to pay taxes on the finished goods sold back to them like clothing.
+# sent_id = 4
+1	Southern	Southern	ADJ	JJ	Degree=Pos	2	amod	_	start_char=360|end_char=368
+2	crops	crop	NOUN	NNS	Number=Plur	6	nsubj:pass	_	start_char=369|end_char=374
+3	like	like	ADP	IN	_	4	case	_	start_char=375|end_char=379
+4	cotton	cotton	NOUN	NN	Number=Sing	2	nmod	_	start_char=380|end_char=386
+5	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	aux:pass	_	start_char=387|end_char=391
+6	sold	sell	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=392|end_char=396
+7	to	to	ADP	IN	_	8	case	_	start_char=397|end_char=399
+8	factories	factory	NOUN	NNS	Number=Plur	6	obl	_	start_char=400|end_char=409
+9	and	and	CCONJ	CC	_	12	cc	_	start_char=410|end_char=413
+10	then	then	ADV	RB	PronType=Dem	12	advmod	_	start_char=414|end_char=418
+11	Southerners	Southerners	PROPN	NNPS	Number=Plur	12	nsubj	_	start_char=419|end_char=430
+12	had	have	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	conj	_	start_char=431|end_char=434
+13	to	to	PART	TO	_	14	mark	_	start_char=435|end_char=437
+14	pay	pay	VERB	VB	VerbForm=Inf	12	xcomp	_	start_char=438|end_char=441
+15	taxes	tax	NOUN	NNS	Number=Plur	14	obj	_	start_char=442|end_char=447
+16	on	on	ADP	IN	_	19	case	_	start_char=448|end_char=450
+17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	start_char=451|end_char=454
+18	finished	finish	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	19	amod	_	start_char=455|end_char=463
+19	goods	goods	NOUN	NNS	Number=Plur	14	obl	_	start_char=464|end_char=469
+20	sold	sell	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	19	acl	_	start_char=470|end_char=474
+21	back	back	ADV	RB	_	20	advmod	_	start_char=475|end_char=479
+22	to	to	ADP	IN	_	23	case	_	start_char=480|end_char=482
+23	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	20	obl	_	start_char=483|end_char=487
+24	like	like	ADP	IN	_	25	case	_	start_char=488|end_char=492
+25	clothing	clothing	NOUN	NN	Number=Sing	20	obl	_	start_char=493|end_char=501|SpaceAfter=No
+26	.	.	PUNCT	.	_	6	punct	_	start_char=501|end_char=502
+
+# text = Many Southerners felt this was unfair.
+# sent_id = 5
+1	Many	many	ADJ	JJ	Degree=Pos	2	amod	_	start_char=503|end_char=507
+2	Southerners	Southerners	PROPN	NNPS	Number=Plur	3	nsubj	_	start_char=508|end_char=519
+3	felt	feel	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=520|end_char=524
+4	this	this	PRON	DT	Number=Sing|PronType=Dem	6	nsubj	_	start_char=525|end_char=529
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	start_char=530|end_char=533
+6	unfair	unfair	ADJ	JJ	Degree=Pos	3	ccomp	_	start_char=534|end_char=540|SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	start_char=540|end_char=541
+
+# text = Additionally the agricultural economy in the south was reliant on the labor of enslaved Africans and their descendants.
+# sent_id = 6
+1	Additionally	additionally	ADV	RB	_	9	advmod	_	start_char=542|end_char=554
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=555|end_char=558
+3	agricultural	agricultural	ADJ	JJ	Degree=Pos	4	amod	_	start_char=559|end_char=571
+4	economy	economy	NOUN	NN	Number=Sing	9	nsubj	_	start_char=572|end_char=579
+5	in	in	ADP	IN	_	7	case	_	start_char=580|end_char=582
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=583|end_char=586
+7	south	south	NOUN	NN	Number=Sing	4	nmod	_	start_char=587|end_char=592
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	start_char=593|end_char=596
+9	reliant	reliant	ADJ	JJ	Degree=Pos	0	root	_	start_char=597|end_char=604
+10	on	on	ADP	IN	_	12	case	_	start_char=605|end_char=607
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=608|end_char=611
+12	labor	labor	NOUN	NN	Number=Sing	9	obl	_	start_char=612|end_char=617
+13	of	of	ADP	IN	_	15	case	_	start_char=618|end_char=620
+14	enslaved	enslave	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	15	amod	_	start_char=621|end_char=629
+15	Africans	African	PROPN	NNPS	Number=Plur	12	nmod	_	start_char=630|end_char=638
+16	and	and	CCONJ	CC	_	18	cc	_	start_char=639|end_char=642
+17	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	start_char=643|end_char=648
+18	descendants	descendant	NOUN	NNS	Number=Plur	15	conj	_	start_char=649|end_char=660|SpaceAfter=No
+19	.	.	PUNCT	.	_	9	punct	_	start_char=660|end_char=661
+
+# text = Many people, especially from the North, felt this was wrong and that slavery needed to be abolished.
+# sent_id = 7
+1	Many	many	ADJ	JJ	Degree=Pos	2	amod	_	start_char=662|end_char=666
+2	people	person	NOUN	NNS	Number=Plur	9	nsubj	_	start_char=667|end_char=673|SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	start_char=673|end_char=674
+4	especially	especially	ADV	RB	_	7	advmod	_	start_char=675|end_char=685
+5	from	from	ADP	IN	_	7	case	_	start_char=686|end_char=690
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=691|end_char=694
+7	North	North	PROPN	NNP	Number=Sing	2	nmod	_	start_char=695|end_char=700|SpaceAfter=No
+8	,	,	PUNCT	,	_	2	punct	_	start_char=700|end_char=701
+9	felt	feel	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=702|end_char=706
+10	this	this	PRON	DT	Number=Sing|PronType=Dem	12	nsubj	_	start_char=707|end_char=711
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	start_char=712|end_char=715
+12	wrong	wrong	ADJ	JJ	Degree=Pos	9	ccomp	_	start_char=716|end_char=721
+13	and	and	CCONJ	CC	_	16	cc	_	start_char=722|end_char=725
+14	that	that	SCONJ	IN	_	16	mark	_	start_char=726|end_char=730
+15	slavery	slavery	NOUN	NN	Number=Sing	16	nsubj	_	start_char=731|end_char=738
+16	needed	need	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	start_char=739|end_char=745
+17	to	to	PART	TO	_	19	mark	_	start_char=746|end_char=748
+18	be	be	AUX	VB	VerbForm=Inf	19	aux:pass	_	start_char=749|end_char=751
+19	abolished	abolish	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	16	xcomp	_	start_char=752|end_char=761|SpaceAfter=No
+20	.	.	PUNCT	.	_	9	punct	_	start_char=761|end_char=762
+
+# text = Southerners felt the abolitionists were threatening their way of life.
+# sent_id = 8
+1	Southerners	Southerners	PROPN	NNPS	Number=Plur	2	nsubj	_	start_char=763|end_char=774
+2	felt	feel	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=775|end_char=779
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=780|end_char=783
+4	abolitionists	abolitionist	NOUN	NNS	Number=Plur	6	nsubj	_	start_char=784|end_char=797
+5	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	start_char=798|end_char=802
+6	threatening	threaten	VERB	VBG	Tense=Pres|VerbForm=Part	2	ccomp	_	start_char=803|end_char=814
+7	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	start_char=815|end_char=820
+8	way	way	NOUN	NN	Number=Sing	6	obj	_	start_char=821|end_char=824
+9	of	of	ADP	IN	_	10	case	_	start_char=825|end_char=827
+10	life	life	NOUN	NN	Number=Sing	8	nmod	_	start_char=828|end_char=832|SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	start_char=832|end_char=833
+
+# text = Seven Southern slave states, banded together, declared their secession and formed the Confederate States of America.
+# sent_id = 9
+1	Seven	seven	NUM	CD	NumForm=Word|NumType=Card	4	nummod	_	start_char=834|end_char=839
+2	Southern	Southern	ADJ	JJ	Degree=Pos	4	amod	_	start_char=840|end_char=848
+3	slave	slave	NOUN	NN	Number=Sing	4	compound	_	start_char=849|end_char=854
+4	states	state	NOUN	NNS	Number=Plur	9	nsubj	_	start_char=855|end_char=861|SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	start_char=861|end_char=862
+6	banded	band	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	acl	_	start_char=863|end_char=869
+7	together	together	ADV	RB	_	6	advmod	_	start_char=870|end_char=878|SpaceAfter=No
+8	,	,	PUNCT	,	_	4	punct	_	start_char=878|end_char=879
+9	declared	declare	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=880|end_char=888
+10	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	start_char=889|end_char=894
+11	secession	secession	NOUN	NN	Number=Sing	9	obj	_	start_char=895|end_char=904
+12	and	and	CCONJ	CC	_	13	cc	_	start_char=905|end_char=908
+13	formed	form	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	start_char=909|end_char=915
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	start_char=916|end_char=919
+15	Confederate	confederate	ADJ	NNP	Degree=Pos	16	amod	_	start_char=920|end_char=931
+16	States	State	PROPN	NNPS	Number=Plur	13	obj	_	start_char=932|end_char=938
+17	of	of	ADP	IN	_	18	case	_	start_char=939|end_char=941
+18	America	America	PROPN	NNP	Number=Sing	16	nmod	_	start_char=942|end_char=949|SpaceAfter=No
+19	.	.	PUNCT	.	_	9	punct	_	start_char=949|end_char=950
+
+# text = The government in Washington D.C. and its army was known as the Union, since they were fighting to keep the country united.
+# sent_id = 10
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=951|end_char=954
+2	government	government	NOUN	NN	Number=Sing	10	nsubj:pass	_	start_char=955|end_char=965
+3	in	in	ADP	IN	_	4	case	_	start_char=966|end_char=968
+4	Washington	Washington	PROPN	NNP	Number=Sing	2	nmod	_	start_char=969|end_char=979
+5	D.C.	D.C.	PROPN	NNP	Abbr=Yes|Number=Sing	4	flat	_	start_char=980|end_char=984
+6	and	and	CCONJ	CC	_	8	cc	_	start_char=985|end_char=988
+7	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	start_char=989|end_char=992
+8	army	army	NOUN	NN	Number=Sing	4	conj	_	start_char=993|end_char=997
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux:pass	_	start_char=998|end_char=1001
+10	known	know	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=1002|end_char=1007
+11	as	as	ADP	IN	_	13	case	_	start_char=1008|end_char=1010
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	start_char=1011|end_char=1014
+13	Union	Union	PROPN	NNP	Number=Sing	10	obl	_	start_char=1015|end_char=1020|SpaceAfter=No
+14	,	,	PUNCT	,	_	18	punct	_	start_char=1020|end_char=1021
+15	since	since	SCONJ	IN	_	18	mark	_	start_char=1022|end_char=1027
+16	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	start_char=1028|end_char=1032
+17	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	18	aux	_	start_char=1033|end_char=1037
+18	fighting	fight	VERB	VBG	Tense=Pres|VerbForm=Part	10	advcl	_	start_char=1038|end_char=1046
+19	to	to	PART	TO	_	20	mark	_	start_char=1047|end_char=1049
+20	keep	keep	VERB	VB	VerbForm=Inf	18	xcomp	_	start_char=1050|end_char=1054
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	start_char=1055|end_char=1058
+22	country	country	NOUN	NN	Number=Sing	20	obj	_	start_char=1059|end_char=1066
+23	united	unite	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	20	xcomp	_	start_char=1067|end_char=1073|SpaceAfter=No
+24	.	.	PUNCT	.	_	10	punct	_	start_char=1073|end_char=1074|SpacesAfter=\n\s\n
+
+# text = Abraham Lincoln was president of the United States during the Civil War.
+# sent_id = 11
+1	Abraham	Abraham	PROPN	NNP	Number=Sing	4	nsubj	_	start_char=1077|end_char=1084
+2	Lincoln	Lincoln	PROPN	NNP	Number=Sing	1	flat	_	start_char=1085|end_char=1092
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	start_char=1093|end_char=1096
+4	president	president	NOUN	NN	Number=Sing	0	root	_	start_char=1097|end_char=1106
+5	of	of	ADP	IN	_	8	case	_	start_char=1107|end_char=1109
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=1110|end_char=1113
+7	United	United	ADJ	NNP	Degree=Pos	8	amod	_	start_char=1114|end_char=1120
+8	States	State	PROPN	NNPS	Number=Plur	4	nmod	_	start_char=1121|end_char=1127
+9	during	during	ADP	IN	_	12	case	_	start_char=1128|end_char=1134
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=1135|end_char=1138
+11	Civil	Civil	ADJ	NNP	Degree=Pos	12	amod	_	start_char=1139|end_char=1144
+12	War	War	PROPN	NNP	Number=Sing	4	nmod	_	start_char=1145|end_char=1148|SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	start_char=1148|end_char=1149
+
+# text = The President of the Confederate States was Jefferson Davis.
+# sent_id = 12
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=1150|end_char=1153
+2	President	President	PROPN	NNP	Number=Sing	8	nsubj	_	start_char=1154|end_char=1163
+3	of	of	ADP	IN	_	6	case	_	start_char=1164|end_char=1166
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=1167|end_char=1170
+5	Confederate	confederate	ADJ	NNP	Degree=Pos	6	amod	_	start_char=1171|end_char=1182
+6	States	State	PROPN	NNPS	Number=Plur	2	nmod	_	start_char=1183|end_char=1189
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	start_char=1190|end_char=1193
+8	Jefferson	Jefferson	PROPN	NNP	Number=Sing	0	root	_	start_char=1194|end_char=1203
+9	Davis	Davis	PROPN	NNP	Number=Sing	8	flat	_	start_char=1204|end_char=1209|SpaceAfter=No
+10	.	.	PUNCT	.	_	8	punct	_	start_char=1209|end_char=1210
+
+# text = The first battle was the Battle of Fort Sumter.
+# sent_id = 13
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=1211|end_char=1214
+2	first	first	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	3	amod	_	start_char=1215|end_char=1220
+3	battle	battle	NOUN	NN	Number=Sing	6	nsubj	_	start_char=1221|end_char=1227
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	start_char=1228|end_char=1231
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=1232|end_char=1235
+6	Battle	battle	PROPN	NNP	Number=Sing	0	root	_	start_char=1236|end_char=1242
+7	of	of	ADP	IN	_	8	case	_	start_char=1243|end_char=1245
+8	Fort	Fort	PROPN	NNP	Number=Sing	6	nmod	_	start_char=1246|end_char=1250
+9	Sumter	Sumter	PROPN	NNP	Number=Sing	8	flat	_	start_char=1251|end_char=1257|SpaceAfter=No
+10	.	.	PUNCT	.	_	6	punct	_	start_char=1257|end_char=1258
+
+# text = During the war President Lincoln issued the Emancipation Proclamation, which declared the freedom of slaves in the Confederate States of America.
+# sent_id = 14
+1	During	during	ADP	IN	_	3	case	_	start_char=1259|end_char=1265
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=1266|end_char=1269
+3	war	war	NOUN	NN	Number=Sing	6	obl	_	start_char=1270|end_char=1273
+4	President	President	PROPN	NNP	Number=Sing	6	nsubj	_	start_char=1274|end_char=1283
+5	Lincoln	Lincoln	PROPN	NNP	Number=Sing	4	flat	_	start_char=1284|end_char=1291
+6	issued	issue	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=1292|end_char=1298
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=1299|end_char=1302
+8	Emancipation	Emancipation	PROPN	NNP	Number=Sing	9	compound	_	start_char=1303|end_char=1315
+9	Proclamation	Proclamation	PROPN	NNP	Number=Sing	6	obj	_	start_char=1316|end_char=1328|SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	start_char=1328|end_char=1329
+11	which	which	PRON	WDT	PronType=Rel	12	nsubj	_	start_char=1330|end_char=1335
+12	declared	declare	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	acl:relcl	_	start_char=1336|end_char=1344
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	start_char=1345|end_char=1348
+14	freedom	freedom	NOUN	NN	Number=Sing	12	obj	_	start_char=1349|end_char=1356
+15	of	of	ADP	IN	_	16	case	_	start_char=1357|end_char=1359
+16	slaves	slave	NOUN	NNS	Number=Plur	14	nmod	_	start_char=1360|end_char=1366
+17	in	in	ADP	IN	_	20	case	_	start_char=1367|end_char=1369
+18	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	start_char=1370|end_char=1373
+19	Confederate	confederate	ADJ	NNP	Degree=Pos	20	amod	_	start_char=1374|end_char=1385
+20	States	State	PROPN	NNPS	Number=Plur	12	obl	_	start_char=1386|end_char=1392
+21	of	of	ADP	IN	_	22	case	_	start_char=1393|end_char=1395
+22	America	America	PROPN	NNP	Number=Sing	20	nmod	_	start_char=1396|end_char=1403|SpaceAfter=No
+23	.	.	PUNCT	.	_	6	punct	_	start_char=1403|end_char=1404
+
+# text = This action was supposed to show that Lincoln was still in charge of the entire United States.
+# sent_id = 15
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	start_char=1405|end_char=1409
+2	action	action	NOUN	NN	Number=Sing	4	nsubj:pass	_	start_char=1410|end_char=1416
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	start_char=1417|end_char=1420
+4	supposed	suppose	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=1421|end_char=1429
+5	to	to	PART	TO	_	6	mark	_	start_char=1430|end_char=1432
+6	show	show	VERB	VB	VerbForm=Inf	4	xcomp	_	start_char=1433|end_char=1437
+7	that	that	SCONJ	IN	_	12	mark	_	start_char=1438|end_char=1442
+8	Lincoln	Lincoln	PROPN	NNP	Number=Sing	12	nsubj	_	start_char=1443|end_char=1450
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	start_char=1451|end_char=1454
+10	still	still	ADV	RB	_	12	advmod	_	start_char=1455|end_char=1460
+11	in	in	ADP	IN	_	12	case	_	start_char=1461|end_char=1463
+12	charge	charge	NOUN	NN	Number=Sing	6	ccomp	_	start_char=1464|end_char=1470
+13	of	of	ADP	IN	_	17	case	_	start_char=1471|end_char=1473
+14	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	start_char=1474|end_char=1477
+15	entire	entire	ADJ	JJ	Degree=Pos	17	amod	_	start_char=1478|end_char=1484
+16	United	Unite	VERB	NNP	Tense=Past|VerbForm=Part	17	amod	_	start_char=1485|end_char=1491
+17	States	State	PROPN	NNPS	Number=Plur	12	nmod	_	start_char=1492|end_char=1498|SpaceAfter=No
+18	.	.	PUNCT	.	_	4	punct	_	start_char=1498|end_char=1499|SpacesAfter=\n
+
+# text = The Civil War was the bloodiest war fought inside the United States.
+# sent_id = 16
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=1500|end_char=1503
+2	Civil	Civil	ADJ	NNP	Degree=Pos	3	amod	_	start_char=1504|end_char=1509
+3	War	War	PROPN	NNP	Number=Sing	7	nsubj	_	start_char=1510|end_char=1513
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	start_char=1514|end_char=1517
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=1518|end_char=1521
+6	bloodiest	bloody	ADJ	JJS	Degree=Sup	7	amod	_	start_char=1522|end_char=1531
+7	war	war	NOUN	NN	Number=Sing	0	root	_	start_char=1532|end_char=1535
+8	fought	fight	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	acl	_	start_char=1536|end_char=1542
+9	inside	inside	ADP	IN	_	12	case	_	start_char=1543|end_char=1549
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=1550|end_char=1553
+11	United	Unite	VERB	NNP	Tense=Past|VerbForm=Part	12	amod	_	start_char=1554|end_char=1560
+12	States	State	PROPN	NNPS	Number=Plur	8	obl	_	start_char=1561|end_char=1567|SpaceAfter=No
+13	.	.	PUNCT	.	_	7	punct	_	start_char=1567|end_char=1568
+
+# text = 620,000 were killed and millions more were injured.
+# sent_id = 17
+1	620,000	620000	NUM	CD	NumForm=Digit|NumType=Card	3	nsubj:pass	_	start_char=1569|end_char=1576
+2	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	start_char=1577|end_char=1581
+3	killed	kill	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=1582|end_char=1588
+4	and	and	CCONJ	CC	_	8	cc	_	start_char=1589|end_char=1592
+5	millions	million	NOUN	NNS	Number=Plur	6	compound	_	start_char=1593|end_char=1601
+6	more	more	ADJ	JJR	Degree=Cmp	8	nsubj:pass	_	start_char=1602|end_char=1606
+7	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	aux:pass	_	start_char=1607|end_char=1611
+8	injured	injure	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	conj	_	start_char=1612|end_char=1619|SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	start_char=1619|end_char=1620
+
+# text = One of the bloodiest battles of the Civil War was the Battle of Gettysburg in Pennsylvania.
+# sent_id = 18
+1	One	one	NUM	CD	NumForm=Word|NumType=Card	12	nsubj	_	start_char=1621|end_char=1624
+2	of	of	ADP	IN	_	5	case	_	start_char=1625|end_char=1627
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=1628|end_char=1631
+4	bloodiest	bloody	ADJ	JJS	Degree=Sup	5	amod	_	start_char=1632|end_char=1641
+5	battles	battle	NOUN	NNS	Number=Plur	1	nmod	_	start_char=1642|end_char=1649
+6	of	of	ADP	IN	_	9	case	_	start_char=1650|end_char=1652
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=1653|end_char=1656
+8	Civil	Civil	ADJ	NNP	Degree=Pos	9	amod	_	start_char=1657|end_char=1662
+9	War	War	PROPN	NNP	Number=Sing	5	nmod	_	start_char=1663|end_char=1666
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	start_char=1667|end_char=1670
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=1671|end_char=1674
+12	Battle	battle	PROPN	NNP	Number=Sing	0	root	_	start_char=1675|end_char=1681
+13	of	of	ADP	IN	_	14	case	_	start_char=1682|end_char=1684
+14	Gettysburg	Gettysburg	PROPN	NNP	Number=Sing	12	nmod	_	start_char=1685|end_char=1695
+15	in	in	ADP	IN	_	16	case	_	start_char=1696|end_char=1698
+16	Pennsylvania	Pennsylvania	PROPN	NNP	Number=Sing	12	nmod	_	start_char=1699|end_char=1711|SpaceAfter=No
+17	.	.	PUNCT	.	_	12	punct	_	start_char=1711|end_char=1712
+
+# text = 51,000 people from both sides died, more than in any other battle.
+# sent_id = 19
+1	51,000	51000	NUM	CD	NumForm=Digit|NumType=Card	2	nummod	_	start_char=1713|end_char=1719
+2	people	person	NOUN	NNS	Number=Plur	6	nsubj	_	start_char=1720|end_char=1726
+3	from	from	ADP	IN	_	5	case	_	start_char=1727|end_char=1731
+4	both	both	DET	DT	PronType=Tot	5	det	_	start_char=1732|end_char=1736
+5	sides	side	NOUN	NNS	Number=Plur	2	nmod	_	start_char=1737|end_char=1742
+6	died	die	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=1743|end_char=1747|SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	start_char=1747|end_char=1748
+8	more	more	ADJ	JJR	Degree=Cmp	6	advmod	_	start_char=1749|end_char=1753
+9	than	than	ADP	IN	_	13	case	_	start_char=1754|end_char=1758
+10	in	in	ADP	IN	_	13	case	_	start_char=1759|end_char=1761
+11	any	any	DET	DT	PronType=Ind	13	det	_	start_char=1762|end_char=1765
+12	other	other	ADJ	JJ	Degree=Pos	13	amod	_	start_char=1766|end_char=1771
+13	battle	battle	NOUN	NN	Number=Sing	6	obl	_	start_char=1772|end_char=1778|SpaceAfter=No
+14	.	.	PUNCT	.	_	6	punct	_	start_char=1778|end_char=1779
+
+# text = The Civil War ended in 1865 when General Robert E. Lee of the Confederate Army surrendered.
+# sent_id = 20
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=1780|end_char=1783
+2	Civil	Civil	ADJ	NNP	Degree=Pos	3	amod	_	start_char=1784|end_char=1789
+3	War	War	PROPN	NNP	Number=Sing	4	nsubj	_	start_char=1790|end_char=1793
+4	ended	end	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=1794|end_char=1799
+5	in	in	ADP	IN	_	6	case	_	start_char=1800|end_char=1802
+6	1865	1865	NUM	CD	NumForm=Digit|NumType=Card	4	obl	_	start_char=1803|end_char=1807
+7	when	when	ADV	WRB	PronType=Int	16	advmod	_	start_char=1808|end_char=1812
+8	General	General	PROPN	NNP	Number=Sing	16	nsubj	_	start_char=1813|end_char=1820
+9	Robert	Robert	PROPN	NNP	Number=Sing	8	flat	_	start_char=1821|end_char=1827
+10	E.	E.	PROPN	NNP	Number=Sing	8	flat	_	start_char=1828|end_char=1830
+11	Lee	Lee	PROPN	NNP	Number=Sing	8	flat	_	start_char=1831|end_char=1834
+12	of	of	ADP	IN	_	15	case	_	start_char=1835|end_char=1837
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	start_char=1838|end_char=1841
+14	Confederate	confederate	ADJ	NNP	Degree=Pos	15	amod	_	start_char=1842|end_char=1853
+15	Army	Army	PROPN	NNP	Number=Sing	8	nmod	_	start_char=1854|end_char=1858
+16	surrendered	surrender	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	advcl	_	start_char=1859|end_char=1870|SpaceAfter=No
+17	.	.	PUNCT	.	_	4	punct	_	start_char=1870|end_char=1871|SpaceAfter=No
+

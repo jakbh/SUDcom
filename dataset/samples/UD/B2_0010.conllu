@@ -1,0 +1,1304 @@
+# text = -LSB- Breaking news alert, 6:23 a.m. GMT -LRB- 01:23 a.m. ET -RRB- -RSB- Scotland will remain part of the United Kingdom -- along with England, Wales and Northern Ireland -- following a historic referendum vote.
+# sent_id = 0
+1	-	-	PUNCT	NFP	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No
+2	LSB	lsb	NOUN	NN	Number=Sing	0	root	_	start_char=1|end_char=4|SpaceAfter=No
+3	-	-	PUNCT	:	_	6	punct	_	start_char=4|end_char=5
+4	Breaking	break	NOUN	NN	Number=Sing	6	compound	_	start_char=6|end_char=14
+5	news	news	NOUN	NN	Number=Sing	6	compound	_	start_char=15|end_char=19
+6	alert	alert	NOUN	NN	Number=Sing	2	appos	_	start_char=20|end_char=25|SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	start_char=25|end_char=26
+8	6:23	6:23	NUM	CD	NumForm=Digit|NumType=Card	6	appos	_	start_char=27|end_char=31
+9	a.m.	a.m.	NOUN	NN	Abbr=Yes|Number=Sing	8	compound	_	start_char=32|end_char=36
+10	GMT	GMT	PROPN	NNP	Number=Sing	8	nmod:unmarked	_	start_char=37|end_char=40
+11	-	-	PUNCT	,	_	12	punct	_	start_char=41|end_char=42|SpaceAfter=No
+12	LRB	LRB	PROPN	NNP	Number=Sing	6	appos	_	start_char=42|end_char=45|SpaceAfter=No
+13	-	-	SYM	SYM	_	14	case	_	start_char=45|end_char=46
+14	01:23	01:23	NUM	CD	NumForm=Digit|NumType=Card	12	nmod	_	start_char=47|end_char=52
+15	a.m.	a.m.	NOUN	NN	Abbr=Yes|Number=Sing	16	compound	_	start_char=53|end_char=57
+16	ET	ET	PROPN	NNP	Number=Sing	12	nmod:unmarked	_	start_char=58|end_char=60
+17	-	-	PUNCT	,	_	18	punct	_	start_char=61|end_char=62|SpaceAfter=No
+18	RRB	rrb	NOUN	NN	Number=Sing	6	list	_	start_char=62|end_char=65|SpaceAfter=No
+19	-	-	PUNCT	,	_	21	punct	_	start_char=65|end_char=66
+20	-	-	PUNCT	NFP	_	21	punct	_	start_char=67|end_char=68|SpaceAfter=No
+21	RSB	RSB	PROPN	NNP	Number=Sing	6	appos	_	start_char=68|end_char=71|SpaceAfter=No
+22	-	-	PUNCT	,	_	25	punct	_	start_char=71|end_char=72|SpacesAfter=\n
+23	Scotland	Scotland	PROPN	NNP	Number=Sing	25	nsubj	_	start_char=73|end_char=81
+24	will	will	AUX	MD	VerbForm=Fin	25	aux	_	start_char=82|end_char=86
+25	remain	remain	VERB	VB	VerbForm=Inf	2	parataxis	_	start_char=87|end_char=93
+26	part	part	NOUN	NN	Number=Sing	25	xcomp	_	start_char=94|end_char=98
+27	of	of	ADP	IN	_	30	case	_	start_char=99|end_char=101
+28	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	start_char=102|end_char=105
+29	United	United	ADJ	NNP	Degree=Pos	30	amod	_	start_char=106|end_char=112
+30	Kingdom	Kingdom	PROPN	NNP	Number=Sing	26	nmod	_	start_char=113|end_char=120
+31	--	--	PUNCT	,	_	34	punct	_	start_char=121|end_char=123
+32	along	along	ADP	IN	_	34	case	_	start_char=124|end_char=129
+33	with	with	ADP	IN	_	34	case	_	start_char=130|end_char=134
+34	England	England	PROPN	NNP	Number=Sing	25	obl	_	start_char=135|end_char=142|SpaceAfter=No
+35	,	,	PUNCT	,	_	36	punct	_	start_char=142|end_char=143
+36	Wales	Wales	PROPN	NNP	Number=Sing	34	conj	_	start_char=144|end_char=149
+37	and	and	CCONJ	CC	_	39	cc	_	start_char=150|end_char=153
+38	Northern	Northern	ADJ	NNP	Degree=Pos	39	amod	_	start_char=154|end_char=162
+39	Ireland	Ireland	PROPN	NNP	Number=Sing	34	conj	_	start_char=163|end_char=170
+40	--	--	PUNCT	,	_	45	punct	_	start_char=171|end_char=173
+41	following	follow	VERB	VBG	Tense=Pres|VerbForm=Part	45	case	_	start_char=174|end_char=183
+42	a	a	DET	DT	Definite=Ind|PronType=Art	45	det	_	start_char=184|end_char=185
+43	historic	historic	ADJ	JJ	Degree=Pos	45	amod	_	start_char=186|end_char=194
+44	referendum	referendum	NOUN	NN	Number=Sing	45	compound	_	start_char=195|end_char=205
+45	vote	vote	NOUN	NN	Number=Sing	25	obl	_	start_char=206|end_char=210|SpaceAfter=No
+46	.	.	PUNCT	.	_	2	punct	_	start_char=210|end_char=211
+
+# text = A majority of voters rejected the possibility of Scotland breaking away and becoming an independent nation.
+# sent_id = 1
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	start_char=212|end_char=213
+2	majority	majority	NOUN	NN	Number=Sing	5	nsubj	_	start_char=214|end_char=222
+3	of	of	ADP	IN	_	4	case	_	start_char=223|end_char=225
+4	voters	voter	NOUN	NNS	Number=Plur	2	nmod	_	start_char=226|end_char=232
+5	rejected	reject	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=233|end_char=241
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=242|end_char=245
+7	possibility	possibility	NOUN	NN	Number=Sing	5	obj	_	start_char=246|end_char=257
+8	of	of	ADP	IN	_	9	case	_	start_char=258|end_char=260
+9	Scotland	Scotland	PROPN	NNP	Number=Sing	7	nmod	_	start_char=261|end_char=269
+10	breaking	break	VERB	VBG	VerbForm=Ger	7	acl	_	start_char=270|end_char=278
+11	away	away	ADV	RB	_	10	advmod	_	start_char=279|end_char=283
+12	and	and	CCONJ	CC	_	13	cc	_	start_char=284|end_char=287
+13	becoming	become	VERB	VBG	VerbForm=Ger	10	conj	_	start_char=288|end_char=296
+14	an	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	start_char=297|end_char=299
+15	independent	independent	ADJ	JJ	Degree=Pos	16	amod	_	start_char=300|end_char=311
+16	nation	nation	NOUN	NN	Number=Sing	13	xcomp	_	start_char=312|end_char=318|SpaceAfter=No
+17	.	.	PUNCT	.	_	5	punct	_	start_char=318|end_char=319|SpacesAfter=\n
+
+# text = With 31 of 32 councils declared, the No campaign has won the referendum on Scottish independence.
+# sent_id = 2
+1	With	with	ADP	IN	_	2	case	_	start_char=320|end_char=324
+2	31	31	NUM	CD	NumForm=Digit|NumType=Card	12	obl	_	start_char=325|end_char=327
+3	of	of	ADP	IN	_	5	case	_	start_char=328|end_char=330
+4	32	32	NUM	CD	NumForm=Digit|NumType=Card	5	nummod	_	start_char=331|end_char=333
+5	councils	council	NOUN	NNS	Number=Plur	2	nmod	_	start_char=334|end_char=342
+6	declared	declare	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	acl	_	start_char=343|end_char=351|SpaceAfter=No
+7	,	,	PUNCT	,	_	2	punct	_	start_char=351|end_char=352
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=353|end_char=356
+9	No	no	DET	DT	PronType=Neg	10	det	_	start_char=357|end_char=359
+10	campaign	campaign	NOUN	NN	Number=Sing	12	nsubj	_	start_char=360|end_char=368
+11	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=369|end_char=372
+12	won	win	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=373|end_char=376
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	start_char=377|end_char=380
+14	referendum	referendum	NOUN	NN	Number=Sing	12	obj	_	start_char=381|end_char=391
+15	on	on	ADP	IN	_	17	case	_	start_char=392|end_char=394
+16	Scottish	Scottish	ADJ	JJ	Degree=Pos	17	amod	_	start_char=395|end_char=403
+17	independence	independence	NOUN	NN	Number=Sing	14	nmod	_	start_char=404|end_char=416|SpaceAfter=No
+18	.	.	PUNCT	.	_	12	punct	_	start_char=416|end_char=417|SpacesAfter=\n
+
+# text = Scottish First Minister Alex Salmond admitted defeat in Scotland's independence referendum Friday -- and urged the rest of Scotland to do the same.
+# sent_id = 3
+1	Scottish	Scottish	ADJ	JJ	Degree=Pos	3	amod	_	start_char=418|end_char=426
+2	First	first	ADJ	NNP	Degree=Pos|NumForm=Word|NumType=Ord	3	amod	_	start_char=427|end_char=432
+3	Minister	Minister	PROPN	NNP	Number=Sing	6	nsubj	_	start_char=433|end_char=441
+4	Alex	Alex	PROPN	NNP	Number=Sing	3	flat	_	start_char=442|end_char=446
+5	Salmond	Salmond	PROPN	NNP	Number=Sing	3	flat	_	start_char=447|end_char=454
+6	admitted	admit	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=455|end_char=463
+7	defeat	defeat	NOUN	NN	Number=Sing	6	obj	_	start_char=464|end_char=470
+8	in	in	ADP	IN	_	12	case	_	start_char=471|end_char=473
+9-10	Scotland's	_	_	_	_	_	_	_	start_char=474|end_char=484
+9	Scotland	Scotland	PROPN	NNP	Number=Sing	12	nmod:poss	_	start_char=474|end_char=482
+10	's	's	PART	POS	_	9	case	_	start_char=482|end_char=484
+11	independence	independence	NOUN	NN	Number=Sing	12	compound	_	start_char=485|end_char=497
+12	referendum	referendum	NOUN	NN	Number=Sing	6	obl	_	start_char=498|end_char=508
+13	Friday	Friday	PROPN	NNP	Number=Sing	6	obl:unmarked	_	start_char=509|end_char=515
+14	--	--	PUNCT	,	_	16	punct	_	start_char=516|end_char=518
+15	and	and	CCONJ	CC	_	16	cc	_	start_char=519|end_char=522
+16	urged	urge	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	conj	_	start_char=523|end_char=528
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	start_char=529|end_char=532
+18	rest	rest	NOUN	NN	Number=Sing	16	obj	_	start_char=533|end_char=537
+19	of	of	ADP	IN	_	20	case	_	start_char=538|end_char=540
+20	Scotland	Scotland	PROPN	NNP	Number=Sing	18	nmod	_	start_char=541|end_char=549
+21	to	to	PART	TO	_	22	mark	_	start_char=550|end_char=552
+22	do	do	VERB	VB	VerbForm=Inf	16	xcomp	_	start_char=553|end_char=555
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	start_char=556|end_char=559
+24	same	same	ADJ	JJ	Degree=Pos	22	obj	_	start_char=560|end_char=564|SpaceAfter=No
+25	.	.	PUNCT	.	_	6	punct	_	start_char=564|end_char=565|SpacesAfter=\n
+
+# text = In a televised statement, he thanked Scotland for 1.6 million votes for Scottish independence.
+# sent_id = 4
+1	In	in	ADP	IN	_	4	case	_	start_char=566|end_char=568
+2	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	start_char=569|end_char=570
+3	televised	televise	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	start_char=571|end_char=580
+4	statement	statement	NOUN	NN	Number=Sing	7	obl	_	start_char=581|end_char=590|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	start_char=590|end_char=591
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=592|end_char=594
+7	thanked	thank	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=595|end_char=602
+8	Scotland	Scotland	PROPN	NNP	Number=Sing	7	obj	_	start_char=603|end_char=611
+9	for	for	ADP	IN	_	12	case	_	start_char=612|end_char=615
+10	1.6	1.6	NUM	CD	NumForm=Digit|NumType=Frac	11	compound	_	start_char=616|end_char=619
+11	million	million	NUM	CD	NumForm=Word|NumType=Card	12	nummod	_	start_char=620|end_char=627
+12	votes	vote	NOUN	NNS	Number=Plur	7	obl	_	start_char=628|end_char=633
+13	for	for	ADP	IN	_	15	case	_	start_char=634|end_char=637
+14	Scottish	Scottish	ADJ	JJ	Degree=Pos	15	amod	_	start_char=638|end_char=646
+15	independence	independence	NOUN	NN	Number=Sing	12	nmod	_	start_char=647|end_char=659|SpaceAfter=No
+16	.	.	PUNCT	.	_	7	punct	_	start_char=659|end_char=660
+
+# text = A turnout of 86 % is one of the highest in the democratic world for any such vote, he said.
+# sent_id = 5
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	start_char=661|end_char=662
+2	turnout	turnout	NOUN	NN	Number=Sing	7	nsubj	_	start_char=663|end_char=670
+3	of	of	ADP	IN	_	5	case	_	start_char=671|end_char=673
+4	86	86	NUM	CD	NumForm=Digit|NumType=Card	5	nummod	_	start_char=674|end_char=676
+5	%	%	SYM	NN	Number=Sing	2	nmod	_	start_char=677|end_char=678
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=679|end_char=681
+7	one	one	NUM	CD	NumForm=Word|NumType=Card	21	ccomp	_	start_char=682|end_char=685
+8	of	of	ADP	IN	_	10	case	_	start_char=686|end_char=688
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=689|end_char=692
+10	highest	high	ADJ	JJS	Degree=Sup	7	nmod	_	start_char=693|end_char=700
+11	in	in	ADP	IN	_	14	case	_	start_char=701|end_char=703
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	start_char=704|end_char=707
+13	democratic	democratic	ADJ	JJ	Degree=Pos	14	amod	_	start_char=708|end_char=718
+14	world	world	NOUN	NN	Number=Sing	10	obl	_	start_char=719|end_char=724
+15	for	for	ADP	IN	_	18	case	_	start_char=725|end_char=728
+16	any	any	DET	DT	PronType=Ind	18	det	_	start_char=729|end_char=732
+17	such	such	ADJ	JJ	Degree=Pos	18	amod	_	start_char=733|end_char=737
+18	vote	vote	NOUN	NN	Number=Sing	7	nmod	_	start_char=738|end_char=742|SpaceAfter=No
+19	,	,	PUNCT	,	_	7	punct	_	start_char=742|end_char=743
+20	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	start_char=744|end_char=746
+21	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=747|end_char=751|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	punct	_	start_char=751|end_char=752|SpacesAfter=\n
+
+# text = -LSB- Original story published at 12.37 p.m. ET -RSB- Voters in Scotland made their choice Thursday -- remain part of the United Kingdom, or form their own independent nation.
+# sent_id = 6
+1	-	-	PUNCT	NFP	_	2	punct	_	start_char=753|end_char=754|SpaceAfter=No
+2	LSB	lsb	NOUN	NN	Number=Sing	0	root	_	start_char=754|end_char=757|SpaceAfter=No
+3	-	-	PUNCT	:	_	5	punct	_	start_char=757|end_char=758
+4	Original	original	ADJ	JJ	Degree=Pos	5	amod	_	start_char=759|end_char=767
+5	story	story	NOUN	NN	Number=Sing	2	appos	_	start_char=768|end_char=773
+6	published	publish	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	acl	_	start_char=774|end_char=783
+7	at	at	ADP	IN	_	9	case	_	start_char=784|end_char=786
+8	12.37	12.37	NUM	CD	NumForm=Digit|NumType=Frac	9	nummod	_	start_char=787|end_char=792
+9	p.m.	p.m.	NOUN	NN	Number=Sing	6	obl	_	start_char=793|end_char=797
+10	ET	ET	PROPN	NNP	Number=Sing	9	nummod	_	start_char=798|end_char=800
+11	-	-	PUNCT	,	_	12	punct	_	start_char=801|end_char=802|SpaceAfter=No
+12	RSB	RSB	PROPN	NNP	Number=Sing	9	appos	_	start_char=802|end_char=805|SpaceAfter=No
+13	-	-	PUNCT	:	_	17	punct	_	start_char=805|end_char=806|SpacesAfter=\n
+14	Voters	voter	NOUN	NNS	Number=Plur	17	nsubj	_	start_char=807|end_char=813
+15	in	in	ADP	IN	_	16	case	_	start_char=814|end_char=816
+16	Scotland	Scotland	PROPN	NNP	Number=Sing	14	nmod	_	start_char=817|end_char=825
+17	made	make	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	parataxis	_	start_char=826|end_char=830
+18	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	start_char=831|end_char=836
+19	choice	choice	NOUN	NN	Number=Sing	17	obj	_	start_char=837|end_char=843
+20	Thursday	Thursday	PROPN	NNP	Number=Sing	17	obl:unmarked	_	start_char=844|end_char=852
+21	--	--	PUNCT	,	_	22	punct	_	start_char=853|end_char=855
+22	remain	remain	VERB	VB	VerbForm=Fin	17	parataxis	_	start_char=856|end_char=862
+23	part	part	NOUN	NN	Number=Sing	22	obj	_	start_char=863|end_char=867
+24	of	of	ADP	IN	_	27	case	_	start_char=868|end_char=870
+25	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	start_char=871|end_char=874
+26	United	Unite	VERB	NNP	Tense=Past|VerbForm=Part	27	amod	_	start_char=875|end_char=881
+27	Kingdom	Kingdom	PROPN	NNP	Number=Sing	23	nmod	_	start_char=882|end_char=889|SpaceAfter=No
+28	,	,	PUNCT	,	_	30	punct	_	start_char=889|end_char=890
+29	or	or	CCONJ	CC	_	30	cc	_	start_char=891|end_char=893
+30	form	form	VERB	VB	VerbForm=Inf	17	conj	_	start_char=894|end_char=898
+31	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	34	nmod:poss	_	start_char=899|end_char=904
+32	own	own	ADJ	JJ	Degree=Pos	34	amod	_	start_char=905|end_char=908
+33	independent	independent	ADJ	JJ	Degree=Pos	34	amod	_	start_char=909|end_char=920
+34	nation	nation	NOUN	NN	Number=Sing	30	obj	_	start_char=921|end_char=927|SpaceAfter=No
+35	.	.	PUNCT	.	_	2	punct	_	start_char=927|end_char=928
+
+# text = They chose to remain.
+# sent_id = 7
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=929|end_char=933
+2	chose	choose	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=934|end_char=939
+3	to	to	PART	TO	_	4	mark	_	start_char=940|end_char=942
+4	remain	remain	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=943|end_char=949|SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	start_char=949|end_char=950|SpacesAfter=\n
+
+# text = With 31 of 32 of councils reporting, the No campaign had garnered enough votes to secure their victory, and with it Scotland's continued place within the union.
+# sent_id = 8
+1	With	with	ADP	IN	_	2	case	_	start_char=951|end_char=955
+2	31	31	NUM	CD	NumForm=Digit|NumType=Card	13	obl	_	start_char=956|end_char=958
+3	of	of	ADP	IN	_	4	case	_	start_char=959|end_char=961
+4	32	32	NUM	CD	NumForm=Digit|NumType=Card	2	nmod	_	start_char=962|end_char=964
+5	of	of	ADP	IN	_	6	case	_	start_char=965|end_char=967
+6	councils	council	NOUN	NNS	Number=Plur	4	nmod	_	start_char=968|end_char=976
+7	reporting	report	VERB	VBG	VerbForm=Ger	2	acl	_	start_char=977|end_char=986|SpaceAfter=No
+8	,	,	PUNCT	,	_	2	punct	_	start_char=986|end_char=987
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=988|end_char=991
+10	No	no	DET	DT	PronType=Neg	11	det	_	start_char=992|end_char=994
+11	campaign	campaign	NOUN	NN	Number=Sing	13	nsubj	_	start_char=995|end_char=1003
+12	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux	_	start_char=1004|end_char=1007
+13	garnered	garner	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=1008|end_char=1016
+14	enough	enough	ADJ	JJ	Degree=Pos	15	amod	_	start_char=1017|end_char=1023
+15	votes	vote	NOUN	NNS	Number=Plur	13	obj	_	start_char=1024|end_char=1029
+16	to	to	PART	TO	_	17	mark	_	start_char=1030|end_char=1032
+17	secure	secure	VERB	VB	VerbForm=Inf	15	acl	_	start_char=1033|end_char=1039
+18	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	start_char=1040|end_char=1045
+19	victory	victory	NOUN	NN	Number=Sing	17	obj	_	start_char=1046|end_char=1053|SpaceAfter=No
+20	,	,	PUNCT	,	_	27	punct	_	start_char=1053|end_char=1054
+21	and	and	CCONJ	CC	_	27	cc	_	start_char=1055|end_char=1058
+22	with	with	ADP	IN	_	27	case	_	start_char=1059|end_char=1063
+23	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	27	nmod	_	start_char=1064|end_char=1066
+24-25	Scotland's	_	_	_	_	_	_	_	start_char=1067|end_char=1077
+24	Scotland	Scotland	PROPN	NNP	Number=Sing	27	nmod:poss	_	start_char=1067|end_char=1075
+25	's	's	PART	POS	_	24	case	_	start_char=1075|end_char=1077
+26	continued	continue	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	27	amod	_	start_char=1078|end_char=1087
+27	place	place	NOUN	NN	Number=Sing	15	conj	_	start_char=1088|end_char=1093
+28	within	within	ADP	IN	_	30	case	_	start_char=1094|end_char=1100
+29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	start_char=1101|end_char=1104
+30	union	union	NOUN	NN	Number=Sing	27	nmod	_	start_char=1105|end_char=1110|SpaceAfter=No
+31	.	.	PUNCT	.	_	13	punct	_	start_char=1110|end_char=1111|SpacesAfter=\n
+
+# text = The first councils to declare all went to the No campaign, as did the capital, Edinburgh, which voted overwhelmingly to stay in the union with 123,927 for Yes and 194,628 No votes.
+# sent_id = 9
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=1112|end_char=1115
+2	first	first	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	3	amod	_	start_char=1116|end_char=1121
+3	councils	council	NOUN	NNS	Number=Plur	7	nsubj	_	start_char=1122|end_char=1130
+4	to	to	PART	TO	_	5	mark	_	start_char=1131|end_char=1133
+5	declare	declare	VERB	VB	VerbForm=Inf	3	acl	_	start_char=1134|end_char=1141
+6	all	all	DET	DT	PronType=Tot	5	obj	_	start_char=1142|end_char=1145
+7	went	go	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=1146|end_char=1150
+8	to	to	ADP	IN	_	11	case	_	start_char=1151|end_char=1153
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=1154|end_char=1157
+10	No	no	DET	DT	PronType=Neg	11	det	_	start_char=1158|end_char=1160
+11	campaign	campaign	NOUN	NN	Number=Sing	7	obl	_	start_char=1161|end_char=1169|SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	start_char=1169|end_char=1170
+13	as	as	SCONJ	IN	_	14	mark	_	start_char=1171|end_char=1173
+14	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	advcl	_	start_char=1174|end_char=1177
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	start_char=1178|end_char=1181
+16	capital	capital	NOUN	NN	Number=Sing	14	obj	_	start_char=1182|end_char=1189|SpaceAfter=No
+17	,	,	PUNCT	,	_	18	punct	_	start_char=1189|end_char=1190
+18	Edinburgh	Edinburgh	PROPN	NNP	Number=Sing	16	appos	_	start_char=1191|end_char=1200|SpaceAfter=No
+19	,	,	PUNCT	,	_	21	punct	_	start_char=1200|end_char=1201
+20	which	which	PRON	WDT	PronType=Rel	21	nsubj	_	start_char=1202|end_char=1207
+21	voted	vote	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	acl:relcl	_	start_char=1208|end_char=1213
+22	overwhelmingly	overwhelmingly	ADV	RB	_	21	advmod	_	start_char=1214|end_char=1228
+23	to	to	PART	TO	_	24	mark	_	start_char=1229|end_char=1231
+24	stay	stay	VERB	VB	VerbForm=Inf	21	xcomp	_	start_char=1232|end_char=1236
+25	in	in	ADP	IN	_	27	case	_	start_char=1237|end_char=1239
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	start_char=1240|end_char=1243
+27	union	union	NOUN	NN	Number=Sing	24	obl	_	start_char=1244|end_char=1249
+28	with	with	ADP	IN	_	29	case	_	start_char=1250|end_char=1254
+29	123,927	123,927	NUM	CD	NumForm=Digit|NumType=Card	24	obl	_	start_char=1255|end_char=1262
+30	for	for	ADP	IN	_	35	case	_	start_char=1263|end_char=1266
+31	Yes	yes	INTJ	UH	Polarity=Pos	35	discourse	_	start_char=1267|end_char=1270
+32	and	and	CCONJ	CC	_	33	cc	_	start_char=1271|end_char=1274
+33	194,628	194,628	NUM	CD	NumForm=Digit|NumType=Card	31	conj	_	start_char=1275|end_char=1282
+34	No	no	DET	DT	PronType=Neg	35	det	_	start_char=1283|end_char=1285
+35	votes	vote	NOUN	NNS	Number=Plur	24	obl	_	start_char=1286|end_char=1291|SpaceAfter=No
+36	.	.	PUNCT	.	_	7	punct	_	start_char=1291|end_char=1292
+
+# text = Argyll and Bute and Aberdeenshire also voted No. Glasgow delivered a solid win for the independence camp with 194,779 votes for Yes, and 169,347 for No, but lead was not big enough to overturn the No camp's overall majority so far, which maintains a 8 % -LRB- 54 % to 46 % -RRB- lead over pro-independence camp.
+# sent_id = 10
+1	Argyll	Argyll	PROPN	NNP	Number=Sing	7	nsubj	_	start_char=1293|end_char=1299
+2	and	and	CCONJ	CC	_	3	cc	_	start_char=1300|end_char=1303
+3	Bute	Bute	PROPN	NNP	Number=Sing	1	conj	_	start_char=1304|end_char=1308
+4	and	and	CCONJ	CC	_	5	cc	_	start_char=1309|end_char=1312
+5	Aberdeenshire	Aberdeenshire	PROPN	NNP	Number=Sing	1	conj	_	start_char=1313|end_char=1326
+6	also	also	ADV	RB	_	7	advmod	_	start_char=1327|end_char=1331
+7	voted	vote	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=1332|end_char=1337
+8	No.	no.	NOUN	NN	Abbr=Yes|Number=Sing	10	nsubj	_	start_char=1338|end_char=1341|SpacesAfter=\s\n
+9	Glasgow	Glasgow	PROPN	NNP	Number=Sing	8	flat	_	start_char=1343|end_char=1350
+10	delivered	deliver	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	ccomp	_	start_char=1351|end_char=1360
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	start_char=1361|end_char=1362
+12	solid	solid	ADJ	JJ	Degree=Pos	13	amod	_	start_char=1363|end_char=1368
+13	win	win	NOUN	NN	Number=Sing	10	obj	_	start_char=1369|end_char=1372
+14	for	for	ADP	IN	_	17	case	_	start_char=1373|end_char=1376
+15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	start_char=1377|end_char=1380
+16	independence	independence	NOUN	NN	Number=Sing	17	compound	_	start_char=1381|end_char=1393
+17	camp	camp	NOUN	NN	Number=Sing	13	nmod	_	start_char=1394|end_char=1398
+18	with	with	ADP	IN	_	20	case	_	start_char=1399|end_char=1403
+19	194,779	194,779	NUM	CD	NumForm=Digit|NumType=Card	20	nummod	_	start_char=1404|end_char=1411
+20	votes	vote	NOUN	NNS	Number=Plur	10	obl	_	start_char=1412|end_char=1417
+21	for	for	ADP	IN	_	22	case	_	start_char=1418|end_char=1421
+22	Yes	yes	INTJ	UH	Polarity=Pos	20	nmod	_	start_char=1422|end_char=1425|SpaceAfter=No
+23	,	,	PUNCT	,	_	25	punct	_	start_char=1425|end_char=1426
+24	and	and	CCONJ	CC	_	25	cc	_	start_char=1427|end_char=1430
+25	169,347	169,347	NUM	CD	NumForm=Digit|NumType=Card	13	conj	_	start_char=1431|end_char=1438
+26	for	for	ADP	IN	_	27	case	_	start_char=1439|end_char=1442
+27	No	no	INTJ	UH	Polarity=Neg	25	nmod	_	start_char=1443|end_char=1445|SpaceAfter=No
+28	,	,	PUNCT	,	_	33	punct	_	start_char=1445|end_char=1446
+29	but	but	CCONJ	CC	_	33	cc	_	start_char=1447|end_char=1450
+30	lead	lead	NOUN	NN	Number=Sing	33	nsubj	_	start_char=1451|end_char=1455
+31	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	33	cop	_	start_char=1456|end_char=1459
+32	not	not	PART	RB	Polarity=Neg	33	advmod	_	start_char=1460|end_char=1463
+33	big	big	ADJ	JJ	Degree=Pos	7	conj	_	start_char=1464|end_char=1467
+34	enough	enough	ADV	RB	_	33	advmod	_	start_char=1468|end_char=1474
+35	to	to	PART	TO	_	36	mark	_	start_char=1475|end_char=1477
+36	overturn	overturn	VERB	VB	VerbForm=Inf	33	advcl	_	start_char=1478|end_char=1486
+37	the	the	DET	DT	Definite=Def|PronType=Art	39	det	_	start_char=1487|end_char=1490
+38	No	no	DET	DT	PronType=Neg	39	det	_	start_char=1491|end_char=1493
+39-40	camp's	_	_	_	_	_	_	_	start_char=1494|end_char=1500
+39	camp	camp	NOUN	NN	Number=Sing	42	nmod:poss	_	start_char=1494|end_char=1498
+40	's	's	PART	POS	_	39	case	_	start_char=1498|end_char=1500
+41	overall	overall	ADJ	JJ	Degree=Pos	42	amod	_	start_char=1501|end_char=1508
+42	majority	majority	NOUN	NN	Number=Sing	36	obj	_	start_char=1509|end_char=1517
+43	so	so	ADV	RB	_	44	advmod	_	start_char=1518|end_char=1520
+44	far	far	ADV	RB	Degree=Pos	36	advmod	_	start_char=1521|end_char=1524|SpaceAfter=No
+45	,	,	PUNCT	,	_	47	punct	_	start_char=1524|end_char=1525
+46	which	which	PRON	WDT	PronType=Rel	47	nsubj	_	start_char=1526|end_char=1531
+47	maintains	maintain	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	acl:relcl	_	start_char=1532|end_char=1541
+48	a	a	DET	DT	Definite=Ind|PronType=Art	52	det	_	start_char=1542|end_char=1543
+49	8	8	NUM	CD	NumForm=Digit|NumType=Card	50	nummod	_	start_char=1544|end_char=1545
+50	%	%	SYM	NN	Number=Sing	52	compound	_	start_char=1546|end_char=1547
+51	-	-	PUNCT	HYPH	_	50	punct	_	start_char=1548|end_char=1549|SpaceAfter=No
+52	LRB	LRB	PROPN	NNP	Number=Sing	47	obj	_	start_char=1549|end_char=1552|SpaceAfter=No
+53	-	-	PUNCT	HYPH	_	55	punct	_	start_char=1552|end_char=1553
+54	54	54	NUM	CD	NumForm=Digit|NumType=Card	55	nummod	_	start_char=1554|end_char=1556
+55	%	%	SYM	NN	Number=Sing	47	obj	_	start_char=1557|end_char=1558
+56	to	to	ADP	IN	_	65	case	_	start_char=1559|end_char=1561
+57	46	46	NUM	CD	NumForm=Digit|NumType=Card	58	nummod	_	start_char=1562|end_char=1564
+58	%	%	SYM	NN	Number=Sing	62	compound	_	start_char=1565|end_char=1566
+59	-	-	PUNCT	HYPH	_	58	punct	_	start_char=1567|end_char=1568|SpaceAfter=No
+60	RRB	RRB	PROPN	NNP	Number=Sing	62	compound	_	start_char=1568|end_char=1571|SpaceAfter=No
+61	-	-	PUNCT	HYPH	_	60	punct	_	start_char=1571|end_char=1572
+62	lead	lead	NOUN	NN	Number=Sing	65	compound	_	start_char=1573|end_char=1577
+63	over	over	ADP	IN	_	65	case	_	start_char=1578|end_char=1582
+64	pro-independence	pro-independence	ADJ	JJ	Degree=Pos	65	amod	_	start_char=1583|end_char=1599
+65	camp	camp	NOUN	NN	Number=Sing	47	obl	_	start_char=1600|end_char=1604|SpaceAfter=No
+66	.	.	PUNCT	.	_	7	punct	_	start_char=1604|end_char=1605|SpacesAfter=\n
+
+# text = The majority of the early results have been going the anti-independence camp's way.
+# sent_id = 11
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=1606|end_char=1609
+2	majority	majority	NOUN	NN	Number=Sing	9	nsubj	_	start_char=1610|end_char=1618
+3	of	of	ADP	IN	_	6	case	_	start_char=1619|end_char=1621
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=1622|end_char=1625
+5	early	early	ADJ	JJ	Degree=Pos	6	amod	_	start_char=1626|end_char=1631
+6	results	result	NOUN	NNS	Number=Plur	2	nmod	_	start_char=1632|end_char=1639
+7	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=1640|end_char=1644
+8	been	be	AUX	VBN	Tense=Past|VerbForm=Part	9	aux	_	start_char=1645|end_char=1649
+9	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=1650|end_char=1655
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=1656|end_char=1659
+11	anti-independence	anti-independence	ADJ	JJ	Degree=Pos	12	amod	_	start_char=1660|end_char=1677
+12-13	camp's	_	_	_	_	_	_	_	start_char=1678|end_char=1684
+12	camp	camp	NOUN	NN	Number=Sing	14	nmod:poss	_	start_char=1678|end_char=1682
+13	's	's	PART	POS	_	12	case	_	start_char=1682|end_char=1684
+14	way	way	NOUN	NN	Number=Sing	9	obj	_	start_char=1685|end_char=1688|SpaceAfter=No
+15	.	.	PUNCT	.	_	9	punct	_	start_char=1688|end_char=1689
+
+# text = The No campaign extended lead with Angus and East Dunbartonshire council results, alongside a landslide in Dumfries and Galloway.
+# sent_id = 12
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=1690|end_char=1693
+2	No	no	DET	DT	PronType=Neg	3	det	_	start_char=1694|end_char=1696
+3	campaign	campaign	NOUN	NN	Number=Sing	4	nsubj	_	start_char=1697|end_char=1705
+4	extended	extend	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=1706|end_char=1714
+5	lead	lead	NOUN	NN	Number=Sing	4	obj	_	start_char=1715|end_char=1719
+6	with	with	ADP	IN	_	12	case	_	start_char=1720|end_char=1724
+7	Angus	Angus	PROPN	NNP	Number=Sing	12	compound	_	start_char=1725|end_char=1730
+8	and	and	CCONJ	CC	_	12	cc	_	start_char=1731|end_char=1734
+9	East	East	PROPN	NNP	Number=Sing	10	compound	_	start_char=1735|end_char=1739
+10	Dunbartonshire	Dunbartonshire	PROPN	NNP	Number=Sing	11	compound	_	start_char=1740|end_char=1754
+11	council	council	NOUN	NN	Number=Sing	12	compound	_	start_char=1755|end_char=1762
+12	results	result	NOUN	NNS	Number=Plur	4	obl	_	start_char=1763|end_char=1770|SpaceAfter=No
+13	,	,	PUNCT	,	_	16	punct	_	start_char=1770|end_char=1771
+14	alongside	alongside	ADP	IN	_	16	case	_	start_char=1772|end_char=1781
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	start_char=1782|end_char=1783
+16	landslide	landslide	NOUN	NN	Number=Sing	4	obl	_	start_char=1784|end_char=1793
+17	in	in	ADP	IN	_	18	case	_	start_char=1794|end_char=1796
+18	Dumfries	Dumfries	PROPN	NNP	Number=Sing	16	nmod	_	start_char=1797|end_char=1805
+19	and	and	CCONJ	CC	_	20	cc	_	start_char=1806|end_char=1809
+20	Galloway	Galloway	PROPN	NNP	Number=Sing	18	conj	_	start_char=1810|end_char=1818|SpaceAfter=No
+21	.	.	PUNCT	.	_	4	punct	_	start_char=1818|end_char=1819
+
+# text = The oil-rich city of Aberdeen also strongly voted for the unionist camp.
+# sent_id = 13
+1	The	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=1820|end_char=1823
+2	oil	oil	NOUN	NN	Number=Sing	4	compound	_	start_char=1824|end_char=1827|SpaceAfter=No
+3	-	-	PUNCT	HYPH	_	2	punct	_	start_char=1827|end_char=1828|SpaceAfter=No
+4	rich	rich	ADJ	JJ	Degree=Pos	5	amod	_	start_char=1828|end_char=1832
+5	city	city	NOUN	NN	Number=Sing	10	nsubj	_	start_char=1833|end_char=1837
+6	of	of	ADP	IN	_	7	case	_	start_char=1838|end_char=1840
+7	Aberdeen	Aberdeen	PROPN	NNP	Number=Sing	5	nmod	_	start_char=1841|end_char=1849
+8	also	also	ADV	RB	_	10	advmod	_	start_char=1850|end_char=1854
+9	strongly	strongly	ADV	RB	_	10	advmod	_	start_char=1855|end_char=1863
+10	voted	vote	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=1864|end_char=1869
+11	for	for	ADP	IN	_	14	case	_	start_char=1870|end_char=1873
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	start_char=1874|end_char=1877
+13	unionist	unionist	ADJ	JJ	Degree=Pos	14	amod	_	start_char=1878|end_char=1886
+14	camp	camp	NOUN	NN	Number=Sing	10	obl	_	start_char=1887|end_char=1891|SpaceAfter=No
+15	.	.	PUNCT	.	_	10	punct	_	start_char=1891|end_char=1892|SpacesAfter=\n
+
+# text = The city of Dundee was the first big gain for the independence campaign, voting Yes with 53,620 votes for, 39,880 against.
+# sent_id = 14
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=1893|end_char=1896
+2	city	city	NOUN	NN	Number=Sing	9	nsubj	_	start_char=1897|end_char=1901
+3	of	of	ADP	IN	_	4	case	_	start_char=1902|end_char=1904
+4	Dundee	Dundee	PROPN	NNP	Number=Sing	2	nmod	_	start_char=1905|end_char=1911
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	start_char=1912|end_char=1915
+6	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=1916|end_char=1919
+7	first	first	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	9	amod	_	start_char=1920|end_char=1925
+8	big	big	ADJ	JJ	Degree=Pos	9	amod	_	start_char=1926|end_char=1929
+9	gain	gain	NOUN	NN	Number=Sing	0	root	_	start_char=1930|end_char=1934
+10	for	for	ADP	IN	_	13	case	_	start_char=1935|end_char=1938
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	start_char=1939|end_char=1942
+12	independence	independence	NOUN	NN	Number=Sing	13	compound	_	start_char=1943|end_char=1955
+13	campaign	campaign	NOUN	NN	Number=Sing	9	nmod	_	start_char=1956|end_char=1964|SpaceAfter=No
+14	,	,	PUNCT	,	_	15	punct	_	start_char=1964|end_char=1965
+15	voting	voting	VERB	VBG	Tense=Pres|VerbForm=Part	9	acl	_	start_char=1966|end_char=1972
+16	Yes	yes	INTJ	UH	Polarity=Pos	15	discourse	_	start_char=1973|end_char=1976
+17	with	with	ADP	IN	_	19	case	_	start_char=1977|end_char=1981
+18	53,620	53,620	NUM	CD	NumForm=Digit|NumType=Card	19	nummod	_	start_char=1982|end_char=1988
+19	votes	vote	NOUN	NNS	Number=Plur	15	obl	_	start_char=1989|end_char=1994
+20	for	for	ADP	IN	_	22	case	_	start_char=1995|end_char=1998|SpaceAfter=No
+21	,	,	PUNCT	,	_	20	punct	_	start_char=1998|end_char=1999
+22	39,880	39,880	NUM	CD	NumForm=Digit|NumType=Card	19	nmod	_	start_char=2000|end_char=2006
+23	against	against	ADP	IN	_	22	nmod	_	start_char=2007|end_char=2014|SpaceAfter=No
+24	.	.	PUNCT	.	_	9	punct	_	start_char=2014|end_char=2015|SpacesAfter=\n
+
+# text = The individual counts by local authorities are ultimately immaterial as it is the total number of votes countrywide that will determine the outcome.
+# sent_id = 15
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=2016|end_char=2019
+2	individual	individual	ADJ	JJ	Degree=Pos	3	amod	_	start_char=2020|end_char=2030
+3	counts	count	NOUN	NNS	Number=Plur	9	nsubj	_	start_char=2031|end_char=2037
+4	by	by	ADP	IN	_	6	case	_	start_char=2038|end_char=2040
+5	local	local	ADJ	JJ	Degree=Pos	6	amod	_	start_char=2041|end_char=2046
+6	authorities	authority	NOUN	NNS	Number=Plur	3	nmod	_	start_char=2047|end_char=2058
+7	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=2059|end_char=2062
+8	ultimately	ultimately	ADV	RB	_	9	advmod	_	start_char=2063|end_char=2073
+9	immaterial	immaterial	ADJ	JJ	Degree=Pos	0	root	_	start_char=2074|end_char=2084
+10	as	as	SCONJ	IN	_	15	mark	_	start_char=2085|end_char=2087
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	start_char=2088|end_char=2090
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	start_char=2091|end_char=2093
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	start_char=2094|end_char=2097
+14	total	total	ADJ	JJ	Degree=Pos	15	amod	_	start_char=2098|end_char=2103
+15	number	number	NOUN	NN	Number=Sing	9	advcl	_	start_char=2104|end_char=2110
+16	of	of	ADP	IN	_	17	case	_	start_char=2111|end_char=2113
+17	votes	vote	NOUN	NNS	Number=Plur	15	nmod	_	start_char=2114|end_char=2119
+18	countrywide	countrywide	ADV	RB	_	17	advmod	_	start_char=2120|end_char=2131
+19	that	that	PRON	WDT	PronType=Rel	21	nsubj	_	start_char=2132|end_char=2136
+20	will	will	AUX	MD	VerbForm=Fin	21	aux	_	start_char=2137|end_char=2141
+21	determine	determine	VERB	VB	VerbForm=Inf	17	acl:relcl	_	start_char=2142|end_char=2151
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	start_char=2152|end_char=2155
+23	outcome	outcome	NOUN	NN	Number=Sing	21	obj	_	start_char=2156|end_char=2163|SpaceAfter=No
+24	.	.	PUNCT	.	_	9	punct	_	start_char=2163|end_char=2164|SpacesAfter=\n
+
+# text = Polls at more than 5,500 stations across all districts, from the remote highlands and islands to the big cities of Edinburgh and Glasgow, closed at 10 p.m. local time -LRB- 5 p.m. ET -RRB-.
+# sent_id = 16
+1	Polls	poll	NOUN	NNS	Number=Plur	26	nsubj	_	start_char=2165|end_char=2170
+2	at	at	ADP	IN	_	6	case	_	start_char=2171|end_char=2173
+3	more	more	ADJ	JJR	Degree=Cmp|ExtPos=ADV	5	advmod	_	start_char=2174|end_char=2178
+4	than	than	ADP	IN	_	3	fixed	_	start_char=2179|end_char=2183
+5	5,500	5500	NUM	CD	NumForm=Digit|NumType=Card	6	nummod	_	start_char=2184|end_char=2189
+6	stations	station	NOUN	NNS	Number=Plur	1	nmod	_	start_char=2190|end_char=2198
+7	across	across	ADP	IN	_	9	case	_	start_char=2199|end_char=2205
+8	all	all	DET	DT	PronType=Tot	9	det	_	start_char=2206|end_char=2209
+9	districts	district	NOUN	NNS	Number=Plur	6	nmod	_	start_char=2210|end_char=2219|SpaceAfter=No
+10	,	,	PUNCT	,	_	14	punct	_	start_char=2219|end_char=2220
+11	from	from	ADP	IN	_	14	case	_	start_char=2221|end_char=2225
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	start_char=2226|end_char=2229
+13	remote	remote	ADJ	JJ	Degree=Pos	14	amod	_	start_char=2230|end_char=2236
+14	highlands	highland	NOUN	NNS	Number=Plur	6	nmod	_	start_char=2237|end_char=2246
+15	and	and	CCONJ	CC	_	16	cc	_	start_char=2247|end_char=2250
+16	islands	island	NOUN	NNS	Number=Plur	14	conj	_	start_char=2251|end_char=2258
+17	to	to	ADP	IN	_	20	case	_	start_char=2259|end_char=2261
+18	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	start_char=2262|end_char=2265
+19	big	big	ADJ	JJ	Degree=Pos	20	amod	_	start_char=2266|end_char=2269
+20	cities	city	NOUN	NNS	Number=Plur	14	nmod	_	start_char=2270|end_char=2276
+21	of	of	ADP	IN	_	22	case	_	start_char=2277|end_char=2279
+22	Edinburgh	Edinburgh	PROPN	NNP	Number=Sing	20	nmod	_	start_char=2280|end_char=2289
+23	and	and	CCONJ	CC	_	24	cc	_	start_char=2290|end_char=2293
+24	Glasgow	Glasgow	PROPN	NNP	Number=Sing	22	conj	_	start_char=2294|end_char=2301|SpaceAfter=No
+25	,	,	PUNCT	,	_	1	punct	_	start_char=2301|end_char=2302
+26	closed	close	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=2303|end_char=2309
+27	at	at	ADP	IN	_	29	case	_	start_char=2310|end_char=2312
+28	10	10	NUM	CD	NumForm=Digit|NumType=Card	29	nummod	_	start_char=2313|end_char=2315
+29	p.m.	p.m.	NOUN	NN	Number=Sing	26	obl	_	start_char=2316|end_char=2320
+30	local	local	ADJ	JJ	Degree=Pos	31	amod	_	start_char=2321|end_char=2326
+31	time	time	NOUN	NN	Number=Sing	26	obl:unmarked	_	start_char=2327|end_char=2331
+32	-	-	PUNCT	,	_	33	punct	_	start_char=2332|end_char=2333|SpaceAfter=No
+33	LRB	LRB	PROPN	NNP	Number=Sing	26	dep	_	start_char=2333|end_char=2336|SpaceAfter=No
+34	-	-	SYM	SYM	_	35	case	_	start_char=2336|end_char=2337
+35	5	5	NUM	CD	NumForm=Digit|NumType=Card	36	nummod	_	start_char=2338|end_char=2339
+36	p.m.	p.m.	NOUN	NN	Number=Sing	33	nmod	_	start_char=2340|end_char=2344
+37	ET	ET	PROPN	NNP	Number=Sing	36	compound	_	start_char=2345|end_char=2347
+38	-	-	PUNCT	HYPH	_	39	punct	_	start_char=2348|end_char=2349|SpaceAfter=No
+39	RRB	RRB	PROPN	NNP	Number=Sing	36	appos	_	start_char=2349|end_char=2352|SpaceAfter=No
+40	-	-	PUNCT	,	_	26	punct	_	start_char=2352|end_char=2353|SpaceAfter=No
+41	.	.	PUNCT	.	_	26	punct	_	start_char=2353|end_char=2354
+
+# text = People still in line to vote at that time were allowed to cast ballots.
+# sent_id = 17
+1	People	person	NOUN	NNS	Number=Plur	11	nsubj:pass	_	start_char=2355|end_char=2361
+2	still	still	ADV	RB	_	4	advmod	_	start_char=2362|end_char=2367
+3	in	in	ADP	IN	_	4	case	_	start_char=2368|end_char=2370
+4	line	line	NOUN	NN	Number=Sing	1	nmod	_	start_char=2371|end_char=2375
+5	to	to	PART	TO	_	6	mark	_	start_char=2376|end_char=2378
+6	vote	vote	VERB	VB	VerbForm=Inf	4	acl	_	start_char=2379|end_char=2383
+7	at	at	ADP	IN	_	9	case	_	start_char=2384|end_char=2386
+8	that	that	DET	DT	Number=Sing|PronType=Dem	9	det	_	start_char=2387|end_char=2391
+9	time	time	NOUN	NN	Number=Sing	6	obl	_	start_char=2392|end_char=2396
+10	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	aux:pass	_	start_char=2397|end_char=2401
+11	allowed	allow	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=2402|end_char=2409
+12	to	to	PART	TO	_	13	mark	_	start_char=2410|end_char=2412
+13	cast	cast	VERB	VB	VerbForm=Inf	11	xcomp	_	start_char=2413|end_char=2417
+14	ballots	ballot	NOUN	NNS	Number=Plur	13	obj	_	start_char=2418|end_char=2425|SpaceAfter=No
+15	.	.	PUNCT	.	_	11	punct	_	start_char=2425|end_char=2426|SpacesAfter=\n
+
+# text = High turnout
+# sent_id = 18
+1	High	high	ADJ	JJ	Degree=Pos	2	amod	_	start_char=2427|end_char=2431
+2	turnout	turnout	NOUN	NN	Number=Sing	0	root	_	start_char=2432|end_char=2439|SpacesAfter=\n
+
+# text = The first districts to report turnout reported high participation -- well over 80 % in most cases -- Mary Pitcaithly, chief counting officer, announced in Edinburgh.
+# sent_id = 19
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=2440|end_char=2443
+2	first	first	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	3	amod	_	start_char=2444|end_char=2449
+3	districts	district	NOUN	NNS	Number=Plur	7	nsubj	_	start_char=2450|end_char=2459
+4	to	to	PART	TO	_	5	mark	_	start_char=2460|end_char=2462
+5	report	report	VERB	VB	VerbForm=Inf	3	acl	_	start_char=2463|end_char=2469
+6	turnout	turnout	NOUN	NN	Number=Sing	5	obj	_	start_char=2470|end_char=2477
+7	reported	report	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=2478|end_char=2486
+8	high	high	ADJ	JJ	Degree=Pos	9	amod	_	start_char=2487|end_char=2491
+9	participation	participation	NOUN	NN	Number=Sing	7	obj	_	start_char=2492|end_char=2505
+10	--	--	PUNCT	,	_	14	punct	_	start_char=2506|end_char=2508
+11	well	well	ADV	RB	Degree=Pos	13	advmod	_	start_char=2509|end_char=2513
+12	over	over	ADV	RB	_	13	advmod	_	start_char=2514|end_char=2518
+13	80	80	NUM	CD	NumForm=Digit|NumType=Card	14	nummod	_	start_char=2519|end_char=2521
+14	%	%	SYM	NN	Number=Sing	9	appos	_	start_char=2522|end_char=2523
+15	in	in	ADP	IN	_	17	case	_	start_char=2524|end_char=2526
+16	most	most	ADJ	JJS	Degree=Sup	17	amod	_	start_char=2527|end_char=2531
+17	cases	case	NOUN	NNS	Number=Plur	14	nmod	_	start_char=2532|end_char=2537
+18	--	--	PUNCT	,	_	26	punct	_	start_char=2538|end_char=2540
+19	Mary	Mary	PROPN	NNP	Number=Sing	26	nsubj	_	start_char=2541|end_char=2545
+20	Pitcaithly	Pitcaithly	PROPN	NNP	Number=Sing	19	flat	_	start_char=2546|end_char=2556|SpaceAfter=No
+21	,	,	PUNCT	,	_	24	punct	_	start_char=2556|end_char=2557
+22	chief	chief	ADJ	JJ	Degree=Pos	24	amod	_	start_char=2558|end_char=2563
+23	counting	counting	NOUN	NN	Number=Sing	24	compound	_	start_char=2564|end_char=2572
+24	officer	officer	NOUN	NN	Number=Sing	19	appos	_	start_char=2573|end_char=2580|SpaceAfter=No
+25	,	,	PUNCT	,	_	19	punct	_	start_char=2580|end_char=2581
+26	announced	announce	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	parataxis	_	start_char=2582|end_char=2591
+27	in	in	ADP	IN	_	28	case	_	start_char=2592|end_char=2594
+28	Edinburgh	Edinburgh	PROPN	NNP	Number=Sing	26	obl	_	start_char=2595|end_char=2604|SpaceAfter=No
+29	.	.	PUNCT	.	_	7	punct	_	start_char=2604|end_char=2605|SpacesAfter=\n
+
+# text = Turnout in Glasgow, one of the Yes campaign's heartlands, was a relatively disappointing 75 %.
+# sent_id = 20
+1	Turnout	turnout	NOUN	NN	Number=Sing	18	nsubj	_	start_char=2606|end_char=2613
+2	in	in	ADP	IN	_	3	case	_	start_char=2614|end_char=2616
+3	Glasgow	Glasgow	PROPN	NNP	Number=Sing	1	nmod	_	start_char=2617|end_char=2624|SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	start_char=2624|end_char=2625
+5	one	one	NUM	CD	NumForm=Word|NumType=Card	1	appos	_	start_char=2626|end_char=2629
+6	of	of	ADP	IN	_	11	case	_	start_char=2630|end_char=2632
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=2633|end_char=2636
+8	Yes	yes	PROPN	NNP	Number=Sing	9	compound	_	start_char=2637|end_char=2640
+9-10	campaign's	_	_	_	_	_	_	_	start_char=2641|end_char=2651
+9	campaign	campaign	NOUN	NN	Number=Sing	11	nmod:poss	_	start_char=2641|end_char=2649
+10	's	's	PART	POS	_	9	case	_	start_char=2649|end_char=2651
+11	heartlands	heartland	NOUN	NNS	Number=Plur	5	nmod	_	start_char=2652|end_char=2662|SpaceAfter=No
+12	,	,	PUNCT	,	_	1	punct	_	start_char=2662|end_char=2663
+13	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	cop	_	start_char=2664|end_char=2667
+14	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	start_char=2668|end_char=2669
+15	relatively	relatively	ADV	RB	Degree=Pos	16	advmod	_	start_char=2670|end_char=2680
+16	disappointing	disappointing	ADJ	JJ	Degree=Pos	18	amod	_	start_char=2681|end_char=2694
+17	75	75	NUM	CD	NumForm=Digit|NumType=Card	18	nummod	_	start_char=2695|end_char=2697
+18	%.	%.	SYM	NN	Number=Sing	0	root	_	start_char=2698|end_char=2700|SpacesAfter=\n
+
+# text = More than 4.2 million people registered to vote on the question: Should Scotland be an independent country ?
+# sent_id = 21
+1	More	more	ADJ	JJR	Degree=Cmp|ExtPos=ADV	4	advmod	_	start_char=2701|end_char=2705
+2	than	than	ADP	IN	_	1	fixed	_	start_char=2706|end_char=2710
+3	4.2	4.2	NUM	CD	NumForm=Digit|NumType=Frac	4	compound	_	start_char=2711|end_char=2714
+4	million	million	NUM	CD	NumForm=Word|NumType=Card	5	nummod	_	start_char=2715|end_char=2722
+5	people	person	NOUN	NNS	Number=Plur	0	root	_	start_char=2723|end_char=2729
+6	registered	register	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	acl	_	start_char=2730|end_char=2740
+7	to	to	PART	TO	_	8	mark	_	start_char=2741|end_char=2743
+8	vote	vote	VERB	VB	VerbForm=Inf	6	xcomp	_	start_char=2744|end_char=2748
+9	on	on	ADP	IN	_	11	case	_	start_char=2749|end_char=2751
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=2752|end_char=2755
+11	question	question	NOUN	NN	Number=Sing	8	obl	_	start_char=2756|end_char=2764|SpaceAfter=No
+12	:	:	PUNCT	:	_	18	punct	_	start_char=2764|end_char=2765
+13	Should	should	AUX	MD	VerbForm=Fin	18	aux	_	start_char=2766|end_char=2772
+14	Scotland	Scotland	PROPN	NNP	Number=Sing	18	nsubj	_	start_char=2773|end_char=2781
+15	be	be	AUX	VB	VerbForm=Inf	18	cop	_	start_char=2782|end_char=2784
+16	an	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	start_char=2785|end_char=2787
+17	independent	independent	ADJ	JJ	Degree=Pos	18	amod	_	start_char=2788|end_char=2799
+18	country	country	NOUN	NN	Number=Sing	6	parataxis	_	start_char=2800|end_char=2807
+19	?	?	PUNCT	.	_	6	punct	_	start_char=2808|end_char=2809|SpacesAfter=\s\n
+
+# text = A vote for independence would mean Scotland, with its population of about 5.3 million, splits from the rest of the United Kingdom, made up of England, Wales and Northern Ireland, in addition to Scotland.
+# sent_id = 22
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	start_char=2811|end_char=2812
+2	vote	vote	NOUN	NN	Number=Sing	6	nsubj	_	start_char=2813|end_char=2817
+3	for	for	ADP	IN	_	4	case	_	start_char=2818|end_char=2821
+4	independence	independence	NOUN	NN	Number=Sing	2	nmod	_	start_char=2822|end_char=2834
+5	would	would	AUX	MD	VerbForm=Fin	6	aux	_	start_char=2835|end_char=2840
+6	mean	mean	VERB	VB	VerbForm=Inf	0	root	_	start_char=2841|end_char=2845
+7	Scotland	Scotland	PROPN	NNP	Number=Sing	17	nsubj	_	start_char=2846|end_char=2854|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	start_char=2854|end_char=2855
+9	with	with	ADP	IN	_	11	case	_	start_char=2856|end_char=2860
+10	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	start_char=2861|end_char=2864
+11	population	population	NOUN	NN	Number=Sing	17	obl	_	start_char=2865|end_char=2875
+12	of	of	ADP	IN	_	15	case	_	start_char=2876|end_char=2878
+13	about	about	ADV	RB	_	14	advmod	_	start_char=2879|end_char=2884
+14	5.3	5.3	NUM	CD	NumForm=Digit|NumType=Frac	15	compound	_	start_char=2885|end_char=2888
+15	million	million	NUM	CD	NumForm=Word|NumType=Card	11	nmod	_	start_char=2889|end_char=2896|SpaceAfter=No
+16	,	,	PUNCT	,	_	11	punct	_	start_char=2896|end_char=2897
+17	splits	split	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	start_char=2898|end_char=2904
+18	from	from	ADP	IN	_	20	case	_	start_char=2905|end_char=2909
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	start_char=2910|end_char=2913
+20	rest	rest	NOUN	NN	Number=Sing	17	obl	_	start_char=2914|end_char=2918
+21	of	of	ADP	IN	_	24	case	_	start_char=2919|end_char=2921
+22	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	start_char=2922|end_char=2925
+23	United	Unite	VERB	NNP	Tense=Past|VerbForm=Part	24	amod	_	start_char=2926|end_char=2932
+24	Kingdom	Kingdom	PROPN	NNP	Number=Sing	20	nmod	_	start_char=2933|end_char=2940|SpaceAfter=No
+25	,	,	PUNCT	,	_	26	punct	_	start_char=2940|end_char=2941
+26	made	make	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	24	acl	_	start_char=2942|end_char=2946
+27	up	up	ADP	RP	_	26	compound:prt	_	start_char=2947|end_char=2949
+28	of	of	ADP	IN	_	29	case	_	start_char=2950|end_char=2952
+29	England	England	PROPN	NNP	Number=Sing	26	obl	_	start_char=2953|end_char=2960|SpaceAfter=No
+30	,	,	PUNCT	,	_	31	punct	_	start_char=2960|end_char=2961
+31	Wales	Wales	PROPN	NNP	Number=Sing	29	conj	_	start_char=2962|end_char=2967
+32	and	and	CCONJ	CC	_	34	cc	_	start_char=2968|end_char=2971
+33	Northern	Northern	ADJ	NNP	Degree=Pos	34	amod	_	start_char=2972|end_char=2980
+34	Ireland	Ireland	PROPN	NNP	Number=Sing	29	conj	_	start_char=2981|end_char=2988|SpaceAfter=No
+35	,	,	PUNCT	,	_	37	punct	_	start_char=2988|end_char=2989
+36	in	in	ADP	IN	_	37	case	_	start_char=2990|end_char=2992
+37	addition	addition	NOUN	NN	Number=Sing	26	obl	_	start_char=2993|end_char=3001
+38	to	to	ADP	IN	_	39	case	_	start_char=3002|end_char=3004
+39	Scotland	Scotland	PROPN	NNP	Number=Sing	37	nmod	_	start_char=3005|end_char=3013|SpaceAfter=No
+40	.	.	PUNCT	.	_	6	punct	_	start_char=3013|end_char=3014|SpacesAfter=\n\s
+
+# text = The people of Scotland have engaged in this conversation, Phil MacHugh, a spokesman for the Yes camp, told CNN on Thursday night.
+# sent_id = 23
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=3016|end_char=3019
+2	people	person	NOUN	NNS	Number=Plur	6	nsubj	_	start_char=3020|end_char=3026
+3	of	of	ADP	IN	_	4	case	_	start_char=3027|end_char=3029
+4	Scotland	Scotland	PROPN	NNP	Number=Sing	2	nmod	_	start_char=3030|end_char=3038
+5	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=3039|end_char=3043
+6	engaged	engage	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=3044|end_char=3051
+7	in	in	ADP	IN	_	9	case	_	start_char=3052|end_char=3054
+8	this	this	DET	DT	Number=Sing|PronType=Dem	9	det	_	start_char=3055|end_char=3059
+9	conversation	conversation	NOUN	NN	Number=Sing	6	obl	_	start_char=3060|end_char=3072|SpaceAfter=No
+10	,	,	PUNCT	,	_	21	punct	_	start_char=3072|end_char=3073
+11	Phil	Phil	PROPN	NNP	Number=Sing	21	nsubj	_	start_char=3074|end_char=3078
+12	MacHugh	MacHugh	PROPN	NNP	Number=Sing	11	flat	_	start_char=3079|end_char=3086|SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	start_char=3086|end_char=3087
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	start_char=3088|end_char=3089
+15	spokesman	spokesman	NOUN	NN	Number=Sing	11	appos	_	start_char=3090|end_char=3099
+16	for	for	ADP	IN	_	19	case	_	start_char=3100|end_char=3103
+17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	start_char=3104|end_char=3107
+18	Yes	yes	PROPN	NNP	Number=Sing	19	compound	_	start_char=3108|end_char=3111
+19	camp	camp	NOUN	NN	Number=Sing	15	nmod	_	start_char=3112|end_char=3116|SpaceAfter=No
+20	,	,	PUNCT	,	_	11	punct	_	start_char=3116|end_char=3117
+21	told	tell	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	parataxis	_	start_char=3118|end_char=3122
+22	CNN	CNN	PROPN	NNP	Abbr=Yes|Number=Sing	21	iobj	_	start_char=3123|end_char=3126
+23	on	on	ADP	IN	_	25	case	_	start_char=3127|end_char=3129
+24	Thursday	Thursday	PROPN	NNP	Number=Sing	25	compound	_	start_char=3130|end_char=3138
+25	night	night	NOUN	NN	Number=Sing	21	obl	_	start_char=3139|end_char=3144|SpaceAfter=No
+26	.	.	PUNCT	.	_	6	punct	_	start_char=3144|end_char=3145
+
+# text = They have really gone out there, found out the information that they wanted to know, and made that choice today.
+# sent_id = 24
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	start_char=3146|end_char=3150
+2	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=3151|end_char=3155
+3	really	really	ADV	RB	_	4	advmod	_	start_char=3156|end_char=3162
+4	gone	go	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=3163|end_char=3167
+5	out	out	ADV	RB	_	6	advmod	_	start_char=3168|end_char=3171
+6	there	there	ADV	RB	PronType=Dem	4	advmod	_	start_char=3172|end_char=3177|SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	start_char=3177|end_char=3178
+8	found	find	VERB	VBN	Tense=Past|VerbForm=Part	4	conj	_	start_char=3179|end_char=3184
+9	out	out	ADP	RP	_	8	compound:prt	_	start_char=3185|end_char=3188
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=3189|end_char=3192
+11	information	information	NOUN	NN	Number=Sing	8	obj	_	start_char=3193|end_char=3204
+12	that	that	PRON	WDT	PronType=Rel	16	obj	_	start_char=3205|end_char=3209
+13	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	start_char=3210|end_char=3214
+14	wanted	want	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	acl:relcl	_	start_char=3215|end_char=3221
+15	to	to	PART	TO	_	16	mark	_	start_char=3222|end_char=3224
+16	know	know	VERB	VB	VerbForm=Inf	14	xcomp	_	start_char=3225|end_char=3229|SpaceAfter=No
+17	,	,	PUNCT	,	_	19	punct	_	start_char=3229|end_char=3230
+18	and	and	CCONJ	CC	_	19	cc	_	start_char=3231|end_char=3234
+19	made	make	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	start_char=3235|end_char=3239
+20	that	that	DET	DT	Number=Sing|PronType=Dem	21	det	_	start_char=3240|end_char=3244
+21	choice	choice	NOUN	NN	Number=Sing	19	obj	_	start_char=3245|end_char=3251
+22	today	today	NOUN	NN	Number=Sing	19	obl:unmarked	_	start_char=3252|end_char=3257|SpaceAfter=No
+23	.	.	PUNCT	.	_	4	punct	_	start_char=3257|end_char=3258|SpacesAfter=\s\n
+
+# text = Prime minister's address British Prime Minister David Cameron will make an address Friday morning.
+# sent_id = 25
+1	Prime	Prime	ADJ	JJ	Degree=Pos	2	amod	_	start_char=3260|end_char=3265
+2-3	minister's	_	_	_	_	_	_	_	start_char=3266|end_char=3276
+2	minister	minister	NOUN	NN	Number=Sing	4	nmod:poss	_	start_char=3266|end_char=3274
+3	's	's	PART	POS	_	2	case	_	start_char=3274|end_char=3276
+4	address	address	NOUN	NN	Number=Sing	11	nsubj	_	start_char=3277|end_char=3284|SpacesAfter=\n
+5	British	British	ADJ	JJ	Degree=Pos	7	amod	_	start_char=3285|end_char=3292
+6	Prime	Prime	ADJ	NNP	Degree=Pos	7	amod	_	start_char=3293|end_char=3298
+7	Minister	Minister	PROPN	NNP	Number=Sing	11	nsubj	_	start_char=3299|end_char=3307
+8	David	David	PROPN	NNP	Number=Sing	7	flat	_	start_char=3308|end_char=3313
+9	Cameron	Cameron	PROPN	NNP	Number=Sing	7	flat	_	start_char=3314|end_char=3321
+10	will	will	AUX	MD	VerbForm=Fin	11	aux	_	start_char=3322|end_char=3326
+11	make	make	VERB	VB	VerbForm=Inf	0	root	_	start_char=3327|end_char=3331
+12	an	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	start_char=3332|end_char=3334
+13	address	address	NOUN	NN	Number=Sing	11	obj	_	start_char=3335|end_char=3342
+14	Friday	Friday	PROPN	NNP	Number=Sing	15	compound	_	start_char=3343|end_char=3349
+15	morning	morning	NOUN	NN	Number=Sing	11	obl:unmarked	_	start_char=3350|end_char=3357|SpaceAfter=No
+16	.	.	PUNCT	.	_	11	punct	_	start_char=3357|end_char=3358
+
+# text = The content will depend on the outcome of the vote, but in the event that Scottish voters decide to stay in the union, Downing Street says he will refer to plans for further redistribution of powers from the central government to the Scottish Parliament, signed by Westminster leaders earlier this week.
+# sent_id = 26
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=3359|end_char=3362
+2	content	content	NOUN	NN	Number=Sing	4	nsubj	_	start_char=3363|end_char=3370
+3	will	will	AUX	MD	VerbForm=Fin	4	aux	_	start_char=3371|end_char=3375
+4	depend	depend	VERB	VB	VerbForm=Inf	0	root	_	start_char=3376|end_char=3382
+5	on	on	ADP	IN	_	7	case	_	start_char=3383|end_char=3385
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=3386|end_char=3389
+7	outcome	outcome	NOUN	NN	Number=Sing	4	obl	_	start_char=3390|end_char=3397
+8	of	of	ADP	IN	_	10	case	_	start_char=3398|end_char=3400
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=3401|end_char=3404
+10	vote	vote	NOUN	NN	Number=Sing	7	nmod	_	start_char=3405|end_char=3409|SpaceAfter=No
+11	,	,	PUNCT	,	_	12	punct	_	start_char=3409|end_char=3410
+12	but	but	CCONJ	CC	_	28	cc	_	start_char=3411|end_char=3414
+13	in	in	ADP	IN	_	15	case	_	start_char=3415|end_char=3417
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	start_char=3418|end_char=3421
+15	event	event	NOUN	NN	Number=Sing	28	obl	_	start_char=3422|end_char=3427
+16	that	that	SCONJ	IN	_	19	mark	_	start_char=3428|end_char=3432
+17	Scottish	Scottish	ADJ	JJ	Degree=Pos	18	amod	_	start_char=3433|end_char=3441
+18	voters	voter	NOUN	NNS	Number=Plur	19	nsubj	_	start_char=3442|end_char=3448
+19	decide	decide	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	acl	_	start_char=3449|end_char=3455
+20	to	to	PART	TO	_	21	mark	_	start_char=3456|end_char=3458
+21	stay	stay	VERB	VB	VerbForm=Inf	19	xcomp	_	start_char=3459|end_char=3463
+22	in	in	ADP	IN	_	24	case	_	start_char=3464|end_char=3466
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	start_char=3467|end_char=3470
+24	union	union	NOUN	NN	Number=Sing	21	obl	_	start_char=3471|end_char=3476|SpaceAfter=No
+25	,	,	PUNCT	,	_	15	punct	_	start_char=3476|end_char=3477
+26	Downing	Downing	PROPN	NNP	Number=Sing	27	compound	_	start_char=3478|end_char=3485
+27	Street	Street	PROPN	NNP	Number=Sing	28	nsubj	_	start_char=3486|end_char=3492
+28	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	start_char=3493|end_char=3497
+29	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	nsubj	_	start_char=3498|end_char=3500
+30	will	will	AUX	MD	VerbForm=Fin	31	aux	_	start_char=3501|end_char=3505
+31	refer	refer	VERB	VB	VerbForm=Inf	28	ccomp	_	start_char=3506|end_char=3511
+32	to	to	ADP	IN	_	33	case	_	start_char=3512|end_char=3514
+33	plans	plan	NOUN	NNS	Number=Plur	31	obl	_	start_char=3515|end_char=3520
+34	for	for	ADP	IN	_	36	case	_	start_char=3521|end_char=3524
+35	further	further	ADJ	JJR	Degree=Cmp	36	amod	_	start_char=3525|end_char=3532
+36	redistribution	redistribution	NOUN	NN	Number=Sing	33	nmod	_	start_char=3533|end_char=3547
+37	of	of	ADP	IN	_	38	case	_	start_char=3548|end_char=3550
+38	powers	power	NOUN	NNS	Number=Plur	36	nmod	_	start_char=3551|end_char=3557
+39	from	from	ADP	IN	_	42	case	_	start_char=3558|end_char=3562
+40	the	the	DET	DT	Definite=Def|PronType=Art	42	det	_	start_char=3563|end_char=3566
+41	central	central	ADJ	JJ	Degree=Pos	42	amod	_	start_char=3567|end_char=3574
+42	government	government	NOUN	NN	Number=Sing	36	nmod	_	start_char=3575|end_char=3585
+43	to	to	ADP	IN	_	46	case	_	start_char=3586|end_char=3588
+44	the	the	DET	DT	Definite=Def|PronType=Art	46	det	_	start_char=3589|end_char=3592
+45	Scottish	Scottish	ADJ	JJ	Degree=Pos	46	amod	_	start_char=3593|end_char=3601
+46	Parliament	Parliament	PROPN	NNP	Number=Sing	42	nmod	_	start_char=3602|end_char=3612|SpaceAfter=No
+47	,	,	PUNCT	,	_	48	punct	_	start_char=3612|end_char=3613
+48	signed	sign	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	36	acl	_	start_char=3614|end_char=3620
+49	by	by	ADP	IN	_	51	case	_	start_char=3621|end_char=3623
+50	Westminster	Westminster	PROPN	NNP	Number=Sing	51	compound	_	start_char=3624|end_char=3635
+51	leaders	leader	NOUN	NNS	Number=Plur	48	obl:agent	_	start_char=3636|end_char=3643
+52	earlier	early	ADV	RBR	Degree=Cmp	48	advmod	_	start_char=3644|end_char=3651
+53	this	this	DET	DT	Number=Sing|PronType=Dem	54	det	_	start_char=3652|end_char=3656
+54	week	week	NOUN	NN	Number=Sing	48	obl:unmarked	_	start_char=3657|end_char=3661|SpaceAfter=No
+55	.	.	PUNCT	.	_	4	punct	_	start_char=3661|end_char=3662|SpacesAfter=\n
+
+# text = The counting officer for Edinburgh, Sue Bruce, explained just after 10 p.m. that each ballot will be double-checked, to verify each voter's decision.
+# sent_id = 27
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=3663|end_char=3666
+2	counting	counting	NOUN	NN	Number=Sing	3	compound	_	start_char=3667|end_char=3675
+3	officer	officer	NOUN	NN	Number=Sing	10	nsubj	_	start_char=3676|end_char=3683
+4	for	for	ADP	IN	_	5	case	_	start_char=3684|end_char=3687
+5	Edinburgh	Edinburgh	PROPN	NNP	Number=Sing	3	nmod	_	start_char=3688|end_char=3697|SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	start_char=3697|end_char=3698
+7	Sue	Sue	PROPN	NNP	Number=Sing	5	appos	_	start_char=3699|end_char=3702
+8	Bruce	Bruce	PROPN	NNP	Number=Sing	7	flat	_	start_char=3703|end_char=3708|SpaceAfter=No
+9	,	,	PUNCT	,	_	3	punct	_	start_char=3708|end_char=3709
+10	explained	explain	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=3710|end_char=3719
+11	just	just	ADV	RB	_	14	advmod	_	start_char=3720|end_char=3724
+12	after	after	ADP	IN	_	14	case	_	start_char=3725|end_char=3730
+13	10	10	NUM	CD	NumForm=Digit|NumType=Card	14	nummod	_	start_char=3731|end_char=3733
+14	p.m.	p.m.	NOUN	NN	Number=Sing	10	obl	_	start_char=3734|end_char=3738
+15	that	that	SCONJ	IN	_	22	mark	_	start_char=3739|end_char=3743
+16	each	each	DET	DT	PronType=Tot	17	det	_	start_char=3744|end_char=3748
+17	ballot	ballot	NOUN	NN	Number=Sing	22	nsubj:pass	_	start_char=3749|end_char=3755
+18	will	will	AUX	MD	VerbForm=Fin	22	aux	_	start_char=3756|end_char=3760
+19	be	be	AUX	VB	VerbForm=Inf	22	aux:pass	_	start_char=3761|end_char=3763
+20	double	double	ADJ	JJ	Degree=Pos	22	advmod	_	start_char=3764|end_char=3770|SpaceAfter=No
+21	-	-	PUNCT	HYPH	_	20	punct	_	start_char=3770|end_char=3771|SpaceAfter=No
+22	checked	check	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	ccomp	_	start_char=3771|end_char=3778|SpaceAfter=No
+23	,	,	PUNCT	,	_	25	punct	_	start_char=3778|end_char=3779
+24	to	to	PART	TO	_	25	mark	_	start_char=3780|end_char=3782
+25	verify	verify	VERB	VB	VerbForm=Inf	22	advcl	_	start_char=3783|end_char=3789
+26	each	each	DET	DT	PronType=Tot	27	det	_	start_char=3790|end_char=3794
+27-28	voter's	_	_	_	_	_	_	_	start_char=3795|end_char=3802
+27	voter	voter	NOUN	NN	Number=Sing	29	nmod:poss	_	start_char=3795|end_char=3800
+28	's	's	PART	POS	_	27	case	_	start_char=3800|end_char=3802
+29	decision	decision	NOUN	NN	Number=Sing	25	obj	_	start_char=3803|end_char=3811|SpaceAfter=No
+30	.	.	PUNCT	.	_	10	punct	_	start_char=3811|end_char=3812|SpacesAfter=\n
+
+# text = Addressing dozens of election workers, Bruce added, I look forward to working with you during the course of the evening to deliver an accurate and transparent Edinburgh count in which you and the voters of Edinburgh can have full confidence.
+# sent_id = 28
+1	Addressing	address	VERB	VBG	Tense=Pres|VerbForm=Part	11	advcl	_	start_char=3813|end_char=3823
+2	dozens	dozen	NOUN	NNS	Number=Plur	1	obj	_	start_char=3824|end_char=3830
+3	of	of	ADP	IN	_	5	case	_	start_char=3831|end_char=3833
+4	election	election	NOUN	NN	Number=Sing	5	compound	_	start_char=3834|end_char=3842
+5	workers	worker	NOUN	NNS	Number=Plur	2	nmod	_	start_char=3843|end_char=3850|SpaceAfter=No
+6	,	,	PUNCT	,	_	1	punct	_	start_char=3850|end_char=3851
+7	Bruce	Bruce	PROPN	NNP	Number=Sing	8	nsubj	_	start_char=3852|end_char=3857
+8	added	add	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=3858|end_char=3863|SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	start_char=3863|end_char=3864
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	start_char=3865|end_char=3866
+11	look	look	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	ccomp	_	start_char=3867|end_char=3871
+12	forward	forward	ADV	RB	_	11	advmod	_	start_char=3872|end_char=3879
+13	to	to	SCONJ	IN	_	14	mark	_	start_char=3880|end_char=3882
+14	working	work	VERB	VBG	Tense=Pres|VerbForm=Part	11	advcl	_	start_char=3883|end_char=3890
+15	with	with	ADP	IN	_	16	case	_	start_char=3891|end_char=3895
+16	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	14	obl	_	start_char=3896|end_char=3899
+17	during	during	ADP	IN	_	19	case	_	start_char=3900|end_char=3906
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	start_char=3907|end_char=3910
+19	course	course	NOUN	NN	Number=Sing	14	obl	_	start_char=3911|end_char=3917
+20	of	of	ADP	IN	_	22	case	_	start_char=3918|end_char=3920
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	start_char=3921|end_char=3924
+22	evening	evening	NOUN	NN	Number=Sing	19	nmod	_	start_char=3925|end_char=3932
+23	to	to	PART	TO	_	24	mark	_	start_char=3933|end_char=3935
+24	deliver	deliver	VERB	VB	VerbForm=Inf	14	advcl	_	start_char=3936|end_char=3943
+25	an	a	DET	DT	Definite=Ind|PronType=Art	30	det	_	start_char=3944|end_char=3946
+26	accurate	accurate	ADJ	JJ	Degree=Pos	30	amod	_	start_char=3947|end_char=3955
+27	and	and	CCONJ	CC	_	28	cc	_	start_char=3956|end_char=3959
+28	transparent	transparent	ADJ	JJ	Degree=Pos	26	conj	_	start_char=3960|end_char=3971
+29	Edinburgh	Edinburgh	PROPN	NNP	Number=Sing	30	compound	_	start_char=3972|end_char=3981
+30	count	count	NOUN	NN	Number=Sing	24	obj	_	start_char=3982|end_char=3987
+31	in	in	ADP	IN	_	32	case	_	start_char=3988|end_char=3990
+32	which	which	PRON	WDT	PronType=Rel	40	obl	_	start_char=3991|end_char=3996
+33	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	40	nsubj	_	start_char=3997|end_char=4000
+34	and	and	CCONJ	CC	_	36	cc	_	start_char=4001|end_char=4004
+35	the	the	DET	DT	Definite=Def|PronType=Art	36	det	_	start_char=4005|end_char=4008
+36	voters	voter	NOUN	NNS	Number=Plur	33	conj	_	start_char=4009|end_char=4015
+37	of	of	ADP	IN	_	38	case	_	start_char=4016|end_char=4018
+38	Edinburgh	Edinburgh	PROPN	NNP	Number=Sing	36	nmod	_	start_char=4019|end_char=4028
+39	can	can	AUX	MD	VerbForm=Fin	40	aux	_	start_char=4029|end_char=4032
+40	have	have	VERB	VB	VerbForm=Inf	30	acl:relcl	_	start_char=4033|end_char=4037
+41	full	full	ADJ	JJ	Degree=Pos	42	amod	_	start_char=4038|end_char=4042
+42	confidence	confidence	NOUN	NN	Number=Sing	40	obj	_	start_char=4043|end_char=4053|SpaceAfter=No
+43	.	.	PUNCT	.	_	8	punct	_	start_char=4053|end_char=4054|SpacesAfter=\s\n
+
+# text = Voting was brisk at one polling station in Glasgow as the polls opened Thursday, with many people voting on the way to work or before taking their children to school.
+# sent_id = 29
+1	Voting	voting	NOUN	NN	Number=Sing	3	nsubj	_	start_char=4056|end_char=4062
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	start_char=4063|end_char=4066
+3	brisk	brisk	ADJ	JJ	Degree=Pos	0	root	_	start_char=4067|end_char=4072
+4	at	at	ADP	IN	_	7	case	_	start_char=4073|end_char=4075
+5	one	one	NUM	CD	NumForm=Word|NumType=Card	7	nummod	_	start_char=4076|end_char=4079
+6	polling	polling	NOUN	NN	Number=Sing	7	compound	_	start_char=4080|end_char=4087
+7	station	station	NOUN	NN	Number=Sing	3	obl	_	start_char=4088|end_char=4095
+8	in	in	ADP	IN	_	9	case	_	start_char=4096|end_char=4098
+9	Glasgow	Glasgow	PROPN	NNP	Number=Sing	3	obl	_	start_char=4099|end_char=4106
+10	as	as	SCONJ	IN	_	13	mark	_	start_char=4107|end_char=4109
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=4110|end_char=4113
+12	polls	poll	NOUN	NNS	Number=Plur	13	nsubj	_	start_char=4114|end_char=4119
+13	opened	open	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	advcl	_	start_char=4120|end_char=4126
+14	Thursday	Thursday	PROPN	NNP	Number=Sing	13	obl:unmarked	_	start_char=4127|end_char=4135|SpaceAfter=No
+15	,	,	PUNCT	,	_	19	punct	_	start_char=4135|end_char=4136
+16	with	with	SCONJ	IN	_	19	mark	_	start_char=4137|end_char=4141
+17	many	many	ADJ	JJ	Degree=Pos	18	amod	_	start_char=4142|end_char=4146
+18	people	person	NOUN	NNS	Number=Plur	19	nsubj	_	start_char=4147|end_char=4153
+19	voting	voting	VERB	VBG	VerbForm=Ger	13	advcl	_	start_char=4154|end_char=4160
+20	on	on	ADP	IN	_	22	case	_	start_char=4161|end_char=4163
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	start_char=4164|end_char=4167
+22	way	way	NOUN	NN	Number=Sing	19	obl	_	start_char=4168|end_char=4171
+23	to	to	ADP	IN	_	24	case	_	start_char=4172|end_char=4174
+24	work	work	NOUN	NN	Number=Sing	22	nmod	_	start_char=4175|end_char=4179
+25	or	or	CCONJ	CC	_	27	cc	_	start_char=4180|end_char=4182
+26	before	before	SCONJ	IN	_	27	mark	_	start_char=4183|end_char=4189
+27	taking	take	VERB	VBG	Tense=Pres|VerbForm=Part	19	conj	_	start_char=4190|end_char=4196
+28	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	_	start_char=4197|end_char=4202
+29	children	child	NOUN	NNS	Number=Plur	27	obj	_	start_char=4203|end_char=4211
+30	to	to	ADP	IN	_	31	case	_	start_char=4212|end_char=4214
+31	school	school	NOUN	NN	Number=Sing	27	obl	_	start_char=4215|end_char=4221|SpaceAfter=No
+32	.	.	PUNCT	.	_	3	punct	_	start_char=4221|end_char=4222|SpacesAfter=\n
+
+# text = Bad weather or the sheer volume of votes cast could slow down the counting process.
+# sent_id = 30
+1	Bad	bad	ADJ	JJ	Degree=Pos	2	amod	_	start_char=4223|end_char=4226
+2	weather	weather	NOUN	NN	Number=Sing	11	nsubj	_	start_char=4227|end_char=4234
+3	or	or	CCONJ	CC	_	6	cc	_	start_char=4235|end_char=4237
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=4238|end_char=4241
+5	sheer	sheer	ADJ	JJ	Degree=Pos	6	amod	_	start_char=4242|end_char=4247
+6	volume	volume	NOUN	NN	Number=Sing	2	conj	_	start_char=4248|end_char=4254
+7	of	of	ADP	IN	_	8	case	_	start_char=4255|end_char=4257
+8	votes	vote	NOUN	NNS	Number=Plur	6	nmod	_	start_char=4258|end_char=4263
+9	cast	cast	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	acl	_	start_char=4264|end_char=4268
+10	could	could	AUX	MD	VerbForm=Fin	11	aux	_	start_char=4269|end_char=4274
+11	slow	slow	VERB	VB	VerbForm=Inf	0	root	_	start_char=4275|end_char=4279
+12	down	down	ADP	RP	_	11	compound:prt	_	start_char=4280|end_char=4284
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	start_char=4285|end_char=4288
+14	counting	counting	NOUN	NN	Number=Sing	15	compound	_	start_char=4289|end_char=4297
+15	process	process	NOUN	NN	Number=Sing	11	obj	_	start_char=4298|end_char=4305|SpaceAfter=No
+16	.	.	PUNCT	.	_	11	punct	_	start_char=4305|end_char=4306
+
+# text = However, the weather forecast appears good so far -- important when some ballot boxes must be collected by helicopter, plane or boat from polling stations on distant islands.
+# sent_id = 31
+1	However	however	ADV	RB	_	6	advmod	_	start_char=4307|end_char=4314|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=4314|end_char=4315
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=4316|end_char=4319
+4	weather	weather	NOUN	NN	Number=Sing	5	compound	_	start_char=4320|end_char=4327
+5	forecast	forecast	NOUN	NN	Number=Sing	6	nsubj	_	start_char=4328|end_char=4336
+6	appears	appear	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4337|end_char=4344
+7	good	good	ADJ	JJ	Degree=Pos	6	xcomp	_	start_char=4345|end_char=4349
+8	so	so	ADV	RB	_	9	advmod	_	start_char=4350|end_char=4352
+9	far	far	ADV	RB	Degree=Pos	6	advmod	_	start_char=4353|end_char=4356
+10	--	--	PUNCT	,	_	11	punct	_	start_char=4357|end_char=4359
+11	important	important	ADJ	JJ	Degree=Pos	6	parataxis	_	start_char=4360|end_char=4369
+12	when	when	ADV	WRB	PronType=Int	18	advmod	_	start_char=4370|end_char=4374
+13	some	some	DET	DT	PronType=Ind	15	det	_	start_char=4375|end_char=4379
+14	ballot	ballot	NOUN	NN	Number=Sing	15	compound	_	start_char=4380|end_char=4386
+15	boxes	box	NOUN	NNS	Number=Plur	18	nsubj:pass	_	start_char=4387|end_char=4392
+16	must	must	AUX	MD	VerbForm=Fin	18	aux	_	start_char=4393|end_char=4397
+17	be	be	AUX	VB	VerbForm=Inf	18	aux:pass	_	start_char=4398|end_char=4400
+18	collected	collect	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	advcl	_	start_char=4401|end_char=4410
+19	by	by	ADP	IN	_	20	case	_	start_char=4411|end_char=4413
+20	helicopter	helicopter	NOUN	NN	Number=Sing	18	obl:agent	_	start_char=4414|end_char=4424|SpaceAfter=No
+21	,	,	PUNCT	,	_	22	punct	_	start_char=4424|end_char=4425
+22	plane	plane	NOUN	NN	Number=Sing	20	conj	_	start_char=4426|end_char=4431
+23	or	or	CCONJ	CC	_	24	cc	_	start_char=4432|end_char=4434
+24	boat	boat	NOUN	NN	Number=Sing	20	conj	_	start_char=4435|end_char=4439
+25	from	from	ADP	IN	_	27	case	_	start_char=4440|end_char=4444
+26	polling	polling	NOUN	NN	Number=Sing	27	compound	_	start_char=4445|end_char=4452
+27	stations	station	NOUN	NNS	Number=Plur	20	nmod	_	start_char=4453|end_char=4461
+28	on	on	ADP	IN	_	30	case	_	start_char=4462|end_char=4464
+29	distant	distant	ADJ	JJ	Degree=Pos	30	amod	_	start_char=4465|end_char=4472
+30	islands	island	NOUN	NNS	Number=Plur	27	nmod	_	start_char=4473|end_char=4480|SpaceAfter=No
+31	.	.	PUNCT	.	_	6	punct	_	start_char=4480|end_char=4481|SpacesAfter=\n
+
+# text = Allegations of voting fraud were reported by Glasgow City Council, with several instances of people turning up at voting booths in Scotland's largest city to vote, only to be told that they had already voted.
+# sent_id = 32
+1	Allegations	allegation	NOUN	NNS	Number=Plur	6	nsubj:pass	_	start_char=4482|end_char=4493
+2	of	of	ADP	IN	_	4	case	_	start_char=4494|end_char=4496
+3	voting	voting	NOUN	NN	Number=Sing	4	compound	_	start_char=4497|end_char=4503
+4	fraud	fraud	NOUN	NN	Number=Sing	1	nmod	_	start_char=4504|end_char=4509
+5	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	aux:pass	_	start_char=4510|end_char=4514
+6	reported	report	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=4515|end_char=4523
+7	by	by	ADP	IN	_	10	case	_	start_char=4524|end_char=4526
+8	Glasgow	Glasgow	PROPN	NNP	Number=Sing	10	compound	_	start_char=4527|end_char=4534
+9	City	City	PROPN	NNP	Number=Sing	10	compound	_	start_char=4535|end_char=4539
+10	Council	Council	PROPN	NNP	Number=Sing	6	obl:agent	_	start_char=4540|end_char=4547|SpaceAfter=No
+11	,	,	PUNCT	,	_	17	punct	_	start_char=4547|end_char=4548
+12	with	with	SCONJ	IN	_	17	mark	_	start_char=4549|end_char=4553
+13	several	several	ADJ	JJ	Degree=Pos	14	amod	_	start_char=4554|end_char=4561
+14	instances	instance	NOUN	NNS	Number=Plur	6	nsubj:pass	_	start_char=4562|end_char=4571
+15	of	of	ADP	IN	_	16	case	_	start_char=4572|end_char=4574
+16	people	person	NOUN	NNS	Number=Plur	14	nmod	_	start_char=4575|end_char=4581
+17	turning	turn	VERB	VBG	VerbForm=Ger	16	acl	_	start_char=4582|end_char=4589
+18	up	up	ADP	RP	_	17	compound:prt	_	start_char=4590|end_char=4592
+19	at	at	ADP	IN	_	21	case	_	start_char=4593|end_char=4595
+20	voting	voting	NOUN	NN	Number=Sing	21	compound	_	start_char=4596|end_char=4602
+21	booths	booth	NOUN	NNS	Number=Plur	17	obl	_	start_char=4603|end_char=4609
+22	in	in	ADP	IN	_	26	case	_	start_char=4610|end_char=4612
+23-24	Scotland's	_	_	_	_	_	_	_	start_char=4613|end_char=4623
+23	Scotland	Scotland	PROPN	NNP	Number=Sing	26	nmod:poss	_	start_char=4613|end_char=4621
+24	's	's	PART	POS	_	23	case	_	start_char=4621|end_char=4623
+25	largest	large	ADJ	JJS	Degree=Sup	26	amod	_	start_char=4624|end_char=4631
+26	city	city	NOUN	NN	Number=Sing	21	nmod	_	start_char=4632|end_char=4636
+27	to	to	PART	TO	_	28	mark	_	start_char=4637|end_char=4639
+28	vote	vote	VERB	VB	VerbForm=Inf	17	advcl	_	start_char=4640|end_char=4644|SpaceAfter=No
+29	,	,	PUNCT	,	_	33	punct	_	start_char=4644|end_char=4645
+30	only	only	ADV	RB	_	33	advmod	_	start_char=4646|end_char=4650
+31	to	to	PART	TO	_	33	mark	_	start_char=4651|end_char=4653
+32	be	be	AUX	VB	VerbForm=Inf	33	aux:pass	_	start_char=4654|end_char=4656
+33	told	tell	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	17	advcl	_	start_char=4657|end_char=4661
+34	that	that	SCONJ	IN	_	38	mark	_	start_char=4662|end_char=4666
+35	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	38	nsubj	_	start_char=4667|end_char=4671
+36	had	have	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	38	aux	_	start_char=4672|end_char=4675
+37	already	already	ADV	RB	_	38	advmod	_	start_char=4676|end_char=4683
+38	voted	vote	VERB	VBN	Tense=Past|VerbForm=Part	33	ccomp	_	start_char=4684|end_char=4689|SpaceAfter=No
+39	.	.	PUNCT	.	_	6	punct	_	start_char=4689|end_char=4690|SpacesAfter=\n
+
+# text = The Council stressed that there was never actually a situation of double voting and the affected ballots are now being searched for and taken away.
+# sent_id = 33
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=4691|end_char=4694
+2	Council	Council	PROPN	NNP	Number=Sing	3	nsubj	_	start_char=4695|end_char=4702
+3	stressed	stress	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=4703|end_char=4711
+4	that	that	SCONJ	IN	_	6	mark	_	start_char=4712|end_char=4716
+5	there	there	PRON	EX	_	6	expl	_	start_char=4717|end_char=4722
+6	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	ccomp	_	start_char=4723|end_char=4726
+7	never	never	ADV	RB	PronType=Neg	6	advmod	_	start_char=4727|end_char=4732
+8	actually	actually	ADV	RB	_	6	advmod	_	start_char=4733|end_char=4741
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	start_char=4742|end_char=4743
+10	situation	situation	NOUN	NN	Number=Sing	6	nsubj	_	start_char=4744|end_char=4753
+11	of	of	ADP	IN	_	13	case	_	start_char=4754|end_char=4756
+12	double	double	ADJ	JJ	Degree=Pos	13	amod	_	start_char=4757|end_char=4763
+13	voting	voting	NOUN	NN	Number=Sing	10	nmod	_	start_char=4764|end_char=4770
+14	and	and	CCONJ	CC	_	21	cc	_	start_char=4771|end_char=4774
+15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	start_char=4775|end_char=4778
+16	affected	affect	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	17	amod	_	start_char=4779|end_char=4787
+17	ballots	ballot	NOUN	NNS	Number=Plur	21	nsubj:pass	_	start_char=4788|end_char=4795
+18	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	start_char=4796|end_char=4799
+19	now	now	ADV	RB	PronType=Dem	21	advmod	_	start_char=4800|end_char=4803
+20	being	be	AUX	VBG	Tense=Pres|VerbForm=Part	21	aux:pass	_	start_char=4804|end_char=4809
+21	searched	search	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	conj	_	start_char=4810|end_char=4818
+22	for	for	ADP	IN	_	21	obl	_	start_char=4819|end_char=4822
+23	and	and	CCONJ	CC	_	24	cc	_	start_char=4823|end_char=4826
+24	taken	take	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	21	conj	_	start_char=4827|end_char=4832
+25	away	away	ADV	RB	_	24	advmod	_	start_char=4833|end_char=4837|SpaceAfter=No
+26	.	.	PUNCT	.	_	3	punct	_	start_char=4837|end_char=4838|SpacesAfter=\n
+
+# text = Scotland's First Minister Alex Salmond, who has led the pro-independence Yes Scotland campaign, cast his ballot Thursday morning in the village of Strichen, Aberdeenshire.
+# sent_id = 34
+1-2	Scotland's	_	_	_	_	_	_	_	start_char=4839|end_char=4849
+1	Scotland	Scotland	PROPN	NNP	Number=Sing	4	nmod:poss	_	start_char=4839|end_char=4847
+2	's	's	PART	POS	_	1	case	_	start_char=4847|end_char=4849
+3	First	first	ADJ	NNP	Degree=Pos|NumForm=Word|NumType=Ord	4	amod	_	start_char=4850|end_char=4855
+4	Minister	Minister	PROPN	NNP	Number=Sing	17	nsubj	_	start_char=4856|end_char=4864
+5	Alex	Alex	PROPN	NNP	Number=Sing	4	flat	_	start_char=4865|end_char=4869
+6	Salmond	Salmond	PROPN	NNP	Number=Sing	4	flat	_	start_char=4870|end_char=4877|SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	start_char=4877|end_char=4878
+8	who	who	PRON	WP	PronType=Rel	10	nsubj	_	start_char=4879|end_char=4882
+9	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=4883|end_char=4886
+10	led	lead	VERB	VBN	Tense=Past|VerbForm=Part	4	acl:relcl	_	start_char=4887|end_char=4890
+11	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	start_char=4891|end_char=4894
+12	pro-independence	pro-independence	ADJ	JJ	Degree=Pos	15	amod	_	start_char=4895|end_char=4911
+13	Yes	yes	NOUN	NN	Number=Sing	15	compound	_	start_char=4912|end_char=4915
+14	Scotland	Scotland	PROPN	NNP	Number=Sing	15	compound	_	start_char=4916|end_char=4924
+15	campaign	campaign	NOUN	NN	Number=Sing	10	obj	_	start_char=4925|end_char=4933|SpaceAfter=No
+16	,	,	PUNCT	,	_	4	punct	_	start_char=4933|end_char=4934
+17	cast	cast	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=4935|end_char=4939
+18	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	start_char=4940|end_char=4943
+19	ballot	ballot	NOUN	NN	Number=Sing	17	obj	_	start_char=4944|end_char=4950
+20	Thursday	Thursday	PROPN	NNP	Number=Sing	21	compound	_	start_char=4951|end_char=4959
+21	morning	morning	NOUN	NN	Number=Sing	17	obl:unmarked	_	start_char=4960|end_char=4967
+22	in	in	ADP	IN	_	24	case	_	start_char=4968|end_char=4970
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	start_char=4971|end_char=4974
+24	village	village	NOUN	NN	Number=Sing	17	obl	_	start_char=4975|end_char=4982
+25	of	of	ADP	IN	_	26	case	_	start_char=4983|end_char=4985
+26	Strichen	Strichen	PROPN	NNP	Number=Sing	24	nmod	_	start_char=4986|end_char=4994|SpaceAfter=No
+27	,	,	PUNCT	,	_	28	punct	_	start_char=4994|end_char=4995
+28	Aberdeenshire	Aberdeenshire	PROPN	NNP	Number=Sing	26	appos	_	start_char=4996|end_char=5009|SpaceAfter=No
+29	.	.	PUNCT	.	_	17	punct	_	start_char=5009|end_char=5010|SpacesAfter=\n
+
+# text = Labour lawmaker Alistair Darling, who has headed the pro-union Better Together campaign -- backed by the main parties in Westminster -- voted in Edinburgh, while former Prime Minister Gordon Brown, another pro-union campaigner, voted in the town of Kirkcaldy.
+# sent_id = 35
+1	Labour	Labour	PROPN	NNP	Number=Sing	2	compound	_	start_char=5011|end_char=5017
+2	lawmaker	lawmaker	NOUN	NN	Number=Sing	23	nsubj	_	start_char=5018|end_char=5026
+3	Alistair	Alistair	PROPN	NNP	Number=Sing	23	nsubj	_	start_char=5027|end_char=5035
+4	Darling	Darling	PROPN	NNP	Number=Sing	3	flat	_	start_char=5036|end_char=5043|SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	start_char=5043|end_char=5044
+6	who	who	PRON	WP	PronType=Rel	8	nsubj	_	start_char=5045|end_char=5048
+7	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=5049|end_char=5052
+8	headed	head	VERB	VBN	Tense=Past|VerbForm=Part	2	acl:relcl	_	start_char=5053|end_char=5059
+9	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	start_char=5060|end_char=5063
+10	pro-union	pro-union	ADJ	JJ	Degree=Pos	13	amod	_	start_char=5064|end_char=5073
+11	Better	good	ADJ	JJR	Degree=Cmp	13	amod	_	start_char=5074|end_char=5080
+12	Together	together	PROPN	NNP	Number=Sing	13	compound	_	start_char=5081|end_char=5089
+13	campaign	campaign	NOUN	NN	Number=Sing	8	obj	_	start_char=5090|end_char=5098
+14	--	--	PUNCT	,	_	15	punct	_	start_char=5099|end_char=5101
+15	backed	back	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	acl	_	start_char=5102|end_char=5108
+16	by	by	ADP	IN	_	19	case	_	start_char=5109|end_char=5111
+17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	start_char=5112|end_char=5115
+18	main	main	ADJ	JJ	Degree=Pos	19	amod	_	start_char=5116|end_char=5120
+19	parties	party	NOUN	NNS	Number=Plur	15	obl:agent	_	start_char=5121|end_char=5128
+20	in	in	ADP	IN	_	21	case	_	start_char=5129|end_char=5131
+21	Westminster	Westminster	PROPN	NNP	Number=Sing	19	nmod	_	start_char=5132|end_char=5143
+22	--	--	PUNCT	,	_	2	punct	_	start_char=5144|end_char=5146
+23	voted	vote	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=5147|end_char=5152
+24	in	in	ADP	IN	_	25	case	_	start_char=5153|end_char=5155
+25	Edinburgh	Edinburgh	PROPN	NNP	Number=Sing	23	obl	_	start_char=5156|end_char=5165|SpaceAfter=No
+26	,	,	PUNCT	,	_	38	punct	_	start_char=5165|end_char=5166
+27	while	while	SCONJ	IN	_	38	mark	_	start_char=5167|end_char=5172
+28	former	former	ADJ	JJ	Degree=Pos	30	amod	_	start_char=5173|end_char=5179
+29	Prime	Prime	ADJ	NNP	Degree=Pos	30	amod	_	start_char=5180|end_char=5185
+30	Minister	Minister	PROPN	NNP	Number=Sing	38	nsubj	_	start_char=5186|end_char=5194
+31	Gordon	Gordon	PROPN	NNP	Number=Sing	30	flat	_	start_char=5195|end_char=5201
+32	Brown	Brown	PROPN	NNP	Number=Sing	30	flat	_	start_char=5202|end_char=5207|SpaceAfter=No
+33	,	,	PUNCT	,	_	36	punct	_	start_char=5207|end_char=5208
+34	another	another	DET	DT	PronType=Ind	36	det	_	start_char=5209|end_char=5216
+35	pro-union	pro-union	ADJ	JJ	Degree=Pos	36	amod	_	start_char=5217|end_char=5226
+36	campaigner	campaigner	NOUN	NN	Number=Sing	30	appos	_	start_char=5227|end_char=5237|SpaceAfter=No
+37	,	,	PUNCT	,	_	30	punct	_	start_char=5237|end_char=5238
+38	voted	vote	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	advcl	_	start_char=5239|end_char=5244
+39	in	in	ADP	IN	_	41	case	_	start_char=5245|end_char=5247
+40	the	the	DET	DT	Definite=Def|PronType=Art	41	det	_	start_char=5248|end_char=5251
+41	town	town	NOUN	NN	Number=Sing	38	obl	_	start_char=5252|end_char=5256
+42	of	of	ADP	IN	_	43	case	_	start_char=5257|end_char=5259
+43	Kirkcaldy	Kirkcaldy	PROPN	NNP	Number=Sing	41	nmod	_	start_char=5260|end_char=5269|SpaceAfter=No
+44	.	.	PUNCT	.	_	23	punct	_	start_char=5269|end_char=5270|SpacesAfter=\n
+
+# text = For the first time, the vote was extended to 16 - and 17-year olds living in Scotland.
+# sent_id = 36
+1	For	for	ADP	IN	_	4	case	_	start_char=5271|end_char=5274
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=5275|end_char=5278
+3	first	first	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	4	amod	_	start_char=5279|end_char=5284
+4	time	time	NOUN	NN	Number=Sing	9	obl	_	start_char=5285|end_char=5289|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	start_char=5289|end_char=5290
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=5291|end_char=5294
+7	vote	vote	NOUN	NN	Number=Sing	9	nsubj:pass	_	start_char=5295|end_char=5299
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux:pass	_	start_char=5300|end_char=5303
+9	extended	extend	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=5304|end_char=5312
+10	to	to	ADP	IN	_	17	case	_	start_char=5313|end_char=5315
+11	16	16	NUM	CD	NumForm=Digit|NumType=Card	17	nummod	_	start_char=5316|end_char=5318
+12	-	-	PUNCT	HYPH	_	13	punct	_	start_char=5319|end_char=5320
+13	and	and	CCONJ	CC	_	17	cc	_	start_char=5321|end_char=5324
+14	17	17	NUM	CD	NumForm=Digit|NumType=Card	16	nummod	_	start_char=5325|end_char=5327|SpaceAfter=No
+15	-	-	PUNCT	HYPH	_	14	punct	_	start_char=5327|end_char=5328|SpaceAfter=No
+16	year	year	NOUN	NN	Number=Sing	17	compound	_	start_char=5328|end_char=5332
+17	olds	old	NOUN	NNS	Number=Plur	9	obl	_	start_char=5333|end_char=5337
+18	living	live	VERB	VBG	VerbForm=Ger	17	acl	_	start_char=5338|end_char=5344
+19	in	in	ADP	IN	_	20	case	_	start_char=5345|end_char=5347
+20	Scotland	Scotland	PROPN	NNP	Number=Sing	18	obl	_	start_char=5348|end_char=5356|SpaceAfter=No
+21	.	.	PUNCT	.	_	9	punct	_	start_char=5356|end_char=5357
+
+# text = Nearly 110,000 people younger than 18 have registered to vote.
+# sent_id = 37
+1	Nearly	nearly	ADV	RB	_	2	advmod	_	start_char=5358|end_char=5364
+2	110,000	110000	NUM	CD	NumForm=Digit|NumType=Card	3	nummod	_	start_char=5365|end_char=5372
+3	people	person	NOUN	NNS	Number=Plur	8	nsubj	_	start_char=5373|end_char=5379
+4	younger	young	ADJ	JJR	Degree=Cmp	3	amod	_	start_char=5380|end_char=5387
+5	than	than	ADP	IN	_	6	case	_	start_char=5388|end_char=5392
+6	18	18	NUM	CD	NumForm=Digit|NumType=Card	4	obl	_	start_char=5393|end_char=5395
+7	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=5396|end_char=5400
+8	registered	register	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=5401|end_char=5411
+9	to	to	PART	TO	_	10	mark	_	start_char=5412|end_char=5414
+10	vote	vote	VERB	VB	VerbForm=Inf	8	xcomp	_	start_char=5415|end_char=5419|SpaceAfter=No
+11	.	.	PUNCT	.	_	8	punct	_	start_char=5419|end_char=5420|SpacesAfter=\n
+
+# text = Voters in the referendum did not have to be British citizens; Commonwealth, Irish and EU citizens who live in Scotland and are registered to vote there can cast a ballot.
+# sent_id = 38
+1	Voters	voter	NOUN	NNS	Number=Plur	7	nsubj	_	start_char=5421|end_char=5427
+2	in	in	ADP	IN	_	4	case	_	start_char=5428|end_char=5430
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=5431|end_char=5434
+4	referendum	referendum	NOUN	NN	Number=Sing	1	nmod	_	start_char=5435|end_char=5445
+5	did	do	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	start_char=5446|end_char=5449
+6	not	not	PART	RB	Polarity=Neg	7	advmod	_	start_char=5450|end_char=5453
+7	have	have	VERB	VB	VerbForm=Inf	0	root	_	start_char=5454|end_char=5458
+8	to	to	PART	TO	_	11	mark	_	start_char=5459|end_char=5461
+9	be	be	AUX	VB	VerbForm=Inf	11	cop	_	start_char=5462|end_char=5464
+10	British	British	ADJ	JJ	Degree=Pos	11	amod	_	start_char=5465|end_char=5472
+11	citizens	citizen	NOUN	NNS	Number=Plur	7	xcomp	_	start_char=5473|end_char=5481|SpaceAfter=No
+12	;	;	PUNCT	:	_	30	punct	_	start_char=5481|end_char=5482
+13	Commonwealth	commonwealth	ADJ	JJ	Degree=Pos	18	amod	_	start_char=5483|end_char=5495|SpaceAfter=No
+14	,	,	PUNCT	,	_	15	punct	_	start_char=5495|end_char=5496
+15	Irish	Irish	ADJ	JJ	Degree=Pos	13	conj	_	start_char=5497|end_char=5502
+16	and	and	CCONJ	CC	_	17	cc	_	start_char=5503|end_char=5506
+17	EU	EU	PROPN	NNP	Number=Sing	13	conj	_	start_char=5507|end_char=5509
+18	citizens	citizen	NOUN	NNS	Number=Plur	30	nsubj	_	start_char=5510|end_char=5518
+19	who	who	PRON	WP	PronType=Rel	20	nsubj	_	start_char=5519|end_char=5522
+20	live	live	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	start_char=5523|end_char=5527
+21	in	in	ADP	IN	_	22	case	_	start_char=5528|end_char=5530
+22	Scotland	Scotland	PROPN	NNP	Number=Sing	20	obl	_	start_char=5531|end_char=5539
+23	and	and	CCONJ	CC	_	25	cc	_	start_char=5540|end_char=5543
+24	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	aux:pass	_	start_char=5544|end_char=5547
+25	registered	register	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	20	conj	_	start_char=5548|end_char=5558
+26	to	to	PART	TO	_	27	mark	_	start_char=5559|end_char=5561
+27	vote	vote	VERB	VB	VerbForm=Inf	25	xcomp	_	start_char=5562|end_char=5566
+28	there	there	ADV	RB	PronType=Dem	27	advmod	_	start_char=5567|end_char=5572
+29	can	can	AUX	MD	VerbForm=Fin	30	aux	_	start_char=5573|end_char=5576
+30	cast	cast	VERB	VB	VerbForm=Inf	7	conj	_	start_char=5577|end_char=5581
+31	a	a	DET	DT	Definite=Ind|PronType=Art	32	det	_	start_char=5582|end_char=5583
+32	ballot	ballot	NOUN	NN	Number=Sing	30	obj	_	start_char=5584|end_char=5590|SpaceAfter=No
+33	.	.	PUNCT	.	_	7	punct	_	start_char=5590|end_char=5591
+
+# text = However, Scots living outside Scotland do not have a say.
+# sent_id = 39
+1	However	however	ADV	RB	_	9	advmod	_	start_char=5592|end_char=5599|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=5599|end_char=5600
+3	Scots	Scot	PROPN	NNPS	Number=Plur	9	nsubj	_	start_char=5601|end_char=5606
+4	living	live	VERB	VBG	VerbForm=Ger	3	acl	_	start_char=5607|end_char=5613
+5	outside	outside	ADP	IN	_	6	case	_	start_char=5614|end_char=5621
+6	Scotland	Scotland	PROPN	NNP	Number=Sing	4	obl	_	start_char=5622|end_char=5630
+7	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=5631|end_char=5633
+8	not	not	PART	RB	Polarity=Neg	9	advmod	_	start_char=5634|end_char=5637
+9	have	have	VERB	VB	VerbForm=Inf	0	root	_	start_char=5638|end_char=5642
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	start_char=5643|end_char=5644
+11	say	say	NOUN	NN	Number=Sing	9	obj	_	start_char=5645|end_char=5648|SpaceAfter=No
+12	.	.	PUNCT	.	_	9	punct	_	start_char=5648|end_char=5649|SpacesAfter=\n
+
+# text = Nearly 790,000 people applied for a postal vote -- the largest volume of registration for postal votes ever in Scotland.
+# sent_id = 40
+1	Nearly	nearly	ADV	RB	_	2	advmod	_	start_char=5650|end_char=5656
+2	790,000	790000	NUM	CD	NumForm=Digit|NumType=Card	3	nummod	_	start_char=5657|end_char=5664
+3	people	person	NOUN	NNS	Number=Plur	4	nsubj	_	start_char=5665|end_char=5671
+4	applied	apply	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=5672|end_char=5679
+5	for	for	ADP	IN	_	8	case	_	start_char=5680|end_char=5683
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=5684|end_char=5685
+7	postal	postal	ADJ	JJ	Degree=Pos	8	amod	_	start_char=5686|end_char=5692
+8	vote	vote	NOUN	NN	Number=Sing	4	obl	_	start_char=5693|end_char=5697
+9	--	--	PUNCT	,	_	12	punct	_	start_char=5698|end_char=5700
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=5701|end_char=5704
+11	largest	large	ADJ	JJS	Degree=Sup	12	amod	_	start_char=5705|end_char=5712
+12	volume	volume	NOUN	NN	Number=Sing	8	appos	_	start_char=5713|end_char=5719
+13	of	of	ADP	IN	_	14	case	_	start_char=5720|end_char=5722
+14	registration	registration	NOUN	NN	Number=Sing	12	nmod	_	start_char=5723|end_char=5735
+15	for	for	ADP	IN	_	17	case	_	start_char=5736|end_char=5739
+16	postal	postal	ADJ	JJ	Degree=Pos	17	amod	_	start_char=5740|end_char=5746
+17	votes	vote	NOUN	NNS	Number=Plur	14	nmod	_	start_char=5747|end_char=5752
+18	ever	ever	ADV	RB	PronType=Ind	20	advmod	_	start_char=5753|end_char=5757
+19	in	in	ADP	IN	_	20	case	_	start_char=5758|end_char=5760
+20	Scotland	Scotland	PROPN	NNP	Number=Sing	17	nmod	_	start_char=5761|end_char=5769|SpaceAfter=No
+21	.	.	PUNCT	.	_	4	punct	_	start_char=5769|end_char=5770|SpacesAfter=\n
+
+# text = After the polls closed, Salmond tweeted, This has been a remarkable day.
+# sent_id = 41
+1	After	after	SCONJ	IN	_	4	mark	_	start_char=5771|end_char=5776
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=5777|end_char=5780
+3	polls	poll	NOUN	NNS	Number=Plur	4	nsubj	_	start_char=5781|end_char=5786
+4	closed	close	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	advcl	_	start_char=5787|end_char=5793|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	start_char=5793|end_char=5794
+6	Salmond	Salmond	PROPN	NNP	Number=Sing	7	nsubj	_	start_char=5795|end_char=5802
+7	tweeted	tweet	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=5803|end_char=5810|SpaceAfter=No
+8	,	,	PUNCT	,	_	14	punct	_	start_char=5810|end_char=5811
+9	This	this	PRON	DT	Number=Sing|PronType=Dem	14	nsubj	_	start_char=5812|end_char=5816
+10	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=5817|end_char=5820
+11	been	be	AUX	VBN	Tense=Past|VerbForm=Part	14	cop	_	start_char=5821|end_char=5825
+12	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	start_char=5826|end_char=5827
+13	remarkable	remarkable	ADJ	JJ	Degree=Pos	14	amod	_	start_char=5828|end_char=5838
+14	day	day	NOUN	NN	Number=Sing	7	ccomp	_	start_char=5839|end_char=5842|SpaceAfter=No
+15	.	.	PUNCT	.	_	7	punct	_	start_char=5842|end_char=5843
+
+# text = Scotland's future truly is in Scotland's hands.
+# sent_id = 42
+1-2	Scotland's	_	_	_	_	_	_	_	start_char=5844|end_char=5854
+1	Scotland	Scotland	PROPN	NNP	Number=Sing	3	nmod:poss	_	start_char=5844|end_char=5852
+2	's	's	PART	POS	_	1	case	_	start_char=5852|end_char=5854
+3	future	future	NOUN	NN	Number=Sing	9	nsubj	_	start_char=5855|end_char=5861
+4	truly	truly	ADV	RB	_	9	advmod	_	start_char=5862|end_char=5867
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=5868|end_char=5870
+6	in	in	ADP	IN	_	9	case	_	start_char=5871|end_char=5873
+7-8	Scotland's	_	_	_	_	_	_	_	start_char=5874|end_char=5884
+7	Scotland	Scotland	PROPN	NNP	Number=Sing	9	nmod:poss	_	start_char=5874|end_char=5882
+8	's	's	PART	POS	_	7	case	_	start_char=5882|end_char=5884
+9	hands	hand	NOUN	NNS	Number=Plur	0	root	_	start_char=5885|end_char=5890|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	punct	_	start_char=5890|end_char=5891|SpacesAfter=\s\n
+
+# text = CNN's Nic Robertson reported from Glasgow, Laura Smith-Spark wrote and reported in London and Euan McKirdy wrote and reported in Hong Kong.
+# sent_id = 43
+1-2	CNN's	_	_	_	_	_	_	_	start_char=5893|end_char=5898
+1	CNN	CNN	PROPN	NNP	Abbr=Yes|Number=Sing	3	nmod:poss	_	start_char=5893|end_char=5896
+2	's	's	PART	POS	_	1	case	_	start_char=5896|end_char=5898
+3	Nic	Nic	PROPN	NNP	Number=Sing	5	nsubj	_	start_char=5899|end_char=5902
+4	Robertson	Robertson	PROPN	NNP	Number=Sing	3	flat	_	start_char=5903|end_char=5912
+5	reported	report	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=5913|end_char=5921
+6	from	from	ADP	IN	_	7	case	_	start_char=5922|end_char=5926
+7	Glasgow	Glasgow	PROPN	NNP	Number=Sing	5	obl	_	start_char=5927|end_char=5934|SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	_	start_char=5934|end_char=5935
+9	Laura	Laura	PROPN	NNP	Number=Sing	13	nsubj	_	start_char=5936|end_char=5941
+10	Smith	Smith	PROPN	NNP	Number=Sing	9	flat	_	start_char=5942|end_char=5947|SpaceAfter=No
+11	-	-	PUNCT	HYPH	_	12	punct	_	start_char=5947|end_char=5948|SpaceAfter=No
+12	Spark	Spark	PROPN	NNP	Number=Sing	9	flat	_	start_char=5948|end_char=5953
+13	wrote	write	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	parataxis	_	start_char=5954|end_char=5959
+14	and	and	CCONJ	CC	_	15	cc	_	start_char=5960|end_char=5963
+15	reported	report	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	conj	_	start_char=5964|end_char=5972
+16	in	in	ADP	IN	_	17	case	_	start_char=5973|end_char=5975
+17	London	London	PROPN	NNP	Number=Sing	15	obl	_	start_char=5976|end_char=5982
+18	and	and	CCONJ	CC	_	21	cc	_	start_char=5983|end_char=5986
+19	Euan	Euan	PROPN	NNP	Number=Sing	21	nsubj	_	start_char=5987|end_char=5991
+20	McKirdy	McKirdy	PROPN	NNP	Number=Sing	19	flat	_	start_char=5992|end_char=5999
+21	wrote	write	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	conj	_	start_char=6000|end_char=6005
+22	and	and	CCONJ	CC	_	23	cc	_	start_char=6006|end_char=6009
+23	reported	report	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	conj	_	start_char=6010|end_char=6018
+24	in	in	ADP	IN	_	26	case	_	start_char=6019|end_char=6021
+25	Hong	Hong	PROPN	NNP	Number=Sing	26	compound	_	start_char=6022|end_char=6026
+26	Kong	Kong	PROPN	NNP	Number=Sing	23	obl	_	start_char=6027|end_char=6031|SpaceAfter=No
+27	.	.	PUNCT	.	_	5	punct	_	start_char=6031|end_char=6032
+
+# text = CNN's Richard Allen Greene, Lindsay Isaac and Greg Botelho contributed to this report.
+# sent_id = 44
+1-2	CNN's	_	_	_	_	_	_	_	start_char=6033|end_char=6038
+1	CNN	CNN	PROPN	NNP	Abbr=Yes|Number=Sing	3	nmod:poss	_	start_char=6033|end_char=6036
+2	's	's	PART	POS	_	1	case	_	start_char=6036|end_char=6038
+3	Richard	Richard	PROPN	NNP	Number=Sing	12	nsubj	_	start_char=6039|end_char=6046
+4	Allen	Allen	PROPN	NNP	Number=Sing	3	flat	_	start_char=6047|end_char=6052
+5	Greene	Greene	PROPN	NNP	Number=Sing	3	flat	_	start_char=6053|end_char=6059|SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	start_char=6059|end_char=6060
+7	Lindsay	Lindsay	PROPN	NNP	Number=Sing	3	conj	_	start_char=6061|end_char=6068
+8	Isaac	Isaac	PROPN	NNP	Number=Sing	7	flat	_	start_char=6069|end_char=6074
+9	and	and	CCONJ	CC	_	10	cc	_	start_char=6075|end_char=6078
+10	Greg	Greg	PROPN	NNP	Number=Sing	3	conj	_	start_char=6079|end_char=6083
+11	Botelho	Botelho	PROPN	NNP	Number=Sing	10	flat	_	start_char=6084|end_char=6091
+12	contributed	contribute	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=6092|end_char=6103
+13	to	to	ADP	IN	_	15	case	_	start_char=6104|end_char=6106
+14	this	this	DET	DT	Number=Sing|PronType=Dem	15	det	_	start_char=6107|end_char=6111
+15	report	report	NOUN	NN	Number=Sing	12	obl	_	start_char=6112|end_char=6118|SpaceAfter=No
+16	.	.	PUNCT	.	_	12	punct	_	start_char=6118|end_char=6119|SpacesAfter=\n
+

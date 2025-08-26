@@ -1,0 +1,395 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# text = The Griffith Observatory is a planetarium, and an exhibit hall located in Los Angeles's Griffith Park.
+# sent_id = 0
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	end_char=3|start_char=0
+2	Griffith	Griffith	PROPN	NNP	Number=Sing	3	compound	_	end_char=12|start_char=4
+3	Observatory	Observatory	PROPN	NNP	Number=Sing	4	subj	_	end_char=24|start_char=13
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=27|start_char=25
+5	a	a	DET	DT	Definite=Ind|PronType=Art|Shared=No	6	det	_	end_char=29|start_char=28
+6	planetarium	planetarium	NOUN	NN	Number=Sing	4	comp:pred	_	end_char=41|SpaceAfter=No|start_char=30
+7	,	,	PUNCT	,	_	11	punct	_	end_char=42|start_char=41
+8	and	and	CCONJ	CC	_	11	cc	_	end_char=46|start_char=43
+9	an	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	end_char=49|start_char=47
+10	exhibit	exhibit	NOUN	NN	Number=Sing	11	compound	_	end_char=57|start_char=50
+11	hall	hall	NOUN	NN	Number=Sing	6	conj:coord	_	end_char=62|start_char=58
+12	located	locate	VERB	VBN	Shared=No|Tense=Past|VerbForm=Part|Voice=Pass	11	mod	_	end_char=70|start_char=63
+13	in	in	ADP	IN	_	12	udep	_	end_char=73|start_char=71
+14	Los	Los	PROPN	NNP	Number=Sing	16	comp:obj	_	end_char=77|start_char=74
+15-16	Angeles's	_	_	_	_	_	_	_	end_char=87|start_char=78
+15	Angeles	Angeles	PROPN	NNP	Number=Sing	14	flat	_	end_char=85|start_char=78
+16	's	's	PART	POS	_	18	udep@poss	_	end_char=87|start_char=85
+17	Griffith	Griffith	PROPN	NNP	Number=Sing	18	compound	_	end_char=96|start_char=88
+18	Park	Park	PROPN	NNP	Number=Sing	13	comp:obj	_	end_char=101|SpaceAfter=No|start_char=97
+19	.	.	PUNCT	.	_	4	punct	_	end_char=102|start_char=101
+
+# text = It features several astronomical displays and telescopes in the Hollywood Hills in the Los Feliz district of the city.
+# sent_id = 1
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=105|start_char=103
+2	features	feature	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=114|start_char=106
+3	several	several	ADJ	JJ	Degree=Pos	5	mod	_	end_char=122|start_char=115
+4	astronomical	astronomical	ADJ	JJ	Degree=Pos	5	mod	_	end_char=135|start_char=123
+5	displays	display	NOUN	NNS	Number=Plur	2	comp:obj	_	end_char=144|start_char=136
+6	and	and	CCONJ	CC	_	7	cc	_	end_char=148|start_char=145
+7	telescopes	telescope	NOUN	NNS	Number=Plur	5	conj:coord	_	end_char=159|start_char=149
+8	in	in	ADP	IN	_	2	udep	_	end_char=162|start_char=160
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	end_char=166|start_char=163
+10	Hollywood	Hollywood	PROPN	NNP	Number=Sing	11	compound	_	end_char=176|start_char=167
+11	Hills	Hills	PROPN	NNP	Number=Sing	8	comp:obj	_	end_char=182|start_char=177
+12	in	in	ADP	IN	_	2	udep	_	end_char=185|start_char=183
+13	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	end_char=189|start_char=186
+14	Los	Los	PROPN	NNP	Number=Sing	16	compound	_	end_char=193|start_char=190
+15	Feliz	Feliz	PROPN	NNP	Number=Sing	14	flat	_	end_char=199|start_char=194
+16	district	district	NOUN	NN	Number=Sing	12	comp:obj	_	end_char=208|start_char=200
+17	of	of	ADP	IN	_	16	udep	_	end_char=211|start_char=209
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	end_char=215|start_char=212
+19	city	city	NOUN	NN	Number=Sing	17	comp:obj	_	end_char=220|SpaceAfter=No|start_char=216
+20	.	.	PUNCT	.	_	2	punct	_	end_char=221|start_char=220
+
+# text = The Observatory was built on land donated by Griffith J. Griffith in 1896.
+# sent_id = 2
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	end_char=225|start_char=222
+2	Observatory	Observatory	PROPN	NNP	Number=Sing	3	subj@pass	_	end_char=237|start_char=226
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=241|start_char=238
+4	built	build	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	comp:aux@pass	_	end_char=247|start_char=242
+5	on	on	ADP	IN	_	4	udep	_	end_char=250|start_char=248
+6	land	land	NOUN	NN	Number=Sing	5	comp:obj	_	end_char=255|start_char=251
+7	donated	donate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	mod	_	end_char=263|start_char=256
+8	by	by	ADP	IN	_	7	comp:obl@agent	_	end_char=266|start_char=264
+9	Griffith	Griffith	PROPN	NNP	Number=Sing	8	comp:obj	_	end_char=275|start_char=267
+10	J.	J.	PROPN	NNP	Abbr=Yes|Number=Sing	9	flat	_	end_char=278|start_char=276
+11	Griffith	Griffith	PROPN	NNP	Number=Sing	10	flat	_	end_char=287|start_char=279
+12	in	in	ADP	IN	_	7	udep	_	end_char=290|start_char=288
+13	1896	1896	NUM	CD	NumForm=Digit|NumType=Card	12	comp:obj	_	end_char=295|SpaceAfter=No|start_char=291
+14	.	.	PUNCT	.	_	3	punct	_	end_char=296|start_char=295
+
+# text = Griffith was a Welsh-born philanthropist and mining tycoon, who wanted to give the public access to a state-of-the-art observatory, so it was free of charge to visitors.
+# sent_id = 3
+1	Griffith	Griffith	PROPN	NNP	Number=Sing	2	subj	_	end_char=305|start_char=297
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=309|start_char=306
+3	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	end_char=311|start_char=310
+4	Welsh	Welsh	ADJ	JJ	Degree=Pos	6	mod	_	end_char=317|SpaceAfter=No|start_char=312
+5	-	-	PUNCT	HYPH	_	4	punct	_	end_char=318|SpaceAfter=No|start_char=317
+6	born	bear	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	mod	_	end_char=322|start_char=318
+7	philanthropist	philanthropist	NOUN	NN	Number=Sing	10	compound	_	end_char=337|start_char=323
+8	and	and	CCONJ	CC	_	9	cc	_	end_char=341|start_char=338
+9	mining	mining	NOUN	NN	Number=Sing	7	conj:coord	_	end_char=348|start_char=342
+10	tycoon	tycoon	NOUN	NN	Number=Sing	2	comp:pred	_	end_char=355|SpaceAfter=No|start_char=349
+11	,	,	PUNCT	,	_	13	punct	_	end_char=356|start_char=355
+12	who	who	PRON	WP	PronType=Rel	13	subj	_	end_char=360|start_char=357
+13	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	mod@relcl	_	end_char=367|start_char=361
+14	to	to	PART	TO	_	13	comp:obl	_	end_char=370|start_char=368
+15	give	give	VERB	VB	VerbForm=Inf	14	comp:obj	_	end_char=375|start_char=371|Subject=SubjRaising
+16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	end_char=379|start_char=376
+17	public	public	ADJ	JJ	Degree=Pos	18	mod	_	end_char=386|start_char=380
+18	access	access	NOUN	NN	Number=Sing	15	comp:obj	_	end_char=393|start_char=387
+19	to	to	ADP	IN	_	18	udep	_	end_char=396|start_char=394
+20	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	end_char=398|start_char=397
+21	state	state	NOUN	NN	Number=Sing	28	compound	_	end_char=404|SpaceAfter=No|start_char=399
+22	-	-	PUNCT	HYPH	_	23	punct	_	end_char=405|SpaceAfter=No|start_char=404
+23	of	of	ADP	IN	_	21	udep	_	end_char=407|SpaceAfter=No|start_char=405
+24	-	-	PUNCT	HYPH	_	25	punct	_	end_char=408|SpaceAfter=No|start_char=407
+25	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	end_char=411|SpaceAfter=No|start_char=408
+26	-	-	PUNCT	HYPH	_	25	punct	_	end_char=412|SpaceAfter=No|start_char=411
+27	art	art	NOUN	NN	Number=Sing	23	comp:obj	_	end_char=415|start_char=412
+28	observatory	observatory	NOUN	NN	Number=Sing	19	comp:obj	_	end_char=427|SpaceAfter=No|start_char=416
+29	,	,	PUNCT	,	_	32	punct	_	end_char=428|start_char=427
+30	so	so	ADV	RB	_	32	mod	_	end_char=431|start_char=429
+31	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	32	subj	_	end_char=434|start_char=432
+32	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	parataxis	_	end_char=438|start_char=435
+33	free	free	ADJ	JJ	Degree=Pos	32	comp:pred	_	end_char=443|start_char=439
+34	of	of	ADP	IN	_	33	udep	_	end_char=446|start_char=444
+35	charge	charge	NOUN	NN	Number=Sing	34	comp:obj	_	end_char=453|start_char=447
+36	to	to	ADP	IN	_	33	udep	_	end_char=456|start_char=454
+37	visitors	visitor	NOUN	NNS	Number=Plur	36	comp:obj	_	end_char=465|SpaceAfter=No|start_char=457
+38	.	.	PUNCT	.	_	2	punct	_	end_char=466|start_char=465
+
+# text = He felt common people should be able to enjoy the wonders of the universe, and not be solely for the scientific community.
+# sent_id = 4
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=469|start_char=467
+2	felt	feel	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=474|start_char=470
+3	common	common	ADJ	JJ	Degree=Pos	4	mod	_	end_char=481|start_char=475
+4	people	person	NOUN	NNS	Number=Plur	5	subj	_	end_char=488|start_char=482
+5	should	should	AUX	MD	VerbForm=Fin	2	comp:obj	_	end_char=495|start_char=489
+6	be	be	AUX	VB	VerbForm=Inf	5	comp:aux	_	end_char=498|start_char=496
+7	able	able	ADJ	JJ	Degree=Pos	6	comp:pred	_	end_char=503|start_char=499
+8	to	to	PART	TO	_	7	comp:obl	_	end_char=506|start_char=504
+9	enjoy	enjoy	VERB	VB	VerbForm=Inf	8	comp:obj	_	end_char=512|start_char=507|Subject=SubjRaising
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	end_char=516|start_char=513
+11	wonders	wonder	NOUN	NNS	Number=Plur	9	comp:obj	_	end_char=524|start_char=517
+12	of	of	ADP	IN	_	11	udep	_	end_char=527|start_char=525
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	end_char=531|start_char=528
+14	universe	universe	NOUN	NN	Number=Sing	12	comp:obj	_	end_char=540|SpaceAfter=No|start_char=532
+15	,	,	PUNCT	,	_	19	punct	_	end_char=541|start_char=540
+16	and	and	CCONJ	CC	_	19	cc	_	end_char=545|start_char=542
+17	not	not	PART	RB	Polarity=Neg	19	mod	_	end_char=549|start_char=546
+18	be	be	AUX	VB	VerbForm=Inf	6	conj:coord	_	end_char=552|start_char=550
+19	solely	solely	ADV	RB	Shared=No	18	mod	_	end_char=559|start_char=553
+20	for	for	ADP	IN	Shared=No	18	comp:pred	_	end_char=563|start_char=560
+21	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	end_char=567|start_char=564
+22	scientific	scientific	ADJ	JJ	Degree=Pos	23	mod	_	end_char=578|start_char=568
+23	community	community	NOUN	NN	Number=Sing	20	comp:obj	_	end_char=588|SpaceAfter=No|start_char=579
+24	.	.	PUNCT	.	_	2	punct	_	end_char=589|SpacesAfter=\n|start_char=588
+
+# text = Griffith donated 3,015 acres of land specifically to house the observatory that opened on May 14, 1935.
+# sent_id = 5
+1	Griffith	Griffith	PROPN	NNP	Number=Sing	2	subj	_	end_char=598|start_char=590
+2	donated	donate	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=606|start_char=599
+3	3,015	3,015	NUM	CD	NumForm=Digit|NumType=Card	4	mod	_	end_char=612|start_char=607
+4	acres	acre	NOUN	NNS	Number=Plur	2	comp:obj	_	end_char=618|start_char=613
+5	of	of	ADP	IN	_	4	udep	_	end_char=621|start_char=619
+6	land	land	NOUN	NN	Number=Sing	5	comp:obj	_	end_char=626|start_char=622
+7	specifically	specifically	ADV	RB	_	2	mod	_	end_char=639|start_char=627
+8	to	to	PART	TO	_	2	mod	_	end_char=642|start_char=640
+9	house	house	VERB	VB	VerbForm=Inf	8	comp:obj	_	end_char=648|start_char=643
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	end_char=652|start_char=649
+11	observatory	observatory	NOUN	NN	Number=Sing	9	comp:obj	_	end_char=664|start_char=653
+12	that	that	PRON	WDT	PronType=Rel	13	subj	_	end_char=669|start_char=665
+13	opened	open	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	mod@relcl	_	end_char=676|start_char=670
+14	on	on	ADP	IN	_	13	udep	_	end_char=679|start_char=677
+15	May	May	PROPN	NNP	Number=Sing	16	compound	_	end_char=683|start_char=680
+16	14	14	NUM	CD	NumForm=Digit|NumType=Card	14	comp:obj	_	end_char=686|SpaceAfter=No|start_char=684
+17	,	,	PUNCT	,	_	18	punct	_	end_char=687|start_char=686
+18	1935	1935	NUM	CD	NumForm=Digit|NumType=Card	15	mod	_	end_char=692|SpaceAfter=No|start_char=688
+19	.	.	PUNCT	.	_	2	punct	_	end_char=693|start_char=692
+
+# text = During the first five days after the opening, the planetarium averaged more than 13,000 visitors a day.
+# sent_id = 6
+1	During	during	ADP	IN	_	12	udep	_	end_char=700|start_char=694
+2	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	end_char=704|start_char=701
+3	first	first	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	5	mod	_	end_char=710|start_char=705
+4	five	five	NUM	CD	NumForm=Word|NumType=Card	5	mod	_	end_char=715|start_char=711
+5	days	day	NOUN	NNS	Number=Plur	1	comp:obj	_	end_char=720|start_char=716
+6	after	after	ADP	IN	_	5	udep	_	end_char=726|start_char=721
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	end_char=730|start_char=727
+8	opening	opening	NOUN	NN	Number=Sing	6	comp:obj	_	end_char=738|SpaceAfter=No|start_char=731
+9	,	,	PUNCT	,	_	1	punct	_	end_char=739|start_char=738
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	end_char=743|start_char=740
+11	planetarium	planetarium	NOUN	NN	Number=Sing	12	subj	_	end_char=755|start_char=744
+12	averaged	average	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=764|start_char=756
+13	more	more	ADJ	JJR	Degree=Cmp|ExtPos=ADV	15	mod	_	end_char=769|Idiom=Yes|start_char=765
+14	than	than	ADP	IN	_	13	unk	_	end_char=774|InIdiom=Yes|start_char=770
+15	13,000	13000	NUM	CD	NumForm=Digit|NumType=Card	16	mod	_	end_char=781|start_char=775
+16	visitors	visitor	NOUN	NNS	Number=Plur	12	comp:obj	_	end_char=790|start_char=782
+17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	end_char=792|start_char=791
+18	day	day	NOUN	NN	Number=Sing	12	udep@unmarked	_	end_char=796|SpaceAfter=No|start_char=793
+19	.	.	PUNCT	.	_	12	punct	_	end_char=797|start_char=796
+
+# text = One of the major attractions was the Foucault Pendulum that is designed to show the earth's rotation and the Zeiss reflecting telescope.
+# sent_id = 7
+1	One	one	NUM	CD	NumForm=Word|NumType=Card	6	subj	_	end_char=801|start_char=798
+2	of	of	ADP	IN	_	1	udep	_	end_char=804|start_char=802
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	end_char=808|start_char=805
+4	major	major	ADJ	JJ	Degree=Pos	5	mod	_	end_char=814|start_char=809
+5	attractions	attraction	NOUN	NNS	Number=Plur	2	comp:obj	_	end_char=826|start_char=815
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=830|start_char=827
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	end_char=834|start_char=831
+8	Foucault	Foucault	PROPN	NNP	Number=Sing	9	compound	_	end_char=843|start_char=835
+9	Pendulum	Pendulum	PROPN	NNP	Number=Sing	6	comp:pred	_	end_char=852|start_char=844
+10	that	that	PRON	WDT	PronType=Rel	11	subj@pass	_	end_char=857|start_char=853
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	mod@relcl	_	end_char=860|start_char=858
+12	designed	design	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	comp:aux@pass	_	end_char=869|start_char=861
+13	to	to	PART	TO	_	12	comp:obl	_	end_char=872|start_char=870
+14	show	show	VERB	VB	VerbForm=Inf	13	comp:obj	_	end_char=877|start_char=873|Subject=SubjRaising
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	end_char=881|start_char=878
+16-17	earth's	_	_	_	_	_	_	_	end_char=889|start_char=882
+16	earth	earth	NOUN	NN	Number=Sing	17	comp:obj	_	end_char=887|start_char=882
+17	's	's	PART	POS	_	18	udep@poss	_	end_char=889|start_char=887
+18	rotation	rotation	NOUN	NN	Number=Sing	14	comp:obj	_	end_char=898|start_char=890
+19	and	and	CCONJ	CC	_	23	cc	_	end_char=902|start_char=899
+20	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	end_char=906|start_char=903
+21	Zeiss	Zeiss	PROPN	NNP	Number=Sing	23	compound	_	end_char=912|start_char=907
+22	reflecting	reflect	VERB	VBG	VerbForm=Ger	23	mod	_	end_char=923|start_char=913
+23	telescope	telescope	NOUN	NN	Number=Sing	18	conj:coord	_	end_char=933|SpaceAfter=No|start_char=924
+24	.	.	PUNCT	.	_	6	punct	_	end_char=934|start_char=933
+
+# text = The observatory has a striking view of Los Angeles and Hollywood, and the Pacific Ocean can be seen on clear days from there.
+# sent_id = 8
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	end_char=938|start_char=935
+2	observatory	observatory	NOUN	NN	Number=Sing|Shared=No	3	subj	_	end_char=950|start_char=939
+3	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=954|start_char=951
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	end_char=956|start_char=955
+5	striking	strike	VERB	VBG	VerbForm=Ger	6	mod	_	end_char=965|start_char=957
+6	view	view	NOUN	NN	Number=Sing	3	comp:obj	_	end_char=970|start_char=966
+7	of	of	ADP	IN	_	6	udep	_	end_char=973|start_char=971
+8	Los	Los	PROPN	NNP	Number=Sing	7	comp:obj	_	end_char=977|start_char=974
+9	Angeles	Angeles	PROPN	NNP	Number=Sing	8	flat	_	end_char=985|start_char=978
+10	and	and	CCONJ	CC	_	11	cc	_	end_char=989|start_char=986
+11	Hollywood	Hollywood	PROPN	NNP	Number=Sing	8	conj:coord	_	end_char=999|SpaceAfter=No|start_char=990
+12	,	,	PUNCT	,	_	17	punct	_	end_char=1000|start_char=999
+13	and	and	CCONJ	CC	_	17	cc	_	end_char=1004|start_char=1001
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	end_char=1008|start_char=1005
+15	Pacific	Pacific	PROPN	NNP	Number=Sing	16	compound	_	end_char=1016|start_char=1009
+16	Ocean	Ocean	PROPN	NNP	Number=Sing	17	subj@pass	_	end_char=1022|start_char=1017
+17	can	can	AUX	MD	VerbForm=Fin	3	conj:coord	_	end_char=1026|start_char=1023
+18	be	be	AUX	VB	Shared=No|VerbForm=Inf	17	comp:aux	_	end_char=1029|start_char=1027
+19	seen	see	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	18	comp:aux@pass	_	end_char=1034|start_char=1030
+20	on	on	ADP	IN	_	19	udep	_	end_char=1037|start_char=1035
+21	clear	clear	ADJ	JJ	Degree=Pos	22	mod	_	end_char=1043|start_char=1038
+22	days	day	NOUN	NNS	Number=Plur	20	comp:obj	_	end_char=1048|start_char=1044
+23	from	from	ADP	IN	_	19	udep	_	end_char=1053|start_char=1049
+24	there	there	ADV	RB	PronType=Dem	23	comp:obj	_	end_char=1059|SpaceAfter=No|start_char=1054
+25	.	.	PUNCT	.	_	3	punct	_	end_char=1060|SpacesAfter=\n|start_char=1059
+
+# text = In 2002 the planetarium was subjected to a $93 million renovation and expansion, which closed the museum for four years.
+# sent_id = 9
+1	In	in	ADP	IN	_	5	udep	_	end_char=1063|start_char=1061
+2	2002	2002	NUM	CD	NumForm=Digit|NumType=Card	1	comp:obj	_	end_char=1068|start_char=1064
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	end_char=1072|start_char=1069
+4	planetarium	planetarium	NOUN	NN	Number=Sing	5	subj@pass	_	end_char=1084|start_char=1073
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1088|start_char=1085
+6	subjected	subject	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	comp:aux@pass	_	end_char=1098|start_char=1089
+7	to	to	ADP	IN	_	6	udep	_	end_char=1101|start_char=1099
+8	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	end_char=1103|start_char=1102
+9	$	$	SYM	$	Shared=No	12	compound	_	end_char=1105|SpaceAfter=No|start_char=1104
+10	93	93	NUM	CD	NumForm=Digit|NumType=Card	11	compound	_	end_char=1107|start_char=1105
+11	million	million	NUM	CD	NumForm=Word|NumType=Card	9	mod	_	end_char=1115|start_char=1108
+12	renovation	renovation	NOUN	NN	Number=Sing	7	comp:obj	_	end_char=1126|start_char=1116
+13	and	and	CCONJ	CC	_	14	cc	_	end_char=1130|start_char=1127
+14	expansion	expansion	NOUN	NN	Number=Sing	12	conj:coord	_	end_char=1140|SpaceAfter=No|start_char=1131
+15	,	,	PUNCT	,	_	17	punct	_	end_char=1141|start_char=1140
+16	which	which	PRON	WDT	PronType=Rel	17	subj	_	end_char=1147|start_char=1142
+17	closed	close	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Shared=Yes|Tense=Past|VerbForm=Fin	14	mod@relcl	_	end_char=1154|start_char=1148
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	end_char=1158|start_char=1155
+19	museum	museum	NOUN	NN	Number=Sing	17	comp:obj	_	end_char=1165|start_char=1159
+20	for	for	ADP	IN	_	17	udep	_	end_char=1169|start_char=1166
+21	four	four	NUM	CD	NumForm=Word|NumType=Card	22	mod	_	end_char=1174|start_char=1170
+22	years	year	NOUN	NNS	Number=Plur	20	comp:obj	_	end_char=1180|SpaceAfter=No|start_char=1175
+23	.	.	PUNCT	.	_	5	punct	_	end_char=1181|start_char=1180
+
+# text = After it reopened in 2006, the facility expanded underground with new exhibits, a cafe, a gift shop, and a theater.
+# sent_id = 10
+1	After	after	SCONJ	IN	_	9	mod	_	end_char=1187|start_char=1182
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	subj	_	end_char=1190|start_char=1188
+3	reopened	reopen	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	comp:obj	_	end_char=1199|start_char=1191
+4	in	in	ADP	IN	_	3	udep	_	end_char=1202|start_char=1200
+5	2006	2006	NUM	CD	NumForm=Digit|NumType=Card	4	comp:obj	_	end_char=1207|SpaceAfter=No|start_char=1203
+6	,	,	PUNCT	,	_	1	punct	_	end_char=1208|start_char=1207
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	end_char=1212|start_char=1209
+8	facility	facility	NOUN	NN	Number=Sing	9	subj	_	end_char=1221|start_char=1213
+9	expanded	expand	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1230|start_char=1222
+10	underground	underground	ADV	RB	_	9	mod	_	end_char=1242|start_char=1231
+11	with	with	ADP	IN	_	9	udep	_	end_char=1247|start_char=1243
+12	new	new	ADJ	JJ	Degree=Pos	13	mod	_	end_char=1251|start_char=1248
+13	exhibits	exhibit	NOUN	NNS	Number=Plur	11	comp:obj	_	end_char=1260|SpaceAfter=No|start_char=1252
+14	,	,	PUNCT	,	_	16	punct	_	end_char=1261|start_char=1260
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	end_char=1263|start_char=1262
+16	cafe	cafe	NOUN	NN	Number=Sing	13	conj:coord	_	end_char=1268|SpaceAfter=No|start_char=1264
+17	,	,	PUNCT	,	_	20	punct	_	end_char=1269|start_char=1268
+18	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	end_char=1271|start_char=1270
+19	gift	gift	NOUN	NN	Number=Sing	20	compound	_	end_char=1276|start_char=1272
+20	shop	shop	NOUN	NN	Number=Sing	16	conj:coord	_	end_char=1281|SpaceAfter=No|start_char=1277
+21	,	,	PUNCT	,	_	24	punct	_	end_char=1282|start_char=1281
+22	and	and	CCONJ	CC	_	24	cc	_	end_char=1286|start_char=1283
+23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	end_char=1288|start_char=1287
+24	theater	theater	NOUN	NN	Number=Sing	20	conj:coord	_	end_char=1296|SpaceAfter=No|start_char=1289
+25	.	.	PUNCT	.	_	9	punct	_	end_char=1297|start_char=1296
+
+# text = The Wilder Hall of the Eye section concentrates on the astronomical aspect of the observatory.
+# sent_id = 11
+1	The	the	DET	DT	Definite=Def|PronType=Art	7	det	_	end_char=1301|start_char=1298
+2	Wilder	Wilder	PROPN	NNP	Number=Sing	3	compound	_	end_char=1308|start_char=1302
+3	Hall	Hall	PROPN	NNP	Number=Sing	7	compound	_	end_char=1313|start_char=1309
+4	of	of	ADP	IN	_	8	subj	_	end_char=1316|start_char=1314
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	end_char=1320|start_char=1317
+6	Eye	Eye	PROPN	NNP	Number=Sing	3	mod	_	end_char=1324|start_char=1321
+7	section	section	NOUN	NN	Number=Sing	4	comp:obj	_	end_char=1332|start_char=1325
+8	concentrates	concentrate	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=1345|start_char=1333
+9	on	on	ADP	IN	_	8	udep	_	end_char=1348|start_char=1346
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	end_char=1352|start_char=1349
+11	astronomical	astronomical	ADJ	JJ	Degree=Pos	12	mod	_	end_char=1365|start_char=1353
+12	aspect	aspect	NOUN	NN	Number=Sing	9	comp:obj	_	end_char=1372|start_char=1366
+13	of	of	ADP	IN	_	12	udep	_	end_char=1375|start_char=1373
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	end_char=1379|start_char=1376
+15	observatory	observatory	NOUN	NN	Number=Sing	13	comp:obj	_	end_char=1391|SpaceAfter=No|start_char=1380
+16	.	.	PUNCT	.	_	8	punct	_	end_char=1392|start_char=1391
+
+# text = It is where people can view the stars through the observatory's telescope, and features an interactive exhibit that is very popular.
+# sent_id = 12
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	subj	_	end_char=1395|start_char=1393
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=1398|start_char=1396
+3	where	where	ADV	WRB	PronType=Rel	2	mod	_	end_char=1404|start_char=1399
+4	people	person	NOUN	NNS	Number=Plur	2	subj	_	end_char=1411|start_char=1405
+5	can	can	AUX	MD	VerbForm=Fin	2	comp:pred	_	end_char=1415|start_char=1412
+6	view	view	VERB	VB	VerbForm=Inf	5	comp:aux	_	end_char=1420|start_char=1416
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	end_char=1424|start_char=1421
+8	stars	star	NOUN	NNS	Number=Plur	6	comp:obj	_	end_char=1430|start_char=1425
+9	through	through	ADP	IN	_	6	udep	_	end_char=1438|start_char=1431
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	end_char=1442|start_char=1439
+11-12	observatory's	_	_	_	_	_	_	_	end_char=1456|start_char=1443
+11	observatory	observatory	NOUN	NN	Number=Sing	12	comp:obj	_	end_char=1454|start_char=1443
+12	's	's	PART	POS	_	13	udep@poss	_	end_char=1456|start_char=1454
+13	telescope	telescope	NOUN	NN	Number=Sing	9	comp:obj	_	end_char=1466|SpaceAfter=No|start_char=1457
+14	,	,	PUNCT	,	_	16	punct	_	end_char=1467|start_char=1466
+15	and	and	CCONJ	CC	_	16	cc	_	end_char=1471|start_char=1468
+16	features	feature	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj:coord	_	end_char=1480|start_char=1472
+17	an	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	end_char=1483|start_char=1481
+18	interactive	interactive	ADJ	JJ	Degree=Pos	19	mod	_	end_char=1495|start_char=1484
+19	exhibit	exhibit	NOUN	NN	Number=Sing|Shared=No	16	comp:obj	_	end_char=1503|start_char=1496
+20	that	that	PRON	WDT	PronType=Rel	21	subj	_	end_char=1508|start_char=1504
+21	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	mod@relcl	_	end_char=1511|start_char=1509
+22	very	very	ADV	RB	_	21	mod	_	end_char=1516|start_char=1512
+23	popular	popular	ADJ	JJ	Degree=Pos	21	comp:pred	_	end_char=1524|SpaceAfter=No|start_char=1517
+24	.	.	PUNCT	.	_	3	punct	_	end_char=1525|start_char=1524
+
+# text = The Ahmanson Hall of the Sky is another popular attraction for viewing images in the night sky that are visible to the naked eye.
+# sent_id = 13
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	end_char=1529|start_char=1526
+2	Ahmanson	Ahmanson	PROPN	NNP	Number=Sing	3	compound	_	end_char=1538|start_char=1530
+3	Hall	Hall	PROPN	NNP	Number=Sing	7	subj	_	end_char=1543|start_char=1539
+4	of	of	ADP	IN	_	3	udep	_	end_char=1546|start_char=1544
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	end_char=1550|start_char=1547
+6	Sky	Sky	PROPN	NNP	Number=Sing	4	comp:obj	_	end_char=1554|start_char=1551
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=1557|start_char=1555
+8	another	another	DET	DT	PronType=Ind	10	det	_	end_char=1565|start_char=1558
+9	popular	popular	ADJ	JJ	Degree=Pos	10	mod	_	end_char=1573|start_char=1566
+10	attraction	attraction	NOUN	NN	Number=Sing	7	comp:pred	_	end_char=1584|start_char=1574
+11	for	for	ADP	IN	_	10	udep	_	end_char=1588|start_char=1585
+12	viewing	viewing	NOUN	NN	Number=Sing	13	compound	_	end_char=1596|start_char=1589
+13	images	image	NOUN	NNS	Number=Plur	11	comp:obj	_	end_char=1603|start_char=1597
+14	in	in	ADP	IN	_	13	udep	_	end_char=1606|start_char=1604
+15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	end_char=1610|start_char=1607
+16	night	night	NOUN	NN	Number=Sing	17	compound	_	end_char=1616|start_char=1611
+17	sky	sky	NOUN	NN	Number=Sing	14	comp:obj	_	end_char=1620|start_char=1617
+18	that	that	PRON	WDT	PronType=Rel	19	subj	_	end_char=1625|start_char=1621
+19	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	mod@relcl	_	end_char=1629|start_char=1626
+20	visible	visible	ADJ	JJ	Degree=Pos	19	comp:pred	_	end_char=1637|start_char=1630
+21	to	to	ADP	IN	_	20	udep	_	end_char=1640|start_char=1638
+22	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	end_char=1644|start_char=1641
+23	naked	naked	ADJ	JJ	Degree=Pos	24	mod	_	end_char=1650|start_char=1645
+24	eye	eye	NOUN	NN	Number=Sing	21	comp:obj	_	end_char=1654|SpaceAfter=No|start_char=1651
+25	.	.	PUNCT	.	_	7	punct	_	end_char=1655|start_char=1654
+
+# text = The observatory frequently stages viewing nights when the public is invited to bring their own telescopes.
+# sent_id = 14
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	end_char=1659|start_char=1656
+2	observatory	observatory	NOUN	NN	Number=Sing	4	subj	_	end_char=1671|start_char=1660
+3	frequently	frequently	ADV	RB	_	4	mod	_	end_char=1682|start_char=1672
+4	stages	stage	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=1689|start_char=1683
+5	viewing	viewing	NOUN	NN	Number=Sing	6	compound	_	end_char=1697|start_char=1690
+6	nights	night	NOUN	NNS	Number=Plur	4	comp:obj	_	end_char=1704|start_char=1698
+7	when	when	ADV	WRB	PronType=Int	10	mod	_	end_char=1709|start_char=1705
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	end_char=1713|start_char=1710
+9	public	public	NOUN	NN	Number=Sing	10	subj@pass	_	end_char=1720|start_char=1714
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	mod	_	end_char=1723|start_char=1721
+11	invited	invite	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	comp:aux@pass	_	end_char=1731|start_char=1724
+12	to	to	PART	TO	_	11	comp:obl	_	end_char=1734|start_char=1732
+13	bring	bring	VERB	VB	VerbForm=Inf	12	comp:obj	_	end_char=1740|start_char=1735|Subject=SubjRaising
+14	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	mod@poss	_	end_char=1746|start_char=1741
+15	own	own	ADJ	JJ	Degree=Pos	16	mod	_	end_char=1750|start_char=1747
+16	telescopes	telescope	NOUN	NNS	Number=Plur	13	comp:obj	_	end_char=1761|SpaceAfter=No|start_char=1751
+17	.	.	PUNCT	.	_	4	punct	_	end_char=1762|start_char=1761
+
+# text = It is open daily, and remains free of charge.
+# sent_id = 15
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Shared=Yes	2	subj	_	end_char=1765|start_char=1763
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=1768|start_char=1766
+3	open	open	ADJ	JJ	Degree=Pos	2	comp:pred	_	end_char=1773|start_char=1769
+4	daily	daily	ADV	RB	Degree=Pos	2	mod	_	end_char=1779|SpaceAfter=No|start_char=1774
+5	,	,	PUNCT	,	_	7	punct	_	end_char=1780|start_char=1779
+6	and	and	CCONJ	CC	_	7	cc	_	end_char=1784|start_char=1781
+7	remains	remain	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj:coord	_	end_char=1792|start_char=1785
+8	free	free	ADJ	JJ	Degree=Pos|Shared=No	7	comp:pred	_	end_char=1797|start_char=1793
+9	of	of	ADP	IN	_	8	udep	_	end_char=1800|start_char=1798
+10	charge	charge	NOUN	NN	Number=Sing	9	comp:obj	_	end_char=1807|SpaceAfter=No|start_char=1801
+11	.	.	PUNCT	.	_	2	punct	_	end_char=1808|SpaceAfter=No|start_char=1807
+

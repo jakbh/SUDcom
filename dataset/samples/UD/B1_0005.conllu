@@ -1,0 +1,352 @@
+# text = From: Janet Hill To: Sunny Chen Subject: Hi! Hi Sunny!
+# sent_id = 0
+1	From	from	ADP	IN	_	3	case	_	start_char=0|end_char=4|SpaceAfter=No
+2	:	:	PUNCT	:	_	1	punct	_	start_char=4|end_char=5
+3	Janet	Janet	PROPN	NNP	Number=Sing	0	root	_	start_char=6|end_char=11
+4	Hill	Hill	PROPN	NNP	Number=Sing	3	flat	_	start_char=12|end_char=16|SpacesAfter=\n
+5	To	to	ADP	IN	_	9	case	_	start_char=17|end_char=19|SpaceAfter=No
+6	:	:	PUNCT	:	_	5	punct	_	start_char=19|end_char=20
+7	Sunny	Sunny	ADJ	JJ	Degree=Pos	9	amod	_	start_char=21|end_char=26
+8	Chen	Chen	PROPN	NNP	Number=Sing	9	compound	_	start_char=27|end_char=31|SpacesAfter=\n
+9	Subject	subject	NOUN	NN	Number=Sing	3	nmod	_	start_char=32|end_char=39|SpaceAfter=No
+10	:	:	PUNCT	:	_	11	punct	_	start_char=39|end_char=40
+11	Hi	hi	INTJ	UH	_	9	discourse	_	start_char=41|end_char=43|SpaceAfter=No
+12	!	!	PUNCT	.	_	11	punct	_	start_char=43|end_char=44|SpacesAfter=\n
+13	Hi	hi	INTJ	UH	_	14	discourse	_	start_char=45|end_char=47
+14	Sunny	Sunny	ADJ	JJ	Degree=Pos	3	list	_	start_char=48|end_char=53|SpaceAfter=No
+15	!	!	PUNCT	.	_	3	punct	_	start_char=53|end_char=54|SpacesAfter=\n
+
+# text = How are you?
+# sent_id = 1
+1	How	how	ADV	WRB	PronType=Int	0	root	_	start_char=55|end_char=58
+2	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	cop	_	start_char=59|end_char=62
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	start_char=63|end_char=66|SpaceAfter=No
+4	?	?	PUNCT	.	_	1	punct	_	start_char=66|end_char=67|SpacesAfter=\n
+
+# text = We're finally coming to Singapore so I wanted to ask your advice on what we should do while we're there.
+# sent_id = 2
+1-2	We're	_	_	_	_	_	_	_	start_char=68|end_char=73
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	start_char=68|end_char=70
+2	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=70|end_char=73
+3	finally	finally	ADV	RB	_	4	advmod	_	start_char=74|end_char=81
+4	coming	come	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=82|end_char=88
+5	to	to	ADP	IN	_	6	case	_	start_char=89|end_char=91
+6	Singapore	Singapore	PROPN	NNP	Number=Sing	4	obl	_	start_char=92|end_char=101
+7	so	so	ADV	RB	_	9	advmod	_	start_char=102|end_char=104
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	start_char=105|end_char=106
+9	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	parataxis	_	start_char=107|end_char=113
+10	to	to	PART	TO	_	11	mark	_	start_char=114|end_char=116
+11	ask	ask	VERB	VB	VerbForm=Inf	9	xcomp	_	start_char=117|end_char=120
+12	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	13	nmod:poss	_	start_char=121|end_char=125
+13	advice	advice	NOUN	NN	Number=Sing	11	obj	_	start_char=126|end_char=132
+14	on	on	ADP	IN	_	15	case	_	start_char=133|end_char=135
+15	what	what	PRON	WP	PronType=Rel	13	nmod	_	start_char=136|end_char=140
+16	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	_	start_char=141|end_char=143
+17	should	should	AUX	MD	VerbForm=Fin	18	aux	_	start_char=144|end_char=150
+18	do	do	VERB	VB	VerbForm=Inf	15	acl:relcl	_	start_char=151|end_char=153
+19	while	while	SCONJ	IN	_	22	mark	_	start_char=154|end_char=159
+20-21	we're	_	_	_	_	_	_	_	start_char=160|end_char=165
+20	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	22	nsubj	_	start_char=160|end_char=162
+21	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	22	cop	_	start_char=162|end_char=165
+22	there	there	ADV	RB	PronType=Dem	18	advcl	_	start_char=166|end_char=171|SpaceAfter=No
+23	.	.	PUNCT	.	_	4	punct	_	start_char=171|end_char=172
+
+# text = What shouldn't we miss?
+# sent_id = 3
+1	What	what	PRON	WP	PronType=Int	5	obj	_	start_char=173|end_char=177
+2-3	shouldn't	_	_	_	_	_	_	_	start_char=178|end_char=187
+2	should	should	AUX	MD	VerbForm=Fin	5	aux	_	start_char=178|end_char=184
+3	n't	not	PART	RB	Polarity=Neg	5	advmod	_	start_char=184|end_char=187
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	start_char=188|end_char=190
+5	miss	miss	VERB	VB	VerbForm=Inf	0	root	_	start_char=191|end_char=195|SpaceAfter=No
+6	?	?	PUNCT	.	_	5	punct	_	start_char=195|end_char=196
+
+# text = We'll have our two kids aged 6 and 8 with us so ideally we want to do things we can enjoy as a family.
+# sent_id = 4
+1-2	We'll	_	_	_	_	_	_	_	start_char=197|end_char=202
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=197|end_char=199
+2	'll	will	AUX	MD	VerbForm=Fin	3	aux	_	start_char=199|end_char=202
+3	have	have	VERB	VB	VerbForm=Inf	0	root	_	start_char=203|end_char=207
+4	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	start_char=208|end_char=211
+5	two	two	NUM	CD	NumForm=Word|NumType=Card	6	nummod	_	start_char=212|end_char=215
+6	kids	kid	NOUN	NNS	Number=Plur	3	obj	_	start_char=216|end_char=220
+7	aged	aged	ADJ	JJ	Degree=Pos	6	acl	_	start_char=221|end_char=225
+8	6	6	NUM	CD	NumForm=Digit|NumType=Card	7	obj	_	start_char=226|end_char=227
+9	and	and	CCONJ	CC	_	10	cc	_	start_char=228|end_char=231
+10	8	8	NUM	CD	NumForm=Digit|NumType=Card	8	conj	_	start_char=232|end_char=233
+11	with	with	ADP	IN	_	12	case	_	start_char=234|end_char=238
+12	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	7	obl	_	start_char=239|end_char=241
+13	so	so	ADV	RB	_	16	advmod	_	start_char=242|end_char=244
+14	ideally	ideally	ADV	RB	_	16	advmod	_	start_char=245|end_char=252
+15	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	start_char=253|end_char=255
+16	want	want	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	parataxis	_	start_char=256|end_char=260
+17	to	to	PART	TO	_	18	mark	_	start_char=261|end_char=263
+18	do	do	VERB	VB	VerbForm=Inf	16	xcomp	_	start_char=264|end_char=266
+19	things	thing	NOUN	NNS	Number=Plur	18	obj	_	start_char=267|end_char=273
+20	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	22	nsubj	_	start_char=274|end_char=276
+21	can	can	AUX	MD	VerbForm=Fin	22	aux	_	start_char=277|end_char=280
+22	enjoy	enjoy	VERB	VB	VerbForm=Inf	19	acl:relcl	_	start_char=281|end_char=286
+23	as	as	ADP	IN	_	25	case	_	start_char=287|end_char=289
+24	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	start_char=290|end_char=291
+25	family	family	NOUN	NN	Number=Sing	22	obl	_	start_char=292|end_char=298|SpaceAfter=No
+26	.	.	PUNCT	.	_	3	punct	_	start_char=298|end_char=299|SpacesAfter=\n
+
+# text = We've already got a hotel booked in Marina Bay and we arrive on 12 May for a week.
+# sent_id = 5
+1-2	We've	_	_	_	_	_	_	_	start_char=300|end_char=305
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	start_char=300|end_char=302
+2	've	have	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=302|end_char=305
+3	already	already	ADV	RB	_	4	advmod	_	start_char=306|end_char=313
+4	got	get	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=314|end_char=317
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=318|end_char=319
+6	hotel	hotel	NOUN	NN	Number=Sing	4	obj	_	start_char=320|end_char=325
+7	booked	book	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	acl	_	start_char=326|end_char=332
+8	in	in	ADP	IN	_	10	case	_	start_char=333|end_char=335
+9	Marina	Marina	PROPN	NNP	Number=Sing	10	compound	_	start_char=336|end_char=342
+10	Bay	Bay	PROPN	NNP	Number=Sing	7	obl	_	start_char=343|end_char=346
+11	and	and	CCONJ	CC	_	13	cc	_	start_char=347|end_char=350
+12	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	start_char=351|end_char=353
+13	arrive	arrive	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	start_char=354|end_char=360
+14	on	on	ADP	IN	_	16	case	_	start_char=361|end_char=363
+15	12	12	NUM	CD	NumForm=Digit|NumType=Card	16	nummod	_	start_char=364|end_char=366
+16	May	May	PROPN	NNP	Number=Sing	13	obl	_	start_char=367|end_char=370
+17	for	for	ADP	IN	_	19	case	_	start_char=371|end_char=374
+18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	start_char=375|end_char=376
+19	week	week	NOUN	NN	Number=Sing	13	obl	_	start_char=377|end_char=381|SpaceAfter=No
+20	.	.	PUNCT	.	_	4	punct	_	start_char=381|end_char=382|SpacesAfter=\n
+
+# text = I hope you're around so we can meet up!
+# sent_id = 6
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=383|end_char=384
+2	hope	hope	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=385|end_char=389
+3-4	you're	_	_	_	_	_	_	_	start_char=390|end_char=396
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	start_char=390|end_char=393
+4	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=393|end_char=396
+5	around	around	ADV	RB	_	2	ccomp	_	start_char=397|end_char=403
+6	so	so	SCONJ	IN	_	9	mark	_	start_char=404|end_char=406
+7	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	start_char=407|end_char=409
+8	can	can	AUX	MD	VerbForm=Fin	9	aux	_	start_char=410|end_char=413
+9	meet	meet	VERB	VB	VerbForm=Inf	2	parataxis	_	start_char=414|end_char=418
+10	up	up	ADP	RP	_	9	compound:prt	_	start_char=419|end_char=421|SpaceAfter=No
+11	!	!	PUNCT	.	_	2	punct	_	start_char=421|end_char=422|SpacesAfter=\n
+
+# text = See you soon, Janet From: Sunny Chen To: Janet Hill Subject: Re: Hi! Hi Janet!
+# sent_id = 7
+1	See	see	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=423|end_char=426
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	obj	_	start_char=427|end_char=430
+3	soon	soon	ADV	RB	Degree=Pos	1	advmod	_	start_char=431|end_char=435|SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	start_char=435|end_char=436|SpacesAfter=\n
+5	Janet	Janet	PROPN	NNP	Number=Sing	1	vocative	_	start_char=437|end_char=442|SpacesAfter=\n
+6	From	from	PROPN	NNP	Number=Sing	5	flat	_	start_char=443|end_char=447|SpaceAfter=No
+7	:	:	PUNCT	:	_	9	punct	_	start_char=447|end_char=448
+8	Sunny	Sunny	ADJ	JJ	Degree=Pos	9	amod	_	start_char=449|end_char=454
+9	Chen	Chen	PROPN	NNP	Number=Sing	5	appos	_	start_char=455|end_char=459|SpacesAfter=\n
+10	To	to	ADP	IN	_	14	case	_	start_char=460|end_char=462|SpaceAfter=No
+11	:	:	PUNCT	:	_	10	punct	_	start_char=462|end_char=463
+12	Janet	Janet	PROPN	NNP	Number=Sing	14	compound	_	start_char=464|end_char=469
+13	Hill	Hill	PROPN	NNP	Number=Sing	12	flat	_	start_char=470|end_char=474|SpacesAfter=\n
+14	Subject	subject	NOUN	NN	Number=Sing	9	nmod	_	start_char=475|end_char=482|SpaceAfter=No
+15	:	:	PUNCT	:	_	20	punct	_	start_char=482|end_char=483
+16	Re	re	ADP	IN	_	20	case	_	start_char=484|end_char=486|SpaceAfter=No
+17	:	:	PUNCT	:	_	16	punct	_	start_char=486|end_char=487
+18	Hi!	hi!	INTJ	UH	_	20	discourse	_	start_char=488|end_char=491|SpacesAfter=\n
+19	Hi	hi	INTJ	UH	_	20	discourse	_	start_char=492|end_char=494
+20	Janet	Janet	PROPN	NNP	Number=Sing	14	appos	_	start_char=495|end_char=500|SpaceAfter=No
+21	!	!	PUNCT	.	_	1	punct	_	start_char=500|end_char=501|SpacesAfter=\n
+
+# text = Lovely to hear from you and how exciting that you're coming!
+# sent_id = 8
+1	Lovely	lovely	ADJ	JJ	Degree=Pos	0	root	_	start_char=502|end_char=508
+2	to	to	PART	TO	_	3	mark	_	start_char=509|end_char=511
+3	hear	hear	VERB	VB	VerbForm=Inf	1	csubj	_	start_char=512|end_char=516
+4	from	from	ADP	IN	_	5	case	_	start_char=517|end_char=521
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	obl	_	start_char=522|end_char=525
+6	and	and	CCONJ	CC	_	8	cc	_	start_char=526|end_char=529
+7	how	how	ADV	WRB	PronType=Int	8	advmod	_	start_char=530|end_char=533
+8	exciting	exciting	ADJ	JJ	Degree=Pos	3	conj	_	start_char=534|end_char=542
+9	that	that	PRON	WDT	PronType=Rel	12	obj	_	start_char=543|end_char=547
+10-11	you're	_	_	_	_	_	_	_	start_char=548|end_char=554
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	start_char=548|end_char=551
+11	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=551|end_char=554
+12	coming	come	VERB	VBG	Tense=Pres|VerbForm=Part	8	advcl:relcl	_	start_char=555|end_char=561|SpaceAfter=No
+13	!	!	PUNCT	.	_	1	punct	_	start_char=561|end_char=562|SpacesAfter=\n
+
+# text = You've picked a great area to stay in as it's right next to a must-see attraction, Gardens by the Bay.
+# sent_id = 9
+1-2	You've	_	_	_	_	_	_	_	start_char=563|end_char=569
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=563|end_char=566
+2	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=566|end_char=569
+3	picked	pick	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=570|end_char=576
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=577|end_char=578
+5	great	great	ADJ	JJ	Degree=Pos	6	amod	_	start_char=579|end_char=584
+6	area	area	NOUN	NN	Number=Sing	3	obj	_	start_char=585|end_char=589
+7	to	to	PART	TO	_	8	mark	_	start_char=590|end_char=592
+8	stay	stay	VERB	VB	VerbForm=Inf	3	advcl	_	start_char=593|end_char=597
+9	in	in	ADP	IN	_	8	obl	_	start_char=598|end_char=600
+10	as	as	SCONJ	IN	_	14	mark	_	start_char=601|end_char=603
+11-12	it's	_	_	_	_	_	_	_	start_char=604|end_char=608
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	start_char=604|end_char=606
+12	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	start_char=606|end_char=608
+13	right	right	ADV	RB	_	14	advmod	_	start_char=609|end_char=614
+14	next	next	ADV	RB	_	8	advcl	_	start_char=615|end_char=619
+15	to	to	ADP	IN	_	20	case	_	start_char=620|end_char=622
+16	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	start_char=623|end_char=624
+17	must	must	AUX	MD	VerbForm=Fin	19	compound	_	start_char=625|end_char=629|SpaceAfter=No
+18	-	-	PUNCT	HYPH	_	17	punct	_	start_char=629|end_char=630|SpaceAfter=No
+19	see	see	VERB	VB	VerbForm=Inf	20	amod	_	start_char=630|end_char=633
+20	attraction	attraction	NOUN	NN	Number=Sing	14	obl	_	start_char=634|end_char=644|SpaceAfter=No
+21	,	,	PUNCT	,	_	22	punct	_	start_char=644|end_char=645
+22	Gardens	Garden	PROPN	NNPS	Number=Plur	20	appos	_	start_char=646|end_char=653
+23	by	by	ADP	IN	_	25	case	_	start_char=654|end_char=656
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	start_char=657|end_char=660
+25	Bay	Bay	PROPN	NNP	Number=Sing	22	nmod	_	start_char=661|end_char=664|SpaceAfter=No
+26	.	.	PUNCT	.	_	3	punct	_	start_char=664|end_char=665
+
+# text = They light them up at night and the kids will love it.
+# sent_id = 10
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=666|end_char=670
+2	light	light	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=671|end_char=676
+3	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	obj	_	start_char=677|end_char=681
+4	up	up	ADP	RP	_	2	compound:prt	_	start_char=682|end_char=684
+5	at	at	ADP	IN	_	6	case	_	start_char=685|end_char=687
+6	night	night	NOUN	NN	Number=Sing	2	obl	_	start_char=688|end_char=693
+7	and	and	CCONJ	CC	_	11	cc	_	start_char=694|end_char=697
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=698|end_char=701
+9	kids	kid	NOUN	NNS	Number=Plur	11	nsubj	_	start_char=702|end_char=706
+10	will	will	AUX	MD	VerbForm=Fin	11	aux	_	start_char=707|end_char=711
+11	love	love	VERB	VB	VerbForm=Inf	2	conj	_	start_char=712|end_char=716
+12	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obj	_	start_char=717|end_char=719|SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	start_char=719|end_char=720
+
+# text = Another place to take the little ones is the zoo, and the Night Safari is really worth doing.
+# sent_id = 11
+1	Another	another	DET	DT	PronType=Ind	2	det	_	start_char=721|end_char=728
+2	place	place	NOUN	NN	Number=Sing	10	nsubj	_	start_char=729|end_char=734
+3	to	to	PART	TO	_	4	mark	_	start_char=735|end_char=737
+4	take	take	VERB	VB	VerbForm=Inf	2	acl	_	start_char=738|end_char=742
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=743|end_char=746
+6	little	little	ADJ	JJ	Degree=Pos	7	amod	_	start_char=747|end_char=753
+7	ones	one	NOUN	NNS	Number=Plur	4	obj	_	start_char=754|end_char=758
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=759|end_char=761
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=762|end_char=765
+10	zoo	zoo	NOUN	NN	Number=Sing	0	root	_	start_char=766|end_char=769|SpaceAfter=No
+11	,	,	PUNCT	,	_	18	punct	_	start_char=769|end_char=770
+12	and	and	CCONJ	CC	_	18	cc	_	start_char=771|end_char=774
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	start_char=775|end_char=778
+14	Night	Night	PROPN	NNP	Number=Sing	15	compound	_	start_char=779|end_char=784
+15	Safari	Safari	PROPN	NNP	Number=Sing	18	nsubj	_	start_char=785|end_char=791
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	start_char=792|end_char=794
+17	really	really	ADV	RB	_	18	advmod	_	start_char=795|end_char=801
+18	worth	worth	ADJ	JJ	Degree=Pos	10	conj	_	start_char=802|end_char=807
+19	doing	do	VERB	VBG	VerbForm=Ger	18	xcomp	_	start_char=808|end_char=813|SpaceAfter=No
+20	.	.	PUNCT	.	_	10	punct	_	start_char=813|end_char=814
+
+# text = The animals are much more active at night than during the day, so it's pretty special.
+# sent_id = 12
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=815|end_char=818
+2	animals	animal	NOUN	NNS	Number=Plur	6	nsubj	_	start_char=819|end_char=826
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=827|end_char=830
+4	much	much	ADV	RB	_	5	advmod	_	start_char=831|end_char=835
+5	more	more	ADV	RBR	Degree=Cmp	6	advmod	_	start_char=836|end_char=840
+6	active	active	ADJ	JJ	Degree=Pos	0	root	_	start_char=841|end_char=847
+7	at	at	ADP	IN	_	8	case	_	start_char=848|end_char=850
+8	night	night	NOUN	NN	Number=Sing	6	obl	_	start_char=851|end_char=856
+9	than	than	ADP	IN	_	12	mark	_	start_char=857|end_char=861
+10	during	during	ADP	IN	_	12	case	_	start_char=862|end_char=868
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=869|end_char=872
+12	day	day	NOUN	NN	Number=Sing	6	obl	_	start_char=873|end_char=876|SpaceAfter=No
+13	,	,	PUNCT	,	_	18	punct	_	start_char=876|end_char=877
+14	so	so	ADV	RB	_	18	advmod	_	start_char=878|end_char=880
+15-16	it's	_	_	_	_	_	_	_	start_char=881|end_char=885
+15	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	start_char=881|end_char=883
+16	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	start_char=883|end_char=885
+17	pretty	pretty	ADV	RB	_	18	advmod	_	start_char=886|end_char=892
+18	special	special	ADJ	JJ	Degree=Pos	6	parataxis	_	start_char=893|end_char=900|SpaceAfter=No
+19	.	.	PUNCT	.	_	6	punct	_	start_char=900|end_char=901|SpacesAfter=\n
+
+# text = As for food, there's quite a variety here.
+# sent_id = 13
+1	As	as	ADP	IN	ExtPos=ADP	3	case	_	start_char=902|end_char=904
+2	for	for	ADP	IN	_	1	fixed	_	start_char=905|end_char=908
+3	food	food	NOUN	NN	Number=Sing	6	obl	_	start_char=909|end_char=913|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	start_char=913|end_char=914
+5-6	there's	_	_	_	_	_	_	_	start_char=915|end_char=922
+5	there	there	PRON	EX	_	6	expl	_	start_char=915|end_char=920
+6	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=920|end_char=922
+7	quite	quite	DET	PDT	PronType=Ind	9	det:predet	_	start_char=923|end_char=928
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	start_char=929|end_char=930
+9	variety	variety	NOUN	NN	Number=Sing	6	nsubj	_	start_char=931|end_char=938
+10	here	here	ADV	RB	PronType=Dem	9	advmod	_	start_char=939|end_char=943|SpaceAfter=No
+11	.	.	PUNCT	.	_	6	punct	_	start_char=943|end_char=944
+
+# text = I'd recommend trying laksa and kaya toast – they're both really typical Singaporean foods.
+# sent_id = 14
+1-2	I'd	_	_	_	_	_	_	_	start_char=945|end_char=948
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=945|end_char=946
+2	'd	would	AUX	MD	VerbForm=Fin	3	aux	_	start_char=946|end_char=948
+3	recommend	recommend	VERB	VB	VerbForm=Inf	0	root	_	start_char=949|end_char=958
+4	trying	try	VERB	VBG	VerbForm=Ger	3	xcomp	_	start_char=959|end_char=965
+5	laksa	lak	NOUN	NN	Number=Sing	4	obj	_	start_char=966|end_char=971
+6	and	and	CCONJ	CC	_	7	cc	_	start_char=972|end_char=975
+7	kaya	kaya	PROPN	NNP	Number=Sing	5	conj	_	start_char=976|end_char=980
+8	toast	toast	NOUN	NN	Number=Sing	4	obj	_	start_char=981|end_char=986
+9	–	-	PUNCT	:	_	16	punct	_	start_char=987|end_char=988
+10-11	they're	_	_	_	_	_	_	_	start_char=989|end_char=996
+10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	start_char=989|end_char=993
+11	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	start_char=993|end_char=996
+12	both	both	ADV	RB	_	16	advmod	_	start_char=997|end_char=1001
+13	really	really	ADV	RB	_	16	advmod	_	start_char=1002|end_char=1008
+14	typical	typical	ADJ	JJ	Degree=Pos	16	amod	_	start_char=1009|end_char=1016
+15	Singaporean	Singaporean	ADJ	JJ	Degree=Pos	16	amod	_	start_char=1017|end_char=1028
+16	foods	food	NOUN	NNS	Number=Plur	3	parataxis	_	start_char=1029|end_char=1034|SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	start_char=1034|end_char=1035
+
+# text = You can also eat well and cheaply at street markets.
+# sent_id = 15
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	start_char=1036|end_char=1039
+2	can	can	AUX	MD	VerbForm=Fin	4	aux	_	start_char=1040|end_char=1043
+3	also	also	ADV	RB	_	4	advmod	_	start_char=1044|end_char=1048
+4	eat	eat	VERB	VB	VerbForm=Inf	0	root	_	start_char=1049|end_char=1052
+5	well	well	ADV	RB	Degree=Pos	4	advmod	_	start_char=1053|end_char=1057
+6	and	and	CCONJ	CC	_	7	cc	_	start_char=1058|end_char=1061
+7	cheaply	cheaply	ADV	RB	_	5	conj	_	start_char=1062|end_char=1069
+8	at	at	ADP	IN	_	10	case	_	start_char=1070|end_char=1072
+9	street	street	NOUN	NN	Number=Sing	10	compound	_	start_char=1073|end_char=1079
+10	markets	market	NOUN	NNS	Number=Plur	4	obl	_	start_char=1080|end_char=1087|SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	start_char=1087|end_char=1088
+
+# text = You should definitely check them out.
+# sent_id = 16
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	start_char=1089|end_char=1092
+2	should	should	AUX	MD	VerbForm=Fin	4	aux	_	start_char=1093|end_char=1099
+3	definitely	definitely	ADV	RB	_	4	advmod	_	start_char=1100|end_char=1110
+4	check	check	VERB	VB	VerbForm=Inf	0	root	_	start_char=1111|end_char=1116
+5	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	obj	_	start_char=1117|end_char=1121
+6	out	out	ADP	RP	_	4	compound:prt	_	start_char=1122|end_char=1125|SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	start_char=1125|end_char=1126|SpacesAfter=\n
+
+# text = Can't wait to see you all!
+# sent_id = 17
+1-2	Can't	_	_	_	_	_	_	_	start_char=1127|end_char=1132
+1	Ca	can	AUX	MD	VerbForm=Fin	3	aux	_	start_char=1127|end_char=1129
+2	n't	not	PART	RB	Polarity=Neg	3	advmod	_	start_char=1129|end_char=1132
+3	wait	wait	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=1133|end_char=1137
+4	to	to	PART	TO	_	5	mark	_	start_char=1138|end_char=1140
+5	see	see	VERB	VB	VerbForm=Inf	3	xcomp	_	start_char=1141|end_char=1144
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	obj	_	start_char=1145|end_char=1148
+7	all	all	DET	DT	PronType=Tot	6	det	_	start_char=1149|end_char=1152|SpaceAfter=No
+8	!	!	PUNCT	.	_	3	punct	_	start_char=1152|end_char=1153|SpacesAfter=\n
+
+# text = Sunny P.S. My number here is +65 1234 1234.
+# sent_id = 18
+1	Sunny	Sunny	ADJ	JJ	Degree=Pos	2	amod	_	start_char=1154|end_char=1159|SpacesAfter=\n
+2	P.S.	p.s.	NOUN	NN	Number=Sing	7	nsubj	_	start_char=1160|end_char=1164
+3	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	start_char=1165|end_char=1167
+4	number	number	NOUN	NN	Number=Sing	7	nsubj	_	start_char=1168|end_char=1174
+5	here	here	ADV	RB	PronType=Dem	4	advmod	_	start_char=1175|end_char=1179
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=1180|end_char=1182
+7	+65	+65	NUM	CD	NumForm=Digit|NumType=Card	0	root	_	start_char=1183|end_char=1186
+8	1234	1234	NUM	CD	NumForm=Digit|NumType=Card	7	nummod	_	start_char=1187|end_char=1191
+9	1234	1234	NUM	CD	NumForm=Digit|NumType=Card	7	nummod	_	start_char=1192|end_char=1196|SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	start_char=1196|end_char=1197|SpaceAfter=No
+

@@ -1,0 +1,938 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# text = ﻿Facebook has lost millions of users per month in its biggest markets, independent data suggests, as alternative social networks attract the attention of those looking for fresh online playgrounds.
+# sent_id = 0
+1	﻿	﻿	PROPN	NNP	Number=Sing	2	compound	_	end_char=1|SpaceAfter=No|start_char=0
+2	Facebook	Facebook	PROPN	NNP	Number=Sing	3	subj	_	end_char=9|start_char=1
+3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=13|start_char=10
+4	lost	lose	VERB	VBN	Tense=Past|VerbForm=Part	3	comp:aux	_	end_char=18|start_char=14
+5	millions	million	NOUN	NNS	Number=Plur	4	comp:obj	_	end_char=27|start_char=19
+6	of	of	ADP	IN	_	5	udep	_	end_char=30|start_char=28
+7	users	user	NOUN	NNS	Number=Plur	6	comp:obj	_	end_char=36|start_char=31
+8	per	per	ADP	IN	_	4	udep	_	end_char=40|start_char=37
+9	month	month	NOUN	NN	Number=Sing	8	comp:obj	_	end_char=46|start_char=41
+10	in	in	ADP	IN	_	4	udep	_	end_char=49|start_char=47
+11	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	mod@poss	_	end_char=53|start_char=50
+12	biggest	big	ADJ	JJS	Degree=Sup	13	mod	_	end_char=61|start_char=54
+13	markets	market	NOUN	NNS	Number=Plur	10	comp:obj	_	end_char=69|SpaceAfter=No|start_char=62
+14	,	,	PUNCT	,	_	17	punct	_	end_char=70|start_char=69
+15	independent	independent	ADJ	JJ	Degree=Pos	16	mod	_	end_char=82|start_char=71
+16	data	datum	NOUN	NNS	Number=Plur	17	subj	_	end_char=87|start_char=83
+17	suggests	suggest	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	end_char=96|SpaceAfter=No|start_char=88
+18	,	,	PUNCT	,	_	19	punct	_	end_char=97|start_char=96
+19	as	as	SCONJ	IN	_	17	mod	_	end_char=100|start_char=98
+20	alternative	alternative	ADJ	JJ	Degree=Pos	22	mod	_	end_char=112|start_char=101
+21	social	social	ADJ	JJ	Degree=Pos	22	mod	_	end_char=119|start_char=113
+22	networks	network	NOUN	NNS	Number=Plur	23	subj	_	end_char=128|start_char=120
+23	attract	attract	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	comp:obj	_	end_char=136|start_char=129
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	end_char=140|start_char=137
+25	attention	attention	NOUN	NN	Number=Sing	23	comp:obj	_	end_char=150|start_char=141
+26	of	of	ADP	IN	_	25	udep	_	end_char=153|start_char=151
+27	those	that	PRON	DT	Number=Plur|PronType=Dem	26	comp:obj	_	end_char=159|start_char=154
+28	looking	look	VERB	VBG	VerbForm=Ger	27	mod	_	end_char=167|start_char=160
+29	for	for	ADP	IN	_	28	udep	_	end_char=171|start_char=168
+30	fresh	fresh	ADJ	JJ	Degree=Pos	32	mod	_	end_char=177|start_char=172
+31	online	online	ADJ	JJ	Degree=Pos	32	mod	_	end_char=184|start_char=178
+32	playgrounds	playground	NOUN	NNS	Number=Plur	29	comp:obj	_	end_char=196|SpaceAfter=No|start_char=185
+33	.	.	PUNCT	.	_	3	punct	_	end_char=197|SpacesAfter=\s\n|start_char=196
+
+# text = As Facebook prepares to update investors on its performance in the first three months of the year, with analysts forecasting revenues up 36% on last year, studies suggest that its expansion in the US, UK and other major European countries has peaked.
+# sent_id = 1
+1	As	as	SCONJ	IN	_	31	mod	_	end_char=201|start_char=199
+2	Facebook	Facebook	PROPN	NNP	Number=Sing	3	subj	_	end_char=210|start_char=202
+3	prepares	prepare	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	end_char=219|start_char=211
+4	to	to	PART	TO	_	3	comp:obl	_	end_char=222|start_char=220
+5	update	update	VERB	VB	VerbForm=Inf	4	comp:obj	_	end_char=229|start_char=223|Subject=SubjRaising
+6	investors	investor	NOUN	NNS	Number=Plur	5	comp:obj	_	end_char=239|start_char=230
+7	on	on	ADP	IN	_	5	udep	_	end_char=242|start_char=240
+8	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	mod@poss	_	end_char=246|start_char=243
+9	performance	performance	NOUN	NN	Number=Sing	7	comp:obj	_	end_char=258|start_char=247
+10	in	in	ADP	IN	_	5	udep	_	end_char=261|start_char=259
+11	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	end_char=265|start_char=262
+12	first	first	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	14	mod	_	end_char=271|start_char=266
+13	three	three	NUM	CD	NumForm=Word|NumType=Card	14	mod	_	end_char=277|start_char=272
+14	months	month	NOUN	NNS	Number=Plur	10	comp:obj	_	end_char=284|start_char=278
+15	of	of	ADP	IN	_	14	udep	_	end_char=287|start_char=285
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	end_char=291|start_char=288
+17	year	year	NOUN	NN	Number=Sing	15	comp:obj	_	end_char=296|SpaceAfter=No|start_char=292
+18	,	,	PUNCT	,	_	3	punct	_	end_char=297|start_char=296
+19	with	with	SCONJ	IN	_	3	mod	_	end_char=302|start_char=298
+20	analysts	analyst	NOUN	NNS	Number=Plur	21	subj	_	end_char=311|start_char=303
+21	forecasting	forecasting	VERB	VBG	VerbForm=Ger	19	comp:obj	_	end_char=323|start_char=312
+22	revenues	revenue	NOUN	NNS	Number=Plur	21	comp:obj	_	end_char=332|start_char=324
+23	up	up	ADP	IN	_	21	udep@unmarked	_	end_char=335|start_char=333
+24	36	36	NUM	CD	NumForm=Digit|NumType=Card	25	mod	_	end_char=338|SpaceAfter=No|start_char=336
+25	%	%	SYM	NN	Number=Sing	23	comp:obj	_	end_char=339|start_char=338
+26	on	on	ADP	IN	_	21	udep	_	end_char=342|start_char=340
+27	last	last	ADJ	JJ	Degree=Pos	28	mod	_	end_char=347|start_char=343
+28	year	year	NOUN	NN	Number=Sing	26	comp:obj	_	end_char=352|SpaceAfter=No|start_char=348
+29	,	,	PUNCT	,	_	1	punct	_	end_char=353|start_char=352
+30	studies	study	NOUN	NNS	Number=Plur	31	subj	_	end_char=361|start_char=354
+31	suggest	suggest	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=369|start_char=362
+32	that	that	SCONJ	IN	_	31	comp:obj	_	end_char=374|start_char=370
+33	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	34	mod@poss	_	end_char=378|start_char=375
+34	expansion	expansion	NOUN	NN	Number=Sing	45	subj	_	end_char=388|start_char=379
+35	in	in	ADP	IN	_	34	udep	_	end_char=391|start_char=389
+36	the	the	DET	DT	Definite=Def|PronType=Art	37	det	_	end_char=395|start_char=392
+37	US	US	PROPN	NNP	Number=Sing	35	comp:obj	_	end_char=398|SpaceAfter=No|start_char=396
+38	,	,	PUNCT	,	_	39	punct	_	end_char=399|start_char=398
+39	UK	UK	PROPN	NNP	Abbr=Yes|Number=Sing	37	conj:coord	_	end_char=402|start_char=400
+40	and	and	CCONJ	CC	_	44	cc	_	end_char=406|start_char=403
+41	other	other	ADJ	JJ	Degree=Pos	44	mod	_	end_char=412|start_char=407
+42	major	major	ADJ	JJ	Degree=Pos	44	mod	_	end_char=418|start_char=413
+43	European	European	ADJ	JJ	Degree=Pos	44	mod	_	end_char=427|start_char=419
+44	countries	country	NOUN	NNS	Number=Plur	39	conj:coord	_	end_char=437|start_char=428
+45	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	comp:obj	_	end_char=441|start_char=438
+46	peaked	peak	VERB	VBN	Tense=Past|VerbForm=Part	45	comp:aux	_	end_char=448|SpaceAfter=No|start_char=442
+47	.	.	PUNCT	.	_	31	punct	_	end_char=449|start_char=448
+
+# text = In the last month, the world’s largest social network has lost 6m US visitors, a 4% fall, according to analysis firm Socialbakers.
+# sent_id = 2
+1	In	in	ADP	IN	_	12	udep	_	end_char=452|start_char=450
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	end_char=456|start_char=453
+3	last	last	ADJ	JJ	Degree=Pos	4	mod	_	end_char=461|start_char=457
+4	month	month	NOUN	NN	Number=Sing	1	comp:obj	_	end_char=467|SpaceAfter=No|start_char=462
+5	,	,	PUNCT	,	_	1	punct	_	end_char=468|start_char=467
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	end_char=472|start_char=469
+7-8	world’s	_	_	_	_	_	_	_	end_char=480|start_char=473
+7	world	world	NOUN	NN	Number=Sing	8	comp:obj	_	end_char=478|start_char=473
+8	’s	's	PART	POS	_	11	udep@poss	_	end_char=480|start_char=478
+9	largest	large	ADJ	JJS	Degree=Sup	11	mod	_	end_char=488|start_char=481
+10	social	social	ADJ	JJ	Degree=Pos	11	mod	_	end_char=495|start_char=489
+11	network	network	NOUN	NN	Number=Sing	12	subj	_	end_char=503|start_char=496
+12	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=507|start_char=504
+13	lost	lose	VERB	VBN	Tense=Past|VerbForm=Part	12	comp:aux	_	end_char=512|start_char=508
+14	6	6	NUM	CD	NumForm=Digit|NumType=Card	15	mod	_	end_char=514|SpaceAfter=No|start_char=513
+15	m	m	NOUN	NNS	Number=Plur	17	compound	_	end_char=515|start_char=514
+16	US	US	PROPN	NNP	Number=Sing	17	compound	_	end_char=518|start_char=516
+17	visitors	visitor	NOUN	NNS	Number=Plur	13	comp:obj	_	end_char=527|SpaceAfter=No|start_char=519
+18	,	,	PUNCT	,	_	22	punct	_	end_char=528|start_char=527
+19	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	end_char=530|start_char=529
+20	4	4	NUM	CD	NumForm=Digit|NumType=Card	21	mod	_	end_char=532|SpaceAfter=No|start_char=531
+21	%	%	SYM	NN	Number=Sing	22	compound	_	end_char=533|start_char=532
+22	fall	fall	NOUN	NN	Number=Sing	17	conj:appos	_	end_char=538|SpaceAfter=No|start_char=534
+23	,	,	PUNCT	,	_	24	punct	_	end_char=539|start_char=538
+24	according	accord	VERB	VBG	ExtPos=ADP|Tense=Pres|VerbForm=Part	13	udep	_	end_char=549|Idiom=Yes|start_char=540
+25	to	to	ADP	IN	_	24	unk	_	end_char=552|InIdiom=Yes|start_char=550
+26	analysis	analysis	NOUN	NN	Number=Sing	27	compound	_	end_char=561|start_char=553
+27	firm	firm	NOUN	NN	Number=Sing	28	compound	_	end_char=566|start_char=562
+28	Socialbakers	Socialbakers	PROPN	NNPS	Number=Plur	24	comp:obj	_	end_char=579|SpaceAfter=No|start_char=567
+29	.	.	PUNCT	.	_	12	punct	_	end_char=580|start_char=579
+
+# text = In the UK, 1.4m fewer users checked in in March, a fall of 4.5%.
+# sent_id = 3
+1	In	in	ADP	IN	_	9	udep	_	end_char=583|start_char=581
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	end_char=587|start_char=584
+3	UK	UK	PROPN	NNP	Abbr=Yes|Number=Sing	1	comp:obj	_	end_char=590|SpaceAfter=No|start_char=588
+4	,	,	PUNCT	,	_	1	punct	_	end_char=591|start_char=590
+5	1.4	1.4	NUM	CD	NumForm=Digit|NumType=Frac	6	mod	_	end_char=595|SpaceAfter=No|start_char=592
+6	m	m	NOUN	NNS	Number=Plur	9	udep@unmarked	_	end_char=596|start_char=595
+7	fewer	few	ADJ	JJR	Degree=Cmp	8	mod	_	end_char=602|start_char=597
+8	users	user	NOUN	NNS	Number=Plur	9	subj	_	end_char=608|start_char=603
+9	checked	check	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=616|start_char=609
+10	in	in	ADV	RB	_	9	mod	_	end_char=619|start_char=617
+11	in	in	ADP	IN	_	9	udep	_	end_char=622|start_char=620
+12	March	March	PROPN	NNP	Number=Sing	11	comp:obj	_	end_char=628|SpaceAfter=No|start_char=623
+13	,	,	PUNCT	,	_	15	punct	_	end_char=629|start_char=628
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	end_char=631|start_char=630
+15	fall	fall	NOUN	NN	Number=Sing	9	parataxis	_	end_char=636|start_char=632
+16	of	of	ADP	IN	_	15	udep	_	end_char=639|start_char=637
+17	4.5	4.5	NUM	CD	NumForm=Digit|NumType=Frac	18	mod	_	end_char=643|SpaceAfter=No|start_char=640
+18	%	%	SYM	NN	Number=Sing	16	comp:obj	_	end_char=644|SpaceAfter=No|start_char=643
+19	.	.	PUNCT	.	_	9	punct	_	end_char=645|start_char=644
+
+# text = The declines are sustained.
+# sent_id = 4
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	end_char=649|start_char=646
+2	declines	decline	NOUN	NNS	Number=Plur	3	subj@pass	_	end_char=658|start_char=650
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=662|start_char=659
+4	sustained	sustain	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	comp:aux@pass	_	end_char=672|SpaceAfter=No|start_char=663
+5	.	.	PUNCT	.	_	3	punct	_	end_char=673|start_char=672
+
+# text = In the last six months, Facebook has lost nearly 9m monthly visitors in the US and 2m in the UK.
+# sent_id = 5
+1	In	in	ADP	IN	_	8	udep	_	end_char=676|start_char=674
+2	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	end_char=680|start_char=677
+3	last	last	ADJ	JJ	Degree=Pos	5	mod	_	end_char=685|start_char=681
+4	six	six	NUM	CD	NumForm=Word|NumType=Card	5	mod	_	end_char=689|start_char=686
+5	months	month	NOUN	NNS	Number=Plur	1	comp:obj	_	end_char=696|SpaceAfter=No|start_char=690
+6	,	,	PUNCT	,	_	1	punct	_	end_char=697|start_char=696
+7	Facebook	Facebook	PROPN	NNP	Number=Sing	8	subj	_	end_char=706|start_char=698
+8	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=710|start_char=707
+9	lost	lose	VERB	VBN	Tense=Past|VerbForm=Part	8	comp:aux	_	end_char=715|start_char=711
+10	nearly	nearly	ADV	RB	_	11	mod	_	end_char=722|start_char=716
+11	9	9	NUM	CD	NumForm=Digit|NumType=Card	12	mod	_	end_char=724|SpaceAfter=No|start_char=723
+12	m	m	NOUN	NNS	Number=Plur	14	mod@unmarked	_	end_char=725|start_char=724
+13	monthly	monthly	ADJ	JJ	Degree=Pos	14	mod	_	end_char=733|start_char=726
+14	visitors	visitor	NOUN	NNS	Number=Plur	9	comp:obj	_	end_char=742|start_char=734
+15	in	in	ADP	IN	_	14	udep	_	end_char=745|start_char=743
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	end_char=749|start_char=746
+17	US	US	PROPN	NNP	Number=Sing	15	comp:obj	_	end_char=752|start_char=750
+18	and	and	CCONJ	CC	_	20	cc	_	end_char=756|start_char=753
+19	2	2	NUM	CD	NumForm=Digit|NumType=Card	20	mod	_	end_char=758|SpaceAfter=No|start_char=757
+20	m	m	NOUN	NNS	Number=Plur	14	conj:coord	_	end_char=759|start_char=758
+21	in	in	ADP	IN	Shared=No	20	udep	_	end_char=762|start_char=760
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	end_char=766|start_char=763
+23	UK	UK	PROPN	NNP	Abbr=Yes|Number=Sing	21	comp:obj	_	end_char=769|SpaceAfter=No|start_char=767
+24	.	.	PUNCT	.	_	8	punct	_	end_char=770|SpacesAfter=\s\n|start_char=769
+
+# text = Users are also switching off in Canada, Spain, France, Germany and Japan, where Facebook has some of its biggest followings.
+# sent_id = 6
+1	Users	User	NOUN	NNS	Number=Plur	2	subj	_	end_char=777|start_char=772
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=781|start_char=778
+3	also	also	ADV	RB	_	2	mod	_	end_char=786|start_char=782
+4	switching	switch	VERB	VBG	Tense=Pres|VerbForm=Part	2	comp:aux	_	end_char=796|start_char=787
+5	off	off	ADP	RP	_	4	compound@prt	_	end_char=800|start_char=797
+6	in	in	ADP	IN	_	4	udep	_	end_char=803|start_char=801
+7	Canada	Canada	PROPN	NNP	Number=Sing	6	comp:obj	_	end_char=810|SpaceAfter=No|start_char=804
+8	,	,	PUNCT	,	_	9	punct	_	end_char=811|start_char=810
+9	Spain	Spain	PROPN	NNP	Number=Sing	7	conj:coord	_	end_char=817|SpaceAfter=No|start_char=812
+10	,	,	PUNCT	,	_	11	punct	_	end_char=818|start_char=817
+11	France	France	PROPN	NNP	Number=Sing	9	conj:coord	_	end_char=825|SpaceAfter=No|start_char=819
+12	,	,	PUNCT	,	_	13	punct	_	end_char=826|start_char=825
+13	Germany	Germany	PROPN	NNP	Number=Sing	11	conj:coord	_	end_char=834|start_char=827
+14	and	and	CCONJ	CC	_	15	cc	_	end_char=838|start_char=835
+15	Japan	Japan	PROPN	NNP	Number=Sing	13	conj:coord	_	end_char=844|SpaceAfter=No|start_char=839
+16	,	,	PUNCT	,	_	19	punct	_	end_char=845|start_char=844
+17	where	where	ADV	WRB	PronType=Rel	19	mod	_	end_char=851|start_char=846
+18	Facebook	Facebook	PROPN	NNP	Number=Sing	19	subj	_	end_char=860|start_char=852
+19	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Shared=Yes|Tense=Pres|VerbForm=Fin	15	mod@relcl	_	end_char=864|start_char=861
+20	some	some	DET	DT	PronType=Ind	19	comp:obj	_	end_char=869|start_char=865
+21	of	of	ADP	IN	_	20	udep	_	end_char=872|start_char=870
+22	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	mod@poss	_	end_char=876|start_char=873
+23	biggest	big	ADJ	JJS	Degree=Sup	24	mod	_	end_char=884|start_char=877
+24	followings	following	NOUN	NNS	Number=Plur	21	comp:obj	_	end_char=895|SpaceAfter=No|start_char=885
+25	.	.	PUNCT	.	_	2	punct	_	end_char=896|start_char=895
+
+# text = A spokeswoman for Facebook declined to comment.
+# sent_id = 7
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	end_char=898|start_char=897
+2	spokeswoman	spokeswoman	NOUN	NN	Number=Sing	5	subj	_	end_char=910|start_char=899
+3	for	for	ADP	IN	_	2	udep	_	end_char=914|start_char=911
+4	Facebook	Facebook	PROPN	NNP	Number=Sing	3	comp:obj	_	end_char=923|start_char=915
+5	declined	decline	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=932|start_char=924
+6	to	to	PART	TO	_	5	comp:obl	_	end_char=935|start_char=933
+7	comment	comment	VERB	VB	VerbForm=Inf	6	comp:obj	_	end_char=943|SpaceAfter=No|start_char=936|Subject=SubjRaising
+8	.	.	PUNCT	.	_	5	punct	_	end_char=944|SpacesAfter=\s\n|start_char=943
+
+# text = “The problem is that, in the US and UK, most people who want to sign up for Facebook have already done it,” said new media specialist Ian Maude at Enders Analysis.
+# sent_id = 8
+1	“	''	PUNCT	``	_	4	punct	_	end_char=947|SpaceAfter=No|start_char=946
+2	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	end_char=950|start_char=947
+3	problem	problem	NOUN	NN	Number=Sing	4	subj	_	end_char=958|start_char=951
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	comp:obj	_	end_char=961|start_char=959
+5	that	that	SCONJ	IN	_	4	comp:pred	_	end_char=966|SpaceAfter=No|start_char=962
+6	,	,	PUNCT	,	_	5	punct	_	end_char=967|start_char=966
+7	in	in	ADP	IN	_	22	udep	_	end_char=970|start_char=968
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	end_char=974|start_char=971
+9	US	US	PROPN	NNP	Number=Sing	7	comp:obj	_	end_char=977|start_char=975
+10	and	and	CCONJ	CC	_	11	cc	_	end_char=981|start_char=978
+11	UK	UK	PROPN	NNP	Number=Sing	9	conj:coord	_	end_char=984|SpaceAfter=No|start_char=982
+12	,	,	PUNCT	,	_	7	punct	_	end_char=985|start_char=984
+13	most	most	ADJ	JJS	Degree=Sup	14	mod	_	end_char=990|start_char=986
+14	people	person	NOUN	NNS	Number=Plur	22	subj	_	end_char=997|start_char=991
+15	who	who	PRON	WP	PronType=Rel	16	subj	_	end_char=1001|start_char=998
+16	want	want	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	mod@relcl	_	end_char=1006|start_char=1002
+17	to	to	PART	TO	_	16	comp:obl	_	end_char=1009|start_char=1007
+18	sign	sign	VERB	VB	VerbForm=Inf	17	comp:obj	_	end_char=1014|start_char=1010|Subject=SubjRaising
+19	up	up	ADP	RP	_	18	compound@prt	_	end_char=1017|start_char=1015
+20	for	for	ADP	IN	_	18	udep	_	end_char=1021|start_char=1018
+21	Facebook	Facebook	PROPN	NNP	Number=Sing	20	comp:obj	_	end_char=1030|start_char=1022
+22	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	comp:obj	_	end_char=1035|start_char=1031
+23	already	already	ADV	RB	_	22	mod	_	end_char=1043|start_char=1036
+24	done	do	VERB	VBN	Tense=Past|VerbForm=Part	22	comp:aux	_	end_char=1048|start_char=1044
+25	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	comp:obj	_	end_char=1051|SpaceAfter=No|start_char=1049
+26	,	,	PUNCT	,	_	4	punct	_	end_char=1052|SpaceAfter=No|start_char=1051
+27	”	''	PUNCT	''	_	4	punct	_	end_char=1053|start_char=1052
+28	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1058|start_char=1054
+29	new	new	ADJ	JJ	Degree=Pos	31	mod	_	end_char=1062|start_char=1059
+30	media	media	NOUN	NN	Number=Sing	31	compound	_	end_char=1068|start_char=1063
+31	specialist	specialist	NOUN	NN	Number=Sing	28	subj	_	end_char=1079|start_char=1069
+32	Ian	Ian	PROPN	NNP	Number=Sing	31	conj:appos	_	end_char=1083|start_char=1080
+33	Maude	Maude	PROPN	NNP	Number=Sing	32	flat	_	end_char=1089|start_char=1084
+34	at	at	ADP	IN	_	32	udep	_	end_char=1092|start_char=1090
+35	Enders	Enders	PROPN	NNP	Number=Sing	36	compound	_	end_char=1099|start_char=1093
+36	Analysis	Analysis	PROPN	NNP	Number=Sing	34	comp:obj	_	end_char=1108|SpaceAfter=No|start_char=1100
+37	.	.	PUNCT	.	_	28	punct	_	end_char=1109|start_char=1108
+
+# text = “There is a boredom factor where people like to try something new.
+# sent_id = 9
+1	“	''	PUNCT	``	_	3	punct	_	end_char=1111|SpaceAfter=No|start_char=1110
+2	There	there	PRON	EX	PronType=Dem	3	comp@expl	_	end_char=1116|start_char=1111
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=1119|start_char=1117
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	end_char=1121|start_char=1120
+5	boredom	boredom	NOUN	NN	Number=Sing	6	compound	_	end_char=1129|start_char=1122
+6	factor	factor	NOUN	NN	Number=Sing	3	subj	_	end_char=1136|start_char=1130
+7	where	where	ADV	WRB	PronType=Rel	9	mod	_	end_char=1142|start_char=1137
+8	people	person	NOUN	NNS	Number=Plur	9	subj	_	end_char=1149|start_char=1143
+9	like	like	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	mod@relcl	_	end_char=1154|start_char=1150
+10	to	to	PART	TO	_	9	comp:obl	_	end_char=1157|start_char=1155
+11	try	try	VERB	VB	VerbForm=Inf	10	comp:obj	_	end_char=1161|start_char=1158|Subject=SubjRaising
+12	something	something	PRON	NN	Number=Sing|PronType=Ind	11	comp:obj	_	end_char=1171|start_char=1162
+13	new	new	ADJ	JJ	Degree=Pos	12	mod	_	end_char=1175|SpaceAfter=No|start_char=1172
+14	.	.	PUNCT	.	_	3	punct	_	end_char=1176|start_char=1175
+
+# text = Is Facebook going to go the way of MySpace?
+# sent_id = 10
+1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=1179|start_char=1177
+2	Facebook	Facebook	PROPN	NNP	Number=Sing	1	subj	_	end_char=1188|start_char=1180
+3	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	1	comp:aux	_	end_char=1194|start_char=1189
+4	to	to	PART	TO	_	3	comp:obl	_	end_char=1197|start_char=1195
+5	go	go	VERB	VB	VerbForm=Inf	4	comp:obj	_	end_char=1200|start_char=1198|Subject=SubjRaising
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	end_char=1204|start_char=1201
+7	way	way	NOUN	NN	Number=Sing	5	comp:obj	_	end_char=1208|start_char=1205
+8	of	of	ADP	IN	_	7	udep	_	end_char=1211|start_char=1209
+9	MySpace	MySpace	PROPN	NNP	Number=Sing	8	comp:obj	_	end_char=1219|SpaceAfter=No|start_char=1212
+10	?	?	PUNCT	.	_	1	punct	_	end_char=1220|start_char=1219
+
+# text = The risk is relatively small, but that is not to say it isn’t there.”
+# sent_id = 11
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	end_char=1224|start_char=1221
+2	risk	risk	NOUN	NN	Number=Sing|Shared=No	3	subj	_	end_char=1229|start_char=1225
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=1232|start_char=1230
+4	relatively	relatively	ADV	RB	_	3	mod	_	end_char=1243|start_char=1233
+5	small	small	ADJ	JJ	Degree=Pos	3	comp:pred	_	end_char=1249|SpaceAfter=No|start_char=1244
+6	,	,	PUNCT	,	_	9	punct	_	end_char=1250|start_char=1249
+7	but	but	CCONJ	CC	_	9	cc	_	end_char=1254|start_char=1251
+8	that	that	PRON	DT	Number=Sing|PronType=Dem	9	subj	_	end_char=1259|start_char=1255
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj:coord	_	end_char=1262|start_char=1260
+10	not	not	PART	RB	Polarity=Neg|Shared=No	9	mod	_	end_char=1266|start_char=1263
+11	to	to	PART	TO	Shared=No	9	comp:pred	_	end_char=1269|start_char=1267
+12	say	say	VERB	VB	VerbForm=Inf	11	comp:obj	_	end_char=1273|start_char=1270
+13	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	subj	_	end_char=1276|start_char=1274
+14-15	isn’t	_	_	_	_	_	_	_	end_char=1282|start_char=1277
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	comp:obj	_	end_char=1279|start_char=1277
+15	n’t	not	PART	RB	Polarity=Neg	14	mod	_	end_char=1282|start_char=1279
+16	there	there	ADV	RB	PronType=Dem	14	comp:pred	_	end_char=1288|SpaceAfter=No|start_char=1283
+17	.	.	PUNCT	.	_	3	punct	_	end_char=1289|SpaceAfter=No|start_char=1288
+18	”	''	PUNCT	''	_	3	punct	_	end_char=1290|start_char=1289
+
+# text = Alternative social networks such as Instagram, the photo-sharing site that won 30m users in 18 months before Facebook acquired the business, have seen surges in popularity with younger age groups.
+# sent_id = 12
+1	Alternative	alternative	ADJ	JJ	Degree=Pos	3	mod	_	end_char=1302|start_char=1291
+2	social	social	ADJ	JJ	Degree=Pos	3	mod	_	end_char=1309|start_char=1303
+3	networks	network	NOUN	NNS	Number=Plur	27	subj	_	end_char=1318|start_char=1310
+4	such	such	ADJ	JJ	ExtPos=ADP	3	udep	_	end_char=1323|Idiom=Yes|start_char=1319
+5	as	as	ADP	IN	_	4	unk	_	end_char=1326|InIdiom=Yes|start_char=1324
+6	Instagram	Instagram	PROPN	NNP	Number=Sing	4	comp:obj	_	end_char=1336|SpaceAfter=No|start_char=1327
+7	,	,	PUNCT	,	_	12	punct	_	end_char=1337|start_char=1336
+8	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	end_char=1341|start_char=1338
+9	photo	photo	NOUN	NN	Number=Sing	11	compound	_	end_char=1347|SpaceAfter=No|start_char=1342
+10	-	-	PUNCT	HYPH	_	9	punct	_	end_char=1348|SpaceAfter=No|start_char=1347
+11	sharing	sharing	NOUN	NN	Number=Sing	12	compound	_	end_char=1355|start_char=1348
+12	site	site	NOUN	NN	Number=Sing	6	conj:appos	_	end_char=1360|start_char=1356
+13	that	that	PRON	WDT	PronType=Rel	14	subj	_	end_char=1365|start_char=1361
+14	won	win	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	mod@relcl	_	end_char=1369|start_char=1366
+15	30	30	NUM	CD	NumForm=Digit|NumType=Card	16	mod	_	end_char=1372|SpaceAfter=No|start_char=1370
+16	m	m	NOUN	NNS	Number=Plur	17	compound	_	end_char=1373|start_char=1372
+17	users	user	NOUN	NNS	Number=Plur	14	comp:obj	_	end_char=1379|start_char=1374
+18	in	in	ADP	IN	_	14	udep	_	end_char=1382|start_char=1380
+19	18	18	NUM	CD	NumForm=Digit|NumType=Card	20	mod	_	end_char=1385|start_char=1383
+20	months	month	NOUN	NNS	Number=Plur	18	comp:obj	_	end_char=1392|start_char=1386
+21	before	before	SCONJ	IN	_	14	mod	_	end_char=1399|start_char=1393
+22	Facebook	Facebook	PROPN	NNP	Number=Sing	23	subj	_	end_char=1408|start_char=1400
+23	acquired	acquire	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	comp:obj	_	end_char=1417|start_char=1409
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	end_char=1421|start_char=1418
+25	business	business	NOUN	NN	Number=Sing	23	comp:obj	_	end_char=1430|SpaceAfter=No|start_char=1422
+26	,	,	PUNCT	,	_	3	punct	_	end_char=1431|start_char=1430
+27	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=1436|start_char=1432
+28	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	27	comp:aux	_	end_char=1441|start_char=1437
+29	surges	surge	NOUN	NNS	Number=Plur	28	comp:obj	_	end_char=1448|start_char=1442
+30	in	in	ADP	IN	_	29	udep	_	end_char=1451|start_char=1449
+31	popularity	popularity	NOUN	NN	Number=Sing	30	comp:obj	_	end_char=1462|start_char=1452
+32	with	with	ADP	IN	_	28	udep	_	end_char=1467|start_char=1463
+33	younger	young	ADJ	JJR	Degree=Cmp	35	mod	_	end_char=1475|start_char=1468
+34	age	age	NOUN	NN	Number=Sing	35	compound	_	end_char=1479|start_char=1476
+35	groups	group	NOUN	NNS	Number=Plur	32	comp:obj	_	end_char=1486|SpaceAfter=No|start_char=1480
+36	.	.	PUNCT	.	_	27	punct	_	end_char=1487|SpacesAfter=\s\n|start_char=1486
+
+# text = Path, the mobile phone-based social network founded by former Facebook employee Dave Morin, which restricts its users to 150 friends, is gaining 1m users a week.
+# sent_id = 13
+1	Path	Path	PROPN	NNP	Number=Sing	26	subj	_	end_char=1493|SpaceAfter=No|start_char=1489
+2	,	,	PUNCT	,	_	9	punct	_	end_char=1494|start_char=1493
+3	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	end_char=1498|start_char=1495
+4	mobile	mobile	ADJ	JJ	Degree=Pos	9	mod	_	end_char=1505|start_char=1499
+5	phone	phone	NOUN	NN	Number=Sing	7	udep@unmarked	_	end_char=1511|SpaceAfter=No|start_char=1506
+6	-	-	PUNCT	HYPH	_	5	punct	_	end_char=1512|SpaceAfter=No|start_char=1511
+7	based	base	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	mod	_	end_char=1517|start_char=1512
+8	social	social	ADJ	JJ	Degree=Pos	9	mod	_	end_char=1524|start_char=1518
+9	network	network	NOUN	NN	Number=Sing	1	conj:appos	_	end_char=1532|start_char=1525
+10	founded	found	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	mod	_	end_char=1540|start_char=1533
+11	by	by	ADP	IN	_	10	comp:obl@agent	_	end_char=1543|start_char=1541
+12	former	former	ADJ	JJ	Degree=Pos	14	mod	_	end_char=1550|start_char=1544
+13	Facebook	Facebook	PROPN	NNP	Number=Sing	14	compound	_	end_char=1559|start_char=1551
+14	employee	employee	NOUN	NN	Number=Sing	11	comp:obj	_	end_char=1568|start_char=1560
+15	Dave	Dave	PROPN	NNP	Number=Sing	14	conj:appos	_	end_char=1573|start_char=1569
+16	Morin	Morin	PROPN	NNP	Number=Sing	15	flat	_	end_char=1579|SpaceAfter=No|start_char=1574
+17	,	,	PUNCT	,	_	19	punct	_	end_char=1580|start_char=1579
+18	which	which	PRON	WDT	PronType=Rel	19	subj	_	end_char=1586|start_char=1581
+19	restricts	restrict	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	mod@relcl	_	end_char=1596|start_char=1587
+20	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	mod@poss	_	end_char=1600|start_char=1597
+21	users	user	NOUN	NNS	Number=Plur	19	comp:obj	_	end_char=1606|start_char=1601
+22	to	to	ADP	IN	_	19	udep	_	end_char=1609|start_char=1607
+23	150	150	NUM	CD	NumForm=Digit|NumType=Card	24	mod	_	end_char=1613|start_char=1610
+24	friends	friend	NOUN	NNS	Number=Plur	22	comp:obj	_	end_char=1621|SpaceAfter=No|start_char=1614
+25	,	,	PUNCT	,	_	1	punct	_	end_char=1622|start_char=1621
+26	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=1625|start_char=1623
+27	gaining	gain	VERB	VBG	Tense=Pres|VerbForm=Part	26	comp:aux	_	end_char=1633|start_char=1626
+28	1m	1m	NUM	CD	NumForm=Digit|NumType=Card	29	mod	_	end_char=1636|start_char=1634
+29	users	user	NOUN	NNS	Number=Plur	27	comp:obj	_	end_char=1642|start_char=1637
+30	a	a	DET	DT	Definite=Ind|PronType=Art	31	det	_	end_char=1644|start_char=1643
+31	week	week	NOUN	NN	Number=Sing	27	udep@unmarked	_	end_char=1649|SpaceAfter=No|start_char=1645
+32	.	.	PUNCT	.	_	26	punct	_	end_char=1650|start_char=1649
+
+# text = It has recently topped 9m users, with 500,000 Venezuelans downloading the app in a single weekend.
+# sent_id = 14
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=1653|start_char=1651
+2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=1657|start_char=1654
+3	recently	recently	ADV	RB	_	2	mod	_	end_char=1666|start_char=1658
+4	topped	top	VERB	VBN	Tense=Past|VerbForm=Part	2	comp:aux	_	end_char=1673|start_char=1667
+5	9m	9m	NUM	CD	NumForm=Digit|NumType=Card	6	mod	_	end_char=1676|start_char=1674
+6	users	user	NOUN	NNS	Number=Plur	4	comp:obj	_	end_char=1682|SpaceAfter=No|start_char=1677
+7	,	,	PUNCT	,	_	8	punct	_	end_char=1683|start_char=1682
+8	with	with	SCONJ	IN	_	2	mod	_	end_char=1688|start_char=1684
+9	500,000	500000	NUM	CD	NumForm=Digit|NumType=Card	10	mod	_	end_char=1696|start_char=1689
+10	Venezuelans	Venezuelans	PROPN	NNPS	Number=Plur	11	subj	_	end_char=1708|start_char=1697
+11	downloading	downloading	VERB	VBG	VerbForm=Ger	8	comp:obj	_	end_char=1720|start_char=1709
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	end_char=1724|start_char=1721
+13	app	app	NOUN	NN	Number=Sing	11	comp:obj	_	end_char=1728|start_char=1725
+14	in	in	ADP	IN	_	11	udep	_	end_char=1731|start_char=1729
+15	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	end_char=1733|start_char=1732
+16	single	single	ADJ	JJ	Degree=Pos	17	mod	_	end_char=1740|start_char=1734
+17	weekend	weekend	NOUN	NN	Number=Sing	14	comp:obj	_	end_char=1748|SpaceAfter=No|start_char=1741
+18	.	.	PUNCT	.	_	2	punct	_	end_char=1749|SpacesAfter=\s\n|start_char=1748
+
+# text = Facebook is still growing fast in South America.
+# sent_id = 15
+1	Facebook	Facebook	PROPN	NNP	Number=Sing	2	subj	_	end_char=1759|start_char=1751
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=1762|start_char=1760
+3	still	still	ADV	RB	_	2	mod	_	end_char=1768|start_char=1763
+4	growing	grow	VERB	VBG	Tense=Pres|VerbForm=Part	2	comp:aux	_	end_char=1776|start_char=1769
+5	fast	fast	ADV	RB	Degree=Pos	4	mod	_	end_char=1781|start_char=1777
+6	in	in	ADP	IN	_	4	udep	_	end_char=1784|start_char=1782
+7	South	South	PROPN	NNP	Number=Sing	8	compound	_	end_char=1790|start_char=1785
+8	America	America	PROPN	NNP	Number=Sing	6	comp:obj	_	end_char=1798|SpaceAfter=No|start_char=1791
+9	.	.	PUNCT	.	_	2	punct	_	end_char=1799|start_char=1798
+
+# text = Monthly visitors in Brazil were up 6% in the last month to 70m, according to Socialbakers, whose information is used by Facebook advertisers.
+# sent_id = 16
+1	Monthly	monthly	ADJ	JJ	Degree=Pos	2	mod	_	end_char=1807|start_char=1800
+2	visitors	visitor	NOUN	NNS	Number=Plur	5	subj	_	end_char=1816|start_char=1808
+3	in	in	ADP	IN	_	2	udep	_	end_char=1819|start_char=1817
+4	Brazil	Brazil	PROPN	NNP	Number=Sing	3	comp:obj	_	end_char=1826|start_char=1820
+5	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1831|start_char=1827
+6	up	up	ADV	RB	_	5	comp:pred	_	end_char=1834|start_char=1832
+7	6	6	NUM	CD	NumForm=Digit|NumType=Card	8	mod	_	end_char=1836|SpaceAfter=No|start_char=1835
+8	%	%	SYM	NN	Number=Sing	6	udep@unmarked	_	end_char=1837|start_char=1836
+9	in	in	ADP	IN	_	6	udep	_	end_char=1840|start_char=1838
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	end_char=1844|start_char=1841
+11	last	last	ADJ	JJ	Degree=Pos	12	mod	_	end_char=1849|start_char=1845
+12	month	month	NOUN	NN	Number=Sing	9	comp:obj	_	end_char=1855|start_char=1850
+13	to	to	ADP	IN	_	6	udep	_	end_char=1858|start_char=1856
+14	70	70	NUM	CD	NumForm=Digit|NumType=Card	15	mod	_	end_char=1861|SpaceAfter=No|start_char=1859
+15	m	m	NOUN	NNS	Number=Plur	13	comp:obj	_	end_char=1862|SpaceAfter=No|start_char=1861
+16	,	,	PUNCT	,	_	17	punct	_	end_char=1863|start_char=1862
+17	according	accord	VERB	VBG	ExtPos=ADP|Tense=Pres|VerbForm=Part	6	udep	_	end_char=1873|Idiom=Yes|start_char=1864
+18	to	to	ADP	IN	_	17	unk	_	end_char=1876|InIdiom=Yes|start_char=1874
+19	Socialbakers	Socialbakers	PROPN	NNPS	Number=Plur	17	comp:obj	_	end_char=1889|SpaceAfter=No|start_char=1877
+20	,	,	PUNCT	,	_	23	punct	_	end_char=1890|start_char=1889
+21	whose	whose	PRON	WP$	Poss=Yes|PronType=Rel	22	mod@poss	_	end_char=1896|start_char=1891
+22	information	information	NOUN	NN	Number=Sing	23	subj@pass	_	end_char=1908|start_char=1897
+23	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	mod@relcl	_	end_char=1911|start_char=1909
+24	used	use	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	23	comp:aux@pass	_	end_char=1916|start_char=1912
+25	by	by	ADP	IN	_	24	comp:obl@agent	_	end_char=1919|start_char=1917
+26	Facebook	Facebook	PROPN	NNP	Number=Sing	27	compound	_	end_char=1928|start_char=1920
+27	advertisers	advertiser	NOUN	NNS	Number=Plur	25	comp:obj	_	end_char=1940|SpaceAfter=No|start_char=1929
+28	.	.	PUNCT	.	_	5	punct	_	end_char=1941|start_char=1940
+
+# text = India has seen a 4% rise to 64m – still a fraction of the country’s population, leaving room for further growth.
+# sent_id = 17
+1	India	India	PROPN	NNP	Number=Sing	2	subj	_	end_char=1947|start_char=1942
+2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=1951|start_char=1948
+3	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	2	comp:aux	_	end_char=1956|start_char=1952
+4	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	end_char=1958|start_char=1957
+5	4	4	NUM	CD	NumForm=Digit|NumType=Card	6	mod	_	end_char=1960|SpaceAfter=No|start_char=1959
+6	%	%	SYM	NN	Number=Sing	7	compound	_	end_char=1961|start_char=1960
+7	rise	rise	NOUN	NN	Number=Sing	3	comp:obj	_	end_char=1966|start_char=1962
+8	to	to	ADP	IN	_	7	udep	_	end_char=1969|start_char=1967
+9	64	64	NUM	CD	NumForm=Digit|NumType=Card	10	mod	_	end_char=1972|SpaceAfter=No|start_char=1970
+10	m	m	NOUN	NNS	Number=Plur	8	comp:obj	_	end_char=1973|start_char=1972
+11	–	-	PUNCT	:	_	14	punct	_	end_char=1975|start_char=1974
+12	still	still	ADV	RB	_	14	mod	_	end_char=1981|start_char=1976
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	end_char=1983|start_char=1982
+14	fraction	fraction	NOUN	NN	Number=Sing	7	conj:appos	_	end_char=1992|start_char=1984
+15	of	of	ADP	IN	_	14	udep	_	end_char=1995|start_char=1993
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	end_char=1999|start_char=1996
+17-18	country’s	_	_	_	_	_	_	_	end_char=2009|start_char=2000
+17	country	country	NOUN	NN	Number=Sing	18	comp:obj	_	end_char=2007|start_char=2000
+18	’s	's	PART	POS	_	19	udep@poss	_	end_char=2009|start_char=2007
+19	population	population	NOUN	NN	Number=Sing	15	comp:obj	_	end_char=2020|SpaceAfter=No|start_char=2010
+20	,	,	PUNCT	,	_	21	punct	_	end_char=2021|start_char=2020
+21	leaving	leave	VERB	VBG	Tense=Pres|VerbForm=Part	2	mod	_	end_char=2029|start_char=2022
+22	room	room	NOUN	NN	Number=Sing	21	comp:obj	_	end_char=2034|start_char=2030
+23	for	for	ADP	IN	_	21	udep	_	end_char=2038|start_char=2035
+24	further	further	ADJ	JJ	Degree=Cmp	25	mod	_	end_char=2046|start_char=2039
+25	growth	growth	NOUN	NN	Number=Sing	23	comp:obj	_	end_char=2053|SpaceAfter=No|start_char=2047
+26	.	.	PUNCT	.	_	2	punct	_	end_char=2054|SpacesAfter=\s\n|start_char=2053
+
+# text = But in developed markets, other Facebook trackers are reporting declines.
+# sent_id = 18
+1	But	but	CCONJ	CC	_	9	cc	_	end_char=2059|start_char=2056
+2	in	in	ADP	IN	_	9	udep	_	end_char=2062|start_char=2060
+3	developed	develop	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	mod	_	end_char=2072|start_char=2063
+4	markets	market	NOUN	NNS	Number=Plur	2	comp:obj	_	end_char=2080|SpaceAfter=No|start_char=2073
+5	,	,	PUNCT	,	_	2	punct	_	end_char=2081|start_char=2080
+6	other	other	ADJ	JJ	Degree=Pos	8	mod	_	end_char=2087|start_char=2082
+7	Facebook	Facebook	PROPN	NNP	Number=Sing	8	compound	_	end_char=2096|start_char=2088
+8	trackers	tracker	NOUN	NNS	Number=Plur	9	subj	_	end_char=2105|start_char=2097
+9	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=2109|start_char=2106
+10	reporting	report	VERB	VBG	Tense=Pres|VerbForm=Part	9	comp:aux	_	end_char=2119|start_char=2110
+11	declines	decline	NOUN	NNS	Number=Plur	10	comp:obj	_	end_char=2128|SpaceAfter=No|start_char=2120
+12	.	.	PUNCT	.	_	9	punct	_	end_char=2129|start_char=2128
+
+# text = Analysts at Jefferies bank have developed an algorithm that interfaces directly with Facebook software and it “suggests user levels in [the first quarter] may have declined from peak”.
+# sent_id = 19
+1	Analysts	analyst	NOUN	NNS	Number=Plur|Shared=No	5	subj	_	end_char=2138|start_char=2130
+2	at	at	ADP	IN	_	1	udep	_	end_char=2141|start_char=2139
+3	Jefferies	Jefferies	PROPN	NNP	Number=Sing	4	compound	_	end_char=2151|start_char=2142
+4	bank	bank	NOUN	NN	Number=Sing	2	comp:obj	_	end_char=2156|start_char=2152
+5	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=2161|start_char=2157
+6	developed	develop	VERB	VBN	Tense=Past|VerbForm=Part	5	comp:aux	_	end_char=2171|start_char=2162
+7	an	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	end_char=2174|start_char=2172
+8	algorithm	algorithm	NOUN	NN	Number=Sing	6	comp:obj	_	end_char=2184|start_char=2175
+9	that	that	PRON	WDT	PronType=Rel	10	subj	_	end_char=2189|start_char=2185
+10	interfaces	interface	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	mod@relcl	_	end_char=2200|start_char=2190
+11	directly	directly	ADV	RB	_	10	mod	_	end_char=2209|start_char=2201
+12	with	with	ADP	IN	_	10	udep	_	end_char=2214|start_char=2210
+13	Facebook	Facebook	PROPN	NNP	Number=Sing	14	compound	_	end_char=2223|start_char=2215
+14	software	software	NOUN	NN	Number=Sing	12	comp:obj	_	end_char=2232|start_char=2224
+15	and	and	CCONJ	CC	_	18	cc	_	end_char=2236|start_char=2233
+16	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	subj	_	end_char=2239|start_char=2237
+17	“	''	PUNCT	''	_	16	punct	_	end_char=2241|SpaceAfter=No|start_char=2240
+18	suggests	suggest	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj:coord	_	end_char=2249|start_char=2241
+19	user	user	NOUN	NN	Number=Sing	20	compound	_	end_char=2254|start_char=2250
+20	levels	level	NOUN	NNS	Number=Plur	27	subj	_	end_char=2261|start_char=2255
+21	in	in	ADP	IN	_	20	udep	_	end_char=2264|start_char=2262
+22	[	[	PUNCT	-LRB-	_	25	punct	_	end_char=2266|SpaceAfter=No|start_char=2265
+23	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	end_char=2269|start_char=2266
+24	first	first	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	25	mod	_	end_char=2275|start_char=2270
+25	quarter	quarter	NOUN	NN	Number=Sing|NumForm=Word|NumType=Frac	21	comp:obj	_	end_char=2283|SpaceAfter=No|start_char=2276
+26	]	]	PUNCT	-RRB-	_	25	punct	_	end_char=2284|start_char=2283
+27	may	may	AUX	MD	Shared=No|VerbForm=Fin	18	comp:obj	_	end_char=2288|start_char=2285
+28	have	have	AUX	VB	VerbForm=Inf	27	comp:aux	_	end_char=2293|start_char=2289
+29	declined	decline	VERB	VBN	Tense=Past|VerbForm=Part	28	comp:aux	_	end_char=2302|start_char=2294
+30	from	from	ADP	IN	_	29	udep	_	end_char=2307|start_char=2303
+31	peak	peak	NOUN	NN	Number=Sing	30	comp:obj	_	end_char=2312|SpaceAfter=No|start_char=2308
+32	”	''	PUNCT	''	_	27	punct	_	end_char=2313|SpaceAfter=No|start_char=2312
+33	.	.	PUNCT	.	_	5	punct	_	end_char=2314|SpacesAfter=\s\n|start_char=2313
+
+# text = Jefferies saw global numbers peak at 1.05bn a month in January, before falling by 20m in February.
+# sent_id = 20
+1	Jefferies	Jefferies	PROPN	NNP	Number=Sing	2	subj	_	end_char=2325|start_char=2316
+2	saw	see	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=2329|start_char=2326
+3	global	global	ADJ	JJ	Degree=Pos	4	mod	_	end_char=2336|start_char=2330
+4	numbers	number	NOUN	NNS	Number=Plur	2	comp:obj	_	end_char=2344|start_char=2337
+5	peak	peak	VERB	VB	VerbForm=Inf	2	comp:obl	_	end_char=2349|start_char=2345|Subject=ObjRaising
+6	at	at	ADP	IN	_	5	udep	_	end_char=2352|start_char=2350
+7	1.05	1.05	NUM	CD	NumForm=Digit|NumType=Frac	8	mod	_	end_char=2357|SpaceAfter=No|start_char=2353
+8	bn	billion	NUM	CD	Abbr=Yes|NumForm=Word|NumType=Card	6	comp:obj	_	end_char=2359|start_char=2357
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	end_char=2361|start_char=2360
+10	month	month	NOUN	NN	Number=Sing	5	udep@unmarked	_	end_char=2367|start_char=2362
+11	in	in	ADP	IN	_	5	udep	_	end_char=2370|start_char=2368
+12	January	January	PROPN	NNP	Number=Sing	11	comp:obj	_	end_char=2378|SpaceAfter=No|start_char=2371
+13	,	,	PUNCT	,	_	14	punct	_	end_char=2379|start_char=2378
+14	before	before	SCONJ	IN	_	5	mod	_	end_char=2386|start_char=2380
+15	falling	fall	VERB	VBG	Tense=Pres|VerbForm=Part	14	comp:obj	_	end_char=2394|start_char=2387
+16	by	by	ADP	IN	_	15	udep	_	end_char=2397|start_char=2395
+17	20	20	NUM	CD	NumForm=Digit|NumType=Card	18	mod	_	end_char=2400|SpaceAfter=No|start_char=2398
+18	m	m	NOUN	NNS	Number=Plur	16	comp:obj	_	end_char=2401|start_char=2400
+19	in	in	ADP	IN	_	15	udep	_	end_char=2404|start_char=2402
+20	February	February	PROPN	NNP	Number=Sing	19	comp:obj	_	end_char=2413|SpaceAfter=No|start_char=2405
+21	.	.	PUNCT	.	_	2	punct	_	end_char=2414|start_char=2413
+
+# text = Numbers rose again in April.
+# sent_id = 21
+1	Numbers	number	NOUN	NNS	Number=Plur	2	subj	_	end_char=2422|start_char=2415
+2	rose	rise	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=2427|start_char=2423
+3	again	again	ADV	RB	_	2	mod	_	end_char=2433|start_char=2428
+4	in	in	ADP	IN	_	2	udep	_	end_char=2436|start_char=2434
+5	April	April	PROPN	NNP	Number=Sing	4	comp:obj	_	end_char=2442|SpaceAfter=No|start_char=2437
+6	.	.	PUNCT	.	_	2	punct	_	end_char=2443|start_char=2442
+
+# text = The network has now lost nearly 2m visitors in the UK since December, according to research firm Nielsen, with its 27m total flat on a year before.
+# sent_id = 22
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	end_char=2447|start_char=2444
+2	network	network	NOUN	NN	Number=Sing	3	subj	_	end_char=2455|start_char=2448
+3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=2459|start_char=2456
+4	now	now	ADV	RB	_	3	mod	_	end_char=2463|start_char=2460
+5	lost	lose	VERB	VBN	Tense=Past|VerbForm=Part	3	comp:aux	_	end_char=2468|start_char=2464
+6	nearly	nearly	ADV	RB	_	7	mod	_	end_char=2475|start_char=2469
+7	2	2	NUM	CD	NumForm=Digit|NumType=Card	8	mod	_	end_char=2477|SpaceAfter=No|start_char=2476
+8	m	m	NOUN	NN	Number=Plur	9	compound	_	end_char=2478|start_char=2477
+9	visitors	visitor	NOUN	NNS	Number=Plur	5	comp:obj	_	end_char=2487|start_char=2479
+10	in	in	ADP	IN	_	5	udep	_	end_char=2490|start_char=2488
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	end_char=2494|start_char=2491
+12	UK	UK	PROPN	NNP	Abbr=Yes|Number=Sing	10	comp:obj	_	end_char=2497|start_char=2495
+13	since	since	ADP	IN	_	5	udep	_	end_char=2503|start_char=2498
+14	December	December	PROPN	NNP	Number=Sing	13	comp:obj	_	end_char=2512|SpaceAfter=No|start_char=2504
+15	,	,	PUNCT	,	_	16	punct	_	end_char=2513|start_char=2512
+16	according	accord	VERB	VBG	ExtPos=ADP|Tense=Pres|VerbForm=Part	5	udep	_	end_char=2523|Idiom=Yes|start_char=2514
+17	to	to	ADP	IN	_	16	unk	_	end_char=2526|InIdiom=Yes|start_char=2524
+18	research	research	NOUN	NN	Number=Sing	19	compound	_	end_char=2535|start_char=2527
+19	firm	firm	NOUN	NN	Number=Sing	16	comp:obj	_	end_char=2540|start_char=2536
+20	Nielsen	Nielsen	PROPN	NNP	Number=Sing	19	conj:appos	_	end_char=2548|SpaceAfter=No|start_char=2541
+21	,	,	PUNCT	,	_	22	punct	_	end_char=2549|start_char=2548
+22	with	with	ADP	IN	_	19	udep	_	end_char=2554|start_char=2550
+23	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	mod@poss	_	end_char=2558|start_char=2555
+24	27	27	NUM	CD	NumForm=Digit|NumType=Card	25	mod	_	end_char=2561|SpaceAfter=No|start_char=2559
+25	m	m	NOUN	NN	Number=Sing	27	compound	_	end_char=2562|start_char=2561
+26	total	total	ADJ	JJ	Degree=Pos	27	mod	_	end_char=2568|start_char=2563
+27	flat	flat	NOUN	NN	Number=Sing	22	comp:obj	_	end_char=2573|start_char=2569
+28	on	on	ADP	IN	_	27	udep	_	end_char=2576|start_char=2574
+29	a	a	DET	DT	Definite=Ind|PronType=Art	30	det	_	end_char=2578|start_char=2577
+30	year	year	NOUN	NN	Number=Sing	31	udep@unmarked	_	end_char=2583|start_char=2579
+31	before	before	ADV	RB	_	28	comp:obj	_	end_char=2590|SpaceAfter=No|start_char=2584
+32	.	.	PUNCT	.	_	3	punct	_	end_char=2591|SpacesAfter=\s\n|start_char=2590
+
+# text = The number of minutes Americans spend on Facebook appears to be falling, too.
+# sent_id = 23
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	end_char=2596|start_char=2593
+2	number	number	NOUN	NN	Number=Sing	9	subj	_	end_char=2603|start_char=2597
+3	of	of	ADP	IN	_	2	udep	_	end_char=2606|start_char=2604
+4	minutes	minute	NOUN	NNS	Number=Plur	3	comp:obj	_	end_char=2614|start_char=2607
+5	Americans	American	PROPN	NNPS	Number=Plur	6	subj	_	end_char=2624|start_char=2615
+6	spend	spend	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	mod@relcl	_	end_char=2630|start_char=2625
+7	on	on	ADP	IN	_	6	udep	_	end_char=2633|start_char=2631
+8	Facebook	Facebook	PROPN	NNP	Number=Sing	7	comp:obj	_	end_char=2642|start_char=2634
+9	appears	appear	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=2650|start_char=2643
+10	to	to	PART	TO	_	9	comp:pred	_	end_char=2653|start_char=2651
+11	be	be	AUX	VB	VerbForm=Inf	10	comp:obj	_	end_char=2656|start_char=2654|Subject=SubjRaising
+12	falling	fall	VERB	VBG	Tense=Pres|VerbForm=Part	11	comp:aux	_	end_char=2664|SpaceAfter=No|start_char=2657
+13	,	,	PUNCT	,	_	14	punct	_	end_char=2665|start_char=2664
+14	too	too	ADV	RB	_	9	mod	_	end_char=2669|SpaceAfter=No|start_char=2666
+15	.	.	PUNCT	.	_	9	punct	_	end_char=2670|start_char=2669
+
+# text = The total was 121 billion minutes in December 2012, but that fell to 115 billion minutes in February, according to comScore.
+# sent_id = 24
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	end_char=2674|start_char=2671
+2	total	total	NOUN	NN	Number=Sing|Shared=No	3	subj	_	end_char=2680|start_char=2675
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=2684|start_char=2681
+4	121	121	NUM	CD	NumForm=Digit|NumType=Card	5	compound	_	end_char=2688|start_char=2685
+5	billion	billion	NUM	CD	NumForm=Word|NumType=Card	3	mod	_	end_char=2696|start_char=2689
+6	minutes	minute	NOUN	NNS	Number=Plur	3	comp:pred	_	end_char=2704|start_char=2697
+7	in	in	ADP	IN	_	6	udep	_	end_char=2707|start_char=2705
+8	December	December	PROPN	NNP	Number=Sing	7	comp:obj	_	end_char=2716|start_char=2708
+9	2012	2012	NUM	CD	NumForm=Digit|NumType=Card	8	mod	_	end_char=2721|SpaceAfter=No|start_char=2717
+10	,	,	PUNCT	,	_	13	punct	_	end_char=2722|start_char=2721
+11	but	but	CCONJ	CC	_	13	cc	_	end_char=2726|start_char=2723
+12	that	that	PRON	DT	Number=Sing|PronType=Dem	13	subj	_	end_char=2731|start_char=2727
+13	fell	fall	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj:coord	_	end_char=2736|start_char=2732
+14	to	to	ADP	IN	Shared=No	13	udep	_	end_char=2739|start_char=2737
+15	115	115	NUM	CD	NumForm=Digit|NumType=Card	16	compound	_	end_char=2743|start_char=2740
+16	billion	billion	NUM	CD	NumForm=Word|NumType=Card	17	mod	_	end_char=2751|start_char=2744
+17	minutes	minute	NOUN	NNS	Number=Plur	14	comp:obj	_	end_char=2759|start_char=2752
+18	in	in	ADP	IN	Shared=No	13	udep	_	end_char=2762|start_char=2760
+19	February	February	PROPN	NNP	Number=Sing	18	comp:obj	_	end_char=2771|SpaceAfter=No|start_char=2763
+20	,	,	PUNCT	,	_	21	punct	_	end_char=2772|start_char=2771
+21	according	accord	VERB	VBG	ExtPos=ADP|Shared=No|Tense=Pres|VerbForm=Part	13	udep	_	end_char=2782|Idiom=Yes|start_char=2773
+22	to	to	ADP	IN	_	21	unk	_	end_char=2785|InIdiom=Yes|start_char=2783
+23	comScore	comScore	PROPN	NNP	Number=Sing	21	comp:obj	_	end_char=2794|SpaceAfter=No|start_char=2786
+24	.	.	PUNCT	.	_	3	punct	_	end_char=2795|SpacesAfter=\s\n|start_char=2794
+
+# text = As Facebook itself has warned, the time spent on its pages from those sitting in front of personal computers is declining rapidly because we are switching our screen time to smartphones and tablets.
+# sent_id = 25
+1	As	as	SCONJ	IN	_	21	mod	_	end_char=2799|start_char=2797
+2	Facebook	Facebook	PROPN	NNP	Number=Sing	4	subj	_	end_char=2808|start_char=2800
+3	itself	itself	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Emp|Reflex=Yes	2	mod@unmarked	_	end_char=2815|start_char=2809
+4	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	end_char=2819|start_char=2816
+5	warned	warn	VERB	VBN	Tense=Past|VerbForm=Part	4	comp:aux	_	end_char=2826|SpaceAfter=No|start_char=2820
+6	,	,	PUNCT	,	_	1	punct	_	end_char=2827|start_char=2826
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	end_char=2831|start_char=2828
+8	time	time	NOUN	NN	Number=Sing	21	subj	_	end_char=2836|start_char=2832
+9	spent	spend	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	mod	_	end_char=2842|start_char=2837
+10	on	on	ADP	IN	_	9	udep	_	end_char=2845|start_char=2843
+11	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	mod@poss	_	end_char=2849|start_char=2846
+12	pages	page	NOUN	NNS	Number=Plur	10	comp:obj	_	end_char=2855|start_char=2850
+13	from	from	ADP	IN	_	9	udep	_	end_char=2860|start_char=2856
+14	those	that	PRON	DT	Number=Plur|PronType=Dem	13	comp:obj	_	end_char=2866|start_char=2861
+15	sitting	sit	VERB	VBG	VerbForm=Ger	14	mod	_	end_char=2874|start_char=2867
+16	in	in	ADP	IN	_	15	udep	_	end_char=2877|start_char=2875
+17	front	front	NOUN	NN	Number=Sing	16	comp:obj	_	end_char=2883|start_char=2878
+18	of	of	ADP	IN	_	17	udep	_	end_char=2886|start_char=2884
+19	personal	personal	ADJ	JJ	Degree=Pos	20	mod	_	end_char=2895|start_char=2887
+20	computers	computer	NOUN	NNS	Number=Plur	18	comp:obj	_	end_char=2905|start_char=2896
+21	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=2908|start_char=2906
+22	declining	decline	VERB	VBG	Tense=Pres|VerbForm=Part	21	comp:aux	_	end_char=2918|start_char=2909
+23	rapidly	rapidly	ADV	RB	_	21	mod	_	end_char=2926|start_char=2919
+24	because	because	SCONJ	IN	_	21	mod	_	end_char=2934|start_char=2927
+25	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	26	subj	_	end_char=2937|start_char=2935
+26	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	24	comp:obj	_	end_char=2941|start_char=2938
+27	switching	switch	VERB	VBG	Tense=Pres|VerbForm=Part	26	comp:aux	_	end_char=2951|start_char=2942
+28	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	30	mod@poss	_	end_char=2955|start_char=2952
+29	screen	screen	NOUN	NN	Number=Sing	30	compound	_	end_char=2962|start_char=2956
+30	time	time	NOUN	NN	Number=Sing	27	comp:obj	_	end_char=2967|start_char=2963
+31	to	to	ADP	IN	_	27	udep	_	end_char=2970|start_char=2968
+32	smartphones	smartphone	NOUN	NNS	Number=Plur	31	comp:obj	_	end_char=2982|start_char=2971
+33	and	and	CCONJ	CC	_	34	cc	_	end_char=2986|start_char=2983
+34	tablets	tablet	NOUN	NNS	Number=Plur	32	conj:coord	_	end_char=2994|SpaceAfter=No|start_char=2987
+35	.	.	PUNCT	.	_	21	punct	_	end_char=2995|SpacesAfter=\s\n|start_char=2994
+
+# text = While smartphone minutes have doubled in a year, to 69 a month, that growth is not guaranteed to compensate for dwindling desktop usage.
+# sent_id = 26
+1	While	while	SCONJ	IN	_	15	mod	_	end_char=3002|start_char=2997
+2	smartphone	smartphone	NOUN	NN	Number=Sing	3	compound	_	end_char=3013|start_char=3003
+3	minutes	minute	NOUN	NNS	Number=Plur	4	subj	_	end_char=3021|start_char=3014
+4	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	end_char=3026|start_char=3022
+5	doubled	double	VERB	VBN	Tense=Past|VerbForm=Part	4	comp:aux	_	end_char=3034|start_char=3027
+6	in	in	ADP	IN	_	5	udep	_	end_char=3037|start_char=3035
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	end_char=3039|start_char=3038
+8	year	year	NOUN	NN	Number=Sing	6	comp:obj	_	end_char=3044|SpaceAfter=No|start_char=3040
+9	,	,	PUNCT	,	_	5	punct	_	end_char=3045|start_char=3044
+10	to	to	ADP	IN	_	5	udep	_	end_char=3048|start_char=3046
+11	69	69	NUM	CD	NumForm=Digit|NumType=Card	10	comp:obj	_	end_char=3051|start_char=3049
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	end_char=3053|start_char=3052
+13	month	month	NOUN	NN	Number=Sing	5	udep@unmarked	_	end_char=3059|SpaceAfter=No|start_char=3054
+14	,	,	PUNCT	,	_	1	punct	_	end_char=3060|start_char=3059
+15	that	that	SCONJ	IN	_	0	root	_	end_char=3065|start_char=3061
+16	growth	growth	NOUN	NN	Number=Sing	17	subj@pass	_	end_char=3072|start_char=3066
+17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	comp:obj	_	end_char=3075|start_char=3073
+18	not	not	PART	RB	Polarity=Neg	17	mod	_	end_char=3079|start_char=3076
+19	guaranteed	guarantee	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	17	comp:aux@pass	_	end_char=3090|start_char=3080
+20	to	to	PART	TO	_	19	comp:obl	_	end_char=3093|start_char=3091
+21	compensate	compensate	VERB	VB	VerbForm=Inf	20	comp:obj	_	end_char=3104|start_char=3094|Subject=SubjRaising
+22	for	for	ADP	IN	_	21	udep	_	end_char=3108|start_char=3105
+23	dwindling	dwindle	VERB	VBG	VerbForm=Ger	25	mod	_	end_char=3118|start_char=3109
+24	desktop	desktop	NOUN	NN	Number=Sing	25	compound	_	end_char=3126|start_char=3119
+25	usage	usage	NOUN	NN	Number=Sing	22	comp:obj	_	end_char=3132|SpaceAfter=No|start_char=3127
+26	.	.	PUNCT	.	_	15	punct	_	end_char=3133|SpacesAfter=\s\n|start_char=3132
+
+# text = Facebook is the most authoritative source on its own user numbers, and the firm will update investors on its performance for the quarter.
+# sent_id = 27
+1	Facebook	Facebook	PROPN	NNP	Number=Sing|Shared=No	2	subj	_	end_char=3143|start_char=3135
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=3146|start_char=3144
+3	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	end_char=3150|start_char=3147
+4	most	most	ADV	RBS	Degree=Sup	5	mod	_	end_char=3155|start_char=3151
+5	authoritative	authoritative	ADJ	JJ	Degree=Pos	6	mod	_	end_char=3169|start_char=3156
+6	source	source	NOUN	NN	Number=Sing	2	comp:pred	_	end_char=3176|start_char=3170
+7	on	on	ADP	IN	_	6	udep	_	end_char=3179|start_char=3177
+8	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	mod@poss	_	end_char=3183|start_char=3180
+9	own	own	ADJ	JJ	Degree=Pos	11	mod	_	end_char=3187|start_char=3184
+10	user	user	NOUN	NN	Number=Sing	11	compound	_	end_char=3192|start_char=3188
+11	numbers	number	NOUN	NNS	Number=Plur	7	comp:obj	_	end_char=3200|SpaceAfter=No|start_char=3193
+12	,	,	PUNCT	,	_	16	punct	_	end_char=3201|start_char=3200
+13	and	and	CCONJ	CC	_	16	cc	_	end_char=3205|start_char=3202
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	end_char=3209|start_char=3206
+15	firm	firm	NOUN	NN	Number=Sing	16	subj	_	end_char=3214|start_char=3210
+16	will	will	AUX	MD	VerbForm=Fin	2	conj:coord	_	end_char=3219|start_char=3215
+17	update	update	VERB	VB	Shared=No|VerbForm=Inf	16	comp:aux	_	end_char=3226|start_char=3220
+18	investors	investor	NOUN	NNS	Number=Plur	17	comp:obj	_	end_char=3236|start_char=3227
+19	on	on	ADP	IN	_	17	udep	_	end_char=3239|start_char=3237
+20	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	mod@poss	_	end_char=3243|start_char=3240
+21	performance	performance	NOUN	NN	Number=Sing	19	comp:obj	_	end_char=3255|start_char=3244
+22	for	for	ADP	IN	_	17	udep	_	end_char=3259|start_char=3256
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	end_char=3263|start_char=3260
+24	quarter	quarter	NOUN	NN	Number=Sing|NumForm=Word|NumType=Frac	22	comp:obj	_	end_char=3271|SpaceAfter=No|start_char=3264
+25	.	.	PUNCT	.	_	2	punct	_	end_char=3272|start_char=3271
+
+# text = Wall Street expects revenues of about $1.44bn, up from $1.06bn in 2012.
+# sent_id = 28
+1	Wall	Wall	PROPN	NNP	Number=Sing	2	compound	_	end_char=3277|start_char=3273
+2	Street	Street	PROPN	NNP	Number=Sing	3	subj	_	end_char=3284|start_char=3278
+3	expects	expect	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=3292|start_char=3285
+4	revenues	revenue	NOUN	NNS	Number=Plur	3	comp:obj	_	end_char=3301|start_char=3293
+5	of	of	ADP	IN	_	4	udep	_	end_char=3304|start_char=3302
+6	about	about	ADV	RB	_	7	mod	_	end_char=3310|start_char=3305
+7	$	$	SYM	$	_	5	comp:obj	_	end_char=3312|SpaceAfter=No|start_char=3311
+8	1.44	1.44	NUM	CD	NumForm=Digit|NumType=Frac	9	compound	_	end_char=3316|SpaceAfter=No|start_char=3312
+9	bn	billion	NUM	CD	Abbr=Yes|NumForm=Word|NumType=Card	7	mod	_	end_char=3318|SpaceAfter=No|start_char=3316
+10	,	,	PUNCT	,	_	11	punct	_	end_char=3319|start_char=3318
+11	up	up	ADV	RB	_	12	mod	_	end_char=3322|start_char=3320
+12	from	from	ADP	IN	_	3	udep	_	end_char=3327|start_char=3323
+13	$	$	SYM	$	_	12	comp:obj	_	end_char=3329|SpaceAfter=No|start_char=3328
+14	1.06	1.06	NUM	CD	NumForm=Digit|NumType=Frac	15	compound	_	end_char=3333|SpaceAfter=No|start_char=3329
+15	bn	billion	NUM	CD	Abbr=Yes|NumForm=Word|NumType=Card	13	mod	_	end_char=3335|start_char=3333
+16	in	in	ADP	IN	_	13	udep	_	end_char=3338|start_char=3336
+17	2012	2012	NUM	CD	NumForm=Digit|NumType=Card	16	comp:obj	_	end_char=3343|SpaceAfter=No|start_char=3339
+18	.	.	PUNCT	.	_	3	punct	_	end_char=3344|SpacesAfter=\s\n|start_char=3343
+
+# text = Shareholders will be particularly keen to learn how fast Facebook’s mobile user base is growing, and whether advertising revenues are increasing at the same rate.
+# sent_id = 29
+1	Shareholders	shareholder	NOUN	NNS	Number=Plur	2	subj	_	end_char=3358|start_char=3346
+2	will	will	AUX	MD	VerbForm=Fin	0	root	_	end_char=3363|start_char=3359
+3	be	be	AUX	VB	VerbForm=Inf	2	comp:aux	_	end_char=3366|start_char=3364
+4	particularly	particularly	ADV	RB	_	3	mod	_	end_char=3379|start_char=3367
+5	keen	keen	ADJ	JJ	Degree=Pos	3	comp:pred	_	end_char=3384|start_char=3380
+6	to	to	PART	TO	_	5	comp:obl	_	end_char=3387|start_char=3385
+7	learn	learn	VERB	VB	VerbForm=Inf	6	comp:obj	_	end_char=3393|start_char=3388|Subject=SubjRaising
+8	how	how	ADV	WRB	PronType=Int	9	mod	_	end_char=3397|start_char=3394
+9	fast	fast	ADJ	JJ	Degree=Pos	7	comp:obj	_	end_char=3402|start_char=3398
+10-11	Facebook’s	_	_	_	_	_	_	_	end_char=3413|start_char=3403
+10	Facebook	Facebook	PROPN	NNP	Number=Sing	11	comp:obj	_	end_char=3411|start_char=3403
+11	’s	's	PART	POS	_	14	udep@poss	_	end_char=3413|start_char=3411
+12	mobile	mobile	ADJ	JJ	Degree=Pos	14	mod	_	end_char=3420|start_char=3414
+13	user	user	NOUN	NN	Number=Sing	14	compound	_	end_char=3425|start_char=3421
+14	base	base	NOUN	NN	Number=Sing|Shared=Yes	15	subj	_	end_char=3430|start_char=3426
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	mod@relcl	_	end_char=3433|start_char=3431
+16	growing	grow	VERB	VBG	Tense=Pres|VerbForm=Part	15	comp:aux	_	end_char=3441|SpaceAfter=No|start_char=3434
+17	,	,	PUNCT	,	_	19	punct	_	end_char=3442|start_char=3441
+18	and	and	CCONJ	CC	_	19	cc	_	end_char=3446|start_char=3443
+19	whether	whether	SCONJ	IN	_	15	conj:coord	_	end_char=3454|start_char=3447
+20	advertising	advertising	NOUN	NN	Number=Sing	21	compound	_	end_char=3466|start_char=3455
+21	revenues	revenue	NOUN	NNS	Number=Plur	22	subj	_	end_char=3475|start_char=3467
+22	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Shared=No|Tense=Pres|VerbForm=Fin	19	comp:obj	_	end_char=3479|start_char=3476
+23	increasing	increase	VERB	VBG	Tense=Pres|VerbForm=Part	22	comp:aux	_	end_char=3490|start_char=3480
+24	at	at	ADP	IN	_	23	udep	_	end_char=3493|start_char=3491
+25	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	end_char=3497|start_char=3494
+26	same	same	ADJ	JJ	Degree=Pos	27	mod	_	end_char=3502|start_char=3498
+27	rate	rate	NOUN	NN	Number=Sing	24	comp:obj	_	end_char=3507|SpaceAfter=No|start_char=3503
+28	.	.	PUNCT	.	_	2	punct	_	end_char=3508|SpacesAfter=\s\n|start_char=3507
+
+# text = Mobile usage represented nearly a quarter of Facebook’s advertising income at the end of 2012, and the network had 680m mobile users a month in December.
+# sent_id = 30
+1	Mobile	mobile	ADJ	JJ	Degree=Pos	2	mod	_	end_char=3516|start_char=3510
+2	usage	usage	NOUN	NN	Number=Sing|Shared=No	3	subj	_	end_char=3522|start_char=3517
+3	represented	represent	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=3534|start_char=3523
+4	nearly	nearly	ADV	RB	_	6	mod	_	end_char=3541|start_char=3535
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	end_char=3543|start_char=3542
+6	quarter	quarter	NOUN	NN	Number=Sing|NumForm=Word|NumType=Frac	3	comp:obj	_	end_char=3551|start_char=3544
+7	of	of	ADP	IN	_	6	udep	_	end_char=3554|start_char=3552
+8-9	Facebook’s	_	_	_	_	_	_	_	end_char=3565|start_char=3555
+8	Facebook	Facebook	PROPN	NNP	Number=Sing	9	comp:obj	_	end_char=3563|start_char=3555
+9	’s	's	PART	POS	_	11	udep@poss	_	end_char=3565|start_char=3563
+10	advertising	advertising	NOUN	NN	Number=Sing	11	compound	_	end_char=3577|start_char=3566
+11	income	income	NOUN	NN	Number=Sing	7	comp:obj	_	end_char=3584|start_char=3578
+12	at	at	ADP	IN	_	3	udep	_	end_char=3587|start_char=3585
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	end_char=3591|start_char=3588
+14	end	end	NOUN	NN	Number=Sing	12	comp:obj	_	end_char=3595|start_char=3592
+15	of	of	ADP	IN	_	14	udep	_	end_char=3598|start_char=3596
+16	2012	2012	NUM	CD	NumForm=Digit|NumType=Card	15	comp:obj	_	end_char=3603|SpaceAfter=No|start_char=3599
+17	,	,	PUNCT	,	_	21	punct	_	end_char=3604|start_char=3603
+18	and	and	CCONJ	CC	_	21	cc	_	end_char=3608|start_char=3605
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	end_char=3612|start_char=3609
+20	network	network	NOUN	NN	Number=Sing	21	subj	_	end_char=3620|start_char=3613
+21	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj:coord	_	end_char=3624|start_char=3621
+22	680	680	NUM	CD	NumForm=Digit|NumType=Card	23	mod	_	end_char=3628|SpaceAfter=No|start_char=3625
+23	m	m	NOUN	NN	Number=Plur	25	compound	_	end_char=3629|start_char=3628
+24	mobile	mobile	ADJ	JJ	Degree=Pos	25	mod	_	end_char=3636|start_char=3630
+25	users	user	NOUN	NNS	Number=Plur|Shared=No	21	comp:obj	_	end_char=3642|start_char=3637
+26	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	end_char=3644|start_char=3643
+27	month	month	NOUN	NN	Number=Sing|Shared=No	21	udep@unmarked	_	end_char=3650|start_char=3645
+28	in	in	ADP	IN	Shared=No	21	udep	_	end_char=3653|start_char=3651
+29	December	December	PROPN	NNP	Number=Sing	28	comp:obj	_	end_char=3662|SpaceAfter=No|start_char=3654
+30	.	.	PUNCT	.	_	3	punct	_	end_char=3663|SpacesAfter=\s\n|start_char=3662
+
+# text = The company warned in recent stockmarket filings that it might be losing “younger users” to “other products and services similar to, or as a substitute for, Facebook”.
+# sent_id = 31
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	end_char=3668|start_char=3665
+2	company	company	NOUN	NN	Number=Sing	3	subj	_	end_char=3676|start_char=3669
+3	warned	warn	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=3683|start_char=3677
+4	in	in	ADP	IN	_	3	udep	_	end_char=3686|start_char=3684
+5	recent	recent	ADJ	JJ	Degree=Pos	7	mod	_	end_char=3693|start_char=3687
+6	stockmarket	stockmarket	NOUN	NN	Number=Sing	7	compound	_	end_char=3705|start_char=3694
+7	filings	filing	NOUN	NNS	Number=Plur	4	comp:obj	_	end_char=3713|start_char=3706
+8	that	that	SCONJ	IN	_	3	comp:obj	_	end_char=3718|start_char=3714
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	subj	_	end_char=3721|start_char=3719
+10	might	might	AUX	MD	VerbForm=Fin	8	comp:obj	_	end_char=3727|start_char=3722
+11	be	be	AUX	VB	VerbForm=Inf	10	comp:aux	_	end_char=3730|start_char=3728
+12	losing	lose	VERB	VBG	Tense=Pres|VerbForm=Part	11	comp:aux	_	end_char=3737|start_char=3731
+13	“	''	PUNCT	``	_	15	punct	_	end_char=3739|SpaceAfter=No|start_char=3738
+14	younger	young	ADJ	JJR	Degree=Cmp	15	mod	_	end_char=3746|start_char=3739
+15	users	user	NOUN	NNS	Number=Plur	12	comp:obj	_	end_char=3752|SpaceAfter=No|start_char=3747
+16	”	''	PUNCT	''	_	15	punct	_	end_char=3753|start_char=3752
+17	to	to	ADP	IN	_	12	udep	_	end_char=3756|start_char=3754
+18	“	''	PUNCT	``	Shared=Yes	20	punct	_	end_char=3758|SpaceAfter=No|start_char=3757
+19	other	other	ADJ	JJ	Degree=Pos	20	mod	_	end_char=3763|start_char=3758
+20	products	product	NOUN	NNS	Number=Plur	17	comp:obj	_	end_char=3772|start_char=3764
+21	and	and	CCONJ	CC	_	22	cc	_	end_char=3776|start_char=3773
+22	services	service	NOUN	NNS	Number=Plur	20	conj:coord	_	end_char=3785|start_char=3777
+23	similar	similar	ADJ	JJ	Degree=Pos|Shared=Yes	22	mod	_	end_char=3793|start_char=3786
+24	to	to	ADP	IN	_	27	reparandum	_	end_char=3796|SpaceAfter=No|start_char=3794
+25	,	,	PUNCT	,	_	27	punct	_	end_char=3797|start_char=3796
+26	or	or	CCONJ	CC	_	27	cc	_	end_char=3800|start_char=3798
+27	as	as	ADP	IN	_	23	udep	_	end_char=3803|start_char=3801
+28	a	a	DET	DT	Definite=Ind|PronType=Art	29	det	_	end_char=3805|start_char=3804
+29	substitute	substitute	NOUN	NN	Number=Sing	27	comp:obj	_	end_char=3816|start_char=3806
+30	for	for	ADP	IN	_	29	udep	_	end_char=3820|SpaceAfter=No|start_char=3817
+31	,	,	PUNCT	,	_	30	punct	_	end_char=3821|start_char=3820
+32	Facebook	Facebook	PROPN	NNP	Number=Sing	30	comp:obj	_	end_char=3830|SpaceAfter=No|start_char=3822
+33	”	''	PUNCT	''	_	27	punct	_	end_char=3831|SpaceAfter=No|start_char=3830
+34	.	.	PUNCT	.	_	3	punct	_	end_char=3832|SpacesAfter=\s\n|start_char=3831
+
+# text = Wary of competition from services that were invented for the mobile phone rather than the PC, founder Mark Zuckerberg has recently driven through a series of new initiatives designed to appeal to smartphone users.
+# sent_id = 32
+1	Wary	wary	ADJ	JJ	Degree=Pos	21	mod	_	end_char=3838|start_char=3834
+2	of	of	ADP	IN	_	1	udep	_	end_char=3841|start_char=3839
+3	competition	competition	NOUN	NN	Number=Sing	2	comp:obj	_	end_char=3853|start_char=3842
+4	from	from	ADP	IN	_	3	udep	_	end_char=3858|start_char=3854
+5	services	service	NOUN	NNS	Number=Plur	4	comp:obj	_	end_char=3867|start_char=3859
+6	that	that	PRON	WDT	PronType=Rel	7	subj@pass	_	end_char=3872|start_char=3868
+7	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	mod@relcl	_	end_char=3877|start_char=3873
+8	invented	invent	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	comp:aux@pass	_	end_char=3886|start_char=3878
+9	for	for	ADP	IN	_	8	udep	_	end_char=3890|start_char=3887
+10	the	the	DET	DT	Definite=Def|PronType=Art|Shared=No	12	det	_	end_char=3894|start_char=3891
+11	mobile	mobile	ADJ	JJ	Degree=Pos|Shared=No	12	mod	_	end_char=3901|start_char=3895
+12	phone	phone	NOUN	NN	Number=Sing	9	comp:obj	_	end_char=3907|start_char=3902
+13	rather	rather	ADV	RB	ExtPos=CCONJ	16	cc	_	end_char=3914|Idiom=Yes|start_char=3908
+14	than	than	ADP	IN	_	13	unk	_	end_char=3919|InIdiom=Yes|start_char=3915
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	end_char=3923|start_char=3920
+16	PC	PC	NOUN	NN	Number=Sing	12	conj:coord	_	end_char=3926|SpaceAfter=No|start_char=3924
+17	,	,	PUNCT	,	_	1	punct	_	end_char=3927|start_char=3926
+18	founder	founder	NOUN	NN	Number=Sing	21	subj	_	end_char=3935|start_char=3928
+19	Mark	Mark	PROPN	NNP	Number=Sing	18	flat	_	end_char=3940|start_char=3936
+20	Zuckerberg	Zuckerberg	PROPN	NNP	Number=Sing	19	flat	_	end_char=3951|start_char=3941
+21	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=3955|start_char=3952
+22	recently	recently	ADV	RB	_	21	mod	_	end_char=3964|start_char=3956
+23	driven	drive	VERB	VBN	Tense=Past|VerbForm=Part	21	comp:aux	_	end_char=3971|start_char=3965
+24	through	through	ADP	IN	_	23	udep	_	end_char=3979|start_char=3972
+25	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	end_char=3981|start_char=3980
+26	series	series	NOUN	NN	Number=Sing	24	comp:obj	_	end_char=3988|start_char=3982
+27	of	of	ADP	IN	_	26	udep	_	end_char=3991|start_char=3989
+28	new	new	ADJ	JJ	Degree=Pos	29	mod	_	end_char=3995|start_char=3992
+29	initiatives	initiative	NOUN	NNS	Number=Plur	27	comp:obj	_	end_char=4007|start_char=3996
+30	designed	design	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	29	mod	_	end_char=4016|start_char=4008
+31	to	to	PART	TO	_	30	comp:obl	_	end_char=4019|start_char=4017
+32	appeal	appeal	VERB	VB	VerbForm=Inf	31	comp:obj	_	end_char=4026|start_char=4020|Subject=SubjRaising
+33	to	to	ADP	IN	_	32	udep	_	end_char=4029|start_char=4027
+34	smartphone	smartphone	NOUN	NN	Number=Sing	35	compound	_	end_char=4040|start_char=4030
+35	users	user	NOUN	NNS	Number=Plur	33	comp:obj	_	end_char=4046|SpaceAfter=No|start_char=4041
+36	.	.	PUNCT	.	_	21	punct	_	end_char=4047|start_char=4046
+
+# text = The most significant is Facebook Home, software that can be downloaded onto certain Android phones to feed news and photos from friends – and advertising – directly to the owner’s locked home screen.
+# sent_id = 33
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	end_char=4051|start_char=4048
+2	most	most	ADV	RBS	Degree=Sup	3	mod	_	end_char=4056|start_char=4052
+3	significant	significant	ADJ	JJ	Degree=Pos	4	mod	_	end_char=4068|start_char=4057
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=4071|start_char=4069
+5	Facebook	Facebook	PROPN	NNP	Number=Sing	6	compound	_	end_char=4080|start_char=4072
+6	Home	Home	PROPN	NNP	Number=Sing	8	compound	_	end_char=4085|SpaceAfter=No|start_char=4081
+7	,	,	PUNCT	,	_	8	punct	_	end_char=4086|start_char=4085
+8	software	software	NOUN	NN	Number=Sing	4	comp:pred	_	end_char=4095|start_char=4087
+9	that	that	PRON	WDT	PronType=Rel	10	subj@pass	_	end_char=4100|start_char=4096
+10	can	can	AUX	MD	VerbForm=Fin	8	mod@relcl	_	end_char=4104|start_char=4101
+11	be	be	AUX	VB	VerbForm=Inf	10	comp:aux	_	end_char=4107|start_char=4105
+12	downloaded	download	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	comp:aux@pass	_	end_char=4118|start_char=4108
+13	onto	onto	ADP	IN	_	12	udep	_	end_char=4123|start_char=4119
+14	certain	certain	ADJ	JJ	Degree=Pos	16	mod	_	end_char=4131|start_char=4124
+15	Android	Android	PROPN	NNP	Number=Sing	16	compound	_	end_char=4139|start_char=4132
+16	phones	phone	NOUN	NNS	Number=Plur	13	comp:obj	_	end_char=4146|start_char=4140
+17	to	to	PART	TO	_	10	mod	_	end_char=4149|start_char=4147
+18	feed	feed	VERB	VB	VerbForm=Inf	17	comp:obj	_	end_char=4154|start_char=4150
+19	news	news	NOUN	NN	Number=Sing	18	comp:obj	_	end_char=4159|start_char=4155
+20	and	and	CCONJ	CC	_	21	cc	_	end_char=4163|start_char=4160
+21	photos	photo	NOUN	NNS	Number=Plur	19	conj:coord	_	end_char=4170|start_char=4164
+22	from	from	ADP	IN	_	18	udep	_	end_char=4175|start_char=4171
+23	friends	friend	NOUN	NNS	Number=Plur	22	comp:obj	_	end_char=4183|start_char=4176
+24	–	-	PUNCT	:	_	26	punct	_	end_char=4185|start_char=4184
+25	and	and	CCONJ	CC	_	26	cc	_	end_char=4189|start_char=4186
+26	advertising	advertising	NOUN	NN	Number=Sing	21	conj:coord	_	end_char=4201|start_char=4190
+27	–	-	PUNCT	:	_	29	punct	_	end_char=4203|start_char=4202
+28	directly	directly	ADV	RB	_	29	mod	_	end_char=4212|start_char=4204
+29	to	to	ADP	IN	_	18	udep	_	end_char=4215|start_char=4213
+30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	end_char=4219|start_char=4216
+31-32	owner’s	_	_	_	_	_	_	_	end_char=4227|start_char=4220
+31	owner	owner	NOUN	NN	Number=Sing	32	comp:obj	_	end_char=4225|start_char=4220
+32	’s	's	PART	POS	_	35	udep@poss	_	end_char=4227|start_char=4225
+33	locked	lock	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	35	mod	_	end_char=4234|start_char=4228
+34	home	home	NOUN	NN	Number=Sing	35	compound	_	end_char=4239|start_char=4235
+35	screen	screen	NOUN	NN	Number=Sing	29	comp:obj	_	end_char=4246|SpaceAfter=No|start_char=4240
+36	.	.	PUNCT	.	_	4	punct	_	end_char=4247|SpacesAfter=\n|start_char=4246
+

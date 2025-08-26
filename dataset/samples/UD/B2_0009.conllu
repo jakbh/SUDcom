@@ -1,0 +1,296 @@
+# text = Stephanie recently took a weekend trip to Los Angeles, California.
+# sent_id = 0
+1	Stephanie	Stephanie	PROPN	NNP	Number=Sing	3	nsubj	_	start_char=0|end_char=9
+2	recently	recently	ADV	RB	_	3	advmod	_	start_char=10|end_char=18
+3	took	take	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=19|end_char=23
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=24|end_char=25
+5	weekend	weekend	NOUN	NN	Number=Sing	6	compound	_	start_char=26|end_char=33
+6	trip	trip	NOUN	NN	Number=Sing	3	obj	_	start_char=34|end_char=38
+7	to	to	ADP	IN	_	8	case	_	start_char=39|end_char=41
+8	Los	Los	PROPN	NNP	Number=Sing	6	nmod	_	start_char=42|end_char=45
+9	Angeles	Angeles	PROPN	NNP	Number=Sing	8	flat	_	start_char=46|end_char=53|SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	_	start_char=53|end_char=54
+11	California	California	PROPN	NNP	Number=Sing	8	appos	_	start_char=55|end_char=65|SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	start_char=65|end_char=66
+
+# text = Los Angeles is a coastal city situated along the Pacific Ocean.
+# sent_id = 1
+1	Los	Los	PROPN	NNP	Number=Sing	6	nsubj	_	start_char=67|end_char=70
+2	Angeles	Angeles	PROPN	NNP	Number=Sing	1	flat	_	start_char=71|end_char=78
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=79|end_char=81
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=82|end_char=83
+5	coastal	coastal	ADJ	JJ	Degree=Pos	6	amod	_	start_char=84|end_char=91
+6	city	city	NOUN	NN	Number=Sing	0	root	_	start_char=92|end_char=96
+7	situated	situate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	acl	_	start_char=97|end_char=105
+8	along	along	ADP	IN	_	11	case	_	start_char=106|end_char=111
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=112|end_char=115
+10	Pacific	Pacific	PROPN	NNP	Number=Sing	11	compound	_	start_char=116|end_char=123
+11	Ocean	Ocean	PROPN	NNP	Number=Sing	7	obl	_	start_char=124|end_char=129|SpaceAfter=No
+12	.	.	PUNCT	.	_	6	punct	_	start_char=129|end_char=130
+
+# text = Many celebrities earned their claim to fame here.
+# sent_id = 2
+1	Many	many	ADJ	JJ	Degree=Pos	2	amod	_	start_char=131|end_char=135
+2	celebrities	celebrity	NOUN	NNS	Number=Plur	3	nsubj	_	start_char=136|end_char=147
+3	earned	earn	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=148|end_char=154
+4	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=155|end_char=160
+5	claim	claim	NOUN	NN	Number=Sing	3	obj	_	start_char=161|end_char=166
+6	to	to	ADP	IN	_	7	case	_	start_char=167|end_char=169
+7	fame	fame	NOUN	NN	Number=Sing	3	obl	_	start_char=170|end_char=174
+8	here	here	ADV	RB	PronType=Dem	3	advmod	_	start_char=175|end_char=179|SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	start_char=179|end_char=180
+
+# text = Although the town offers many attractions centered around Hollywood culture, there is a lot to see and visit in Los Angeles.
+# sent_id = 3
+1	Although	although	SCONJ	IN	_	4	mark	_	start_char=181|end_char=189
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=190|end_char=193
+3	town	town	NOUN	NN	Number=Sing	4	nsubj	_	start_char=194|end_char=198
+4	offers	offer	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	start_char=199|end_char=205
+5	many	many	ADJ	JJ	Degree=Pos	6	amod	_	start_char=206|end_char=210
+6	attractions	attraction	NOUN	NNS	Number=Plur	4	obj	_	start_char=211|end_char=222
+7	centered	center	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	acl	_	start_char=223|end_char=231
+8	around	around	ADP	IN	_	10	case	_	start_char=232|end_char=238
+9	Hollywood	Hollywood	PROPN	NNP	Number=Sing	10	compound	_	start_char=239|end_char=248
+10	culture	culture	NOUN	NN	Number=Sing	7	obl	_	start_char=249|end_char=256|SpaceAfter=No
+11	,	,	PUNCT	,	_	4	punct	_	start_char=256|end_char=257
+12	there	there	PRON	EX	_	13	expl	_	start_char=258|end_char=263
+13	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=264|end_char=266
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	start_char=267|end_char=268
+15	lot	lot	NOUN	NN	Number=Sing	13	nsubj	_	start_char=269|end_char=272
+16	to	to	PART	TO	_	17	mark	_	start_char=273|end_char=275
+17	see	see	VERB	VB	VerbForm=Inf	15	acl	_	start_char=276|end_char=279
+18	and	and	CCONJ	CC	_	19	cc	_	start_char=280|end_char=283
+19	visit	visit	VERB	VB	VerbForm=Inf	17	conj	_	start_char=284|end_char=289
+20	in	in	ADP	IN	_	21	case	_	start_char=290|end_char=292
+21	Los	Los	PROPN	NNP	Number=Sing	19	obl	_	start_char=293|end_char=296
+22	Angeles	Angeles	PROPN	NNP	Number=Sing	21	flat	_	start_char=297|end_char=304|SpaceAfter=No
+23	.	.	PUNCT	.	_	13	punct	_	start_char=304|end_char=305|SpacesAfter=\n
+
+# text = Of course, all things related to Hollywood are popular tourist attractions.
+# sent_id = 4
+1	Of	of	ADP	IN	ExtPos=ADV	12	advmod	_	start_char=306|end_char=308
+2	course	course	NOUN	NN	Number=Sing	1	fixed	_	start_char=309|end_char=315|SpaceAfter=No
+3	,	,	PUNCT	,	_	1	punct	_	start_char=315|end_char=316
+4	all	all	DET	DT	PronType=Tot	5	det	_	start_char=317|end_char=320
+5	things	thing	NOUN	NNS	Number=Plur	12	nsubj	_	start_char=321|end_char=327
+6	related	related	ADJ	JJ	Degree=Pos	5	amod	_	start_char=328|end_char=335
+7	to	to	ADP	IN	_	8	case	_	start_char=336|end_char=338
+8	Hollywood	Hollywood	PROPN	NNP	Number=Sing	6	obl	_	start_char=339|end_char=348
+9	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	start_char=349|end_char=352
+10	popular	popular	ADJ	JJ	Degree=Pos	12	amod	_	start_char=353|end_char=360
+11	tourist	tourist	NOUN	NN	Number=Sing	12	compound	_	start_char=361|end_char=368
+12	attractions	attraction	NOUN	NNS	Number=Plur	0	root	_	start_char=369|end_char=380|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	punct	_	start_char=380|end_char=381
+
+# text = The Hollywood Sign, located the Hollywood Hills of the Santa Monica Mountains, is a famous landmark for this star-studded town.
+# sent_id = 5
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=382|end_char=385
+2	Hollywood	Hollywood	PROPN	NNP	Number=Sing	3	compound	_	start_char=386|end_char=395
+3	Sign	sign	PROPN	NNP	Number=Sing	18	nsubj	_	start_char=396|end_char=400|SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	start_char=400|end_char=401
+5	located	locate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	acl	_	start_char=402|end_char=409
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=410|end_char=413
+7	Hollywood	Hollywood	PROPN	NNP	Number=Sing	8	compound	_	start_char=414|end_char=423
+8	Hills	Hills	PROPN	NNP	Number=Sing	5	xcomp	_	start_char=424|end_char=429
+9	of	of	ADP	IN	_	13	case	_	start_char=430|end_char=432
+10	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	start_char=433|end_char=436
+11	Santa	Santa	PROPN	NNP	Number=Sing	13	compound	_	start_char=437|end_char=442
+12	Monica	Monica	PROPN	NNP	Number=Sing	11	flat	_	start_char=443|end_char=449
+13	Mountains	Mountain	PROPN	NNPS	Number=Plur	8	nmod	_	start_char=450|end_char=459|SpaceAfter=No
+14	,	,	PUNCT	,	_	3	punct	_	start_char=459|end_char=460
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	start_char=461|end_char=463
+16	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	start_char=464|end_char=465
+17	famous	famous	ADJ	JJ	Degree=Pos	18	amod	_	start_char=466|end_char=472
+18	landmark	landmark	NOUN	NN	Number=Sing	0	root	_	start_char=473|end_char=481
+19	for	for	ADP	IN	_	24	case	_	start_char=482|end_char=485
+20	this	this	DET	DT	Number=Sing|PronType=Dem	24	det	_	start_char=486|end_char=490
+21	star	star	NOUN	NN	Number=Sing	23	compound	_	start_char=491|end_char=495|SpaceAfter=No
+22	-	-	PUNCT	HYPH	_	21	punct	_	start_char=495|end_char=496|SpaceAfter=No
+23	studded	studd	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	24	amod	_	start_char=496|end_char=503
+24	town	town	NOUN	NN	Number=Sing	18	nmod	_	start_char=504|end_char=508|SpaceAfter=No
+25	.	.	PUNCT	.	_	18	punct	_	start_char=508|end_char=509
+
+# text = Once in downtown Hollywood, it’s possible to take a stroll along the Hollywood Walk of Fame.
+# sent_id = 6
+1	Once	once	SCONJ	IN	_	4	mark	_	start_char=510|end_char=514
+2	in	in	ADP	IN	_	4	case	_	start_char=515|end_char=517
+3	downtown	downtown	ADJ	JJ	Degree=Pos	4	amod	_	start_char=518|end_char=526
+4	Hollywood	Hollywood	PROPN	NNP	Number=Sing	8	obl	_	start_char=527|end_char=536|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	start_char=536|end_char=537
+6-7	it’s	_	_	_	_	_	_	_	start_char=538|end_char=542
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	start_char=538|end_char=540
+7	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=540|end_char=542
+8	possible	possible	ADJ	JJ	Degree=Pos	0	root	_	start_char=543|end_char=551
+9	to	to	PART	TO	_	10	mark	_	start_char=552|end_char=554
+10	take	take	VERB	VB	VerbForm=Inf	8	csubj	_	start_char=555|end_char=559
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	start_char=560|end_char=561
+12	stroll	stroll	NOUN	NN	Number=Sing	10	obj	_	start_char=562|end_char=568
+13	along	along	ADP	IN	_	16	case	_	start_char=569|end_char=574
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	start_char=575|end_char=578
+15	Hollywood	Hollywood	PROPN	NNP	Number=Sing	16	compound	_	start_char=579|end_char=588
+16	Walk	Walk	PROPN	NNP	Number=Sing	10	obl	_	start_char=589|end_char=593
+17	of	of	ADP	IN	_	18	case	_	start_char=594|end_char=596
+18	Fame	Fame	PROPN	NNP	Number=Sing	16	nmod	_	start_char=597|end_char=601|SpaceAfter=No
+19	.	.	PUNCT	.	_	8	punct	_	start_char=601|end_char=602
+
+# text = This landmark contains more than 2500 brass stars dedicated to celebrities who have made a significant impact on the entertainment industry.
+# sent_id = 7
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	start_char=603|end_char=607
+2	landmark	landmark	NOUN	NN	Number=Sing	3	nsubj	_	start_char=608|end_char=616
+3	contains	contain	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=617|end_char=625
+4	more	more	ADJ	JJR	Degree=Cmp|ExtPos=ADV	6	advmod	_	start_char=626|end_char=630
+5	than	than	ADP	IN	_	4	fixed	_	start_char=631|end_char=635
+6	2500	2500	NUM	CD	NumForm=Digit|NumType=Card	8	nummod	_	start_char=636|end_char=640
+7	brass	brass	NOUN	NN	Number=Sing	8	compound	_	start_char=641|end_char=646
+8	stars	star	NOUN	NNS	Number=Plur	3	obj	_	start_char=647|end_char=652
+9	dedicated	dedicate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	acl	_	start_char=653|end_char=662
+10	to	to	ADP	IN	_	11	case	_	start_char=663|end_char=665
+11	celebrities	celebrity	NOUN	NNS	Number=Plur	9	obl	_	start_char=666|end_char=677
+12	who	who	PRON	WP	PronType=Rel	14	nsubj	_	start_char=678|end_char=681
+13	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=682|end_char=686
+14	made	make	VERB	VBN	Tense=Past|VerbForm=Part	11	acl:relcl	_	start_char=687|end_char=691
+15	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	start_char=692|end_char=693
+16	significant	significant	ADJ	JJ	Degree=Pos	17	amod	_	start_char=694|end_char=705
+17	impact	impact	NOUN	NN	Number=Sing	14	obj	_	start_char=706|end_char=712
+18	on	on	ADP	IN	_	21	case	_	start_char=713|end_char=715
+19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	start_char=716|end_char=719
+20	entertainment	entertainment	NOUN	NN	Number=Sing	21	compound	_	start_char=720|end_char=733
+21	industry	industry	NOUN	NN	Number=Sing	17	nmod	_	start_char=734|end_char=742|SpaceAfter=No
+22	.	.	PUNCT	.	_	3	punct	_	start_char=742|end_char=743
+
+# text = In Hollywood, visitors can even take tours of popular movie studios.
+# sent_id = 8
+1	In	in	ADP	IN	_	2	case	_	start_char=744|end_char=746
+2	Hollywood	Hollywood	PROPN	NNP	Number=Sing	7	obl	_	start_char=747|end_char=756|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	start_char=756|end_char=757
+4	visitors	visitor	NOUN	NNS	Number=Plur	7	nsubj	_	start_char=758|end_char=766
+5	can	can	AUX	MD	VerbForm=Fin	7	aux	_	start_char=767|end_char=770
+6	even	even	ADV	RB	_	7	advmod	_	start_char=771|end_char=775
+7	take	take	VERB	VB	VerbForm=Inf	0	root	_	start_char=776|end_char=780
+8	tours	tour	NOUN	NNS	Number=Plur	7	obj	_	start_char=781|end_char=786
+9	of	of	ADP	IN	_	12	case	_	start_char=787|end_char=789
+10	popular	popular	ADJ	JJ	Degree=Pos	12	amod	_	start_char=790|end_char=797
+11	movie	movie	NOUN	NN	Number=Sing	12	compound	_	start_char=798|end_char=803
+12	studios	studio	NOUN	NNS	Number=Plur	8	nmod	_	start_char=804|end_char=811|SpaceAfter=No
+13	.	.	PUNCT	.	_	7	punct	_	start_char=811|end_char=812
+
+# text = Stephanie had a chance to visit Universal Studios, which produces her favorite films.
+# sent_id = 9
+1	Stephanie	Stephanie	PROPN	NNP	Number=Sing	2	nsubj	_	start_char=813|end_char=822
+2	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=823|end_char=826
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	start_char=827|end_char=828
+4	chance	chance	NOUN	NN	Number=Sing	2	obj	_	start_char=829|end_char=835
+5	to	to	PART	TO	_	6	mark	_	start_char=836|end_char=838
+6	visit	visit	VERB	VB	VerbForm=Inf	4	acl	_	start_char=839|end_char=844
+7	Universal	Universal	ADJ	NNP	Degree=Pos	8	amod	_	start_char=845|end_char=854
+8	Studios	Studios	PROPN	NNP	Number=Sing	6	obj	_	start_char=855|end_char=862|SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	start_char=862|end_char=863
+10	which	which	PRON	WDT	PronType=Rel	11	nsubj	_	start_char=864|end_char=869
+11	produces	produce	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	start_char=870|end_char=878
+12	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	start_char=879|end_char=882
+13	favorite	favorite	ADJ	JJ	Degree=Pos	14	amod	_	start_char=883|end_char=891
+14	films	film	NOUN	NNS	Number=Plur	11	obj	_	start_char=892|end_char=897|SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	_	start_char=897|end_char=898|SpacesAfter=\n
+
+# text = Los Angeles is also a popular beach town, offering plenty of opportunities for sunbathing and surfing.
+# sent_id = 10
+1	Los	Los	PROPN	NNP	Number=Sing	8	nsubj	_	start_char=899|end_char=902
+2	Angeles	Angeles	PROPN	NNP	Number=Sing	1	flat	_	start_char=903|end_char=910
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=911|end_char=913
+4	also	also	ADV	RB	_	8	advmod	_	start_char=914|end_char=918
+5	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=919|end_char=920
+6	popular	popular	ADJ	JJ	Degree=Pos	8	amod	_	start_char=921|end_char=928
+7	beach	beach	NOUN	NN	Number=Sing	8	compound	_	start_char=929|end_char=934
+8	town	town	NOUN	NN	Number=Sing	0	root	_	start_char=935|end_char=939|SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	start_char=939|end_char=940
+10	offering	offer	VERB	VBG	Tense=Pres|VerbForm=Part	8	advcl	_	start_char=941|end_char=949
+11	plenty	plenty	NOUN	NN	Number=Sing	10	obj	_	start_char=950|end_char=956
+12	of	of	ADP	IN	_	13	case	_	start_char=957|end_char=959
+13	opportunities	opportunity	NOUN	NNS	Number=Plur	11	nmod	_	start_char=960|end_char=973
+14	for	for	ADP	IN	_	15	case	_	start_char=974|end_char=977
+15	sunbathing	sunbathing	NOUN	NN	Number=Sing	13	nmod	_	start_char=978|end_char=988
+16	and	and	CCONJ	CC	_	17	cc	_	start_char=989|end_char=992
+17	surfing	surfing	NOUN	NN	Number=Sing	15	conj	_	start_char=993|end_char=1000|SpaceAfter=No
+18	.	.	PUNCT	.	_	8	punct	_	start_char=1000|end_char=1001
+
+# text = A common beach destination is the Santa Monica Pier, which offers rides and attractions to its visitors.
+# sent_id = 11
+1	A	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	start_char=1002|end_char=1003
+2	common	common	ADJ	JJ	Degree=Pos	4	amod	_	start_char=1004|end_char=1010
+3	beach	beach	NOUN	NN	Number=Sing	4	compound	_	start_char=1011|end_char=1016
+4	destination	destination	NOUN	NN	Number=Sing	9	nsubj	_	start_char=1017|end_char=1028
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=1029|end_char=1031
+6	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=1032|end_char=1035
+7	Santa	Santa	PROPN	NNP	Number=Sing	9	compound	_	start_char=1036|end_char=1041
+8	Monica	Monica	PROPN	NNP	Number=Sing	7	flat	_	start_char=1042|end_char=1048
+9	Pier	Pier	PROPN	NNP	Number=Sing	0	root	_	start_char=1049|end_char=1053|SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	start_char=1053|end_char=1054
+11	which	which	PRON	WDT	PronType=Rel	12	nsubj	_	start_char=1055|end_char=1060
+12	offers	offer	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	start_char=1061|end_char=1067
+13	rides	ride	NOUN	NNS	Number=Plur	12	obj	_	start_char=1068|end_char=1073
+14	and	and	CCONJ	CC	_	15	cc	_	start_char=1074|end_char=1077
+15	attractions	attraction	NOUN	NNS	Number=Plur	13	conj	_	start_char=1078|end_char=1089
+16	to	to	ADP	IN	_	18	case	_	start_char=1090|end_char=1092
+17	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	start_char=1093|end_char=1096
+18	visitors	visitor	NOUN	NNS	Number=Plur	12	obl	_	start_char=1097|end_char=1105|SpaceAfter=No
+19	.	.	PUNCT	.	_	9	punct	_	start_char=1105|end_char=1106
+
+# text = Here, Stephanie rode the iconic Ferris wheel, which offered her a spectacular view of the city and coast.
+# sent_id = 12
+1	Here	here	ADV	RB	PronType=Dem	4	advmod	_	start_char=1107|end_char=1111|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=1111|end_char=1112
+3	Stephanie	Stephanie	PROPN	NNP	Number=Sing	4	nsubj	_	start_char=1113|end_char=1122
+4	rode	ride	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=1123|end_char=1127
+5	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=1128|end_char=1131
+6	iconic	iconic	ADJ	JJ	Degree=Pos	8	amod	_	start_char=1132|end_char=1138
+7	Ferris	Ferris	PROPN	NNP	Number=Sing	8	compound	_	start_char=1139|end_char=1145
+8	wheel	wheel	NOUN	NN	Number=Sing	4	obj	_	start_char=1146|end_char=1151|SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	start_char=1151|end_char=1152
+10	which	which	PRON	WDT	PronType=Rel	11	nsubj	_	start_char=1153|end_char=1158
+11	offered	offer	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	acl:relcl	_	start_char=1159|end_char=1166
+12	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	iobj	_	start_char=1167|end_char=1170
+13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	start_char=1171|end_char=1172
+14	spectacular	spectacular	ADJ	JJ	Degree=Pos	15	amod	_	start_char=1173|end_char=1184
+15	view	view	NOUN	NN	Number=Sing	11	obj	_	start_char=1185|end_char=1189
+16	of	of	ADP	IN	_	18	case	_	start_char=1190|end_char=1192
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	start_char=1193|end_char=1196
+18	city	city	NOUN	NN	Number=Sing	15	nmod	_	start_char=1197|end_char=1201
+19	and	and	CCONJ	CC	_	20	cc	_	start_char=1202|end_char=1205
+20	coast	coast	NOUN	NN	Number=Sing	18	conj	_	start_char=1206|end_char=1211|SpaceAfter=No
+21	.	.	PUNCT	.	_	4	punct	_	start_char=1211|end_char=1212|SpacesAfter=\n
+
+# text = These are just some of the things Stephanie experienced during her visit to Los Angeles.
+# sent_id = 13
+1	These	this	PRON	DT	Number=Plur|PronType=Dem	4	nsubj	_	start_char=1213|end_char=1218
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=1219|end_char=1222
+3	just	just	ADV	RB	_	4	advmod	_	start_char=1223|end_char=1227
+4	some	some	DET	DT	PronType=Ind	0	root	_	start_char=1228|end_char=1232
+5	of	of	ADP	IN	_	7	case	_	start_char=1233|end_char=1235
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=1236|end_char=1239
+7	things	thing	NOUN	NNS	Number=Plur	4	nmod	_	start_char=1240|end_char=1246
+8	Stephanie	Stephanie	PROPN	NNP	Number=Sing	9	nsubj	_	start_char=1247|end_char=1256
+9	experienced	experience	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	acl:relcl	_	start_char=1257|end_char=1268
+10	during	during	ADP	IN	_	12	case	_	start_char=1269|end_char=1275
+11	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	start_char=1276|end_char=1279
+12	visit	visit	NOUN	NN	Number=Sing	9	obl	_	start_char=1280|end_char=1285
+13	to	to	ADP	IN	_	14	case	_	start_char=1286|end_char=1288
+14	Los	Los	PROPN	NNP	Number=Sing	12	nmod	_	start_char=1289|end_char=1292
+15	Angeles	Angeles	PROPN	NNP	Number=Sing	14	flat	_	start_char=1293|end_char=1300|SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	start_char=1300|end_char=1301
+
+# text = She loved her trip, and she hopes to return someday soon.
+# sent_id = 14
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=1302|end_char=1305
+2	loved	love	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=1306|end_char=1311
+3	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	start_char=1312|end_char=1315
+4	trip	trip	NOUN	NN	Number=Sing	2	obj	_	start_char=1316|end_char=1320|SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	start_char=1320|end_char=1321
+6	and	and	CCONJ	CC	_	8	cc	_	start_char=1322|end_char=1325
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	start_char=1326|end_char=1329
+8	hopes	hope	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=1330|end_char=1335
+9	to	to	PART	TO	_	10	mark	_	start_char=1336|end_char=1338
+10	return	return	VERB	VB	VerbForm=Inf	8	xcomp	_	start_char=1339|end_char=1345
+11	someday	someday	ADV	RB	_	10	advmod	_	start_char=1346|end_char=1353
+12	soon	soon	ADV	RB	Degree=Pos	10	advmod	_	start_char=1354|end_char=1358|SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	start_char=1358|end_char=1359|SpaceAfter=No
+

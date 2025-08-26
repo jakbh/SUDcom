@@ -1,0 +1,1582 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# text = Narrow passage of a sweeping health care bill by the House of Representatives portends a continuing difficult fight for President Obama and fellow Democrats to get a bill through the Senate and into law.
+# sent_id = 0
+1	Narrow	Narrow	ADJ	JJ	Degree=Pos	2	mod	_	end_char=6|start_char=0
+2	passage	passage	NOUN	NN	Number=Sing	14	subj	_	end_char=14|start_char=7
+3	of	of	ADP	IN	_	2	udep	_	end_char=17|start_char=15
+4	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	end_char=19|start_char=18
+5	sweeping	sweep	VERB	VBG	VerbForm=Ger	8	mod	_	end_char=28|start_char=20
+6	health	health	NOUN	NN	Number=Sing	7	compound	_	end_char=35|start_char=29
+7	care	care	NOUN	NN	Number=Sing	8	compound	_	end_char=40|start_char=36
+8	bill	bill	NOUN	NN	Number=Sing	3	comp:obj	_	end_char=45|start_char=41
+9	by	by	ADP	IN	_	8	udep	_	end_char=48|start_char=46
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	end_char=52|start_char=49
+11	House	House	PROPN	NNP	Number=Sing	9	comp:obj	_	end_char=58|start_char=53
+12	of	of	ADP	IN	_	11	udep	_	end_char=61|start_char=59
+13	Representatives	Representative	PROPN	NNPS	Number=Plur	12	comp:obj	_	end_char=77|start_char=62
+14	portends	portend	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=86|start_char=78
+15	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	end_char=88|start_char=87
+16	continuing	continue	VERB	VBG	VerbForm=Ger	18	mod	_	end_char=99|start_char=89
+17	difficult	difficult	ADJ	JJ	Degree=Pos	18	mod	_	end_char=109|start_char=100
+18	fight	fight	NOUN	NN	Number=Sing	14	comp:obj	_	end_char=115|start_char=110
+19	for	for	ADP	IN	_	18	udep	_	end_char=119|start_char=116
+20	President	President	PROPN	NNP	Number=Sing	19	comp:obj	_	end_char=129|start_char=120
+21	Obama	Obama	PROPN	NNP	Number=Sing	20	flat	_	end_char=135|start_char=130
+22	and	and	CCONJ	CC	_	24	cc	_	end_char=139|start_char=136
+23	fellow	fellow	ADJ	JJ	Degree=Pos	24	mod	_	end_char=146|start_char=140
+24	Democrats	Democrat	PROPN	NNPS	Number=Plur	20	conj:coord	_	end_char=156|start_char=147
+25	to	to	PART	TO	_	14	mod	_	end_char=159|start_char=157
+26	get	get	VERB	VB	VerbForm=Inf	25	comp:obj	_	end_char=163|start_char=160
+27	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	end_char=165|start_char=164
+28	bill	bill	NOUN	NN	Number=Sing	26	comp:obj	_	end_char=170|start_char=166
+29	through	through	ADP	IN	_	26	udep	_	end_char=178|start_char=171
+30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	end_char=182|start_char=179
+31	Senate	Senate	PROPN	NNP	Number=Sing	29	comp:obj	_	end_char=189|start_char=183
+32	and	and	CCONJ	CC	_	33	cc	_	end_char=193|start_char=190
+33	into	into	ADP	IN	_	29	conj:coord	_	end_char=198|start_char=194
+34	law	law	NOUN	NN	Number=Sing|Shared=No	33	comp:obj	_	end_char=202|SpaceAfter=No|start_char=199
+35	.	.	PUNCT	.	_	14	punct	_	end_char=203|SpacesAfter=\n|start_char=202
+
+# text = The House voted 220-215 late Saturday, with 39 Democrats opposed and one Republican in favor, to approve what would be the biggest expansion of health care coverage since Medicare was created more than 40 years ago.
+# sent_id = 1
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	end_char=207|start_char=204
+2	House	House	PROPN	NNP	Number=Sing	3	subj	_	end_char=213|start_char=208
+3	voted	vote	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=219|start_char=214
+4	220	220	NUM	CD	NumForm=Digit|NumType=Card	3	comp:obj	_	end_char=223|SpaceAfter=No|start_char=220
+5	-	-	SYM	SYM	_	4	udep	_	end_char=224|SpaceAfter=No|start_char=223
+6	215	215	NUM	CD	NumForm=Digit|NumType=Card	5	comp:obj	_	end_char=227|start_char=224
+7	late	late	ADJ	JJ	Degree=Pos	8	mod	_	end_char=232|start_char=228
+8	Saturday	Saturday	PROPN	NNP	Number=Sing	3	udep@unmarked	_	end_char=241|SpaceAfter=No|start_char=233
+9	,	,	PUNCT	,	_	10	punct	_	end_char=242|start_char=241
+10	with	with	SCONJ	IN	_	3	mod	_	end_char=247|start_char=243
+11	39	39	NUM	CD	NumForm=Digit|NumType=Card	12	mod	_	end_char=250|start_char=248
+12	Democrats	Democrat	PROPN	NNPS	Number=Plur	13	subj@pass	_	end_char=260|start_char=251
+13	opposed	oppose	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	comp:obj	_	end_char=268|start_char=261
+14	and	and	CCONJ	CC	_	16	cc	_	end_char=272|start_char=269
+15	one	one	NUM	CD	NumForm=Word|NumType=Card	16	mod	_	end_char=276|start_char=273
+16	Republican	Republican	PROPN	NNP	Number=Sing	12	conj:coord	_	end_char=287|start_char=277
+17	in	in	ADP	IN	Shared=No	16	udep	_	end_char=290|start_char=288
+18	favor	favor	NOUN	NN	Number=Sing	17	comp:obj	_	end_char=296|SpaceAfter=No|start_char=291
+19	,	,	PUNCT	,	_	20	punct	_	end_char=297|start_char=296
+20	to	to	PART	TO	_	3	mod	_	end_char=300|start_char=298
+21	approve	approve	VERB	VB	VerbForm=Inf	20	comp:obj	_	end_char=308|start_char=301
+22	what	what	PRON	WP	PronType=Int	21	comp:obj	_	end_char=313|start_char=309
+23	would	would	AUX	MD	VerbForm=Fin	22	mod@relcl	_	end_char=319|start_char=314
+24	be	be	AUX	VB	VerbForm=Inf	23	comp:aux	_	end_char=322|start_char=320
+25	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	end_char=326|start_char=323
+26	biggest	big	ADJ	JJS	Degree=Sup	27	mod	_	end_char=334|start_char=327
+27	expansion	expansion	NOUN	NN	Number=Sing	24	comp:pred	_	end_char=344|start_char=335
+28	of	of	ADP	IN	_	27	udep	_	end_char=347|start_char=345
+29	health	health	NOUN	NN	Number=Sing	30	compound	_	end_char=354|start_char=348
+30	care	care	NOUN	NN	Number=Sing	31	compound	_	end_char=359|start_char=355
+31	coverage	coverage	NOUN	NN	Number=Sing	28	comp:obj	_	end_char=368|start_char=360
+32	since	since	SCONJ	IN	_	23	mod	_	end_char=374|start_char=369
+33	Medicare	Medicare	PROPN	NNP	Number=Sing	34	subj@pass	_	end_char=383|start_char=375
+34	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	32	comp:obj	_	end_char=387|start_char=384
+35	created	create	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	34	comp:aux@pass	_	end_char=395|start_char=388
+36	more	more	ADJ	JJR	Degree=Cmp|ExtPos=ADV	38	mod	_	end_char=400|Idiom=Yes|start_char=396
+37	than	than	ADP	IN	_	36	unk	_	end_char=405|InIdiom=Yes|start_char=401
+38	40	40	NUM	CD	NumForm=Digit|NumType=Card	39	mod	_	end_char=408|start_char=406
+39	years	year	NOUN	NNS	Number=Plur	40	udep@unmarked	_	end_char=414|start_char=409
+40	ago	ago	ADV	RB	_	34	mod	_	end_char=418|SpaceAfter=No|start_char=415
+41	.	.	PUNCT	.	_	3	punct	_	end_char=419|SpacesAfter=\n|start_char=418
+
+# text = The Affordable Health Care for America Act, or H.R. 3962, restricts insurance companies from denying coverage to anyone with a pre-existing condition or charging higher premiums based on gender or medical history.
+# sent_id = 2
+1	The	the	DET	DT	Definite=Def|PronType=Art	7	det	_	end_char=423|start_char=420
+2	Affordable	Affordable	ADJ	NNP	Degree=Pos	4	mod	_	end_char=434|start_char=424
+3	Health	Health	PROPN	NNP	Number=Sing	4	compound	_	end_char=441|start_char=435
+4	Care	Care	PROPN	NNP	Number=Sing|Shared=No	7	compound	_	end_char=446|start_char=442
+5	for	for	ADP	IN	_	4	udep	_	end_char=450|start_char=447
+6	America	America	PROPN	NNP	Number=Sing	5	comp:obj	_	end_char=458|start_char=451
+7	Act	Act	PROPN	NNP	Number=Sing	13	subj	_	end_char=462|SpaceAfter=No|start_char=459
+8	,	,	PUNCT	,	_	10	punct	_	end_char=463|start_char=462
+9	or	or	CCONJ	CC	_	10	cc	_	end_char=466|start_char=464
+10	H.R.	H.R.	PROPN	NNP	Abbr=Yes|Number=Sing	7	conj:coord	_	end_char=471|start_char=467
+11	3962	3962	NUM	CD	NumForm=Digit|NumType=Card|Shared=No	10	mod	_	end_char=476|SpaceAfter=No|start_char=472
+12	,	,	PUNCT	,	_	7	punct	_	end_char=477|start_char=476
+13	restricts	restrict	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=487|start_char=478
+14	insurance	insurance	NOUN	NN	Number=Sing	15	compound	_	end_char=497|start_char=488
+15	companies	company	NOUN	NNS	Number=Plur	13	comp:obj	_	end_char=507|start_char=498
+16	from	from	SCONJ	IN	_	13	mod	_	end_char=512|start_char=508
+17	denying	deny	VERB	VBG	Tense=Pres|VerbForm=Part	16	comp:obj	_	end_char=520|start_char=513
+18	coverage	coverage	NOUN	NN	Number=Sing	17	comp:obj	_	end_char=529|start_char=521
+19	to	to	ADP	IN	_	17	udep	_	end_char=532|start_char=530
+20	anyone	anyone	PRON	NN	Number=Sing|PronType=Ind	19	comp:obj	_	end_char=539|start_char=533
+21	with	with	ADP	IN	_	20	udep	_	end_char=544|start_char=540
+22	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	end_char=546|start_char=545
+23	pre-existing	pre-exist	VERB	VBG	VerbForm=Ger	24	mod	_	end_char=559|start_char=547
+24	condition	condition	NOUN	NN	Number=Sing	21	comp:obj	_	end_char=569|start_char=560
+25	or	or	CCONJ	CC	_	26	cc	_	end_char=572|start_char=570
+26	charging	charge	VERB	VBG	VerbForm=Ger	16	conj:coord	_	end_char=581|start_char=573
+27	higher	high	ADJ	JJR	Degree=Cmp	28	mod	_	end_char=588|start_char=582
+28	premiums	premium	NOUN	NNS	Number=Plur|Shared=No	26	comp:obj	_	end_char=597|start_char=589
+29	based	base	VERB	VBN	Shared=No|Tense=Past|VerbForm=Part|Voice=Pass	26	mod	_	end_char=603|start_char=598
+30	on	on	ADP	IN	_	29	udep	_	end_char=606|start_char=604
+31	gender	gender	NOUN	NN	Number=Sing	34	compound	_	end_char=613|start_char=607
+32	or	or	CCONJ	CC	_	33	cc	_	end_char=616|start_char=614
+33	medical	medical	ADJ	JJ	Degree=Pos	31	conj:coord	_	end_char=624|start_char=617
+34	history	history	NOUN	NN	Number=Sing	30	comp:obj	_	end_char=632|SpaceAfter=No|start_char=625
+35	.	.	PUNCT	.	_	13	punct	_	end_char=633|start_char=632
+
+# text = It also provides federal subsidies to those who can not afford it.
+# sent_id = 3
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	subj	_	end_char=636|start_char=634
+2	also	also	ADV	RB	_	3	mod	_	end_char=641|start_char=637
+3	provides	provide	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=650|start_char=642
+4	federal	federal	ADJ	JJ	Degree=Pos	5	mod	_	end_char=658|start_char=651
+5	subsidies	subsidy	NOUN	NNS	Number=Plur	3	comp:obj	_	end_char=668|start_char=659
+6	to	to	ADP	IN	_	3	udep	_	end_char=671|start_char=669
+7	those	that	PRON	DT	Number=Plur|PronType=Dem	6	comp:obj	_	end_char=677|start_char=672
+8	who	who	PRON	WP	PronType=Rel	9	subj	_	end_char=681|start_char=678
+9	can	can	AUX	MD	VerbForm=Fin	7	mod@relcl	_	end_char=685|start_char=682
+10	not	not	PART	RB	Polarity=Neg	9	mod	_	end_char=689|start_char=686
+11	afford	afford	VERB	VB	VerbForm=Inf	9	comp:aux	_	end_char=696|start_char=690
+12	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	comp:obj	_	end_char=699|SpaceAfter=No|start_char=697
+13	.	.	PUNCT	.	_	3	punct	_	end_char=700|start_char=699
+
+# text = And it guarantees coverage for 96 percent of Americans, according to the nonpartisan Congressional Budget Office.
+# sent_id = 4
+1	And	and	CCONJ	CC	_	3	cc	_	end_char=704|start_char=701
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	subj	_	end_char=707|start_char=705
+3	guarantees	guarantee	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=718|start_char=708
+4	coverage	coverage	NOUN	NN	Number=Sing	3	comp:obj	_	end_char=727|start_char=719
+5	for	for	ADP	IN	_	3	udep	_	end_char=731|start_char=728
+6	96	96	NUM	CD	NumForm=Digit|NumType=Card	7	mod	_	end_char=734|start_char=732
+7	percent	percent	NOUN	NN	Number=Sing	5	comp:obj	_	end_char=742|start_char=735
+8	of	of	ADP	IN	_	7	udep	_	end_char=745|start_char=743
+9	Americans	American	PROPN	NNPS	Number=Plur	8	comp:obj	_	end_char=755|SpaceAfter=No|start_char=746
+10	,	,	PUNCT	,	_	11	punct	_	end_char=756|start_char=755
+11	according	accord	VERB	VBG	ExtPos=ADP|Tense=Pres|VerbForm=Part	3	udep	_	end_char=766|Idiom=Yes|start_char=757
+12	to	to	ADP	IN	_	11	unk	_	end_char=769|InIdiom=Yes|start_char=767
+13	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	end_char=773|start_char=770
+14	nonpartisan	nonpartisan	ADJ	JJ	Degree=Pos	17	mod	_	end_char=785|start_char=774
+15	Congressional	Congressional	ADJ	NNP	Degree=Pos	16	mod	_	end_char=799|start_char=786
+16	Budget	Budget	PROPN	NNP	Number=Sing	17	compound	_	end_char=806|start_char=800
+17	Office	Office	PROPN	NNP	Number=Sing	11	comp:obj	_	end_char=813|SpaceAfter=No|start_char=807
+18	.	.	PUNCT	.	_	3	punct	_	end_char=814|SpacesAfter=\n|start_char=813
+
+# text = But turning the bill into law remains uncertain.
+# sent_id = 5
+1	But	but	CCONJ	CC	_	7	cc	_	end_char=818|start_char=815
+2	turning	turn	VERB	VBG	Tense=Pres|VerbForm=Part	7	subj	_	end_char=826|start_char=819
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	end_char=830|start_char=827
+4	bill	bill	NOUN	NN	Number=Sing	2	comp:obj	_	end_char=835|start_char=831
+5	into	into	ADP	IN	_	2	udep	_	end_char=840|start_char=836
+6	law	law	NOUN	NN	Number=Sing	5	comp:obj	_	end_char=844|start_char=841
+7	remains	remain	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=852|start_char=845
+8	uncertain	uncertain	ADJ	JJ	Degree=Pos	7	comp:pred	_	end_char=862|SpaceAfter=No|start_char=853
+9	.	.	PUNCT	.	_	7	punct	_	end_char=863|start_char=862
+
+# text = The Senate must now pass its own version of a health care bill, and Senate Majority Leader Harry Reid of Nevada last week signaled uncertainty over whether that will happen this year.
+# sent_id = 6
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	end_char=867|start_char=864
+2	Senate	Senate	PROPN	NNP	Number=Sing|Shared=No	3	subj	_	end_char=874|start_char=868
+3	must	must	AUX	MD	VerbForm=Fin	0	root	_	end_char=879|start_char=875
+4	now	now	ADV	RB	_	3	mod	_	end_char=883|start_char=880
+5	pass	pass	VERB	VB	VerbForm=Inf	3	comp:aux	_	end_char=888|start_char=884
+6	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	mod@poss	_	end_char=892|start_char=889
+7	own	own	ADJ	JJ	Degree=Pos	8	mod	_	end_char=896|start_char=893
+8	version	version	NOUN	NN	Number=Sing	5	comp:obj	_	end_char=904|start_char=897
+9	of	of	ADP	IN	_	8	udep	_	end_char=907|start_char=905
+10	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	end_char=909|start_char=908
+11	health	health	NOUN	NN	Number=Sing	12	compound	_	end_char=916|start_char=910
+12	care	care	NOUN	NN	Number=Sing	13	compound	_	end_char=921|start_char=917
+13	bill	bill	NOUN	NN	Number=Sing	9	comp:obj	_	end_char=926|SpaceAfter=No|start_char=922
+14	,	,	PUNCT	,	_	25	punct	_	end_char=927|start_char=926
+15	and	and	CCONJ	CC	_	25	cc	_	end_char=931|start_char=928
+16	Senate	Senate	PROPN	NNP	Number=Sing	18	compound	_	end_char=938|start_char=932
+17	Majority	Majority	PROPN	NNP	Number=Sing	18	compound	_	end_char=947|start_char=939
+18	Leader	Leader	PROPN	NNP	Number=Sing	25	subj	_	end_char=954|start_char=948
+19	Harry	Harry	PROPN	NNP	Number=Sing	18	flat	_	end_char=960|start_char=955
+20	Reid	Reid	PROPN	NNP	Number=Sing	19	flat	_	end_char=965|start_char=961
+21	of	of	ADP	IN	_	19	udep	_	end_char=968|start_char=966
+22	Nevada	Nevada	PROPN	NNP	Number=Sing	21	comp:obj	_	end_char=975|start_char=969
+23	last	last	ADJ	JJ	Degree=Pos	24	mod	_	end_char=980|start_char=976
+24	week	week	NOUN	NN	Number=Sing	25	udep@unmarked	_	end_char=985|start_char=981
+25	signaled	signal	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj:coord	_	end_char=994|start_char=986
+26	uncertainty	uncertainty	NOUN	NN	Number=Sing|Shared=No	25	comp:obj	_	end_char=1006|start_char=995
+27	over	over	SCONJ	IN	Shared=No	25	mod	_	end_char=1011|start_char=1007
+28	whether	whether	SCONJ	IN	_	27	comp:obj	_	end_char=1019|start_char=1012
+29	that	that	PRON	DT	Number=Sing|PronType=Dem	30	subj	_	end_char=1024|start_char=1020
+30	will	will	AUX	MD	VerbForm=Fin	28	comp:obj	_	end_char=1029|start_char=1025
+31	happen	happen	VERB	VB	VerbForm=Inf	30	comp:aux	_	end_char=1036|start_char=1030
+32	this	this	DET	DT	Number=Sing|PronType=Dem	33	det	_	end_char=1041|start_char=1037
+33	year	year	NOUN	NN	Number=Sing	31	udep@unmarked	_	end_char=1046|SpaceAfter=No|start_char=1042
+34	.	.	PUNCT	.	_	3	punct	_	end_char=1047|SpacesAfter=\n|start_char=1046
+
+# text = Once both chambers have passed a bill, a congressional conference committee will merge the two proposals into a consensus version that would require final approval from each chamber and Obama's signature.
+# sent_id = 7
+1	Once	once	SCONJ	IN	_	13	mod	_	end_char=1052|start_char=1048
+2	both	both	DET	DT	PronType=Tot	3	det	_	end_char=1057|start_char=1053
+3	chambers	chamber	NOUN	NNS	Number=Plur	4	subj	_	end_char=1066|start_char=1058
+4	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	end_char=1071|start_char=1067
+5	passed	pass	VERB	VBN	Tense=Past|VerbForm=Part	4	comp:aux	_	end_char=1078|start_char=1072
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	end_char=1080|start_char=1079
+7	bill	bill	NOUN	NN	Number=Sing	5	comp:obj	_	end_char=1085|SpaceAfter=No|start_char=1081
+8	,	,	PUNCT	,	_	1	punct	_	end_char=1086|start_char=1085
+9	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	end_char=1088|start_char=1087
+10	congressional	congressional	ADJ	JJ	Degree=Pos	12	mod	_	end_char=1102|start_char=1089
+11	conference	conference	NOUN	NN	Number=Sing	12	compound	_	end_char=1113|start_char=1103
+12	committee	committee	NOUN	NN	Number=Sing	13	subj	_	end_char=1123|start_char=1114
+13	will	will	AUX	MD	VerbForm=Fin	0	root	_	end_char=1128|start_char=1124
+14	merge	merge	VERB	VB	VerbForm=Inf	13	comp:aux	_	end_char=1134|start_char=1129
+15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	end_char=1138|start_char=1135
+16	two	two	NUM	CD	NumForm=Word|NumType=Card	17	mod	_	end_char=1142|start_char=1139
+17	proposals	proposal	NOUN	NNS	Number=Plur	14	comp:obj	_	end_char=1152|start_char=1143
+18	into	into	ADP	IN	_	14	udep	_	end_char=1157|start_char=1153
+19	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	end_char=1159|start_char=1158
+20	consensus	consensus	ADJ	JJ	Degree=Pos	21	mod	_	end_char=1169|start_char=1160
+21	version	version	NOUN	NN	Number=Sing	18	comp:obj	_	end_char=1177|start_char=1170
+22	that	that	PRON	WDT	PronType=Rel	23	subj	_	end_char=1182|start_char=1178
+23	would	would	AUX	MD	VerbForm=Fin	21	mod@relcl	_	end_char=1188|start_char=1183
+24	require	require	VERB	VB	VerbForm=Inf	23	comp:aux	_	end_char=1196|start_char=1189
+25	final	final	ADJ	JJ	Degree=Pos	26	mod	_	end_char=1202|start_char=1197
+26	approval	approval	NOUN	NN	Number=Sing	24	comp:obj	_	end_char=1211|start_char=1203
+27	from	from	ADP	IN	_	26	udep	_	end_char=1216|start_char=1212
+28	each	each	DET	DT	PronType=Tot	29	det	_	end_char=1221|start_char=1217
+29	chamber	chamber	NOUN	NN	Number=Sing	27	comp:obj	_	end_char=1229|start_char=1222
+30	and	and	CCONJ	CC	_	33	cc	_	end_char=1233|start_char=1230
+31-32	Obama's	_	_	_	_	_	_	_	end_char=1241|start_char=1234
+31	Obama	Obama	PROPN	NNP	Number=Sing	32	comp:obj	_	end_char=1239|start_char=1234
+32	's	's	PART	POS	_	33	udep@poss	_	end_char=1241|start_char=1239
+33	signature	signature	NOUN	NN	Number=Sing	29	conj:coord	_	end_char=1251|SpaceAfter=No|start_char=1242
+34	.	.	PUNCT	.	_	13	punct	_	end_char=1252|SpacesAfter=\n|start_char=1251
+
+# text = On Sunday, Obama praised the historic House vote to pass the bill and called on the Senate to take the baton and complete its work.
+# sent_id = 8
+1	On	on	ADP	IN	Shared=Yes	5	udep	_	end_char=1255|start_char=1253
+2	Sunday	Sunday	PROPN	NNP	Number=Sing	1	comp:obj	_	end_char=1262|SpaceAfter=No|start_char=1256
+3	,	,	PUNCT	,	_	1	punct	_	end_char=1263|start_char=1262
+4	Obama	Obama	PROPN	NNP	Number=Sing|Shared=Yes	5	subj	_	end_char=1269|start_char=1264
+5	praised	praise	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1277|start_char=1270
+6	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	end_char=1281|start_char=1278
+7	historic	historic	ADJ	JJ	Degree=Pos	9	mod	_	end_char=1290|start_char=1282
+8	House	House	PROPN	NNP	Number=Sing	9	compound	_	end_char=1296|start_char=1291
+9	vote	vote	NOUN	NN	Number=Sing	5	comp:obj	_	end_char=1301|start_char=1297
+10	to	to	PART	TO	_	5	mod	_	end_char=1304|start_char=1302
+11	pass	pass	VERB	VB	VerbForm=Inf	10	comp:obj	_	end_char=1309|start_char=1305
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	end_char=1313|start_char=1310
+13	bill	bill	NOUN	NN	Number=Sing	11	comp:obj	_	end_char=1318|start_char=1314
+14	and	and	CCONJ	CC	_	15	cc	_	end_char=1322|start_char=1319
+15	called	call	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj:coord	_	end_char=1329|start_char=1323
+16	on	on	ADP	IN	Shared=No	15	udep	_	end_char=1332|start_char=1330
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	end_char=1336|start_char=1333
+18	Senate	Senate	PROPN	NNP	Number=Sing	16	comp:obj	_	end_char=1343|start_char=1337
+19	to	to	PART	TO	Shared=No	15	comp:obl	_	end_char=1346|start_char=1344
+20	take	take	VERB	VB	VerbForm=Inf	19	comp:obj	_	end_char=1351|start_char=1347|Subject=SubjRaising
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	end_char=1355|start_char=1352
+22	baton	baton	NOUN	NN	Number=Sing	20	comp:obj	_	end_char=1361|start_char=1356
+23	and	and	CCONJ	CC	_	24	cc	_	end_char=1365|start_char=1362
+24	complete	complete	VERB	VB	VerbForm=Inf	20	conj:coord	_	end_char=1374|start_char=1366
+25	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	mod@poss	_	end_char=1378|start_char=1375
+26	work	work	NOUN	NN	Number=Sing|Shared=No	24	comp:obj	_	end_char=1383|SpaceAfter=No|start_char=1379
+27	.	.	PUNCT	.	_	5	punct	_	end_char=1384|SpacesAfter=\n\s|start_char=1383
+
+# text = For years, we 've been told that this could n't be done, Obama said, citing the decades of failed health care reform efforts.
+# sent_id = 9
+1	For	for	ADP	IN	_	5	udep	_	end_char=1389|start_char=1386
+2	years	year	NOUN	NNS	Number=Plur	1	comp:obj	_	end_char=1395|SpaceAfter=No|start_char=1390
+3	,	,	PUNCT	,	_	1	punct	_	end_char=1396|start_char=1395
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	subj@pass	_	end_char=1399|start_char=1397
+5	've	have	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	end_char=1403|start_char=1400
+6	been	be	AUX	VBN	Tense=Past|VerbForm=Part	5	comp:aux	_	end_char=1408|start_char=1404
+7	told	tell	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	comp:aux@pass	_	end_char=1413|start_char=1409
+8	that	that	SCONJ	IN	_	7	comp:obj	_	end_char=1418|start_char=1414
+9	this	this	PRON	DT	Number=Sing|PronType=Dem	10	subj@pass	_	end_char=1423|start_char=1419
+10	could	could	AUX	MD	VerbForm=Fin	8	comp:obj	_	end_char=1429|start_char=1424
+11	n't	not	PART	RB	Polarity=Neg	10	mod	_	end_char=1433|start_char=1430
+12	be	be	AUX	VB	VerbForm=Inf	10	comp:aux	_	end_char=1436|start_char=1434
+13	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	comp:aux@pass	_	end_char=1441|SpaceAfter=No|start_char=1437
+14	,	,	PUNCT	,	_	5	punct	_	end_char=1442|start_char=1441
+15	Obama	Obama	PROPN	NNP	Number=Sing	16	subj	_	end_char=1448|start_char=1443
+16	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	parataxis	_	end_char=1453|SpaceAfter=No|start_char=1449
+17	,	,	PUNCT	,	_	18	punct	_	end_char=1454|start_char=1453
+18	citing	cite	VERB	VBG	Tense=Pres|VerbForm=Part	16	mod	_	end_char=1461|start_char=1455
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	end_char=1465|start_char=1462
+20	decades	decade	NOUN	NNS	Number=Plur	18	comp:obj	_	end_char=1473|start_char=1466
+21	of	of	ADP	IN	_	20	udep	_	end_char=1476|start_char=1474
+22	failed	fail	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	26	mod	_	end_char=1483|start_char=1477
+23	health	health	NOUN	NN	Number=Sing	24	compound	_	end_char=1490|start_char=1484
+24	care	care	NOUN	NN	Number=Sing	25	compound	_	end_char=1495|start_char=1491
+25	reform	reform	NOUN	NN	Number=Sing	26	compound	_	end_char=1502|start_char=1496
+26	efforts	effort	NOUN	NNS	Number=Plur	21	comp:obj	_	end_char=1510|SpaceAfter=No|start_char=1503
+27	.	.	PUNCT	.	_	5	punct	_	end_char=1511|start_char=1510
+
+# text = Last night, the House proved differently.
+# sent_id = 10
+1	Last	last	ADJ	JJ	Degree=Pos	2	mod	_	end_char=1516|start_char=1512
+2	night	night	NOUN	NN	Number=Sing	6	udep@unmarked	_	end_char=1522|SpaceAfter=No|start_char=1517
+3	,	,	PUNCT	,	_	2	punct	_	end_char=1523|start_char=1522
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	end_char=1527|start_char=1524
+5	House	House	PROPN	NNP	Number=Sing	6	subj	_	end_char=1533|start_char=1528
+6	proved	prove	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1540|start_char=1534
+7	differently	differently	ADV	RB	_	6	mod	_	end_char=1552|SpaceAfter=No|start_char=1541
+8	.	.	PUNCT	.	_	6	punct	_	end_char=1553|SpacesAfter=\s\n|start_char=1552
+
+# text = The president called the support by many House members courageous in the face of the heated and often misleading rhetoric around this legislation.
+# sent_id = 11
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	end_char=1558|start_char=1555
+2	president	president	NOUN	NN	Number=Sing	3	subj	_	end_char=1568|start_char=1559
+3	called	call	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1575|start_char=1569
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	end_char=1579|start_char=1576
+5	support	support	NOUN	NN	Number=Sing	3	comp:obj	_	end_char=1587|start_char=1580
+6	by	by	ADP	IN	_	5	udep	_	end_char=1590|start_char=1588
+7	many	many	ADJ	JJ	Degree=Pos	9	mod	_	end_char=1595|start_char=1591
+8	House	House	PROPN	NNP	Number=Sing	9	compound	_	end_char=1601|start_char=1596
+9	members	member	NOUN	NNS	Number=Plur	6	comp:obj	_	end_char=1609|start_char=1602
+10	courageous	courageous	ADJ	JJ	Degree=Pos	9	mod	_	end_char=1620|start_char=1610
+11	in	in	ADP	IN	_	10	udep	_	end_char=1623|start_char=1621
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	end_char=1627|start_char=1624
+13	face	face	NOUN	NN	Number=Sing	11	comp:obj	_	end_char=1632|start_char=1628
+14	of	of	ADP	IN	_	13	udep	_	end_char=1635|start_char=1633
+15	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	end_char=1639|start_char=1636
+16	heated	heat	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	20	mod	_	end_char=1646|start_char=1640
+17	and	and	CCONJ	CC	_	19	cc	_	end_char=1650|start_char=1647
+18	often	often	ADV	RB	_	19	mod	_	end_char=1656|start_char=1651
+19	misleading	misleading	ADJ	JJ	Degree=Pos	16	conj:coord	_	end_char=1667|start_char=1657
+20	rhetoric	rhetoric	NOUN	NN	Number=Sing	14	comp:obj	_	end_char=1676|start_char=1668
+21	around	around	ADP	IN	_	20	udep	_	end_char=1683|start_char=1677
+22	this	this	DET	DT	Number=Sing|PronType=Dem	23	det	_	end_char=1688|start_char=1684
+23	legislation	legislation	NOUN	NN	Number=Sing	21	comp:obj	_	end_char=1700|SpaceAfter=No|start_char=1689
+24	.	.	PUNCT	.	_	3	punct	_	end_char=1701|SpacesAfter=\s\n\s|start_char=1700
+
+# text = Now it falls on the United States Senate to take the baton and bring this effort to the finish line on behalf of the American people, Obama said.
+# sent_id = 12
+1	Now	now	ADV	RB	_	3	mod	_	end_char=1707|start_char=1704
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	subj	_	end_char=1710|start_char=1708
+3	falls	fall	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	comp:obj	_	end_char=1716|start_char=1711
+4	on	on	ADP	IN	_	3	udep	_	end_char=1719|start_char=1717
+5	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	end_char=1723|start_char=1720
+6	United	Unite	VERB	NNP	Tense=Past|VerbForm=Part	7	mod	_	end_char=1730|start_char=1724
+7	States	State	PROPN	NNPS	Number=Plur	8	compound	_	end_char=1737|start_char=1731
+8	Senate	Senate	PROPN	NNP	Number=Sing	4	comp:obj	_	end_char=1744|start_char=1738
+9	to	to	PART	TO	_	3	mod	_	end_char=1747|start_char=1745
+10	take	take	VERB	VB	VerbForm=Inf	9	comp:obj	_	end_char=1752|start_char=1748
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	end_char=1756|start_char=1753
+12	baton	baton	NOUN	NN	Number=Sing	10	comp:obj	_	end_char=1762|start_char=1757
+13	and	and	CCONJ	CC	_	14	cc	_	end_char=1766|start_char=1763
+14	bring	bring	VERB	VB	VerbForm=Inf	10	conj:coord	_	end_char=1772|start_char=1767
+15	this	this	DET	DT	Number=Sing|PronType=Dem	16	det	_	end_char=1777|start_char=1773
+16	effort	effort	NOUN	NN	Number=Sing|Shared=No	14	comp:obj	_	end_char=1784|start_char=1778
+17	to	to	ADP	IN	Shared=No	14	udep	_	end_char=1787|start_char=1785
+18	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	end_char=1791|start_char=1788
+19	finish	finish	NOUN	NN	Number=Sing	20	compound	_	end_char=1798|start_char=1792
+20	line	line	NOUN	NN	Number=Sing	17	comp:obj	_	end_char=1803|start_char=1799
+21	on	on	ADP	IN	Shared=No	14	udep	_	end_char=1806|start_char=1804
+22	behalf	behalf	NOUN	NN	Number=Sing	21	comp:obj	_	end_char=1813|start_char=1807
+23	of	of	ADP	IN	_	22	udep	_	end_char=1816|start_char=1814
+24	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	end_char=1820|start_char=1817
+25	American	American	ADJ	JJ	Degree=Pos	26	mod	_	end_char=1829|start_char=1821
+26	people	person	NOUN	NNS	Number=Plur	23	comp:obj	_	end_char=1836|SpaceAfter=No|start_char=1830
+27	,	,	PUNCT	,	_	3	punct	_	end_char=1837|start_char=1836
+28	Obama	Obama	PROPN	NNP	Number=Sing	29	subj	_	end_char=1843|start_char=1838
+29	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1848|SpaceAfter=No|start_char=1844
+30	.	.	PUNCT	.	_	29	punct	_	end_char=1849|start_char=1848
+
+# text = And I 'm absolutely confident that they will.
+# sent_id = 13
+1	And	and	CCONJ	CC	_	3	cc	_	end_char=1853|start_char=1850
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	end_char=1855|start_char=1854
+3	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	end_char=1858|start_char=1856
+4	absolutely	absolutely	ADV	RB	_	3	mod	_	end_char=1869|start_char=1859
+5	confident	confident	ADJ	JJ	Degree=Pos	3	comp:pred	_	end_char=1879|start_char=1870
+6	that	that	SCONJ	IN	_	5	comp:obl	_	end_char=1884|start_char=1880
+7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	subj	_	end_char=1889|start_char=1885
+8	will	will	AUX	MD	VerbForm=Fin	6	comp:obj	_	end_char=1894|SpaceAfter=No|start_char=1890
+9	.	.	PUNCT	.	_	3	punct	_	end_char=1895|SpacesAfter=\s\n|start_char=1894
+
+# text = However, Republicans and an independent senator who sits with the Democratic caucus signaled Sunday that difficulties remain for Obama on his top domestic priority.
+# sent_id = 14
+1	However	however	ADV	RB	_	14	mod	_	end_char=1904|SpaceAfter=No|start_char=1897
+2	,	,	PUNCT	,	_	1	punct	_	end_char=1905|start_char=1904
+3	Republicans	Republican	PROPN	NNPS	Number=Plur	14	subj	_	end_char=1917|start_char=1906
+4	and	and	CCONJ	CC	_	7	cc	_	end_char=1921|start_char=1918
+5	an	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	end_char=1924|start_char=1922
+6	independent	independent	ADJ	JJ	Degree=Pos	7	mod	_	end_char=1936|start_char=1925
+7	senator	senator	PROPN	NNP	Number=Sing	3	conj:coord	_	end_char=1944|start_char=1937
+8	who	who	PRON	WP	PronType=Rel	9	subj	_	end_char=1948|start_char=1945
+9	sits	sit	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Shared=No|Tense=Pres|VerbForm=Fin	7	mod@relcl	_	end_char=1953|start_char=1949
+10	with	with	ADP	IN	_	9	udep	_	end_char=1958|start_char=1954
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	end_char=1962|start_char=1959
+12	Democratic	Democratic	ADJ	JJ	Degree=Pos	13	mod	_	end_char=1973|start_char=1963
+13	caucus	caucus	NOUN	NN	Number=Sing	10	comp:obj	_	end_char=1980|start_char=1974
+14	signaled	signal	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1989|start_char=1981
+15	Sunday	Sunday	PROPN	NNP	Number=Sing	14	udep@unmarked	_	end_char=1996|start_char=1990
+16	that	that	SCONJ	IN	_	14	comp:obj	_	end_char=2001|start_char=1997
+17	difficulties	difficulty	NOUN	NNS	Number=Plur	18	subj	_	end_char=2014|start_char=2002
+18	remain	remain	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	comp:obj	_	end_char=2021|start_char=2015
+19	for	for	ADP	IN	_	18	udep	_	end_char=2025|start_char=2022
+20	Obama	Obama	PROPN	NNP	Number=Sing	19	comp:obj	_	end_char=2031|start_char=2026
+21	on	on	ADP	IN	_	18	udep	_	end_char=2034|start_char=2032
+22	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	mod@poss	_	end_char=2038|start_char=2035
+23	top	top	ADJ	JJ	Degree=Pos	25	mod	_	end_char=2042|start_char=2039
+24	domestic	domestic	ADJ	JJ	Degree=Pos	25	mod	_	end_char=2051|start_char=2043
+25	priority	priority	NOUN	NN	Number=Sing	21	comp:obj	_	end_char=2060|SpaceAfter=No|start_char=2052
+26	.	.	PUNCT	.	_	14	punct	_	end_char=2061|SpacesAfter=\n|start_char=2060
+
+# text = Sen. Joseph Lieberman, an independent from Connecticut, reiterated that he would join a Republican filibuster against a health care bill if it contains a government-run public health insurance option after the chamber's amendment process.
+# sent_id = 15
+1	Sen.	Sen.	PROPN	NNP	Number=Sing	10	subj	_	end_char=2066|start_char=2062
+2	Joseph	Joseph	PROPN	NNP	Number=Sing	1	flat	_	end_char=2073|start_char=2067
+3	Lieberman	Lieberman	PROPN	NNP	Number=Sing	2	flat	_	end_char=2083|SpaceAfter=No|start_char=2074
+4	,	,	PUNCT	,	_	6	punct	_	end_char=2084|start_char=2083
+5	an	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	end_char=2087|start_char=2085
+6	independent	independent	NOUN	NN	Number=Sing	1	conj:appos	_	end_char=2099|start_char=2088
+7	from	from	ADP	IN	_	6	udep	_	end_char=2104|start_char=2100
+8	Connecticut	Connecticut	PROPN	NNP	Number=Sing	7	comp:obj	_	end_char=2116|SpaceAfter=No|start_char=2105
+9	,	,	PUNCT	,	_	1	punct	_	end_char=2117|start_char=2116
+10	reiterated	reiterate	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=2128|start_char=2118
+11	that	that	SCONJ	IN	_	10	comp:obj	_	end_char=2133|start_char=2129
+12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	subj	_	end_char=2136|start_char=2134
+13	would	would	AUX	MD	VerbForm=Fin	11	comp:obj	_	end_char=2142|start_char=2137
+14	join	join	VERB	VB	VerbForm=Inf	13	comp:aux	_	end_char=2147|start_char=2143
+15	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	end_char=2149|start_char=2148
+16	Republican	Republican	ADJ	JJ	Degree=Pos	17	mod	_	end_char=2160|start_char=2150
+17	filibuster	filibuster	NOUN	NN	Number=Sing	14	comp:obj	_	end_char=2171|start_char=2161
+18	against	against	ADP	IN	_	14	udep	_	end_char=2179|start_char=2172
+19	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	end_char=2181|start_char=2180
+20	health	health	NOUN	NN	Number=Sing	21	compound	_	end_char=2188|start_char=2182
+21	care	care	NOUN	NN	Number=Sing	22	compound	_	end_char=2193|start_char=2189
+22	bill	bill	NOUN	NN	Number=Sing	18	comp:obj	_	end_char=2198|start_char=2194
+23	if	if	SCONJ	IN	_	13	mod	_	end_char=2201|start_char=2199
+24	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	subj	_	end_char=2204|start_char=2202
+25	contains	contain	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	comp:obj	_	end_char=2213|start_char=2205
+26	a	a	DET	DT	Definite=Ind|PronType=Art	33	det	_	end_char=2215|start_char=2214
+27	government	government	NOUN	NN	Number=Sing	29	compound	_	end_char=2226|SpaceAfter=No|start_char=2216
+28	-	-	PUNCT	HYPH	_	27	punct	_	end_char=2227|SpaceAfter=No|start_char=2226
+29	run	run	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	33	mod	_	end_char=2230|start_char=2227
+30	public	public	ADJ	JJ	Degree=Pos	33	mod	_	end_char=2237|start_char=2231
+31	health	health	NOUN	NN	Number=Sing	32	compound	_	end_char=2244|start_char=2238
+32	insurance	insurance	NOUN	NN	Number=Sing	33	compound	_	end_char=2254|start_char=2245
+33	option	option	NOUN	NN	Number=Sing	25	comp:obj	_	end_char=2261|start_char=2255
+34	after	after	ADP	IN	_	25	udep	_	end_char=2267|start_char=2262
+35	the	the	DET	DT	Definite=Def|PronType=Art	36	det	_	end_char=2271|start_char=2268
+36-37	chamber's	_	_	_	_	_	_	_	end_char=2281|start_char=2272
+36	chamber	chamber	NOUN	NN	Number=Sing	37	comp:obj	_	end_char=2279|start_char=2272
+37	's	's	PART	POS	_	39	udep@poss	_	end_char=2281|start_char=2279
+38	amendment	amendment	NOUN	NN	Number=Sing	39	compound	_	end_char=2291|start_char=2282
+39	process	process	NOUN	NN	Number=Sing	34	comp:obj	_	end_char=2299|SpaceAfter=No|start_char=2292
+40	.	.	PUNCT	.	_	10	punct	_	end_char=2300|SpacesAfter=\n|start_char=2299
+
+# text = Speaking on Fox News Sunday, Lieberman called the controversial public option, which is in the House bill and the Senate version being prepared by Reid, an unnecessary provision intended to bring government-run health insurance in the future.
+# sent_id = 16
+1	Speaking	speak	VERB	VBG	Tense=Pres|VerbForm=Part	8	mod	_	end_char=2309|start_char=2301
+2	on	on	ADP	IN	_	1	udep	_	end_char=2312|start_char=2310
+3	Fox	Fox	PROPN	NNP	Number=Sing	4	compound	_	end_char=2316|start_char=2313
+4	News	News	PROPN	NNP	Number=Sing	2	comp:obj	_	end_char=2321|start_char=2317
+5	Sunday	Sunday	PROPN	NNP	Number=Sing	1	udep@unmarked	_	end_char=2328|SpaceAfter=No|start_char=2322
+6	,	,	PUNCT	,	_	1	punct	_	end_char=2329|start_char=2328
+7	Lieberman	Lieberman	PROPN	NNP	Number=Sing	8	subj	_	end_char=2339|start_char=2330
+8	called	call	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=2346|start_char=2340
+9	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	end_char=2350|start_char=2347
+10	controversial	controversial	ADJ	JJ	Degree=Pos	12	mod	_	end_char=2364|start_char=2351
+11	public	public	ADJ	JJ	Degree=Pos	12	mod	_	end_char=2371|start_char=2365
+12	option	option	NOUN	NN	Number=Sing	8	comp:obj	_	end_char=2378|SpaceAfter=No|start_char=2372
+13	,	,	PUNCT	,	_	15	punct	_	end_char=2379|start_char=2378
+14	which	which	PRON	WDT	PronType=Rel	15	subj	_	end_char=2385|start_char=2380
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	mod@relcl	_	end_char=2388|start_char=2386
+16	in	in	ADP	IN	_	15	comp:pred	_	end_char=2391|start_char=2389
+17	the	the	DET	DT	Definite=Def|PronType=Art|Shared=No	19	det	_	end_char=2395|start_char=2392
+18	House	House	PROPN	NNP	Number=Sing|Shared=No	19	compound	_	end_char=2401|start_char=2396
+19	bill	bill	NOUN	NN	Number=Sing	16	comp:obj	_	end_char=2406|start_char=2402
+20	and	and	CCONJ	CC	_	23	cc	_	end_char=2410|start_char=2407
+21	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	end_char=2414|start_char=2411
+22	Senate	Senate	PROPN	NNP	Number=Sing	23	compound	_	end_char=2421|start_char=2415
+23	version	version	NOUN	NN	Number=Sing	19	conj:coord	_	end_char=2429|start_char=2422
+24	being	be	AUX	VBG	Shared=No|Tense=Pres|VerbForm=Part	23	mod	_	end_char=2435|start_char=2430
+25	prepared	prepare	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	24	comp:aux@pass	_	end_char=2444|start_char=2436
+26	by	by	ADP	IN	_	25	comp:obl@agent	_	end_char=2447|start_char=2445
+27	Reid	Reid	PROPN	NNP	Number=Sing	26	comp:obj	_	end_char=2452|SpaceAfter=No|start_char=2448
+28	,	,	PUNCT	,	_	31	punct	_	end_char=2453|start_char=2452
+29	an	a	DET	DT	Definite=Ind|PronType=Art	31	det	_	end_char=2456|start_char=2454
+30	unnecessary	unnecessary	ADJ	JJ	Degree=Pos	31	mod	_	end_char=2468|start_char=2457
+31	provision	provision	NOUN	NN	Number=Sing	27	conj:appos	_	end_char=2478|start_char=2469
+32	intended	intend	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	31	mod	_	end_char=2487|start_char=2479
+33	to	to	PART	TO	_	32	comp:obl	_	end_char=2490|start_char=2488
+34	bring	bring	VERB	VB	VerbForm=Inf	33	comp:obj	_	end_char=2496|start_char=2491|Subject=SubjRaising
+35	government	government	NOUN	NN	Number=Sing	37	compound	_	end_char=2507|SpaceAfter=No|start_char=2497
+36	-	-	PUNCT	HYPH	_	35	punct	_	end_char=2508|SpaceAfter=No|start_char=2507
+37	run	run	VERB	VB	VerbForm=Inf	39	mod	_	end_char=2511|start_char=2508
+38	health	health	NOUN	NN	Number=Sing	39	compound	_	end_char=2518|start_char=2512
+39	insurance	insurance	NOUN	NN	Number=Sing	34	comp:obj	_	end_char=2528|start_char=2519
+40	in	in	ADP	IN	_	34	udep	_	end_char=2531|start_char=2529
+41	the	the	DET	DT	Definite=Def|PronType=Art	42	det	_	end_char=2535|start_char=2532
+42	future	future	NOUN	NN	Number=Sing	40	comp:obj	_	end_char=2542|SpaceAfter=No|start_char=2536
+43	.	.	PUNCT	.	_	8	punct	_	end_char=2543|SpacesAfter=\n\s|start_char=2542
+
+# text = If the public option is in there, as a matter of conscience, I will not allow the bill to come to a final vote, Lieberman said.
+# sent_id = 17
+1	If	if	SCONJ	IN	_	16	mod	_	end_char=2547|start_char=2545
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	end_char=2551|start_char=2548
+3	public	public	ADJ	JJ	Degree=Pos	4	mod	_	end_char=2558|start_char=2552
+4	option	option	NOUN	NN	Number=Sing	5	subj	_	end_char=2565|start_char=2559
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	end_char=2568|start_char=2566
+6	in	in	ADP	IN	_	5	comp:pred	_	end_char=2571|start_char=2569
+7	there	there	ADV	RB	PronType=Dem	6	comp:obj	_	end_char=2577|SpaceAfter=No|start_char=2572
+8	,	,	PUNCT	,	_	1	punct	_	end_char=2578|start_char=2577
+9	as	as	ADP	IN	_	16	udep	_	end_char=2581|start_char=2579
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	end_char=2583|start_char=2582
+11	matter	matter	NOUN	NN	Number=Sing	9	comp:obj	_	end_char=2590|start_char=2584
+12	of	of	ADP	IN	_	11	udep	_	end_char=2593|start_char=2591
+13	conscience	conscience	NOUN	NN	Number=Sing	12	comp:obj	_	end_char=2604|SpaceAfter=No|start_char=2594
+14	,	,	PUNCT	,	_	9	punct	_	end_char=2605|start_char=2604
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	subj	_	end_char=2607|start_char=2606
+16	will	will	AUX	MD	VerbForm=Fin	29	comp:obj	_	end_char=2612|start_char=2608
+17	not	not	PART	RB	Polarity=Neg	16	mod	_	end_char=2616|start_char=2613
+18	allow	allow	VERB	VB	VerbForm=Inf	16	comp:aux	_	end_char=2622|start_char=2617
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	end_char=2626|start_char=2623
+20	bill	bill	NOUN	NN	Number=Sing	18	comp:obl	_	end_char=2631|start_char=2627
+21	to	to	PART	TO	_	18	comp:obl	_	end_char=2634|start_char=2632
+22	come	come	VERB	VB	VerbForm=Inf	21	comp:obj	_	end_char=2639|start_char=2635|Subject=SubjRaising
+23	to	to	ADP	IN	_	22	udep	_	end_char=2642|start_char=2640
+24	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	end_char=2644|start_char=2643
+25	final	final	ADJ	JJ	Degree=Pos	26	mod	_	end_char=2650|start_char=2645
+26	vote	vote	NOUN	NN	Number=Sing	23	comp:obj	_	end_char=2655|SpaceAfter=No|start_char=2651
+27	,	,	PUNCT	,	_	16	punct	_	end_char=2656|start_char=2655
+28	Lieberman	Lieberman	PROPN	NNP	Number=Sing	29	subj	_	end_char=2666|start_char=2657
+29	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=2671|SpaceAfter=No|start_char=2667
+30	.	.	PUNCT	.	_	29	punct	_	end_char=2672|start_char=2671
+
+# text = He previously has said he wo n't oppose opening Senate debate on the bill despite the public option provision, and he maintained that stance Sunday.
+# sent_id = 18
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=No	3	subj	_	end_char=2675|start_char=2673
+2	previously	previously	ADV	RB	Shared=No	3	mod	_	end_char=2686|start_char=2676
+3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=2690|start_char=2687
+4	said	say	VERB	VBN	Tense=Past|VerbForm=Part	3	comp:aux	_	end_char=2695|start_char=2691
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj	_	end_char=2698|start_char=2696
+6	wo	will	AUX	MD	VerbForm=Fin	4	comp:obj	_	end_char=2701|start_char=2699
+7	n't	not	PART	RB	Polarity=Neg	6	mod	_	end_char=2705|start_char=2702
+8	oppose	oppose	VERB	VB	VerbForm=Inf	6	comp:aux	_	end_char=2712|start_char=2706
+9	opening	open	VERB	VBG	VerbForm=Ger	8	comp:obj	_	end_char=2720|start_char=2713|Subject=SubjRaising
+10	Senate	Senate	PROPN	NNP	Number=Sing	11	compound	_	end_char=2727|start_char=2721
+11	debate	debate	NOUN	NN	Number=Sing	9	comp:obj	_	end_char=2734|start_char=2728
+12	on	on	ADP	IN	_	11	udep	_	end_char=2737|start_char=2735
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	end_char=2741|start_char=2738
+14	bill	bill	NOUN	NN	Number=Sing	12	comp:obj	_	end_char=2746|start_char=2742
+15	despite	despite	ADP	IN	_	9	udep	_	end_char=2754|start_char=2747
+16	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	end_char=2758|start_char=2755
+17	public	public	ADJ	JJ	Degree=Pos	19	mod	_	end_char=2765|start_char=2759
+18	option	option	NOUN	NN	Number=Sing	19	compound	_	end_char=2772|start_char=2766
+19	provision	provision	NOUN	NN	Number=Sing	15	comp:obj	_	end_char=2782|SpaceAfter=No|start_char=2773
+20	,	,	PUNCT	,	_	23	punct	_	end_char=2783|start_char=2782
+21	and	and	CCONJ	CC	_	23	cc	_	end_char=2787|start_char=2784
+22	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	subj	_	end_char=2790|start_char=2788
+23	maintained	maintain	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj:coord	_	end_char=2801|start_char=2791
+24	that	that	DET	DT	Number=Sing|PronType=Dem	25	det	_	end_char=2806|start_char=2802
+25	stance	stance	NOUN	NN	Number=Sing|Shared=No	23	comp:obj	_	end_char=2813|start_char=2807
+26	Sunday	Sunday	PROPN	NNP	Number=Sing|Shared=No	23	udep@unmarked	_	end_char=2820|SpaceAfter=No|start_char=2814
+27	.	.	PUNCT	.	_	3	punct	_	end_char=2821|SpacesAfter=\n|start_char=2820
+
+# text = Lieberman's stance is crucial because the Democratic caucus has the minimum 60 votes to overcome a Republican filibuster.
+# sent_id = 19
+1-2	Lieberman's	_	_	_	_	_	_	_	end_char=2833|start_char=2822
+1	Lieberman	Lieberman	PROPN	NNP	Number=Sing	2	comp:obj	_	end_char=2831|start_char=2822
+2	's	's	PART	POS	_	3	udep@poss	_	end_char=2833|start_char=2831
+3	stance	stance	NOUN	NN	Number=Sing	4	subj	_	end_char=2840|start_char=2834
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=2843|start_char=2841
+5	crucial	crucial	ADJ	JJ	Degree=Pos	4	comp:pred	_	end_char=2851|start_char=2844
+6	because	because	SCONJ	IN	_	4	mod	_	end_char=2859|start_char=2852
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	end_char=2863|start_char=2860
+8	Democratic	Democratic	ADJ	JJ	Degree=Pos	9	mod	_	end_char=2874|start_char=2864
+9	caucus	caucus	NOUN	NN	Number=Sing	10	subj	_	end_char=2881|start_char=2875
+10	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	comp:obj	_	end_char=2885|start_char=2882
+11	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	end_char=2889|start_char=2886
+12	minimum	minimum	ADJ	JJ	Degree=Pos	14	mod	_	end_char=2897|start_char=2890
+13	60	60	NUM	CD	NumForm=Digit|NumType=Card	14	mod	_	end_char=2900|start_char=2898
+14	votes	vote	NOUN	NNS	Number=Plur	10	comp:obj	_	end_char=2906|start_char=2901
+15	to	to	PART	TO	_	14	udep	_	end_char=2909|start_char=2907
+16	overcome	overcome	VERB	VB	VerbForm=Inf	15	comp:obj	_	end_char=2918|start_char=2910
+17	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	end_char=2920|start_char=2919
+18	Republican	Republican	ADJ	JJ	Degree=Pos	19	mod	_	end_char=2931|start_char=2921
+19	filibuster	filibuster	NOUN	NN	Number=Sing	16	comp:obj	_	end_char=2942|SpaceAfter=No|start_char=2932
+20	.	.	PUNCT	.	_	4	punct	_	end_char=2943|start_char=2942
+
+# text = Senate Republicans unanimously oppose the public option, though Sen. Olympia Snowe of Maine has floated the possible compromise idea of a trigger mechanism that would mandate a public option in the future if thresholds for expanded coverage and lower costs go unmet.
+# sent_id = 20
+1	Senate	Senate	PROPN	NNP	Number=Sing	2	compound	_	end_char=2950|start_char=2944
+2	Republicans	Republican	PROPN	NNPS	Number=Plur	4	subj	_	end_char=2962|start_char=2951
+3	unanimously	unanimously	ADV	RB	_	4	mod	_	end_char=2974|start_char=2963
+4	oppose	oppose	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=2981|start_char=2975
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	end_char=2985|start_char=2982
+6	public	public	ADJ	JJ	Degree=Pos	7	mod	_	end_char=2992|start_char=2986
+7	option	option	NOUN	NN	Number=Sing	4	comp:obj	_	end_char=2999|SpaceAfter=No|start_char=2993
+8	,	,	PUNCT	,	_	9	punct	_	end_char=3000|start_char=2999
+9	though	though	SCONJ	IN	_	4	mod	_	end_char=3007|start_char=3001
+10	Sen.	Sen.	PROPN	NNP	Number=Sing	15	subj	_	end_char=3012|start_char=3008
+11	Olympia	Olympia	PROPN	NNP	Number=Sing	10	flat	_	end_char=3020|start_char=3013
+12	Snowe	Snowe	PROPN	NNP	Number=Sing	11	flat	_	end_char=3026|start_char=3021
+13	of	of	ADP	IN	_	10	udep	_	end_char=3029|start_char=3027
+14	Maine	Maine	PROPN	NNP	Number=Sing	13	comp:obj	_	end_char=3035|start_char=3030
+15	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	comp:obj	_	end_char=3039|start_char=3036
+16	floated	float	VERB	VBN	Tense=Past|VerbForm=Part	15	comp:aux	_	end_char=3047|start_char=3040
+17	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	end_char=3051|start_char=3048
+18	possible	possible	ADJ	JJ	Degree=Pos	20	mod	_	end_char=3060|start_char=3052
+19	compromise	compromise	NOUN	NN	Number=Sing	20	compound	_	end_char=3071|start_char=3061
+20	idea	idea	NOUN	NN	Number=Sing	16	comp:obj	_	end_char=3076|start_char=3072
+21	of	of	ADP	IN	_	20	udep	_	end_char=3079|start_char=3077
+22	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	end_char=3081|start_char=3080
+23	trigger	trigger	NOUN	NN	Number=Sing	24	compound	_	end_char=3089|start_char=3082
+24	mechanism	mechanism	NOUN	NN	Number=Sing	21	comp:obj	_	end_char=3099|start_char=3090
+25	that	that	PRON	WDT	PronType=Rel	26	subj	_	end_char=3104|start_char=3100
+26	would	would	AUX	MD	VerbForm=Fin	24	mod@relcl	_	end_char=3110|start_char=3105
+27	mandate	mandate	VERB	VB	VerbForm=Inf	26	comp:aux	_	end_char=3118|start_char=3111
+28	a	a	DET	DT	Definite=Ind|PronType=Art	30	det	_	end_char=3120|start_char=3119
+29	public	public	ADJ	JJ	Degree=Pos	30	mod	_	end_char=3127|start_char=3121
+30	option	option	NOUN	NN	Number=Sing	27	comp:obj	_	end_char=3134|start_char=3128
+31	in	in	ADP	IN	_	27	udep	_	end_char=3137|start_char=3135
+32	the	the	DET	DT	Definite=Def|PronType=Art	33	det	_	end_char=3141|start_char=3138
+33	future	future	NOUN	NN	Number=Sing	31	comp:obj	_	end_char=3148|start_char=3142
+34	if	if	SCONJ	IN	_	26	mod	_	end_char=3151|start_char=3149
+35	thresholds	threshold	NOUN	NNS	Number=Plur	42	subj	_	end_char=3162|start_char=3152
+36	for	for	ADP	IN	_	35	udep	_	end_char=3166|start_char=3163
+37	expanded	expand	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	38	mod	_	end_char=3175|start_char=3167
+38	coverage	coverage	NOUN	NN	Number=Sing	36	comp:obj	_	end_char=3184|start_char=3176
+39	and	and	CCONJ	CC	_	41	cc	_	end_char=3188|start_char=3185
+40	lower	low	ADJ	JJR	Degree=Cmp	41	mod	_	end_char=3194|start_char=3189
+41	costs	cost	NOUN	NNS	Number=Plur	35	conj:coord	_	end_char=3200|start_char=3195
+42	go	go	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	34	comp:obj	_	end_char=3203|start_char=3201
+43	unmet	unmet	ADJ	JJ	Degree=Pos	42	comp:pred	_	end_char=3209|SpaceAfter=No|start_char=3204
+44	.	.	PUNCT	.	_	4	punct	_	end_char=3210|SpacesAfter=\n|start_char=3209
+
+# text = The lone House Republican who supported the bill, Rep.
+# sent_id = 21
+1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	end_char=3214|start_char=3211
+2	lone	lone	ADJ	JJ	Degree=Pos	4	mod	_	end_char=3219|start_char=3215
+3	House	House	PROPN	NNP	Number=Sing	4	compound	_	end_char=3225|start_char=3220
+4	Republican	Republican	PROPN	NNP	Number=Sing	0	root	_	end_char=3236|start_char=3226
+5	who	who	PRON	WP	PronType=Rel	6	subj	_	end_char=3240|start_char=3237
+6	supported	support	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	mod@relcl	_	end_char=3250|start_char=3241
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	end_char=3254|start_char=3251
+8	bill	bill	NOUN	NN	Number=Sing	6	comp:obj	_	end_char=3259|SpaceAfter=No|start_char=3255
+9	,	,	PUNCT	,	_	10	punct	_	end_char=3260|start_char=3259
+10	Rep	rep	NOUN	NN	Number=Sing	8	conj:appos	_	end_char=3264|SpaceAfter=No|start_char=3261
+11	.	.	PUNCT	.	_	4	punct	_	end_char=3265|start_char=3264
+
+# text = Anh Joseph Cao, told CNN on Sunday he put the needs of his district over the desire of his party.
+# sent_id = 22
+1	Anh	Anh	PROPN	NNP	Number=Sing	5	subj	_	end_char=3269|start_char=3266
+2	Joseph	Joseph	PROPN	NNP	Number=Sing	1	flat	_	end_char=3276|start_char=3270
+3	Cao	Cao	PROPN	NNP	Number=Sing	2	flat	_	end_char=3280|SpaceAfter=No|start_char=3277
+4	,	,	PUNCT	,	_	1	punct	_	end_char=3281|start_char=3280
+5	told	tell	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=3286|start_char=3282
+6	CNN	CNN	PROPN	NNP	Abbr=Yes|Number=Sing	5	comp:obl	_	end_char=3290|start_char=3287
+7	on	on	ADP	IN	_	10	udep	_	end_char=3293|start_char=3291
+8	Sunday	Sunday	PROPN	NNP	Number=Sing	7	comp:obj	_	end_char=3300|start_char=3294
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	subj	_	end_char=3303|start_char=3301
+10	put	put	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	comp:obj	_	end_char=3307|start_char=3304
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	end_char=3311|start_char=3308
+12	needs	need	NOUN	NNS	Number=Plur	10	comp:obj	_	end_char=3317|start_char=3312
+13	of	of	ADP	IN	_	12	udep	_	end_char=3320|start_char=3318
+14	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	mod@poss	_	end_char=3324|start_char=3321
+15	district	district	NOUN	NN	Number=Sing	13	comp:obj	_	end_char=3333|start_char=3325
+16	over	over	ADP	IN	_	10	udep	_	end_char=3338|start_char=3334
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	end_char=3342|start_char=3339
+18	desire	desire	NOUN	NN	Number=Sing	16	comp:obj	_	end_char=3349|start_char=3343
+19	of	of	ADP	IN	_	18	udep	_	end_char=3352|start_char=3350
+20	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	mod@poss	_	end_char=3356|start_char=3353
+21	party	party	NOUN	NN	Number=Sing	19	comp:obj	_	end_char=3362|SpaceAfter=No|start_char=3357
+22	.	.	PUNCT	.	_	5	punct	_	end_char=3363|SpacesAfter=\n|start_char=3362
+
+# text = Cao's yes vote ended up being unnecessary for House Democrats, but it gave House Speaker Nancy Pelosi license to tout bipartisan support for the controversial measure.
+# sent_id = 23
+1-2	Cao's	_	_	_	_	_	_	_	end_char=3369|start_char=3364
+1	Cao	Cao	PROPN	NNP	Number=Sing	2	comp:obj	_	end_char=3367|start_char=3364
+2	's	's	PART	POS	_	4	udep@poss	_	end_char=3369|start_char=3367
+3	yes	yes	INTJ	UH	Polarity=Pos	4	mod	_	end_char=3373|start_char=3370
+4	vote	vote	NOUN	NN	Number=Sing|Shared=No	5	subj	_	end_char=3378|start_char=3374
+5	ended	end	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=3384|start_char=3379
+6	up	up	ADP	RP	_	5	compound@prt	_	end_char=3387|start_char=3385
+7	being	be	AUX	VBG	Tense=Pres|VerbForm=Part	5	comp:obj	_	end_char=3393|start_char=3388|Subject=SubjRaising
+8	unnecessary	unnecessary	ADJ	JJ	Degree=Pos	7	comp:pred	_	end_char=3405|start_char=3394
+9	for	for	ADP	IN	_	8	udep	_	end_char=3409|start_char=3406
+10	House	House	PROPN	NNP	Number=Sing	11	compound	_	end_char=3415|start_char=3410
+11	Democrats	Democrat	PROPN	NNPS	Number=Plur	9	comp:obj	_	end_char=3425|SpaceAfter=No|start_char=3416
+12	,	,	PUNCT	,	_	15	punct	_	end_char=3426|start_char=3425
+13	but	but	CCONJ	CC	_	15	cc	_	end_char=3430|start_char=3427
+14	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	subj	_	end_char=3433|start_char=3431
+15	gave	give	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj:coord	_	end_char=3438|start_char=3434
+16	House	House	PROPN	NNP	Number=Sing	20	compound	_	end_char=3444|start_char=3439
+17	Speaker	Speaker	PROPN	NNP	Number=Sing	20	compound	_	end_char=3452|start_char=3445
+18	Nancy	Nancy	PROPN	NNP	Number=Sing	17	flat	_	end_char=3458|start_char=3453
+19	Pelosi	Pelosi	PROPN	NNP	Number=Sing	18	flat	_	end_char=3465|start_char=3459
+20	license	license	NOUN	NN	Number=Sing|Shared=No	15	comp:obj	_	end_char=3473|start_char=3466
+21	to	to	PART	TO	Shared=No	15	comp:obl	_	end_char=3476|start_char=3474
+22	tout	tout	VERB	VB	VerbForm=Inf	21	comp:obj	_	end_char=3481|start_char=3477|Subject=SubjRaising
+23	bipartisan	bipartisan	ADJ	JJ	Degree=Pos	24	mod	_	end_char=3492|start_char=3482
+24	support	support	NOUN	NN	Number=Sing	22	comp:obj	_	end_char=3500|start_char=3493
+25	for	for	ADP	IN	_	24	udep	_	end_char=3504|start_char=3501
+26	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	end_char=3508|start_char=3505
+27	controversial	controversial	ADJ	JJ	Degree=Pos	28	mod	_	end_char=3522|start_char=3509
+28	measure	measure	NOUN	NN	Number=Sing	25	comp:obj	_	end_char=3530|SpaceAfter=No|start_char=3523
+29	.	.	PUNCT	.	_	5	punct	_	end_char=3531|SpacesAfter=\n\s|start_char=3530
+
+# text = I felt last night's decision was the proper decision for my district, even though it was not the popular decision for my party, said Cao, a first-term representative from Louisiana's traditionally Democratic 2nd District.
+# sent_id = 24
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	end_char=3534|start_char=3533
+2	felt	feel	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	end_char=3539|start_char=3535
+3	last	last	ADJ	JJ	Degree=Pos	4	mod	_	end_char=3544|start_char=3540
+4-5	night's	_	_	_	_	_	_	_	end_char=3552|start_char=3545
+4	night	night	NOUN	NN	Number=Sing	5	comp:obj	_	end_char=3550|start_char=3545
+5	's	's	PART	POS	_	6	udep@poss	_	end_char=3552|start_char=3550
+6	decision	decision	NOUN	NN	Number=Sing	7	subj	_	end_char=3561|start_char=3553
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	comp:obj	_	end_char=3565|start_char=3562
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	end_char=3569|start_char=3566
+9	proper	proper	ADJ	JJ	Degree=Pos	10	mod	_	end_char=3576|start_char=3570
+10	decision	decision	NOUN	NN	Number=Sing	7	comp:pred	_	end_char=3585|start_char=3577
+11	for	for	ADP	IN	_	10	udep	_	end_char=3589|start_char=3586
+12	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	mod@poss	_	end_char=3592|start_char=3590
+13	district	district	NOUN	NN	Number=Sing	11	comp:obj	_	end_char=3601|SpaceAfter=No|start_char=3593
+14	,	,	PUNCT	,	_	16	punct	_	end_char=3602|start_char=3601
+15	even	even	ADV	RB	_	16	mod	_	end_char=3607|start_char=3603
+16	though	though	SCONJ	IN	_	7	mod	_	end_char=3614|start_char=3608
+17	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	subj	_	end_char=3617|start_char=3615
+18	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	comp:obj	_	end_char=3621|start_char=3618
+19	not	not	PART	RB	Polarity=Neg	18	mod	_	end_char=3625|start_char=3622
+20	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	end_char=3629|start_char=3626
+21	popular	popular	ADJ	JJ	Degree=Pos	22	mod	_	end_char=3637|start_char=3630
+22	decision	decision	NOUN	NN	Number=Sing	18	comp:pred	_	end_char=3646|start_char=3638
+23	for	for	ADP	IN	_	22	udep	_	end_char=3650|start_char=3647
+24	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	25	mod@poss	_	end_char=3653|start_char=3651
+25	party	party	NOUN	NN	Number=Sing	23	comp:obj	_	end_char=3659|SpaceAfter=No|start_char=3654
+26	,	,	PUNCT	,	_	2	punct	_	end_char=3660|start_char=3659
+27	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	parataxis	_	end_char=3665|start_char=3661
+28	Cao	Cao	PROPN	NNP	Number=Sing	27	subj	_	end_char=3669|SpaceAfter=No|start_char=3666
+29	,	,	PUNCT	,	_	34	punct	_	end_char=3670|start_char=3669
+30	a	a	DET	DT	Definite=Ind|PronType=Art	34	det	_	end_char=3672|start_char=3671
+31	first	first	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	33	mod	_	end_char=3678|SpaceAfter=No|start_char=3673
+32	-	-	PUNCT	HYPH	_	31	punct	_	end_char=3679|SpaceAfter=No|start_char=3678
+33	term	term	NOUN	NN	Number=Sing	34	compound	_	end_char=3683|start_char=3679
+34	representative	representative	NOUN	NN	Number=Sing	28	conj:appos	_	end_char=3698|start_char=3684
+35	from	from	ADP	IN	_	34	udep	_	end_char=3703|start_char=3699
+36-37	Louisiana's	_	_	_	_	_	_	_	end_char=3715|start_char=3704
+36	Louisiana	Louisiana	PROPN	NNP	Number=Sing	37	comp:obj	_	end_char=3713|start_char=3704
+37	's	's	PART	POS	_	41	udep@poss	_	end_char=3715|start_char=3713
+38	traditionally	traditionally	ADV	RB	_	39	mod	_	end_char=3729|start_char=3716
+39	Democratic	Democratic	ADJ	NNP	Degree=Pos	41	mod	_	end_char=3740|start_char=3730
+40	2nd	2nd	ADJ	NNP	Degree=Pos|NumForm=Combi|NumType=Ord	41	mod	_	end_char=3744|start_char=3741
+41	District	District	PROPN	NNP	Number=Sing	35	comp:obj	_	end_char=3753|SpaceAfter=No|start_char=3745
+42	.	.	PUNCT	.	_	2	punct	_	end_char=3754|start_char=3753
+
+# text = A lot of my constituents are uninsured, a lot of them are poor.
+# sent_id = 25
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	end_char=3756|start_char=3755
+2	lot	lot	NOUN	NN	Number=Sing	6	subj	_	end_char=3760|start_char=3757
+3	of	of	ADP	IN	_	2	udep	_	end_char=3763|start_char=3761
+4	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	mod@poss	_	end_char=3766|start_char=3764
+5	constituents	constituent	NOUN	NNS	Number=Plur	3	comp:obj	_	end_char=3779|start_char=3767
+6	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=3783|start_char=3780
+7	uninsured	uninsured	ADJ	JJ	Degree=Pos	6	comp:pred	_	end_char=3793|SpaceAfter=No|start_char=3784
+8	,	,	PUNCT	,	_	13	punct	_	end_char=3794|start_char=3793
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	end_char=3796|start_char=3795
+10	lot	lot	NOUN	NN	Number=Sing	13	subj	_	end_char=3800|start_char=3797
+11	of	of	ADP	IN	_	10	udep	_	end_char=3803|start_char=3801
+12	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	11	comp:obj	_	end_char=3808|start_char=3804
+13	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	end_char=3812|start_char=3809
+14	poor	poor	ADJ	JJ	Degree=Pos	13	comp:pred	_	end_char=3817|SpaceAfter=No|start_char=3813
+15	.	.	PUNCT	.	_	6	punct	_	end_char=3818|start_char=3817
+
+# text = It was the right decision for the people of my district.
+# sent_id = 26
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=3821|start_char=3819
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=3825|start_char=3822
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	end_char=3829|start_char=3826
+4	right	right	ADJ	JJ	Degree=Pos	5	mod	_	end_char=3835|start_char=3830
+5	decision	decision	NOUN	NN	Number=Sing	2	comp:pred	_	end_char=3844|start_char=3836
+6	for	for	ADP	IN	_	5	udep	_	end_char=3848|start_char=3845
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	end_char=3852|start_char=3849
+8	people	person	NOUN	NNS	Number=Plur	6	comp:obj	_	end_char=3859|start_char=3853
+9	of	of	ADP	IN	_	8	udep	_	end_char=3862|start_char=3860
+10	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	mod@poss	_	end_char=3865|start_char=3863
+11	district	district	NOUN	NN	Number=Sing	9	comp:obj	_	end_char=3874|SpaceAfter=No|start_char=3866
+12	.	.	PUNCT	.	_	2	punct	_	end_char=3875|SpacesAfter=\s\n|start_char=3874
+
+# text = Cao acknowledged he extracted some White House pledges to help his district deal with the continuing effects of Hurricane Katrina in exchange for his vote.
+# sent_id = 27
+1	Cao	Cao	PROPN	NNP	Number=Sing	2	subj	_	end_char=3880|start_char=3877
+2	acknowledged	acknowledge	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=3893|start_char=3881
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	end_char=3896|start_char=3894
+4	extracted	extract	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	comp:obj	_	end_char=3906|start_char=3897
+5	some	some	DET	DT	PronType=Ind	8	det	_	end_char=3911|start_char=3907
+6	White	White	ADJ	NNP	Degree=Pos	7	mod	_	end_char=3917|start_char=3912
+7	House	House	PROPN	NNP	Number=Sing	8	compound	_	end_char=3923|start_char=3918
+8	pledges	pledge	NOUN	NNS	Number=Plur	4	comp:obj	_	end_char=3931|start_char=3924
+9	to	to	PART	TO	_	8	udep	_	end_char=3934|start_char=3932
+10	help	help	VERB	VB	VerbForm=Inf	9	comp:obj	_	end_char=3939|start_char=3935
+11	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	mod@poss	_	end_char=3943|start_char=3940
+12	district	district	NOUN	NN	Number=Sing	10	comp:obj	_	end_char=3952|start_char=3944
+13	deal	deal	VERB	VB	VerbForm=Inf	10	comp:obl	_	end_char=3957|start_char=3953|Subject=ObjRaising
+14	with	with	ADP	IN	_	13	udep	_	end_char=3962|start_char=3958
+15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	end_char=3966|start_char=3963
+16	continuing	continue	VERB	VBG	VerbForm=Ger	17	mod	_	end_char=3977|start_char=3967
+17	effects	effect	NOUN	NNS	Number=Plur	14	comp:obj	_	end_char=3985|start_char=3978
+18	of	of	ADP	IN	_	17	udep	_	end_char=3988|start_char=3986
+19	Hurricane	Hurricane	PROPN	NNP	Number=Sing	20	compound	_	end_char=3998|start_char=3989
+20	Katrina	Katrina	PROPN	NNP	Number=Sing	18	comp:obj	_	end_char=4006|start_char=3999
+21	in	in	ADP	IN	_	13	udep	_	end_char=4009|start_char=4007
+22	exchange	exchange	NOUN	NN	Number=Sing	21	comp:obj	_	end_char=4018|start_char=4010
+23	for	for	ADP	IN	_	22	udep	_	end_char=4022|start_char=4019
+24	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	mod@poss	_	end_char=4026|start_char=4023
+25	vote	vote	NOUN	NN	Number=Sing	23	comp:obj	_	end_char=4031|SpaceAfter=No|start_char=4027
+26	.	.	PUNCT	.	_	2	punct	_	end_char=4032|start_char=4031
+
+# text = Asked about the reaction of fellow Republicans, Cao said the party's leaders respect my decision, and I respect theirs.
+# sent_id = 28
+1	Asked	ask	VERB	VBD	Tense=Past|VerbForm=Part|Voice=Pass	10	mod	_	end_char=4038|start_char=4033
+2	about	about	ADP	IN	_	1	udep	_	end_char=4044|start_char=4039
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	end_char=4048|start_char=4045
+4	reaction	reaction	NOUN	NN	Number=Sing	2	comp:obj	_	end_char=4057|start_char=4049
+5	of	of	ADP	IN	_	4	udep	_	end_char=4060|start_char=4058
+6	fellow	fellow	ADJ	JJ	Degree=Pos	7	mod	_	end_char=4067|start_char=4061
+7	Republicans	Republican	PROPN	NNPS	Number=Plur	5	comp:obj	_	end_char=4079|SpaceAfter=No|start_char=4068
+8	,	,	PUNCT	,	_	1	punct	_	end_char=4080|start_char=4079
+9	Cao	Cao	PROPN	NNP	Number=Sing|Shared=No	10	subj	_	end_char=4084|start_char=4081
+10	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=4089|start_char=4085
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	end_char=4093|start_char=4090
+12-13	party's	_	_	_	_	_	_	_	end_char=4101|start_char=4094
+12	party	party	NOUN	NN	Number=Sing	13	comp:obj	_	end_char=4099|start_char=4094
+13	's	's	PART	POS	_	14	udep@poss	_	end_char=4101|start_char=4099
+14	leaders	leader	NOUN	NNS	Number=Plur	15	subj	_	end_char=4109|start_char=4102
+15	respect	respect	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	comp:obj	_	end_char=4117|start_char=4110
+16	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	17	mod@poss	_	end_char=4120|start_char=4118
+17	decision	decision	NOUN	NN	Number=Sing	15	comp:obj	_	end_char=4129|SpaceAfter=No|start_char=4121
+18	,	,	PUNCT	,	_	21	punct	_	end_char=4130|start_char=4129
+19	and	and	CCONJ	CC	_	21	cc	_	end_char=4134|start_char=4131
+20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	subj	_	end_char=4136|start_char=4135
+21	respect	respect	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	conj:coord	_	end_char=4144|start_char=4137
+22	theirs	their	PRON	PRP	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|Shared=No	21	comp:obj	_	end_char=4151|SpaceAfter=No|start_char=4145
+23	.	.	PUNCT	.	_	10	punct	_	end_char=4152|SpacesAfter=\s\n|start_char=4151
+
+# text = Also Sunday, Rep. Mike Pence of Indiana, the chamber's third-ranking Republican, said on the Fox program that Democrats were ignoring the wishes of the American public by pushing through the huge health care bill.
+# sent_id = 29
+1	Also	also	ADV	RB	_	2	mod	_	end_char=4158|start_char=4154
+2	Sunday	Sunday	PROPN	NNP	Number=Sing	18	udep@unmarked	_	end_char=4165|SpaceAfter=No|start_char=4159
+3	,	,	PUNCT	,	_	2	punct	_	end_char=4166|start_char=4165
+4	Rep.	Rep.	PROPN	NNP	Number=Sing	18	subj	_	end_char=4171|start_char=4167
+5	Mike	Mike	PROPN	NNP	Number=Sing	4	flat	_	end_char=4176|start_char=4172
+6	Pence	Pence	PROPN	NNP	Number=Sing	5	flat	_	end_char=4182|start_char=4177
+7	of	of	ADP	IN	_	4	udep	_	end_char=4185|start_char=4183
+8	Indiana	Indiana	PROPN	NNP	Number=Sing	7	comp:obj	_	end_char=4193|SpaceAfter=No|start_char=4186
+9	,	,	PUNCT	,	_	16	punct	_	end_char=4194|start_char=4193
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	end_char=4198|start_char=4195
+11-12	chamber's	_	_	_	_	_	_	_	end_char=4208|start_char=4199
+11	chamber	chamber	NOUN	NN	Number=Sing	12	comp:obj	_	end_char=4206|start_char=4199
+12	's	's	PART	POS	_	16	udep@poss	_	end_char=4208|start_char=4206
+13	third	third	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	15	mod	_	end_char=4214|SpaceAfter=No|start_char=4209
+14	-	-	PUNCT	HYPH	_	13	punct	_	end_char=4215|SpaceAfter=No|start_char=4214
+15	ranking	rank	VERB	VBG	VerbForm=Ger	16	mod	_	end_char=4222|start_char=4215
+16	Republican	Republican	PROPN	NNP	Number=Sing	4	conj:appos	_	end_char=4233|SpaceAfter=No|start_char=4223
+17	,	,	PUNCT	,	_	4	punct	_	end_char=4234|start_char=4233
+18	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=4239|start_char=4235
+19	on	on	ADP	IN	_	18	udep	_	end_char=4242|start_char=4240
+20	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	end_char=4246|start_char=4243
+21	Fox	Fox	PROPN	NNP	Number=Sing	22	compound	_	end_char=4250|start_char=4247
+22	program	program	NOUN	NN	Number=Sing	19	comp:obj	_	end_char=4258|start_char=4251
+23	that	that	SCONJ	IN	_	18	comp:obj	_	end_char=4263|start_char=4259
+24	Democrats	Democrat	PROPN	NNPS	Number=Plur	25	subj	_	end_char=4273|start_char=4264
+25	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	23	comp:obj	_	end_char=4278|start_char=4274
+26	ignoring	ignore	VERB	VBG	Tense=Pres|VerbForm=Part	25	comp:aux	_	end_char=4287|start_char=4279
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	end_char=4291|start_char=4288
+28	wishes	wish	NOUN	NNS	Number=Plur	26	comp:obj	_	end_char=4298|start_char=4292
+29	of	of	ADP	IN	_	28	udep	_	end_char=4301|start_char=4299
+30	the	the	DET	DT	Definite=Def|PronType=Art	32	det	_	end_char=4305|start_char=4302
+31	American	American	ADJ	JJ	Degree=Pos	32	mod	_	end_char=4314|start_char=4306
+32	public	public	NOUN	NN	Number=Sing	29	comp:obj	_	end_char=4321|start_char=4315
+33	by	by	SCONJ	IN	_	25	mod	_	end_char=4324|start_char=4322
+34	pushing	push	VERB	VBG	Tense=Pres|VerbForm=Part	33	comp:obj	_	end_char=4332|start_char=4325
+35	through	through	ADP	IN	_	34	udep	_	end_char=4340|start_char=4333
+36	the	the	DET	DT	Definite=Def|PronType=Art	40	det	_	end_char=4344|start_char=4341
+37	huge	huge	ADJ	JJ	Degree=Pos	40	mod	_	end_char=4349|start_char=4345
+38	health	health	NOUN	NN	Number=Sing	39	compound	_	end_char=4356|start_char=4350
+39	care	care	NOUN	NN	Number=Sing	40	compound	_	end_char=4361|start_char=4357
+40	bill	bill	NOUN	NN	Number=Sing	35	comp:obj	_	end_char=4366|SpaceAfter=No|start_char=4362
+41	.	.	PUNCT	.	_	18	punct	_	end_char=4367|SpacesAfter=\n|start_char=4366
+
+# text = Pence said the health care bill would raise costs, increase the deficit and lead to a government takeover of the health care system.
+# sent_id = 30
+1	Pence	Pence	PROPN	NNP	Number=Sing	2	subj	_	end_char=4373|start_char=4368
+2	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=4378|start_char=4374
+3	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	end_char=4382|start_char=4379
+4	health	health	NOUN	NN	Number=Sing	5	compound	_	end_char=4389|start_char=4383
+5	care	care	NOUN	NN	Number=Sing	6	compound	_	end_char=4394|start_char=4390
+6	bill	bill	NOUN	NN	Number=Sing	7	subj	_	end_char=4399|start_char=4395
+7	would	would	AUX	MD	VerbForm=Fin	2	comp:obj	_	end_char=4405|start_char=4400
+8	raise	raise	VERB	VB	VerbForm=Inf	7	comp:aux	_	end_char=4411|start_char=4406
+9	costs	cost	NOUN	NNS	Number=Plur	8	comp:obj	_	end_char=4417|SpaceAfter=No|start_char=4412
+10	,	,	PUNCT	,	_	11	punct	_	end_char=4418|start_char=4417
+11	increase	increase	VERB	VB	VerbForm=Inf	8	conj:coord	_	end_char=4427|start_char=4419
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	end_char=4431|start_char=4428
+13	deficit	deficit	NOUN	NN	Number=Sing	11	comp:obj	_	end_char=4439|start_char=4432
+14	and	and	CCONJ	CC	_	15	cc	_	end_char=4443|start_char=4440
+15	lead	lead	VERB	VB	VerbForm=Inf	11	conj:coord	_	end_char=4448|start_char=4444
+16	to	to	ADP	IN	Shared=No	15	udep	_	end_char=4451|start_char=4449
+17	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	end_char=4453|start_char=4452
+18	government	government	NOUN	NN	Number=Sing	19	compound	_	end_char=4464|start_char=4454
+19	takeover	takeover	NOUN	NN	Number=Sing	16	comp:obj	_	end_char=4473|start_char=4465
+20	of	of	ADP	IN	_	19	udep	_	end_char=4476|start_char=4474
+21	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	end_char=4480|start_char=4477
+22	health	health	NOUN	NN	Number=Sing	23	compound	_	end_char=4487|start_char=4481
+23	care	care	NOUN	NN	Number=Sing	24	compound	_	end_char=4492|start_char=4488
+24	system	system	NOUN	NN	Number=Sing	20	comp:obj	_	end_char=4499|SpaceAfter=No|start_char=4493
+25	.	.	PUNCT	.	_	2	punct	_	end_char=4500|SpacesAfter=\n\s|start_char=4499
+
+# text = I think the American people are deeply frustrated with the liberal establishment in Washington, Pence said.
+# sent_id = 31
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	end_char=4503|start_char=4502
+2	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	comp:obj	_	end_char=4509|start_char=4504
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	end_char=4513|start_char=4510
+4	American	American	ADJ	JJ	Degree=Pos	5	mod	_	end_char=4522|start_char=4514
+5	people	person	NOUN	NNS	Number=Plur	6	subj	_	end_char=4529|start_char=4523
+6	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj	_	end_char=4533|start_char=4530
+7	deeply	deeply	ADV	RB	_	6	mod	_	end_char=4540|start_char=4534
+8	frustrated	frustrated	ADJ	JJ	Degree=Pos	6	comp:pred	_	end_char=4551|start_char=4541
+9	with	with	ADP	IN	_	8	udep	_	end_char=4556|start_char=4552
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	end_char=4560|start_char=4557
+11	liberal	liberal	ADJ	JJ	Degree=Pos	12	mod	_	end_char=4568|start_char=4561
+12	establishment	establishment	NOUN	NN	Number=Sing	9	comp:obj	_	end_char=4582|start_char=4569
+13	in	in	ADP	IN	_	12	udep	_	end_char=4585|start_char=4583
+14	Washington	Washington	PROPN	NNP	Number=Sing	13	comp:obj	_	end_char=4596|SpaceAfter=No|start_char=4586
+15	,	,	PUNCT	,	_	2	punct	_	end_char=4597|start_char=4596
+16	Pence	Pence	PROPN	NNP	Number=Sing	17	subj	_	end_char=4603|start_char=4598
+17	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=4608|SpaceAfter=No|start_char=4604
+18	.	.	PUNCT	.	_	2	punct	_	end_char=4609|start_char=4608
+
+# text = If Democrats keep ignoring the American people, their party's going to be history.
+# sent_id = 32
+1	If	if	SCONJ	IN	_	11	mod	_	end_char=4612|start_char=4610
+2	Democrats	Democrat	PROPN	NNPS	Number=Plur	3	subj	_	end_char=4622|start_char=4613
+3	keep	keep	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	end_char=4627|start_char=4623
+4	ignoring	ignore	VERB	VBG	VerbForm=Ger	3	comp:obj	_	end_char=4636|start_char=4628|Subject=SubjRaising
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	end_char=4640|start_char=4637
+6	American	American	ADJ	JJ	Degree=Pos	7	mod	_	end_char=4649|start_char=4641
+7	people	person	NOUN	NNS	Number=Plur	4	comp:obj	_	end_char=4656|SpaceAfter=No|start_char=4650
+8	,	,	PUNCT	,	_	1	punct	_	end_char=4657|start_char=4656
+9	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	mod@poss	_	end_char=4663|start_char=4658
+10-11	party's	_	_	_	_	_	_	_	end_char=4671|start_char=4664
+10	party	party	NOUN	NN	Number=Sing	11	subj	_	end_char=4669|start_char=4664
+11	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=4671|start_char=4669
+12	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	11	comp:aux	_	end_char=4677|start_char=4672
+13	to	to	PART	TO	_	12	comp:obl	_	end_char=4680|start_char=4678
+14	be	be	AUX	VB	VerbForm=Inf	13	comp:obj	_	end_char=4683|start_char=4681|Subject=SubjRaising
+15	history	history	NOUN	NN	Number=Sing	14	comp:pred	_	end_char=4691|SpaceAfter=No|start_char=4684
+16	.	.	PUNCT	.	_	11	punct	_	end_char=4692|SpacesAfter=\s\n|start_char=4691
+
+# text = Democratic Rep. Chris Van Hollen of Maryland responded on the same show that the Congressional Budget Office reported that the House bill would reduce the deficit.
+# sent_id = 33
+1	Democratic	Democratic	ADJ	JJ	Degree=Pos	2	mod	_	end_char=4704|start_char=4694
+2	Rep.	Rep.	PROPN	NNP	Number=Sing	8	subj	_	end_char=4709|start_char=4705
+3	Chris	Chris	PROPN	NNP	Number=Sing	2	flat	_	end_char=4715|start_char=4710
+4	Van	Van	PROPN	NNP	Number=Sing	3	flat	_	end_char=4719|start_char=4716
+5	Hollen	Hollen	PROPN	NNP	Number=Sing	4	flat	_	end_char=4726|start_char=4720
+6	of	of	ADP	IN	_	2	udep	_	end_char=4729|start_char=4727
+7	Maryland	Maryland	PROPN	NNP	Number=Sing	6	comp:obj	_	end_char=4738|start_char=4730
+8	responded	respond	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=4748|start_char=4739
+9	on	on	ADP	IN	_	8	udep	_	end_char=4751|start_char=4749
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	end_char=4755|start_char=4752
+11	same	same	ADJ	JJ	Degree=Pos	12	mod	_	end_char=4760|start_char=4756
+12	show	show	NOUN	NN	Number=Sing	9	comp:obj	_	end_char=4765|start_char=4761
+13	that	that	PRON	WDT	PronType=Rel	18	comp:obj	_	end_char=4770|start_char=4766
+14	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	end_char=4774|start_char=4771
+15	Congressional	Congressional	ADJ	NNP	Degree=Pos	17	mod	_	end_char=4788|start_char=4775
+16	Budget	Budget	PROPN	NNP	Number=Sing	17	compound	_	end_char=4795|start_char=4789
+17	Office	Office	PROPN	NNP	Number=Sing	18	subj	_	end_char=4802|start_char=4796
+18	reported	report	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	mod@relcl	_	end_char=4811|start_char=4803
+19	that	that	SCONJ	IN	_	18	comp:obl	_	end_char=4816|start_char=4812
+20	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	end_char=4820|start_char=4817
+21	House	House	PROPN	NNP	Number=Sing	22	compound	_	end_char=4826|start_char=4821
+22	bill	bill	NOUN	NN	Number=Sing	23	subj	_	end_char=4831|start_char=4827
+23	would	would	AUX	MD	VerbForm=Fin	19	comp:obj	_	end_char=4837|start_char=4832
+24	reduce	reduce	VERB	VB	VerbForm=Inf	23	comp:aux	_	end_char=4844|start_char=4838
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	end_char=4848|start_char=4845
+26	deficit	deficit	NOUN	NN	Number=Sing	24	comp:obj	_	end_char=4856|SpaceAfter=No|start_char=4849
+27	.	.	PUNCT	.	_	8	punct	_	end_char=4857|SpacesAfter=\n|start_char=4856
+
+# text = Van Hollen chided Republicans for failing to confront rising health care costs harming the U.S. economy during the years they controlled the White House and Congress.
+# sent_id = 34
+1	Van	Van	PROPN	NNP	Number=Sing	3	subj	_	end_char=4861|start_char=4858
+2	Hollen	Hollen	PROPN	NNP	Number=Sing	1	flat	_	end_char=4868|start_char=4862
+3	chided	chide	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=4875|start_char=4869
+4	Republicans	Republican	PROPN	NNPS	Number=Plur	3	comp:obj	_	end_char=4887|start_char=4876
+5	for	for	SCONJ	IN	_	3	mod	_	end_char=4891|start_char=4888
+6	failing	fail	VERB	VBG	Tense=Pres|VerbForm=Part	5	comp:obj	_	end_char=4899|start_char=4892
+7	to	to	PART	TO	_	6	comp:obl	_	end_char=4902|start_char=4900
+8	confront	confront	VERB	VB	VerbForm=Inf	7	comp:obj	_	end_char=4911|start_char=4903|Subject=SubjRaising
+9	rising	rise	VERB	VBG	VerbForm=Ger	12	mod	_	end_char=4918|start_char=4912
+10	health	health	NOUN	NN	Number=Sing	11	compound	_	end_char=4925|start_char=4919
+11	care	care	NOUN	NN	Number=Sing	12	compound	_	end_char=4930|start_char=4926
+12	costs	cost	NOUN	NNS	Number=Plur	8	comp:obj	_	end_char=4936|start_char=4931
+13	harming	harm	VERB	VBG	VerbForm=Ger	12	mod	_	end_char=4944|start_char=4937
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	end_char=4948|start_char=4945
+15	U.S.	U.S.	PROPN	NNP	Number=Sing	16	compound	_	end_char=4953|start_char=4949
+16	economy	economy	NOUN	NN	Number=Sing	13	comp:obj	_	end_char=4961|start_char=4954
+17	during	during	ADP	IN	_	13	udep	_	end_char=4968|start_char=4962
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	end_char=4972|start_char=4969
+19	years	year	NOUN	NNS	Number=Plur	17	comp:obj	_	end_char=4978|start_char=4973
+20	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	subj	_	end_char=4983|start_char=4979
+21	controlled	control	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	19	mod@relcl	_	end_char=4994|start_char=4984
+22	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	end_char=4998|start_char=4995
+23	White	White	ADJ	NNP	Degree=Pos	24	mod	_	end_char=5004|start_char=4999
+24	House	House	PROPN	NNP	Number=Sing	21	comp:obj	_	end_char=5010|start_char=5005
+25	and	and	CCONJ	CC	_	26	cc	_	end_char=5014|start_char=5011
+26	Congress	Congress	PROPN	NNP	Number=Sing	24	conj:coord	_	end_char=5023|SpaceAfter=No|start_char=5015
+27	.	.	PUNCT	.	_	3	punct	_	end_char=5024|SpacesAfter=\n\s|start_char=5023
+
+# text = We 've had a great system for insurance companies, Van Hollen said, citing large industry profits as Americans face what he called unfair practices such as having coverage denied for pre-existing conditions.
+# sent_id = 35
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	subj	_	end_char=5028|start_char=5026
+2	've	have	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	comp:obj	_	end_char=5032|start_char=5029
+3	had	have	VERB	VBN	Tense=Past|VerbForm=Part	2	comp:aux	_	end_char=5036|start_char=5033
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	end_char=5038|start_char=5037
+5	great	great	ADJ	JJ	Degree=Pos	6	mod	_	end_char=5044|start_char=5039
+6	system	system	NOUN	NN	Number=Sing	3	comp:obj	_	end_char=5051|start_char=5045
+7	for	for	ADP	IN	_	6	udep	_	end_char=5055|start_char=5052
+8	insurance	insurance	NOUN	NN	Number=Sing	9	compound	_	end_char=5065|start_char=5056
+9	companies	company	NOUN	NNS	Number=Plur	7	comp:obj	_	end_char=5075|SpaceAfter=No|start_char=5066
+10	,	,	PUNCT	,	_	2	punct	_	end_char=5076|start_char=5075
+11	Van	Van	PROPN	NNP	Number=Sing	13	subj	_	end_char=5080|start_char=5077
+12	Hollen	Hollen	PROPN	NNP	Number=Sing	11	flat	_	end_char=5087|start_char=5081
+13	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=5092|SpaceAfter=No|start_char=5088
+14	,	,	PUNCT	,	_	15	punct	_	end_char=5093|start_char=5092
+15	citing	cite	VERB	VBG	Tense=Pres|VerbForm=Part	13	mod	_	end_char=5100|start_char=5094
+16	large	large	ADJ	JJ	Degree=Pos	18	mod	_	end_char=5106|start_char=5101
+17	industry	industry	NOUN	NN	Number=Sing	18	compound	_	end_char=5115|start_char=5107
+18	profits	profit	NOUN	NNS	Number=Plur	15	comp:obj	_	end_char=5123|start_char=5116
+19	as	as	SCONJ	IN	_	15	mod	_	end_char=5126|start_char=5124
+20	Americans	American	PROPN	NNPS	Number=Plur	21	subj	_	end_char=5136|start_char=5127
+21	face	face	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	comp:obj	_	end_char=5141|start_char=5137
+22	what	what	PRON	WP	PronType=Rel	21	comp:obj	_	end_char=5146|start_char=5142
+23	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	subj	_	end_char=5149|start_char=5147
+24	called	call	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	mod@relcl	_	end_char=5156|start_char=5150
+25	unfair	unfair	ADJ	JJ	Degree=Pos	26	mod	_	end_char=5163|start_char=5157
+26	practices	practice	NOUN	NNS	Number=Plur	24	comp:obj	_	end_char=5173|start_char=5164
+27	such	such	ADJ	JJ	Degree=Pos|ExtPos=ADP	26	udep	_	end_char=5178|Idiom=Yes|start_char=5174
+28	as	as	SCONJ	IN	_	27	unk	_	end_char=5181|InIdiom=Yes|start_char=5179
+29	having	have	VERB	VBG	VerbForm=Ger	27	comp:obj	_	end_char=5188|start_char=5182
+30	coverage	coverage	NOUN	NN	Number=Sing	29	comp:obj	_	end_char=5197|start_char=5189
+31	denied	deny	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	30	mod	_	end_char=5204|start_char=5198
+32	for	for	ADP	IN	_	31	udep	_	end_char=5208|start_char=5205
+33	pre-existing	pre-exist	VERB	VBG	VerbForm=Ger	34	mod	_	end_char=5221|start_char=5209
+34	conditions	condition	NOUN	NNS	Number=Plur	32	comp:obj	_	end_char=5232|SpaceAfter=No|start_char=5222
+35	.	.	PUNCT	.	_	13	punct	_	end_char=5233|start_char=5232
+
+# text = This is a message to the American people; we 're trying to bring down your costs to help more Americans afford health insurance.
+# sent_id = 36
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	2	subj	_	end_char=5238|start_char=5234
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=5241|start_char=5239
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	end_char=5243|start_char=5242
+4	message	message	NOUN	NN	Number=Sing	2	comp:pred	_	end_char=5251|start_char=5244
+5	to	to	ADP	IN	_	4	udep	_	end_char=5254|start_char=5252
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	end_char=5258|start_char=5255
+7	American	American	ADJ	JJ	Degree=Pos	8	mod	_	end_char=5267|start_char=5259
+8	people	person	NOUN	NNS	Number=Plur	5	comp:obj	_	end_char=5274|SpaceAfter=No|start_char=5268
+9	;	;	PUNCT	,	_	11	punct	_	end_char=5275|start_char=5274
+10	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	subj	_	end_char=5278|start_char=5276
+11	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis	_	end_char=5282|start_char=5279
+12	trying	try	VERB	VBG	Tense=Pres|VerbForm=Part	11	comp:aux	_	end_char=5289|start_char=5283
+13	to	to	PART	TO	_	12	comp:obl	_	end_char=5292|start_char=5290
+14	bring	bring	VERB	VB	VerbForm=Inf	13	comp:obj	_	end_char=5298|start_char=5293|Subject=SubjRaising
+15	down	down	ADP	RP	_	14	compound@prt	_	end_char=5303|start_char=5299
+16	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	17	mod@poss	_	end_char=5308|start_char=5304
+17	costs	cost	NOUN	NNS	Number=Plur	14	comp:obj	_	end_char=5314|start_char=5309
+18	to	to	PART	TO	_	14	mod	_	end_char=5317|start_char=5315
+19	help	help	VERB	VB	VerbForm=Inf	18	comp:obj	_	end_char=5322|start_char=5318
+20	more	more	ADJ	JJR	Degree=Cmp	21	mod	_	end_char=5327|start_char=5323
+21	Americans	American	PROPN	NNPS	Number=Plur	19	comp:obj	_	end_char=5337|start_char=5328
+22	afford	afford	VERB	VB	VerbForm=Inf	19	comp:obl	_	end_char=5344|start_char=5338|Subject=ObjRaising
+23	health	health	NOUN	NN	Number=Sing	24	compound	_	end_char=5351|start_char=5345
+24	insurance	insurance	NOUN	NN	Number=Sing	22	comp:obj	_	end_char=5361|SpaceAfter=No|start_char=5352
+25	.	.	PUNCT	.	_	2	punct	_	end_char=5362|SpacesAfter=\s\n|start_char=5361
+
+# text = The House vote less than an hour before midnight Saturday was full of drama.
+# sent_id = 37
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	end_char=5367|start_char=5364
+2	House	House	PROPN	NNP	Number=Sing	3	compound	_	end_char=5373|start_char=5368
+3	vote	vote	NOUN	NN	Number=Sing	11	subj	_	end_char=5378|start_char=5374
+4	less	less	ADJ	JJR	Degree=Cmp|ExtPos=ADV	7	mod	_	end_char=5383|Idiom=Yes|start_char=5379
+5	than	than	ADP	IN	_	4	unk	_	end_char=5388|InIdiom=Yes|start_char=5384
+6	an	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	end_char=5391|start_char=5389
+7	hour	hour	NOUN	NN	Number=Sing	3	mod@unmarked	_	end_char=5396|start_char=5392
+8	before	before	ADP	IN	_	7	udep	_	end_char=5403|start_char=5397
+9	midnight	midnight	NOUN	NN	Number=Sing	8	comp:obj	_	end_char=5412|start_char=5404
+10	Saturday	Saturday	PROPN	NNP	Number=Sing	11	subj	_	end_char=5421|start_char=5413
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=5425|start_char=5422
+12	full	full	ADJ	JJ	Degree=Pos	11	comp:pred	_	end_char=5430|start_char=5426
+13	of	of	ADP	IN	_	12	udep	_	end_char=5433|start_char=5431
+14	drama	drama	NOUN	NN	Number=Sing	13	comp:obj	_	end_char=5439|SpaceAfter=No|start_char=5434
+15	.	.	PUNCT	.	_	11	punct	_	end_char=5440|start_char=5439
+
+# text = With eight seconds left in the voting period, Democrats began counting down and erupted in roars when Pelosi declared, The bill is passed and banged the gavel.
+# sent_id = 38
+1	With	with	ADP	IN	Shared=Yes	11	udep	_	end_char=5445|start_char=5441
+2	eight	eight	NUM	CD	NumForm=Word|NumType=Card	3	mod	_	end_char=5451|start_char=5446
+3	seconds	second	NOUN	NNS	Number=Plur	1	comp:obj	_	end_char=5459|start_char=5452
+4	left	left	ADJ	JJ	Degree=Pos	3	mod	_	end_char=5464|start_char=5460
+5	in	in	ADP	IN	_	4	udep	_	end_char=5467|start_char=5465
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	end_char=5471|start_char=5468
+7	voting	voting	NOUN	NN	Number=Sing	8	compound	_	end_char=5478|start_char=5472
+8	period	period	NOUN	NN	Number=Sing	5	comp:obj	_	end_char=5485|SpaceAfter=No|start_char=5479
+9	,	,	PUNCT	,	_	1	punct	_	end_char=5486|start_char=5485
+10	Democrats	Democrat	PROPN	NNPS	Number=Plur|Shared=Yes	11	subj	_	end_char=5496|start_char=5487
+11	began	begin	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=5502|start_char=5497
+12	counting	count	VERB	VBG	VerbForm=Ger	11	comp:obj	_	end_char=5511|start_char=5503|Subject=SubjRaising
+13	down	down	ADP	RP	_	12	compound@prt	_	end_char=5516|start_char=5512
+14	and	and	CCONJ	CC	_	15	cc	_	end_char=5520|start_char=5517
+15	erupted	erupt	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	conj:coord	_	end_char=5528|start_char=5521
+16	in	in	ADP	IN	Shared=No	15	udep	_	end_char=5531|start_char=5529
+17	roars	roar	NOUN	NNS	Number=Plur	16	comp:obj	_	end_char=5537|start_char=5532
+18	when	when	ADV	WRB	PronType=Int	20	mod	_	end_char=5542|start_char=5538
+19	Pelosi	Pelosi	PROPN	NNP	Number=Sing	20	subj	_	end_char=5549|start_char=5543
+20	declared	declare	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Shared=No|Tense=Past|VerbForm=Fin	15	mod	_	end_char=5558|SpaceAfter=No|start_char=5550
+21	,	,	PUNCT	,	Shared=Yes	24	punct	_	end_char=5559|start_char=5558
+22	The	the	DET	DT	Definite=Def|PronType=Art	23	det	_	end_char=5563|start_char=5560
+23	bill	bill	NOUN	NN	Number=Sing|Shared=Yes	24	subj@pass	_	end_char=5568|start_char=5564
+24	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	parataxis	_	end_char=5571|start_char=5569
+25	passed	pass	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	24	comp:aux@pass	_	end_char=5578|start_char=5572
+26	and	and	CCONJ	CC	_	27	cc	_	end_char=5582|start_char=5579
+27	banged	bang	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	conj:coord	_	end_char=5589|start_char=5583
+28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	end_char=5593|start_char=5590
+29	gavel	gavel	NOUN	NN	Number=Sing|Shared=No	27	comp:obj	_	end_char=5599|SpaceAfter=No|start_char=5594
+30	.	.	PUNCT	.	_	11	punct	_	end_char=5600|SpacesAfter=\n|start_char=5599
+
+# text = Republican lawmakers stood silently across the floor, some with their arms folded across their chests.
+# sent_id = 39
+1	Republican	Republican	ADJ	JJ	Degree=Pos	2	mod	_	end_char=5611|start_char=5601
+2	lawmakers	lawmaker	NOUN	NNS	Number=Plur	3	subj	_	end_char=5621|start_char=5612
+3	stood	stand	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=5627|start_char=5622
+4	silently	silently	ADV	RB	_	3	mod	_	end_char=5636|start_char=5628
+5	across	across	ADP	IN	_	3	udep	_	end_char=5643|start_char=5637
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	end_char=5647|start_char=5644
+7	floor	floor	NOUN	NN	Number=Sing	5	comp:obj	_	end_char=5653|SpaceAfter=No|start_char=5648
+8	,	,	PUNCT	,	_	9	punct	_	end_char=5654|start_char=5653
+9	some	some	DET	DT	PronType=Ind	3	parataxis	_	end_char=5659|start_char=5655
+10	with	with	ADP	IN	_	9	udep	_	end_char=5664|start_char=5660
+11	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	mod@poss	_	end_char=5670|start_char=5665
+12	arms	arm	NOUN	NNS	Number=Plur	10	comp:obj	_	end_char=5675|start_char=5671
+13	folded	fold	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	mod	_	end_char=5682|start_char=5676
+14	across	across	ADP	IN	_	13	udep	_	end_char=5689|start_char=5683
+15	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	mod@poss	_	end_char=5695|start_char=5690
+16	chests	chest	NOUN	NNS	Number=Plur	14	comp:obj	_	end_char=5702|SpaceAfter=No|start_char=5696
+17	.	.	PUNCT	.	_	3	punct	_	end_char=5703|SpacesAfter=\n\s|start_char=5702
+
+# text = Well, it was about what I thought it would be, said House Republican Leader John Boehner of Ohio as he quickly exited.
+# sent_id = 40
+1	Well	well	INTJ	UH	_	13	discourse	_	end_char=5709|SpaceAfter=No|start_char=5705
+2	,	,	PUNCT	,	_	1	punct	_	end_char=5710|start_char=5709
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	subj	_	end_char=5713|start_char=5711
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	comp:obj	_	end_char=5717|start_char=5714
+5	about	about	ADP	IN	_	4	comp:pred	_	end_char=5723|start_char=5718
+6	what	what	PRON	WP	PronType=Rel	5	comp:obj	_	end_char=5728|start_char=5724
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	subj	_	end_char=5730|start_char=5729
+8	thought	think	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	6	mod@relcl	_	end_char=5738|start_char=5731
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	subj	_	end_char=5741|start_char=5739
+10	would	would	AUX	MD	VerbForm=Fin	8	comp:obj	_	end_char=5747|start_char=5742
+11	be	be	AUX	VB	VerbForm=Inf	10	comp:aux	_	end_char=5750|SpaceAfter=No|start_char=5748
+12	,	,	PUNCT	,	_	4	punct	_	end_char=5751|start_char=5750
+13	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=5756|start_char=5752
+14	House	House	PROPN	NNP	Number=Sing	16	compound	_	end_char=5762|start_char=5757
+15	Republican	Republican	ADJ	NNP	Degree=Pos	16	mod	_	end_char=5773|start_char=5763
+16	Leader	Leader	PROPN	NNP	Number=Sing	13	subj	_	end_char=5780|start_char=5774
+17	John	John	PROPN	NNP	Number=Sing	16	flat	_	end_char=5785|start_char=5781
+18	Boehner	Boehner	PROPN	NNP	Number=Sing	17	flat	_	end_char=5793|start_char=5786
+19	of	of	ADP	IN	_	17	udep	_	end_char=5796|start_char=5794
+20	Ohio	Ohio	PROPN	NNP	Number=Sing	19	comp:obj	_	end_char=5801|start_char=5797
+21	as	as	SCONJ	IN	_	13	mod	_	end_char=5804|start_char=5802
+22	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	subj	_	end_char=5807|start_char=5805
+23	quickly	quickly	ADV	RB	_	24	mod	_	end_char=5815|start_char=5808
+24	exited	exite	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	comp:obj	_	end_char=5822|SpaceAfter=No|start_char=5816
+25	.	.	PUNCT	.	_	13	punct	_	end_char=5823|SpacesAfter=\n|start_char=5822
+
+# text = Later, he issued a statement saying the $1.2 trillion legislation would add to the country's skyrocketing debt.
+# sent_id = 41
+1	Later	late	ADV	RBR	Degree=Cmp	4	mod	_	end_char=5829|SpaceAfter=No|start_char=5824
+2	,	,	PUNCT	,	_	1	punct	_	end_char=5830|start_char=5829
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	end_char=5833|start_char=5831
+4	issued	issue	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=5840|start_char=5834
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	end_char=5842|start_char=5841
+6	statement	statement	NOUN	NN	Number=Sing	4	comp:obj	_	end_char=5852|start_char=5843
+7	saying	say	VERB	VBG	VerbForm=Ger	6	mod	_	end_char=5859|start_char=5853
+8	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	end_char=5863|start_char=5860
+9	$	$	SYM	$	_	12	compound	_	end_char=5865|SpaceAfter=No|start_char=5864
+10	1.2	1.2	NUM	CD	NumForm=Digit|NumType=Frac	11	compound	_	end_char=5868|start_char=5865
+11	trillion	trillion	NUM	CD	NumForm=Word|NumType=Card	9	mod	_	end_char=5877|start_char=5869
+12	legislation	legislation	NOUN	NN	Number=Sing	13	subj	_	end_char=5889|start_char=5878
+13	would	would	AUX	MD	VerbForm=Fin	7	comp:obj	_	end_char=5895|start_char=5890
+14	add	add	VERB	VB	VerbForm=Inf	13	comp:aux	_	end_char=5899|start_char=5896
+15	to	to	ADP	IN	_	14	udep	_	end_char=5902|start_char=5900
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	end_char=5906|start_char=5903
+17-18	country's	_	_	_	_	_	_	_	end_char=5916|start_char=5907
+17	country	country	NOUN	NN	Number=Sing	18	comp:obj	_	end_char=5914|start_char=5907
+18	's	's	PART	POS	_	20	udep@poss	_	end_char=5916|start_char=5914
+19	skyrocketing	skyrocket	VERB	VBG	VerbForm=Ger	20	mod	_	end_char=5929|start_char=5917
+20	debt	debt	NOUN	NN	Number=Sing	15	comp:obj	_	end_char=5934|SpaceAfter=No|start_char=5930
+21	.	.	PUNCT	.	_	4	punct	_	end_char=5935|SpacesAfter=\n\s|start_char=5934
+
+# text = I came here to renew the American Dream, so my kids and their kids have the same opportunities I had, Boehner said.
+# sent_id = 42
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	end_char=5938|start_char=5937
+2	came	come	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	24	comp:obj	_	end_char=5943|start_char=5939
+3	here	here	ADV	RB	PronType=Dem	2	mod	_	end_char=5948|start_char=5944
+4	to	to	PART	TO	_	2	mod	_	end_char=5951|start_char=5949
+5	renew	renew	VERB	VB	VerbForm=Inf	4	comp:obj	_	end_char=5957|start_char=5952
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	end_char=5961|start_char=5958
+7	American	American	ADJ	JJ	Degree=Pos	8	mod	_	end_char=5970|start_char=5962
+8	Dream	dream	NOUN	NN	Number=Sing	5	comp:obj	_	end_char=5976|SpaceAfter=No|start_char=5971
+9	,	,	PUNCT	,	_	16	punct	_	end_char=5977|start_char=5976
+10	so	so	ADV	RB	_	16	mod	_	end_char=5980|start_char=5978
+11	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs|Shared=No	12	mod@poss	_	end_char=5983|start_char=5981
+12	kids	kid	NOUN	NNS	Number=Plur	16	subj	_	end_char=5988|start_char=5984
+13	and	and	CCONJ	CC	_	15	cc	_	end_char=5992|start_char=5989
+14	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	15	mod@poss	_	end_char=5998|start_char=5993
+15	kids	kid	NOUN	NNS	Number=Plur	12	conj:coord	_	end_char=6003|start_char=5999
+16	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	end_char=6008|start_char=6004
+17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	end_char=6012|start_char=6009
+18	same	same	ADJ	JJ	Degree=Pos	19	mod	_	end_char=6017|start_char=6013
+19	opportunities	opportunity	NOUN	NNS	Number=Plur	16	comp:obj	_	end_char=6031|start_char=6018
+20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	subj	_	end_char=6033|start_char=6032
+21	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	19	mod@relcl	_	end_char=6037|SpaceAfter=No|start_char=6034
+22	,	,	PUNCT	,	_	2	punct	_	end_char=6038|start_char=6037
+23	Boehner	Boehner	PROPN	NNP	Number=Sing	24	subj	_	end_char=6046|start_char=6039
+24	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=6051|SpaceAfter=No|start_char=6047
+25	.	.	PUNCT	.	_	2	punct	_	end_char=6052|start_char=6051
+
+# text = I came here to fight big-government monstrosities like this bill that dim the light of freedom and diminish opportunity for future generations.
+# sent_id = 43
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	end_char=6054|start_char=6053
+2	came	come	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	end_char=6059|start_char=6055
+3	here	here	ADV	RB	PronType=Dem	2	mod	_	end_char=6064|start_char=6060
+4	to	to	PART	TO	_	2	mod	_	end_char=6067|start_char=6065
+5	fight	fight	VERB	VB	VerbForm=Inf	4	comp:obj	_	end_char=6073|start_char=6068
+6	big	big	ADJ	JJ	Degree=Pos	8	mod	_	end_char=6077|SpaceAfter=No|start_char=6074
+7	-	-	PUNCT	HYPH	_	6	punct	_	end_char=6078|SpaceAfter=No|start_char=6077
+8	government	government	NOUN	NN	Number=Sing	9	compound	_	end_char=6088|start_char=6078
+9	monstrosities	monstrosity	NOUN	NNS	Number=Plur	5	comp:obj	_	end_char=6102|start_char=6089
+10	like	like	ADP	IN	_	9	udep	_	end_char=6107|start_char=6103
+11	this	this	DET	DT	Number=Sing|PronType=Dem	12	det	_	end_char=6112|start_char=6108
+12	bill	bill	NOUN	NN	Number=Sing	10	comp:obj	_	end_char=6117|start_char=6113
+13	that	that	PRON	WDT	PronType=Rel|Shared=Yes	14	subj	_	end_char=6122|start_char=6118
+14	dim	dim	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	mod@relcl	_	end_char=6126|start_char=6123
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	end_char=6130|start_char=6127
+16	light	light	NOUN	NN	Number=Sing	14	comp:obj	_	end_char=6136|start_char=6131
+17	of	of	ADP	IN	_	16	udep	_	end_char=6139|start_char=6137
+18	freedom	freedom	NOUN	NN	Number=Sing	17	comp:obj	_	end_char=6147|start_char=6140
+19	and	and	CCONJ	CC	_	20	cc	_	end_char=6151|start_char=6148
+20	diminish	diminish	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	conj:coord	_	end_char=6160|start_char=6152
+21	opportunity	opportunity	NOUN	NN	Number=Sing|Shared=No	20	comp:obj	_	end_char=6172|start_char=6161
+22	for	for	ADP	IN	_	21	udep	_	end_char=6176|start_char=6173
+23	future	future	ADJ	JJ	Degree=Pos	24	mod	_	end_char=6183|start_char=6177
+24	generations	generation	NOUN	NNS	Number=Plur	22	comp:obj	_	end_char=6195|SpaceAfter=No|start_char=6184
+25	.	.	PUNCT	.	_	2	punct	_	end_char=6196|SpacesAfter=\s\n|start_char=6195
+
+# text = Michael Steele, the chairman of the Republican National Committee, released an equally tersely worded statement.
+# sent_id = 44
+1	Michael	Michael	PROPN	NNP	Number=Sing	12	subj	_	end_char=6205|start_char=6198
+2	Steele	Steele	PROPN	NNP	Number=Sing	1	flat	_	end_char=6212|SpaceAfter=No|start_char=6206
+3	,	,	PUNCT	,	_	5	punct	_	end_char=6213|start_char=6212
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	end_char=6217|start_char=6214
+5	chairman	chairman	NOUN	NN	Number=Sing	1	conj:appos	_	end_char=6226|start_char=6218
+6	of	of	ADP	IN	_	5	udep	_	end_char=6229|start_char=6227
+7	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	end_char=6233|start_char=6230
+8	Republican	Republican	ADJ	NNP	Degree=Pos	10	mod	_	end_char=6244|start_char=6234
+9	National	National	ADJ	NNP	Degree=Pos	10	mod	_	end_char=6253|start_char=6245
+10	Committee	Committee	PROPN	NNP	Number=Sing	6	comp:obj	_	end_char=6263|SpaceAfter=No|start_char=6254
+11	,	,	PUNCT	,	_	1	punct	_	end_char=6264|start_char=6263
+12	released	release	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=6273|start_char=6265
+13	an	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	end_char=6276|start_char=6274
+14	equally	equally	ADV	RB	_	15	mod	_	end_char=6284|start_char=6277
+15	tersely	tersely	ADV	RB	_	16	mod	_	end_char=6292|start_char=6285
+16	worded	word	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	17	mod	_	end_char=6299|start_char=6293
+17	statement	statement	NOUN	NN	Number=Sing	12	comp:obj	_	end_char=6309|SpaceAfter=No|start_char=6300
+18	.	.	PUNCT	.	_	12	punct	_	end_char=6310|SpacesAfter=\n\s|start_char=6309
+
+# text = Nancy Pelosi and her liberal lieutenants made a lot of promises today to get the votes they desperately needed, he said.
+# sent_id = 45
+1	Nancy	Nancy	PROPN	NNP	Number=Sing	7	subj	_	end_char=6317|start_char=6312
+2	Pelosi	Pelosi	PROPN	NNP	Number=Sing	1	flat	_	end_char=6324|start_char=6318
+3	and	and	CCONJ	CC	_	6	cc	_	end_char=6328|start_char=6325
+4	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	mod@poss	_	end_char=6332|start_char=6329
+5	liberal	liberal	ADJ	JJ	Degree=Pos	6	mod	_	end_char=6340|start_char=6333
+6	lieutenants	lieutenant	NOUN	NNS	Number=Plur	1	conj:coord	_	end_char=6352|start_char=6341
+7	made	make	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	22	comp:obj	_	end_char=6357|start_char=6353
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	end_char=6359|start_char=6358
+9	lot	lot	NOUN	NN	Number=Sing	7	comp:obj	_	end_char=6363|start_char=6360
+10	of	of	ADP	IN	_	9	udep	_	end_char=6366|start_char=6364
+11	promises	promise	NOUN	NNS	Number=Plur	10	comp:obj	_	end_char=6375|start_char=6367
+12	today	today	NOUN	NN	Number=Sing	7	udep@unmarked	_	end_char=6381|start_char=6376
+13	to	to	PART	TO	_	7	mod	_	end_char=6384|start_char=6382
+14	get	get	VERB	VB	VerbForm=Inf	13	comp:obj	_	end_char=6388|start_char=6385
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	end_char=6392|start_char=6389
+16	votes	vote	NOUN	NNS	Number=Plur	14	comp:obj	_	end_char=6398|start_char=6393
+17	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	subj	_	end_char=6403|start_char=6399
+18	desperately	desperately	ADV	RB	_	19	mod	_	end_char=6415|start_char=6404
+19	needed	need	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	16	mod@relcl	_	end_char=6422|SpaceAfter=No|start_char=6416
+20	,	,	PUNCT	,	_	7	punct	_	end_char=6423|start_char=6422
+21	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	subj	_	end_char=6426|start_char=6424
+22	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=6431|SpaceAfter=No|start_char=6427
+23	.	.	PUNCT	.	_	22	punct	_	end_char=6432|start_char=6431
+
+# text = Make no mistake -- the Democrat leadership's assurances were based on political expediency, not principle.
+# sent_id = 46
+1	Make	make	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	end_char=6437|start_char=6433
+2	no	no	DET	DT	PronType=Neg	3	det	_	end_char=6440|start_char=6438
+3	mistake	mistake	NOUN	NN	Number=Sing	1	comp:obj	_	end_char=6448|start_char=6441
+4	--	--	PUNCT	,	_	10	punct	_	end_char=6451|start_char=6449
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	end_char=6455|start_char=6452
+6	Democrat	Democrat	PROPN	NNP	Number=Sing	7	compound	_	end_char=6464|start_char=6456
+7-8	leadership's	_	_	_	_	_	_	_	end_char=6477|start_char=6465
+7	leadership	leadership	NOUN	NN	Number=Sing	8	comp:obj	_	end_char=6475|start_char=6465
+8	's	's	PART	POS	_	9	udep@poss	_	end_char=6477|start_char=6475
+9	assurances	assurance	NOUN	NNS	Number=Plur	10	subj@pass	_	end_char=6488|start_char=6478
+10	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	1	parataxis	_	end_char=6493|start_char=6489
+11	based	base	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	comp:aux@pass	_	end_char=6499|start_char=6494
+12	on	on	ADP	IN	_	11	udep	_	end_char=6502|start_char=6500
+13	political	political	ADJ	JJ	Degree=Pos	14	mod	_	end_char=6512|start_char=6503
+14	expediency	expediency	NOUN	NN	Number=Sing	12	comp:obj	_	end_char=6523|SpaceAfter=No|start_char=6513
+15	,	,	PUNCT	,	_	17	punct	_	end_char=6524|start_char=6523
+16	not	not	PART	RB	Polarity=Neg	17	mod	_	end_char=6528|start_char=6525
+17	principle	principle	NOUN	NN	Number=Sing	14	conj:appos	_	end_char=6538|SpaceAfter=No|start_char=6529
+18	.	.	PUNCT	.	_	1	punct	_	end_char=6539|start_char=6538
+
+# text = Anyone receiving a promise from Pelosi is guaranteed to be disappointed in the end when their votes are no longer needed.
+# sent_id = 47
+1	Anyone	anyone	PRON	NN	Number=Sing|PronType=Ind	7	subj@pass	_	end_char=6546|start_char=6540
+2	receiving	receive	VERB	VBG	VerbForm=Ger	1	mod	_	end_char=6556|start_char=6547
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	end_char=6558|start_char=6557
+4	promise	promise	NOUN	NN	Number=Sing	2	comp:obj	_	end_char=6566|start_char=6559
+5	from	from	ADP	IN	_	4	udep	_	end_char=6571|start_char=6567
+6	Pelosi	Pelosi	PROPN	NNP	Number=Sing	5	comp:obj	_	end_char=6578|start_char=6572
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=6581|start_char=6579
+8	guaranteed	guarantee	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	comp:aux@pass	_	end_char=6592|start_char=6582
+9	to	to	PART	TO	_	8	comp:pred	_	end_char=6595|start_char=6593
+10	be	be	AUX	VB	VerbForm=Inf	9	comp:obj	_	end_char=6598|start_char=6596|Subject=SubjRaising
+11	disappointed	disappoint	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	comp:aux@pass	_	end_char=6611|start_char=6599
+12	in	in	ADP	IN	_	11	udep	_	end_char=6614|start_char=6612
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	end_char=6618|start_char=6615
+14	end	end	NOUN	NN	Number=Sing	12	comp:obj	_	end_char=6622|start_char=6619
+15	when	when	ADV	WRB	PronType=Int	18	mod	_	end_char=6627|start_char=6623
+16	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	17	mod@poss	_	end_char=6633|start_char=6628
+17	votes	vote	NOUN	NNS	Number=Plur	18	subj@pass	_	end_char=6639|start_char=6634
+18	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	mod	_	end_char=6643|start_char=6640
+19	no	no	ADV	RB	_	20	mod	_	end_char=6646|start_char=6644
+20	longer	long	ADV	RBR	Degree=Cmp	18	mod	_	end_char=6653|start_char=6647
+21	needed	need	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	18	comp:aux@pass	_	end_char=6660|SpaceAfter=No|start_char=6654
+22	.	.	PUNCT	.	_	7	punct	_	end_char=6661|SpacesAfter=\s\n|start_char=6660
+
+# text = Earlier in the day, Obama met behind closed doors with Democrats to shore up support for the bill, calling it a chance of a generation.
+# sent_id = 48
+1	Earlier	early	ADV	RBR	Degree=Cmp	7	mod	_	end_char=6670|start_char=6663
+2	in	in	ADP	IN	_	7	udep	_	end_char=6673|start_char=6671
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	end_char=6677|start_char=6674
+4	day	day	NOUN	NN	Number=Sing	2	comp:obj	_	end_char=6681|SpaceAfter=No|start_char=6678
+5	,	,	PUNCT	,	_	2	punct	_	end_char=6682|start_char=6681
+6	Obama	Obama	PROPN	NNP	Number=Sing	7	subj	_	end_char=6688|start_char=6683
+7	met	meet	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=6692|start_char=6689
+8	behind	behind	ADP	IN	_	7	udep	_	end_char=6699|start_char=6693
+9	closed	close	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	mod	_	end_char=6706|start_char=6700
+10	doors	door	NOUN	NNS	Number=Plur	8	comp:obj	_	end_char=6712|start_char=6707
+11	with	with	ADP	IN	_	7	udep	_	end_char=6717|start_char=6713
+12	Democrats	Democrat	PROPN	NNPS	Number=Plur	11	comp:obj	_	end_char=6727|start_char=6718
+13	to	to	PART	TO	_	7	mod	_	end_char=6730|start_char=6728
+14	shore	shore	VERB	VB	VerbForm=Inf	13	comp:obj	_	end_char=6736|start_char=6731
+15	up	up	ADP	RP	_	14	compound@prt	_	end_char=6739|start_char=6737
+16	support	support	NOUN	NN	Number=Sing	14	comp:obj	_	end_char=6747|start_char=6740
+17	for	for	ADP	IN	_	16	udep	_	end_char=6751|start_char=6748
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	end_char=6755|start_char=6752
+19	bill	bill	NOUN	NN	Number=Sing	17	comp:obj	_	end_char=6760|SpaceAfter=No|start_char=6756
+20	,	,	PUNCT	,	_	21	punct	_	end_char=6761|start_char=6760
+21	calling	call	VERB	VBG	Tense=Pres|VerbForm=Part	7	mod	_	end_char=6769|start_char=6762
+22	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	comp:obj	_	end_char=6772|start_char=6770
+23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	end_char=6774|start_char=6773
+24	chance	chance	NOUN	NN	Number=Sing	21	comp:pred	_	end_char=6781|start_char=6775
+25	of	of	ADP	IN	_	24	udep	_	end_char=6784|start_char=6782
+26	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	end_char=6786|start_char=6785
+27	generation	generation	NOUN	NN	Number=Sing	25	comp:obj	_	end_char=6797|SpaceAfter=No|start_char=6787
+28	.	.	PUNCT	.	_	7	punct	_	end_char=6798|SpacesAfter=\n|start_char=6797
+
+# text = In the run-up to the vote, Republicans and conservative Democrats joined forces to pass an amendment to the bill to prohibit federal funds for abortion services.
+# sent_id = 49
+1	In	in	ADP	IN	_	14	udep	_	end_char=6801|start_char=6799
+2	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	end_char=6805|start_char=6802
+3	run	run	NOUN	NN	Number=Sing	5	compound	_	end_char=6809|SpaceAfter=No|start_char=6806
+4	-	-	PUNCT	HYPH	_	3	punct	_	end_char=6810|SpaceAfter=No|start_char=6809
+5	up	up	NOUN	NN	Number=Sing	1	comp:obj	_	end_char=6812|start_char=6810
+6	to	to	ADP	IN	_	5	udep	_	end_char=6815|start_char=6813
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	end_char=6819|start_char=6816
+8	vote	vote	NOUN	NN	Number=Sing	6	comp:obj	_	end_char=6824|SpaceAfter=No|start_char=6820
+9	,	,	PUNCT	,	_	1	punct	_	end_char=6825|start_char=6824
+10	Republicans	Republican	PROPN	NNPS	Number=Plur	14	subj	_	end_char=6837|start_char=6826
+11	and	and	CCONJ	CC	_	13	cc	_	end_char=6841|start_char=6838
+12	conservative	conservative	ADJ	JJ	Degree=Pos	13	mod	_	end_char=6854|start_char=6842
+13	Democrats	Democrat	PROPN	NNPS	Number=Plur	10	conj:coord	_	end_char=6864|start_char=6855
+14	joined	join	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=6871|start_char=6865
+15	forces	force	NOUN	NNS	Number=Plur	14	comp:obj	_	end_char=6878|start_char=6872
+16	to	to	PART	TO	_	15	udep	_	end_char=6881|start_char=6879
+17	pass	pass	VERB	VB	VerbForm=Inf	16	comp:obj	_	end_char=6886|start_char=6882
+18	an	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	end_char=6889|start_char=6887
+19	amendment	amendment	NOUN	NN	Number=Sing	17	comp:obj	_	end_char=6899|start_char=6890
+20	to	to	ADP	IN	_	19	udep	_	end_char=6902|start_char=6900
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	end_char=6906|start_char=6903
+22	bill	bill	NOUN	NN	Number=Sing	20	comp:obj	_	end_char=6911|start_char=6907
+23	to	to	PART	TO	_	22	udep	_	end_char=6914|start_char=6912
+24	prohibit	prohibit	VERB	VB	VerbForm=Inf	23	comp:obj	_	end_char=6923|start_char=6915
+25	federal	federal	ADJ	JJ	Degree=Pos	26	mod	_	end_char=6931|start_char=6924
+26	funds	fund	NOUN	NNS	Number=Plur	24	comp:obj	_	end_char=6937|start_char=6932
+27	for	for	ADP	IN	_	26	udep	_	end_char=6941|start_char=6938
+28	abortion	abortion	NOUN	NN	Number=Sing	29	compound	_	end_char=6950|start_char=6942
+29	services	service	NOUN	NNS	Number=Plur	27	comp:obj	_	end_char=6959|SpaceAfter=No|start_char=6951
+30	.	.	PUNCT	.	_	14	punct	_	end_char=6960|SpacesAfter=\n|start_char=6959
+
+# text = It was considered a big win for them and for the U.S. Conference of Catholic Bishops, which used its power -- especially with conservative Democrats in swing congressional districts -- to help force Democratic leaders to permit a vote on the amendment.
+# sent_id = 50
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj@pass	_	end_char=6963|start_char=6961
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=6967|start_char=6964
+3	considered	consider	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	comp:aux@pass	_	end_char=6978|start_char=6968
+4	a	a	DET	DT	Definite=Ind|PronType=Art|Shared=No	6	det	_	end_char=6980|start_char=6979
+5	big	big	ADJ	JJ	Degree=Pos|Shared=No	6	mod	_	end_char=6984|start_char=6981
+6	win	win	NOUN	NN	Number=Sing	3	comp:pred	_	end_char=6988|start_char=6985
+7	for	for	ADP	IN	_	6	udep	_	end_char=6992|start_char=6989
+8	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	comp:obj	_	end_char=6997|start_char=6993
+9	and	and	CCONJ	CC	_	10	cc	_	end_char=7001|start_char=6998
+10	for	for	ADP	IN	_	6	conj:coord	_	end_char=7005|start_char=7002
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	end_char=7009|start_char=7006
+12	U.S.	U.S.	PROPN	NNP	Number=Sing	13	compound	_	end_char=7014|start_char=7010
+13	Conference	Conference	PROPN	NNP	Number=Sing|Shared=No	10	comp:obj	_	end_char=7025|start_char=7015
+14	of	of	ADP	IN	_	13	udep	_	end_char=7028|start_char=7026
+15	Catholic	Catholic	ADJ	NNP	Degree=Pos	16	mod	_	end_char=7037|start_char=7029
+16	Bishops	Bishops	PROPN	NNPS	Number=Plur	14	comp:obj	_	end_char=7045|SpaceAfter=No|start_char=7038
+17	,	,	PUNCT	,	_	19	punct	_	end_char=7046|start_char=7045
+18	which	which	PRON	WDT	PronType=Rel	19	subj	_	end_char=7052|start_char=7047
+19	used	use	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	mod@relcl	_	end_char=7057|start_char=7053
+20	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	mod@poss	_	end_char=7061|start_char=7058
+21	power	power	NOUN	NN	Number=Sing	19	comp:obj	_	end_char=7067|start_char=7062
+22	--	--	PUNCT	,	_	24	punct	_	end_char=7070|start_char=7068
+23	especially	especially	ADV	RB	_	24	mod	_	end_char=7081|start_char=7071
+24	with	with	ADP	IN	_	19	udep	_	end_char=7086|start_char=7082
+25	conservative	conservative	ADJ	JJ	Degree=Pos	26	mod	_	end_char=7099|start_char=7087
+26	Democrats	Democrat	PROPN	NNPS	Number=Plur	24	comp:obj	_	end_char=7109|start_char=7100
+27	in	in	ADP	IN	_	26	udep	_	end_char=7112|start_char=7110
+28	swing	swing	NOUN	NN	Number=Sing	30	compound	_	end_char=7118|start_char=7113
+29	congressional	congressional	ADJ	JJ	Degree=Pos	30	mod	_	end_char=7132|start_char=7119
+30	districts	district	NOUN	NNS	Number=Plur	27	comp:obj	_	end_char=7142|start_char=7133
+31	--	--	PUNCT	,	_	32	punct	_	end_char=7145|start_char=7143
+32	to	to	PART	TO	_	19	mod	_	end_char=7148|start_char=7146
+33	help	help	VERB	VB	VerbForm=Inf	32	comp:obj	_	end_char=7153|start_char=7149
+34	force	force	VERB	VB	VerbForm=Inf	33	comp:obj	_	end_char=7159|start_char=7154|Subject=SubjRaising
+35	Democratic	Democratic	ADJ	JJ	Degree=Pos	36	mod	_	end_char=7170|start_char=7160
+36	leaders	leader	NOUN	NNS	Number=Plur	34	comp:obj	_	end_char=7178|start_char=7171
+37	to	to	PART	TO	_	34	comp:obl	_	end_char=7181|start_char=7179
+38	permit	permit	VERB	VB	VerbForm=Inf	37	comp:obj	_	end_char=7188|start_char=7182|Subject=SubjRaising
+39	a	a	DET	DT	Definite=Ind|PronType=Art	40	det	_	end_char=7190|start_char=7189
+40	vote	vote	NOUN	NN	Number=Sing	38	comp:obj	_	end_char=7195|start_char=7191
+41	on	on	ADP	IN	_	40	udep	_	end_char=7198|start_char=7196
+42	the	the	DET	DT	Definite=Def|PronType=Art	43	det	_	end_char=7202|start_char=7199
+43	amendment	amendment	NOUN	NN	Number=Sing	41	comp:obj	_	end_char=7212|SpaceAfter=No|start_char=7203
+44	.	.	PUNCT	.	_	2	punct	_	end_char=7213|SpacesAfter=\n|start_char=7212
+
+# text = The prohibition, introduced by Democratic members -- including Rep. Brad Ellsworth of Indiana and Rep. Bart Stupak of Michigan -- would exclude cases of rape, incest or if the mother's life is in danger.
+# sent_id = 51
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	end_char=7217|start_char=7214
+2	prohibition	prohibition	NOUN	NN	Number=Sing	22	subj	_	end_char=7229|SpaceAfter=No|start_char=7218
+3	,	,	PUNCT	,	_	4	punct	_	end_char=7230|start_char=7229
+4	introduced	introduce	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	mod	_	end_char=7241|start_char=7231
+5	by	by	ADP	IN	_	4	comp:obl@agent	_	end_char=7244|start_char=7242
+6	Democratic	Democratic	ADJ	JJ	Degree=Pos	7	mod	_	end_char=7255|start_char=7245
+7	members	member	NOUN	NNS	Number=Plur	5	comp:obj	_	end_char=7263|start_char=7256
+8	--	--	PUNCT	,	_	9	punct	_	end_char=7266|start_char=7264
+9	including	include	VERB	VBG	Tense=Pres|VerbForm=Part	2	udep	_	end_char=7276|start_char=7267
+10	Rep.	Rep.	PROPN	NNP	Number=Sing	9	comp:obj	_	end_char=7281|start_char=7277
+11	Brad	Brad	PROPN	NNP	Number=Sing	10	flat	_	end_char=7286|start_char=7282
+12	Ellsworth	Ellsworth	PROPN	NNP	Number=Sing	11	flat	_	end_char=7296|start_char=7287
+13	of	of	ADP	IN	_	10	udep	_	end_char=7299|start_char=7297
+14	Indiana	Indiana	PROPN	NNP	Number=Sing	13	comp:obj	_	end_char=7307|start_char=7300
+15	and	and	CCONJ	CC	_	16	cc	_	end_char=7311|start_char=7308
+16	Rep.	Rep.	PROPN	NNP	Number=Sing	10	conj:coord	_	end_char=7316|start_char=7312
+17	Bart	Bart	PROPN	NNP	Number=Sing|Shared=No	16	flat	_	end_char=7321|start_char=7317
+18	Stupak	Stupak	PROPN	NNP	Number=Sing	17	flat	_	end_char=7328|start_char=7322
+19	of	of	ADP	IN	Shared=No	16	udep	_	end_char=7331|start_char=7329
+20	Michigan	Michigan	PROPN	NNP	Number=Sing	19	comp:obj	_	end_char=7340|start_char=7332
+21	--	--	PUNCT	,	_	2	punct	_	end_char=7343|start_char=7341
+22	would	would	AUX	MD	VerbForm=Fin	0	root	_	end_char=7349|start_char=7344
+23	exclude	exclude	VERB	VB	VerbForm=Inf	22	comp:aux	_	end_char=7357|start_char=7350
+24	cases	case	NOUN	NNS	Number=Plur	23	comp:obj	_	end_char=7363|start_char=7358
+25	of	of	ADP	IN	_	24	udep	_	end_char=7366|start_char=7364
+26	rape	rape	NOUN	NN	Number=Sing	25	comp:obj	_	end_char=7371|SpaceAfter=No|start_char=7367
+27	,	,	PUNCT	,	_	28	punct	_	end_char=7372|start_char=7371
+28	incest	incest	NOUN	NN	Number=Sing	26	conj:coord	_	end_char=7379|start_char=7373
+29	or	or	CCONJ	CC	_	30	cc	_	end_char=7382|start_char=7380
+30	if	if	SCONJ	IN	_	22	mod	_	end_char=7385|start_char=7383
+31	the	the	DET	DT	Definite=Def|PronType=Art	32	det	_	end_char=7389|start_char=7386
+32-33	mother's	_	_	_	_	_	_	_	end_char=7398|start_char=7390
+32	mother	mother	NOUN	NN	Number=Sing	33	comp:obj	_	end_char=7396|start_char=7390
+33	's	's	PART	POS	_	34	udep@poss	_	end_char=7398|start_char=7396
+34	life	life	NOUN	NN	Number=Sing	35	subj	_	end_char=7403|start_char=7399
+35	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	comp:obj	_	end_char=7406|start_char=7404
+36	in	in	ADP	IN	_	35	comp:pred	_	end_char=7409|start_char=7407
+37	danger	danger	NOUN	NN	Number=Sing	36	comp:obj	_	end_char=7416|SpaceAfter=No|start_char=7410
+38	.	.	PUNCT	.	_	22	punct	_	end_char=7417|SpacesAfter=\n|start_char=7416
+
+# text = The GOP accounted for 174 of the votes in favor of the amendment, with one Republican voting present.
+# sent_id = 52
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	end_char=7421|start_char=7418
+2	GOP	GOP	PROPN	NNP	Number=Sing	3	subj	_	end_char=7425|start_char=7422
+3	accounted	account	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=7435|start_char=7426
+4	for	for	ADP	IN	_	3	udep	_	end_char=7439|start_char=7436
+5	174	174	NUM	CD	NumForm=Digit|NumType=Card	4	comp:obj	_	end_char=7443|start_char=7440
+6	of	of	ADP	IN	_	5	udep	_	end_char=7446|start_char=7444
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	end_char=7450|start_char=7447
+8	votes	vote	NOUN	NNS	Number=Plur	6	comp:obj	_	end_char=7456|start_char=7451
+9	in	in	ADP	IN	_	3	udep	_	end_char=7459|start_char=7457
+10	favor	favor	NOUN	NN	Number=Sing	9	comp:obj	_	end_char=7465|start_char=7460
+11	of	of	ADP	IN	_	10	udep	_	end_char=7468|start_char=7466
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	end_char=7472|start_char=7469
+13	amendment	amendment	NOUN	NN	Number=Sing	11	comp:obj	_	end_char=7482|SpaceAfter=No|start_char=7473
+14	,	,	PUNCT	,	_	15	punct	_	end_char=7483|start_char=7482
+15	with	with	SCONJ	IN	_	3	mod	_	end_char=7488|start_char=7484
+16	one	one	NUM	CD	NumForm=Word|NumType=Card	18	mod	_	end_char=7492|start_char=7489
+17	Republican	Republican	ADJ	JJ	Degree=Pos	18	mod	_	end_char=7503|start_char=7493
+18	voting	voting	NOUN	NN	Number=Sing	19	subj	_	end_char=7510|start_char=7504
+19	present	present	ADJ	JJ	Degree=Pos	15	comp:obj	_	end_char=7518|SpaceAfter=No|start_char=7511
+20	.	.	PUNCT	.	_	3	punct	_	end_char=7519|SpacesAfter=\s\n|start_char=7518
+
+# text = On the Democratsside, 64 voted for the measure, and 194 voted against.
+# sent_id = 53
+1	On	on	ADP	IN	Shared=Yes	6	udep	_	end_char=7523|start_char=7521
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	end_char=7527|start_char=7524
+3	Democratsside	Democratsside	PROPN	NNP	Number=Sing	1	comp:obj	_	end_char=7541|SpaceAfter=No|start_char=7528
+4	,	,	PUNCT	,	_	1	punct	_	end_char=7542|start_char=7541
+5	64	64	NUM	CD	NumForm=Digit|NumType=Card|Shared=No	6	subj	_	end_char=7545|start_char=7543
+6	voted	vote	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=7551|start_char=7546
+7	for	for	ADP	IN	_	6	udep	_	end_char=7555|start_char=7552
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	end_char=7559|start_char=7556
+9	measure	measure	NOUN	NN	Number=Sing	7	comp:obj	_	end_char=7567|SpaceAfter=No|start_char=7560
+10	,	,	PUNCT	,	_	13	punct	_	end_char=7568|start_char=7567
+11	and	and	CCONJ	CC	_	13	cc	_	end_char=7572|start_char=7569
+12	194	194	NUM	CD	NumForm=Digit|NumType=Card	13	subj	_	end_char=7576|start_char=7573
+13	voted	vote	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	conj:coord	_	end_char=7582|start_char=7577
+14	against	against	ADP	IN	Shared=No	13	udep	_	end_char=7590|SpaceAfter=No|start_char=7583
+15	.	.	PUNCT	.	_	6	punct	_	end_char=7591|SpacesAfter=\n|start_char=7590
+
+# text = CNN's Shirley Hung, Brianna Keilar, Deirdre Walsh, Lisa Desjardins and Elaine Quijano contributed to this report.
+# sent_id = 54
+1-2	CNN's	_	_	_	_	_	_	_	end_char=7597|start_char=7592
+1	CNN	CNN	PROPN	NNP	Abbr=Yes|Number=Sing	2	comp:obj	_	end_char=7595|start_char=7592
+2	's	's	PART	POS	_	3	udep@poss	_	end_char=7597|start_char=7595
+3	Shirley	Shirley	PROPN	NNP	Number=Sing	17	subj	_	end_char=7605|start_char=7598
+4	Hung	Hung	PROPN	NNP	Number=Sing	3	flat	_	end_char=7610|SpaceAfter=No|start_char=7606
+5	,	,	PUNCT	,	_	6	punct	_	end_char=7611|start_char=7610
+6	Brianna	Brianna	PROPN	NNP	Number=Sing	3	conj:coord	_	end_char=7619|start_char=7612
+7	Keilar	Keilar	PROPN	NNP	Number=Sing	6	flat	_	end_char=7626|SpaceAfter=No|start_char=7620
+8	,	,	PUNCT	,	_	9	punct	_	end_char=7627|start_char=7626
+9	Deirdre	Deirdre	PROPN	NNP	Number=Sing	6	conj:coord	_	end_char=7635|start_char=7628
+10	Walsh	Walsh	PROPN	NNP	Number=Sing	9	flat	_	end_char=7641|SpaceAfter=No|start_char=7636
+11	,	,	PUNCT	,	_	12	punct	_	end_char=7642|start_char=7641
+12	Lisa	Lisa	PROPN	NNP	Number=Sing	9	conj:coord	_	end_char=7647|start_char=7643
+13	Desjardins	Desjardins	PROPN	NNP	Number=Sing	12	flat	_	end_char=7658|start_char=7648
+14	and	and	CCONJ	CC	_	15	cc	_	end_char=7662|start_char=7659
+15	Elaine	Elaine	PROPN	NNP	Number=Sing	12	conj:coord	_	end_char=7669|start_char=7663
+16	Quijano	Quijano	PROPN	NNP	Number=Sing|Shared=No	15	flat	_	end_char=7677|start_char=7670
+17	contributed	contribute	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=7689|start_char=7678
+18	to	to	ADP	IN	_	17	udep	_	end_char=7692|start_char=7690
+19	this	this	DET	DT	Number=Sing|PronType=Dem	20	det	_	end_char=7697|start_char=7693
+20	report	report	NOUN	NN	Number=Sing	18	comp:obj	_	end_char=7704|SpaceAfter=No|start_char=7698
+21	.	.	PUNCT	.	_	17	punct	_	end_char=7705|SpacesAfter=\n|start_char=7704
+

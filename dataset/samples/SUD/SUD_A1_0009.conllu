@@ -1,0 +1,88 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# text = Do you know the Alphabet song?
+# sent_id = 0
+1	Do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	end_char=3|SpacesBefore=\n|start_char=1
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	subj	_	end_char=7|start_char=4
+3	know	know	VERB	VB	VerbForm=Inf	1	comp:aux	_	end_char=12|start_char=8
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	end_char=16|start_char=13
+5	Alphabet	alphabet	PROPN	NNP	Number=Sing	6	compound	_	end_char=25|start_char=17
+6	song	song	NOUN	NN	Number=Sing	3	comp:obj	_	end_char=30|SpaceAfter=No|start_char=26
+7	?	?	PUNCT	.	_	1	punct	_	end_char=31|SpacesAfter=\n|start_char=30
+
+# text = The alphabet song?
+# sent_id = 1
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	end_char=35|start_char=32
+2	alphabet	alphabet	NOUN	NN	Number=Sing	3	compound	_	end_char=44|start_char=36
+3	song	song	NOUN	NN	Number=Sing	0	root	_	end_char=49|SpaceAfter=No|start_char=45
+4	?	?	PUNCT	.	_	3	punct	_	end_char=50|SpacesAfter=\n|start_char=49
+
+# text = Yes.
+# sent_id = 2
+1	Yes	yes	INTJ	UH	Polarity=Pos	0	root	_	end_char=54|SpaceAfter=No|start_char=51
+2	.	.	PUNCT	.	_	1	punct	_	end_char=55|start_char=54
+
+# text = It's a song about the alphabet.
+# sent_id = 3
+1-2	It's	_	_	_	_	_	_	_	end_char=60|start_char=56
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=58|start_char=56
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=60|start_char=58
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	end_char=62|start_char=61
+4	song	song	NOUN	NN	Number=Sing	2	comp:pred	_	end_char=67|start_char=63
+5	about	about	ADP	IN	_	4	udep	_	end_char=73|start_char=68
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	end_char=77|start_char=74
+7	alphabet	alphabet	NOUN	NN	Number=Sing	5	comp:obj	_	end_char=86|SpaceAfter=No|start_char=78
+8	.	.	PUNCT	.	_	2	punct	_	end_char=87|SpacesAfter=\n|start_char=86
+
+# text = How does it go, Michelle?
+# sent_id = 4
+1	How	how	ADV	WRB	PronType=Int	2	mod	_	end_char=91|start_char=88
+2	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=96|start_char=92
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=99|start_char=97
+4	go	go	VERB	VB	VerbForm=Inf	2	comp:aux	_	end_char=102|SpaceAfter=No|start_char=100
+5	,	,	PUNCT	,	_	6	punct	_	end_char=103|start_char=102
+6	Michelle	Michelle	PROPN	NNP	Number=Sing	2	vocative	_	end_char=112|SpaceAfter=No|start_char=104
+7	?	?	PUNCT	.	_	2	punct	_	end_char=113|SpacesAfter=\n|start_char=112
+
+# text = It's easy, Sharon.
+# sent_id = 5
+1-2	It's	_	_	_	_	_	_	_	end_char=118|start_char=114
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=116|start_char=114
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=118|start_char=116
+3	easy	easy	ADJ	JJ	Degree=Pos	2	comp:pred	_	end_char=123|SpaceAfter=No|start_char=119
+4	,	,	PUNCT	,	_	5	punct	_	end_char=124|start_char=123
+5	Sharon	Sharon	PROPN	NNP	Number=Sing	2	vocative	_	end_char=131|SpaceAfter=No|start_char=125
+6	.	.	PUNCT	.	_	2	punct	_	end_char=132|SpacesAfter=\n|start_char=131
+
+# text = Can you teach me?
+# sent_id = 6
+1	Can	can	AUX	MD	VerbForm=Fin	0	root	_	end_char=136|start_char=133
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	subj	_	end_char=140|start_char=137
+3	teach	teach	VERB	VB	VerbForm=Inf	1	comp:aux	_	end_char=146|start_char=141
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	comp:obl	_	end_char=149|SpaceAfter=No|start_char=147
+5	?	?	PUNCT	.	_	1	punct	_	end_char=150|SpacesAfter=\n|start_char=149
+
+# text = Yes.
+# sent_id = 7
+1	Yes	yes	INTJ	UH	Polarity=Pos	0	root	_	end_char=154|SpaceAfter=No|start_char=151
+2	.	.	PUNCT	.	_	1	punct	_	end_char=155|start_char=154
+
+# text = It's really pretty.
+# sent_id = 8
+1-2	It's	_	_	_	_	_	_	_	end_char=160|start_char=156
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=158|start_char=156
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=160|start_char=158
+3	really	really	ADV	RB	_	2	mod	_	end_char=167|start_char=161
+4	pretty	pretty	ADJ	JJ	Degree=Pos	2	comp:pred	_	end_char=174|SpaceAfter=No|start_char=168
+5	.	.	PUNCT	.	_	2	punct	_	end_char=175|SpacesAfter=\n|start_char=174
+
+# text = I want to sing the alphabet song.
+# sent_id = 9
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	end_char=177|start_char=176
+2	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	end_char=182|start_char=178
+3	to	to	PART	TO	_	2	comp:obl	_	end_char=185|start_char=183
+4	sing	sing	VERB	VB	VerbForm=Inf	3	comp:obj	_	end_char=190|start_char=186|Subject=SubjRaising
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	end_char=194|start_char=191
+6	alphabet	alphabet	NOUN	NN	Number=Sing	7	compound	_	end_char=203|start_char=195
+7	song	song	NOUN	NN	Number=Sing	4	comp:obj	_	end_char=208|SpaceAfter=No|start_char=204
+8	.	.	PUNCT	.	_	2	punct	_	end_char=209|SpaceAfter=No|start_char=208
+

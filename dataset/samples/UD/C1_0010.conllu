@@ -1,0 +1,317 @@
+# text = The Statue of Liberty, arguably one of New York City’s most iconic symbols, is a popular tourist attraction for first-time visitors to the city.
+# sent_id = 0
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=0|end_char=3
+2	Statue	Statue	PROPN	NNP	Number=Sing	21	nsubj	_	start_char=4|end_char=10
+3	of	of	ADP	IN	_	4	case	_	start_char=11|end_char=13
+4	Liberty	Liberty	PROPN	NNP	Number=Sing	2	nmod	_	start_char=14|end_char=21|SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	start_char=21|end_char=22
+6	arguably	arguably	ADV	RB	_	7	advmod	_	start_char=23|end_char=31
+7	one	one	NUM	CD	NumForm=Word|NumType=Card	2	appos	_	start_char=32|end_char=35
+8	of	of	ADP	IN	_	15	case	_	start_char=36|end_char=38
+9	New	New	ADJ	NNP	Degree=Pos	11	amod	_	start_char=39|end_char=42
+10	York	York	PROPN	NNP	Number=Sing	11	compound	_	start_char=43|end_char=47
+11-12	City’s	_	_	_	_	_	_	_	start_char=48|end_char=54
+11	City	City	PROPN	NNP	Number=Sing	15	nmod:poss	_	start_char=48|end_char=52
+12	’s	's	PART	POS	_	11	case	_	start_char=52|end_char=54
+13	most	most	ADV	RBS	Degree=Sup	14	advmod	_	start_char=55|end_char=59
+14	iconic	iconic	ADJ	JJ	Degree=Pos	15	amod	_	start_char=60|end_char=66
+15	symbols	symbol	NOUN	NNS	Number=Plur	7	nmod	_	start_char=67|end_char=74|SpaceAfter=No
+16	,	,	PUNCT	,	_	7	punct	_	start_char=74|end_char=75
+17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	start_char=76|end_char=78
+18	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	start_char=79|end_char=80
+19	popular	popular	ADJ	JJ	Degree=Pos	21	amod	_	start_char=81|end_char=88
+20	tourist	tourist	NOUN	NN	Number=Sing	21	compound	_	start_char=89|end_char=96
+21	attraction	attraction	NOUN	NN	Number=Sing	0	root	_	start_char=97|end_char=107
+22	for	for	ADP	IN	_	26	case	_	start_char=108|end_char=111
+23	first	first	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	25	amod	_	start_char=112|end_char=117|SpaceAfter=No
+24	-	-	PUNCT	HYPH	_	23	punct	_	start_char=117|end_char=118|SpaceAfter=No
+25	time	time	NOUN	NN	Number=Sing	26	compound	_	start_char=118|end_char=122
+26	visitors	visitor	NOUN	NNS	Number=Plur	21	nmod	_	start_char=123|end_char=131
+27	to	to	ADP	IN	_	29	case	_	start_char=132|end_char=134
+28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	start_char=135|end_char=138
+29	city	city	NOUN	NN	Number=Sing	26	nmod	_	start_char=139|end_char=143|SpaceAfter=No
+30	.	.	PUNCT	.	_	21	punct	_	start_char=143|end_char=144
+
+# text = This 150-foot monument was gifted to the United States from France in order to celebrate 100 years of America’s independence.
+# sent_id = 1
+1	This	this	DET	DT	Number=Sing|PronType=Dem	5	det	_	start_char=145|end_char=149
+2	150	150	NUM	CD	NumForm=Digit|NumType=Card	4	nummod	_	start_char=150|end_char=153|SpaceAfter=No
+3	-	-	PUNCT	HYPH	_	2	punct	_	start_char=153|end_char=154|SpaceAfter=No
+4	foot	foot	NOUN	NN	Number=Sing	5	compound	_	start_char=154|end_char=158
+5	monument	monument	NOUN	NN	Number=Sing	7	nsubj:pass	_	start_char=159|end_char=167
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	_	start_char=168|end_char=171
+7	gifted	gift	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=172|end_char=178
+8	to	to	ADP	IN	_	11	case	_	start_char=179|end_char=181
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=182|end_char=185
+10	United	United	ADJ	NNP	Degree=Pos	11	amod	_	start_char=186|end_char=192
+11	States	State	PROPN	NNPS	Number=Plur	7	obl	_	start_char=193|end_char=199
+12	from	from	ADP	IN	_	13	case	_	start_char=200|end_char=204
+13	France	France	PROPN	NNP	Number=Sing	7	obl	_	start_char=205|end_char=211
+14	in	in	SCONJ	IN	_	17	mark	_	start_char=212|end_char=214
+15	order	order	NOUN	NN	Number=Sing	14	fixed	_	start_char=215|end_char=220
+16	to	to	PART	TO	_	17	mark	_	start_char=221|end_char=223
+17	celebrate	celebrate	VERB	VB	VerbForm=Inf	7	advcl	_	start_char=224|end_char=233
+18	100	100	NUM	CD	NumForm=Digit|NumType=Card	19	nummod	_	start_char=234|end_char=237
+19	years	year	NOUN	NNS	Number=Plur	17	obj	_	start_char=238|end_char=243
+20	of	of	ADP	IN	_	23	case	_	start_char=244|end_char=246
+21-22	America’s	_	_	_	_	_	_	_	start_char=247|end_char=256
+21	America	America	PROPN	NNP	Number=Sing	23	nmod:poss	_	start_char=247|end_char=254
+22	’s	's	PART	POS	_	21	case	_	start_char=254|end_char=256
+23	independence	independence	NOUN	NN	Number=Sing	19	nmod	_	start_char=257|end_char=269|SpaceAfter=No
+24	.	.	PUNCT	.	_	7	punct	_	start_char=269|end_char=270
+
+# text = The statue is located on Liberty Island, and it is accessible by taking a ferry from either Battery Park in New York City or Liberty State Park in Jersey City.
+# sent_id = 2
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=271|end_char=274
+2	statue	statue	NOUN	NN	Number=Sing	4	nsubj:pass	_	start_char=275|end_char=281
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	start_char=282|end_char=284
+4	located	locate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=285|end_char=292
+5	on	on	ADP	IN	_	7	case	_	start_char=293|end_char=295
+6	Liberty	Liberty	PROPN	NNP	Number=Sing	7	compound	_	start_char=296|end_char=303
+7	Island	Island	PROPN	NNP	Number=Sing	4	obl	_	start_char=304|end_char=310|SpaceAfter=No
+8	,	,	PUNCT	,	_	12	punct	_	start_char=310|end_char=311
+9	and	and	CCONJ	CC	_	12	cc	_	start_char=312|end_char=315
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	expl	_	start_char=316|end_char=318
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	start_char=319|end_char=321
+12	accessible	accessible	ADJ	JJ	Degree=Pos	4	conj	_	start_char=322|end_char=332
+13	by	by	SCONJ	IN	_	14	mark	_	start_char=333|end_char=335
+14	taking	take	VERB	VBG	Tense=Pres|VerbForm=Part	12	advcl	_	start_char=336|end_char=342
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	start_char=343|end_char=344
+16	ferry	ferry	NOUN	NN	Number=Sing	14	obj	_	start_char=345|end_char=350
+17	from	from	ADP	IN	_	20	case	_	start_char=351|end_char=355
+18	either	either	CCONJ	CC	_	20	cc:preconj	_	start_char=356|end_char=362
+19	Battery	Battery	PROPN	NNP	Number=Sing	20	compound	_	start_char=363|end_char=370
+20	Park	Park	PROPN	NNP	Number=Sing	14	obl	_	start_char=371|end_char=375
+21	in	in	ADP	IN	_	24	case	_	start_char=376|end_char=378
+22	New	New	ADJ	NNP	Degree=Pos	23	amod	_	start_char=379|end_char=382
+23	York	York	PROPN	NNP	Number=Sing	24	compound	_	start_char=383|end_char=387
+24	City	City	PROPN	NNP	Number=Sing	20	nmod	_	start_char=388|end_char=392
+25	or	or	CCONJ	CC	_	28	cc	_	start_char=393|end_char=395
+26	Liberty	Liberty	PROPN	NNP	Number=Sing	28	compound	_	start_char=396|end_char=403
+27	State	State	PROPN	NNP	Number=Sing	28	compound	_	start_char=404|end_char=409
+28	Park	Park	PROPN	NNP	Number=Sing	24	conj	_	start_char=410|end_char=414
+29	in	in	ADP	IN	_	31	case	_	start_char=415|end_char=417
+30	Jersey	Jersey	PROPN	NNP	Number=Sing	31	compound	_	start_char=418|end_char=424
+31	City	City	PROPN	NNP	Number=Sing	24	nmod	_	start_char=425|end_char=429|SpaceAfter=No
+32	.	.	PUNCT	.	_	4	punct	_	start_char=429|end_char=430|SpacesAfter=\n
+
+# text = When Claire visited the Statue of Liberty for the first time, she instantly admired it as a symbol of freedom.
+# sent_id = 3
+1	When	when	ADV	WRB	PronType=Int	3	advmod	_	start_char=431|end_char=435
+2	Claire	Claire	PROPN	NNP	Number=Sing	3	nsubj	_	start_char=436|end_char=442
+3	visited	visit	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	advcl	_	start_char=443|end_char=450
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=451|end_char=454
+5	Statue	Statue	PROPN	NNP	Number=Sing	3	obj	_	start_char=455|end_char=461
+6	of	of	ADP	IN	_	7	case	_	start_char=462|end_char=464
+7	Liberty	Liberty	PROPN	NNP	Number=Sing	5	nmod	_	start_char=465|end_char=472
+8	for	for	ADP	IN	_	11	case	_	start_char=473|end_char=476
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=477|end_char=480
+10	first	first	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	11	amod	_	start_char=481|end_char=486
+11	time	time	NOUN	NN	Number=Sing	3	obl	_	start_char=487|end_char=491|SpaceAfter=No
+12	,	,	PUNCT	,	_	3	punct	_	start_char=491|end_char=492
+13	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	start_char=493|end_char=496
+14	instantly	instantly	ADV	RB	_	15	advmod	_	start_char=497|end_char=506
+15	admired	admire	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=507|end_char=514
+16	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	obj	_	start_char=515|end_char=517
+17	as	as	ADP	IN	_	19	case	_	start_char=518|end_char=520
+18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	start_char=521|end_char=522
+19	symbol	symbol	NOUN	NN	Number=Sing	15	obl	_	start_char=523|end_char=529
+20	of	of	ADP	IN	_	21	case	_	start_char=530|end_char=532
+21	freedom	freedom	NOUN	NN	Number=Sing	19	nmod	_	start_char=533|end_char=540|SpaceAfter=No
+22	.	.	PUNCT	.	_	15	punct	_	start_char=540|end_char=541
+
+# text = Claire made sure to make reservations before her visit because only 240 people are permitted to climb the staircase to the top of the statue every day.
+# sent_id = 4
+1	Claire	Claire	PROPN	NNP	Number=Sing	2	nsubj	_	start_char=542|end_char=548
+2	made	make	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=549|end_char=553
+3	sure	sure	ADJ	JJ	Degree=Pos	2	xcomp	_	start_char=554|end_char=558
+4	to	to	PART	TO	_	5	mark	_	start_char=559|end_char=561
+5	make	make	VERB	VB	VerbForm=Inf	3	xcomp	_	start_char=562|end_char=566
+6	reservations	reservation	NOUN	NNS	Number=Plur	5	obj	_	start_char=567|end_char=579
+7	before	before	ADP	IN	_	9	case	_	start_char=580|end_char=586
+8	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	start_char=587|end_char=590
+9	visit	visit	NOUN	NN	Number=Sing	5	obl	_	start_char=591|end_char=596
+10	because	because	SCONJ	IN	_	15	mark	_	start_char=597|end_char=604
+11	only	only	ADV	RB	_	12	advmod	_	start_char=605|end_char=609
+12	240	240	NUM	CD	NumForm=Digit|NumType=Card	13	nummod	_	start_char=610|end_char=613
+13	people	person	NOUN	NNS	Number=Plur	15	nsubj:pass	_	start_char=614|end_char=620
+14	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	start_char=621|end_char=624
+15	permitted	permit	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	advcl	_	start_char=625|end_char=634
+16	to	to	PART	TO	_	17	mark	_	start_char=635|end_char=637
+17	climb	climb	VERB	VB	VerbForm=Inf	15	xcomp	_	start_char=638|end_char=643
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	start_char=644|end_char=647
+19	staircase	staircase	NOUN	NN	Number=Sing	17	obj	_	start_char=648|end_char=657
+20	to	to	ADP	IN	_	22	case	_	start_char=658|end_char=660
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	start_char=661|end_char=664
+22	top	top	NOUN	NN	Number=Sing	17	obl	_	start_char=665|end_char=668
+23	of	of	ADP	IN	_	25	case	_	start_char=669|end_char=671
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	start_char=672|end_char=675
+25	statue	statue	NOUN	NN	Number=Sing	22	nmod	_	start_char=676|end_char=682
+26	every	every	DET	DT	PronType=Tot	27	det	_	start_char=683|end_char=688
+27	day	day	NOUN	NN	Number=Sing	17	obl:unmarked	_	start_char=689|end_char=692|SpaceAfter=No
+28	.	.	PUNCT	.	_	2	punct	_	start_char=692|end_char=693
+
+# text = After climbing almost 400 stairs, Claire received spectacular views of the city from the statue’s crown.
+# sent_id = 5
+1	After	after	SCONJ	IN	_	2	mark	_	start_char=694|end_char=699
+2	climbing	climb	VERB	VBG	Tense=Pres|VerbForm=Part	8	advcl	_	start_char=700|end_char=708
+3	almost	almost	ADV	RB	_	4	advmod	_	start_char=709|end_char=715
+4	400	400	NUM	CD	NumForm=Digit|NumType=Card	5	nummod	_	start_char=716|end_char=719
+5	stairs	stair	NOUN	NNS	Number=Plur	2	obj	_	start_char=720|end_char=726|SpaceAfter=No
+6	,	,	PUNCT	,	_	2	punct	_	start_char=726|end_char=727
+7	Claire	Claire	PROPN	NNP	Number=Sing	8	nsubj	_	start_char=728|end_char=734
+8	received	receive	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=735|end_char=743
+9	spectacular	spectacular	ADJ	JJ	Degree=Pos	10	amod	_	start_char=744|end_char=755
+10	views	view	NOUN	NNS	Number=Plur	8	obj	_	start_char=756|end_char=761
+11	of	of	ADP	IN	_	13	case	_	start_char=762|end_char=764
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	start_char=765|end_char=768
+13	city	city	NOUN	NN	Number=Sing	10	nmod	_	start_char=769|end_char=773
+14	from	from	ADP	IN	_	18	case	_	start_char=774|end_char=778
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	start_char=779|end_char=782
+16-17	statue’s	_	_	_	_	_	_	_	start_char=783|end_char=791
+16	statue	statue	NOUN	NN	Number=Sing	18	nmod:poss	_	start_char=783|end_char=789
+17	’s	's	PART	POS	_	16	case	_	start_char=789|end_char=791
+18	crown	crown	NOUN	NN	Number=Sing	8	obl	_	start_char=792|end_char=797|SpaceAfter=No
+19	.	.	PUNCT	.	_	8	punct	_	start_char=797|end_char=798|SpacesAfter=\n
+
+# text = During her visit, Claire learned that the Statue of Liberty was not always the color that it is now.
+# sent_id = 6
+1	During	during	ADP	IN	_	3	case	_	start_char=799|end_char=805
+2	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	start_char=806|end_char=809
+3	visit	visit	NOUN	NN	Number=Sing	6	obl	_	start_char=810|end_char=815|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	start_char=815|end_char=816
+5	Claire	Claire	PROPN	NNP	Number=Sing	6	nsubj	_	start_char=817|end_char=823
+6	learned	learn	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=824|end_char=831
+7	that	that	SCONJ	IN	_	16	mark	_	start_char=832|end_char=836
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=837|end_char=840
+9	Statue	Statue	PROPN	NNP	Number=Sing	16	nsubj	_	start_char=841|end_char=847
+10	of	of	ADP	IN	_	11	case	_	start_char=848|end_char=850
+11	Liberty	Liberty	PROPN	NNP	Number=Sing	9	nmod	_	start_char=851|end_char=858
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	cop	_	start_char=859|end_char=862
+13	not	not	PART	RB	Polarity=Neg	16	advmod	_	start_char=863|end_char=866
+14	always	always	ADV	RB	PronType=Tot	16	advmod	_	start_char=867|end_char=873
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	start_char=874|end_char=877
+16	color	color	NOUN	NN	Number=Sing	6	ccomp	_	start_char=878|end_char=883
+17	that	that	PRON	WDT	PronType=Rel	19	obj	_	start_char=884|end_char=888
+18	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	start_char=889|end_char=891
+19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	start_char=892|end_char=894
+20	now	now	ADV	RB	_	17	case	_	start_char=895|end_char=898|SpaceAfter=No
+21	.	.	PUNCT	.	_	6	punct	_	start_char=898|end_char=899
+
+# text = She found out that because the statue’s exterior is made of copper, the statue oxidized over time, giving it the greenish appearance it has in present day.
+# sent_id = 7
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=900|end_char=903
+2	found	find	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=904|end_char=909
+3	out	out	ADP	RP	_	2	compound:prt	_	start_char=910|end_char=913
+4	that	that	SCONJ	IN	_	17	mark	_	start_char=914|end_char=918
+5	because	because	SCONJ	IN	_	11	mark	_	start_char=919|end_char=926
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=927|end_char=930
+7-8	statue’s	_	_	_	_	_	_	_	start_char=931|end_char=939
+7	statue	statue	NOUN	NN	Number=Sing	9	nmod:poss	_	start_char=931|end_char=937
+8	’s	's	PART	POS	_	7	case	_	start_char=937|end_char=939
+9	exterior	exterior	NOUN	NN	Number=Sing	11	nsubj:pass	_	start_char=940|end_char=948
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	start_char=949|end_char=951
+11	made	make	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	17	advcl	_	start_char=952|end_char=956
+12	of	of	ADP	IN	_	13	case	_	start_char=957|end_char=959
+13	copper	copper	NOUN	NN	Number=Sing	11	obl	_	start_char=960|end_char=966|SpaceAfter=No
+14	,	,	PUNCT	,	_	11	punct	_	start_char=966|end_char=967
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	start_char=968|end_char=971
+16	statue	statue	NOUN	NN	Number=Sing	17	nsubj	_	start_char=972|end_char=978
+17	oxidized	oxidize	VERB	VBD	Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	2	ccomp	_	start_char=979|end_char=987
+18	over	over	ADP	IN	_	19	case	_	start_char=988|end_char=992
+19	time	time	NOUN	NN	Number=Sing	17	obl	_	start_char=993|end_char=997|SpaceAfter=No
+20	,	,	PUNCT	,	_	21	punct	_	start_char=997|end_char=998
+21	giving	give	VERB	VBG	Tense=Pres|VerbForm=Part	17	advcl	_	start_char=999|end_char=1005
+22	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	iobj	_	start_char=1006|end_char=1008
+23	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	start_char=1009|end_char=1012
+24	greenish	greenish	ADJ	JJ	Degree=Pos	25	amod	_	start_char=1013|end_char=1021
+25	appearance	appearance	NOUN	NN	Number=Sing	21	obj	_	start_char=1022|end_char=1032
+26	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	start_char=1033|end_char=1035
+27	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	start_char=1036|end_char=1039
+28	in	in	ADP	IN	_	30	case	_	start_char=1040|end_char=1042
+29	present	present	ADJ	JJ	Degree=Pos	30	amod	_	start_char=1043|end_char=1050
+30	day	day	NOUN	NN	Number=Sing	27	obl	_	start_char=1051|end_char=1054|SpaceAfter=No
+31	.	.	PUNCT	.	_	2	punct	_	start_char=1054|end_char=1055
+
+# text = When it was first constructed, the statue was the same color as a shiny penny!
+# sent_id = 8
+1	When	when	ADV	WRB	PronType=Int	5	advmod	_	start_char=1056|end_char=1060
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj:pass	_	start_char=1061|end_char=1063
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	start_char=1064|end_char=1067
+4	first	first	ADV	RB	Degree=Pos|NumForm=Word|NumType=Ord	5	advmod	_	start_char=1068|end_char=1073
+5	constructed	construct	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	advcl	_	start_char=1074|end_char=1085|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	start_char=1085|end_char=1086
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=1087|end_char=1090
+8	statue	statue	NOUN	NN	Number=Sing	12	nsubj	_	start_char=1091|end_char=1097
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	start_char=1098|end_char=1101
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=1102|end_char=1105
+11	same	same	ADJ	JJ	Degree=Pos	12	amod	_	start_char=1106|end_char=1110
+12	color	color	NOUN	NN	Number=Sing	0	root	_	start_char=1111|end_char=1116
+13	as	as	ADP	IN	_	16	case	_	start_char=1117|end_char=1119
+14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	start_char=1120|end_char=1121
+15	shiny	shiny	ADJ	JJ	Degree=Pos	16	amod	_	start_char=1122|end_char=1127
+16	penny	penny	NOUN	NN	Number=Sing	12	nmod	_	start_char=1128|end_char=1133|SpaceAfter=No
+17	!	!	PUNCT	.	_	12	punct	_	start_char=1133|end_char=1134|SpacesAfter=\n
+
+# text = After touring the Statue of Liberty, Claire spent the rest of the day in New York City visiting other important monuments and historic landmarks.
+# sent_id = 9
+1	After	after	SCONJ	IN	_	2	mark	_	start_char=1135|end_char=1140
+2	touring	tour	VERB	VBG	Tense=Pres|VerbForm=Part	9	advcl	_	start_char=1141|end_char=1148
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=1149|end_char=1152
+4	Statue	Statue	PROPN	NNP	Number=Sing	2	obj	_	start_char=1153|end_char=1159
+5	of	of	ADP	IN	_	6	case	_	start_char=1160|end_char=1162
+6	Liberty	Liberty	PROPN	NNP	Number=Sing	4	nmod	_	start_char=1163|end_char=1170|SpaceAfter=No
+7	,	,	PUNCT	,	_	2	punct	_	start_char=1170|end_char=1171
+8	Claire	Claire	PROPN	NNP	Number=Sing	9	nsubj	_	start_char=1172|end_char=1178
+9	spent	spend	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=1179|end_char=1184
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=1185|end_char=1188
+11	rest	rest	NOUN	NN	Number=Sing	9	obj	_	start_char=1189|end_char=1193
+12	of	of	ADP	IN	_	14	case	_	start_char=1194|end_char=1196
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	start_char=1197|end_char=1200
+14	day	day	NOUN	NN	Number=Sing	11	nmod	_	start_char=1201|end_char=1204
+15	in	in	ADP	IN	_	18	case	_	start_char=1205|end_char=1207
+16	New	New	ADJ	NNP	Degree=Pos	17	amod	_	start_char=1208|end_char=1211
+17	York	York	PROPN	NNP	Number=Sing	18	compound	_	start_char=1212|end_char=1216
+18	City	City	PROPN	NNP	Number=Sing	9	obl	_	start_char=1217|end_char=1221
+19	visiting	visit	VERB	VBG	Tense=Pres|VerbForm=Part	9	advcl	_	start_char=1222|end_char=1230
+20	other	other	ADJ	JJ	Degree=Pos	22	amod	_	start_char=1231|end_char=1236
+21	important	important	ADJ	JJ	Degree=Pos	22	amod	_	start_char=1237|end_char=1246
+22	monuments	monument	NOUN	NNS	Number=Plur	19	obj	_	start_char=1247|end_char=1256
+23	and	and	CCONJ	CC	_	25	cc	_	start_char=1257|end_char=1260
+24	historic	historic	ADJ	JJ	Degree=Pos	25	amod	_	start_char=1261|end_char=1269
+25	landmarks	landmark	NOUN	NNS	Number=Plur	22	conj	_	start_char=1270|end_char=1279|SpaceAfter=No
+26	.	.	PUNCT	.	_	9	punct	_	start_char=1279|end_char=1280
+
+# text = Claire left New York hoping to have had the time to explore more sites, but she can’t wait to return to the city in the future.
+# sent_id = 10
+1	Claire	Claire	PROPN	NNP	Number=Sing	2	nsubj	_	start_char=1281|end_char=1287
+2	left	leave	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=1288|end_char=1292
+3	New	New	ADJ	NNP	Degree=Pos	4	amod	_	start_char=1293|end_char=1296
+4	York	York	PROPN	NNP	Number=Sing	2	obj	_	start_char=1297|end_char=1301
+5	hoping	hope	VERB	VBG	Tense=Pres|VerbForm=Part	2	advcl	_	start_char=1302|end_char=1308
+6	to	to	PART	TO	_	8	mark	_	start_char=1309|end_char=1311
+7	have	have	AUX	VB	VerbForm=Inf	8	aux	_	start_char=1312|end_char=1316
+8	had	have	VERB	VBN	Tense=Past|VerbForm=Part	5	xcomp	_	start_char=1317|end_char=1320
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=1321|end_char=1324
+10	time	time	NOUN	NN	Number=Sing	8	obj	_	start_char=1325|end_char=1329
+11	to	to	PART	TO	_	12	mark	_	start_char=1330|end_char=1332
+12	explore	explore	VERB	VB	VerbForm=Inf	10	acl	_	start_char=1333|end_char=1340
+13	more	more	ADJ	JJR	Degree=Cmp	14	amod	_	start_char=1341|end_char=1345
+14	sites	site	NOUN	NNS	Number=Plur	12	obj	_	start_char=1346|end_char=1351|SpaceAfter=No
+15	,	,	PUNCT	,	_	20	punct	_	start_char=1351|end_char=1352
+16	but	but	CCONJ	CC	_	20	cc	_	start_char=1353|end_char=1356
+17	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	start_char=1357|end_char=1360
+18-19	can’t	_	_	_	_	_	_	_	start_char=1361|end_char=1366
+18	ca	can	AUX	MD	VerbForm=Fin	20	aux	_	start_char=1361|end_char=1363
+19	n’t	not	PART	RB	Polarity=Neg	20	advmod	_	start_char=1363|end_char=1366
+20	wait	wait	VERB	VB	VerbForm=Inf	2	conj	_	start_char=1367|end_char=1371
+21	to	to	PART	TO	_	22	mark	_	start_char=1372|end_char=1374
+22	return	return	VERB	VB	VerbForm=Inf	20	xcomp	_	start_char=1375|end_char=1381
+23	to	to	ADP	IN	_	25	case	_	start_char=1382|end_char=1384
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	start_char=1385|end_char=1388
+25	city	city	NOUN	NN	Number=Sing	22	obl	_	start_char=1389|end_char=1393
+26	in	in	ADP	IN	_	28	case	_	start_char=1394|end_char=1396
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	start_char=1397|end_char=1400
+28	future	future	NOUN	NN	Number=Sing	22	obl	_	start_char=1401|end_char=1407|SpaceAfter=No
+29	.	.	PUNCT	.	_	2	punct	_	start_char=1407|end_char=1408|SpaceAfter=No
+

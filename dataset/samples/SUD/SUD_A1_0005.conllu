@@ -1,0 +1,194 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# text = He played the piano.
+# sent_id = 0
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=2|start_char=0
+2	played	play	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=9|start_char=3
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	end_char=13|start_char=10
+4	piano	piano	NOUN	NN	Number=Sing	2	comp:obj	_	end_char=19|SpaceAfter=No|start_char=14
+5	.	.	PUNCT	.	_	2	punct	_	end_char=20|start_char=19
+
+# text = He played it very well.
+# sent_id = 1
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=23|start_char=21
+2	played	play	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=30|start_char=24
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	comp:obj	_	end_char=33|start_char=31
+4	very	very	ADV	RB	_	5	mod	_	end_char=38|start_char=34
+5	well	well	ADV	RB	Degree=Pos	2	mod	_	end_char=43|SpaceAfter=No|start_char=39
+6	.	.	PUNCT	.	_	2	punct	_	end_char=44|start_char=43
+
+# text = He started playing the piano when he was six years old.
+# sent_id = 2
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=47|start_char=45
+2	started	start	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=55|start_char=48
+3	playing	play	VERB	VBG	VerbForm=Ger	2	comp:obj	_	end_char=63|start_char=56|Subject=SubjRaising
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	end_char=67|start_char=64
+5	piano	piano	NOUN	NN	Number=Sing	3	comp:obj	_	end_char=73|start_char=68
+6	when	when	ADV	WRB	PronType=Int	8	mod	_	end_char=78|start_char=74
+7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	subj	_	end_char=81|start_char=79
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	mod	_	end_char=85|start_char=82
+9	six	six	NUM	CD	NumForm=Word|NumType=Card	10	mod	_	end_char=89|start_char=86
+10	years	year	NOUN	NNS	Number=Plur	11	udep@unmarked	_	end_char=95|start_char=90
+11	old	old	ADJ	JJ	Degree=Pos	8	comp:pred	_	end_char=99|SpaceAfter=No|start_char=96
+12	.	.	PUNCT	.	_	2	punct	_	end_char=100|start_char=99
+
+# text = That was seven years ago.
+# sent_id = 3
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	2	subj	_	end_char=105|start_char=101
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=109|start_char=106
+3	seven	seven	NUM	CD	NumForm=Word|NumType=Card	4	mod	_	end_char=115|start_char=110
+4	years	year	NOUN	NNS	Number=Plur	5	udep@unmarked	_	end_char=121|start_char=116
+5	ago	ago	ADV	RB	_	2	comp:pred	_	end_char=125|SpaceAfter=No|start_char=122
+6	.	.	PUNCT	.	_	2	punct	_	end_char=126|start_char=125
+
+# text = Now he was 13 years old.
+# sent_id = 4
+1	Now	now	ADV	RB	_	3	mod	_	end_char=130|start_char=127
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	end_char=133|start_char=131
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=137|start_char=134
+4	13	13	NUM	CD	NumForm=Digit|NumType=Card	5	mod	_	end_char=140|start_char=138
+5	years	year	NOUN	NNS	Number=Plur	6	udep@unmarked	_	end_char=146|start_char=141
+6	old	old	ADJ	JJ	Degree=Pos	3	comp:pred	_	end_char=150|SpaceAfter=No|start_char=147
+7	.	.	PUNCT	.	_	3	punct	_	end_char=151|start_char=150
+
+# text = He was very good.
+# sent_id = 5
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=154|start_char=152
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=158|start_char=155
+3	very	very	ADV	RB	_	2	mod	_	end_char=163|start_char=159
+4	good	good	ADJ	JJ	Degree=Pos	2	comp:pred	_	end_char=168|SpaceAfter=No|start_char=164
+5	.	.	PUNCT	.	_	2	punct	_	end_char=169|start_char=168
+
+# text = He won one piano contest after another.
+# sent_id = 6
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=172|start_char=170
+2	won	win	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=176|start_char=173
+3	one	one	NUM	CD	NumForm=Word|NumType=Card	5	mod	_	end_char=180|start_char=177
+4	piano	piano	NOUN	NN	Number=Sing	5	compound	_	end_char=186|start_char=181
+5	contest	contest	NOUN	NN	Number=Sing	2	comp:obj	_	end_char=194|start_char=187
+6	after	after	ADP	IN	_	2	udep	_	end_char=200|start_char=195
+7	another	another	DET	DT	PronType=Ind	6	comp:obj	_	end_char=208|SpaceAfter=No|start_char=201
+8	.	.	PUNCT	.	_	2	punct	_	end_char=209|start_char=208
+
+# text = A famous piano teacher heard him play the piano.
+# sent_id = 7
+1	A	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	end_char=211|start_char=210
+2	famous	famous	ADJ	JJ	Degree=Pos	4	mod	_	end_char=218|start_char=212
+3	piano	piano	NOUN	NN	Number=Sing	4	compound	_	end_char=224|start_char=219
+4	teacher	teacher	NOUN	NN	Number=Sing	5	subj	_	end_char=232|start_char=225
+5	heard	hear	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=238|start_char=233
+6	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	comp:obj	_	end_char=242|start_char=239
+7	play	play	VERB	VB	VerbForm=Inf	5	comp:obl	_	end_char=247|start_char=243|Subject=ObjRaising
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	end_char=251|start_char=248
+9	piano	piano	NOUN	NN	Number=Sing	7	comp:obj	_	end_char=257|SpaceAfter=No|start_char=252
+10	.	.	PUNCT	.	_	5	punct	_	end_char=258|start_char=257
+
+# text = The teacher said, "I want to bring you to New York.
+# sent_id = 8
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	end_char=262|start_char=259
+2	teacher	teacher	NOUN	NN	Number=Sing	3	subj	_	end_char=270|start_char=263
+3	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=275|SpaceAfter=No|start_char=271
+4	,	,	PUNCT	,	_	7	punct	_	end_char=276|start_char=275
+5	"	"	PUNCT	``	_	7	punct	_	end_char=278|SpaceAfter=No|start_char=277
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	subj	_	end_char=279|start_char=278
+7	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	comp:obj	_	end_char=284|start_char=280
+8	to	to	PART	TO	_	7	comp:obl	_	end_char=287|start_char=285
+9	bring	bring	VERB	VB	VerbForm=Inf	8	comp:obj	_	end_char=293|start_char=288|Subject=SubjRaising
+10	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	9	comp:obj	_	end_char=297|start_char=294
+11	to	to	ADP	IN	_	9	udep	_	end_char=300|start_char=298
+12	New	New	ADJ	NNP	Degree=Pos	13	mod	_	end_char=304|start_char=301
+13	York	York	PROPN	NNP	Number=Sing	11	comp:obj	_	end_char=309|SpaceAfter=No|start_char=305
+14	.	.	PUNCT	.	_	3	punct	_	end_char=310|start_char=309
+
+# text = I will teach you how to be even better.
+# sent_id = 9
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	end_char=312|start_char=311
+2	will	will	AUX	MD	VerbForm=Fin	0	root	_	end_char=317|start_char=313
+3	teach	teach	VERB	VB	VerbForm=Inf	2	comp:aux	_	end_char=323|start_char=318
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	comp:obl	_	end_char=327|start_char=324
+5	how	how	ADV	WRB	PronType=Int	3	comp:obj	_	end_char=331|start_char=328
+6	to	to	PART	TO	_	5	udep	_	end_char=334|start_char=332
+7	be	be	AUX	VB	VerbForm=Inf	6	comp:obj	_	end_char=337|start_char=335
+8	even	even	ADV	RB	_	7	mod	_	end_char=342|start_char=338
+9	better	good	ADJ	JJR	Degree=Cmp	7	comp:pred	_	end_char=349|SpaceAfter=No|start_char=343
+10	.	.	PUNCT	.	_	2	punct	_	end_char=350|start_char=349
+
+# text = I will teach you how to be the best piano player in the whole world."
+# sent_id = 10
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	end_char=352|start_char=351
+2	will	will	AUX	MD	VerbForm=Fin	0	root	_	end_char=357|start_char=353
+3	teach	teach	VERB	VB	VerbForm=Inf	2	comp:aux	_	end_char=363|start_char=358
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	comp:obl	_	end_char=367|start_char=364
+5	how	how	ADV	WRB	PronType=Int	3	comp:obj	_	end_char=371|start_char=368
+6	to	to	PART	TO	_	5	udep	_	end_char=374|start_char=372
+7	be	be	AUX	VB	VerbForm=Inf	6	comp:obj	_	end_char=377|start_char=375
+8	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	end_char=381|start_char=378
+9	best	good	ADJ	JJS	Degree=Sup	11	mod	_	end_char=386|start_char=382
+10	piano	piano	NOUN	NN	Number=Sing	11	compound	_	end_char=392|start_char=387
+11	player	player	NOUN	NN	Number=Sing	7	comp:pred	_	end_char=399|start_char=393
+12	in	in	ADP	IN	_	11	udep	_	end_char=402|start_char=400
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	end_char=406|start_char=403
+14	whole	whole	ADJ	JJ	Degree=Pos	15	mod	_	end_char=412|start_char=407
+15	world	world	NOUN	NN	Number=Sing	12	comp:obj	_	end_char=418|SpaceAfter=No|start_char=413
+16	.	.	PUNCT	.	_	2	punct	_	end_char=419|SpaceAfter=No|start_char=418
+17	"	"	PUNCT	''	_	2	punct	_	end_char=420|start_char=419
+
+# text = He didn't like that idea.
+# sent_id = 11
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=423|start_char=421
+2-3	didn't	_	_	_	_	_	_	_	end_char=430|start_char=424
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=427|start_char=424
+3	n't	not	PART	RB	Polarity=Neg	2	mod	_	end_char=430|start_char=427
+4	like	like	VERB	VB	VerbForm=Inf	2	comp:aux	_	end_char=435|start_char=431
+5	that	that	DET	DT	Number=Sing|PronType=Dem	6	det	_	end_char=440|start_char=436
+6	idea	idea	NOUN	NN	Number=Sing	4	comp:obj	_	end_char=445|SpaceAfter=No|start_char=441
+7	.	.	PUNCT	.	_	2	punct	_	end_char=446|start_char=445
+
+# text = He wanted to stay at home.
+# sent_id = 12
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=449|start_char=447
+2	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=456|start_char=450
+3	to	to	PART	TO	_	2	comp:obl	_	end_char=459|start_char=457
+4	stay	stay	VERB	VB	VerbForm=Inf	3	comp:obj	_	end_char=464|start_char=460|Subject=SubjRaising
+5	at	at	ADP	IN	_	4	udep	_	end_char=467|start_char=465
+6	home	home	NOUN	NN	Number=Sing	5	comp:obj	_	end_char=472|SpaceAfter=No|start_char=468
+7	.	.	PUNCT	.	_	2	punct	_	end_char=473|start_char=472
+
+# text = He wanted to stay with his parents and his friends.
+# sent_id = 13
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=476|start_char=474
+2	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=483|start_char=477
+3	to	to	PART	TO	_	2	comp:obl	_	end_char=486|start_char=484
+4	stay	stay	VERB	VB	VerbForm=Inf	3	comp:obj	_	end_char=491|start_char=487|Subject=SubjRaising
+5	with	with	ADP	IN	_	4	udep	_	end_char=496|start_char=492
+6	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|Shared=No	7	mod@poss	_	end_char=500|start_char=497
+7	parents	parent	NOUN	NNS	Number=Plur	5	comp:obj	_	end_char=508|start_char=501
+8	and	and	CCONJ	CC	_	10	cc	_	end_char=512|start_char=509
+9	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	mod@poss	_	end_char=516|start_char=513
+10	friends	friend	NOUN	NNS	Number=Plur	7	conj:coord	_	end_char=524|SpaceAfter=No|start_char=517
+11	.	.	PUNCT	.	_	2	punct	_	end_char=525|start_char=524
+
+# text = His parents wanted him to go.
+# sent_id = 14
+1	His	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	mod@poss	_	end_char=529|start_char=526
+2	parents	parent	NOUN	NNS	Number=Plur	3	subj	_	end_char=537|start_char=530
+3	wanted	want	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=544|start_char=538
+4	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	comp:obj	_	end_char=548|start_char=545
+5	to	to	PART	TO	_	3	comp:obl	_	end_char=551|start_char=549
+6	go	go	VERB	VB	VerbForm=Inf	5	comp:obj	_	end_char=554|SpaceAfter=No|start_char=552|Subject=SubjRaising
+7	.	.	PUNCT	.	_	3	punct	_	end_char=555|start_char=554
+
+# text = They said they would visit him in New York every weekend.
+# sent_id = 15
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	subj	_	end_char=560|start_char=556
+2	said	say	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=565|start_char=561
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	subj	_	end_char=570|start_char=566
+4	would	would	AUX	MD	VerbForm=Fin	2	comp:obj	_	end_char=576|start_char=571
+5	visit	visit	VERB	VB	VerbForm=Inf	4	comp:aux	_	end_char=582|start_char=577
+6	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	comp:obj	_	end_char=586|start_char=583
+7	in	in	ADP	IN	_	5	udep	_	end_char=589|start_char=587
+8	New	New	ADJ	NNP	Degree=Pos	9	mod	_	end_char=593|start_char=590
+9	York	York	PROPN	NNP	Number=Sing	7	comp:obj	_	end_char=598|start_char=594
+10	every	every	DET	DT	PronType=Tot	11	det	_	end_char=604|start_char=599
+11	weekend	weekend	NOUN	NN	Number=Sing	5	udep@unmarked	_	end_char=612|SpaceAfter=No|start_char=605
+12	.	.	PUNCT	.	_	2	punct	_	end_char=613|SpaceAfter=No|start_char=612
+

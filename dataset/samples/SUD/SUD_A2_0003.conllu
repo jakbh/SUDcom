@@ -1,0 +1,311 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# text = Southwestern University Candidate's surname: Martella Candidate's first name: Javier Student number: 15604088-B Academic year: 2019–2020 Course: English Basics 2 Term: 3 (final) Mark breakdown Skills/Area Maximum mark Pass mark Mark obtained Pass/Fail Reading 20 10 15 P Listening 20 10 8 F Writing 20 10 14 P Speaking 20 10 17 P Grammar/Vocabulary 20 10 11 P TOTAL 65 P Comments
+# sent_id = 0
+1	Southwestern	Southwestern	PROPN	NNP	Number=Sing	3	compound	_	end_char=12|start_char=0
+2	University	University	PROPN	NNP	Number=Sing	3	compound	_	end_char=23|SpacesAfter=\n|start_char=13
+3-4	Candidate's	_	_	_	_	_	_	_	end_char=35|start_char=24
+3	Candidate	Candidate	PROPN	NNP	Number=Sing	4	comp:obj	_	end_char=33|start_char=24
+4	's	's	PART	POS	_	5	udep@poss	_	end_char=35|start_char=33
+5	surname	surname	NOUN	NN	Number=Sing	0	root	_	end_char=43|SpaceAfter=No|start_char=36
+6	:	:	PUNCT	:	_	11	punct	_	end_char=44|start_char=43
+7	Martella	Martella	PROPN	NNP	Number=Sing	9	comp:obj	_	end_char=53|SpacesAfter=\n|start_char=45
+8-9	Candidate's	_	_	_	_	_	_	_	end_char=65|start_char=54
+8	Candidate	Candidate	PROPN	NNP	Number=Sing	7	flat	_	end_char=63|start_char=54
+9	's	's	PART	POS	_	11	udep@poss	_	end_char=65|start_char=63
+10	first	first	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	11	mod	_	end_char=71|start_char=66
+11	name	name	NOUN	NN	Number=Sing	5	conj:appos	_	end_char=76|SpaceAfter=No|start_char=72
+12	:	:	PUNCT	:	_	13	punct	_	end_char=77|start_char=76
+13	Javier	Javier	PROPN	NNP	Number=Sing	11	conj:appos	_	end_char=84|SpacesAfter=\n|start_char=78
+14	Student	Student	PROPN	NNP	Number=Sing	13	flat	_	end_char=92|start_char=85
+15	number	number	NOUN	NN	Number=Sing	11	conj:appos	_	end_char=99|SpaceAfter=No|start_char=93
+16	:	:	PUNCT	:	_	17	punct	_	end_char=100|start_char=99
+17	15604088	15604088	NUM	CD	NumForm=Digit|NumType=Card	13	mod@unmarked	_	end_char=109|SpaceAfter=No|start_char=101
+18	-B	-B	NOUN	NN	Number=Sing	11	conj:appos	_	end_char=111|SpacesAfter=\n|start_char=109
+19	Academic	Academic	ADJ	JJ	Degree=Pos	20	mod	_	end_char=120|start_char=112
+20	year	year	NOUN	NN	Number=Sing	13	mod@unmarked	_	end_char=125|SpaceAfter=No|start_char=121
+21	:	:	PUNCT	:	_	22	punct	_	end_char=126|start_char=125
+22	2019	2019	NUM	CD	NumForm=Digit|NumType=Card	25	mod	_	end_char=131|SpaceAfter=No|start_char=127
+23	–	-	SYM	SYM	_	22	udep	_	end_char=132|SpaceAfter=No|start_char=131
+24	2020	2020	NUM	CD	NumForm=Digit|NumType=Card	23	comp:obj	_	end_char=136|SpacesAfter=\n|start_char=132
+25	Course	course	PROPN	NNP	Number=Sing	5	list	_	end_char=143|SpaceAfter=No|start_char=137
+26	:	:	PUNCT	:	Shared=Yes	28	punct	_	end_char=144|start_char=143
+27	English	English	ADJ	JJ	Degree=Pos	28	mod	_	end_char=152|start_char=145
+28	Basics	Basics	PROPN	NNP	Number=Sing	5	list	_	end_char=159|start_char=153
+29	2	2	NUM	CD	NumForm=Digit|NumType=Card	30	mod	_	end_char=161|SpacesAfter=\n|start_char=160
+30	Term	term	NOUN	NN	Number=Sing	28	mod@unmarked	_	end_char=166|SpaceAfter=No|start_char=162
+31	:	:	PUNCT	:	Shared=Yes	38	punct	_	end_char=167|start_char=166
+32	3	3	NUM	CD	NumForm=Digit|NumType=Card	28	unk	_	end_char=169|start_char=168
+33	(	(	PUNCT	-LRB-	_	34	punct	_	end_char=171|SpaceAfter=No|start_char=170
+34	final	final	ADJ	JJ	Degree=Pos	32	conj:coord	_	end_char=176|SpaceAfter=No|start_char=171
+35	)	)	PUNCT	-RRB-	Shared=No	34	punct	_	end_char=177|SpacesAfter=\n|start_char=176
+36	Mark	mark	NOUN	NN	Number=Sing|Shared=No	38	compound	_	end_char=182|start_char=178
+37	breakdown	breakdown	NOUN	NN	Number=Sing|Shared=No	38	compound	_	end_char=192|SpacesAfter=\n|start_char=183
+38	Skills	skill	NOUN	NNS	Number=Plur	28	conj:coord	_	end_char=199|SpaceAfter=No|start_char=193
+39	/	/	SYM	,	_	40	cc	_	end_char=200|SpaceAfter=No|start_char=199
+40	Area	area	NOUN	NN	Number=Sing	44	compound	_	end_char=204|SpacesAfter=\t|start_char=200
+41	Maximum	maximum	ADJ	JJ	Degree=Pos	44	mod	_	end_char=212|start_char=205
+42	mark	mark	NOUN	NN	Number=Sing	44	compound	_	end_char=217|SpacesAfter=\t|start_char=213
+43	Pass	pass	NOUN	NN	Number=Sing	44	compound	_	end_char=222|start_char=218
+44	mark	mark	NOUN	NN	Number=Sing	38	conj:coord@emb	_	end_char=227|SpacesAfter=\t|start_char=223
+45	Mark	Mark	PROPN	NNP	Number=Sing|Shared=No	44	conj:appos	_	end_char=232|start_char=228
+46	obtained	obtain	VERB	VBN	Shared=No|Tense=Past|VerbForm=Part|Voice=Pass	44	mod	_	end_char=241|SpacesAfter=\t|start_char=233
+47	Pass	pass	NOUN	NN	Number=Sing	50	compound	_	end_char=246|SpaceAfter=No|start_char=242
+48	/	/	SYM	,	_	50	cc	_	end_char=247|SpaceAfter=No|start_char=246
+49	Fail	fail	NOUN	NN	Number=Sing	50	compound	_	end_char=251|SpacesAfter=\n|start_char=247
+50	Reading	reading	NOUN	NN	Number=Sing	46	comp:obj	_	end_char=259|SpacesAfter=\t|start_char=252
+51	20	20	NUM	CD	NumForm=Digit|NumType=Card	50	mod	_	end_char=262|SpacesAfter=\t|start_char=260
+52	10	10	NUM	CD	NumForm=Digit|NumType=Card	50	mod	_	end_char=265|SpacesAfter=\t|start_char=263
+53	15	15	NUM	CD	NumForm=Digit|NumType=Card	54	mod	_	end_char=268|SpacesAfter=\t|start_char=266
+54	P	P	NOUN	NN	Number=Sing	55	compound	_	end_char=270|SpacesAfter=\n|start_char=269
+55	Listening	listen	NOUN	NN	Number=Sing	50	conj:appos	_	end_char=280|SpacesAfter=\t|start_char=271
+56	20	20	NUM	CD	NumForm=Digit|NumType=Card	55	mod	_	end_char=283|SpacesAfter=\t|start_char=281
+57	10	10	NUM	CD	NumForm=Digit|NumType=Card	55	mod	_	end_char=286|SpacesAfter=\t|start_char=284
+58	8	8	NUM	CD	NumForm=Digit|NumType=Card	59	mod	_	end_char=288|SpacesAfter=\t|start_char=287
+59	F	F	PROPN	NNP	Number=Sing	55	conj:appos	_	end_char=290|SpacesAfter=\n|start_char=289
+60	Writing	write	NOUN	NN	Number=Sing	59	conj:appos	_	end_char=298|SpacesAfter=\t|start_char=291
+61	20	20	NUM	CD	NumForm=Digit|NumType=Card	60	mod	_	end_char=301|SpacesAfter=\t|start_char=299
+62	10	10	NUM	CD	NumForm=Digit|NumType=Card	60	mod	_	end_char=304|SpacesAfter=\t|start_char=302
+63	14	14	NUM	CD	NumForm=Digit|NumType=Card	64	mod	_	end_char=307|SpacesAfter=\t|start_char=305
+64	P	P	NOUN	NN	Number=Sing	65	compound	_	end_char=309|SpacesAfter=\n|start_char=308
+65	Speaking	speak	NOUN	NN	Number=Sing	60	conj:appos	_	end_char=318|SpacesAfter=\t|start_char=310
+66	20	20	NUM	CD	NumForm=Digit|NumType=Card	65	mod	_	end_char=321|SpacesAfter=\t|start_char=319
+67	10	10	NUM	CD	NumForm=Digit|NumType=Card	65	mod	_	end_char=324|SpacesAfter=\t|start_char=322
+68	17	17	NUM	CD	NumForm=Digit|NumType=Card	70	mod	_	end_char=327|SpacesAfter=\t|start_char=325
+69	P	P	NOUN	NN	Number=Sing|Shared=No	70	compound	_	end_char=329|SpacesAfter=\n|start_char=328
+70	Grammar	grammar	NOUN	NN	Number=Sing	65	conj:appos	_	end_char=337|SpaceAfter=No|start_char=330
+71	/	/	SYM	,	_	72	cc	_	end_char=338|SpaceAfter=No|start_char=337
+72	Vocabulary	Vocabulary	PROPN	NNP	Number=Sing	70	conj:coord	_	end_char=348|SpacesAfter=\t|start_char=338
+73	20	20	NUM	CD	NumForm=Digit|NumType=Card|Shared=No	72	mod	_	end_char=351|SpacesAfter=\t|start_char=349
+74	10	10	NUM	CD	NumForm=Digit|NumType=Card|Shared=No	72	mod	_	end_char=354|SpacesAfter=\t|start_char=352
+75	11	11	NUM	CD	NumForm=Digit|NumType=Card	76	mod	_	end_char=357|SpacesAfter=\t|start_char=355
+76	P	P	NOUN	NN	Number=Sing|Shared=Yes	72	conj:appos	_	end_char=359|SpacesAfter=\n|start_char=358
+77	TOTAL	total	ADJ	JJ	Degree=Pos	76	mod	_	end_char=365|SpacesAfter=\t\s\t\s\t|start_char=360
+78	65	65	NUM	CD	NumForm=Digit|NumType=Card	76	mod	_	end_char=372|SpacesAfter=\t|start_char=370
+79	P	P	NOUN	NN	Number=Sing	80	compound	_	end_char=374|SpacesAfter=\n|start_char=373
+80	Comments	comment	NOUN	NNS	Number=Plur|Shared=Yes	72	conj:appos	_	end_char=383|SpacesAfter=\n|start_char=375
+
+# text = Well done, Javier, on all your hard work this term.
+# sent_id = 1
+1	Well	well	INTJ	UH	_	2	discourse	_	end_char=388|start_char=384
+2	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	end_char=393|SpaceAfter=No|start_char=389
+3	,	,	PUNCT	,	_	4	punct	_	end_char=394|start_char=393
+4	Javier	Javier	PROPN	NNP	Number=Sing	2	vocative	_	end_char=401|SpaceAfter=No|start_char=395
+5	,	,	PUNCT	,	_	6	punct	_	end_char=402|start_char=401
+6	on	on	ADP	IN	_	2	udep	_	end_char=405|start_char=403
+7	all	all	DET	PDT	PronType=Tot	10	det@predet	_	end_char=409|start_char=406
+8	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	10	mod@poss	_	end_char=414|start_char=410
+9	hard	hard	ADJ	JJ	Degree=Pos	10	mod	_	end_char=419|start_char=415
+10	work	work	NOUN	NN	Number=Sing	6	comp:obj	_	end_char=424|start_char=420
+11	this	this	DET	DT	Number=Sing|PronType=Dem	12	det	_	end_char=429|start_char=425
+12	term	term	NOUN	NN	Number=Sing	10	mod@unmarked	_	end_char=434|SpaceAfter=No|start_char=430
+13	.	.	PUNCT	.	_	2	punct	_	end_char=435|start_char=434
+
+# text = You are always active in speaking activities, and this is great.
+# sent_id = 2
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs|Shared=No	2	subj	_	end_char=439|start_char=436
+2	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	end_char=443|start_char=440
+3	always	always	ADV	RB	PronType=Tot	2	mod	_	end_char=450|start_char=444
+4	active	active	ADJ	JJ	Degree=Pos	2	comp:pred	_	end_char=457|start_char=451
+5	in	in	ADP	IN	_	4	udep	_	end_char=460|start_char=458
+6	speaking	speak	VERB	VBG	Tense=Pres|VerbForm=Part	7	mod	_	end_char=469|start_char=461
+7	activities	activity	NOUN	NNS	Number=Plur	5	comp:obj	_	end_char=480|SpaceAfter=No|start_char=470
+8	,	,	PUNCT	,	_	11	punct	_	end_char=481|start_char=480
+9	and	and	CCONJ	CC	_	11	cc	_	end_char=485|start_char=482
+10	this	this	PRON	DT	Number=Sing|PronType=Dem	11	subj	_	end_char=490|start_char=486
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj:coord	_	end_char=493|start_char=491
+12	great	great	ADJ	JJ	Degree=Pos|Shared=No	11	comp:pred	_	end_char=499|SpaceAfter=No|start_char=494
+13	.	.	PUNCT	.	_	2	punct	_	end_char=500|start_char=499
+
+# text = I always enjoy reading your writing too; you have very good ideas.
+# sent_id = 3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	end_char=502|start_char=501
+2	always	always	ADV	RB	PronType=Tot	3	mod	_	end_char=509|start_char=503
+3	enjoy	enjoy	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	end_char=515|start_char=510
+4	reading	read	VERB	VBG	VerbForm=Ger	3	comp:obj	_	end_char=523|start_char=516|Subject=SubjRaising
+5	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	6	mod@poss	_	end_char=528|start_char=524
+6	writing	writing	NOUN	NN	Number=Sing	4	comp:obj	_	end_char=536|start_char=529
+7	too	too	ADV	RB	_	4	mod	_	end_char=540|SpaceAfter=No|start_char=537
+8	;	;	PUNCT	,	_	10	punct	_	end_char=541|start_char=540
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	subj	_	end_char=545|start_char=542
+10	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	parataxis	_	end_char=550|start_char=546
+11	very	very	ADV	RB	_	12	mod	_	end_char=555|start_char=551
+12	good	good	ADJ	JJ	Degree=Pos	13	mod	_	end_char=560|start_char=556
+13	ideas	idea	NOUN	NNS	Number=Plur	10	comp:obj	_	end_char=566|SpaceAfter=No|start_char=561
+14	.	.	PUNCT	.	_	3	punct	_	end_char=567|start_char=566
+
+# text = You can see from your marks that reading is not a problem for you.
+# sent_id = 4
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	subj	_	end_char=571|start_char=568
+2	can	can	AUX	MD	VerbForm=Fin	0	root	_	end_char=575|start_char=572
+3	see	see	VERB	VB	VerbForm=Inf	2	comp:aux	_	end_char=579|start_char=576
+4	from	from	ADP	IN	_	3	udep	_	end_char=584|start_char=580
+5	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	6	mod@poss	_	end_char=589|start_char=585
+6	marks	mark	NOUN	NNS	Number=Plur	4	comp:obj	_	end_char=595|start_char=590
+7	that	that	SCONJ	IN	_	3	comp:obj	_	end_char=600|start_char=596
+8	reading	reading	NOUN	NN	Number=Sing	9	subj	_	end_char=608|start_char=601
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	comp:obj	_	end_char=611|start_char=609
+10	not	not	PART	RB	Polarity=Neg	9	mod	_	end_char=615|start_char=612
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	end_char=617|start_char=616
+12	problem	problem	NOUN	NN	Number=Sing	9	comp:pred	_	end_char=625|start_char=618
+13	for	for	ADP	IN	_	12	udep	_	end_char=629|start_char=626
+14	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	13	comp:obj	_	end_char=633|SpaceAfter=No|start_char=630
+15	.	.	PUNCT	.	_	2	punct	_	end_char=634|SpacesAfter=\n|start_char=633
+
+# text = Sometimes you still make small grammar mistakes, and I think you can improve your vocabulary.
+# sent_id = 5
+1	Sometimes	sometimes	ADV	RB	_	4	mod	_	end_char=644|start_char=635
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs|Shared=No	4	subj	_	end_char=648|start_char=645
+3	still	still	ADV	RB	Shared=No	4	mod	_	end_char=654|start_char=649
+4	make	make	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	end_char=659|start_char=655
+5	small	small	ADJ	JJ	Degree=Pos	7	mod	_	end_char=665|start_char=660
+6	grammar	grammar	NOUN	NN	Number=Sing	7	compound	_	end_char=673|start_char=666
+7	mistakes	mistake	NOUN	NNS	Number=Plur	4	comp:obj	_	end_char=682|SpaceAfter=No|start_char=674
+8	,	,	PUNCT	,	_	11	punct	_	end_char=683|start_char=682
+9	and	and	CCONJ	CC	_	11	cc	_	end_char=687|start_char=684
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	subj	_	end_char=689|start_char=688
+11	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj:coord	_	end_char=695|start_char=690
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	subj	_	end_char=699|start_char=696
+13	can	can	AUX	MD	Shared=No|VerbForm=Fin	11	comp:obj	_	end_char=703|start_char=700
+14	improve	improve	VERB	VB	VerbForm=Inf	13	comp:aux	_	end_char=711|start_char=704
+15	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	16	mod@poss	_	end_char=716|start_char=712
+16	vocabulary	vocabulary	NOUN	NN	Number=Sing	14	comp:obj	_	end_char=727|SpaceAfter=No|start_char=717
+17	.	.	PUNCT	.	_	4	punct	_	end_char=728|start_char=727
+
+# text = I recommend you review many of the language points we studied this term.
+# sent_id = 6
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	end_char=730|start_char=729
+2	recommend	recommend	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	end_char=740|start_char=731
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	subj	_	end_char=744|start_char=741
+4	review	review	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	comp:obj	_	end_char=751|start_char=745
+5	many	many	ADJ	JJ	Degree=Pos	4	comp:obj	_	end_char=756|start_char=752
+6	of	of	ADP	IN	_	5	udep	_	end_char=759|start_char=757
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	end_char=763|start_char=760
+8	language	language	NOUN	NN	Number=Sing	9	compound	_	end_char=772|start_char=764
+9	points	point	NOUN	NNS	Number=Plur	6	comp:obj	_	end_char=779|start_char=773
+10	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	subj	_	end_char=782|start_char=780
+11	studied	study	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	9	mod@relcl	_	end_char=790|start_char=783
+12	this	this	DET	DT	Number=Sing|PronType=Dem	13	det	_	end_char=795|start_char=791
+13	term	term	NOUN	NN	Number=Sing	11	udep@unmarked	_	end_char=800|SpaceAfter=No|start_char=796
+14	.	.	PUNCT	.	_	2	punct	_	end_char=801|start_char=800
+
+# text = There is extra language practice in your online workbook.
+# sent_id = 7
+1	There	there	PRON	EX	_	2	comp@expl	_	end_char=807|start_char=802
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=810|start_char=808
+3	extra	extra	ADJ	JJ	Degree=Pos	5	mod	_	end_char=816|start_char=811
+4	language	language	NOUN	NN	Number=Sing	5	compound	_	end_char=825|start_char=817
+5	practice	practice	NOUN	NN	Number=Sing	2	subj	_	end_char=834|start_char=826
+6	in	in	ADP	IN	_	5	udep	_	end_char=837|start_char=835
+7	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	9	mod@poss	_	end_char=842|start_char=838
+8	online	online	ADJ	JJ	Degree=Pos	9	mod	_	end_char=849|start_char=843
+9	workbook	workbook	NOUN	NN	Number=Sing	6	comp:obj	_	end_char=858|SpaceAfter=No|start_char=850
+10	.	.	PUNCT	.	_	2	punct	_	end_char=859|SpacesAfter=\n|start_char=858
+
+# text = The area you need to work on the most is listening.
+# sent_id = 8
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	end_char=863|start_char=860
+2	area	area	NOUN	NN	Number=Sing	10	subj	_	end_char=868|start_char=864
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	subj	_	end_char=872|start_char=869
+4	need	need	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	mod@relcl	_	end_char=877|start_char=873
+5	to	to	PART	TO	_	4	comp:obl	_	end_char=880|start_char=878
+6	work	work	VERB	VB	VerbForm=Inf	5	comp:obj	_	end_char=885|start_char=881|Subject=SubjRaising
+7	on	on	ADP	IN	_	6	udep	_	end_char=888|start_char=886
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	end_char=892|start_char=889
+9	most	most	ADJ	JJS	Degree=Sup	6	udep	_	end_char=897|start_char=893
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=900|start_char=898
+11	listening	listen	VERB	VBG	Tense=Pres|VerbForm=Part	10	comp:aux	_	end_char=910|SpaceAfter=No|start_char=901
+12	.	.	PUNCT	.	_	10	punct	_	end_char=911|start_char=910
+
+# text = I know this is difficult for you.
+# sent_id = 9
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	end_char=913|start_char=912
+2	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	end_char=918|start_char=914
+3	this	this	PRON	DT	Number=Sing|PronType=Dem	4	subj	_	end_char=923|start_char=919
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj	_	end_char=926|start_char=924
+5	difficult	difficult	ADJ	JJ	Degree=Pos	4	comp:pred	_	end_char=936|start_char=927
+6	for	for	ADP	IN	_	5	udep	_	end_char=940|start_char=937
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	6	comp:obj	_	end_char=944|SpaceAfter=No|start_char=941
+8	.	.	PUNCT	.	_	2	punct	_	end_char=945|start_char=944
+
+# text = I recommend more practice at home.
+# sent_id = 10
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	end_char=947|start_char=946
+2	recommend	recommend	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	end_char=957|start_char=948
+3	more	more	ADJ	JJR	Degree=Cmp	4	mod	_	end_char=962|start_char=958
+4	practice	practice	NOUN	NN	Number=Sing	2	comp:obj	_	end_char=971|start_char=963
+5	at	at	ADP	IN	_	2	udep	_	end_char=974|start_char=972
+6	home	home	NOUN	NN	Number=Sing	5	comp:obj	_	end_char=979|SpaceAfter=No|start_char=975
+7	.	.	PUNCT	.	_	2	punct	_	end_char=980|start_char=979
+
+# text = Listen to English TV shows, podcasts and radio as much as possible.
+# sent_id = 11
+1	Listen	listen	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	end_char=987|start_char=981
+2	to	to	ADP	IN	_	1	udep	_	end_char=990|start_char=988
+3	English	English	ADJ	JJ	Degree=Pos	5	mod	_	end_char=998|start_char=991
+4	TV	TV	NOUN	NN	Number=Sing|Shared=No	5	compound	_	end_char=1001|start_char=999
+5	shows	show	NOUN	NNS	Number=Plur	2	comp:obj	_	end_char=1007|SpaceAfter=No|start_char=1002
+6	,	,	PUNCT	,	_	7	punct	_	end_char=1008|start_char=1007
+7	podcasts	podcast	NOUN	NNS	Number=Plur	5	conj:coord	_	end_char=1017|start_char=1009
+8	and	and	CCONJ	CC	_	9	cc	_	end_char=1021|start_char=1018
+9	radio	radio	NOUN	NN	Number=Sing	7	conj:coord	_	end_char=1027|start_char=1022
+10	as	as	ADV	RB	_	11	mod	_	end_char=1030|start_char=1028
+11	much	much	ADV	RB	Degree=Pos	1	mod	_	end_char=1035|start_char=1031
+12	as	as	SCONJ	IN	_	11	mod	_	end_char=1038|start_char=1036
+13	possible	possible	ADJ	JJ	Degree=Pos	12	comp:obj	_	end_char=1047|SpaceAfter=No|start_char=1039
+14	.	.	PUNCT	.	_	1	punct	_	end_char=1048|start_char=1047
+
+# text = I can give you a list of things to listen to.
+# sent_id = 12
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	end_char=1050|start_char=1049
+2	can	can	AUX	MD	VerbForm=Fin	0	root	_	end_char=1054|start_char=1051
+3	give	give	VERB	VB	VerbForm=Inf	2	comp:aux	_	end_char=1059|start_char=1055
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	comp:obl	_	end_char=1063|start_char=1060
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	end_char=1065|start_char=1064
+6	list	list	NOUN	NN	Number=Sing	3	comp:obj	_	end_char=1070|start_char=1066
+7	of	of	ADP	IN	_	6	udep	_	end_char=1073|start_char=1071
+8	things	thing	NOUN	NNS	Number=Plur	7	comp:obj	_	end_char=1080|start_char=1074
+9	to	to	PART	TO	_	8	udep	_	end_char=1083|start_char=1081
+10	listen	listen	VERB	VB	VerbForm=Inf	9	comp:obj	_	end_char=1090|start_char=1084
+11	to	to	ADP	IN	_	10	udep	_	end_char=1093|SpaceAfter=No|start_char=1091
+12	.	.	PUNCT	.	_	2	punct	_	end_char=1094|SpacesAfter=\n|start_char=1093
+
+# text = I've enjoyed working with you.
+# sent_id = 13
+1-2	I've	_	_	_	_	_	_	_	end_char=1099|start_char=1095
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	end_char=1096|start_char=1095
+2	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	end_char=1099|start_char=1096
+3	enjoyed	enjoy	VERB	VBN	Tense=Past|VerbForm=Part	2	comp:aux	_	end_char=1107|start_char=1100
+4	working	work	VERB	VBG	VerbForm=Ger	3	comp:obj	_	end_char=1115|start_char=1108|Subject=SubjRaising
+5	with	with	ADP	IN	_	4	udep	_	end_char=1120|start_char=1116
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	comp:obj	_	end_char=1124|SpaceAfter=No|start_char=1121
+7	.	.	PUNCT	.	_	2	punct	_	end_char=1125|start_char=1124
+
+# text = Have a nice holiday, and good luck for next term!
+# sent_id = 14
+1	Have	have	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	end_char=1130|start_char=1126
+2	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	end_char=1132|start_char=1131
+3	nice	nice	ADJ	JJ	Degree=Pos	4	mod	_	end_char=1137|start_char=1133
+4	holiday	holiday	NOUN	NN	Number=Sing	1	comp:obj	_	end_char=1145|SpaceAfter=No|start_char=1138
+5	,	,	PUNCT	,	_	8	punct	_	end_char=1146|start_char=1145
+6	and	and	CCONJ	CC	_	8	cc	_	end_char=1150|start_char=1147
+7	good	good	ADJ	JJ	Degree=Pos	8	mod	_	end_char=1155|start_char=1151
+8	luck	luck	NOUN	NN	Number=Sing	4	conj:coord	_	end_char=1160|start_char=1156
+9	for	for	ADP	IN	Shared=No	8	udep	_	end_char=1164|start_char=1161
+10	next	next	ADJ	JJ	Degree=Pos	11	mod	_	end_char=1169|start_char=1165
+11	term	term	NOUN	NN	Number=Sing	9	comp:obj	_	end_char=1174|SpaceAfter=No|start_char=1170
+12	!	!	PUNCT	.	_	1	punct	_	end_char=1175|SpacesAfter=\n|start_char=1174
+
+# text = Instructor's name: Erin Gibbs Signed: Erin Gibbs
+# sent_id = 15
+1-2	Instructor's	_	_	_	_	_	_	_	end_char=1188|start_char=1176
+1	Instructor	instructor	NOUN	NN	Number=Sing	2	comp:obj	_	end_char=1186|start_char=1176
+2	's	's	PART	POS	_	3	udep@poss	_	end_char=1188|start_char=1186
+3	name	name	NOUN	NN	Number=Sing	0	root	_	end_char=1193|SpaceAfter=No|start_char=1189
+4	:	:	PUNCT	:	_	5	punct	_	end_char=1194|start_char=1193
+5	Erin	Erin	PROPN	NNP	Number=Sing	3	conj:appos	_	end_char=1199|start_char=1195
+6	Gibbs	Gibbs	PROPN	NNP	Number=Sing	5	flat	_	end_char=1205|SpacesAfter=\n|start_char=1200
+7	Signed	sign	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	mod	_	end_char=1212|SpaceAfter=No|start_char=1206
+8	:	:	PUNCT	:	_	9	punct	_	end_char=1213|start_char=1212
+9	Erin	Erin	PROPN	NNP	Number=Sing	5	list	_	end_char=1218|start_char=1214
+10	Gibbs	Gibbs	PROPN	NNP	Number=Sing	9	flat	_	end_char=1224|SpaceAfter=No|start_char=1219
+

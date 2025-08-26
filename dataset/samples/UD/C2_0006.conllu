@@ -1,0 +1,489 @@
+# text = After receiving nearly 100 reports of stuck gas pedals in Ford and Mazda vehicles, federal regulators said Tuesday they have launched an investigation into the problem, which is a suspected cause of one death and nine injuries.
+# sent_id = 0
+1	After	after	SCONJ	IN	_	2	mark	_	start_char=0|end_char=5
+2	receiving	receive	VERB	VBG	Tense=Pres|VerbForm=Part	18	advcl	_	start_char=6|end_char=15
+3	nearly	nearly	ADV	RB	_	4	advmod	_	start_char=16|end_char=22
+4	100	100	NUM	CD	NumForm=Digit|NumType=Card	5	nummod	_	start_char=23|end_char=26
+5	reports	report	NOUN	NNS	Number=Plur	2	obj	_	start_char=27|end_char=34
+6	of	of	ADP	IN	_	9	case	_	start_char=35|end_char=37
+7	stuck	stick	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	start_char=38|end_char=43
+8	gas	gas	NOUN	NN	Number=Sing	9	compound	_	start_char=44|end_char=47
+9	pedals	pedal	NOUN	NNS	Number=Plur	5	nmod	_	start_char=48|end_char=54
+10	in	in	ADP	IN	_	14	case	_	start_char=55|end_char=57
+11	Ford	Ford	PROPN	NNP	Number=Sing	14	compound	_	start_char=58|end_char=62
+12	and	and	CCONJ	CC	_	13	cc	_	start_char=63|end_char=66
+13	Mazda	Mazda	PROPN	NNP	Number=Sing	11	conj	_	start_char=67|end_char=72
+14	vehicles	vehicle	NOUN	NNS	Number=Plur	9	nmod	_	start_char=73|end_char=81|SpaceAfter=No
+15	,	,	PUNCT	,	_	2	punct	_	start_char=81|end_char=82
+16	federal	federal	ADJ	JJ	Degree=Pos	17	amod	_	start_char=83|end_char=90
+17	regulators	regulator	NOUN	NNS	Number=Plur	18	nsubj	_	start_char=91|end_char=101
+18	said	say	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=102|end_char=106
+19	Tuesday	Tuesday	PROPN	NNP	Number=Sing	18	obl:unmarked	_	start_char=107|end_char=114
+20	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	22	nsubj	_	start_char=115|end_char=119
+21	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	start_char=120|end_char=124
+22	launched	launch	VERB	VBN	Tense=Past|VerbForm=Part	18	ccomp	_	start_char=125|end_char=133
+23	an	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	start_char=134|end_char=136
+24	investigation	investigation	NOUN	NN	Number=Sing	22	obj	_	start_char=137|end_char=150
+25	into	into	ADP	IN	_	27	case	_	start_char=151|end_char=155
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	start_char=156|end_char=159
+27	problem	problem	NOUN	NN	Number=Sing	24	nmod	_	start_char=160|end_char=167|SpaceAfter=No
+28	,	,	PUNCT	,	_	33	punct	_	start_char=167|end_char=168
+29	which	which	PRON	WDT	PronType=Rel	33	nsubj	_	start_char=169|end_char=174
+30	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	cop	_	start_char=175|end_char=177
+31	a	a	DET	DT	Definite=Ind|PronType=Art	33	det	_	start_char=178|end_char=179
+32	suspected	suspect	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	33	amod	_	start_char=180|end_char=189
+33	cause	cause	NOUN	NN	Number=Sing	24	acl:relcl	_	start_char=190|end_char=195
+34	of	of	ADP	IN	_	36	case	_	start_char=196|end_char=198
+35	one	one	NUM	CD	NumForm=Word|NumType=Card	36	nummod	_	start_char=199|end_char=202
+36	death	death	NOUN	NN	Number=Sing	33	nmod	_	start_char=203|end_char=208
+37	and	and	CCONJ	CC	_	39	cc	_	start_char=209|end_char=212
+38	nine	nine	NUM	CD	NumForm=Word|NumType=Card	39	nummod	_	start_char=213|end_char=217
+39	injuries	injury	NOUN	NNS	Number=Plur	36	conj	_	start_char=218|end_char=226|SpaceAfter=No
+40	.	.	PUNCT	.	_	18	punct	_	start_char=226|end_char=227|SpacesAfter=\n
+
+# text = The stuck accelerators are being investigated for their possible role in one fatal accident, 13 nonfatal crashes or fires and eight injury accidents, according to the National Highway Transportation Safety Administration.
+# sent_id = 1
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=228|end_char=231
+2	stuck	stuck	ADJ	JJ	Degree=Pos	3	amod	_	start_char=232|end_char=237
+3	accelerators	accelerator	NOUN	NNS	Number=Plur	6	nsubj:pass	_	start_char=238|end_char=250
+4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=251|end_char=254
+5	being	be	AUX	VBG	Tense=Pres|VerbForm=Part	6	aux:pass	_	start_char=255|end_char=260
+6	investigated	investigate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=261|end_char=273
+7	for	for	ADP	IN	_	10	case	_	start_char=274|end_char=277
+8	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	start_char=278|end_char=283
+9	possible	possible	ADJ	JJ	Degree=Pos	10	amod	_	start_char=284|end_char=292
+10	role	role	NOUN	NN	Number=Sing	6	obl	_	start_char=293|end_char=297
+11	in	in	ADP	IN	_	14	case	_	start_char=298|end_char=300
+12	one	one	NUM	CD	NumForm=Word|NumType=Card	14	nummod	_	start_char=301|end_char=304
+13	fatal	fatal	ADJ	JJ	Degree=Pos	14	amod	_	start_char=305|end_char=310
+14	accident	accident	NOUN	NN	Number=Sing	10	nmod	_	start_char=311|end_char=319|SpaceAfter=No
+15	,	,	PUNCT	,	_	18	punct	_	start_char=319|end_char=320
+16	13	13	NUM	CD	NumForm=Digit|NumType=Card	18	nummod	_	start_char=321|end_char=323
+17	nonfatal	nonfatal	ADJ	JJ	Degree=Pos	18	amod	_	start_char=324|end_char=332
+18	crashes	crash	NOUN	NNS	Number=Plur	14	conj	_	start_char=333|end_char=340
+19	or	or	CCONJ	CC	_	20	cc	_	start_char=341|end_char=343
+20	fires	fire	NOUN	NNS	Number=Plur	18	conj	_	start_char=344|end_char=349
+21	and	and	CCONJ	CC	_	24	cc	_	start_char=350|end_char=353
+22	eight	eight	NUM	CD	NumForm=Word|NumType=Card	24	nummod	_	start_char=354|end_char=359
+23	injury	injury	NOUN	NN	Number=Sing	24	compound	_	start_char=360|end_char=366
+24	accidents	accident	NOUN	NNS	Number=Plur	14	conj	_	start_char=367|end_char=376|SpaceAfter=No
+25	,	,	PUNCT	,	_	33	punct	_	start_char=376|end_char=377
+26	according	accord	VERB	VBG	ExtPos=ADP|Tense=Pres|VerbForm=Part	33	case	_	start_char=378|end_char=387
+27	to	to	ADP	IN	_	26	fixed	_	start_char=388|end_char=390
+28	the	the	DET	DT	Definite=Def|PronType=Art	33	det	_	start_char=391|end_char=394
+29	National	National	ADJ	NNP	Degree=Pos	33	amod	_	start_char=395|end_char=403
+30	Highway	Highway	PROPN	NNP	Number=Sing	33	compound	_	start_char=404|end_char=411
+31	Transportation	Transportation	PROPN	NNP	Number=Sing	32	compound	_	start_char=412|end_char=426
+32	Safety	Safety	PROPN	NNP	Number=Sing	33	compound	_	start_char=427|end_char=433
+33	Administration	Administration	PROPN	NNP	Number=Sing	6	obl	_	start_char=434|end_char=448|SpaceAfter=No
+34	.	.	PUNCT	.	_	6	punct	_	start_char=448|end_char=449|SpacesAfter=\n
+
+# text = Ford and Mazda said 591,245 vehicles were potentially affected, according to the automakersreports to the NHTSA in 2004.
+# sent_id = 2
+1	Ford	Ford	PROPN	NNP	Number=Sing	4	nsubj	_	start_char=450|end_char=454
+2	and	and	CCONJ	CC	_	3	cc	_	start_char=455|end_char=458
+3	Mazda	Mazda	PROPN	NNP	Number=Sing	1	conj	_	start_char=459|end_char=464
+4	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=465|end_char=469
+5	591,245	591,245	NUM	CD	NumForm=Digit|NumType=Card	6	nummod	_	start_char=470|end_char=477
+6	vehicles	vehicle	NOUN	NNS	Number=Plur	9	nsubj:pass	_	start_char=478|end_char=486
+7	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	aux:pass	_	start_char=487|end_char=491
+8	potentially	potentially	ADV	RB	_	9	advmod	_	start_char=492|end_char=503
+9	affected	affect	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	ccomp	_	start_char=504|end_char=512|SpaceAfter=No
+10	,	,	PUNCT	,	_	14	punct	_	start_char=512|end_char=513
+11	according	accord	VERB	VBG	ExtPos=ADP|Tense=Pres|VerbForm=Part	14	case	_	start_char=514|end_char=523
+12	to	to	ADP	IN	_	11	fixed	_	start_char=524|end_char=526
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	start_char=527|end_char=530
+14	automakersreports	automakersrepppors	NOUN	NNS	Number=Plur	9	obl	_	start_char=531|end_char=548
+15	to	to	ADP	IN	_	17	case	_	start_char=549|end_char=551
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	start_char=552|end_char=555
+17	NHTSA	NHTSA	PROPN	NNP	Number=Sing	14	nmod	_	start_char=556|end_char=561
+18	in	in	ADP	IN	_	19	case	_	start_char=562|end_char=564
+19	2004	2004	NUM	CD	NumForm=Digit|NumType=Card	9	obl	_	start_char=565|end_char=569|SpaceAfter=No
+20	.	.	PUNCT	.	_	4	punct	_	start_char=569|end_char=570
+
+# text = More than half the vehicles were 2001-2004 model year Ford Escapes.
+# sent_id = 3
+1	More	more	ADJ	JJR	Degree=Cmp|ExtPos=ADV	3	advmod	_	start_char=571|end_char=575
+2	than	than	ADP	IN	_	1	fixed	_	start_char=576|end_char=580
+3	half	half	DET	PDT	NumForm=Word|NumType=Frac|PronType=Ind	5	det:predet	_	start_char=581|end_char=585
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=586|end_char=589
+5	vehicles	vehicle	NOUN	NNS	Number=Plur	13	nsubj	_	start_char=590|end_char=598
+6	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	13	cop	_	start_char=599|end_char=603
+7	2001	2001	NUM	CD	NumForm=Digit|NumType=Card	13	nummod	_	start_char=604|end_char=608|SpaceAfter=No
+8	-	-	SYM	SYM	_	9	case	_	start_char=608|end_char=609|SpaceAfter=No
+9	2004	2004	NUM	CD	NumForm=Digit|NumType=Card	7	nmod	_	start_char=609|end_char=613
+10	model	model	NOUN	NN	Number=Sing	11	compound	_	start_char=614|end_char=619
+11	year	year	NOUN	NN	Number=Sing	13	compound	_	start_char=620|end_char=624
+12	Ford	Ford	PROPN	NNP	Number=Sing	13	compound	_	start_char=625|end_char=629
+13	Escapes	Escapes	PROPN	NNPS	Number=Plur	0	root	_	start_char=630|end_char=637|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	punct	_	start_char=637|end_char=638
+
+# text = The remaining vehicles were 2001-2004 Mazda Tributes.
+# sent_id = 4
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=639|end_char=642
+2	remaining	remain	VERB	VBG	VerbForm=Ger	3	amod	_	start_char=643|end_char=652
+3	vehicles	vehicle	NOUN	NNS	Number=Plur	9	nsubj	_	start_char=653|end_char=661
+4	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	start_char=662|end_char=666
+5	2001	2001	NUM	CD	NumForm=Digit|NumType=Card	9	nummod	_	start_char=667|end_char=671|SpaceAfter=No
+6	-	-	SYM	SYM	_	7	case	_	start_char=671|end_char=672|SpaceAfter=No
+7	2004	2004	NUM	CD	NumForm=Digit|NumType=Card	5	nmod	_	start_char=672|end_char=676
+8	Mazda	Mazda	PROPN	NNP	Number=Sing	9	compound	_	start_char=677|end_char=682
+9	Tributes	Tribute	PROPN	NNPS	Number=Plur	0	root	_	start_char=683|end_char=691|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	punct	_	start_char=691|end_char=692|SpacesAfter=\n
+
+# text = The NHTSA now has identified 730,000 vehicles potentially affected, expanding the scope of vehicles in question.
+# sent_id = 5
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=693|end_char=696
+2	NHTSA	NHTSA	PROPN	NNP	Number=Sing	5	nsubj	_	start_char=697|end_char=702
+3	now	now	ADV	RB	_	5	advmod	_	start_char=703|end_char=706
+4	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=707|end_char=710
+5	identified	identify	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=711|end_char=721
+6	730,000	730000	NUM	CD	NumForm=Digit|NumType=Card	7	nummod	_	start_char=722|end_char=729
+7	vehicles	vehicle	NOUN	NNS	Number=Plur	5	obj	_	start_char=730|end_char=738
+8	potentially	potentially	ADV	RB	_	9	advmod	_	start_char=739|end_char=750
+9	affected	affect	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	acl	_	start_char=751|end_char=759|SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	_	start_char=759|end_char=760
+11	expanding	expand	VERB	VBG	Tense=Pres|VerbForm=Part	5	advcl	_	start_char=761|end_char=770
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	start_char=771|end_char=774
+13	scope	scope	NOUN	NN	Number=Sing	11	obj	_	start_char=775|end_char=780
+14	of	of	ADP	IN	_	15	case	_	start_char=781|end_char=783
+15	vehicles	vehicle	NOUN	NNS	Number=Plur	13	nmod	_	start_char=784|end_char=792
+16	in	in	ADP	IN	_	17	case	_	start_char=793|end_char=795
+17	question	question	NOUN	NN	Number=Sing	15	nmod	_	start_char=796|end_char=804|SpaceAfter=No
+18	.	.	PUNCT	.	_	5	punct	_	start_char=804|end_char=805
+
+# text = All 730,000 are 2001-2004 Ford Escape and Mazda Tribute SUVs with V6 engines, according to the NHTSA.
+# sent_id = 6
+1	All	all	DET	DT	PronType=Tot	2	det	_	start_char=806|end_char=809
+2	730,000	730000	NUM	CD	NumForm=Digit|NumType=Card	8	nsubj	_	start_char=810|end_char=817
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=818|end_char=821
+4	2001	2001	NUM	CD	NumForm=Digit|NumType=Card	8	nummod	_	start_char=822|end_char=826|SpaceAfter=No
+5	-	-	SYM	SYM	_	6	case	_	start_char=826|end_char=827|SpaceAfter=No
+6	2004	2004	NUM	CD	NumForm=Digit|NumType=Card	4	nmod	_	start_char=827|end_char=831
+7	Ford	Ford	PROPN	NNP	Number=Sing	8	compound	_	start_char=832|end_char=836
+8	Escape	Escape	PROPN	NNP	Number=Sing	12	compound	_	start_char=837|end_char=843
+9	and	and	CCONJ	CC	_	12	cc	_	start_char=844|end_char=847
+10	Mazda	Mazda	PROPN	NNP	Number=Sing	11	compound	_	start_char=848|end_char=853
+11	Tribute	Tribute	PROPN	NNP	Number=Sing	12	compound	_	start_char=854|end_char=861
+12	SUVs	SUVs	PROPN	NNPS	Number=Plur	0	root	_	start_char=862|end_char=866
+13	with	with	ADP	IN	_	15	case	_	start_char=867|end_char=871
+14	V6	V6	PROPN	NNP	Number=Sing	15	compound	_	start_char=872|end_char=874
+15	engines	engine	NOUN	NNS	Number=Plur	12	nmod	_	start_char=875|end_char=882|SpaceAfter=No
+16	,	,	PUNCT	,	_	20	punct	_	start_char=882|end_char=883
+17	according	accord	VERB	VBG	ExtPos=ADP|Tense=Pres|VerbForm=Part	20	case	_	start_char=884|end_char=893
+18	to	to	ADP	IN	_	17	fixed	_	start_char=894|end_char=896
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	start_char=897|end_char=900
+20	NHTSA	NHTSA	PROPN	NNP	Number=Sing	12	nmod	_	start_char=901|end_char=906|SpaceAfter=No
+21	.	.	PUNCT	.	_	12	punct	_	start_char=906|end_char=907|SpacesAfter=\n
+
+# text = Mazda and Ford issued recalls in 2004 on models of the sport utility vehicles that had 3.0 liter six cylinder engines.
+# sent_id = 7
+1	Mazda	Mazda	PROPN	NNP	Number=Sing	4	nsubj	_	start_char=908|end_char=913
+2	and	and	CCONJ	CC	_	3	cc	_	start_char=914|end_char=917
+3	Ford	Ford	PROPN	NNP	Number=Sing	1	conj	_	start_char=918|end_char=922
+4	issued	issue	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=923|end_char=929
+5	recalls	recall	NOUN	NNS	Number=Plur	4	obj	_	start_char=930|end_char=937
+6	in	in	ADP	IN	_	7	case	_	start_char=938|end_char=940
+7	2004	2004	NUM	CD	NumForm=Digit|NumType=Card	4	obl	_	start_char=941|end_char=945
+8	on	on	ADP	IN	_	9	case	_	start_char=946|end_char=948
+9	models	model	NOUN	NNS	Number=Plur	4	obl	_	start_char=949|end_char=955
+10	of	of	ADP	IN	_	14	case	_	start_char=956|end_char=958
+11	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	start_char=959|end_char=962
+12	sport	sport	NOUN	NN	Number=Sing	14	compound	_	start_char=963|end_char=968
+13	utility	utility	NOUN	NN	Number=Sing	14	compound	_	start_char=969|end_char=976
+14	vehicles	vehicle	NOUN	NNS	Number=Plur	9	nmod	_	start_char=977|end_char=985
+15	that	that	PRON	WDT	PronType=Rel	16	nsubj	_	start_char=986|end_char=990
+16	had	have	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	14	acl:relcl	_	start_char=991|end_char=994
+17	3.0	3.0	NUM	CD	NumForm=Digit|NumType=Frac	18	nummod	_	start_char=995|end_char=998
+18	liter	liter	NOUN	NN	Number=Sing	19	compound	_	start_char=999|end_char=1004
+19	six	six	NUM	CD	NumForm=Word|NumType=Card	21	nummod	_	start_char=1005|end_char=1008
+20	cylinder	cylinder	NOUN	NN	Number=Sing	21	compound	_	start_char=1009|end_char=1017
+21	engines	engine	NOUN	NNS	Number=Plur	16	obj	_	start_char=1018|end_char=1025|SpaceAfter=No
+22	.	.	PUNCT	.	_	4	punct	_	start_char=1025|end_char=1026
+
+# text = Several of the reports to the NHTSA involve vehicles not covered by previous recalls, the agency said in a letter to Ford's Environmental and Safety Compliance Global Director on Thursday.
+# sent_id = 8
+1	Several	several	ADJ	JJ	Degree=Pos	8	nsubj	_	start_char=1027|end_char=1034
+2	of	of	ADP	IN	_	4	case	_	start_char=1035|end_char=1037
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=1038|end_char=1041
+4	reports	report	NOUN	NNS	Number=Plur	1	nmod	_	start_char=1042|end_char=1049
+5	to	to	ADP	IN	_	7	case	_	start_char=1050|end_char=1052
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=1053|end_char=1056
+7	NHTSA	NHTSA	PROPN	NNP	Number=Sing	4	nmod	_	start_char=1057|end_char=1062
+8	involve	involve	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	ccomp	_	start_char=1063|end_char=1070
+9	vehicles	vehicle	NOUN	NNS	Number=Plur	8	obj	_	start_char=1071|end_char=1079
+10	not	not	PART	RB	Polarity=Neg	11	advmod	_	start_char=1080|end_char=1083
+11	covered	cover	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	acl	_	start_char=1084|end_char=1091
+12	by	by	ADP	IN	_	14	case	_	start_char=1092|end_char=1094
+13	previous	previous	ADJ	JJ	Degree=Pos	14	amod	_	start_char=1095|end_char=1103
+14	recalls	recall	NOUN	NNS	Number=Plur	11	obl:agent	_	start_char=1104|end_char=1111|SpaceAfter=No
+15	,	,	PUNCT	,	_	8	punct	_	start_char=1111|end_char=1112
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	start_char=1113|end_char=1116
+17	agency	agency	NOUN	NN	Number=Sing	18	nsubj	_	start_char=1117|end_char=1123
+18	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=1124|end_char=1128
+19	in	in	ADP	IN	_	21	case	_	start_char=1129|end_char=1131
+20	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	start_char=1132|end_char=1133
+21	letter	letter	NOUN	NN	Number=Sing	18	obl	_	start_char=1134|end_char=1140
+22	to	to	ADP	IN	_	30	case	_	start_char=1141|end_char=1143
+23-24	Ford's	_	_	_	_	_	_	_	start_char=1144|end_char=1150
+23	Ford	Ford	PROPN	NNP	Number=Sing	30	nmod:poss	_	start_char=1144|end_char=1148
+24	's	's	PART	POS	_	23	case	_	start_char=1148|end_char=1150
+25	Environmental	Environmental	ADJ	NNP	Degree=Pos	30	amod	_	start_char=1151|end_char=1164
+26	and	and	CCONJ	CC	_	27	cc	_	start_char=1165|end_char=1168
+27	Safety	Safety	PROPN	NNP	Number=Sing	25	conj	_	start_char=1169|end_char=1175
+28	Compliance	Compliance	PROPN	NNP	Number=Sing	30	compound	_	start_char=1176|end_char=1186
+29	Global	Global	ADJ	NNP	Degree=Pos	30	amod	_	start_char=1187|end_char=1193
+30	Director	Director	PROPN	NNP	Number=Sing	21	nmod	_	start_char=1194|end_char=1202
+31	on	on	ADP	IN	_	32	case	_	start_char=1203|end_char=1205
+32	Thursday	Thursday	PROPN	NNP	Number=Sing	30	nmod	_	start_char=1206|end_char=1214|SpaceAfter=No
+33	.	.	PUNCT	.	_	18	punct	_	start_char=1214|end_char=1215|SpacesAfter=\n
+
+# text = One complaint is based on a fatal crash that occurred in January 2012, the NHTSA said.
+# sent_id = 9
+1	One	one	NUM	CD	NumForm=Word|NumType=Card	2	nummod	_	start_char=1216|end_char=1219
+2	complaint	complaint	NOUN	NN	Number=Sing	4	nsubj:pass	_	start_char=1220|end_char=1229
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	start_char=1230|end_char=1232
+4	based	base	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	17	ccomp	_	start_char=1233|end_char=1238
+5	on	on	ADP	IN	_	8	case	_	start_char=1239|end_char=1241
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=1242|end_char=1243
+7	fatal	fatal	ADJ	JJ	Degree=Pos	8	amod	_	start_char=1244|end_char=1249
+8	crash	crash	NOUN	NN	Number=Sing	4	obl	_	start_char=1250|end_char=1255
+9	that	that	PRON	WDT	PronType=Rel	10	nsubj	_	start_char=1256|end_char=1260
+10	occurred	occur	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	acl:relcl	_	start_char=1261|end_char=1269
+11	in	in	ADP	IN	_	12	case	_	start_char=1270|end_char=1272
+12	January	January	PROPN	NNP	Number=Sing	10	obl	_	start_char=1273|end_char=1280
+13	2012	2012	NUM	CD	NumForm=Digit|NumType=Card	12	nummod	_	start_char=1281|end_char=1285|SpaceAfter=No
+14	,	,	PUNCT	,	_	4	punct	_	start_char=1285|end_char=1286
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	start_char=1287|end_char=1290
+16	NHTSA	NHTSA	PROPN	NNP	Number=Sing	17	nsubj	_	start_char=1291|end_char=1296
+17	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=1297|end_char=1301|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	punct	_	start_char=1301|end_char=1302
+
+# text = Some of the complaints allege that failures may have been related to repairs made in response to safety recalls initiated in 2004, the investigation summary said.
+# sent_id = 10
+1	Some	some	DET	DT	PronType=Ind	5	nsubj	_	start_char=1303|end_char=1307
+2	of	of	ADP	IN	_	4	case	_	start_char=1308|end_char=1310
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=1311|end_char=1314
+4	complaints	complaint	NOUN	NNS	Number=Plur	1	nmod	_	start_char=1315|end_char=1325
+5	allege	allege	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	ccomp	_	start_char=1326|end_char=1332
+6	that	that	SCONJ	IN	_	11	mark	_	start_char=1333|end_char=1337
+7	failures	failure	NOUN	NNS	Number=Plur	11	nsubj	_	start_char=1338|end_char=1346
+8	may	may	AUX	MD	VerbForm=Fin	11	aux	_	start_char=1347|end_char=1350
+9	have	have	AUX	VB	VerbForm=Inf	11	aux	_	start_char=1351|end_char=1355
+10	been	be	AUX	VBN	Tense=Past|VerbForm=Part	11	cop	_	start_char=1356|end_char=1360
+11	related	related	ADJ	JJ	Degree=Pos	5	ccomp	_	start_char=1361|end_char=1368
+12	to	to	ADP	IN	_	13	case	_	start_char=1369|end_char=1371
+13	repairs	repair	NOUN	NNS	Number=Plur	11	obl	_	start_char=1372|end_char=1379
+14	made	make	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	acl	_	start_char=1380|end_char=1384
+15	in	in	ADP	IN	_	16	case	_	start_char=1385|end_char=1387
+16	response	response	NOUN	NN	Number=Sing	14	obl	_	start_char=1388|end_char=1396
+17	to	to	ADP	IN	_	19	case	_	start_char=1397|end_char=1399
+18	safety	safety	NOUN	NN	Number=Sing	19	compound	_	start_char=1400|end_char=1406
+19	recalls	recall	NOUN	NNS	Number=Plur	16	nmod	_	start_char=1407|end_char=1414
+20	initiated	initiate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	19	acl	_	start_char=1415|end_char=1424
+21	in	in	ADP	IN	_	22	case	_	start_char=1425|end_char=1427
+22	2004	2004	NUM	CD	NumForm=Digit|NumType=Card	20	obl	_	start_char=1428|end_char=1432|SpaceAfter=No
+23	,	,	PUNCT	,	_	5	punct	_	start_char=1432|end_char=1433
+24	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	start_char=1434|end_char=1437
+25	investigation	investigation	NOUN	NN	Number=Sing	26	compound	_	start_char=1438|end_char=1451
+26	summary	summary	NOUN	NN	Number=Sing	27	nsubj	_	start_char=1452|end_char=1459
+27	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=1460|end_char=1464|SpaceAfter=No
+28	.	.	PUNCT	.	_	27	punct	_	start_char=1464|end_char=1465|SpacesAfter=\n
+
+# text = The 2004 Ford and Mazda recalls were for the vehicle speed control cables in their affected vehicles.
+# sent_id = 11
+1	The	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=1466|end_char=1469
+2	2004	2004	NUM	CD	NumForm=Digit|NumType=Card	6	nummod	_	start_char=1470|end_char=1474
+3	Ford	Ford	PROPN	NNP	Number=Sing	6	compound	_	start_char=1475|end_char=1479
+4	and	and	CCONJ	CC	_	5	cc	_	start_char=1480|end_char=1483
+5	Mazda	Mazda	PROPN	NNP	Number=Sing	3	conj	_	start_char=1484|end_char=1489
+6	recalls	recall	NOUN	NNS	Number=Plur	13	nsubj	_	start_char=1490|end_char=1497
+7	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	13	cop	_	start_char=1498|end_char=1502
+8	for	for	ADP	IN	_	13	case	_	start_char=1503|end_char=1506
+9	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	start_char=1507|end_char=1510
+10	vehicle	vehicle	NOUN	NN	Number=Sing	13	compound	_	start_char=1511|end_char=1518
+11	speed	speed	NOUN	NN	Number=Sing	12	compound	_	start_char=1519|end_char=1524
+12	control	control	NOUN	NN	Number=Sing	13	compound	_	start_char=1525|end_char=1532
+13	cables	cable	NOUN	NNS	Number=Plur	0	root	_	start_char=1533|end_char=1539
+14	in	in	ADP	IN	_	17	case	_	start_char=1540|end_char=1542
+15	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	start_char=1543|end_char=1548
+16	affected	affect	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	17	amod	_	start_char=1549|end_char=1557
+17	vehicles	vehicle	NOUN	NNS	Number=Plur	13	nmod	_	start_char=1558|end_char=1566|SpaceAfter=No
+18	.	.	PUNCT	.	_	13	punct	_	start_char=1566|end_char=1567
+
+# text = Letters were also sent to dealers and customers, according to filings on the NHTSA website.
+# sent_id = 12
+1	Letters	letter	NOUN	NNS	Number=Plur	4	nsubj:pass	_	start_char=1568|end_char=1575
+2	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	start_char=1576|end_char=1580
+3	also	also	ADV	RB	_	4	advmod	_	start_char=1581|end_char=1585
+4	sent	send	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=1586|end_char=1590
+5	to	to	ADP	IN	_	6	case	_	start_char=1591|end_char=1593
+6	dealers	dealer	NOUN	NNS	Number=Plur	4	obl	_	start_char=1594|end_char=1601
+7	and	and	CCONJ	CC	_	8	cc	_	start_char=1602|end_char=1605
+8	customers	customer	NOUN	NNS	Number=Plur	6	conj	_	start_char=1606|end_char=1615|SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	start_char=1615|end_char=1616
+10	according	accord	VERB	VBG	ExtPos=ADP|Tense=Pres|VerbForm=Part	12	case	_	start_char=1617|end_char=1626
+11	to	to	ADP	IN	_	10	fixed	_	start_char=1627|end_char=1629
+12	filings	filing	NOUN	NNS	Number=Plur	4	obl	_	start_char=1630|end_char=1637
+13	on	on	ADP	IN	_	16	case	_	start_char=1638|end_char=1640
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	start_char=1641|end_char=1644
+15	NHTSA	NHTSA	PROPN	NNP	Number=Sing	16	compound	_	start_char=1645|end_char=1650
+16	website	website	NOUN	NN	Number=Sing	12	nmod	_	start_char=1651|end_char=1658|SpaceAfter=No
+17	.	.	PUNCT	.	_	4	punct	_	start_char=1658|end_char=1659|SpacesAfter=\n\s
+
+# text = On your vehicle, it is possible that the accelerator cable may prevent the throttle from returning to the idle position, possibly resulting in elevated engine speeds while driving, Ford's letter to customers read.
+# sent_id = 13
+1	On	on	ADP	IN	_	3	case	_	start_char=1661|end_char=1663
+2	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	3	nmod:poss	_	start_char=1664|end_char=1668
+3	vehicle	vehicle	NOUN	NN	Number=Sing	7	obl	_	start_char=1669|end_char=1676|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	start_char=1676|end_char=1677
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	_	start_char=1678|end_char=1680
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=1681|end_char=1683
+7	possible	possible	ADJ	JJ	Degree=Pos	0	root	_	start_char=1684|end_char=1692
+8	that	that	SCONJ	IN	_	13	mark	_	start_char=1693|end_char=1697
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=1698|end_char=1701
+10	accelerator	accelerator	NOUN	NN	Number=Sing	11	compound	_	start_char=1702|end_char=1713
+11	cable	cable	NOUN	NN	Number=Sing	13	nsubj	_	start_char=1714|end_char=1719
+12	may	may	AUX	MD	VerbForm=Fin	13	aux	_	start_char=1720|end_char=1723
+13	prevent	prevent	VERB	VB	VerbForm=Inf	7	csubj	_	start_char=1724|end_char=1731
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	start_char=1732|end_char=1735
+15	throttle	throttle	NOUN	NN	Number=Sing	13	obj	_	start_char=1736|end_char=1744
+16	from	from	SCONJ	IN	_	17	mark	_	start_char=1745|end_char=1749
+17	returning	return	VERB	VBG	Tense=Pres|VerbForm=Part	13	advcl	_	start_char=1750|end_char=1759
+18	to	to	ADP	IN	_	21	case	_	start_char=1760|end_char=1762
+19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	start_char=1763|end_char=1766
+20	idle	idle	ADJ	JJ	Degree=Pos	21	amod	_	start_char=1767|end_char=1771
+21	position	position	NOUN	NN	Number=Sing	17	obl	_	start_char=1772|end_char=1780|SpaceAfter=No
+22	,	,	PUNCT	,	_	24	punct	_	start_char=1780|end_char=1781
+23	possibly	possibly	ADV	RB	_	24	advmod	_	start_char=1782|end_char=1790
+24	resulting	result	VERB	VBG	Tense=Pres|VerbForm=Part	13	advcl	_	start_char=1791|end_char=1800
+25	in	in	ADP	IN	_	28	case	_	start_char=1801|end_char=1803
+26	elevated	elevate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	28	amod	_	start_char=1804|end_char=1812
+27	engine	engine	NOUN	NN	Number=Sing	28	compound	_	start_char=1813|end_char=1819
+28	speeds	speed	NOUN	NNS	Number=Plur	24	obl	_	start_char=1820|end_char=1826
+29	while	while	SCONJ	IN	_	30	mark	_	start_char=1827|end_char=1832
+30	driving	drive	VERB	VBG	Tense=Pres|VerbForm=Part	24	advcl	_	start_char=1833|end_char=1840|SpaceAfter=No
+31	,	,	PUNCT	,	_	37	punct	_	start_char=1840|end_char=1841
+32-33	Ford's	_	_	_	_	_	_	_	start_char=1842|end_char=1848
+32	Ford	Ford	PROPN	NNP	Number=Sing	34	nmod:poss	_	start_char=1842|end_char=1846
+33	's	's	PART	POS	_	32	case	_	start_char=1846|end_char=1848
+34	letter	letter	NOUN	NN	Number=Sing	37	nsubj	_	start_char=1849|end_char=1855
+35	to	to	ADP	IN	_	36	case	_	start_char=1856|end_char=1858
+36	customers	customer	NOUN	NNS	Number=Plur	34	nmod	_	start_char=1859|end_char=1868
+37	read	read	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	parataxis	_	start_char=1869|end_char=1873|SpaceAfter=No
+38	.	.	PUNCT	.	_	7	punct	_	start_char=1873|end_char=1874
+
+# text = An unexpected increase in engine idle speed may increase stopping distance and may result in a vehicle crash without warning.
+# sent_id = 14
+1	An	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	start_char=1875|end_char=1877
+2	unexpected	unexpected	ADJ	JJ	Degree=Pos	3	amod	_	start_char=1878|end_char=1888
+3	increase	increase	NOUN	NN	Number=Sing	9	nsubj	_	start_char=1889|end_char=1897
+4	in	in	ADP	IN	_	7	case	_	start_char=1898|end_char=1900
+5	engine	engine	NOUN	NN	Number=Sing	7	compound	_	start_char=1901|end_char=1907
+6	idle	idle	ADJ	JJ	Degree=Pos	7	amod	_	start_char=1908|end_char=1912
+7	speed	speed	NOUN	NN	Number=Sing	3	nmod	_	start_char=1913|end_char=1918
+8	may	may	AUX	MD	VerbForm=Fin	9	aux	_	start_char=1919|end_char=1922
+9	increase	increase	VERB	VB	VerbForm=Inf	0	root	_	start_char=1923|end_char=1931
+10	stopping	stop	VERB	VBG	VerbForm=Ger	9	xcomp	_	start_char=1932|end_char=1940
+11	distance	distance	NOUN	NN	Number=Sing	10	obj	_	start_char=1941|end_char=1949
+12	and	and	CCONJ	CC	_	14	cc	_	start_char=1950|end_char=1953
+13	may	may	AUX	MD	VerbForm=Fin	14	aux	_	start_char=1954|end_char=1957
+14	result	result	VERB	VB	VerbForm=Inf	9	conj	_	start_char=1958|end_char=1964
+15	in	in	ADP	IN	_	18	case	_	start_char=1965|end_char=1967
+16	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	start_char=1968|end_char=1969
+17	vehicle	vehicle	NOUN	NN	Number=Sing	18	compound	_	start_char=1970|end_char=1977
+18	crash	crash	NOUN	NN	Number=Sing	14	obl	_	start_char=1978|end_char=1983
+19	without	without	ADP	IN	_	20	case	_	start_char=1984|end_char=1991
+20	warning	warning	NOUN	NN	Number=Sing	14	obl	_	start_char=1992|end_char=1999|SpaceAfter=No
+21	.	.	PUNCT	.	_	9	punct	_	start_char=1999|end_char=2000|SpacesAfter=\s\n
+
+# text = The Center for Auto Safety petitioned the NHTSA to open a similar investigation on July 8.
+# sent_id = 15
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=2002|end_char=2005
+2	Center	Center	PROPN	NNP	Number=Sing	6	nsubj	_	start_char=2006|end_char=2012
+3	for	for	ADP	IN	_	5	case	_	start_char=2013|end_char=2016
+4	Auto	Auto	PROPN	NNP	Number=Sing	5	compound	_	start_char=2017|end_char=2021
+5	Safety	Safety	PROPN	NNP	Number=Sing	2	nmod	_	start_char=2022|end_char=2028
+6	petitioned	petition	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=2029|end_char=2039
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=2040|end_char=2043
+8	NHTSA	NHTSA	PROPN	NNP	Number=Sing	6	obj	_	start_char=2044|end_char=2049
+9	to	to	PART	TO	_	10	mark	_	start_char=2050|end_char=2052
+10	open	open	VERB	VB	VerbForm=Inf	6	xcomp	_	start_char=2053|end_char=2057
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	start_char=2058|end_char=2059
+12	similar	similar	ADJ	JJ	Degree=Pos	13	amod	_	start_char=2060|end_char=2067
+13	investigation	investigation	NOUN	NN	Number=Sing	10	obj	_	start_char=2068|end_char=2081
+14	on	on	ADP	IN	_	15	case	_	start_char=2082|end_char=2084
+15	July	July	PROPN	NNP	Number=Sing	10	obl	_	start_char=2085|end_char=2089
+16	8	8	NUM	CD	NumForm=Digit|NumType=Card	15	nummod	_	start_char=2090|end_char=2091|SpaceAfter=No
+17	.	.	PUNCT	.	_	6	punct	_	start_char=2091|end_char=2092
+
+# text = The petition was denied Thursday because part of the request is being covered by the agency's newly opened investigation.
+# sent_id = 16
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=2093|end_char=2096
+2	petition	petition	NOUN	NN	Number=Sing	4	nsubj:pass	_	start_char=2097|end_char=2105
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	start_char=2106|end_char=2109
+4	denied	deny	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=2110|end_char=2116
+5	Thursday	Thursday	PROPN	NNP	Number=Sing	4	obl:unmarked	_	start_char=2117|end_char=2125
+6	because	because	SCONJ	IN	_	13	mark	_	start_char=2126|end_char=2133
+7	part	part	NOUN	NN	Number=Sing	13	nsubj:pass	_	start_char=2134|end_char=2138
+8	of	of	ADP	IN	_	10	case	_	start_char=2139|end_char=2141
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=2142|end_char=2145
+10	request	request	NOUN	NN	Number=Sing	7	nmod	_	start_char=2146|end_char=2153
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=2154|end_char=2156
+12	being	be	AUX	VBG	Tense=Pres|VerbForm=Part	13	aux:pass	_	start_char=2157|end_char=2162
+13	covered	cover	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	advcl	_	start_char=2163|end_char=2170
+14	by	by	ADP	IN	_	20	case	_	start_char=2171|end_char=2173
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	start_char=2174|end_char=2177
+16-17	agency's	_	_	_	_	_	_	_	start_char=2178|end_char=2186
+16	agency	agency	NOUN	NN	Number=Sing	20	nmod:poss	_	start_char=2178|end_char=2184
+17	's	's	PART	POS	_	16	case	_	start_char=2184|end_char=2186
+18	newly	newly	ADV	RB	_	19	advmod	_	start_char=2187|end_char=2192
+19	opened	open	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	20	amod	_	start_char=2193|end_char=2199
+20	investigation	investigation	NOUN	NN	Number=Sing	13	obl:agent	_	start_char=2200|end_char=2213|SpaceAfter=No
+21	.	.	PUNCT	.	_	4	punct	_	start_char=2213|end_char=2214|SpacesAfter=\n
+
+# text = The NHTSA has opened the investigation to assess the scope, frequency and safety-related consequences of the alleged defect, the agency said.
+# sent_id = 17
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=2215|end_char=2218
+2	NHTSA	NHTSA	PROPN	NNP	Number=Sing	4	nsubj	_	start_char=2219|end_char=2224
+3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=2225|end_char=2228
+4	opened	open	VERB	VBN	Tense=Past|VerbForm=Part	25	ccomp	_	start_char=2229|end_char=2235
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=2236|end_char=2239
+6	investigation	investigation	NOUN	NN	Number=Sing	4	obj	_	start_char=2240|end_char=2253
+7	to	to	PART	TO	_	8	mark	_	start_char=2254|end_char=2256
+8	assess	assess	VERB	VB	VerbForm=Inf	4	advcl	_	start_char=2257|end_char=2263
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=2264|end_char=2267
+10	scope	scope	NOUN	NN	Number=Sing	8	obj	_	start_char=2268|end_char=2273|SpaceAfter=No
+11	,	,	PUNCT	,	_	12	punct	_	start_char=2273|end_char=2274
+12	frequency	frequency	NOUN	NN	Number=Sing	10	conj	_	start_char=2275|end_char=2284
+13	and	and	CCONJ	CC	_	17	cc	_	start_char=2285|end_char=2288
+14	safety	safety	NOUN	NN	Number=Sing	16	compound	_	start_char=2289|end_char=2295|SpaceAfter=No
+15	-	-	PUNCT	HYPH	_	14	punct	_	start_char=2295|end_char=2296|SpaceAfter=No
+16	related	related	ADJ	JJ	Degree=Pos	17	amod	_	start_char=2296|end_char=2303
+17	consequences	consequence	NOUN	NNS	Number=Plur	10	conj	_	start_char=2304|end_char=2316
+18	of	of	ADP	IN	_	21	case	_	start_char=2317|end_char=2319
+19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	start_char=2320|end_char=2323
+20	alleged	allege	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	21	amod	_	start_char=2324|end_char=2331
+21	defect	defect	NOUN	NN	Number=Sing	17	nmod	_	start_char=2332|end_char=2338|SpaceAfter=No
+22	,	,	PUNCT	,	_	4	punct	_	start_char=2338|end_char=2339
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	start_char=2340|end_char=2343
+24	agency	agency	NOUN	NN	Number=Sing	25	nsubj	_	start_char=2344|end_char=2350
+25	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=2351|end_char=2355|SpaceAfter=No
+26	.	.	PUNCT	.	_	25	punct	_	start_char=2355|end_char=2356|SpacesAfter=\n
+
+# text = Neither Ford nor Mazda responded to CNN's requests for comment.
+# sent_id = 18
+1	Neither	neither	CCONJ	CC	Polarity=Neg	2	cc:preconj	_	start_char=2357|end_char=2364
+2	Ford	Ford	PROPN	NNP	Number=Sing	5	nsubj	_	start_char=2365|end_char=2369
+3	nor	nor	CCONJ	CC	Polarity=Neg	4	cc	_	start_char=2370|end_char=2373
+4	Mazda	Mazda	PROPN	NNP	Number=Sing	2	conj	_	start_char=2374|end_char=2379
+5	responded	respond	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=2380|end_char=2389
+6	to	to	ADP	IN	_	9	case	_	start_char=2390|end_char=2392
+7-8	CNN's	_	_	_	_	_	_	_	start_char=2393|end_char=2398
+7	CNN	CNN	PROPN	NNP	Abbr=Yes|Number=Sing	9	nmod:poss	_	start_char=2393|end_char=2396
+8	's	's	PART	POS	_	7	case	_	start_char=2396|end_char=2398
+9	requests	request	NOUN	NNS	Number=Plur	5	obl	_	start_char=2399|end_char=2407
+10	for	for	ADP	IN	_	11	case	_	start_char=2408|end_char=2411
+11	comment	comment	NOUN	NN	Number=Sing	9	nmod	_	start_char=2412|end_char=2419|SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	start_char=2419|end_char=2420|SpacesAfter=\n
+

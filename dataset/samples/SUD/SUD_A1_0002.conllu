@@ -1,0 +1,223 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# text = He dropped his toothbrush.
+# sent_id = 0
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=2|start_char=0
+2	dropped	drop	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=10|start_char=3
+3	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	mod@poss	_	end_char=14|start_char=11
+4	toothbrush	toothbrush	NOUN	NN	Number=Sing	2	comp:obj	_	end_char=25|SpaceAfter=No|start_char=15
+5	.	.	PUNCT	.	_	2	punct	_	end_char=26|start_char=25
+
+# text = It fell on the floor.
+# sent_id = 1
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=29|start_char=27
+2	fell	fall	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=34|start_char=30
+3	on	on	ADP	IN	_	2	udep	_	end_char=37|start_char=35
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	end_char=41|start_char=38
+5	floor	floor	NOUN	NN	Number=Sing	3	comp:obj	_	end_char=47|SpaceAfter=No|start_char=42
+6	.	.	PUNCT	.	_	2	punct	_	end_char=48|start_char=47
+
+# text = He picked up his toothbrush.
+# sent_id = 2
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=51|start_char=49
+2	picked	pick	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=58|start_char=52
+3	up	up	ADP	RP	_	2	compound@prt	_	end_char=61|start_char=59
+4	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	mod@poss	_	end_char=65|start_char=62
+5	toothbrush	toothbrush	NOUN	NN	Number=Sing	2	comp:obj	_	end_char=76|SpaceAfter=No|start_char=66
+6	.	.	PUNCT	.	_	2	punct	_	end_char=77|start_char=76
+
+# text = He rinsed it off.
+# sent_id = 3
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=80|start_char=78
+2	rinsed	rinse	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=87|start_char=81
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	comp:obj	_	end_char=90|start_char=88
+4	off	off	ADP	RP	_	2	compound@prt	_	end_char=94|SpaceAfter=No|start_char=91
+5	.	.	PUNCT	.	_	2	punct	_	end_char=95|start_char=94
+
+# text = He brushed his teeth.
+# sent_id = 4
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=98|start_char=96
+2	brushed	brush	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=106|start_char=99
+3	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	mod@poss	_	end_char=110|start_char=107
+4	teeth	tooth	NOUN	NNS	Number=Plur	2	comp:obj	_	end_char=116|SpaceAfter=No|start_char=111
+5	.	.	PUNCT	.	_	2	punct	_	end_char=117|start_char=116
+
+# text = He rinsed his mouth.
+# sent_id = 5
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=120|start_char=118
+2	rinsed	rinse	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=127|start_char=121
+3	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	mod@poss	_	end_char=131|start_char=128
+4	mouth	mouth	NOUN	NN	Number=Sing	2	comp:obj	_	end_char=137|SpaceAfter=No|start_char=132
+5	.	.	PUNCT	.	_	2	punct	_	end_char=138|start_char=137
+
+# text = He walked out of the bathroom.
+# sent_id = 6
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=141|start_char=139
+2	walked	walk	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=148|start_char=142
+3	out	out	ADP	IN	ExtPos=ADP	2	udep	_	end_char=152|Idiom=Yes|start_char=149
+4	of	of	ADP	IN	_	3	unk	_	end_char=155|InIdiom=Yes|start_char=153
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	end_char=159|start_char=156
+6	bathroom	bathroom	NOUN	NN	Number=Sing	3	comp:obj	_	end_char=168|SpaceAfter=No|start_char=160
+7	.	.	PUNCT	.	_	2	punct	_	end_char=169|start_char=168
+
+# text = He sat on his bed.
+# sent_id = 7
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=172|start_char=170
+2	sat	sit	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=176|start_char=173
+3	on	on	ADP	IN	_	2	udep	_	end_char=179|start_char=177
+4	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	mod@poss	_	end_char=183|start_char=180
+5	bed	bed	NOUN	NN	Number=Sing	3	comp:obj	_	end_char=187|SpaceAfter=No|start_char=184
+6	.	.	PUNCT	.	_	2	punct	_	end_char=188|start_char=187
+
+# text = He felt something.
+# sent_id = 8
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=191|start_char=189
+2	felt	feel	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=196|start_char=192
+3	something	something	PRON	NN	Number=Sing|PronType=Ind	2	comp:obj	_	end_char=206|SpaceAfter=No|start_char=197
+4	.	.	PUNCT	.	_	2	punct	_	end_char=207|start_char=206
+
+# text = It was under the sheet.
+# sent_id = 9
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=210|start_char=208
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=214|start_char=211
+3	under	under	ADP	IN	_	2	comp:pred	_	end_char=220|start_char=215
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	end_char=224|start_char=221
+5	sheet	sheet	NOUN	NN	Number=Sing	3	comp:obj	_	end_char=230|SpaceAfter=No|start_char=225
+6	.	.	PUNCT	.	_	2	punct	_	end_char=231|start_char=230
+
+# text = He took the sheet off the bed.
+# sent_id = 10
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=234|start_char=232
+2	took	take	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=239|start_char=235
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	end_char=243|start_char=240
+4	sheet	sheet	NOUN	NN	Number=Sing	2	comp:obj	_	end_char=249|start_char=244
+5	off	off	ADP	IN	_	2	udep	_	end_char=253|start_char=250
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	end_char=257|start_char=254
+7	bed	bed	NOUN	NN	Number=Sing	5	comp:obj	_	end_char=261|SpaceAfter=No|start_char=258
+8	.	.	PUNCT	.	_	2	punct	_	end_char=262|start_char=261
+
+# text = Something was in his mattress.
+# sent_id = 11
+1	Something	something	PRON	NN	Number=Sing|PronType=Ind	2	subj	_	end_char=272|start_char=263
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=276|start_char=273
+3	in	in	ADP	IN	_	2	comp:pred	_	end_char=279|start_char=277
+4	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	mod@poss	_	end_char=283|start_char=280
+5	mattress	mattress	NOUN	NN	Number=Sing	3	comp:obj	_	end_char=292|SpaceAfter=No|start_char=284
+6	.	.	PUNCT	.	_	2	punct	_	end_char=293|start_char=292
+
+# text = It was a brand new mattress.
+# sent_id = 12
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=296|start_char=294
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=300|start_char=297
+3	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	end_char=302|start_char=301
+4	brand	brand	NOUN	NN	Number=Sing	5	udep@unmarked	_	end_char=308|start_char=303
+5	new	new	ADJ	JJ	Degree=Pos	6	mod	_	end_char=312|start_char=309
+6	mattress	mattress	NOUN	NN	Number=Sing	2	comp:pred	_	end_char=321|SpaceAfter=No|start_char=313
+7	.	.	PUNCT	.	_	2	punct	_	end_char=322|start_char=321
+
+# text = He had bought it yesterday.
+# sent_id = 13
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=325|start_char=323
+2	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=329|start_char=326
+3	bought	buy	VERB	VBN	Tense=Past|VerbForm=Part	2	comp:aux	_	end_char=336|start_char=330
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	comp:obj	_	end_char=339|start_char=337
+5	yesterday	yesterday	NOUN	NN	Number=Sing	3	udep@unmarked	_	end_char=349|SpaceAfter=No|start_char=340
+6	.	.	PUNCT	.	_	2	punct	_	end_char=350|start_char=349
+
+# text = What is in the mattress, he wondered.
+# sent_id = 14
+1	What	what	PRON	WP	PronType=Int	2	subj	_	end_char=355|start_char=351
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	comp:obj	_	end_char=358|start_char=356
+3	in	in	ADP	IN	_	2	comp:pred	_	end_char=361|start_char=359
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	end_char=365|start_char=362
+5	mattress	mattress	NOUN	NN	Number=Sing	3	comp:obj	_	end_char=374|SpaceAfter=No|start_char=366
+6	,	,	PUNCT	,	_	2	punct	_	end_char=375|start_char=374
+7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	subj	_	end_char=378|start_char=376
+8	wondered	wonder	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=387|SpaceAfter=No|start_char=379
+9	.	.	PUNCT	.	_	8	punct	_	end_char=388|start_char=387
+
+# text = He went to the kitchen.
+# sent_id = 15
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=391|start_char=389
+2	went	go	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=396|start_char=392
+3	to	to	ADP	IN	_	2	udep	_	end_char=399|start_char=397
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	end_char=403|start_char=400
+5	kitchen	kitchen	NOUN	NN	Number=Sing	3	comp:obj	_	end_char=411|SpaceAfter=No|start_char=404
+6	.	.	PUNCT	.	_	2	punct	_	end_char=412|start_char=411
+
+# text = He took a knife from the kitchen drawer.
+# sent_id = 16
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=415|start_char=413
+2	took	take	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=420|start_char=416
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	end_char=422|start_char=421
+4	knife	knife	NOUN	NN	Number=Sing	2	comp:obj	_	end_char=428|start_char=423
+5	from	from	ADP	IN	_	2	udep	_	end_char=433|start_char=429
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	end_char=437|start_char=434
+7	kitchen	kitchen	NOUN	NN	Number=Sing	8	compound	_	end_char=445|start_char=438
+8	drawer	drawer	NOUN	NN	Number=Sing	5	comp:obj	_	end_char=452|SpaceAfter=No|start_char=446
+9	.	.	PUNCT	.	_	2	punct	_	end_char=453|start_char=452
+
+# text = He cut open the mattress.
+# sent_id = 17
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=456|start_char=454
+2	cut	cut	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=460|start_char=457
+3	open	open	VERB	VB	VerbForm=Inf	2	comp:obj	_	end_char=465|start_char=461|Subject=SubjRaising
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	end_char=469|start_char=466
+5	mattress	mattress	NOUN	NN	Number=Sing	3	comp:obj	_	end_char=478|SpaceAfter=No|start_char=470
+6	.	.	PUNCT	.	_	2	punct	_	end_char=479|start_char=478
+
+# text = What could it be, he wondered.
+# sent_id = 18
+1	What	what	PRON	WP	PronType=Int	4	comp:obj	_	end_char=484|start_char=480
+2	could	could	AUX	MD	VerbForm=Fin	7	comp:obj	_	end_char=490|start_char=485
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=493|start_char=491
+4	be	be	AUX	VB	VerbForm=Inf	2	comp:aux	_	end_char=496|SpaceAfter=No|start_char=494
+5	,	,	PUNCT	,	_	2	punct	_	end_char=497|start_char=496
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	subj	_	end_char=500|start_char=498
+7	wondered	wonder	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=509|SpaceAfter=No|start_char=501
+8	.	.	PUNCT	.	_	7	punct	_	end_char=510|start_char=509
+
+# text = It was small.
+# sent_id = 19
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=513|start_char=511
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=517|start_char=514
+3	small	small	ADJ	JJ	Degree=Pos	2	comp:pred	_	end_char=523|SpaceAfter=No|start_char=518
+4	.	.	PUNCT	.	_	2	punct	_	end_char=524|start_char=523
+
+# text = It was black.
+# sent_id = 20
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=527|start_char=525
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=531|start_char=528
+3	black	black	ADJ	JJ	Degree=Pos	2	comp:pred	_	end_char=537|SpaceAfter=No|start_char=532
+4	.	.	PUNCT	.	_	2	punct	_	end_char=538|start_char=537
+
+# text = It was a book.
+# sent_id = 21
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=541|start_char=539
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=545|start_char=542
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	end_char=547|start_char=546
+4	book	book	NOUN	NN	Number=Sing	2	comp:pred	_	end_char=552|SpaceAfter=No|start_char=548
+5	.	.	PUNCT	.	_	2	punct	_	end_char=553|start_char=552
+
+# text = It was the New Testament.
+# sent_id = 22
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=556|start_char=554
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=560|start_char=557
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	end_char=564|start_char=561
+4	New	New	ADJ	NNP	Degree=Pos	5	mod	_	end_char=568|start_char=565
+5	Testament	Testament	PROPN	NNP	Number=Sing	2	comp:pred	_	end_char=578|SpaceAfter=No|start_char=569
+6	.	.	PUNCT	.	_	2	punct	_	end_char=579|start_char=578
+
+# text = Is God trying to tell me something, he wondered.
+# sent_id = 23
+1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=582|start_char=580
+2	God	God	PROPN	NNP	Number=Sing	1	subj	_	end_char=586|start_char=583
+3	trying	try	VERB	VBG	Tense=Pres|VerbForm=Part	1	comp:aux	_	end_char=593|start_char=587
+4	to	to	PART	TO	_	3	comp:obl	_	end_char=596|start_char=594
+5	tell	tell	VERB	VB	VerbForm=Inf	4	comp:obj	_	end_char=601|start_char=597|Subject=SubjRaising
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	comp:obl	_	end_char=604|start_char=602
+7	something	something	PRON	NN	Number=Sing|PronType=Ind	5	comp:obj	_	end_char=614|SpaceAfter=No|start_char=605
+8	,	,	PUNCT	,	_	10	punct	_	end_char=615|start_char=614
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	subj	_	end_char=618|start_char=616
+10	wondered	wonder	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	parataxis	_	end_char=627|SpaceAfter=No|start_char=619
+11	.	.	PUNCT	.	_	1	punct	_	end_char=628|SpaceAfter=No|start_char=627
+

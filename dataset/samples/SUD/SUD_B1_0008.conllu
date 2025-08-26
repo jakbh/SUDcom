@@ -1,0 +1,259 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# text = From: Maja Jakobsson, HR Officer To: Sanjay Chaudhary Subject: Invitation to interview at Purple Cloud Dear Mr Chaudhary, Thank you for applying for the position of software engineer at Purple Cloud.
+# sent_id = 0
+1	From	from	ADP	IN	_	0	root	_	end_char=4|SpaceAfter=No|start_char=0
+2	:	:	PUNCT	:	_	1	punct	_	end_char=5|start_char=4
+3	Maja	Maja	PROPN	NNP	Number=Sing	1	comp:obj	_	end_char=10|start_char=6
+4	Jakobsson	Jakobsson	PROPN	NNP	Number=Sing	3	flat	_	end_char=20|SpaceAfter=No|start_char=11
+5	,	,	PUNCT	,	_	7	punct	_	end_char=21|start_char=20
+6	HR	HR	NOUN	NN	Number=Sing	7	compound	_	end_char=24|start_char=22
+7	Officer	officer	NOUN	NN	Number=Sing	3	list	_	end_char=32|SpacesAfter=\n|start_char=25
+8	To	to	ADP	IN	_	3	udep	_	end_char=35|SpaceAfter=No|start_char=33
+9	:	:	PUNCT	:	_	8	punct	_	end_char=36|start_char=35
+10	Sanjay	Sanjay	PROPN	NNP	Number=Sing	8	comp:obj	_	end_char=43|start_char=37
+11	Chaudhary	Chaudhary	PROPN	NNP	Number=Sing	10	flat	_	end_char=53|SpacesAfter=\n|start_char=44
+12	Subject	subject	PROPN	NNP	Number=Sing	11	flat	_	end_char=61|SpaceAfter=No|start_char=54
+13	:	:	PUNCT	:	_	14	punct	_	end_char=62|start_char=61
+14	Invitation	invitation	NOUN	NN	Number=Sing	3	conj:appos	_	end_char=73|start_char=63
+15	to	to	PART	TO	_	14	udep	_	end_char=76|start_char=74
+16	interview	interview	VERB	VB	VerbForm=Inf	15	comp:obj	_	end_char=86|start_char=77
+17	at	at	ADP	IN	_	16	udep	_	end_char=89|start_char=87
+18	Purple	purple	PROPN	NNP	Number=Sing	19	compound	_	end_char=96|start_char=90
+19	Cloud	Cloud	PROPN	NNP	Number=Sing	21	compound	_	end_char=102|SpacesAfter=\n|start_char=97
+20	Dear	dear	ADJ	JJ	Degree=Pos	21	mod	_	end_char=107|start_char=103
+21	Mr	Mr	PROPN	NNP	Number=Sing	17	comp:obj	_	end_char=110|start_char=108
+22	Chaudhary	Chaudhary	PROPN	NNP	Number=Sing	21	flat	_	end_char=120|SpaceAfter=No|start_char=111
+23	,	,	PUNCT	,	_	3	punct	_	end_char=121|SpacesAfter=\n|start_char=120
+24	Thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	parataxis	_	end_char=127|start_char=122
+25	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	24	comp:obj	_	end_char=131|start_char=128
+26	for	for	SCONJ	IN	_	24	mod	_	end_char=135|start_char=132
+27	applying	apply	VERB	VBG	Tense=Pres|VerbForm=Part	26	comp:obj	_	end_char=144|start_char=136
+28	for	for	ADP	IN	_	27	udep	_	end_char=148|start_char=145
+29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	end_char=152|start_char=149
+30	position	position	NOUN	NN	Number=Sing	28	comp:obj	_	end_char=161|start_char=153
+31	of	of	ADP	IN	_	30	udep	_	end_char=164|start_char=162
+32	software	software	NOUN	NN	Number=Sing	33	compound	_	end_char=173|start_char=165
+33	engineer	engineer	NOUN	NN	Number=Sing	31	comp:obj	_	end_char=182|start_char=174
+34	at	at	ADP	IN	_	33	udep	_	end_char=185|start_char=183
+35	Purple	purple	PROPN	NNP	Number=Sing	36	compound	_	end_char=192|start_char=186
+36	Cloud	Cloud	PROPN	NNP	Number=Sing	34	comp:obj	_	end_char=198|SpaceAfter=No|start_char=193
+37	.	.	PUNCT	.	_	24	punct	_	end_char=199|start_char=198
+
+# text = We would like to invite you for an interview at our Stockholm office.
+# sent_id = 1
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	subj	_	end_char=202|start_char=200
+2	would	would	AUX	MD	VerbForm=Fin	0	root	_	end_char=208|start_char=203
+3	like	like	VERB	VB	VerbForm=Inf	2	comp:aux	_	end_char=213|start_char=209
+4	to	to	PART	TO	_	3	comp:obl	_	end_char=216|start_char=214
+5	invite	invite	VERB	VB	VerbForm=Inf	4	comp:obj	_	end_char=223|start_char=217|Subject=SubjRaising
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	comp:obj	_	end_char=227|start_char=224
+7	for	for	ADP	IN	_	5	udep	_	end_char=231|start_char=228
+8	an	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	end_char=234|start_char=232
+9	interview	interview	NOUN	NN	Number=Sing	7	comp:obj	_	end_char=244|start_char=235
+10	at	at	ADP	IN	_	9	udep	_	end_char=247|start_char=245
+11	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	13	mod@poss	_	end_char=251|start_char=248
+12	Stockholm	Stockholm	PROPN	NNP	Number=Sing	13	compound	_	end_char=261|start_char=252
+13	office	office	NOUN	NN	Number=Sing	10	comp:obj	_	end_char=268|SpaceAfter=No|start_char=262
+14	.	.	PUNCT	.	_	2	punct	_	end_char=269|SpacesAfter=\n|start_char=268
+
+# text = Your interview is scheduled for Thursday 3 April, at 2 p.m.
+# sent_id = 2
+1	Your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	2	mod@poss	_	end_char=274|start_char=270
+2	interview	interview	NOUN	NN	Number=Sing	3	subj@pass	_	end_char=284|start_char=275
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=287|start_char=285
+4	scheduled	schedule	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	comp:aux@pass	_	end_char=297|start_char=288
+5	for	for	ADP	IN	_	4	udep	_	end_char=301|start_char=298
+6	Thursday	Thursday	PROPN	NNP	Number=Sing	5	comp:obj	_	end_char=310|start_char=302
+7	3	3	NUM	CD	NumForm=Digit|NumType=Card	8	mod	_	end_char=312|start_char=311
+8	April	April	PROPN	NNP	Number=Sing	4	udep@unmarked	_	end_char=318|SpaceAfter=No|start_char=313
+9	,	,	PUNCT	,	_	10	punct	_	end_char=319|start_char=318
+10	at	at	ADP	IN	_	4	udep	_	end_char=322|start_char=320
+11	2	2	NUM	CD	NumForm=Digit|NumType=Card	12	mod	_	end_char=324|start_char=323
+12	p.m	p.m.	NOUN	NN	Number=Sing	10	comp:obj	_	end_char=328|SpaceAfter=No|start_char=325
+13	.	.	PUNCT	.	_	3	punct	_	end_char=329|start_char=328
+
+# text = If this time or date is inconvenient for you, please contact me as soon as possible to rearrange the interview.
+# sent_id = 3
+1	If	if	SCONJ	IN	_	12	mod	_	end_char=332|start_char=330
+2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	_	end_char=337|start_char=333
+3	time	time	NOUN	NN	Number=Sing	6	subj	_	end_char=342|start_char=338
+4	or	or	CCONJ	CC	_	5	cc	_	end_char=345|start_char=343
+5	date	date	NOUN	NN	Number=Sing	3	conj:coord	_	end_char=350|start_char=346
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	end_char=353|start_char=351
+7	inconvenient	inconvenient	ADJ	JJ	Degree=Pos	6	comp:pred	_	end_char=366|start_char=354
+8	for	for	ADP	IN	_	7	udep	_	end_char=370|start_char=367
+9	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	8	comp:obj	_	end_char=374|SpaceAfter=No|start_char=371
+10	,	,	PUNCT	,	_	1	punct	_	end_char=375|start_char=374
+11	please	please	INTJ	UH	_	12	discourse	_	end_char=382|start_char=376
+12	contact	contact	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	end_char=390|start_char=383
+13	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	12	comp:obj	_	end_char=393|start_char=391
+14	as	as	ADV	RB	_	15	mod	_	end_char=396|start_char=394
+15	soon	soon	ADV	RB	Degree=Pos	12	mod	_	end_char=401|start_char=397
+16	as	as	SCONJ	IN	_	15	mod	_	end_char=404|start_char=402
+17	possible	possible	ADJ	JJ	Degree=Pos	16	comp:obj	_	end_char=413|start_char=405
+18	to	to	PART	TO	_	15	mod	_	end_char=416|start_char=414
+19	rearrange	rearrange	VERB	VB	VerbForm=Inf	18	comp:obj	_	end_char=426|start_char=417
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	end_char=430|start_char=427
+21	interview	interview	NOUN	NN	Number=Sing	19	comp:obj	_	end_char=440|SpaceAfter=No|start_char=431
+22	.	.	PUNCT	.	_	12	punct	_	end_char=441|SpacesAfter=\n|start_char=440
+
+# text = At the interview, you will meet our head of HR, Mr Liam Andersson, and our head of IT, Ms Elsa Wallin.
+# sent_id = 4
+1	At	at	ADP	IN	_	6	udep	_	end_char=444|start_char=442
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	end_char=448|start_char=445
+3	interview	interview	NOUN	NN	Number=Sing	1	comp:obj	_	end_char=458|SpaceAfter=No|start_char=449
+4	,	,	PUNCT	,	_	1	punct	_	end_char=459|start_char=458
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	subj	_	end_char=463|start_char=460
+6	will	will	AUX	MD	VerbForm=Fin	0	root	_	end_char=468|start_char=464
+7	meet	meet	VERB	VB	VerbForm=Inf	6	comp:aux	_	end_char=473|start_char=469
+8	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs|Shared=No	9	mod@poss	_	end_char=477|start_char=474
+9	head	head	NOUN	NN	Number=Sing	7	comp:obj	_	end_char=482|start_char=478
+10	of	of	ADP	IN	_	9	udep	_	end_char=485|start_char=483
+11	HR	HR	NOUN	NN	Number=Sing	10	comp:obj	_	end_char=488|SpaceAfter=No|start_char=486
+12	,	,	PUNCT	,	_	13	punct	_	end_char=489|start_char=488
+13	Mr	Mr	PROPN	NNP	Number=Sing	11	conj:coord	_	end_char=492|start_char=490
+14	Liam	Liam	PROPN	NNP	Number=Sing|Shared=No	13	flat	_	end_char=497|start_char=493
+15	Andersson	Andersson	PROPN	NNP	Number=Sing	14	flat	_	end_char=507|SpaceAfter=No|start_char=498
+16	,	,	PUNCT	,	_	19	punct	_	end_char=508|start_char=507
+17	and	and	CCONJ	CC	_	19	cc	_	end_char=512|start_char=509
+18	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	19	mod@poss	_	end_char=516|start_char=513
+19	head	head	NOUN	NN	Number=Sing	9	conj:coord	_	end_char=521|start_char=517
+20	of	of	ADP	IN	Shared=No	19	udep	_	end_char=524|start_char=522
+21	IT	IT	NOUN	NN	Number=Sing	20	comp:obj	_	end_char=527|SpaceAfter=No|start_char=525
+22	,	,	PUNCT	,	_	23	punct	_	end_char=528|start_char=527
+23	Ms	Ms	PROPN	NNP	Number=Sing|Shared=No	19	conj:appos	_	end_char=531|start_char=529
+24	Elsa	Elsa	PROPN	NNP	Number=Sing	23	flat	_	end_char=536|start_char=532
+25	Wallin	Wallin	PROPN	NNP	Number=Sing	24	flat	_	end_char=543|SpaceAfter=No|start_char=537
+26	.	.	PUNCT	.	_	6	punct	_	end_char=544|start_char=543
+
+# text = They will be telling you more about the job and getting to know you better.
+# sent_id = 5
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	subj	_	end_char=549|start_char=545
+2	will	will	AUX	MD	VerbForm=Fin	0	root	_	end_char=554|start_char=550
+3	be	be	AUX	VB	VerbForm=Inf	2	comp:aux	_	end_char=557|start_char=555
+4	telling	tell	VERB	VBG	Tense=Pres|VerbForm=Part	3	comp:aux	_	end_char=565|start_char=558
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	comp:obl	_	end_char=569|start_char=566
+6	more	more	ADJ	JJR	Degree=Cmp	4	comp:obj	_	end_char=574|start_char=570
+7	about	about	ADP	IN	_	6	udep	_	end_char=580|start_char=575
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	end_char=584|start_char=581
+9	job	job	NOUN	NN	Number=Sing	7	comp:obj	_	end_char=588|start_char=585
+10	and	and	CCONJ	CC	_	11	cc	_	end_char=592|start_char=589
+11	getting	get	VERB	VBG	Tense=Pres|VerbForm=Part	4	conj:coord	_	end_char=600|start_char=593
+12	to	to	PART	TO	Shared=No	11	comp:obl	_	end_char=603|start_char=601
+13	know	know	VERB	VB	VerbForm=Inf	12	comp:obj	_	end_char=608|start_char=604|Subject=SubjRaising
+14	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	13	comp:obj	_	end_char=612|start_char=609
+15	better	good	ADJ	JJR	Degree=Cmp	13	comp:pred	_	end_char=619|SpaceAfter=No|start_char=613
+16	.	.	PUNCT	.	_	2	punct	_	end_char=620|start_char=619
+
+# text = You will also have the opportunity to ask questions about the position and the company, and to see the office.
+# sent_id = 6
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	subj	_	end_char=624|start_char=621
+2	will	will	AUX	MD	VerbForm=Fin	0	root	_	end_char=629|start_char=625
+3	also	also	ADV	RB	_	2	mod	_	end_char=634|start_char=630
+4	have	have	VERB	VB	VerbForm=Inf	2	comp:aux	_	end_char=639|start_char=635
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	end_char=643|start_char=640
+6	opportunity	opportunity	NOUN	NN	Number=Sing	4	comp:obj	_	end_char=655|start_char=644
+7	to	to	PART	TO	_	6	udep	_	end_char=658|start_char=656
+8	ask	ask	VERB	VB	VerbForm=Inf	7	comp:obj	_	end_char=662|start_char=659
+9	questions	question	NOUN	NNS	Number=Plur	8	comp:obj	_	end_char=672|start_char=663
+10	about	about	ADP	IN	_	9	udep	_	end_char=678|start_char=673
+11	the	the	DET	DT	Definite=Def|PronType=Art|Shared=No	12	det	_	end_char=682|start_char=679
+12	position	position	NOUN	NN	Number=Sing	10	comp:obj	_	end_char=691|start_char=683
+13	and	and	CCONJ	CC	_	15	cc	_	end_char=695|start_char=692
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	end_char=699|start_char=696
+15	company	company	NOUN	NN	Number=Sing	12	conj:coord	_	end_char=707|SpaceAfter=No|start_char=700
+16	,	,	PUNCT	,	_	18	punct	_	end_char=708|start_char=707
+17	and	and	CCONJ	CC	_	18	cc	_	end_char=712|start_char=709
+18	to	to	PART	TO	_	7	conj:coord	_	end_char=715|start_char=713
+19	see	see	VERB	VB	Shared=No|VerbForm=Inf	18	comp:obj	_	end_char=719|start_char=716
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	end_char=723|start_char=720
+21	office	office	NOUN	NN	Number=Sing	19	comp:obj	_	end_char=730|SpaceAfter=No|start_char=724
+22	.	.	PUNCT	.	_	2	punct	_	end_char=731|start_char=730
+
+# text = The interview will last for about 60 minutes.
+# sent_id = 7
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	end_char=735|start_char=732
+2	interview	interview	NOUN	NN	Number=Sing	3	subj	_	end_char=745|start_char=736
+3	will	will	AUX	MD	VerbForm=Fin	0	root	_	end_char=750|start_char=746
+4	last	last	VERB	VB	VerbForm=Inf	3	comp:aux	_	end_char=755|start_char=751
+5	for	for	ADP	IN	_	4	udep	_	end_char=759|start_char=756
+6	about	about	ADV	RB	_	7	mod	_	end_char=765|start_char=760
+7	60	60	NUM	CD	NumForm=Digit|NumType=Card	8	mod	_	end_char=768|start_char=766
+8	minutes	minute	NOUN	NNS	Number=Plur	5	comp:obj	_	end_char=776|SpaceAfter=No|start_char=769
+9	.	.	PUNCT	.	_	3	punct	_	end_char=777|start_char=776
+
+# text = Please bring two references with you for the interview.
+# sent_id = 8
+1	Please	please	INTJ	UH	_	2	discourse	_	end_char=784|start_char=778
+2	bring	bring	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	end_char=790|start_char=785
+3	two	two	NUM	CD	NumForm=Word|NumType=Card	4	mod	_	end_char=794|start_char=791
+4	references	reference	NOUN	NNS	Number=Plur	2	comp:obj	_	end_char=805|start_char=795
+5	with	with	ADP	IN	_	2	udep	_	end_char=810|start_char=806
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	comp:obj	_	end_char=814|start_char=811
+7	for	for	ADP	IN	_	2	udep	_	end_char=818|start_char=815
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	end_char=822|start_char=819
+9	interview	interview	NOUN	NN	Number=Sing	7	comp:obj	_	end_char=832|SpaceAfter=No|start_char=823
+10	.	.	PUNCT	.	_	2	punct	_	end_char=833|SpacesAfter=\n|start_char=832
+
+# text = Our offices are located on Kungsbron 2, which is a six-minute walk from Stockholm Central Station.
+# sent_id = 9
+1	Our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	mod@poss	_	end_char=837|start_char=834
+2	offices	office	NOUN	NNS	Number=Plur	3	subj@pass	_	end_char=845|start_char=838
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=849|start_char=846
+4	located	locate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	comp:aux@pass	_	end_char=857|start_char=850
+5	on	on	ADP	IN	_	4	udep	_	end_char=860|start_char=858
+6	Kungsbron	Kungsbron	PROPN	NNP	Number=Sing	5	comp:obj	_	end_char=870|start_char=861
+7	2	2	NUM	CD	NumForm=Digit|NumType=Card	6	mod	_	end_char=872|SpaceAfter=No|start_char=871
+8	,	,	PUNCT	,	_	10	punct	_	end_char=873|start_char=872
+9	which	which	PRON	WDT	PronType=Rel	10	subj	_	end_char=879|start_char=874
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	mod@relcl	_	end_char=882|start_char=880
+11	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	end_char=884|start_char=883
+12	six	six	NUM	CD	NumForm=Word|NumType=Card	14	mod	_	end_char=888|SpaceAfter=No|start_char=885
+13	-	-	PUNCT	HYPH	_	12	punct	_	end_char=889|SpaceAfter=No|start_char=888
+14	minute	minute	NOUN	NN	Number=Sing	15	compound	_	end_char=895|start_char=889
+15	walk	walk	NOUN	NN	Number=Sing	10	comp:pred	_	end_char=900|start_char=896
+16	from	from	ADP	IN	_	15	udep	_	end_char=905|start_char=901
+17	Stockholm	Stockholm	PROPN	NNP	Number=Sing	19	compound	_	end_char=915|start_char=906
+18	Central	Central	ADJ	NNP	Degree=Pos	19	mod	_	end_char=923|start_char=916
+19	Station	Station	PROPN	NNP	Number=Sing	16	comp:obj	_	end_char=931|SpaceAfter=No|start_char=924
+20	.	.	PUNCT	.	_	3	punct	_	end_char=932|start_char=931
+
+# text = When you arrive, please ask for Mr Liam Andersson at the reception.
+# sent_id = 10
+1	When	when	ADV	WRB	PronType=Int	3	mod	_	end_char=937|start_char=933
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	subj	_	end_char=941|start_char=938
+3	arrive	arrive	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	mod	_	end_char=948|SpaceAfter=No|start_char=942
+4	,	,	PUNCT	,	_	3	punct	_	end_char=949|start_char=948
+5	please	please	INTJ	UH	_	6	discourse	_	end_char=956|start_char=950
+6	ask	ask	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	end_char=960|start_char=957
+7	for	for	ADP	IN	_	6	udep	_	end_char=964|start_char=961
+8	Mr	Mr	PROPN	NNP	Number=Sing	7	comp:obj	_	end_char=967|start_char=965
+9	Liam	Liam	PROPN	NNP	Number=Sing	8	flat	_	end_char=972|start_char=968
+10	Andersson	Andersson	PROPN	NNP	Number=Sing	9	flat	_	end_char=982|start_char=973
+11	at	at	ADP	IN	_	6	udep	_	end_char=985|start_char=983
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	end_char=989|start_char=986
+13	reception	reception	NOUN	NN	Number=Sing	11	comp:obj	_	end_char=999|SpaceAfter=No|start_char=990
+14	.	.	PUNCT	.	_	6	punct	_	end_char=1000|SpacesAfter=\n|start_char=999
+
+# text = We look forward to hearing from you soon.
+# sent_id = 11
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	subj	_	end_char=1003|start_char=1001
+2	look	look	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	end_char=1008|start_char=1004
+3	forward	forward	ADV	RB	_	2	mod	_	end_char=1016|start_char=1009
+4	to	to	SCONJ	IN	_	2	mod	_	end_char=1019|start_char=1017
+5	hearing	hear	VERB	VBG	Tense=Pres|VerbForm=Part	4	comp:obj	_	end_char=1027|start_char=1020
+6	from	from	ADP	IN	_	5	udep	_	end_char=1032|start_char=1028
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	6	comp:obj	_	end_char=1036|start_char=1033
+8	soon	soon	ADV	RB	Degree=Pos	5	mod	_	end_char=1041|SpaceAfter=No|start_char=1037
+9	.	.	PUNCT	.	_	2	punct	_	end_char=1042|SpacesAfter=\n|start_char=1041
+
+# text = Best regards, Maja Jakobsson HR Officer
+# sent_id = 12
+1	Best	good	ADJ	JJS	Degree=Sup	2	mod	_	end_char=1047|start_char=1043
+2	regards	regards	NOUN	NNS	Number=Ptan	0	root	_	end_char=1055|SpaceAfter=No|start_char=1048
+3	,	,	PUNCT	,	_	4	punct	_	end_char=1056|SpacesAfter=\n|start_char=1055
+4	Maja	Maja	PROPN	NNP	Number=Sing	2	conj:appos	_	end_char=1061|start_char=1057
+5	Jakobsson	Jakobsson	PROPN	NNP	Number=Sing	4	flat	_	end_char=1071|SpacesAfter=\n|start_char=1062
+6	HR	HR	NOUN	NN	Number=Sing	7	compound	_	end_char=1074|start_char=1072
+7	Officer	officer	NOUN	NN	Number=Sing	4	conj:appos	_	end_char=1082|SpaceAfter=No|start_char=1075
+

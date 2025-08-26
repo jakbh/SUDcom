@@ -1,0 +1,463 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# text = I had the most wonderful childhood.
+# sent_id = 0
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	end_char=1|start_char=0
+2	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	end_char=5|start_char=2
+3	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	end_char=9|start_char=6
+4	most	most	ADV	RBS	Degree=Sup	5	mod	_	end_char=14|start_char=10
+5	wonderful	wonderful	ADJ	JJ	Degree=Pos	6	mod	_	end_char=24|start_char=15
+6	childhood	childhood	NOUN	NN	Number=Sing	2	comp:obj	_	end_char=34|SpaceAfter=No|start_char=25
+7	.	.	PUNCT	.	_	2	punct	_	end_char=35|start_char=34
+
+# text = I grew up in San Diego, where it rains about two days a year, and it's always sunny and bright.
+# sent_id = 1
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs|Shared=No	2	subj	_	end_char=37|start_char=36
+2	grew	grow	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	end_char=42|start_char=38
+3	up	up	ADP	RP	_	2	compound@prt	_	end_char=45|start_char=43
+4	in	in	ADP	IN	_	2	udep	_	end_char=48|start_char=46
+5	San	San	PROPN	NNP	Number=Sing	4	comp:obj	_	end_char=52|start_char=49
+6	Diego	Diego	PROPN	NNP	Number=Sing	5	flat	_	end_char=58|SpaceAfter=No|start_char=53
+7	,	,	PUNCT	,	_	10	punct	_	end_char=59|start_char=58
+8	where	where	ADV	WRB	PronType=Rel	10	mod	_	end_char=65|start_char=60
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	subj	_	end_char=68|start_char=66
+10	rains	rain	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	mod@relcl	_	end_char=74|start_char=69
+11	about	about	ADV	RB	_	12	mod	_	end_char=80|start_char=75
+12	two	two	NUM	CD	NumForm=Word|NumType=Card	13	mod	_	end_char=84|start_char=81
+13	days	day	NOUN	NNS	Number=Plur	10	udep@unmarked	_	end_char=89|start_char=85
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	end_char=91|start_char=90
+15	year	year	NOUN	NN	Number=Sing	10	udep@unmarked	_	end_char=96|SpaceAfter=No|start_char=92
+16	,	,	PUNCT	,	_	19	punct	_	end_char=97|start_char=96
+17	and	and	CCONJ	CC	_	19	cc	_	end_char=101|start_char=98
+18-19	it's	_	_	_	_	_	_	_	end_char=106|start_char=102
+18	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	subj	_	end_char=104|start_char=102
+19	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj:coord	_	end_char=106|start_char=104
+20	always	always	ADV	RB	PronType=Tot|Shared=No	19	mod	_	end_char=113|start_char=107
+21	sunny	sunny	ADJ	JJ	Degree=Pos|Shared=No	19	comp:pred	_	end_char=119|start_char=114
+22	and	and	CCONJ	CC	_	23	cc	_	end_char=123|start_char=120
+23	bright	bright	ADJ	JJ	Degree=Pos	21	conj:coord	_	end_char=130|SpaceAfter=No|start_char=124
+24	.	.	PUNCT	.	_	2	punct	_	end_char=131|start_char=130
+
+# text = I could ride my bike just about any day of the year, and had lots of friends.
+# sent_id = 2
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs|Shared=Yes	2	subj	_	end_char=133|start_char=132
+2	could	could	AUX	MD	VerbForm=Fin	0	root	_	end_char=139|start_char=134
+3	ride	ride	VERB	VB	VerbForm=Inf	2	comp:aux	_	end_char=144|start_char=140
+4	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	mod@poss	_	end_char=147|start_char=145
+5	bike	bike	NOUN	NN	Number=Sing	3	comp:obj	_	end_char=152|start_char=148
+6	just	just	ADV	RB	_	9	mod	_	end_char=157|start_char=153
+7	about	about	ADV	RB	_	9	mod	_	end_char=163|start_char=158
+8	any	any	DET	DT	PronType=Ind	9	det	_	end_char=167|start_char=164
+9	day	day	NOUN	NN	Number=Sing	3	udep@unmarked	_	end_char=171|start_char=168
+10	of	of	ADP	IN	_	9	udep	_	end_char=174|start_char=172
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	end_char=178|start_char=175
+12	year	year	NOUN	NN	Number=Sing	10	comp:obj	_	end_char=183|SpaceAfter=No|start_char=179
+13	,	,	PUNCT	,	_	15	punct	_	end_char=184|start_char=183
+14	and	and	CCONJ	CC	_	15	cc	_	end_char=188|start_char=185
+15	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	conj:coord	_	end_char=192|start_char=189
+16	lots	lot	NOUN	NNS	Number=Plur|Shared=No	15	comp:obj	_	end_char=197|start_char=193
+17	of	of	ADP	IN	_	16	udep	_	end_char=200|start_char=198
+18	friends	friend	NOUN	NNS	Number=Plur	17	comp:obj	_	end_char=208|SpaceAfter=No|start_char=201
+19	.	.	PUNCT	.	_	2	punct	_	end_char=209|start_char=208
+
+# text = My best friend was George Kenny.
+# sent_id = 3
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	mod@poss	_	end_char=212|start_char=210
+2	best	good	ADJ	JJS	Degree=Sup	3	mod	_	end_char=217|start_char=213
+3	friend	friend	NOUN	NN	Number=Sing	4	subj	_	end_char=224|start_char=218
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=228|start_char=225
+5	George	George	PROPN	NNP	Number=Sing	4	comp:pred	_	end_char=235|start_char=229
+6	Kenny	Kenny	PROPN	NNP	Number=Sing	5	flat	_	end_char=241|SpaceAfter=No|start_char=236
+7	.	.	PUNCT	.	_	4	punct	_	end_char=242|start_char=241
+
+# text = George lived just a few houses down the block from me and we were the same age.
+# sent_id = 4
+1	George	George	PROPN	NNP	Number=Sing|Shared=No	2	subj	_	end_char=249|start_char=243
+2	lived	live	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=255|start_char=250
+3	just	just	ADV	RB	_	6	mod	_	end_char=260|start_char=256
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	end_char=262|start_char=261
+5	few	few	ADJ	JJ	Degree=Pos	6	mod	_	end_char=266|start_char=263
+6	houses	house	NOUN	NNS	Number=Plur	2	comp:obj	_	end_char=273|start_char=267
+7	down	down	ADP	IN	_	2	udep	_	end_char=278|start_char=274
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	end_char=282|start_char=279
+9	block	block	NOUN	NN	Number=Sing	7	comp:obj	_	end_char=288|start_char=283
+10	from	from	ADP	IN	_	2	udep	_	end_char=293|start_char=289
+11	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	comp:obj	_	end_char=296|start_char=294
+12	and	and	CCONJ	CC	_	14	cc	_	end_char=300|start_char=297
+13	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	subj	_	end_char=303|start_char=301
+14	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	2	conj:coord	_	end_char=308|start_char=304
+15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	end_char=312|start_char=309
+16	same	same	ADJ	JJ	Degree=Pos	17	mod	_	end_char=317|start_char=313
+17	age	age	NOUN	NN	Number=Sing|Shared=No	14	comp:pred	_	end_char=321|SpaceAfter=No|start_char=318
+18	.	.	PUNCT	.	_	2	punct	_	end_char=322|start_char=321
+
+# text = Actually, I was about 28 days older than him – a fact that I always threw in his face.
+# sent_id = 5
+1	Actually	actually	ADV	RB	_	4	mod	_	end_char=331|SpaceAfter=No|start_char=323
+2	,	,	PUNCT	,	_	1	punct	_	end_char=332|start_char=331
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	subj	_	end_char=334|start_char=333
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	end_char=338|start_char=335
+5	about	about	ADV	RB	_	6	mod	_	end_char=344|start_char=339
+6	28	28	NUM	CD	NumForm=Digit|NumType=Card	7	mod	_	end_char=347|start_char=345
+7	days	day	NOUN	NNS	Number=Plur	8	udep@unmarked	_	end_char=352|start_char=348
+8	older	old	ADJ	JJR	Degree=Cmp	4	comp:pred	_	end_char=358|start_char=353
+9	than	than	ADP	IN	_	8	udep	_	end_char=363|start_char=359
+10	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	comp:obj	_	end_char=367|start_char=364
+11	–	-	PUNCT	:	_	13	punct	_	end_char=369|start_char=368
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	end_char=371|start_char=370
+13	fact	fact	NOUN	NN	Number=Sing	4	parataxis	_	end_char=376|start_char=372
+14	that	that	PRON	WDT	PronType=Rel	17	comp:obj	_	end_char=381|start_char=377
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	subj	_	end_char=383|start_char=382
+16	always	always	ADV	RB	PronType=Tot	17	mod	_	end_char=390|start_char=384
+17	threw	throw	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	13	mod@relcl	_	end_char=396|start_char=391
+18	in	in	ADP	IN	_	17	udep	_	end_char=399|start_char=397
+19	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	mod@poss	_	end_char=403|start_char=400
+20	face	face	NOUN	NN	Number=Sing	18	comp:obj	_	end_char=408|SpaceAfter=No|start_char=404
+21	.	.	PUNCT	.	_	4	punct	_	end_char=409|start_char=408
+
+# text = "You must respect your elders," I would sometimes tell him.
+# sent_id = 6
+1	"	"	PUNCT	``	_	3	punct	_	end_char=411|SpaceAfter=No|start_char=410
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	subj	_	end_char=414|start_char=411
+3	must	must	AUX	MD	VerbForm=Fin	12	comp:obj	_	end_char=419|start_char=415
+4	respect	respect	VERB	VB	VerbForm=Inf	3	comp:aux	_	end_char=427|start_char=420
+5	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	6	mod@poss	_	end_char=432|start_char=428
+6	elders	elder	NOUN	NNS	Number=Plur	4	comp:obj	_	end_char=439|SpaceAfter=No|start_char=433
+7	,	,	PUNCT	,	_	3	punct	_	end_char=440|SpaceAfter=No|start_char=439
+8	"	"	PUNCT	''	_	3	punct	_	end_char=441|start_char=440
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	subj	_	end_char=443|start_char=442
+10	would	would	AUX	MD	VerbForm=Fin	0	root	_	end_char=449|start_char=444
+11	sometimes	sometimes	ADV	RB	PronType=Ind	10	mod	_	end_char=459|start_char=450
+12	tell	tell	VERB	VB	VerbForm=Inf	10	comp:aux	_	end_char=464|start_char=460
+13	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	comp:obl	_	end_char=468|SpaceAfter=No|start_char=465
+14	.	.	PUNCT	.	_	10	punct	_	end_char=469|start_char=468
+
+# text = That usually got a nasty response from him.
+# sent_id = 7
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	3	subj	_	end_char=474|start_char=470
+2	usually	usually	ADV	RB	_	3	mod	_	end_char=482|start_char=475
+3	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=486|start_char=483
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	end_char=488|start_char=487
+5	nasty	nasty	ADJ	JJ	Degree=Pos	6	mod	_	end_char=494|start_char=489
+6	response	response	NOUN	NN	Number=Sing	3	comp:obj	_	end_char=503|start_char=495
+7	from	from	ADP	IN	_	6	udep	_	end_char=508|start_char=504
+8	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	comp:obj	_	end_char=512|SpaceAfter=No|start_char=509
+9	.	.	PUNCT	.	_	3	punct	_	end_char=513|start_char=512
+
+# text = Anyway, George came up to me one day and said, "Hey Richard, why don't we form a bicycle club?"
+# sent_id = 8
+1	Anyway	anyway	INTJ	UH	Shared=Yes	4	discourse	_	end_char=520|SpaceAfter=No|start_char=514
+2	,	,	PUNCT	,	_	1	punct	_	end_char=521|start_char=520
+3	George	George	PROPN	NNP	Number=Sing|Shared=Yes	4	subj	_	end_char=528|start_char=522
+4	came	come	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=533|start_char=529
+5	up	up	ADP	RP	_	4	compound@prt	_	end_char=536|start_char=534
+6	to	to	ADP	IN	_	4	udep	_	end_char=539|start_char=537
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	comp:obj	_	end_char=542|start_char=540
+8	one	one	NUM	CD	NumForm=Word|NumType=Card	9	mod	_	end_char=546|start_char=543
+9	day	day	NOUN	NN	Number=Sing	4	udep@unmarked	_	end_char=550|start_char=547
+10	and	and	CCONJ	CC	_	11	cc	_	end_char=554|start_char=551
+11	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj:coord	_	end_char=559|SpaceAfter=No|start_char=555
+12	,	,	PUNCT	,	_	18	punct	_	end_char=560|start_char=559
+13	"	"	PUNCT	``	_	18	punct	_	end_char=562|SpaceAfter=No|start_char=561
+14	Hey	hey	INTJ	UH	_	18	discourse	_	end_char=565|start_char=562
+15	Richard	Richard	PROPN	NNP	Number=Sing	18	vocative	_	end_char=573|SpaceAfter=No|start_char=566
+16	,	,	PUNCT	,	_	15	punct	_	end_char=574|start_char=573
+17	why	why	ADV	WRB	PronType=Int	18	mod	_	end_char=578|start_char=575
+18-19	don't	_	_	_	_	_	_	_	end_char=584|start_char=579
+18	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Shared=No|Tense=Pres|VerbForm=Fin	11	comp:obj	_	end_char=581|start_char=579
+19	n't	not	PART	RB	Polarity=Neg	18	mod	_	end_char=584|start_char=581
+20	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	subj	_	end_char=587|start_char=585
+21	form	form	VERB	VB	VerbForm=Inf	18	comp:aux	_	end_char=592|start_char=588
+22	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	end_char=594|start_char=593
+23	bicycle	bicycle	NOUN	NN	Number=Sing	24	compound	_	end_char=602|start_char=595
+24	club	club	NOUN	NN	Number=Sing	21	comp:obj	_	end_char=607|SpaceAfter=No|start_char=603
+25	?	?	PUNCT	.	_	18	punct	_	end_char=608|SpaceAfter=No|start_char=607
+26	"	"	PUNCT	''	_	18	punct	_	end_char=609|SpacesAfter=\n\s\n|start_char=608
+
+# text = I thought about it for a while, and then he said, "We could give ourselves a cool name and get hats and stickers and have lots of fun.
+# sent_id = 9
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs|Shared=No	2	subj	_	end_char=613|start_char=612
+2	thought	think	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	end_char=621|start_char=614
+3	about	about	ADP	IN	_	2	udep	_	end_char=627|start_char=622
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	comp:obj	_	end_char=630|start_char=628
+5	for	for	ADP	IN	_	2	udep	_	end_char=634|start_char=631
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	end_char=636|start_char=635
+7	while	while	NOUN	NN	Number=Sing	5	comp:obj	_	end_char=642|SpaceAfter=No|start_char=637
+8	,	,	PUNCT	,	_	12	punct	_	end_char=643|start_char=642
+9	and	and	CCONJ	CC	_	12	cc	_	end_char=647|start_char=644
+10	then	then	ADV	RB	PronType=Dem	12	mod	_	end_char=652|start_char=648
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	subj	_	end_char=655|start_char=653
+12	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj:coord	_	end_char=660|SpaceAfter=No|start_char=656
+13	,	,	PUNCT	,	_	16	punct	_	end_char=661|start_char=660
+14	"	"	PUNCT	``	_	16	punct	_	end_char=663|SpaceAfter=No|start_char=662
+15	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	subj	_	end_char=665|start_char=663
+16	could	could	AUX	MD	Shared=No|VerbForm=Fin	12	comp:obj	_	end_char=671|start_char=666
+17	give	give	VERB	VB	VerbForm=Inf	16	comp:aux	_	end_char=676|start_char=672
+18	ourselves	ourselves	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs|Reflex=Yes	17	comp:obl	_	end_char=686|start_char=677
+19	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	end_char=688|start_char=687
+20	cool	cool	ADJ	JJ	Degree=Pos	21	mod	_	end_char=693|start_char=689
+21	name	name	NOUN	NN	Number=Sing	17	comp:obj	_	end_char=698|start_char=694
+22	and	and	CCONJ	CC	Shared=Yes	23	cc	_	end_char=702|start_char=699
+23	get	get	VERB	VB	VerbForm=Inf	17	conj:coord	_	end_char=706|start_char=703
+24	hats	hat	NOUN	NNS	Number=Plur	23	comp:obj	_	end_char=711|start_char=707
+25	and	and	CCONJ	CC	_	26	cc	_	end_char=715|start_char=712
+26	stickers	sticker	NOUN	NNS	Number=Plur	24	conj:coord	_	end_char=724|start_char=716
+27	and	and	CCONJ	CC	_	28	cc	_	end_char=728|start_char=725
+28	have	have	VERB	VB	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	23	conj:coord@emb	_	end_char=733|start_char=729
+29	lots	lot	NOUN	NNS	Number=Plur|Shared=No	28	comp:obj	_	end_char=738|start_char=734
+30	of	of	ADP	IN	_	29	udep	_	end_char=741|start_char=739
+31	fun	fun	NOUN	NN	Number=Sing	30	comp:obj	_	end_char=745|SpaceAfter=No|start_char=742
+32	.	.	PUNCT	.	_	2	punct	_	end_char=746|start_char=745
+
+# text = What do you say?" I immediately fell in love with the idea.
+# sent_id = 10
+1	What	what	PRON	WP	PronType=Int	4	comp:obj	_	end_char=751|start_char=747
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	comp:obj	_	end_char=754|start_char=752
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	subj	_	end_char=758|start_char=755
+4	say	say	VERB	VB	VerbForm=Inf	2	comp:aux	_	end_char=762|SpaceAfter=No|start_char=759
+5	?	?	PUNCT	.	_	2	punct	_	end_char=763|SpaceAfter=No|start_char=762
+6	"	"	PUNCT	''	_	2	punct	_	end_char=764|SpacesAfter=\s\s|start_char=763
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	subj	_	end_char=767|start_char=766
+8	immediately	immediately	ADV	RB	_	9	mod	_	end_char=779|start_char=768
+9	fell	fall	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	end_char=784|start_char=780
+10	in	in	ADP	IN	_	9	udep	_	end_char=787|start_char=785
+11	love	love	NOUN	NN	Number=Sing	10	comp:obj	_	end_char=792|start_char=788
+12	with	with	ADP	IN	_	9	udep	_	end_char=797|start_char=793
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	end_char=801|start_char=798
+14	idea	idea	NOUN	NN	Number=Sing	12	comp:obj	_	end_char=806|SpaceAfter=No|start_char=802
+15	.	.	PUNCT	.	_	9	punct	_	end_char=807|start_char=806
+
+# text = "You bet, Georgie Porgy!"
+# sent_id = 11
+1	"	"	PUNCT	``	_	3	punct	_	end_char=809|SpaceAfter=No|start_char=808
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	subj	_	end_char=812|start_char=809
+3	bet	bet	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	end_char=816|SpaceAfter=No|start_char=813
+4	,	,	PUNCT	,	_	5	punct	_	end_char=817|start_char=816
+5	Georgie	Georgie	PROPN	NNP	Number=Sing	3	vocative	_	end_char=825|start_char=818
+6	Porgy	Porgy	PROPN	NNP	Number=Sing	5	flat	_	end_char=831|SpaceAfter=No|start_char=826
+7	!	!	PUNCT	.	_	3	punct	_	end_char=832|SpaceAfter=No|start_char=831
+8	"	"	PUNCT	''	_	3	punct	_	end_char=833|SpacesAfter=\s\s|start_char=832
+
+# text = I used to call him that all the time even though I knew he hated it.
+# sent_id = 12
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	end_char=836|start_char=835
+2	used	use	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	end_char=841|start_char=837
+3	to	to	PART	TO	_	2	comp:obl	_	end_char=844|start_char=842
+4	call	call	VERB	VB	VerbForm=Inf	3	comp:obj	_	end_char=849|start_char=845|Subject=SubjRaising
+5	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	comp:obl	_	end_char=853|start_char=850
+6	that	that	PRON	DT	Number=Sing|PronType=Dem	4	comp:obj	_	end_char=858|start_char=854
+7	all	all	DET	PDT	PronType=Tot	9	det@predet	_	end_char=862|start_char=859
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	end_char=866|start_char=863
+9	time	time	NOUN	NN	Number=Sing	4	udep@unmarked	_	end_char=871|start_char=867
+10	even	even	ADV	RB	_	11	mod	_	end_char=876|start_char=872
+11	though	though	SCONJ	IN	_	4	mod	_	end_char=883|start_char=877
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	subj	_	end_char=885|start_char=884
+13	knew	know	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	11	comp:obj	_	end_char=890|start_char=886
+14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	subj	_	end_char=893|start_char=891
+15	hated	hate	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	comp:obj	_	end_char=899|start_char=894
+16	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	comp:obj	_	end_char=902|SpaceAfter=No|start_char=900
+17	.	.	PUNCT	.	_	2	punct	_	end_char=903|start_char=902
+
+# text = Well before we knew it, we got a couple of other guys together and came up with the best name for a club ever.
+# sent_id = 13
+1	Well	well	INTJ	UH	Shared=Yes	8	discourse	_	end_char=908|start_char=904
+2	before	before	SCONJ	IN	Shared=Yes	8	mod	_	end_char=915|start_char=909
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	subj	_	end_char=918|start_char=916
+4	knew	know	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	2	comp:obj	_	end_char=923|start_char=919
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	end_char=926|SpaceAfter=No|start_char=924
+6	,	,	PUNCT	,	_	2	punct	_	end_char=927|start_char=926
+7	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs|Shared=Yes	8	subj	_	end_char=930|start_char=928
+8	got	get	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	end_char=934|start_char=931
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	end_char=936|start_char=935
+10	couple	couple	NOUN	NN	Number=Sing	8	comp:obj	_	end_char=943|start_char=937
+11	of	of	ADP	IN	_	10	udep	_	end_char=946|start_char=944
+12	other	other	ADJ	JJ	Degree=Pos	13	mod	_	end_char=952|start_char=947
+13	guys	guy	NOUN	NNS	Number=Plur	11	comp:obj	_	end_char=957|start_char=953
+14	together	together	ADV	RB	_	8	mod	_	end_char=966|start_char=958
+15	and	and	CCONJ	CC	_	16	cc	_	end_char=970|start_char=967
+16	came	come	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	8	conj:coord	_	end_char=975|start_char=971
+17	up	up	ADP	RP	Shared=No	16	compound@prt	_	end_char=978|start_char=976
+18	with	with	ADP	IN	Shared=No	16	udep	_	end_char=983|start_char=979
+19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	end_char=987|start_char=984
+20	best	good	ADJ	JJS	Degree=Sup	21	mod	_	end_char=992|start_char=988
+21	name	name	NOUN	NN	Number=Sing	18	comp:obj	_	end_char=997|start_char=993
+22	for	for	ADP	IN	_	21	udep	_	end_char=1001|start_char=998
+23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	end_char=1003|start_char=1002
+24	club	club	NOUN	NN	Number=Sing	22	comp:obj	_	end_char=1008|start_char=1004
+25	ever	ever	ADV	RB	PronType=Ind|Shared=No	16	mod	_	end_char=1013|SpaceAfter=No|start_char=1009
+26	.	.	PUNCT	.	_	8	punct	_	end_char=1014|start_char=1013
+
+# text = We were the "White Skulls."
+# sent_id = 14
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	subj	_	end_char=1017|start_char=1015
+2	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	end_char=1022|start_char=1018
+3	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	end_char=1026|start_char=1023
+4	"	"	PUNCT	``	_	6	punct	_	end_char=1028|SpaceAfter=No|start_char=1027
+5	White	White	ADJ	NNP	Degree=Pos	6	mod	_	end_char=1033|start_char=1028
+6	Skulls	Skulls	PROPN	NNPS	Number=Plur	2	comp:pred	_	end_char=1040|SpaceAfter=No|start_char=1034
+7	.	.	PUNCT	.	_	6	punct	_	end_char=1041|SpaceAfter=No|start_char=1040
+8	"	"	PUNCT	''	_	6	punct	_	end_char=1042|SpacesAfter=\s\s|start_char=1041
+
+# text = Why we chose that name, I'll never know, but all the kids seemed to like it, so I was okay with it, too.
+# sent_id = 15
+1	Why	why	ADV	WRB	PronType=Int	3	mod	_	end_char=1047|start_char=1044
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	subj	_	end_char=1050|start_char=1048
+3	chose	choose	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	8	mod	_	end_char=1056|start_char=1051
+4	that	that	DET	DT	Number=Sing|PronType=Dem	5	det	_	end_char=1061|start_char=1057
+5	name	name	NOUN	NN	Number=Sing	3	comp:obj	_	end_char=1066|SpaceAfter=No|start_char=1062
+6	,	,	PUNCT	,	_	3	punct	_	end_char=1067|start_char=1066
+7-8	I'll	_	_	_	_	_	_	_	end_char=1072|start_char=1068
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs|Shared=No	8	subj	_	end_char=1069|start_char=1068
+8	'll	will	AUX	MD	VerbForm=Fin	0	root	_	end_char=1072|start_char=1069
+9	never	never	ADV	RB	PronType=Neg	8	mod	_	end_char=1078|start_char=1073
+10	know	know	VERB	VB	VerbForm=Inf	8	comp:aux	_	end_char=1083|SpaceAfter=No|start_char=1079
+11	,	,	PUNCT	,	_	16	punct	_	end_char=1084|start_char=1083
+12	but	but	CCONJ	CC	_	16	cc	_	end_char=1088|start_char=1085
+13	all	all	DET	PDT	PronType=Tot	15	det@predet	_	end_char=1092|start_char=1089
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	end_char=1096|start_char=1093
+15	kids	kid	NOUN	NNS	Number=Plur	16	subj	_	end_char=1101|start_char=1097
+16	seemed	seem	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	conj:coord	_	end_char=1108|start_char=1102
+17	to	to	PART	TO	Shared=No	16	comp:obl	_	end_char=1111|start_char=1109
+18	like	like	VERB	VB	VerbForm=Inf	17	comp:obj	_	end_char=1116|start_char=1112|Subject=SubjRaising
+19	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	comp:obj	_	end_char=1119|SpaceAfter=No|start_char=1117
+20	,	,	PUNCT	,	_	23	punct	_	end_char=1120|start_char=1119
+21	so	so	ADV	RB	_	23	mod	_	end_char=1123|start_char=1121
+22	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	subj	_	end_char=1125|start_char=1124
+23	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	8	parataxis	_	end_char=1129|start_char=1126
+24	okay	okay	ADJ	JJ	Degree=Pos	23	comp:pred	_	end_char=1134|start_char=1130
+25	with	with	ADP	IN	_	24	udep	_	end_char=1139|start_char=1135
+26	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	comp:obj	_	end_char=1142|SpaceAfter=No|start_char=1140
+27	,	,	PUNCT	,	_	28	punct	_	end_char=1143|start_char=1142
+28	too	too	ADV	RB	_	23	mod	_	end_char=1147|SpaceAfter=No|start_char=1144
+29	.	.	PUNCT	.	_	8	punct	_	end_char=1148|SpacesAfter=\n|start_char=1147
+
+# text = The four of us went to the local bike shop and we each picked out a skull decal to put on our bikes.
+# sent_id = 16
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	end_char=1152|start_char=1149
+2	four	four	NUM	CD	NumForm=Word|NumType=Card|Shared=No	5	subj	_	end_char=1157|start_char=1153
+3	of	of	ADP	IN	_	2	udep	_	end_char=1160|start_char=1158
+4	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	3	comp:obj	_	end_char=1163|start_char=1161
+5	went	go	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1168|start_char=1164
+6	to	to	ADP	IN	_	5	udep	_	end_char=1171|start_char=1169
+7	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	end_char=1175|start_char=1172
+8	local	local	ADJ	JJ	Degree=Pos	10	mod	_	end_char=1181|start_char=1176
+9	bike	bike	NOUN	NN	Number=Sing	10	compound	_	end_char=1186|start_char=1182
+10	shop	shop	NOUN	NN	Number=Sing	6	comp:obj	_	end_char=1191|start_char=1187
+11	and	and	CCONJ	CC	_	14	cc	_	end_char=1195|start_char=1192
+12	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	subj	_	end_char=1198|start_char=1196
+13	each	each	DET	DT	PronType=Tot	12	det	_	end_char=1203|start_char=1199
+14	picked	pick	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	5	conj:coord	_	end_char=1210|start_char=1204
+15	out	out	ADP	RP	Shared=No	14	compound@prt	_	end_char=1214|start_char=1211
+16	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	end_char=1216|start_char=1215
+17	skull	skull	NOUN	NN	Number=Sing	18	compound	_	end_char=1222|start_char=1217
+18	decal	decal	NOUN	NN	Number=Sing|Shared=No	14	comp:obj	_	end_char=1228|start_char=1223
+19	to	to	PART	TO	Shared=No	14	mod	_	end_char=1231|start_char=1229
+20	put	put	VERB	VB	VerbForm=Inf	19	comp:obj	_	end_char=1235|start_char=1232
+21	on	on	ADP	IN	_	20	comp:obj	_	end_char=1238|start_char=1236
+22	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	23	mod@poss	_	end_char=1242|start_char=1239
+23	bikes	bike	NOUN	NNS	Number=Plur	21	comp:obj	_	end_char=1248|SpaceAfter=No|start_char=1243
+24	.	.	PUNCT	.	_	5	punct	_	end_char=1249|start_char=1248
+
+# text = I chose a green one, while Georgie Porgy picked red.
+# sent_id = 17
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	end_char=1251|start_char=1250
+2	chose	choose	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	end_char=1257|start_char=1252
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	end_char=1259|start_char=1258
+4	green	green	ADJ	JJ	Degree=Pos	5	mod	_	end_char=1265|start_char=1260
+5	one	one	NOUN	NN	Number=Sing	2	comp:obj	_	end_char=1269|SpaceAfter=No|start_char=1266
+6	,	,	PUNCT	,	_	7	punct	_	end_char=1270|start_char=1269
+7	while	while	SCONJ	IN	_	2	mod	_	end_char=1276|start_char=1271
+8	Georgie	Georgie	PROPN	NNP	Number=Sing	10	subj	_	end_char=1284|start_char=1277
+9	Porgy	Porgy	PROPN	NNP	Number=Sing	8	flat	_	end_char=1290|start_char=1285
+10	picked	pick	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	comp:obj	_	end_char=1297|start_char=1291
+11	red	red	ADJ	JJ	Degree=Pos	10	comp:obj	_	end_char=1301|SpaceAfter=No|start_char=1298
+12	.	.	PUNCT	.	_	2	punct	_	end_char=1302|start_char=1301
+
+# text = He shouted: "I am the red skull!
+# sent_id = 18
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=1305|start_char=1303
+2	shouted	shout	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1313|SpaceAfter=No|start_char=1306
+3	:	:	PUNCT	:	_	6	punct	_	end_char=1314|start_char=1313
+4	"	"	PUNCT	``	_	6	punct	_	end_char=1316|SpaceAfter=No|start_char=1315
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	subj	_	end_char=1317|start_char=1316
+6	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	comp:obj	_	end_char=1320|start_char=1318
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	end_char=1324|start_char=1321
+8	red	red	ADJ	JJ	Degree=Pos	9	mod	_	end_char=1328|start_char=1325
+9	skull	skull	NOUN	NN	Number=Sing	6	comp:pred	_	end_char=1334|SpaceAfter=No|start_char=1329
+10	!	!	PUNCT	.	_	2	punct	_	end_char=1335|start_char=1334
+
+# text = I am the king of the club!
+# sent_id = 19
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	end_char=1337|start_char=1336
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	end_char=1340|start_char=1338
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	end_char=1344|start_char=1341
+4	king	king	NOUN	NN	Number=Sing	2	comp:pred	_	end_char=1349|start_char=1345
+5	of	of	ADP	IN	_	4	udep	_	end_char=1352|start_char=1350
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	end_char=1356|start_char=1353
+7	club	club	NOUN	NN	Number=Sing	5	comp:obj	_	end_char=1361|SpaceAfter=No|start_char=1357
+8	!	!	PUNCT	.	_	2	punct	_	end_char=1362|start_char=1361
+
+# text = If you don't like it, try to take it from me!"
+# sent_id = 20
+1	If	if	SCONJ	IN	_	8	mod	_	end_char=1365|start_char=1363
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	subj	_	end_char=1369|start_char=1366
+3-4	don't	_	_	_	_	_	_	_	end_char=1375|start_char=1370
+3	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	comp:obj	_	end_char=1372|start_char=1370
+4	n't	not	PART	RB	Polarity=Neg	3	mod	_	end_char=1375|start_char=1372
+5	like	like	VERB	VB	VerbForm=Inf	3	comp:aux	_	end_char=1380|start_char=1376
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	comp:obj	_	end_char=1383|SpaceAfter=No|start_char=1381
+7	,	,	PUNCT	,	_	1	punct	_	end_char=1384|start_char=1383
+8	try	try	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	end_char=1388|start_char=1385
+9	to	to	PART	TO	_	8	comp:obl	_	end_char=1391|start_char=1389
+10	take	take	VERB	VB	VerbForm=Inf	9	comp:obj	_	end_char=1396|start_char=1392|Subject=SubjRaising
+11	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	comp:obj	_	end_char=1399|start_char=1397
+12	from	from	ADP	IN	_	10	udep	_	end_char=1404|start_char=1400
+13	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	12	comp:obj	_	end_char=1407|SpaceAfter=No|start_char=1405
+14	!	!	PUNCT	.	_	8	punct	_	end_char=1408|SpaceAfter=No|start_char=1407
+15	"	"	PUNCT	''	_	8	punct	_	end_char=1409|SpacesAfter=\s\s|start_char=1408
+
+# text = George was a pretty big guy, so no one argued with him.
+# sent_id = 21
+1	George	George	PROPN	NNP	Number=Sing	2	subj	_	end_char=1417|start_char=1411
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1421|start_char=1418
+3	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	end_char=1423|start_char=1422
+4	pretty	pretty	ADV	RB	_	5	mod	_	end_char=1430|start_char=1424
+5	big	big	ADJ	JJ	Degree=Pos	6	mod	_	end_char=1434|start_char=1431
+6	guy	guy	NOUN	NN	Number=Sing	2	comp:pred	_	end_char=1438|SpaceAfter=No|start_char=1435
+7	,	,	PUNCT	,	_	11	punct	_	end_char=1439|start_char=1438
+8	so	so	ADV	RB	_	11	mod	_	end_char=1442|start_char=1440
+9	no	no	DET	DT	PronType=Neg	10	det	_	end_char=1445|start_char=1443
+10	one	one	PRON	NN	Number=Sing|PronType=Neg	11	subj	_	end_char=1449|start_char=1446
+11	argued	argue	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	parataxis	_	end_char=1456|start_char=1450
+12	with	with	ADP	IN	_	11	udep	_	end_char=1461|start_char=1457
+13	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	comp:obj	_	end_char=1465|SpaceAfter=No|start_char=1462
+14	.	.	PUNCT	.	_	2	punct	_	end_char=1466|start_char=1465
+
+# text = We rode our bikes everywhere and had a great summer.
+# sent_id = 22
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs|Shared=Yes	2	subj	_	end_char=1469|start_char=1467
+2	rode	ride	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	end_char=1474|start_char=1470
+3	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	4	mod@poss	_	end_char=1478|start_char=1475
+4	bikes	bike	NOUN	NNS	Number=Plur	2	comp:obj	_	end_char=1484|start_char=1479
+5	everywhere	everywhere	ADV	RB	_	2	mod	_	end_char=1495|start_char=1485
+6	and	and	CCONJ	CC	_	7	cc	_	end_char=1499|start_char=1496
+7	had	have	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	2	conj:coord	_	end_char=1503|start_char=1500
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	end_char=1505|start_char=1504
+9	great	great	ADJ	JJ	Degree=Pos	10	mod	_	end_char=1511|start_char=1506
+10	summer	summer	NOUN	NN	Number=Sing|Shared=No	7	comp:obj	_	end_char=1518|SpaceAfter=No|start_char=1512
+11	.	.	PUNCT	.	_	2	punct	_	end_char=1519|start_char=1518
+
+# text = That's how we formed the greatest bike club ever!
+# sent_id = 23
+1-2	That's	_	_	_	_	_	_	_	end_char=1526|start_char=1520
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	2	subj	_	end_char=1524|start_char=1520
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=1526|start_char=1524
+3	how	how	ADV	WRB	PronType=Int	2	comp:pred	_	end_char=1530|start_char=1527
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	subj	_	end_char=1533|start_char=1531
+5	formed	form	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	3	mod@relcl	_	end_char=1540|start_char=1534
+6	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	end_char=1544|start_char=1541
+7	greatest	great	ADJ	JJS	Degree=Sup	9	mod	_	end_char=1553|start_char=1545
+8	bike	bike	NOUN	NN	Number=Sing	9	compound	_	end_char=1558|start_char=1554
+9	club	club	NOUN	NN	Number=Sing	5	comp:obj	_	end_char=1563|start_char=1559
+10	ever	ever	ADV	RB	PronType=Ind	5	mod	_	end_char=1568|SpaceAfter=No|start_char=1564
+11	!	!	PUNCT	.	_	2	punct	_	end_char=1569|SpaceAfter=No|start_char=1568
+

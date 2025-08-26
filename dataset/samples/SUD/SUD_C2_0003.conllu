@@ -1,0 +1,566 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# text = Taliban militants, who implemented Islamic law in Pakistan's violence-plagued Swat Valley last week, have now taken control of a neighboring district.
+# sent_id = 0
+1	Taliban	Taliban	PROPN	NNP	Number=Sing	2	compound	_	end_char=7|start_char=0
+2	militants	militant	NOUN	NNS	Number=Plur	19	subj	_	end_char=17|SpaceAfter=No|start_char=8
+3	,	,	PUNCT	,	_	5	punct	_	end_char=18|start_char=17
+4	who	who	PRON	WP	PronType=Rel	5	subj	_	end_char=22|start_char=19
+5	implemented	implement	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	mod@relcl	_	end_char=34|start_char=23
+6	Islamic	Islamic	ADJ	JJ	Degree=Pos	7	mod	_	end_char=42|start_char=35
+7	law	law	NOUN	NN	Number=Sing	5	comp:obj	_	end_char=46|start_char=43
+8	in	in	ADP	IN	_	5	udep	_	end_char=49|start_char=47
+9-10	Pakistan's	_	_	_	_	_	_	_	end_char=60|start_char=50
+9	Pakistan	Pakistan	PROPN	NNP	Number=Sing	10	comp:obj	_	end_char=58|start_char=50
+10	's	's	PART	POS	_	15	udep@poss	_	end_char=60|start_char=58
+11	violence	violence	NOUN	NN	Number=Sing	13	compound	_	end_char=69|SpaceAfter=No|start_char=61
+12	-	-	PUNCT	HYPH	_	11	punct	_	end_char=70|SpaceAfter=No|start_char=69
+13	plagued	plague	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	15	mod	_	end_char=77|start_char=70
+14	Swat	Swat	PROPN	NNP	Number=Sing	15	compound	_	end_char=82|start_char=78
+15	Valley	Valley	PROPN	NNP	Number=Sing	8	comp:obj	_	end_char=89|start_char=83
+16	last	last	ADJ	JJ	Degree=Pos	17	mod	_	end_char=94|start_char=90
+17	week	week	NOUN	NN	Number=Sing	5	udep@unmarked	_	end_char=99|SpaceAfter=No|start_char=95
+18	,	,	PUNCT	,	_	2	punct	_	end_char=100|start_char=99
+19	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=105|start_char=101
+20	now	now	ADV	RB	_	19	mod	_	end_char=109|start_char=106
+21	taken	take	VERB	VBN	Tense=Past|VerbForm=Part	19	comp:aux	_	end_char=115|start_char=110
+22	control	control	NOUN	NN	Number=Sing	21	comp:obj	_	end_char=123|start_char=116
+23	of	of	ADP	IN	_	22	udep	_	end_char=126|start_char=124
+24	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	end_char=128|start_char=127
+25	neighboring	neighbor	VERB	VBG	VerbForm=Ger	26	mod	_	end_char=140|start_char=129
+26	district	district	NOUN	NN	Number=Sing	23	comp:obj	_	end_char=149|SpaceAfter=No|start_char=141
+27	.	.	PUNCT	.	_	19	punct	_	end_char=150|SpacesAfter=\n|start_char=149
+
+# text = Protests in Karachi against the creation of sharia courts in Swat Valley.
+# sent_id = 1
+1	Protests	protest	NOUN	NNS	Number=Plur	0	root	_	end_char=159|start_char=151
+2	in	in	ADP	IN	_	1	udep	_	end_char=162|start_char=160
+3	Karachi	Karachi	PROPN	NNP	Number=Sing	2	comp:obj	_	end_char=170|start_char=163
+4	against	against	ADP	IN	_	1	udep	_	end_char=178|start_char=171
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	end_char=182|start_char=179
+6	creation	creation	NOUN	NN	Number=Sing	4	comp:obj	_	end_char=191|start_char=183
+7	of	of	ADP	IN	_	6	udep	_	end_char=194|start_char=192
+8	sharia	sharia	ADJ	JJ	Degree=Pos	9	mod	_	end_char=201|start_char=195
+9	courts	court	NOUN	NNS	Number=Plur	7	comp:obj	_	end_char=208|start_char=202
+10	in	in	ADP	IN	_	9	udep	_	end_char=211|start_char=209
+11	Swat	Swat	PROPN	NNP	Number=Sing	12	compound	_	end_char=216|start_char=212
+12	Valley	Valley	PROPN	NNP	Number=Sing	10	comp:obj	_	end_char=223|SpaceAfter=No|start_char=217
+13	.	.	PUNCT	.	_	1	punct	_	end_char=224|SpacesAfter=\n|start_char=223
+
+# text = Here are some answers about the Swat Valley, its history and what's taking place there.
+# sent_id = 2
+1	Here	here	ADV	RB	PronType=Dem	2	comp:pred	_	end_char=229|start_char=225
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=233|start_char=230
+3	some	some	DET	DT	PronType=Ind	4	det	_	end_char=238|start_char=234
+4	answers	answer	NOUN	NNS	Number=Plur	2	subj	_	end_char=246|start_char=239
+5	about	about	ADP	IN	_	4	udep	_	end_char=252|start_char=247
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	end_char=256|start_char=253
+7	Swat	Swat	PROPN	NNP	Number=Sing|Shared=No	8	compound	_	end_char=261|start_char=257
+8	Valley	Valley	PROPN	NNP	Number=Sing	5	comp:obj	_	end_char=268|SpaceAfter=No|start_char=262
+9	,	,	PUNCT	,	_	11	punct	_	end_char=269|start_char=268
+10	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	mod@poss	_	end_char=273|start_char=270
+11	history	history	NOUN	NN	Number=Sing	8	conj:coord	_	end_char=281|start_char=274
+12	and	and	CCONJ	CC	_	14	cc	_	end_char=285|start_char=282
+13-14	what's	_	_	_	_	_	_	_	end_char=292|start_char=286
+13	what	what	PRON	WP	PronType=Rel	11	conj:coord	_	end_char=290|start_char=286
+14	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Shared=No|Tense=Pres|VerbForm=Fin	13	mod@relcl	_	end_char=292|start_char=290
+15	taking	take	VERB	VBG	Tense=Pres|VerbForm=Part	14	comp:aux	_	end_char=299|start_char=293
+16	place	place	NOUN	NN	Number=Sing	15	comp:obj	_	end_char=305|start_char=300
+17	there	there	ADV	RB	PronType=Dem	14	mod	_	end_char=311|SpaceAfter=No|start_char=306
+18	.	.	PUNCT	.	_	2	punct	_	end_char=312|SpacesAfter=\n|start_char=311
+
+# text = What is Swat Valley ?
+# sent_id = 3
+1	What	what	PRON	WP	PronType=Int	2	comp:pred	_	end_char=317|start_char=313
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=320|start_char=318
+3	Swat	Swat	PROPN	NNP	Number=Sing	4	compound	_	end_char=325|start_char=321
+4	Valley	Valley	PROPN	NNP	Number=Sing	2	subj	_	end_char=332|start_char=326
+5	?	?	PUNCT	.	_	2	punct	_	end_char=334|start_char=333
+
+# text = Swat Valley is located in Pakistan's North West Frontier Province, near the border with Afghanistan and about 185 miles -LRB- 300 kilometers -RRB- from the Pakistani capital of Islamabad.
+# sent_id = 4
+1	Swat	Swat	PROPN	NNP	Number=Sing	2	compound	_	end_char=339|start_char=335
+2	Valley	Valley	PROPN	NNP	Number=Sing	3	subj@pass	_	end_char=346|start_char=340
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=349|start_char=347
+4	located	locate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	comp:aux@pass	_	end_char=357|start_char=350
+5	in	in	ADP	IN	_	4	udep	_	end_char=360|start_char=358
+6-7	Pakistan's	_	_	_	_	_	_	_	end_char=371|start_char=361
+6	Pakistan	Pakistan	PROPN	NNP	Number=Sing	7	comp:obj	_	end_char=369|start_char=361
+7	's	's	PART	POS	_	11	udep@poss	_	end_char=371|start_char=369
+8	North	North	PROPN	NNP	Number=Sing	9	compound	_	end_char=377|start_char=372
+9	West	West	PROPN	NNP	Number=Sing	11	compound	_	end_char=382|start_char=378
+10	Frontier	Frontier	PROPN	NNP	Number=Sing	11	compound	_	end_char=391|start_char=383
+11	Province	Province	PROPN	NNP	Number=Sing	5	comp:obj	_	end_char=400|SpaceAfter=No|start_char=392
+12	,	,	PUNCT	,	_	13	punct	_	end_char=401|start_char=400
+13	near	near	ADP	IN	_	4	udep	_	end_char=406|start_char=402
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	end_char=410|start_char=407
+15	border	border	NOUN	NN	Number=Sing	13	comp:obj	_	end_char=417|start_char=411
+16	with	with	ADP	IN	_	15	udep	_	end_char=422|start_char=418
+17	Afghanistan	Afghanistan	PROPN	NNP	Number=Sing	16	comp:obj	_	end_char=434|start_char=423
+18	and	and	CCONJ	CC	_	23	cc	_	end_char=438|start_char=435
+19	about	about	ADV	RB	_	20	mod	_	end_char=444|start_char=439
+20	185	185	NUM	CD	NumForm=Digit|NumType=Card	21	mod	_	end_char=448|start_char=445
+21	miles	mile	NOUN	NNS	Number=Plur	23	compound	_	end_char=454|start_char=449
+22	-	-	PUNCT	HYPH	_	21	punct	_	end_char=456|SpaceAfter=No|start_char=455
+23	LRB	LRB	PROPN	NNP	Number=Sing	15	conj:coord	_	end_char=459|SpaceAfter=No|start_char=456
+24	-	-	PUNCT	HYPH	_	26	punct	_	end_char=460|start_char=459
+25	300	300	NUM	CD	NumForm=Digit|NumType=Card	26	mod	_	end_char=464|start_char=461
+26	kilometers	kilometer	NOUN	NNS	Number=Plur|Shared=No	23	mod@unmarked	_	end_char=475|start_char=465
+27	-	-	PUNCT	HYPH	_	28	punct	_	end_char=477|SpaceAfter=No|start_char=476
+28	RRB	RRB	PROPN	NNP	Number=Sing|Shared=No	23	flat	_	end_char=480|SpaceAfter=No|start_char=477
+29	-	-	PUNCT	,	_	30	punct	_	end_char=481|start_char=480
+30	from	from	ADP	IN	Shared=No	23	udep	_	end_char=486|start_char=482
+31	the	the	DET	DT	Definite=Def|PronType=Art	33	det	_	end_char=490|start_char=487
+32	Pakistani	Pakistani	ADJ	JJ	Degree=Pos	33	mod	_	end_char=500|start_char=491
+33	capital	capital	NOUN	NN	Number=Sing	30	comp:obj	_	end_char=508|start_char=501
+34	of	of	ADP	IN	_	33	udep	_	end_char=511|start_char=509
+35	Islamabad	Islamabad	PROPN	NNP	Number=Sing	34	comp:obj	_	end_char=521|SpaceAfter=No|start_char=512
+36	.	.	PUNCT	.	_	3	punct	_	end_char=522|SpacesAfter=\n|start_char=521
+
+# text = The alpine region once was one of Pakistan's premier tourist destinations, boasting the nation's only ski resort until it was shut down after Taliban militants overran the area.
+# sent_id = 5
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	end_char=526|start_char=523
+2	alpine	alpine	NOUN	NN	Number=Sing	3	compound	_	end_char=533|start_char=527
+3	region	region	NOUN	NN	Number=Sing	5	subj	_	end_char=540|start_char=534
+4	once	once	ADV	RB	NumForm=Word|NumType=Mult	5	mod	_	end_char=545|start_char=541
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=549|start_char=546
+6	one	one	NUM	CD	NumForm=Word|NumType=Card	5	comp:pred	_	end_char=553|start_char=550
+7	of	of	ADP	IN	_	6	udep	_	end_char=556|start_char=554
+8-9	Pakistan's	_	_	_	_	_	_	_	end_char=567|start_char=557
+8	Pakistan	Pakistan	PROPN	NNP	Number=Sing	9	comp:obj	_	end_char=565|start_char=557
+9	's	's	PART	POS	_	12	udep@poss	_	end_char=567|start_char=565
+10	premier	premier	ADJ	JJ	Degree=Pos	12	mod	_	end_char=575|start_char=568
+11	tourist	tourist	NOUN	NN	Number=Sing	12	compound	_	end_char=583|start_char=576
+12	destinations	destination	NOUN	NNS	Number=Plur	7	comp:obj	_	end_char=596|SpaceAfter=No|start_char=584
+13	,	,	PUNCT	,	_	14	punct	_	end_char=597|start_char=596
+14	boasting	boast	VERB	VBG	Tense=Pres|VerbForm=Part	6	mod	_	end_char=606|start_char=598
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	end_char=610|start_char=607
+16-17	nation's	_	_	_	_	_	_	_	end_char=619|start_char=611
+16	nation	nation	NOUN	NN	Number=Sing	17	comp:obj	_	end_char=617|start_char=611
+17	's	's	PART	POS	_	20	udep@poss	_	end_char=619|start_char=617
+18	only	only	ADJ	JJ	Degree=Pos	20	mod	_	end_char=624|start_char=620
+19	ski	ski	NOUN	NN	Number=Sing	20	compound	_	end_char=628|start_char=625
+20	resort	resort	NOUN	NN	Number=Sing	14	comp:obj	_	end_char=635|start_char=629
+21	until	until	SCONJ	IN	_	14	mod	_	end_char=641|start_char=636
+22	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	subj@pass	_	end_char=644|start_char=642
+23	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	comp:obj	_	end_char=648|start_char=645
+24	shut	shut	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	23	comp:aux@pass	_	end_char=653|start_char=649
+25	down	down	ADP	RP	_	24	compound@prt	_	end_char=658|start_char=654
+26	after	after	SCONJ	IN	_	23	mod	_	end_char=664|start_char=659
+27	Taliban	Taliban	PROPN	NNP	Number=Sing	28	compound	_	end_char=672|start_char=665
+28	militants	militant	NOUN	NNS	Number=Plur	29	subj	_	end_char=682|start_char=673
+29	overran	overran	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	26	comp:obj	_	end_char=690|start_char=683
+30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	end_char=694|start_char=691
+31	area	area	NOUN	NN	Number=Sing	29	comp:obj	_	end_char=699|SpaceAfter=No|start_char=695
+32	.	.	PUNCT	.	_	5	punct	_	end_char=700|start_char=699
+
+# text = It also was a draw for trout-fishing enthusiasts and those wishing to visit the ancient Buddhist ruins in the area.
+# sent_id = 6
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	subj	_	end_char=703|start_char=701
+2	also	also	ADV	RB	_	3	mod	_	end_char=708|start_char=704
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=712|start_char=709
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	end_char=714|start_char=713
+5	draw	draw	NOUN	NN	Number=Sing	3	comp:pred	_	end_char=719|start_char=715
+6	for	for	ADP	IN	_	5	udep	_	end_char=723|start_char=720
+7	trout	trout	NOUN	NN	Number=Sing	9	compound	_	end_char=729|SpaceAfter=No|start_char=724
+8	-	-	PUNCT	HYPH	_	7	punct	_	end_char=730|SpaceAfter=No|start_char=729
+9	fishing	fishing	NOUN	NN	Number=Sing|Shared=No	10	compound	_	end_char=737|start_char=730
+10	enthusiasts	enthusiast	NOUN	NNS	Number=Plur	6	comp:obj	_	end_char=749|start_char=738
+11	and	and	CCONJ	CC	_	12	cc	_	end_char=753|start_char=750
+12	those	that	PRON	DT	Number=Plur|PronType=Dem	10	conj:coord	_	end_char=759|start_char=754
+13	wishing	wish	VERB	VBG	Shared=No|VerbForm=Ger	12	mod	_	end_char=767|start_char=760
+14	to	to	PART	TO	_	13	comp:obl	_	end_char=770|start_char=768
+15	visit	visit	VERB	VB	VerbForm=Inf	14	comp:obj	_	end_char=776|start_char=771|Subject=SubjRaising
+16	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	end_char=780|start_char=777
+17	ancient	ancient	ADJ	JJ	Degree=Pos	19	mod	_	end_char=788|start_char=781
+18	Buddhist	Buddhist	ADJ	JJ	Degree=Pos	19	mod	_	end_char=797|start_char=789
+19	ruins	ruin	NOUN	NNS	Number=Plur	15	comp:obj	_	end_char=803|start_char=798
+20	in	in	ADP	IN	_	15	udep	_	end_char=806|start_char=804
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	end_char=810|start_char=807
+22	area	area	NOUN	NN	Number=Sing	20	comp:obj	_	end_char=815|SpaceAfter=No|start_char=811
+23	.	.	PUNCT	.	_	3	punct	_	end_char=816|SpacesAfter=\n|start_char=815
+
+# text = What's happening in Swat Valley ?
+# sent_id = 7
+1-2	What's	_	_	_	_	_	_	_	end_char=823|start_char=817
+1	What	what	PRON	WP	PronType=Int	2	subj	_	end_char=821|start_char=817
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=823|start_char=821
+3	happening	happen	VERB	VBG	Tense=Pres|VerbForm=Part	2	comp:aux	_	end_char=833|start_char=824
+4	in	in	ADP	IN	_	3	udep	_	end_char=836|start_char=834
+5	Swat	Swat	PROPN	NNP	Number=Sing	6	compound	_	end_char=841|start_char=837
+6	Valley	Valley	PROPN	NNP	Number=Sing	4	comp:obj	_	end_char=848|start_char=842
+7	?	?	PUNCT	.	_	2	punct	_	end_char=850|start_char=849
+
+# text = In recent years Taliban militants unleashed a wave of violence that claimed hundreds of lives in the province.
+# sent_id = 8
+1	In	in	ADP	IN	_	6	udep	_	end_char=853|start_char=851
+2	recent	recent	ADJ	JJ	Degree=Pos	3	mod	_	end_char=860|start_char=854
+3	years	year	NOUN	NNS	Number=Plur	1	comp:obj	_	end_char=866|start_char=861
+4	Taliban	Taliban	PROPN	NNP	Number=Sing	5	compound	_	end_char=874|start_char=867
+5	militants	militant	NOUN	NNS	Number=Plur	6	subj	_	end_char=884|start_char=875
+6	unleashed	unleash	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=894|start_char=885
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	end_char=896|start_char=895
+8	wave	wave	NOUN	NN	Number=Sing	6	comp:obj	_	end_char=901|start_char=897
+9	of	of	ADP	IN	_	8	udep	_	end_char=904|start_char=902
+10	violence	violence	NOUN	NN	Number=Sing	9	comp:obj	_	end_char=913|start_char=905
+11	that	that	PRON	WDT	PronType=Rel	12	subj	_	end_char=918|start_char=914
+12	claimed	claim	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	mod@relcl	_	end_char=926|start_char=919
+13	hundreds	hundred	NOUN	NNS	Number=Plur	12	comp:obj	_	end_char=935|start_char=927
+14	of	of	ADP	IN	_	13	udep	_	end_char=938|start_char=936
+15	lives	life	NOUN	NNS	Number=Plur	14	comp:obj	_	end_char=944|start_char=939
+16	in	in	ADP	IN	_	12	udep	_	end_char=947|start_char=945
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	end_char=951|start_char=948
+18	province	province	NOUN	NN	Number=Sing	16	comp:obj	_	end_char=960|SpaceAfter=No|start_char=952
+19	.	.	PUNCT	.	_	6	punct	_	end_char=961|start_char=960
+
+# text = The militants wanted sharia law -- or Islamic law -- imposed in the region.
+# sent_id = 9
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	end_char=965|start_char=962
+2	militants	militant	NOUN	NNS	Number=Plur|Shared=Yes	3	subj	_	end_char=975|start_char=966
+3	wanted	want	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=982|start_char=976
+4	sharia	sharia	ADJ	JJ	Degree=Pos	5	mod	_	end_char=989|start_char=983
+5	law	law	NOUN	NN	Number=Sing	3	comp:obj	_	end_char=993|start_char=990
+6	--	--	PUNCT	,	_	9	punct	_	end_char=996|start_char=994
+7	or	or	CCONJ	CC	_	9	cc	_	end_char=999|start_char=997
+8	Islamic	Islamic	ADJ	JJ	Degree=Pos	9	mod	_	end_char=1007|start_char=1000
+9	law	law	NOUN	NN	Number=Sing	5	conj:coord	_	end_char=1011|start_char=1008
+10	--	--	PUNCT	,	Shared=No	9	punct	_	end_char=1014|start_char=1012
+11	imposed	impose	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj:coord	_	end_char=1022|start_char=1015
+12	in	in	ADP	IN	Shared=No	11	udep	_	end_char=1025|start_char=1023
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	end_char=1029|start_char=1026
+14	region	region	NOUN	NN	Number=Sing	12	comp:obj	_	end_char=1036|SpaceAfter=No|start_char=1030
+15	.	.	PUNCT	.	_	3	punct	_	end_char=1037|start_char=1036
+
+# text = They took over the valley in 2008.
+# sent_id = 10
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	subj	_	end_char=1042|start_char=1038
+2	took	take	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1047|start_char=1043
+3	over	over	ADP	RP	_	2	compound@prt	_	end_char=1052|start_char=1048
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	end_char=1056|start_char=1053
+5	valley	valley	NOUN	NN	Number=Sing	2	comp:obj	_	end_char=1063|start_char=1057
+6	in	in	ADP	IN	_	2	udep	_	end_char=1066|start_char=1064
+7	2008	2008	NUM	CD	NumForm=Digit|NumType=Card	6	comp:obj	_	end_char=1071|SpaceAfter=No|start_char=1067
+8	.	.	PUNCT	.	_	2	punct	_	end_char=1072|SpacesAfter=\n|start_char=1071
+
+# text = The central government of Pakistan, which long exerted little control in the area, launched an intense military offensive in late July to flush out the militants.
+# sent_id = 11
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	end_char=1076|start_char=1073
+2	central	central	ADJ	JJ	Degree=Pos	3	mod	_	end_char=1084|start_char=1077
+3	government	government	NOUN	NN	Number=Sing	16	subj	_	end_char=1095|start_char=1085
+4	of	of	ADP	IN	_	3	udep	_	end_char=1098|start_char=1096
+5	Pakistan	Pakistan	PROPN	NNP	Number=Sing	4	comp:obj	_	end_char=1107|SpaceAfter=No|start_char=1099
+6	,	,	PUNCT	,	_	9	punct	_	end_char=1108|start_char=1107
+7	which	which	PRON	WDT	PronType=Rel	9	subj	_	end_char=1114|start_char=1109
+8	long	long	ADV	RB	Degree=Pos	9	mod	_	end_char=1119|start_char=1115
+9	exerted	exert	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	mod@relcl	_	end_char=1127|start_char=1120
+10	little	little	ADJ	JJ	Degree=Pos	11	mod	_	end_char=1134|start_char=1128
+11	control	control	NOUN	NN	Number=Sing	9	comp:obj	_	end_char=1142|start_char=1135
+12	in	in	ADP	IN	_	11	udep	_	end_char=1145|start_char=1143
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	end_char=1149|start_char=1146
+14	area	area	NOUN	NN	Number=Sing	12	comp:obj	_	end_char=1154|SpaceAfter=No|start_char=1150
+15	,	,	PUNCT	,	_	3	punct	_	end_char=1155|start_char=1154
+16	launched	launch	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1164|start_char=1156
+17	an	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	end_char=1167|start_char=1165
+18	intense	intense	ADJ	JJ	Degree=Pos	20	mod	_	end_char=1175|start_char=1168
+19	military	military	ADJ	JJ	Degree=Pos	20	mod	_	end_char=1184|start_char=1176
+20	offensive	offensive	NOUN	NN	Number=Sing	16	comp:obj	_	end_char=1194|start_char=1185
+21	in	in	ADP	IN	_	16	udep	_	end_char=1197|start_char=1195
+22	late	late	ADJ	JJ	Degree=Pos	23	mod	_	end_char=1202|start_char=1198
+23	July	July	PROPN	NNP	Number=Sing	21	comp:obj	_	end_char=1207|start_char=1203
+24	to	to	PART	TO	_	16	mod	_	end_char=1210|start_char=1208
+25	flush	flush	VERB	VB	VerbForm=Inf	24	comp:obj	_	end_char=1216|start_char=1211
+26	out	out	ADP	RP	_	25	compound@prt	_	end_char=1220|start_char=1217
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	end_char=1224|start_char=1221
+28	militants	militant	NOUN	NNS	Number=Plur	25	comp:obj	_	end_char=1234|SpaceAfter=No|start_char=1225
+29	.	.	PUNCT	.	_	16	punct	_	end_char=1235|start_char=1234
+
+# text = In retaliation, the Taliban carried out a series of deadly attacks and began gaining ground, setting up checkpoints in the area.
+# sent_id = 12
+1	In	in	ADP	IN	Shared=Yes	6	udep	_	end_char=1238|start_char=1236
+2	retaliation	retaliation	NOUN	NN	Number=Sing	1	comp:obj	_	end_char=1250|SpaceAfter=No|start_char=1239
+3	,	,	PUNCT	,	_	1	punct	_	end_char=1251|start_char=1250
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	end_char=1255|start_char=1252
+5	Taliban	Taliban	PROPN	NNPS	Number=Sing|Shared=Yes	6	subj	_	end_char=1263|start_char=1256
+6	carried	carry	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1271|start_char=1264
+7	out	out	ADP	RP	_	6	compound@prt	_	end_char=1275|start_char=1272
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	end_char=1277|start_char=1276
+9	series	series	NOUN	NN	Number=Sing	6	comp:obj	_	end_char=1284|start_char=1278
+10	of	of	ADP	IN	_	9	udep	_	end_char=1287|start_char=1285
+11	deadly	deadly	ADJ	JJ	Degree=Pos	12	mod	_	end_char=1294|start_char=1288
+12	attacks	attack	NOUN	NNS	Number=Plur	10	comp:obj	_	end_char=1302|start_char=1295
+13	and	and	CCONJ	CC	_	14	cc	_	end_char=1306|start_char=1303
+14	began	begin	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	conj:coord	_	end_char=1312|start_char=1307
+15	gaining	gain	VERB	VBG	Shared=No|VerbForm=Ger	14	comp:obj	_	end_char=1320|start_char=1313|Subject=SubjRaising
+16	ground	ground	NOUN	NN	Number=Sing	15	comp:obj	_	end_char=1327|SpaceAfter=No|start_char=1321
+17	,	,	PUNCT	,	_	18	punct	_	end_char=1328|start_char=1327
+18	setting	set	VERB	VBG	Tense=Pres|VerbForm=Part	15	mod	_	end_char=1336|start_char=1329
+19	up	up	ADP	RP	_	18	compound@prt	_	end_char=1339|start_char=1337
+20	checkpoints	checkpoint	NOUN	NNS	Number=Plur	18	comp:obj	_	end_char=1351|start_char=1340
+21	in	in	ADP	IN	_	18	udep	_	end_char=1354|start_char=1352
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	end_char=1358|start_char=1355
+23	area	area	NOUN	NN	Number=Sing	21	comp:obj	_	end_char=1363|SpaceAfter=No|start_char=1359
+24	.	.	PUNCT	.	_	6	punct	_	end_char=1364|SpacesAfter=\n|start_char=1363
+
+# text = Has the government intervened ?
+# sent_id = 13
+1	Has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=1368|start_char=1365
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	end_char=1372|start_char=1369
+3	government	government	NOUN	NN	Number=Sing	1	subj	_	end_char=1383|start_char=1373
+4	intervened	interven	VERB	VBN	Tense=Past|VerbForm=Part	1	comp:aux	_	end_char=1394|start_char=1384
+5	?	?	PUNCT	.	_	1	punct	_	end_char=1396|start_char=1395
+
+# text = The militants and the Pakistani government reached a peace deal earlier this year, which was recently signed into law by Pakistani President Asif Ali Zardari.
+# sent_id = 14
+1	The	the	DET	DT	Definite=Def|PronType=Art|Shared=No	2	det	_	end_char=1400|start_char=1397
+2	militants	militant	NOUN	NNS	Number=Plur	7	subj	_	end_char=1410|start_char=1401
+3	and	and	CCONJ	CC	_	6	cc	_	end_char=1414|start_char=1411
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	end_char=1418|start_char=1415
+5	Pakistani	Pakistani	ADJ	JJ	Degree=Pos	6	mod	_	end_char=1428|start_char=1419
+6	government	government	NOUN	NN	Number=Sing	2	conj:coord	_	end_char=1439|start_char=1429
+7	reached	reach	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1447|start_char=1440
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	end_char=1449|start_char=1448
+9	peace	peace	NOUN	NN	Number=Sing	10	compound	_	end_char=1455|start_char=1450
+10	deal	deal	NOUN	NN	Number=Sing	7	comp:obj	_	end_char=1460|start_char=1456
+11	earlier	early	ADV	RBR	Degree=Cmp	7	mod	_	end_char=1468|start_char=1461
+12	this	this	DET	DT	Number=Sing|PronType=Dem	13	det	_	end_char=1473|start_char=1469
+13	year	year	NOUN	NN	Number=Sing	7	udep@unmarked	_	end_char=1478|SpaceAfter=No|start_char=1474
+14	,	,	PUNCT	,	_	16	punct	_	end_char=1479|start_char=1478
+15	which	which	PRON	WDT	PronType=Rel	16	subj@pass	_	end_char=1485|start_char=1480
+16	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	mod@relcl	_	end_char=1489|start_char=1486
+17	recently	recently	ADV	RB	_	16	mod	_	end_char=1498|start_char=1490
+18	signed	sign	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	16	comp:aux@pass	_	end_char=1505|start_char=1499
+19	into	into	ADP	IN	_	18	udep	_	end_char=1510|start_char=1506
+20	law	law	NOUN	NN	Number=Sing	19	comp:obj	_	end_char=1514|start_char=1511
+21	by	by	ADP	IN	_	18	comp:obl@agent	_	end_char=1517|start_char=1515
+22	Pakistani	Pakistani	ADJ	JJ	Degree=Pos	23	mod	_	end_char=1527|start_char=1518
+23	President	President	PROPN	NNP	Number=Sing	21	comp:obj	_	end_char=1537|start_char=1528
+24	Asif	Asif	PROPN	NNP	Number=Sing	23	flat	_	end_char=1542|start_char=1538
+25	Ali	Ali	PROPN	NNP	Number=Sing	24	flat	_	end_char=1546|start_char=1543
+26	Zardari	Zardari	PROPN	NNP	Number=Sing	25	flat	_	end_char=1554|SpaceAfter=No|start_char=1547
+27	.	.	PUNCT	.	_	7	punct	_	end_char=1555|SpacesAfter=\n|start_char=1554
+
+# text = Under the deal, sharia law was imposed in the region.
+# sent_id = 15
+1	Under	under	ADP	IN	_	7	udep	_	end_char=1561|start_char=1556
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	end_char=1565|start_char=1562
+3	deal	deal	NOUN	NN	Number=Sing	1	comp:obj	_	end_char=1570|SpaceAfter=No|start_char=1566
+4	,	,	PUNCT	,	_	1	punct	_	end_char=1571|start_char=1570
+5	sharia	sharia	ADJ	JJ	Degree=Pos	6	mod	_	end_char=1578|start_char=1572
+6	law	law	NOUN	NN	Number=Sing	7	subj@pass	_	end_char=1582|start_char=1579
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1586|start_char=1583
+8	imposed	impose	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	comp:aux@pass	_	end_char=1594|start_char=1587
+9	in	in	ADP	IN	_	8	udep	_	end_char=1597|start_char=1595
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	end_char=1601|start_char=1598
+11	region	region	NOUN	NN	Number=Sing	9	comp:obj	_	end_char=1608|SpaceAfter=No|start_char=1602
+12	.	.	PUNCT	.	_	7	punct	_	end_char=1609|start_char=1608
+
+# text = While the peace deal drew criticism for the Pakistani government, some analysts and political observers say the government had little choice but to capitulate, as militants have terrorized the region with beheadings, kidnappings and the destruction of schools.
+# sent_id = 16
+1	While	while	SCONJ	IN	_	17	mod	_	end_char=1615|start_char=1610
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	end_char=1619|start_char=1616
+3	peace	peace	NOUN	NN	Number=Sing	4	compound	_	end_char=1625|start_char=1620
+4	deal	deal	NOUN	NN	Number=Sing	5	subj	_	end_char=1630|start_char=1626
+5	drew	draw	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	comp:obj	_	end_char=1635|start_char=1631
+6	criticism	criticism	NOUN	NN	Number=Sing	5	comp:obj	_	end_char=1645|start_char=1636
+7	for	for	ADP	IN	_	6	udep	_	end_char=1649|start_char=1646
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	end_char=1653|start_char=1650
+9	Pakistani	Pakistani	ADJ	JJ	Degree=Pos	10	mod	_	end_char=1663|start_char=1654
+10	government	government	NOUN	NN	Number=Sing	7	comp:obj	_	end_char=1674|SpaceAfter=No|start_char=1664
+11	,	,	PUNCT	,	_	1	punct	_	end_char=1675|start_char=1674
+12	some	some	DET	DT	PronType=Ind	13	det	_	end_char=1680|start_char=1676
+13	analysts	analyst	NOUN	NNS	Number=Plur	17	subj	_	end_char=1689|start_char=1681
+14	and	and	CCONJ	CC	_	16	cc	_	end_char=1693|start_char=1690
+15	political	political	ADJ	JJ	Degree=Pos	16	mod	_	end_char=1703|start_char=1694
+16	observers	observer	NOUN	NNS	Number=Plur	13	conj:coord	_	end_char=1713|start_char=1704
+17	say	say	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=1717|start_char=1714
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	end_char=1721|start_char=1718
+19	government	government	NOUN	NN	Number=Sing	20	subj	_	end_char=1732|start_char=1722
+20	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	comp:obj	_	end_char=1736|start_char=1733
+21	little	little	ADJ	JJ	Degree=Pos	22	mod	_	end_char=1743|start_char=1737
+22	choice	choice	NOUN	NN	Number=Sing	20	comp:obj	_	end_char=1750|start_char=1744
+23	but	but	SCONJ	IN	_	22	udep	_	end_char=1754|start_char=1751
+24	to	to	PART	TO	_	23	comp:obj	_	end_char=1757|start_char=1755
+25	capitulate	capitulate	VERB	VB	VerbForm=Inf	24	comp:obj	_	end_char=1768|SpaceAfter=No|start_char=1758
+26	,	,	PUNCT	,	_	27	punct	_	end_char=1769|start_char=1768
+27	as	as	SCONJ	IN	_	20	mod	_	end_char=1772|start_char=1770
+28	militants	militant	NOUN	NNS	Number=Plur	29	subj	_	end_char=1782|start_char=1773
+29	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	comp:obj	_	end_char=1787|start_char=1783
+30	terrorized	terrorize	VERB	VBN	Tense=Past|VerbForm=Part	29	comp:aux	_	end_char=1798|start_char=1788
+31	the	the	DET	DT	Definite=Def|PronType=Art	32	det	_	end_char=1802|start_char=1799
+32	region	region	NOUN	NN	Number=Sing	30	comp:obj	_	end_char=1809|start_char=1803
+33	with	with	ADP	IN	_	30	udep	_	end_char=1814|start_char=1810
+34	beheadings	beheading	NOUN	NNS	Number=Plur	33	comp:obj	_	end_char=1825|SpaceAfter=No|start_char=1815
+35	,	,	PUNCT	,	_	36	punct	_	end_char=1826|start_char=1825
+36	kidnappings	kidnapping	NOUN	NNS	Number=Plur	34	conj:coord	_	end_char=1838|start_char=1827
+37	and	and	CCONJ	CC	_	39	cc	_	end_char=1842|start_char=1839
+38	the	the	DET	DT	Definite=Def|PronType=Art	39	det	_	end_char=1846|start_char=1843
+39	destruction	destruction	NOUN	NN	Number=Sing	36	conj:coord	_	end_char=1858|start_char=1847
+40	of	of	ADP	IN	Shared=No	39	udep	_	end_char=1861|start_char=1859
+41	schools	school	NOUN	NNS	Number=Plur	40	comp:obj	_	end_char=1869|SpaceAfter=No|start_char=1862
+42	.	.	PUNCT	.	_	17	punct	_	end_char=1870|SpacesAfter=\n|start_char=1869
+
+# text = What's happening now ?
+# sent_id = 17
+1-2	What's	_	_	_	_	_	_	_	end_char=1877|start_char=1871
+1	What	what	PRON	WP	PronType=Int	2	subj	_	end_char=1875|start_char=1871
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=1877|start_char=1875
+3	happening	happen	VERB	VBG	Tense=Pres|VerbForm=Part	2	comp:aux	_	end_char=1887|start_char=1878
+4	now	now	ADV	RB	_	2	mod	_	end_char=1891|start_char=1888
+5	?	?	PUNCT	.	_	2	punct	_	end_char=1893|start_char=1892
+
+# text = This week, the Taliban moved to seize control of the neighboring Buner district, bringing it closer to Islamabad than it has been since Taliban insurgency began.
+# sent_id = 18
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	end_char=1898|start_char=1894
+2	week	week	NOUN	NN	Number=Sing	6	udep@unmarked	_	end_char=1903|SpaceAfter=No|start_char=1899
+3	,	,	PUNCT	,	_	2	punct	_	end_char=1904|start_char=1903
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	end_char=1908|start_char=1905
+5	Taliban	Taliban	PROPN	NNP	Number=Sing	6	subj	_	end_char=1916|start_char=1909
+6	moved	move	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1922|start_char=1917
+7	to	to	PART	TO	_	6	comp:obl	_	end_char=1925|start_char=1923
+8	seize	seize	VERB	VB	VerbForm=Inf	7	comp:obj	_	end_char=1931|start_char=1926|Subject=SubjRaising
+9	control	control	NOUN	NN	Number=Sing	8	comp:obj	_	end_char=1939|start_char=1932
+10	of	of	ADP	IN	_	9	udep	_	end_char=1942|start_char=1940
+11	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	end_char=1946|start_char=1943
+12	neighboring	neighbor	VERB	VBG	VerbForm=Ger	14	mod	_	end_char=1958|start_char=1947
+13	Buner	Buner	PROPN	NNP	Number=Sing	14	compound	_	end_char=1964|start_char=1959
+14	district	district	NOUN	NN	Number=Sing	10	comp:obj	_	end_char=1973|SpaceAfter=No|start_char=1965
+15	,	,	PUNCT	,	_	16	punct	_	end_char=1974|start_char=1973
+16	bringing	bring	VERB	VBG	Tense=Pres|VerbForm=Part	8	mod	_	end_char=1983|start_char=1975
+17	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	comp:obj	_	end_char=1986|start_char=1984
+18	closer	close	ADJ	JJR	Degree=Cmp	16	comp:pred	_	end_char=1993|start_char=1987
+19	to	to	ADP	IN	_	18	udep	_	end_char=1996|start_char=1994
+20	Islamabad	Islamabad	PROPN	NNP	Number=Sing	19	comp:obj	_	end_char=2006|start_char=1997
+21	than	than	SCONJ	IN	_	16	mod	_	end_char=2011|start_char=2007
+22	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	subj	_	end_char=2014|start_char=2012
+23	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	comp:obj	_	end_char=2018|start_char=2015
+24	been	be	AUX	VBN	Tense=Past|VerbForm=Part	23	comp:aux	_	end_char=2023|start_char=2019
+25	since	since	SCONJ	IN	_	24	comp:pred	_	end_char=2029|start_char=2024
+26	Taliban	Taliban	PROPN	NNP	Number=Sing	27	compound	_	end_char=2037|start_char=2030
+27	insurgency	insurgency	NOUN	NN	Number=Sing	28	subj	_	end_char=2048|start_char=2038
+28	began	begin	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	comp:obj	_	end_char=2054|SpaceAfter=No|start_char=2049
+29	.	.	PUNCT	.	_	6	punct	_	end_char=2055|SpacesAfter=\n|start_char=2054
+
+# text = What is sharia law ?
+# sent_id = 19
+1	What	what	PRON	WP	PronType=Int	2	comp:pred	_	end_char=2060|start_char=2056
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=2063|start_char=2061
+3	sharia	sharia	ADJ	JJ	Degree=Pos	4	mod	_	end_char=2070|start_char=2064
+4	law	law	NOUN	NN	Number=Sing	2	subj	_	end_char=2074|start_char=2071
+5	?	?	PUNCT	.	_	2	punct	_	end_char=2076|start_char=2075
+
+# text = Sharia law is Islamic law.
+# sent_id = 20
+1	Sharia	Sharia	ADJ	JJ	Degree=Pos	2	mod	_	end_char=2083|start_char=2077
+2	law	law	NOUN	NN	Number=Sing	3	subj	_	end_char=2087|start_char=2084
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=2090|start_char=2088
+4	Islamic	Islamic	ADJ	JJ	Degree=Pos	5	mod	_	end_char=2098|start_char=2091
+5	law	law	NOUN	NN	Number=Sing	3	comp:pred	_	end_char=2102|SpaceAfter=No|start_char=2099
+6	.	.	PUNCT	.	_	3	punct	_	end_char=2103|start_char=2102
+
+# text = While there are different interpretations of it, the Taliban's strict interpretation forbids women from being seen in public without their husbands and fathers, requires veils for women and beards for men, and bans music and television.
+# sent_id = 21
+1	While	while	SCONJ	IN	Shared=Yes	14	mod	_	end_char=2109|start_char=2104
+2	there	there	PRON	EX	_	3	comp@expl	_	end_char=2115|start_char=2110
+3	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	end_char=2119|start_char=2116
+4	different	different	ADJ	JJ	Degree=Pos	5	mod	_	end_char=2129|start_char=2120
+5	interpretations	interpretation	NOUN	NNS	Number=Plur	3	subj	_	end_char=2145|start_char=2130
+6	of	of	ADP	IN	_	5	udep	_	end_char=2148|start_char=2146
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	comp:obj	_	end_char=2151|SpaceAfter=No|start_char=2149
+8	,	,	PUNCT	,	_	1	punct	_	end_char=2152|start_char=2151
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	end_char=2156|start_char=2153
+10-11	Taliban's	_	_	_	_	_	_	_	end_char=2166|start_char=2157
+10	Taliban	Taliban	PROPN	NNP	Number=Sing	11	comp:obj	_	end_char=2164|start_char=2157
+11	's	's	PART	POS	_	13	udep@poss	_	end_char=2166|start_char=2164
+12	strict	strict	ADJ	JJ	Degree=Pos	13	mod	_	end_char=2173|start_char=2167
+13	interpretation	interpretation	NOUN	NN	Number=Sing|Shared=Yes	14	subj	_	end_char=2188|start_char=2174
+14	forbids	forbid	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=2196|start_char=2189
+15	women	woman	NOUN	NNS	Number=Plur	14	comp:obj	_	end_char=2202|start_char=2197
+16	from	from	SCONJ	IN	_	14	mod	_	end_char=2207|start_char=2203
+17	being	be	AUX	VBG	Tense=Pres|VerbForm=Part	16	comp:obj	_	end_char=2213|start_char=2208
+18	seen	see	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	17	comp:aux@pass	_	end_char=2218|start_char=2214
+19	in	in	ADP	IN	_	18	udep	_	end_char=2221|start_char=2219
+20	public	public	NOUN	NN	Number=Sing	19	comp:obj	_	end_char=2228|start_char=2222
+21	without	without	ADP	IN	_	18	udep	_	end_char=2236|start_char=2229
+22	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs|Shared=No	23	mod@poss	_	end_char=2242|start_char=2237
+23	husbands	husband	NOUN	NNS	Number=Plur	21	comp:obj	_	end_char=2251|start_char=2243
+24	and	and	CCONJ	CC	_	25	cc	_	end_char=2255|start_char=2252
+25	fathers	father	NOUN	NNS	Number=Plur	23	conj:coord	_	end_char=2263|SpaceAfter=No|start_char=2256
+26	,	,	PUNCT	,	_	27	punct	_	end_char=2264|start_char=2263
+27	requires	require	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj:coord	_	end_char=2273|start_char=2265
+28	veils	veil	NOUN	NNS	Number=Plur	27	comp:obj	_	end_char=2279|start_char=2274
+29	for	for	ADP	IN	_	28	udep	_	end_char=2283|start_char=2280
+30	women	woman	NOUN	NNS	Number=Plur	29	comp:obj	_	end_char=2289|start_char=2284
+31	and	and	CCONJ	CC	_	32	cc	_	end_char=2293|start_char=2290
+32	beards	beard	NOUN	NNS	Number=Plur	30	conj:coord	_	end_char=2300|start_char=2294
+33	for	for	ADP	IN	Shared=Yes	32	udep	_	end_char=2304|start_char=2301
+34	men	man	NOUN	NNS	Number=Plur	33	comp:obj	_	end_char=2308|SpaceAfter=No|start_char=2305
+35	,	,	PUNCT	,	_	37	punct	_	end_char=2309|start_char=2308
+36	and	and	CCONJ	CC	_	37	cc	_	end_char=2313|start_char=2310
+37	bans	ban	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	conj:coord	_	end_char=2318|start_char=2314
+38	music	music	NOUN	NN	Number=Sing|Shared=No	37	comp:obj	_	end_char=2324|start_char=2319
+39	and	and	CCONJ	CC	_	40	cc	_	end_char=2328|start_char=2325
+40	television	television	NOUN	NN	Number=Sing	38	conj:coord	_	end_char=2339|SpaceAfter=No|start_char=2329
+41	.	.	PUNCT	.	_	14	punct	_	end_char=2340|SpacesAfter=\n|start_char=2339
+
+# text = Consequences are severe; during the Taliban struggle to impose sharia law, anyone found disobeying was pinned to the ground and lashed.
+# sent_id = 22
+1	Consequences	consequence	NOUN	NNS	Number=Plur	2	subj	_	end_char=2353|start_char=2341
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=2357|start_char=2354
+3	severe	severe	ADJ	JJ	Degree=Pos	2	comp:pred	_	end_char=2364|SpaceAfter=No|start_char=2358
+4	;	;	PUNCT	:	_	15	punct	_	end_char=2365|start_char=2364
+5	during	during	ADP	IN	_	15	udep	_	end_char=2372|start_char=2366
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	end_char=2376|start_char=2373
+7	Taliban	Taliban	PROPN	NNP	Number=Sing	8	compound	_	end_char=2384|start_char=2377
+8	struggle	struggle	NOUN	NN	Number=Sing	5	comp:obj	_	end_char=2393|start_char=2385
+9	to	to	PART	TO	_	8	udep	_	end_char=2396|start_char=2394
+10	impose	impose	VERB	VB	VerbForm=Inf	9	comp:obj	_	end_char=2403|start_char=2397
+11	sharia	sharia	ADJ	JJ	Degree=Pos	12	mod	_	end_char=2410|start_char=2404
+12	law	law	NOUN	NN	Number=Sing	10	comp:obj	_	end_char=2414|SpaceAfter=No|start_char=2411
+13	,	,	PUNCT	,	_	5	punct	_	end_char=2415|start_char=2414
+14	anyone	anyone	PRON	NN	Number=Sing|PronType=Ind	15	subj	_	end_char=2422|start_char=2416
+15	found	find	VERB	VBD	Tense=Past|VerbForm=Part|Voice=Pass	2	parataxis	_	end_char=2428|start_char=2423
+16	disobeying	disobey	VERB	VBG	Shared=Yes|VerbForm=Ger	17	subj@pass	_	end_char=2439|start_char=2429
+17	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	comp:obj	_	end_char=2443|start_char=2440
+18	pinned	pinn	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	17	comp:aux@pass	_	end_char=2450|start_char=2444
+19	to	to	ADP	IN	_	18	udep	_	end_char=2453|start_char=2451
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	end_char=2457|start_char=2454
+21	ground	ground	NOUN	NN	Number=Sing	19	comp:obj	_	end_char=2464|start_char=2458
+22	and	and	CCONJ	CC	_	23	cc	_	end_char=2468|start_char=2465
+23	lashed	lash	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	conj:coord	_	end_char=2475|SpaceAfter=No|start_char=2469
+24	.	.	PUNCT	.	_	2	punct	_	end_char=2476|start_char=2475
+
+# text = Others were beheaded and hung from poles, with notices attached to their bodies that anyone daring to remove the corpse before 48 hours had passed would also be beheaded and hanged.
+# sent_id = 23
+1	Others	other	NOUN	NNS	Number=Plur	2	subj@pass	_	end_char=2483|start_char=2477
+2	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=2488|start_char=2484
+3	beheaded	behead	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	comp:aux@pass	_	end_char=2497|start_char=2489
+4	and	and	CCONJ	CC	_	5	cc	_	end_char=2501|start_char=2498
+5	hung	hang	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	conj:coord	_	end_char=2506|start_char=2502
+6	from	from	ADP	IN	Shared=No	5	udep	_	end_char=2511|start_char=2507
+7	poles	pole	NOUN	NNS	Number=Plur	6	comp:obj	_	end_char=2517|SpaceAfter=No|start_char=2512
+8	,	,	PUNCT	,	_	9	punct	_	end_char=2518|start_char=2517
+9	with	with	ADP	IN	Shared=Yes	5	udep	_	end_char=2523|start_char=2519
+10	notices	notice	NOUN	NNS	Number=Plur	9	comp:obj	_	end_char=2531|start_char=2524
+11	attached	attach	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	mod	_	end_char=2540|start_char=2532
+12	to	to	ADP	IN	_	11	udep	_	end_char=2543|start_char=2541
+13	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	mod@poss	_	end_char=2549|start_char=2544
+14	bodies	body	NOUN	NNS	Number=Plur	12	comp:obj	_	end_char=2556|start_char=2550
+15	that	that	PRON	WDT	PronType=Rel	26	comp:obj	_	end_char=2561|start_char=2557
+16	anyone	anyone	PRON	NN	Number=Sing|PronType=Ind	27	subj@pass	_	end_char=2568|start_char=2562
+17	daring	dare	VERB	VBG	VerbForm=Ger	16	mod	_	end_char=2575|start_char=2569
+18	to	to	PART	TO	_	17	comp:obl	_	end_char=2578|start_char=2576
+19	remove	remove	VERB	VB	VerbForm=Inf	18	comp:obj	_	end_char=2585|start_char=2579|Subject=SubjRaising
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	end_char=2589|start_char=2586
+21	corpse	corpse	NOUN	NN	Number=Sing	19	comp:obj	_	end_char=2596|start_char=2590
+22	before	before	ADP	IN	_	19	udep	_	end_char=2603|start_char=2597
+23	48	48	NUM	CD	NumForm=Digit|NumType=Card	24	mod	_	end_char=2606|start_char=2604
+24	hours	hour	NOUN	NNS	Number=Plur	22	comp:obj	_	end_char=2612|start_char=2607
+25	had	have	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	mod@relcl	_	end_char=2616|start_char=2613
+26	passed	pass	VERB	VBN	Tense=Past|VerbForm=Part	25	comp:aux	_	end_char=2623|start_char=2617
+27	would	would	AUX	MD	VerbForm=Fin	15	comp:obj	_	end_char=2629|start_char=2624
+28	also	also	ADV	RB	_	27	mod	_	end_char=2634|start_char=2630
+29	be	be	AUX	VB	VerbForm=Inf	27	comp:aux	_	end_char=2637|start_char=2635
+30	beheaded	behead	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	29	comp:aux@pass	_	end_char=2646|start_char=2638
+31	and	and	CCONJ	CC	_	32	cc	_	end_char=2650|start_char=2647
+32	hanged	hang	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	30	conj:coord	_	end_char=2657|SpaceAfter=No|start_char=2651
+33	.	.	PUNCT	.	_	2	punct	_	end_char=2658|SpacesAfter=\n|start_char=2657
+

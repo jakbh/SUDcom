@@ -1,0 +1,879 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# text = T.J. Lane, a remorseless killer who escaped from an Ohio prison where he was serving three life sentences for a school shooting, has been captured.
+# sent_id = 0
+1	T.J.	T.J.	PROPN	NNP	Number=Sing	25	subj@pass	_	end_char=4|start_char=0
+2	Lane	Lane	PROPN	NNP	Number=Sing	1	flat	_	end_char=9|SpaceAfter=No|start_char=5
+3	,	,	PUNCT	,	_	6	punct	_	end_char=10|start_char=9
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	end_char=12|start_char=11
+5	remorseless	remorseless	ADJ	JJ	Degree=Pos	6	mod	_	end_char=24|start_char=13
+6	killer	killer	NOUN	NN	Number=Sing	1	conj:appos	_	end_char=31|start_char=25
+7	who	who	PRON	WP	PronType=Rel	8	subj	_	end_char=35|start_char=32
+8	escaped	escape	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	mod@relcl	_	end_char=43|start_char=36
+9	from	from	ADP	IN	_	8	udep	_	end_char=48|start_char=44
+10	an	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	end_char=51|start_char=49
+11	Ohio	Ohio	PROPN	NNP	Number=Sing	12	compound	_	end_char=56|start_char=52
+12	prison	prison	NOUN	NN	Number=Sing	9	comp:obj	_	end_char=63|start_char=57
+13	where	where	ADV	WRB	PronType=Rel	15	mod	_	end_char=69|start_char=64
+14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	subj	_	end_char=72|start_char=70
+15	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	mod@relcl	_	end_char=76|start_char=73
+16	serving	serve	VERB	VBG	Tense=Pres|VerbForm=Part	15	comp:aux	_	end_char=84|start_char=77
+17	three	three	NUM	CD	NumForm=Word|NumType=Card	19	mod	_	end_char=90|start_char=85
+18	life	life	NOUN	NN	Number=Sing	19	compound	_	end_char=95|start_char=91
+19	sentences	sentence	NOUN	NNS	Number=Plur	16	comp:obj	_	end_char=105|start_char=96
+20	for	for	ADP	IN	_	19	udep	_	end_char=109|start_char=106
+21	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	end_char=111|start_char=110
+22	school	school	NOUN	NN	Number=Sing	23	compound	_	end_char=118|start_char=112
+23	shooting	shooting	NOUN	NN	Number=Sing	20	comp:obj	_	end_char=127|SpaceAfter=No|start_char=119
+24	,	,	PUNCT	,	_	1	punct	_	end_char=128|start_char=127
+25	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=132|start_char=129
+26	been	be	AUX	VBN	Tense=Past|VerbForm=Part	25	comp:aux	_	end_char=137|start_char=133
+27	captured	capture	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	26	comp:aux@pass	_	end_char=146|SpaceAfter=No|start_char=138
+28	.	.	PUNCT	.	_	25	punct	_	end_char=147|SpacesAfter=\n|start_char=146
+
+# text = For six long hours, police scoured neighborhoods on the north end of Lima, Ohio, asking residents to lock their doors and stay inside.
+# sent_id = 1
+1	For	for	ADP	IN	_	7	udep	_	end_char=151|start_char=148
+2	six	six	NUM	CD	NumForm=Word|NumType=Card	4	mod	_	end_char=155|start_char=152
+3	long	long	ADJ	JJ	Degree=Pos	4	mod	_	end_char=160|start_char=156
+4	hours	hour	NOUN	NNS	Number=Plur	1	comp:obj	_	end_char=166|SpaceAfter=No|start_char=161
+5	,	,	PUNCT	,	_	1	punct	_	end_char=167|start_char=166
+6	police	police	NOUN	NNS	Number=Plur	7	subj	_	end_char=174|start_char=168
+7	scoured	scour	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=182|start_char=175
+8	neighborhoods	neighborhood	NOUN	NNS	Number=Plur	7	comp:obj	_	end_char=196|start_char=183
+9	on	on	ADP	IN	_	7	udep	_	end_char=199|start_char=197
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	end_char=203|start_char=200
+11	north	north	ADJ	JJ	Degree=Pos	12	mod	_	end_char=209|start_char=204
+12	end	end	NOUN	NN	Number=Sing	9	comp:obj	_	end_char=213|start_char=210
+13	of	of	ADP	IN	_	12	udep	_	end_char=216|start_char=214
+14	Lima	Lima	PROPN	NNP	Number=Sing	13	comp:obj	_	end_char=221|SpaceAfter=No|start_char=217
+15	,	,	PUNCT	,	_	16	punct	_	end_char=222|start_char=221
+16	Ohio	Ohio	PROPN	NNP	Number=Sing	14	conj:appos	_	end_char=227|SpaceAfter=No|start_char=223
+17	,	,	PUNCT	,	_	18	punct	_	end_char=228|start_char=227
+18	asking	ask	VERB	VBG	Tense=Pres|VerbForm=Part	7	mod	_	end_char=235|start_char=229
+19	residents	resident	NOUN	NNS	Number=Plur	18	comp:obl	_	end_char=245|start_char=236
+20	to	to	PART	TO	_	18	comp:obl	_	end_char=248|start_char=246
+21	lock	lock	VERB	VB	VerbForm=Inf	20	comp:obj	_	end_char=253|start_char=249|Subject=SubjRaising
+22	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	23	mod@poss	_	end_char=259|start_char=254
+23	doors	door	NOUN	NNS	Number=Plur	21	comp:obj	_	end_char=265|start_char=260
+24	and	and	CCONJ	CC	_	25	cc	_	end_char=269|start_char=266
+25	stay	stay	VERB	VB	VerbForm=Inf	21	conj:coord	_	end_char=274|start_char=270
+26	inside	inside	ADV	RB	Shared=No	25	mod	_	end_char=281|SpaceAfter=No|start_char=275
+27	.	.	PUNCT	.	_	7	punct	_	end_char=282|SpacesAfter=\n|start_char=281
+
+# text = They brought in extra officers and provided patrols to the families of Lane's victims.
+# sent_id = 2
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs|Shared=Yes	2	subj	_	end_char=287|start_char=283
+2	brought	bring	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=295|start_char=288
+3	in	in	ADP	RP	_	2	compound@prt	_	end_char=298|start_char=296
+4	extra	extra	ADJ	JJ	Degree=Pos	5	mod	_	end_char=304|start_char=299
+5	officers	officer	NOUN	NNS	Number=Plur	2	comp:obj	_	end_char=313|start_char=305
+6	and	and	CCONJ	CC	_	7	cc	_	end_char=317|start_char=314
+7	provided	provide	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	conj:coord	_	end_char=326|start_char=318
+8	patrols	patrol	NOUN	NNS	Number=Plur|Shared=No	7	comp:obj	_	end_char=334|start_char=327
+9	to	to	ADP	IN	Shared=No	7	udep	_	end_char=337|start_char=335
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	end_char=341|start_char=338
+11	families	family	NOUN	NNS	Number=Plur	9	comp:obj	_	end_char=350|start_char=342
+12	of	of	ADP	IN	_	11	udep	_	end_char=353|start_char=351
+13-14	Lane's	_	_	_	_	_	_	_	end_char=360|start_char=354
+13	Lane	Lane	PROPN	NNP	Number=Sing	14	comp:obj	_	end_char=358|start_char=354
+14	's	's	PART	POS	_	15	udep@poss	_	end_char=360|start_char=358
+15	victims	victim	NOUN	NNS	Number=Plur	12	comp:obj	_	end_char=368|SpaceAfter=No|start_char=361
+16	.	.	PUNCT	.	_	2	punct	_	end_char=369|SpacesAfter=\n|start_char=368
+
+# text = In the end, he was found 100 yards away outside a church, the prison warden said.
+# sent_id = 3
+1	In	in	ADP	IN	_	6	udep	_	end_char=372|start_char=370
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	end_char=376|start_char=373
+3	end	end	NOUN	NN	Number=Sing	1	comp:obj	_	end_char=380|SpaceAfter=No|start_char=377
+4	,	,	PUNCT	,	_	1	punct	_	end_char=381|start_char=380
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj@pass	_	end_char=384|start_char=382
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	comp:obj	_	end_char=388|start_char=385
+7	found	find	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	comp:aux@pass	_	end_char=394|start_char=389
+8	100	100	NUM	CD	NumForm=Digit|NumType=Card	9	mod	_	end_char=398|start_char=395
+9	yards	yard	NOUN	NNS	Number=Plur	10	udep@unmarked	_	end_char=404|start_char=399
+10	away	away	ADV	RB	_	7	mod	_	end_char=409|start_char=405
+11	outside	outside	ADP	IN	_	7	udep	_	end_char=417|start_char=410
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	end_char=419|start_char=418
+13	church	church	NOUN	NN	Number=Sing	11	comp:obj	_	end_char=426|SpaceAfter=No|start_char=420
+14	,	,	PUNCT	,	_	6	punct	_	end_char=427|start_char=426
+15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	end_char=431|start_char=428
+16	prison	prison	NOUN	NN	Number=Sing	17	compound	_	end_char=438|start_char=432
+17	warden	warden	NOUN	NN	Number=Sing	18	subj	_	end_char=445|start_char=439
+18	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=450|SpaceAfter=No|start_char=446
+19	.	.	PUNCT	.	_	18	punct	_	end_char=451|start_char=450
+
+# text = He did n't say anything, nor did he put up a fight, authorities said.
+# sent_id = 4
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=No	2	subj	_	end_char=454|start_char=452
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	comp:obj	_	end_char=458|start_char=455
+3	n't	not	PART	RB	Polarity=Neg	2	mod	_	end_char=462|start_char=459
+4	say	say	VERB	VB	VerbForm=Inf	2	comp:aux	_	end_char=466|start_char=463
+5	anything	anything	PRON	NN	Number=Sing|PronType=Ind	4	comp:obj	_	end_char=475|SpaceAfter=No|start_char=467
+6	,	,	PUNCT	,	_	8	punct	_	end_char=476|start_char=475
+7	nor	nor	CCONJ	CC	Polarity=Neg	8	cc	_	end_char=480|start_char=477
+8	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj:coord	_	end_char=484|start_char=481
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=No	8	subj	_	end_char=487|start_char=485
+10	put	put	VERB	VB	Shared=No|VerbForm=Inf	8	comp:aux	_	end_char=491|start_char=488
+11	up	up	ADP	RP	_	10	compound@prt	_	end_char=494|start_char=492
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	end_char=496|start_char=495
+13	fight	fight	NOUN	NN	Number=Sing	10	comp:obj	_	end_char=502|SpaceAfter=No|start_char=497
+14	,	,	PUNCT	,	_	2	punct	_	end_char=503|start_char=502
+15	authorities	authority	NOUN	NNS	Number=Plur	16	subj	_	end_char=515|start_char=504
+16	said	say	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=520|SpaceAfter=No|start_char=516
+17	.	.	PUNCT	.	_	16	punct	_	end_char=521|SpacesAfter=\n|start_char=520
+
+# text = Lane was serving consecutive life sentences without the possibility of parole for his attack at Chardon High School on February 27, 2012.
+# sent_id = 5
+1	Lane	Lane	PROPN	NNP	Number=Sing	2	subj	_	end_char=526|start_char=522
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=530|start_char=527
+3	serving	serve	VERB	VBG	Tense=Pres|VerbForm=Part	2	comp:aux	_	end_char=538|start_char=531
+4	consecutive	consecutive	ADJ	JJ	Degree=Pos	6	mod	_	end_char=550|start_char=539
+5	life	life	NOUN	NN	Number=Sing	6	compound	_	end_char=555|start_char=551
+6	sentences	sentence	NOUN	NNS	Number=Plur	3	comp:obj	_	end_char=565|start_char=556
+7	without	without	ADP	IN	_	3	udep	_	end_char=573|start_char=566
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	end_char=577|start_char=574
+9	possibility	possibility	NOUN	NN	Number=Sing	7	comp:obj	_	end_char=589|start_char=578
+10	of	of	ADP	IN	_	9	udep	_	end_char=592|start_char=590
+11	parole	parole	NOUN	NN	Number=Sing	10	comp:obj	_	end_char=599|start_char=593
+12	for	for	ADP	IN	_	9	udep	_	end_char=603|start_char=600
+13	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	mod@poss	_	end_char=607|start_char=604
+14	attack	attack	NOUN	NN	Number=Sing	12	comp:obj	_	end_char=614|start_char=608
+15	at	at	ADP	IN	_	14	udep	_	end_char=617|start_char=615
+16	Chardon	Chardon	PROPN	NNP	Number=Sing	18	compound	_	end_char=625|start_char=618
+17	High	high	ADJ	NNP	Degree=Pos	18	mod	_	end_char=630|start_char=626
+18	School	School	PROPN	NNP	Number=Sing	15	comp:obj	_	end_char=637|start_char=631
+19	on	on	ADP	IN	_	14	udep	_	end_char=640|start_char=638
+20	February	February	PROPN	NNP	Number=Sing	21	compound	_	end_char=649|start_char=641
+21	27	27	NUM	CD	NumForm=Digit|NumType=Card	19	comp:obj	_	end_char=652|SpaceAfter=No|start_char=650
+22	,	,	PUNCT	,	_	23	punct	_	end_char=653|start_char=652
+23	2012	2012	NUM	CD	NumForm=Digit|NumType=Card	21	mod@unmarked	_	end_char=658|SpaceAfter=No|start_char=654
+24	.	.	PUNCT	.	_	2	punct	_	end_char=659|SpacesAfter=\n|start_char=658
+
+# text = He walked in to the school cafeteria with a.22 - caliber gun and randomly started shooting.
+# sent_id = 6
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=Yes	2	subj	_	end_char=662|start_char=660
+2	walked	walk	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=669|start_char=663
+3	in	in	ADP	IN	_	2	compound@prt	_	end_char=672|start_char=670
+4	to	to	ADP	IN	_	2	udep	_	end_char=675|start_char=673
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	end_char=679|start_char=676
+6	school	school	NOUN	NN	Number=Sing	7	compound	_	end_char=686|start_char=680
+7	cafeteria	cafeteria	NOUN	NN	Number=Sing	4	comp:obj	_	end_char=696|start_char=687
+8	with	with	ADP	IN	_	2	udep	_	end_char=701|start_char=697
+9	a.22	a.22	NUM	CD	NumForm=Digit|NumType=Card	11	mod	_	end_char=706|start_char=702
+10	-	-	PUNCT	HYPH	_	9	punct	_	end_char=708|start_char=707
+11	caliber	caliber	NOUN	NN	Number=Sing	12	compound	_	end_char=716|start_char=709
+12	gun	gun	NOUN	NN	Number=Sing	8	comp:obj	_	end_char=720|start_char=717
+13	and	and	CCONJ	CC	_	15	cc	_	end_char=724|start_char=721
+14	randomly	randomly	ADV	RB	_	15	mod	_	end_char=733|start_char=725
+15	started	start	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj:coord	_	end_char=741|start_char=734
+16	shooting	shoot	VERB	VBG	Shared=No|VerbForm=Ger	15	comp:obj	_	end_char=750|SpaceAfter=No|start_char=742|Subject=SubjRaising
+17	.	.	PUNCT	.	_	2	punct	_	end_char=751|start_char=750
+
+# text = He fired 10 rounds, killing three students.
+# sent_id = 7
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=754|start_char=752
+2	fired	fire	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=760|start_char=755
+3	10	10	NUM	CD	NumForm=Digit|NumType=Card	4	mod	_	end_char=763|start_char=761
+4	rounds	round	NOUN	NNS	Number=Plur	2	comp:obj	_	end_char=770|SpaceAfter=No|start_char=764
+5	,	,	PUNCT	,	_	6	punct	_	end_char=771|start_char=770
+6	killing	kill	VERB	VBG	Tense=Pres|VerbForm=Part	2	mod	_	end_char=779|start_char=772
+7	three	three	NUM	CD	NumForm=Word|NumType=Card	8	mod	_	end_char=785|start_char=780
+8	students	student	NOUN	NNS	Number=Plur	6	comp:obj	_	end_char=794|SpaceAfter=No|start_char=786
+9	.	.	PUNCT	.	_	2	punct	_	end_char=795|SpacesAfter=\n|start_char=794
+
+# text = The 19-year-old scaled a fence at the Allen Oakwood Correctional Institution in Lima, about 90 miles northwest of Columbus, Warden Kevin Jones said.
+# sent_id = 8
+1	The	the	DET	DT	Definite=Def|PronType=Art	6	det	_	end_char=799|start_char=796
+2	19	19	NUM	CD	NumForm=Digit|NumType=Card	4	mod	_	end_char=802|SpaceAfter=No|start_char=800
+3	-	-	PUNCT	HYPH	_	2	punct	_	end_char=803|SpaceAfter=No|start_char=802
+4	year	year	NOUN	NN	Number=Sing	6	compound	_	end_char=807|SpaceAfter=No|start_char=803
+5	-	-	PUNCT	HYPH	_	4	punct	_	end_char=808|SpaceAfter=No|start_char=807
+6	old	old	ADJ	JJ	Degree=Pos	7	subj	_	end_char=811|start_char=808
+7	scaled	scal	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	29	comp:obj	_	end_char=818|start_char=812
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	end_char=820|start_char=819
+9	fence	fence	NOUN	NN	Number=Sing	7	comp:obj	_	end_char=826|start_char=821
+10	at	at	ADP	IN	_	7	udep	_	end_char=829|start_char=827
+11	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	end_char=833|start_char=830
+12	Allen	Allen	PROPN	NNP	Number=Sing	15	compound	_	end_char=839|start_char=834
+13	Oakwood	Oakwood	PROPN	NNP	Number=Sing	15	compound	_	end_char=847|start_char=840
+14	Correctional	correctional	ADJ	NNP	Degree=Pos	15	mod	_	end_char=860|start_char=848
+15	Institution	Institution	PROPN	NNP	Number=Sing	10	comp:obj	_	end_char=872|start_char=861
+16	in	in	ADP	IN	_	15	udep	_	end_char=875|start_char=873
+17	Lima	Lima	PROPN	NNP	Number=Sing	16	comp:obj	_	end_char=880|SpaceAfter=No|start_char=876
+18	,	,	PUNCT	,	_	22	punct	_	end_char=881|start_char=880
+19	about	about	ADV	RB	_	20	mod	_	end_char=887|start_char=882
+20	90	90	NUM	CD	NumForm=Digit|NumType=Card	21	mod	_	end_char=890|start_char=888
+21	miles	mile	NOUN	NNS	Number=Plur	22	udep@unmarked	_	end_char=896|start_char=891
+22	northwest	northwest	ADV	RB	Degree=Pos	7	mod	_	end_char=906|start_char=897
+23	of	of	ADP	IN	_	22	udep	_	end_char=909|start_char=907
+24	Columbus	Columbus	PROPN	NNP	Number=Sing	23	comp:obj	_	end_char=918|SpaceAfter=No|start_char=910
+25	,	,	PUNCT	,	_	7	punct	_	end_char=919|start_char=918
+26	Warden	Warden	PROPN	NNP	Number=Sing	29	subj	_	end_char=926|start_char=920
+27	Kevin	Kevin	PROPN	NNP	Number=Sing	26	flat	_	end_char=932|start_char=927
+28	Jones	Jones	PROPN	NNP	Number=Sing	27	flat	_	end_char=938|start_char=933
+29	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=943|SpaceAfter=No|start_char=939
+30	.	.	PUNCT	.	_	29	punct	_	end_char=944|SpacesAfter=\n\s|start_char=943
+
+# text = He was n't in the maximum-security facility.
+# sent_id = 9
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=948|start_char=946
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=952|start_char=949
+3	n't	not	PART	RB	Polarity=Neg	2	mod	_	end_char=956|start_char=953
+4	in	in	ADP	IN	_	2	comp:pred	_	end_char=959|start_char=957
+5	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	end_char=963|start_char=960
+6	maximum	maximum	ADJ	JJ	Degree=Pos	8	mod	_	end_char=971|SpaceAfter=No|start_char=964
+7	-	-	PUNCT	HYPH	_	6	punct	_	end_char=972|SpaceAfter=No|start_char=971
+8	security	security	NOUN	NN	Number=Sing	9	compound	_	end_char=980|start_char=972
+9	facility	facility	NOUN	NN	Number=Sing	4	comp:obj	_	end_char=989|SpaceAfter=No|start_char=981
+10	.	.	PUNCT	.	_	2	punct	_	end_char=990|start_char=989
+
+# text = That is something we have to sit down and take a look at.
+# sent_id = 10
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	2	subj	_	end_char=995|start_char=991
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=998|start_char=996
+3	something	something	PRON	NN	Number=Sing|PronType=Ind	2	comp:pred	_	end_char=1008|start_char=999
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	subj	_	end_char=1011|start_char=1009
+5	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	mod@relcl	_	end_char=1016|start_char=1012
+6	to	to	PART	TO	_	5	comp:obl	_	end_char=1019|start_char=1017
+7	sit	sit	VERB	VB	VerbForm=Inf	6	comp:obj	_	end_char=1023|start_char=1020|Subject=SubjRaising
+8	down	down	ADP	RP	_	7	compound@prt	_	end_char=1028|start_char=1024
+9	and	and	CCONJ	CC	_	10	cc	_	end_char=1032|start_char=1029
+10	take	take	VERB	VB	VerbForm=Inf	7	conj:coord	_	end_char=1037|start_char=1033
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	end_char=1039|start_char=1038
+12	look	look	NOUN	NN	Number=Sing|Shared=No	10	comp:obj	_	end_char=1044|start_char=1040
+13	at	at	ADP	IN	Shared=No	10	udep	_	end_char=1047|SpaceAfter=No|start_char=1045
+14	.	.	PUNCT	.	_	2	punct	_	end_char=1048|SpacesAfter=\s\n|start_char=1047
+
+# text = Lane escaped, along with two other men, about 7:40 p.m. Thursday.
+# sent_id = 11
+1	Lane	Lane	PROPN	NNP	Number=Sing	2	subj	_	end_char=1054|start_char=1050
+2	escaped	escape	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1062|SpaceAfter=No|start_char=1055
+3	,	,	PUNCT	,	_	4	punct	_	end_char=1063|start_char=1062
+4	along	along	ADP	IN	_	2	udep	_	end_char=1069|start_char=1064
+5	with	with	ADP	IN	_	4	comp:obj	_	end_char=1074|start_char=1070
+6	two	two	NUM	CD	NumForm=Word|NumType=Card	8	mod	_	end_char=1078|start_char=1075
+7	other	other	ADJ	JJ	Degree=Pos	8	mod	_	end_char=1084|start_char=1079
+8	men	man	NOUN	NNS	Number=Plur	5	comp:obj	_	end_char=1088|SpaceAfter=No|start_char=1085
+9	,	,	PUNCT	,	_	11	punct	_	end_char=1089|start_char=1088
+10	about	about	ADV	RB	_	11	mod	_	end_char=1095|start_char=1090
+11	7:40	7:40	NUM	CD	NumForm=Digit|NumType=Card	8	conj:appos	_	end_char=1100|start_char=1096
+12	p.m.	p.m.	NOUN	NN	Number=Sing	11	mod@unmarked	_	end_char=1105|start_char=1101
+13	Thursday	Thursday	PROPN	NNP	Number=Sing	12	mod@unmarked	_	end_char=1114|SpaceAfter=No|start_char=1106
+14	.	.	PUNCT	.	_	2	punct	_	end_char=1115|SpacesAfter=\n|start_char=1114
+
+# text = He was back in custody about shortly after 1 a.m. Friday.
+# sent_id = 12
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=1118|start_char=1116
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1122|start_char=1119
+3	back	back	ADV	RB	_	2	mod	_	end_char=1127|start_char=1123
+4	in	in	ADP	IN	_	2	comp:pred	_	end_char=1130|start_char=1128
+5	custody	custody	NOUN	NN	Number=Sing	4	comp:obj	_	end_char=1138|start_char=1131
+6	about	about	ADV	RB	_	8	mod	_	end_char=1144|start_char=1139
+7	shortly	shortly	ADV	RB	_	8	mod	_	end_char=1152|start_char=1145
+8	after	after	ADP	IN	_	5	udep	_	end_char=1158|start_char=1153
+9	1	1	NUM	CD	NumForm=Digit|NumType=Card	8	comp:obj	_	end_char=1160|start_char=1159
+10	a.m.	a.m.	NOUN	NN	Abbr=Yes|Number=Sing	9	mod@unmarked	_	end_char=1165|start_char=1161
+11	Friday	Friday	PROPN	NNP	Number=Sing	9	mod@unmarked	_	end_char=1172|SpaceAfter=No|start_char=1166
+12	.	.	PUNCT	.	_	2	punct	_	end_char=1173|SpacesAfter=\n\s|start_char=1172
+
+# text = You never plan on someone escaping and certainly someone of that notoriety, you would think that they would take special precautions to prevent this, Ian Friedman, who represented him at his trial, said late Thursday.
+# sent_id = 13
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs|Shared=No	3	subj	_	end_char=1178|start_char=1175
+2	never	never	ADV	RB	PronType=Neg|Shared=No	3	mod	_	end_char=1184|start_char=1179
+3	plan	plan	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	end_char=1189|start_char=1185
+4	on	on	ADP	IN	_	3	udep	_	end_char=1192|start_char=1190
+5	someone	someone	PRON	NN	Number=Sing|PronType=Ind	4	comp:obj	_	end_char=1200|start_char=1193
+6	escaping	escape	VERB	VBG	VerbForm=Ger	5	mod	_	end_char=1209|start_char=1201
+7	and	and	CCONJ	CC	_	15	cc	_	end_char=1213|start_char=1210
+8	certainly	certainly	ADV	RB	_	9	mod	_	end_char=1223|start_char=1214
+9	someone	someone	PRON	NN	Number=Sing|PronType=Ind	5	conj:coord	_	end_char=1231|start_char=1224
+10	of	of	ADP	IN	Shared=No	9	udep	_	end_char=1234|start_char=1232
+11	that	that	DET	DT	Number=Sing|PronType=Dem	12	det	_	end_char=1239|start_char=1235
+12	notoriety	notoriety	NOUN	NN	Number=Sing	10	comp:obj	_	end_char=1249|SpaceAfter=No|start_char=1240
+13	,	,	PUNCT	,	_	15	punct	_	end_char=1250|start_char=1249
+14	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	15	subj	_	end_char=1254|start_char=1251
+15	would	would	AUX	MD	VerbForm=Fin	3	conj:coord	_	end_char=1260|start_char=1255
+16	think	think	VERB	VB	Shared=No|VerbForm=Inf	15	comp:aux	_	end_char=1266|start_char=1261
+17	that	that	SCONJ	IN	_	16	comp:obj	_	end_char=1271|start_char=1267
+18	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	subj	_	end_char=1276|start_char=1272
+19	would	would	AUX	MD	VerbForm=Fin	17	comp:obj	_	end_char=1282|start_char=1277
+20	take	take	VERB	VB	VerbForm=Inf	19	comp:aux	_	end_char=1287|start_char=1283
+21	special	special	ADJ	JJ	Degree=Pos	22	mod	_	end_char=1295|start_char=1288
+22	precautions	precaution	NOUN	NNS	Number=Plur	20	comp:obj	_	end_char=1307|start_char=1296
+23	to	to	PART	TO	_	19	mod	_	end_char=1310|start_char=1308
+24	prevent	prevent	VERB	VB	VerbForm=Inf	23	comp:obj	_	end_char=1318|start_char=1311
+25	this	this	PRON	DT	Number=Sing|PronType=Dem	24	comp:obj	_	end_char=1323|SpaceAfter=No|start_char=1319
+26	,	,	PUNCT	,	_	37	punct	_	end_char=1324|start_char=1323
+27	Ian	Ian	PROPN	NNP	Number=Sing	37	subj	_	end_char=1328|start_char=1325
+28	Friedman	Friedman	PROPN	NNP	Number=Sing	27	flat	_	end_char=1337|SpaceAfter=No|start_char=1329
+29	,	,	PUNCT	,	_	31	punct	_	end_char=1338|start_char=1337
+30	who	who	PRON	WP	PronType=Rel	31	subj	_	end_char=1342|start_char=1339
+31	represented	represent	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	mod@relcl	_	end_char=1354|start_char=1343
+32	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	comp:obj	_	end_char=1358|start_char=1355
+33	at	at	ADP	IN	_	31	udep	_	end_char=1361|start_char=1359
+34	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	35	mod@poss	_	end_char=1365|start_char=1362
+35	trial	trial	NOUN	NN	Number=Sing	33	comp:obj	_	end_char=1371|SpaceAfter=No|start_char=1366
+36	,	,	PUNCT	,	_	27	punct	_	end_char=1372|start_char=1371
+37	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	parataxis	_	end_char=1377|start_char=1373
+38	late	late	ADJ	JJ	Degree=Pos	39	mod	_	end_char=1382|start_char=1378
+39	Thursday	Thursday	PROPN	NNP	Number=Sing	37	udep@unmarked	_	end_char=1391|SpaceAfter=No|start_char=1383
+40	.	.	PUNCT	.	_	3	punct	_	end_char=1392|SpacesAfter=\n\s|start_char=1391
+
+# text = This was a huge case here in Ohio.
+# sent_id = 14
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	2	subj	_	end_char=1398|start_char=1394
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1402|start_char=1399
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	end_char=1404|start_char=1403
+4	huge	huge	ADJ	JJ	Degree=Pos	5	mod	_	end_char=1409|start_char=1405
+5	case	case	NOUN	NN	Number=Sing	2	comp:pred	_	end_char=1414|start_char=1410
+6	here	here	ADV	RB	PronType=Dem	5	mod	_	end_char=1419|start_char=1415
+7	in	in	ADP	IN	_	5	udep	_	end_char=1422|start_char=1420
+8	Ohio	Ohio	PROPN	NNP	Number=Sing	7	comp:obj	_	end_char=1427|SpaceAfter=No|start_char=1423
+9	.	.	PUNCT	.	_	2	punct	_	end_char=1428|start_char=1427
+
+# text = So, everyone in Ohio is shocked right now.
+# sent_id = 15
+1	So	so	ADV	RB	_	6	discourse	_	end_char=1431|SpaceAfter=No|start_char=1429
+2	,	,	PUNCT	,	_	1	punct	_	end_char=1432|start_char=1431
+3	everyone	everyone	PRON	NN	Number=Sing|PronType=Tot	6	subj	_	end_char=1441|start_char=1433
+4	in	in	ADP	IN	_	3	udep	_	end_char=1444|start_char=1442
+5	Ohio	Ohio	PROPN	NNP	Number=Sing	4	comp:obj	_	end_char=1449|start_char=1445
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=1452|start_char=1450
+7	shocked	shocked	ADJ	JJ	Degree=Pos	6	comp:pred	_	end_char=1460|start_char=1453
+8	right	right	ADV	RB	_	9	mod	_	end_char=1466|start_char=1461
+9	now	now	ADV	RB	_	6	mod	_	end_char=1470|SpaceAfter=No|start_char=1467
+10	.	.	PUNCT	.	_	6	punct	_	end_char=1471|SpacesAfter=\s\n|start_char=1470
+
+# text = Friends, family remember Ohio school shooting victims Prison infractions The Allen Oakwood Correctional Institution houses about 1,600 inmates guarded by 257 security personnel.
+# sent_id = 16
+1	Friends	Friend	NOUN	NNS	Number=Plur	4	subj	_	end_char=1480|SpaceAfter=No|start_char=1473
+2	,	,	PUNCT	,	_	1	punct	_	end_char=1481|start_char=1480
+3	family	family	NOUN	NN	Number=Sing	4	subj	_	end_char=1488|start_char=1482
+4	remember	remember	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=1497|start_char=1489
+5	Ohio	Ohio	PROPN	NNP	Number=Sing	8	compound	_	end_char=1502|start_char=1498
+6	school	school	NOUN	NN	Number=Sing	8	compound	_	end_char=1509|start_char=1503
+7	shooting	shooting	NOUN	NN	Number=Sing	8	compound	_	end_char=1518|start_char=1510
+8	victims	victim	NOUN	NNS	Number=Plur	16	subj	_	end_char=1526|SpacesAfter=\n|start_char=1519
+9	Prison	prison	NOUN	NN	Number=Sing	10	compound	_	end_char=1533|start_char=1527
+10	infractions	infraction	NOUN	NNS	Number=Plur	16	subj	_	end_char=1545|SpacesAfter=\n|start_char=1534
+11	The	the	DET	DT	Definite=Def|PronType=Art	15	det	_	end_char=1549|start_char=1546
+12	Allen	Allen	PROPN	NNP	Number=Sing	15	compound	_	end_char=1555|start_char=1550
+13	Oakwood	Oakwood	PROPN	NNP	Number=Sing	15	compound	_	end_char=1563|start_char=1556
+14	Correctional	correctional	ADJ	NNP	Degree=Pos	15	mod	_	end_char=1576|start_char=1564
+15	Institution	Institution	PROPN	NNP	Number=Sing	16	subj	_	end_char=1588|start_char=1577
+16	houses	house	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	comp:obj	_	end_char=1595|start_char=1589
+17	about	about	ADV	RB	_	18	mod	_	end_char=1601|start_char=1596
+18	1,600	1600	NUM	CD	NumForm=Digit|NumType=Card	19	mod	_	end_char=1607|start_char=1602
+19	inmates	inmate	NOUN	NNS	Number=Plur	16	comp:obj	_	end_char=1615|start_char=1608
+20	guarded	guard	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	19	mod	_	end_char=1623|start_char=1616
+21	by	by	ADP	IN	_	20	comp:obl@agent	_	end_char=1626|start_char=1624
+22	257	257	NUM	CD	NumForm=Digit|NumType=Card	24	mod	_	end_char=1630|start_char=1627
+23	security	security	NOUN	NN	Number=Sing	24	compound	_	end_char=1639|start_char=1631
+24	personnel	personnel	NOUN	NNS	Number=Plur	21	comp:obj	_	end_char=1649|SpaceAfter=No|start_char=1640
+25	.	.	PUNCT	.	_	4	punct	_	end_char=1650|SpacesAfter=\n|start_char=1649
+
+# text = A Correctional Institution Inspection Committee report in April said the facility was over capacity by 217 inmates.
+# sent_id = 17
+1	A	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	end_char=1652|start_char=1651
+2	Correctional	correctional	ADJ	NNP	Degree=Pos	3	mod	_	end_char=1665|start_char=1653
+3	Institution	Institution	PROPN	NNP	Number=Sing	5	compound	_	end_char=1677|start_char=1666
+4	Inspection	inspection	PROPN	NNP	Number=Sing	5	compound	_	end_char=1688|start_char=1678
+5	Committee	Committee	PROPN	NNP	Number=Sing	6	compound	_	end_char=1698|start_char=1689
+6	report	report	NOUN	NN	Number=Sing	9	subj	_	end_char=1705|start_char=1699
+7	in	in	ADP	IN	_	6	udep	_	end_char=1708|start_char=1706
+8	April	April	PROPN	NNP	Number=Sing	7	comp:obj	_	end_char=1714|start_char=1709
+9	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1719|start_char=1715
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	end_char=1723|start_char=1720
+11	facility	facility	NOUN	NN	Number=Sing	12	subj	_	end_char=1732|start_char=1724
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	comp:obj	_	end_char=1736|start_char=1733
+13	over	over	ADP	IN	_	12	comp:pred	_	end_char=1741|start_char=1737
+14	capacity	capacity	NOUN	NN	Number=Sing	13	comp:obj	_	end_char=1750|start_char=1742
+15	by	by	ADP	IN	_	14	udep	_	end_char=1753|start_char=1751
+16	217	217	NUM	CD	NumForm=Digit|NumType=Card	17	mod	_	end_char=1757|start_char=1754
+17	inmates	inmate	NOUN	NNS	Number=Plur	15	comp:obj	_	end_char=1765|SpaceAfter=No|start_char=1758
+18	.	.	PUNCT	.	_	9	punct	_	end_char=1766|start_char=1765
+
+# text = In addition, the number of inmate assaults on staff increased by 60.7 % last year, compared with 2012.
+# sent_id = 18
+1	In	in	ADP	IN	_	11	udep	_	end_char=1769|start_char=1767
+2	addition	addition	NOUN	NN	Number=Sing	1	comp:obj	_	end_char=1778|SpaceAfter=No|start_char=1770
+3	,	,	PUNCT	,	_	1	punct	_	end_char=1779|start_char=1778
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	end_char=1783|start_char=1780
+5	number	number	NOUN	NN	Number=Sing	11	subj	_	end_char=1790|start_char=1784
+6	of	of	ADP	IN	_	5	udep	_	end_char=1793|start_char=1791
+7	inmate	inmate	NOUN	NN	Number=Sing	8	compound	_	end_char=1800|start_char=1794
+8	assaults	assault	NOUN	NNS	Number=Plur	6	comp:obj	_	end_char=1809|start_char=1801
+9	on	on	ADP	IN	_	8	udep	_	end_char=1812|start_char=1810
+10	staff	staff	NOUN	NN	Number=Sing	9	comp:obj	_	end_char=1818|start_char=1813
+11	increased	increase	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1828|start_char=1819
+12	by	by	ADP	IN	_	11	udep	_	end_char=1831|start_char=1829
+13	60.7	60.7	NUM	CD	NumForm=Digit|NumType=Frac	14	mod	_	end_char=1836|start_char=1832
+14	%	%	SYM	NN	Number=Sing	12	comp:obj	_	end_char=1838|start_char=1837
+15	last	last	ADJ	JJ	Degree=Pos	16	mod	_	end_char=1843|start_char=1839
+16	year	year	NOUN	NN	Number=Sing	11	udep@unmarked	_	end_char=1848|SpaceAfter=No|start_char=1844
+17	,	,	PUNCT	,	_	18	punct	_	end_char=1849|start_char=1848
+18	compared	compare	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	mod	_	end_char=1858|start_char=1850
+19	with	with	ADP	IN	_	18	udep	_	end_char=1863|start_char=1859
+20	2012	2012	NUM	CD	NumForm=Digit|NumType=Card	19	comp:obj	_	end_char=1868|SpaceAfter=No|start_char=1864
+21	.	.	PUNCT	.	_	11	punct	_	end_char=1869|start_char=1868
+
+# text = No escapes were mentioned in the report.
+# sent_id = 19
+1	No	no	DET	DT	PronType=Neg	2	det	_	end_char=1872|start_char=1870
+2	escapes	escape	NOUN	NNS	Number=Plur	3	subj@pass	_	end_char=1880|start_char=1873
+3	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1885|start_char=1881
+4	mentioned	mention	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	comp:aux@pass	_	end_char=1895|start_char=1886
+5	in	in	ADP	IN	_	4	udep	_	end_char=1898|start_char=1896
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	end_char=1902|start_char=1899
+7	report	report	NOUN	NN	Number=Sing	5	comp:obj	_	end_char=1909|SpaceAfter=No|start_char=1903
+8	.	.	PUNCT	.	_	3	punct	_	end_char=1910|SpacesAfter=\n|start_char=1909
+
+# text = In the 18 months he's been there, Lane was disciplined seven times, according to The Plain Dealer newspaper.
+# sent_id = 20
+1	In	in	ADP	IN	_	11	udep	_	end_char=1913|start_char=1911
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	end_char=1917|start_char=1914
+3	18	18	NUM	CD	NumForm=Digit|NumType=Card	4	mod	_	end_char=1920|start_char=1918
+4	months	month	NOUN	NNS	Number=Plur	1	comp:obj	_	end_char=1927|start_char=1921
+5-6	he's	_	_	_	_	_	_	_	end_char=1932|start_char=1928
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj	_	end_char=1930|start_char=1928
+6	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	mod@relcl	_	end_char=1932|start_char=1930
+7	been	be	AUX	VBN	Tense=Past|VerbForm=Part	6	comp:aux	_	end_char=1937|start_char=1933
+8	there	there	ADV	RB	PronType=Dem	7	comp:pred	_	end_char=1943|SpaceAfter=No|start_char=1938
+9	,	,	PUNCT	,	_	1	punct	_	end_char=1944|start_char=1943
+10	Lane	Lane	PROPN	NNP	Number=Sing	11	subj@pass	_	end_char=1949|start_char=1945
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1953|start_char=1950
+12	disciplined	disciplined	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	comp:aux@pass	_	end_char=1965|start_char=1954
+13	seven	seven	NUM	CD	NumForm=Word|NumType=Card	14	mod	_	end_char=1971|start_char=1966
+14	times	time	NOUN	NNS	Number=Plur	12	udep@unmarked	_	end_char=1977|SpaceAfter=No|start_char=1972
+15	,	,	PUNCT	,	_	16	punct	_	end_char=1978|start_char=1977
+16	according	accord	VERB	VBG	ExtPos=ADP|Tense=Pres|VerbForm=Part	12	udep	_	end_char=1988|Idiom=Yes|start_char=1979
+17	to	to	ADP	IN	_	16	unk	_	end_char=1991|InIdiom=Yes|start_char=1989
+18	The	the	DET	DT	Definite=Def|PronType=Art	21	det	_	end_char=1995|start_char=1992
+19	Plain	Plain	ADJ	NNP	Degree=Pos	20	mod	_	end_char=2001|start_char=1996
+20	Dealer	Dealer	PROPN	NNP	Number=Sing	21	compound	_	end_char=2008|start_char=2002
+21	newspaper	newspaper	NOUN	NN	Number=Sing	16	comp:obj	_	end_char=2018|SpaceAfter=No|start_char=2009
+22	.	.	PUNCT	.	_	11	punct	_	end_char=2019|SpacesAfter=\n|start_char=2018
+
+# text = The infractions ranged from urinating on a wall to giving himself a tattoo, the paper said.
+# sent_id = 21
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	end_char=2023|start_char=2020
+2	infractions	infraction	NOUN	NNS	Number=Plur	3	subj	_	end_char=2035|start_char=2024
+3	ranged	rang	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	17	comp:obj	_	end_char=2042|start_char=2036
+4	from	from	SCONJ	IN	_	3	mod	_	end_char=2047|start_char=2043
+5	urinating	urinate	VERB	VBG	Tense=Pres|VerbForm=Part	4	comp:obj	_	end_char=2057|start_char=2048
+6	on	on	ADP	IN	_	5	udep	_	end_char=2060|start_char=2058
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	end_char=2062|start_char=2061
+8	wall	wall	NOUN	NN	Number=Sing	6	comp:obj	_	end_char=2067|start_char=2063
+9	to	to	SCONJ	IN	_	5	mod	_	end_char=2070|start_char=2068
+10	giving	give	VERB	VBG	VerbForm=Ger	9	comp:obj	_	end_char=2077|start_char=2071
+11	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	10	comp:obl	_	end_char=2085|start_char=2078
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	end_char=2087|start_char=2086
+13	tattoo	tattoo	NOUN	NN	Number=Sing	10	comp:obj	_	end_char=2094|SpaceAfter=No|start_char=2088
+14	,	,	PUNCT	,	_	3	punct	_	end_char=2095|start_char=2094
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	end_char=2099|start_char=2096
+16	paper	paper	NOUN	NN	Number=Sing	17	subj	_	end_char=2105|start_char=2100
+17	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=2110|SpaceAfter=No|start_char=2106
+18	.	.	PUNCT	.	_	17	punct	_	end_char=2111|SpacesAfter=\n|start_char=2110
+
+# text = Lane escaped with Clifford E. Opperud, 45, who was serving time for aggravated robbery, and another man.
+# sent_id = 22
+1	Lane	Lane	PROPN	NNP	Number=Sing	2	subj	_	end_char=2116|start_char=2112
+2	escaped	escape	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=2124|start_char=2117
+3	with	with	ADP	IN	_	2	udep	_	end_char=2129|start_char=2125
+4	Clifford	Clifford	PROPN	NNP	Number=Sing	3	comp:obj	_	end_char=2138|start_char=2130
+5	E.	E.	PROPN	NNP	Number=Sing	4	flat	_	end_char=2141|start_char=2139
+6	Opperud	Opperud	PROPN	NNP	Number=Sing	5	flat	_	end_char=2149|SpaceAfter=No|start_char=2142
+7	,	,	PUNCT	,	_	8	punct	_	end_char=2150|start_char=2149
+8	45	45	NUM	CD	NumForm=Digit|NumType=Card	4	mod	_	end_char=2153|SpaceAfter=No|start_char=2151
+9	,	,	PUNCT	,	_	11	punct	_	end_char=2154|start_char=2153
+10	who	who	PRON	WP	PronType=Rel	11	subj	_	end_char=2158|start_char=2155
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	mod@relcl	_	end_char=2162|start_char=2159
+12	serving	serve	VERB	VBG	Tense=Pres|VerbForm=Part	11	comp:aux	_	end_char=2170|start_char=2163
+13	time	time	NOUN	NN	Number=Sing	12	comp:obj	_	end_char=2175|start_char=2171
+14	for	for	ADP	IN	_	12	udep	_	end_char=2179|start_char=2176
+15	aggravated	aggravate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	16	mod	_	end_char=2190|start_char=2180
+16	robbery	robbery	NOUN	NN	Number=Sing	14	comp:obj	_	end_char=2198|SpaceAfter=No|start_char=2191
+17	,	,	PUNCT	,	_	20	punct	_	end_char=2199|start_char=2198
+18	and	and	CCONJ	CC	_	20	cc	_	end_char=2203|start_char=2200
+19	another	another	DET	DT	PronType=Ind	20	det	_	end_char=2211|start_char=2204
+20	man	man	NOUN	NN	Number=Sing	4	conj:coord	_	end_char=2215|SpaceAfter=No|start_char=2212
+21	.	.	PUNCT	.	_	2	punct	_	end_char=2216|start_char=2215
+
+# text = All three have been captured.
+# sent_id = 23
+1	All	all	DET	DT	PronType=Tot	2	det	_	end_char=2220|start_char=2217
+2	three	three	NUM	CD	NumForm=Word|NumType=Card	3	subj@pass	_	end_char=2226|start_char=2221
+3	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=2231|start_char=2227
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	3	comp:aux	_	end_char=2236|start_char=2232
+5	captured	capture	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	comp:aux@pass	_	end_char=2245|SpaceAfter=No|start_char=2237
+6	.	.	PUNCT	.	_	3	punct	_	end_char=2246|SpacesAfter=\n|start_char=2245
+
+# text = Chardon is about 190 miles away from Lima.
+# sent_id = 24
+1	Chardon	Chardon	PROPN	NNP	Number=Sing	2	subj	_	end_char=2254|start_char=2247
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=2257|start_char=2255
+3	about	about	ADV	RB	_	4	mod	_	end_char=2263|start_char=2258
+4	190	190	NUM	CD	NumForm=Digit|NumType=Card	5	mod	_	end_char=2267|start_char=2264
+5	miles	mile	NOUN	NNS	Number=Plur	6	udep@unmarked	_	end_char=2273|start_char=2268
+6	away	away	ADV	RB	_	2	comp:pred	_	end_char=2278|start_char=2274
+7	from	from	ADP	IN	_	6	udep	_	end_char=2283|start_char=2279
+8	Lima	Lima	PROPN	NNP	Number=Sing	7	comp:obj	_	end_char=2288|SpaceAfter=No|start_char=2284
+9	.	.	PUNCT	.	_	2	punct	_	end_char=2289|SpacesAfter=\n\s|start_char=2288
+
+# text = We 're upset this happened, said Ron Parmetor, whose nephew Daniel Parmetor, 16, was one of Lane's victims.
+# sent_id = 25
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	subj	_	end_char=2293|start_char=2291
+2	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	end_char=2297|start_char=2294
+3	upset	upset	ADJ	JJ	Degree=Pos	2	comp:pred	_	end_char=2303|start_char=2298
+4	this	this	PRON	DT	Number=Sing|PronType=Dem	5	subj	_	end_char=2308|start_char=2304
+5	happened	happen	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	comp:obl	_	end_char=2317|SpaceAfter=No|start_char=2309
+6	,	,	PUNCT	,	_	2	punct	_	end_char=2318|start_char=2317
+7	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	parataxis	_	end_char=2323|start_char=2319
+8	Ron	Ron	PROPN	NNP	Number=Sing	7	subj	_	end_char=2327|start_char=2324
+9	Parmetor	Parmetor	PROPN	NNP	Number=Sing	8	flat	_	end_char=2336|SpaceAfter=No|start_char=2328
+10	,	,	PUNCT	,	_	18	punct	_	end_char=2337|start_char=2336
+11	whose	whose	PRON	WP$	Poss=Yes|PronType=Rel	12	mod@poss	_	end_char=2343|start_char=2338
+12	nephew	nephew	NOUN	NN	Number=Sing	18	subj	_	end_char=2350|start_char=2344
+13	Daniel	Daniel	PROPN	NNP	Number=Sing	12	conj:appos	_	end_char=2357|start_char=2351
+14	Parmetor	Parmetor	PROPN	NNP	Number=Sing	13	flat	_	end_char=2366|SpaceAfter=No|start_char=2358
+15	,	,	PUNCT	,	_	16	punct	_	end_char=2367|start_char=2366
+16	16	16	NUM	CD	NumForm=Digit|NumType=Card	13	mod@unmarked	_	end_char=2370|SpaceAfter=No|start_char=2368
+17	,	,	PUNCT	,	_	12	punct	_	end_char=2371|start_char=2370
+18	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	mod@relcl	_	end_char=2375|start_char=2372
+19	one	one	NUM	CD	NumForm=Word|NumType=Card	18	comp:pred	_	end_char=2379|start_char=2376
+20	of	of	ADP	IN	_	19	udep	_	end_char=2382|start_char=2380
+21-22	Lane's	_	_	_	_	_	_	_	end_char=2389|start_char=2383
+21	Lane	Lane	PROPN	NNP	Number=Sing	22	comp:obj	_	end_char=2387|start_char=2383
+22	's	's	PART	POS	_	23	udep@poss	_	end_char=2389|start_char=2387
+23	victims	victim	NOUN	NNS	Number=Plur	20	comp:obj	_	end_char=2397|SpaceAfter=No|start_char=2390
+24	.	.	PUNCT	.	_	7	punct	_	end_char=2398|SpacesAfter=\n|start_char=2397
+
+# text = Parmetor says he wants answers; how could Lane just escape ?
+# sent_id = 26
+1	Parmetor	Parmetor	PROPN	NNP	Number=Sing	2	subj	_	end_char=2407|start_char=2399
+2	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=2412|start_char=2408
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	end_char=2415|start_char=2413
+4	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj	_	end_char=2421|start_char=2416
+5	answers	answer	NOUN	NNS	Number=Plur	4	comp:obj	_	end_char=2429|SpaceAfter=No|start_char=2422
+6	;	;	PUNCT	,	_	8	punct	_	end_char=2430|start_char=2429
+7	how	how	ADV	WRB	PronType=Int	8	mod	_	end_char=2434|start_char=2431
+8	could	could	AUX	MD	VerbForm=Fin	2	parataxis	_	end_char=2440|start_char=2435
+9	Lane	Lane	PROPN	NNP	Number=Sing	8	subj	_	end_char=2445|start_char=2441
+10	just	just	ADV	RB	_	8	mod	_	end_char=2450|start_char=2446
+11	escape	escape	VERB	VB	VerbForm=Inf	8	comp:aux	_	end_char=2457|start_char=2451
+12	?	?	PUNCT	.	_	2	punct	_	end_char=2459|SpacesAfter=\n|start_char=2458
+
+# text = The other two victims were Demetrius Hewlin, 16, and Russell King Jr., 17.
+# sent_id = 27
+1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	end_char=2463|start_char=2460
+2	other	other	ADJ	JJ	Degree=Pos	4	mod	_	end_char=2469|start_char=2464
+3	two	two	NUM	CD	NumForm=Word|NumType=Card	4	mod	_	end_char=2473|start_char=2470
+4	victims	victim	NOUN	NNS	Number=Plur	5	subj	_	end_char=2481|start_char=2474
+5	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=2486|start_char=2482
+6	Demetrius	Demetrius	PROPN	NNP	Number=Sing	5	comp:pred	_	end_char=2496|start_char=2487
+7	Hewlin	Hewlin	PROPN	NNP	Number=Sing	6	flat	_	end_char=2503|SpaceAfter=No|start_char=2497
+8	,	,	PUNCT	,	_	9	punct	_	end_char=2504|start_char=2503
+9	16	16	NUM	CD	NumForm=Digit|NumType=Card	6	conj:coord	_	end_char=2507|SpaceAfter=No|start_char=2505
+10	,	,	PUNCT	,	_	12	punct	_	end_char=2508|start_char=2507
+11	and	and	CCONJ	CC	_	12	cc	_	end_char=2512|start_char=2509
+12	Russell	Russell	PROPN	NNP	Number=Sing	9	conj:coord	_	end_char=2520|start_char=2513
+13	King	King	PROPN	NNP	Number=Sing|Shared=No	12	flat	_	end_char=2525|start_char=2521
+14	Jr.	Jr.	PROPN	NNP	Number=Sing	13	flat	_	end_char=2529|SpaceAfter=No|start_char=2526
+15	,	,	PUNCT	,	_	16	punct	_	end_char=2530|start_char=2529
+16	17	17	NUM	CD	NumForm=Digit|NumType=Card|Shared=No	12	unk	_	end_char=2533|SpaceAfter=No|start_char=2531
+17	.	.	PUNCT	.	_	5	punct	_	end_char=2534|SpacesAfter=\n|start_char=2533
+
+# text = Chardon schools will be closed Friday, but counselors and other support services will be provided, the school district superintendent said.
+# sent_id = 28
+1	Chardon	Chardon	PROPN	NNP	Number=Sing	2	compound	_	end_char=2542|start_char=2535
+2	schools	school	NOUN	NNS	Number=Plur|Shared=No	3	subj@pass	_	end_char=2550|start_char=2543
+3	will	will	AUX	MD	VerbForm=Fin	0	root	_	end_char=2555|start_char=2551
+4	be	be	AUX	VB	VerbForm=Inf	3	comp:aux	_	end_char=2558|start_char=2556
+5	closed	close	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	comp:aux@pass	_	end_char=2565|start_char=2559
+6	Friday	Friday	PROPN	NNP	Number=Sing	5	udep@unmarked	_	end_char=2572|SpaceAfter=No|start_char=2566
+7	,	,	PUNCT	,	_	14	punct	_	end_char=2573|start_char=2572
+8	but	but	CCONJ	CC	_	14	cc	_	end_char=2577|start_char=2574
+9	counselors	counselor	NOUN	NNS	Number=Plur	14	subj@pass	_	end_char=2588|start_char=2578
+10	and	and	CCONJ	CC	_	13	cc	_	end_char=2592|start_char=2589
+11	other	other	ADJ	JJ	Degree=Pos	13	mod	_	end_char=2598|start_char=2593
+12	support	support	NOUN	NN	Number=Sing	13	compound	_	end_char=2606|start_char=2599
+13	services	service	NOUN	NNS	Number=Plur	9	conj:coord	_	end_char=2615|start_char=2607
+14	will	will	AUX	MD	VerbForm=Fin	3	conj:coord	_	end_char=2620|start_char=2616
+15	be	be	AUX	VB	Shared=No|VerbForm=Inf	14	comp:aux	_	end_char=2623|start_char=2621
+16	provided	provide	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	15	comp:aux@pass	_	end_char=2632|SpaceAfter=No|start_char=2624
+17	,	,	PUNCT	,	_	3	punct	_	end_char=2633|start_char=2632
+18	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	end_char=2637|start_char=2634
+19	school	school	NOUN	NN	Number=Sing	20	compound	_	end_char=2644|start_char=2638
+20	district	district	NOUN	NN	Number=Sing	21	compound	_	end_char=2653|start_char=2645
+21	superintendent	superintendent	NOUN	NN	Number=Sing	22	subj	_	end_char=2668|start_char=2654
+22	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	parataxis	_	end_char=2673|SpaceAfter=No|start_char=2669
+23	.	.	PUNCT	.	_	3	punct	_	end_char=2674|SpacesAfter=\n|start_char=2673
+
+# text = Community shaken Chardon is a community of 5,100 people, some 30 miles east of Cleveland.
+# sent_id = 29
+1	Community	community	NOUN	NN	Number=Sing	2	compound	_	end_char=2684|start_char=2675
+2	shaken	shake	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	mod	_	end_char=2691|SpacesAfter=\n|start_char=2685
+3	Chardon	Chardon	PROPN	NNP	Number=Sing	4	subj	_	end_char=2699|start_char=2692
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=2702|start_char=2700
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	end_char=2704|start_char=2703
+6	community	community	NOUN	NN	Number=Sing	4	comp:pred	_	end_char=2714|start_char=2705
+7	of	of	ADP	IN	_	6	udep	_	end_char=2717|start_char=2715
+8	5,100	5100	NUM	CD	NumForm=Digit|NumType=Card	9	mod	_	end_char=2723|start_char=2718
+9	people	person	NOUN	NNS	Number=Plur	7	comp:obj	_	end_char=2730|SpaceAfter=No|start_char=2724
+10	,	,	PUNCT	,	_	14	punct	_	end_char=2731|start_char=2730
+11	some	some	DET	DT	PronType=Ind	13	det	_	end_char=2736|start_char=2732
+12	30	30	NUM	CD	NumForm=Digit|NumType=Card	13	mod	_	end_char=2739|start_char=2737
+13	miles	mile	NOUN	NNS	Number=Plur	14	udep@unmarked	_	end_char=2745|start_char=2740
+14	east	east	ADV	RB	Degree=Pos	4	mod	_	end_char=2750|start_char=2746
+15	of	of	ADP	IN	_	14	udep	_	end_char=2753|start_char=2751
+16	Cleveland	Cleveland	PROPN	NNP	Number=Sing	15	comp:obj	_	end_char=2763|SpaceAfter=No|start_char=2754
+17	.	.	PUNCT	.	_	4	punct	_	end_char=2764|SpacesAfter=\n|start_char=2763
+
+# text = It was shaken by the shooting at the high school, and further traumatized by Lane's behavior in court.
+# sent_id = 30
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj@pass	_	end_char=2767|start_char=2765
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=2771|start_char=2768
+3	shaken	shake	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	comp:aux@pass	_	end_char=2778|start_char=2772
+4	by	by	ADP	IN	_	3	comp:obl@agent	_	end_char=2781|start_char=2779
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	end_char=2785|start_char=2782
+6	shooting	shooting	NOUN	NN	Number=Sing	4	comp:obj	_	end_char=2794|start_char=2786
+7	at	at	ADP	IN	_	6	udep	_	end_char=2797|start_char=2795
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	end_char=2801|start_char=2798
+9	high	high	ADJ	JJ	Degree=Pos	10	mod	_	end_char=2806|start_char=2802
+10	school	school	NOUN	NN	Number=Sing	7	comp:obj	_	end_char=2813|SpaceAfter=No|start_char=2807
+11	,	,	PUNCT	,	_	14	punct	_	end_char=2814|start_char=2813
+12	and	and	CCONJ	CC	_	14	cc	_	end_char=2818|start_char=2815
+13	further	far	ADV	RB	_	14	mod	_	end_char=2826|start_char=2819
+14	traumatized	traumatize	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	conj:coord	_	end_char=2838|start_char=2827
+15	by	by	ADP	IN	Shared=No	14	comp:obl@agent	_	end_char=2841|start_char=2839
+16-17	Lane's	_	_	_	_	_	_	_	end_char=2848|start_char=2842
+16	Lane	Lane	PROPN	NNP	Number=Sing	17	comp:obj	_	end_char=2846|start_char=2842
+17	's	's	PART	POS	_	18	udep@poss	_	end_char=2848|start_char=2846
+18	behavior	behavior	NOUN	NN	Number=Sing	15	comp:obj	_	end_char=2857|start_char=2849
+19	in	in	ADP	IN	Shared=No	14	udep	_	end_char=2860|start_char=2858
+20	court	court	NOUN	NN	Number=Sing	19	comp:obj	_	end_char=2866|SpaceAfter=No|start_char=2861
+21	.	.	PUNCT	.	_	2	punct	_	end_char=2867|SpacesAfter=\n|start_char=2866
+
+# text = Lane pleaded guilty last year to three counts of aggravated murder, two counts of attempted aggravated murder and weapons-related charges.
+# sent_id = 31
+1	Lane	Lane	PROPN	NNP	Number=Sing	2	subj	_	end_char=2872|start_char=2868
+2	pleaded	plead	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=2880|start_char=2873
+3	guilty	guilty	ADJ	JJ	Degree=Pos	2	comp:pred	_	end_char=2887|start_char=2881
+4	last	last	ADJ	JJ	Degree=Pos	5	mod	_	end_char=2892|start_char=2888
+5	year	year	NOUN	NN	Number=Sing	2	udep@unmarked	_	end_char=2897|start_char=2893
+6	to	to	ADP	IN	_	2	udep	_	end_char=2900|start_char=2898
+7	three	three	NUM	CD	NumForm=Word|NumType=Card	8	mod	_	end_char=2906|start_char=2901
+8	counts	count	NOUN	NNS	Number=Plur	6	comp:obj	_	end_char=2913|start_char=2907
+9	of	of	ADP	IN	_	8	udep	_	end_char=2916|start_char=2914
+10	aggravated	aggravate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	mod	_	end_char=2927|start_char=2917
+11	murder	murder	NOUN	NN	Number=Sing	9	comp:obj	_	end_char=2934|SpaceAfter=No|start_char=2928
+12	,	,	PUNCT	,	_	14	punct	_	end_char=2935|start_char=2934
+13	two	two	NUM	CD	NumForm=Word|NumType=Card	14	mod	_	end_char=2939|start_char=2936
+14	counts	count	NOUN	NNS	Number=Plur	8	conj:coord	_	end_char=2946|start_char=2940
+15	of	of	ADP	IN	Shared=No	14	udep	_	end_char=2949|start_char=2947
+16	attempted	attempt	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	18	mod	_	end_char=2959|start_char=2950
+17	aggravated	aggravate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	18	mod	_	end_char=2970|start_char=2960
+18	murder	murder	NOUN	NN	Number=Sing	15	comp:obj	_	end_char=2977|start_char=2971
+19	and	and	CCONJ	CC	_	23	cc	_	end_char=2981|start_char=2978
+20	weapons	weapon	NOUN	NNS	Number=Plur	22	compound	_	end_char=2989|SpaceAfter=No|start_char=2982
+21	-	-	PUNCT	HYPH	_	20	punct	_	end_char=2990|SpaceAfter=No|start_char=2989
+22	related	related	ADJ	JJ	Degree=Pos	23	mod	_	end_char=2997|start_char=2990
+23	charges	charge	NOUN	NNS	Number=Plur	18	conj:coord	_	end_char=3005|SpaceAfter=No|start_char=2998
+24	.	.	PUNCT	.	_	2	punct	_	end_char=3006|start_char=3005
+
+# text = But he never offered an explanation.
+# sent_id = 32
+1	But	but	CCONJ	CC	_	4	cc	_	end_char=3010|start_char=3007
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	end_char=3013|start_char=3011
+3	never	never	ADV	RB	PronType=Neg	4	mod	_	end_char=3019|start_char=3014
+4	offered	offer	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=3027|start_char=3020
+5	an	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	end_char=3030|start_char=3028
+6	explanation	explanation	NOUN	NN	Number=Sing	4	comp:obj	_	end_char=3042|SpaceAfter=No|start_char=3031
+7	.	.	PUNCT	.	_	4	punct	_	end_char=3043|SpacesAfter=\n|start_char=3042
+
+# text = He was sentenced to consecutive sentences of life without parole and additional sentences totaling 37 years.
+# sent_id = 33
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj@pass	_	end_char=3046|start_char=3044
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=3050|start_char=3047
+3	sentenced	sentence	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	comp:aux@pass	_	end_char=3060|start_char=3051
+4	to	to	ADP	IN	_	3	udep	_	end_char=3063|start_char=3061
+5	consecutive	consecutive	ADJ	JJ	Degree=Pos	6	mod	_	end_char=3075|start_char=3064
+6	sentences	sentence	NOUN	NNS	Number=Plur	4	comp:obj	_	end_char=3085|start_char=3076
+7	of	of	ADP	IN	_	6	udep	_	end_char=3088|start_char=3086
+8	life	life	NOUN	NN	Number=Sing	7	comp:obj	_	end_char=3093|start_char=3089
+9	without	without	ADP	IN	_	6	udep	_	end_char=3101|start_char=3094
+10	parole	parole	NOUN	NN	Number=Sing	9	comp:obj	_	end_char=3108|start_char=3102
+11	and	and	CCONJ	CC	_	13	cc	_	end_char=3112|start_char=3109
+12	additional	additional	ADJ	JJ	Degree=Pos	13	mod	_	end_char=3123|start_char=3113
+13	sentences	sentence	NOUN	NNS	Number=Plur	6	conj:coord	_	end_char=3133|start_char=3124
+14	totaling	total	VERB	VBG	Shared=No|VerbForm=Ger	13	mod	_	end_char=3142|start_char=3134
+15	37	37	NUM	CD	NumForm=Digit|NumType=Card	16	mod	_	end_char=3145|start_char=3143
+16	years	year	NOUN	NNS	Number=Plur	14	comp:obj	_	end_char=3151|SpaceAfter=No|start_char=3146
+17	.	.	PUNCT	.	_	2	punct	_	end_char=3152|SpacesAfter=\n|start_char=3151
+
+# text = At the sentencing hearing, Lane unbuttoned his blue dress shirt to reveal a white T-shirt on which he had scrawled the word KILLER across the front.
+# sent_id = 34
+1	At	at	ADP	IN	_	7	udep	_	end_char=3155|start_char=3153
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	end_char=3159|start_char=3156
+3	sentencing	sentencing	NOUN	NN	Number=Sing	4	compound	_	end_char=3170|start_char=3160
+4	hearing	hearing	NOUN	NN	Number=Sing	1	comp:obj	_	end_char=3178|SpaceAfter=No|start_char=3171
+5	,	,	PUNCT	,	_	1	punct	_	end_char=3179|start_char=3178
+6	Lane	Lane	PROPN	NNP	Number=Sing	7	subj	_	end_char=3184|start_char=3180
+7	unbuttoned	unbutton	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=3195|start_char=3185
+8	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	mod@poss	_	end_char=3199|start_char=3196
+9	blue	blue	ADJ	JJ	Degree=Pos	11	mod	_	end_char=3204|start_char=3200
+10	dress	dress	NOUN	NN	Number=Sing	11	compound	_	end_char=3210|start_char=3205
+11	shirt	shirt	NOUN	NN	Number=Sing	7	comp:obj	_	end_char=3216|start_char=3211
+12	to	to	PART	TO	_	7	mod	_	end_char=3219|start_char=3217
+13	reveal	reveal	VERB	VB	VerbForm=Inf	12	comp:obj	_	end_char=3226|start_char=3220
+14	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	end_char=3228|start_char=3227
+15	white	white	ADJ	JJ	Degree=Pos	18	mod	_	end_char=3234|start_char=3229
+16	T	T	NOUN	NN	Number=Sing	18	compound	_	end_char=3236|SpaceAfter=No|start_char=3235
+17	-	-	PUNCT	HYPH	_	16	punct	_	end_char=3237|SpaceAfter=No|start_char=3236
+18	shirt	shirt	NOUN	NN	Number=Sing	13	comp:obj	_	end_char=3242|start_char=3237
+19	on	on	ADP	IN	_	22	udep	_	end_char=3245|start_char=3243
+20	which	which	PRON	WDT	PronType=Rel	19	comp:obj	_	end_char=3251|start_char=3246
+21	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	subj	_	end_char=3254|start_char=3252
+22	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	mod@relcl	_	end_char=3258|start_char=3255
+23	scrawled	scrawl	VERB	VBN	Tense=Past|VerbForm=Part	22	comp:aux	_	end_char=3267|start_char=3259
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	end_char=3271|start_char=3268
+25	word	word	NOUN	NN	Number=Sing	23	comp:obj	_	end_char=3276|start_char=3272
+26	KILLER	KILLER	PROPN	NNP	Number=Sing	25	conj:appos	_	end_char=3283|start_char=3277
+27	across	across	ADP	IN	_	23	udep	_	end_char=3290|start_char=3284
+28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	end_char=3294|start_char=3291
+29	front	front	NOUN	NN	Number=Sing	27	comp:obj	_	end_char=3300|SpaceAfter=No|start_char=3295
+30	.	.	PUNCT	.	_	7	punct	_	end_char=3301|start_char=3300
+
+# text = He had on a similar shirt during his shooting rampage.
+# sent_id = 35
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=3304|start_char=3302
+2	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=3308|start_char=3305
+3	on	on	ADP	IN	_	2	udep	_	end_char=3311|start_char=3309
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	end_char=3313|start_char=3312
+5	similar	similar	ADJ	JJ	Degree=Pos	6	mod	_	end_char=3321|start_char=3314
+6	shirt	shirt	NOUN	NN	Number=Sing	3	comp:obj	_	end_char=3327|start_char=3322
+7	during	during	ADP	IN	_	2	udep	_	end_char=3334|start_char=3328
+8	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	mod@poss	_	end_char=3338|start_char=3335
+9	shooting	shooting	NOUN	NN	Number=Sing	10	compound	_	end_char=3347|start_char=3339
+10	rampage	rampage	NOUN	NN	Number=Sing	7	comp:obj	_	end_char=3355|SpaceAfter=No|start_char=3348
+11	.	.	PUNCT	.	_	2	punct	_	end_char=3356|SpacesAfter=\n|start_char=3355
+
+# text = Before the sentencing, he addressed the victimsfamilies using profane imagery and ending with the expletive, F -- all of you.
+# sent_id = 36
+1	Before	before	ADP	IN	_	6	udep	_	end_char=3363|start_char=3357
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	end_char=3367|start_char=3364
+3	sentencing	sentencing	NOUN	NN	Number=Sing	1	comp:obj	_	end_char=3378|SpaceAfter=No|start_char=3368
+4	,	,	PUNCT	,	_	1	punct	_	end_char=3379|start_char=3378
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj	_	end_char=3382|start_char=3380
+6	addressed	address	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=3392|start_char=3383
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	end_char=3396|start_char=3393
+8	victimsfamilies	victimsfamily	NOUN	NNS	Number=Plur	6	comp:obj	_	end_char=3412|start_char=3397
+9	using	use	VERB	VBG	VerbForm=Ger	8	mod	_	end_char=3418|start_char=3413
+10	profane	profane	ADJ	JJ	Degree=Pos	11	mod	_	end_char=3426|start_char=3419
+11	imagery	imagery	NOUN	NN	Number=Sing	9	comp:obj	_	end_char=3434|start_char=3427
+12	and	and	CCONJ	CC	_	13	cc	_	end_char=3438|start_char=3435
+13	ending	end	VERB	VBG	VerbForm=Ger	9	conj:coord	_	end_char=3445|start_char=3439
+14	with	with	ADP	IN	Shared=No	13	udep	_	end_char=3450|start_char=3446
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	end_char=3454|start_char=3451
+16	expletive	expletive	NOUN	NN	Number=Sing	14	comp:obj	_	end_char=3464|SpaceAfter=No|start_char=3455
+17	,	,	PUNCT	,	_	18	punct	_	end_char=3465|start_char=3464
+18	F	F	PROPN	NNP	Number=Sing	16	conj:appos	_	end_char=3467|start_char=3466
+19	--	--	PUNCT	,	_	20	punct	_	end_char=3470|start_char=3468
+20	all	all	DET	DT	PronType=Tot	16	conj:appos	_	end_char=3474|start_char=3471
+21	of	of	ADP	IN	_	20	udep	_	end_char=3477|start_char=3475
+22	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	21	comp:obj	_	end_char=3481|SpaceAfter=No|start_char=3478
+23	.	.	PUNCT	.	_	6	punct	_	end_char=3482|SpacesAfter=\s\n|start_char=3481
+
+# text = He then held up his middle finger.
+# sent_id = 37
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	end_char=3486|start_char=3484
+2	then	then	ADV	RB	PronType=Dem	3	mod	_	end_char=3491|start_char=3487
+3	held	hold	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=3496|start_char=3492
+4	up	up	ADP	RP	_	3	compound@prt	_	end_char=3499|start_char=3497
+5	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	mod@poss	_	end_char=3503|start_char=3500
+6	middle	middle	ADJ	JJ	Degree=Pos	7	mod	_	end_char=3510|start_char=3504
+7	finger	finger	NOUN	NN	Number=Sing	3	comp:obj	_	end_char=3517|SpaceAfter=No|start_char=3511
+8	.	.	PUNCT	.	_	3	punct	_	end_char=3518|SpacesAfter=\n\s|start_char=3517
+
+# text = For everyone in that courtroom -- the victims, their families, the prosecutors, defense -- everyone in that courtroom was just absolutely taken aback, said Friedman, who has n't talked to Lane in about a year.
+# sent_id = 38
+1	For	for	ADP	IN	_	22	udep	_	end_char=3523|start_char=3520
+2	everyone	everyone	PRON	NN	Number=Sing|PronType=Tot	1	comp:obj	_	end_char=3532|start_char=3524
+3	in	in	ADP	IN	_	2	udep	_	end_char=3535|start_char=3533
+4	that	that	DET	DT	Number=Sing|PronType=Dem	5	det	_	end_char=3540|start_char=3536
+5	courtroom	courtroom	NOUN	NN	Number=Sing	3	comp:obj	_	end_char=3550|start_char=3541
+6	--	--	PUNCT	,	_	1	punct	_	end_char=3553|start_char=3551
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	end_char=3557|start_char=3554
+8	victims	victim	NOUN	NNS	Number=Plur	22	subj@pass	_	end_char=3565|SpaceAfter=No|start_char=3558
+9	,	,	PUNCT	,	_	11	punct	_	end_char=3566|start_char=3565
+10	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	mod@poss	_	end_char=3572|start_char=3567
+11	families	family	NOUN	NNS	Number=Plur	8	conj:coord	_	end_char=3581|SpaceAfter=No|start_char=3573
+12	,	,	PUNCT	,	_	14	punct	_	end_char=3582|start_char=3581
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	end_char=3586|start_char=3583
+14	prosecutors	prosecutor	NOUN	NNS	Number=Plur	11	conj:coord	_	end_char=3598|SpaceAfter=No|start_char=3587
+15	,	,	PUNCT	,	_	16	punct	_	end_char=3599|start_char=3598
+16	defense	defense	NOUN	NN	Number=Sing	14	conj:coord	_	end_char=3607|start_char=3600
+17	--	--	PUNCT	,	_	1	punct	_	end_char=3610|start_char=3608
+18	everyone	everyone	PRON	NN	Number=Sing|PronType=Tot	22	subj@pass	_	end_char=3619|start_char=3611
+19	in	in	ADP	IN	_	18	udep	_	end_char=3622|start_char=3620
+20	that	that	DET	DT	Number=Sing|PronType=Dem	21	det	_	end_char=3627|start_char=3623
+21	courtroom	courtroom	NOUN	NN	Number=Sing	19	comp:obj	_	end_char=3637|start_char=3628
+22	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=3641|start_char=3638
+23	just	just	ADV	RB	_	22	mod	_	end_char=3646|start_char=3642
+24	absolutely	absolutely	ADV	RB	_	22	mod	_	end_char=3657|start_char=3647
+25	taken	take	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	22	comp:aux@pass	_	end_char=3663|start_char=3658
+26	aback	aback	ADV	RB	_	22	mod	_	end_char=3669|SpaceAfter=No|start_char=3664
+27	,	,	PUNCT	,	_	28	punct	_	end_char=3670|start_char=3669
+28	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	parataxis	_	end_char=3675|start_char=3671
+29	Friedman	Friedman	PROPN	NNP	Number=Sing	28	subj	_	end_char=3684|SpaceAfter=No|start_char=3676
+30	,	,	PUNCT	,	_	32	punct	_	end_char=3685|start_char=3684
+31	who	who	PRON	WP	PronType=Rel	32	subj	_	end_char=3689|start_char=3686
+32	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	mod@relcl	_	end_char=3693|start_char=3690
+33	n't	not	PART	RB	Polarity=Neg	32	mod	_	end_char=3697|start_char=3694
+34	talked	talk	VERB	VBN	Tense=Past|VerbForm=Part	32	comp:aux	_	end_char=3704|start_char=3698
+35	to	to	ADP	IN	_	34	udep	_	end_char=3707|start_char=3705
+36	Lane	Lane	PROPN	NNP	Number=Sing	35	comp:obj	_	end_char=3712|start_char=3708
+37	in	in	ADP	IN	_	34	udep	_	end_char=3715|start_char=3713
+38	about	about	ADV	RB	_	40	mod	_	end_char=3721|start_char=3716
+39	a	a	DET	DT	Definite=Ind|PronType=Art	40	det	_	end_char=3723|start_char=3722
+40	year	year	NOUN	NN	Number=Sing	37	comp:obj	_	end_char=3728|SpaceAfter=No|start_char=3724
+41	.	.	PUNCT	.	_	22	punct	_	end_char=3729|start_char=3728
+
+# text = There was no way to fully comprehend what happened in the courtroom that afternoon.
+# sent_id = 39
+1	There	there	PRON	EX	_	2	comp@expl	_	end_char=3735|start_char=3730
+2	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=3739|start_char=3736
+3	no	no	DET	DT	PronType=Neg	4	det	_	end_char=3742|start_char=3740
+4	way	way	NOUN	NN	Number=Sing	2	subj	_	end_char=3746|start_char=3743
+5	to	to	PART	TO	_	4	udep	_	end_char=3749|start_char=3747
+6	fully	fully	ADV	RB	_	7	mod	_	end_char=3755|start_char=3750
+7	comprehend	comprehend	VERB	VB	VerbForm=Inf	5	comp:obj	_	end_char=3766|start_char=3756
+8	what	what	PRON	WP	PronType=Int	9	subj	_	end_char=3771|start_char=3767
+9	happened	happen	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	comp:obj	_	end_char=3780|start_char=3772
+10	in	in	ADP	IN	_	9	udep	_	end_char=3783|start_char=3781
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	end_char=3787|start_char=3784
+12	courtroom	courtroom	NOUN	NN	Number=Sing	10	comp:obj	_	end_char=3797|start_char=3788
+13	that	that	DET	DT	Number=Sing|PronType=Dem	14	det	_	end_char=3802|start_char=3798
+14	afternoon	afternoon	NOUN	NN	Number=Sing	9	udep@unmarked	_	end_char=3812|SpaceAfter=No|start_char=3803
+15	.	.	PUNCT	.	_	2	punct	_	end_char=3813|SpacesAfter=\s\n|start_char=3812
+
+# text = T.J. Lane tightlipped about motive, escape Ohio school shooter shows contempt, no remorse during sentencing
+# sent_id = 40
+1	T.J.	T.J.	PROPN	NNP	Number=Sing|Shared=Yes	3	subj	_	end_char=3819|start_char=3815
+2	Lane	Lane	PROPN	NNP	Number=Sing	1	flat	_	end_char=3824|start_char=3820
+3	tightlipped	tightlipp	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=3836|start_char=3825
+4	about	about	ADP	IN	_	3	udep	_	end_char=3842|start_char=3837
+5	motive	motive	NOUN	NN	Number=Sing	4	comp:obj	_	end_char=3849|SpaceAfter=No|start_char=3843
+6	,	,	PUNCT	,	_	7	punct	_	end_char=3850|start_char=3849
+7	escape	escape	VERB	VB	VerbForm=Inf	3	conj:coord	_	end_char=3857|SpacesAfter=\n|start_char=3851
+8	Ohio	Ohio	PROPN	NNP	Number=Sing	10	compound	_	end_char=3862|start_char=3858
+9	school	school	NOUN	NN	Number=Sing	10	compound	_	end_char=3869|start_char=3863
+10	shooter	shooter	NOUN	NN	Number=Sing|Shared=No	7	comp:obj	_	end_char=3877|start_char=3870
+11	shows	show	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	end_char=3883|start_char=3878
+12	contempt	contempt	NOUN	NN	Number=Sing	11	comp:obj	_	end_char=3892|SpaceAfter=No|start_char=3884
+13	,	,	PUNCT	,	_	15	punct	_	end_char=3893|start_char=3892
+14	no	no	DET	DT	PronType=Neg	15	det	_	end_char=3896|start_char=3894
+15	remorse	remorse	NOUN	NN	Number=Sing	12	conj:appos	_	end_char=3904|start_char=3897
+16	during	during	ADP	IN	_	15	udep	_	end_char=3911|start_char=3905
+17	sentencing	sentencing	NOUN	NN	Number=Sing	16	comp:obj	_	end_char=3922|SpacesAfter=\n|start_char=3912
+

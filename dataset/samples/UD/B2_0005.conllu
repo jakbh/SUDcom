@@ -1,0 +1,471 @@
+# text = -LRB- The Hollywood Reporter -RRB- It's official: AMC's The Walking Dead companion series has a title.
+# sent_id = 0
+1	-	-	PUNCT	NFP	_	2	punct	_	start_char=0|end_char=1|SpaceAfter=No
+2	LRB	LRB	PROPN	NNP	Number=Sing	0	root	_	start_char=1|end_char=4|SpaceAfter=No
+3	-	-	PUNCT	:	_	6	punct	_	start_char=4|end_char=5
+4	The	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=6|end_char=9
+5	Hollywood	Hollywood	PROPN	NNP	Number=Sing	6	compound	_	start_char=10|end_char=19
+6	Reporter	Reporter	PROPN	NNP	Number=Sing	2	appos	_	start_char=20|end_char=28
+7	-	-	PUNCT	HYPH	_	8	punct	_	start_char=29|end_char=30|SpaceAfter=No
+8	RRB	RRB	PROPN	NNP	Number=Sing	6	flat	_	start_char=30|end_char=33|SpaceAfter=No
+9	-	-	PUNCT	,	_	12	punct	_	start_char=33|end_char=34
+10-11	It's	_	_	_	_	_	_	_	start_char=35|end_char=39
+10	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	start_char=35|end_char=37
+11	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	start_char=37|end_char=39
+12	official	official	ADJ	JJ	Degree=Pos	2	parataxis	_	start_char=40|end_char=48|SpaceAfter=No
+13	:	:	PUNCT	:	_	21	punct	_	start_char=48|end_char=49
+14-15	AMC's	_	_	_	_	_	_	_	start_char=50|end_char=55
+14	AMC	AMC	PROPN	NNP	Number=Sing	20	nmod:poss	_	start_char=50|end_char=53
+15	's	's	PART	POS	_	14	case	_	start_char=53|end_char=55
+16	The	the	DET	DT	Definite=Def|PronType=Art	20	det	_	start_char=56|end_char=59
+17	Walking	walk	PROPN	NNP	Number=Sing	20	compound	_	start_char=60|end_char=67
+18	Dead	Dead	ADJ	NNP	Degree=Pos	19	amod	_	start_char=68|end_char=72
+19	companion	companion	NOUN	NN	Number=Sing	20	compound	_	start_char=73|end_char=82
+20	series	series	NOUN	NN	Number=Sing	21	nsubj	_	start_char=83|end_char=89
+21	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	parataxis	_	start_char=90|end_char=93
+22	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	start_char=94|end_char=95
+23	title	title	NOUN	NN	Number=Sing	21	obj	_	start_char=96|end_char=101|SpaceAfter=No
+24	.	.	PUNCT	.	_	2	punct	_	start_char=101|end_char=102|SpacesAfter=\n
+
+# text = Executive producer Robert Kirkman announced Friday that the companion series, which starts as a prequel to the original, will be titled Fear The Walking Dead.
+# sent_id = 1
+1	Executive	executive	ADJ	JJ	Degree=Pos	2	amod	_	start_char=103|end_char=112
+2	producer	producer	NOUN	NN	Number=Sing	5	nsubj	_	start_char=113|end_char=121
+3	Robert	Robert	PROPN	NNP	Number=Sing	2	flat	_	start_char=122|end_char=128
+4	Kirkman	Kirkman	PROPN	NNP	Number=Sing	3	flat	_	start_char=129|end_char=136
+5	announced	announce	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=137|end_char=146
+6	Friday	Friday	PROPN	NNP	Number=Sing	5	obl:unmarked	_	start_char=147|end_char=153
+7	that	that	SCONJ	IN	_	23	mark	_	start_char=154|end_char=158
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=159|end_char=162
+9	companion	companion	NOUN	NN	Number=Sing	10	compound	_	start_char=163|end_char=172
+10	series	series	NOUN	NN	Number=Sing	23	nsubj:pass	_	start_char=173|end_char=179|SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	start_char=179|end_char=180
+12	which	which	PRON	WDT	PronType=Rel	13	nsubj	_	start_char=181|end_char=186
+13	starts	start	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	start_char=187|end_char=193
+14	as	as	ADP	IN	_	16	case	_	start_char=194|end_char=196
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	start_char=197|end_char=198
+16	prequel	prequel	NOUN	NN	Number=Sing	13	obl	_	start_char=199|end_char=206
+17	to	to	ADP	IN	_	19	case	_	start_char=207|end_char=209
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	start_char=210|end_char=213
+19	original	original	NOUN	NN	Number=Sing	16	nmod	_	start_char=214|end_char=222|SpaceAfter=No
+20	,	,	PUNCT	,	_	10	punct	_	start_char=222|end_char=223
+21	will	will	AUX	MD	VerbForm=Fin	23	aux	_	start_char=224|end_char=228
+22	be	be	AUX	VB	VerbForm=Inf	23	aux:pass	_	start_char=229|end_char=231
+23	titled	title	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	ccomp	_	start_char=232|end_char=238
+24	Fear	fear	NOUN	NN	Number=Sing	23	xcomp	_	start_char=239|end_char=243
+25	The	the	DET	DT	Definite=Def|PronType=Art	27	det	_	start_char=244|end_char=247
+26	Walking	walk	PROPN	NNP	Number=Sing	27	compound	_	start_char=248|end_char=255
+27	Dead	Dead	PROPN	NNP	Number=Sing	23	xcomp	_	start_char=256|end_char=260|SpaceAfter=No
+28	.	.	PUNCT	.	_	5	punct	_	start_char=260|end_char=261|SpacesAfter=\s\n
+
+# text = The news comes as the companion went through development season -- and was picked up to series and preemptively renewed for a second season -- under code names including Cobalt and Fear The Walking Dead.
+# sent_id = 2
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=263|end_char=266
+2	news	news	NOUN	NN	Number=Sing	3	nsubj	_	start_char=267|end_char=271
+3	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=272|end_char=277
+4	as	as	SCONJ	IN	_	7	mark	_	start_char=278|end_char=280
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=281|end_char=284
+6	companion	companion	NOUN	NN	Number=Sing	7	nsubj	_	start_char=285|end_char=294
+7	went	go	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	advcl	_	start_char=295|end_char=299
+8	through	through	ADP	IN	_	10	case	_	start_char=300|end_char=307
+9	development	development	NOUN	NN	Number=Sing	10	compound	_	start_char=308|end_char=319
+10	season	season	NOUN	NN	Number=Sing	7	obl	_	start_char=320|end_char=326
+11	--	--	PUNCT	,	_	14	punct	_	start_char=327|end_char=329
+12	and	and	CCONJ	CC	_	14	cc	_	start_char=330|end_char=333
+13	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	aux:pass	_	start_char=334|end_char=337
+14	picked	pick	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	conj	_	start_char=338|end_char=344
+15	up	up	ADP	RP	_	14	compound:prt	_	start_char=345|end_char=347
+16	to	to	ADP	IN	_	17	case	_	start_char=348|end_char=350
+17	series	series	NOUN	NN	Number=Sing	14	obl	_	start_char=351|end_char=357
+18	and	and	CCONJ	CC	_	20	cc	_	start_char=358|end_char=361
+19	preemptively	preemptively	ADV	RB	_	20	advmod	_	start_char=362|end_char=374
+20	renewed	renew	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	conj	_	start_char=375|end_char=382
+21	for	for	ADP	IN	_	24	case	_	start_char=383|end_char=386
+22	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	start_char=387|end_char=388
+23	second	second	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	24	amod	_	start_char=389|end_char=395
+24	season	season	NOUN	NN	Number=Sing	20	obl	_	start_char=396|end_char=402
+25	--	--	PUNCT	,	_	28	punct	_	start_char=403|end_char=405
+26	under	under	ADP	IN	_	28	case	_	start_char=406|end_char=411
+27	code	code	NOUN	NN	Number=Sing	28	compound	_	start_char=412|end_char=416
+28	names	name	NOUN	NNS	Number=Plur	20	obl	_	start_char=417|end_char=422
+29	including	include	VERB	VBG	Tense=Pres|VerbForm=Part	30	case	_	start_char=423|end_char=432
+30	Cobalt	Cobalt	PROPN	NNP	Number=Sing	28	nmod	_	start_char=433|end_char=439
+31	and	and	CCONJ	CC	_	35	cc	_	start_char=440|end_char=443
+32	Fear	fear	PROPN	NNP	Number=Sing	30	conj	_	start_char=444|end_char=448
+33	The	the	DET	DT	Definite=Def|PronType=Art	35	det	_	start_char=449|end_char=452
+34	Walking	walk	PROPN	NNP	Number=Sing	35	compound	_	start_char=453|end_char=460
+35	Dead	Dead	PROPN	NNP	Number=Sing	30	conj	_	start_char=461|end_char=465|SpaceAfter=No
+36	.	.	PUNCT	.	_	3	punct	_	start_char=465|end_char=466|SpacesAfter=\s\n
+
+# text = On March 9, AMC announced the series pickup and renewal for the then-untitled series.
+# sent_id = 3
+1	On	on	ADP	IN	_	3	case	_	start_char=468|end_char=470
+2	March	March	PROPN	NNP	Number=Sing	3	compound	_	start_char=471|end_char=476
+3	9	9	NUM	CD	NumForm=Digit|NumType=Card	6	obl	_	start_char=477|end_char=478|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	start_char=478|end_char=479
+5	AMC	AMC	PROPN	NNP	Number=Sing	6	nsubj	_	start_char=480|end_char=483
+6	announced	announce	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=484|end_char=493
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=494|end_char=497
+8	series	series	NOUN	NN	Number=Sing	9	compound	_	start_char=498|end_char=504
+9	pickup	pickup	NOUN	NN	Number=Sing	6	obj	_	start_char=505|end_char=511
+10	and	and	CCONJ	CC	_	11	cc	_	start_char=512|end_char=515
+11	renewal	renewal	NOUN	NN	Number=Sing	9	conj	_	start_char=516|end_char=523
+12	for	for	ADP	IN	_	17	case	_	start_char=524|end_char=527
+13	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	start_char=528|end_char=531
+14	then	then	ADV	RB	PronType=Dem	16	advmod	_	start_char=532|end_char=536|SpaceAfter=No
+15	-	-	PUNCT	HYPH	_	14	punct	_	start_char=536|end_char=537|SpaceAfter=No
+16	untitled	untitled	ADJ	JJ	Degree=Pos	17	amod	_	start_char=537|end_char=545
+17	series	series	NOUN	NN	Number=Sing	6	obl	_	start_char=546|end_char=552|SpaceAfter=No
+18	.	.	PUNCT	.	_	6	punct	_	start_char=552|end_char=553|SpacesAfter=\n
+
+# text = Kirkman, who created The Walking Dead comic series, co-wrote the pilot with Dave Erickson of Sons of Anarchy.
+# sent_id = 4
+1	Kirkman	Kirkman	PROPN	NNP	Number=Sing	11	nsubj	_	start_char=554|end_char=561|SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	start_char=561|end_char=562
+3	who	who	PRON	WP	PronType=Rel	4	nsubj	_	start_char=563|end_char=566
+4	created	create	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	acl:relcl	_	start_char=567|end_char=574
+5	The	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=575|end_char=578
+6	Walking	walk	PROPN	NNP	Number=Sing	9	compound	_	start_char=579|end_char=586
+7	Dead	Dead	ADJ	NNP	Degree=Pos	9	amod	_	start_char=587|end_char=591
+8	comic	comic	NOUN	NN	Number=Sing	9	compound	_	start_char=592|end_char=597
+9	series	series	NOUN	NN	Number=Sing	4	obj	_	start_char=598|end_char=604|SpaceAfter=No
+10	,	,	PUNCT	,	_	1	punct	_	start_char=604|end_char=605
+11	co-wrote	co-write	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=606|end_char=614
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	start_char=615|end_char=618
+13	pilot	pilot	NOUN	NN	Number=Sing	11	obj	_	start_char=619|end_char=624
+14	with	with	ADP	IN	_	15	case	_	start_char=625|end_char=629
+15	Dave	Dave	PROPN	NNP	Number=Sing	11	obl	_	start_char=630|end_char=634
+16	Erickson	Erickson	PROPN	NNP	Number=Sing	15	flat	_	start_char=635|end_char=643
+17	of	of	ADP	IN	_	18	case	_	start_char=644|end_char=646
+18	Sons	son	PROPN	NNPS	Number=Plur	15	nmod	_	start_char=647|end_char=651
+19	of	of	ADP	IN	_	20	case	_	start_char=652|end_char=654
+20	Anarchy	Anarchy	PROPN	NNP	Number=Sing	18	nmod	_	start_char=655|end_char=662|SpaceAfter=No
+21	.	.	PUNCT	.	_	11	punct	_	start_char=662|end_char=663
+
+# text = Kirkman and Erickson will executive produce alongside Walking Dead's Gale Anne Hurd and Dave Alpert.
+# sent_id = 5
+1	Kirkman	Kirkman	PROPN	NNP	Number=Sing	5	nsubj	_	start_char=664|end_char=671
+2	and	and	CCONJ	CC	_	3	cc	_	start_char=672|end_char=675
+3	Erickson	Erickson	PROPN	NNP	Number=Sing	1	conj	_	start_char=676|end_char=684
+4	will	will	AUX	MD	VerbForm=Fin	5	aux	_	start_char=685|end_char=689
+5	executive	executive	VERB	VB	VerbForm=Inf	0	root	_	start_char=690|end_char=699
+6	produce	produce	VERB	VB	VerbForm=Inf	5	xcomp	_	start_char=700|end_char=707
+7	alongside	alongside	ADP	IN	_	11	case	_	start_char=708|end_char=717
+8	Walking	walk	PROPN	NNP	Number=Sing	9	compound	_	start_char=718|end_char=725
+9-10	Dead's	_	_	_	_	_	_	_	start_char=726|end_char=732
+9	Dead	Dead	PROPN	NNP	Number=Sing	11	nmod:poss	_	start_char=726|end_char=730
+10	's	's	PART	POS	_	9	case	_	start_char=730|end_char=732
+11	Gale	Gale	PROPN	NNP	Number=Sing	6	obl	_	start_char=733|end_char=737
+12	Anne	Anne	PROPN	NNP	Number=Sing	11	flat	_	start_char=738|end_char=742
+13	Hurd	Hurd	PROPN	NNP	Number=Sing	12	flat	_	start_char=743|end_char=747
+14	and	and	CCONJ	CC	_	15	cc	_	start_char=748|end_char=751
+15	Dave	Dave	PROPN	NNP	Number=Sing	11	conj	_	start_char=752|end_char=756
+16	Alpert	Alpert	PROPN	NNP	Number=Sing	15	flat	_	start_char=757|end_char=763|SpaceAfter=No
+17	.	.	PUNCT	.	_	5	punct	_	start_char=763|end_char=764
+
+# text = Erickson will serve as showrunner, and Adam Davidson will direct the pilot.
+# sent_id = 6
+1	Erickson	Erickson	PROPN	NNP	Number=Sing	3	nsubj	_	start_char=765|end_char=773
+2	will	will	AUX	MD	VerbForm=Fin	3	aux	_	start_char=774|end_char=778
+3	serve	serve	VERB	VB	VerbForm=Inf	0	root	_	start_char=779|end_char=784
+4	as	as	ADP	IN	_	5	case	_	start_char=785|end_char=787
+5	showrunner	showrunner	NOUN	NN	Number=Sing	3	obl	_	start_char=788|end_char=798|SpaceAfter=No
+6	,	,	PUNCT	,	_	11	punct	_	start_char=798|end_char=799
+7	and	and	CCONJ	CC	_	11	cc	_	start_char=800|end_char=803
+8	Adam	Adam	PROPN	NNP	Number=Sing	11	nsubj	_	start_char=804|end_char=808
+9	Davidson	Davidson	PROPN	NNP	Number=Sing	8	flat	_	start_char=809|end_char=817
+10	will	will	AUX	MD	VerbForm=Fin	11	aux	_	start_char=818|end_char=822
+11	direct	direct	VERB	VB	VerbForm=Inf	3	conj	_	start_char=823|end_char=829
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	start_char=830|end_char=833
+13	pilot	pilot	NOUN	NN	Number=Sing	11	obj	_	start_char=834|end_char=839|SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	start_char=839|end_char=840
+
+# text = Walking Dead visual effects guru Greg Nicotero will also executive produce the series.
+# sent_id = 7
+1	Walking	walk	VERB	VBG	VerbForm=Ger	5	amod	_	start_char=841|end_char=848
+2	Dead	Dead	ADJ	JJ	Degree=Pos	5	amod	_	start_char=849|end_char=853
+3	visual	visual	ADJ	JJ	Degree=Pos	4	amod	_	start_char=854|end_char=860
+4	effects	effect	NOUN	NNS	Number=Plur	5	compound	_	start_char=861|end_char=868
+5	guru	guru	NOUN	NN	Number=Sing	10	nsubj	_	start_char=869|end_char=873
+6	Greg	Greg	PROPN	NNP	Number=Sing	5	flat	_	start_char=874|end_char=878
+7	Nicotero	Nicotero	PROPN	NNP	Number=Sing	6	flat	_	start_char=879|end_char=887
+8	will	will	AUX	MD	VerbForm=Fin	10	aux	_	start_char=888|end_char=892
+9	also	also	ADV	RB	_	10	advmod	_	start_char=893|end_char=897
+10	executive	executive	VERB	VB	VerbForm=Inf	0	root	_	start_char=898|end_char=907
+11	produce	produce	VERB	VB	VerbForm=Inf	10	xcomp	_	start_char=908|end_char=915
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	start_char=916|end_char=919
+13	series	series	NOUN	NN	Number=Sing	11	obj	_	start_char=920|end_char=926|SpaceAfter=No
+14	.	.	PUNCT	.	_	10	punct	_	start_char=926|end_char=927|SpacesAfter=\n
+
+# text = While AMC has been tight-lipped on the seriespremise, sources tell The Hollywood Reporter that the drama is a prequel that takes place in Los Angeles at the onset of the zombie outbreak.
+# sent_id = 8
+1	While	while	SCONJ	IN	_	7	mark	_	start_char=928|end_char=933
+2	AMC	AMC	PROPN	NNP	Number=Sing	7	nsubj:pass	_	start_char=934|end_char=937
+3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=938|end_char=941
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	7	aux:pass	_	start_char=942|end_char=946
+5	tight	tight	ADJ	JJ	Degree=Pos	7	advmod	_	start_char=947|end_char=952|SpaceAfter=No
+6	-	-	PUNCT	HYPH	_	5	punct	_	start_char=952|end_char=953|SpaceAfter=No
+7	lipped	lipp	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	advcl	_	start_char=953|end_char=959
+8	on	on	ADP	IN	_	10	case	_	start_char=960|end_char=962
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=963|end_char=966
+10	seriespremise	seriespremise	NOUN	NN	Number=Sing	7	obl	_	start_char=967|end_char=980|SpaceAfter=No
+11	,	,	PUNCT	,	_	7	punct	_	start_char=980|end_char=981
+12	sources	source	NOUN	NNS	Number=Plur	13	nsubj	_	start_char=982|end_char=989
+13	tell	tell	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=990|end_char=994
+14	The	the	DET	DT	Definite=Def|PronType=Art	16	det	_	start_char=995|end_char=998
+15	Hollywood	Hollywood	PROPN	NNP	Number=Sing	16	compound	_	start_char=999|end_char=1008
+16	Reporter	Reporter	PROPN	NNP	Number=Sing	13	iobj	_	start_char=1009|end_char=1017
+17	that	that	SCONJ	IN	_	22	mark	_	start_char=1018|end_char=1022
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	start_char=1023|end_char=1026
+19	drama	drama	NOUN	NN	Number=Sing	22	nsubj	_	start_char=1027|end_char=1032
+20	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	start_char=1033|end_char=1035
+21	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	start_char=1036|end_char=1037
+22	prequel	prequel	NOUN	NN	Number=Sing	13	ccomp	_	start_char=1038|end_char=1045
+23	that	that	PRON	WDT	PronType=Rel	24	nsubj	_	start_char=1046|end_char=1050
+24	takes	take	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	start_char=1051|end_char=1056
+25	place	place	NOUN	NN	Number=Sing	24	obj	_	start_char=1057|end_char=1062
+26	in	in	ADP	IN	_	27	case	_	start_char=1063|end_char=1065
+27	Los	Los	PROPN	NNP	Number=Sing	24	obl	_	start_char=1066|end_char=1069
+28	Angeles	Angeles	PROPN	NNP	Number=Sing	27	flat	_	start_char=1070|end_char=1077
+29	at	at	ADP	IN	_	31	case	_	start_char=1078|end_char=1080
+30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	start_char=1081|end_char=1084
+31	onset	onset	NOUN	NN	Number=Sing	24	obl	_	start_char=1085|end_char=1090
+32	of	of	ADP	IN	_	35	case	_	start_char=1091|end_char=1093
+33	the	the	DET	DT	Definite=Def|PronType=Art	35	det	_	start_char=1094|end_char=1097
+34	zombie	zombie	NOUN	NN	Number=Sing	35	compound	_	start_char=1098|end_char=1104
+35	outbreak	outbreak	NOUN	NN	Number=Sing	31	nmod	_	start_char=1105|end_char=1113|SpaceAfter=No
+36	.	.	PUNCT	.	_	13	punct	_	start_char=1113|end_char=1114
+
+# text = AMC confirmed that the companion series is set in Los Angeles but revealed nothing more beyond that it will focus on new characters and storylines.
+# sent_id = 9
+1	AMC	AMC	PROPN	NNP	Number=Sing	2	nsubj	_	start_char=1115|end_char=1118
+2	confirmed	confirm	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=1119|end_char=1128
+3	that	that	SCONJ	IN	_	8	mark	_	start_char=1129|end_char=1133
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=1134|end_char=1137
+5	companion	companion	NOUN	NN	Number=Sing	6	compound	_	start_char=1138|end_char=1147
+6	series	series	NOUN	NN	Number=Sing	8	nsubj:pass	_	start_char=1148|end_char=1154
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	start_char=1155|end_char=1157
+8	set	set	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	ccomp	_	start_char=1158|end_char=1161
+9	in	in	ADP	IN	_	10	case	_	start_char=1162|end_char=1164
+10	Los	Los	PROPN	NNP	Number=Sing	8	obl	_	start_char=1165|end_char=1168
+11	Angeles	Angeles	PROPN	NNP	Number=Sing	10	flat	_	start_char=1169|end_char=1176
+12	but	but	CCONJ	CC	_	13	cc	_	start_char=1177|end_char=1180
+13	revealed	reveal	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	conj	_	start_char=1181|end_char=1189
+14	nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	13	obj	_	start_char=1190|end_char=1197
+15	more	more	ADV	RBR	Degree=Cmp	13	advmod	_	start_char=1198|end_char=1202
+16	beyond	beyond	SCONJ	IN	_	20	mark	_	start_char=1203|end_char=1209
+17	that	that	SCONJ	IN	_	20	mark	_	start_char=1210|end_char=1214
+18	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	start_char=1215|end_char=1217
+19	will	will	AUX	MD	VerbForm=Fin	20	aux	_	start_char=1218|end_char=1222
+20	focus	focus	VERB	VB	VerbForm=Inf	13	advcl	_	start_char=1223|end_char=1228
+21	on	on	ADP	IN	_	23	case	_	start_char=1229|end_char=1231
+22	new	new	ADJ	JJ	Degree=Pos	23	amod	_	start_char=1232|end_char=1235
+23	characters	character	NOUN	NNS	Number=Plur	20	obl	_	start_char=1236|end_char=1246
+24	and	and	CCONJ	CC	_	25	cc	_	start_char=1247|end_char=1250
+25	storylines	storyline	NOUN	NNS	Number=Plur	23	conj	_	start_char=1251|end_char=1261|SpaceAfter=No
+26	.	.	PUNCT	.	_	2	punct	_	start_char=1261|end_char=1262|SpacesAfter=\n
+
+# text = Cliff Curtis -LRB- Gang Related -RRB- stars as Sean Cabrera, a teacher who shares a son with his ex-wife.
+# sent_id = 10
+1	Cliff	Cliff	PROPN	NNP	Number=Sing	0	root	_	start_char=1263|end_char=1268
+2	Curtis	Curtis	PROPN	NNP	Number=Sing	1	flat	_	start_char=1269|end_char=1275
+3	-	-	PUNCT	HYPH	_	4	punct	_	start_char=1276|end_char=1277|SpaceAfter=No
+4	LRB	LRB	PROPN	NNP	Number=Sing	1	flat	_	start_char=1277|end_char=1280|SpaceAfter=No
+5	-	-	PUNCT	HYPH	_	6	punct	_	start_char=1280|end_char=1281
+6	Gang	Gang	PROPN	NNP	Number=Sing	1	flat	_	start_char=1282|end_char=1286
+7	Related	related	ADJ	JJ	Degree=Pos	11	amod	_	start_char=1287|end_char=1294
+8	-	-	PUNCT	HYPH	_	9	punct	_	start_char=1295|end_char=1296|SpaceAfter=No
+9	RRB	RRB	PROPN	NNP	Number=Sing	11	compound	_	start_char=1296|end_char=1299|SpaceAfter=No
+10	-	-	PUNCT	HYPH	_	9	punct	_	start_char=1299|end_char=1300
+11	stars	star	NOUN	NNS	Number=Plur	1	appos	_	start_char=1301|end_char=1306
+12	as	as	ADP	IN	_	13	case	_	start_char=1307|end_char=1309
+13	Sean	Sean	PROPN	NNP	Number=Sing	11	nmod	_	start_char=1310|end_char=1314
+14	Cabrera	Cabrera	PROPN	NNP	Number=Sing	13	flat	_	start_char=1315|end_char=1322|SpaceAfter=No
+15	,	,	PUNCT	,	_	17	punct	_	start_char=1322|end_char=1323
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	start_char=1324|end_char=1325
+17	teacher	teacher	NOUN	NN	Number=Sing	13	appos	_	start_char=1326|end_char=1333
+18	who	who	PRON	WP	PronType=Rel	19	nsubj	_	start_char=1334|end_char=1337
+19	shares	share	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	start_char=1338|end_char=1344
+20	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	start_char=1345|end_char=1346
+21	son	son	NOUN	NN	Number=Sing	19	obj	_	start_char=1347|end_char=1350
+22	with	with	ADP	IN	_	24	case	_	start_char=1351|end_char=1355
+23	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	start_char=1356|end_char=1359
+24	ex-wife	ex-wife	NOUN	NN	Number=Sing	19	obl	_	start_char=1360|end_char=1367|SpaceAfter=No
+25	.	.	PUNCT	.	_	1	punct	_	start_char=1367|end_char=1368
+
+# text = Sons of Anarchy's Kim Dickens is set to co-star as Nancy, a guidance counselor who works at the school with Sean and is seeing him romantically.
+# sent_id = 11
+1	Sons	son	NOUN	NNS	Number=Plur	8	nsubj	_	start_char=1369|end_char=1373
+2	of	of	ADP	IN	_	5	case	_	start_char=1374|end_char=1376
+3-4	Anarchy's	_	_	_	_	_	_	_	start_char=1377|end_char=1386
+3	Anarchy	Anarchy	PROPN	NNP	Number=Sing	5	nmod:poss	_	start_char=1377|end_char=1384
+4	's	's	PART	POS	_	3	case	_	start_char=1384|end_char=1386
+5	Kim	Kim	PROPN	NNP	Number=Sing	1	nmod	_	start_char=1387|end_char=1390
+6	Dickens	Dickens	PROPN	NNP	Number=Sing	5	flat	_	start_char=1391|end_char=1398
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=1399|end_char=1401
+8	set	set	ADJ	JJ	Degree=Pos	0	root	_	start_char=1402|end_char=1405
+9	to	to	PART	TO	_	10	mark	_	start_char=1406|end_char=1408
+10	co-star	co-star	VERB	VB	VerbForm=Inf	8	xcomp	_	start_char=1409|end_char=1416
+11	as	as	ADP	IN	_	12	case	_	start_char=1417|end_char=1419
+12	Nancy	Nancy	PROPN	NNP	Number=Sing	10	obl	_	start_char=1420|end_char=1425|SpaceAfter=No
+13	,	,	PUNCT	,	_	16	punct	_	start_char=1425|end_char=1426
+14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	start_char=1427|end_char=1428
+15	guidance	guidance	NOUN	NN	Number=Sing	16	compound	_	start_char=1429|end_char=1437
+16	counselor	counselor	NOUN	NN	Number=Sing	12	appos	_	start_char=1438|end_char=1447
+17	who	who	PRON	WP	PronType=Rel	18	nsubj	_	start_char=1448|end_char=1451
+18	works	work	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	start_char=1452|end_char=1457
+19	at	at	ADP	IN	_	21	case	_	start_char=1458|end_char=1460
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	start_char=1461|end_char=1464
+21	school	school	NOUN	NN	Number=Sing	18	obl	_	start_char=1465|end_char=1471
+22	with	with	ADP	IN	_	23	case	_	start_char=1472|end_char=1476
+23	Sean	Sean	PROPN	NNP	Number=Sing	18	obl	_	start_char=1477|end_char=1481
+24	and	and	CCONJ	CC	_	26	cc	_	start_char=1482|end_char=1485
+25	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	start_char=1486|end_char=1488
+26	seeing	see	VERB	VBG	Tense=Pres|VerbForm=Part	18	conj	_	start_char=1489|end_char=1495
+27	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	obj	_	start_char=1496|end_char=1499
+28	romantically	romantically	ADV	RB	_	26	advmod	_	start_char=1500|end_char=1512|SpaceAfter=No
+29	.	.	PUNCT	.	_	8	punct	_	start_char=1512|end_char=1513
+
+# text = Frank Dillane -LRB- Harry Potter and the Half-Blood Prince -RRB- co-stars as Nancy's son Nick, who has battled a drug problem.
+# sent_id = 12
+1	Frank	Frank	PROPN	NNP	Number=Sing	0	root	_	start_char=1514|end_char=1519
+2	Dillane	Dillane	PROPN	NNP	Number=Sing	1	flat	_	start_char=1520|end_char=1527
+3	-	-	PUNCT	HYPH	_	4	punct	_	start_char=1528|end_char=1529|SpaceAfter=No
+4	LRB	LRB	PROPN	NNP	Number=Sing	1	flat	_	start_char=1529|end_char=1532|SpaceAfter=No
+5	-	-	PUNCT	,	_	6	punct	_	start_char=1532|end_char=1533
+6	Harry	Harry	PROPN	NNP	Number=Sing	1	appos	_	start_char=1534|end_char=1539
+7	Potter	Potter	PROPN	NNP	Number=Sing	6	flat	_	start_char=1540|end_char=1546
+8	and	and	CCONJ	CC	_	13	cc	_	start_char=1547|end_char=1550
+9	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	start_char=1551|end_char=1554
+10	Half	half	NOUN	NN	NumForm=Word|NumType=Frac|Number=Sing	12	compound	_	start_char=1555|end_char=1559|SpaceAfter=No
+11	-	-	PUNCT	HYPH	_	10	punct	_	start_char=1559|end_char=1560|SpaceAfter=No
+12	Blood	Blood	PROPN	NNP	Number=Sing	13	compound	_	start_char=1560|end_char=1565
+13	Prince	Prince	PROPN	NNP	Number=Sing	6	conj	_	start_char=1566|end_char=1572
+14	-	-	PUNCT	HYPH	_	15	punct	_	start_char=1573|end_char=1574|SpaceAfter=No
+15	RRB	RRB	PROPN	NNP	Number=Sing	13	flat	_	start_char=1574|end_char=1577|SpaceAfter=No
+16	-	-	PUNCT	HYPH	_	15	punct	_	start_char=1577|end_char=1578
+17	co-stars	co-star	NOUN	NNS	Number=Plur	1	appos	_	start_char=1579|end_char=1587
+18	as	as	ADP	IN	_	21	case	_	start_char=1588|end_char=1590
+19-20	Nancy's	_	_	_	_	_	_	_	start_char=1591|end_char=1598
+19	Nancy	Nancy	PROPN	NNP	Number=Sing	21	nmod:poss	_	start_char=1591|end_char=1596
+20	's	's	PART	POS	_	19	case	_	start_char=1596|end_char=1598
+21	son	son	NOUN	NN	Number=Sing	17	nmod	_	start_char=1599|end_char=1602
+22	Nick	Nick	PROPN	NNP	Number=Sing	21	appos	_	start_char=1603|end_char=1607|SpaceAfter=No
+23	,	,	PUNCT	,	_	26	punct	_	start_char=1607|end_char=1608
+24	who	who	PRON	WP	PronType=Rel	26	nsubj	_	start_char=1609|end_char=1612
+25	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	start_char=1613|end_char=1616
+26	battled	battle	VERB	VBN	Tense=Past|VerbForm=Part	21	acl:relcl	_	start_char=1617|end_char=1624
+27	a	a	DET	DT	Definite=Ind|PronType=Art	29	det	_	start_char=1625|end_char=1626
+28	drug	drug	NOUN	NN	Number=Sing	29	compound	_	start_char=1627|end_char=1631
+29	problem	problem	NOUN	NN	Number=Sing	26	obj	_	start_char=1632|end_char=1639|SpaceAfter=No
+30	.	.	PUNCT	.	_	1	punct	_	start_char=1639|end_char=1640
+
+# text = And Alycia Debnam Carey -LRB- Into the Woods -RRB- is will play Nancy's ambitious daughter, Ashley, who is the polar opposite of Nick and dreams of leaving Los Angeles for Berkeley when the apocalypse strikes.
+# sent_id = 13
+1	And	and	CCONJ	CC	_	16	cc	_	start_char=1641|end_char=1644
+2	Alycia	Alycia	PROPN	NNP	Number=Sing	16	nsubj	_	start_char=1645|end_char=1651
+3	Debnam	Debnam	PROPN	NNP	Number=Sing	2	flat	_	start_char=1652|end_char=1658
+4	Carey	Carey	PROPN	NNP	Number=Sing	2	flat	_	start_char=1659|end_char=1664
+5	-	-	PUNCT	HYPH	_	6	punct	_	start_char=1665|end_char=1666|SpaceAfter=No
+6	LRB	LRB	PROPN	NNP	Number=Sing	2	flat	_	start_char=1666|end_char=1669|SpaceAfter=No
+7	-	-	PUNCT	,	_	10	punct	_	start_char=1669|end_char=1670
+8	Into	into	ADP	IN	_	10	case	_	start_char=1671|end_char=1675
+9	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=1676|end_char=1679
+10	Woods	Woods	PROPN	NNP	Number=Sing	12	compound	_	start_char=1680|end_char=1685
+11	-	-	PUNCT	HYPH	_	12	punct	_	start_char=1686|end_char=1687|SpaceAfter=No
+12	RRB	RRB	PROPN	NNP	Number=Sing	2	nmod	_	start_char=1687|end_char=1690|SpaceAfter=No
+13	-	-	PUNCT	,	_	2	punct	_	start_char=1690|end_char=1691
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	start_char=1692|end_char=1694
+15	will	will	AUX	MD	VerbForm=Fin	16	aux	_	start_char=1695|end_char=1699
+16	play	play	VERB	VB	VerbForm=Inf	0	root	_	start_char=1700|end_char=1704
+17-18	Nancy's	_	_	_	_	_	_	_	start_char=1705|end_char=1712
+17	Nancy	Nancy	PROPN	NNP	Number=Sing	20	nmod:poss	_	start_char=1705|end_char=1710
+18	's	's	PART	POS	_	17	case	_	start_char=1710|end_char=1712
+19	ambitious	ambitious	ADJ	JJ	Degree=Pos	20	amod	_	start_char=1713|end_char=1722
+20	daughter	daughter	NOUN	NN	Number=Sing	16	obj	_	start_char=1723|end_char=1731|SpaceAfter=No
+21	,	,	PUNCT	,	_	22	punct	_	start_char=1731|end_char=1732
+22	Ashley	Ashley	PROPN	NNP	Number=Sing	20	appos	_	start_char=1733|end_char=1739|SpaceAfter=No
+23	,	,	PUNCT	,	_	28	punct	_	start_char=1739|end_char=1740
+24	who	who	PRON	WP	PronType=Rel	28	nsubj	_	start_char=1741|end_char=1744
+25	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	start_char=1745|end_char=1747
+26	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	start_char=1748|end_char=1751
+27	polar	polar	ADJ	JJ	Degree=Pos	28	amod	_	start_char=1752|end_char=1757
+28	opposite	opposite	NOUN	NN	Number=Sing	20	acl:relcl	_	start_char=1758|end_char=1766
+29	of	of	ADP	IN	_	30	case	_	start_char=1767|end_char=1769
+30	Nick	Nick	PROPN	NNP	Number=Sing	28	nmod	_	start_char=1770|end_char=1774
+31	and	and	CCONJ	CC	_	32	cc	_	start_char=1775|end_char=1778
+32	dreams	dream	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	conj	_	start_char=1779|end_char=1785
+33	of	of	SCONJ	IN	_	34	mark	_	start_char=1786|end_char=1788
+34	leaving	leave	VERB	VBG	VerbForm=Ger	32	advcl	_	start_char=1789|end_char=1796
+35	Los	Los	PROPN	NNP	Number=Sing	34	obj	_	start_char=1797|end_char=1800
+36	Angeles	Angeles	PROPN	NNP	Number=Sing	35	flat	_	start_char=1801|end_char=1808
+37	for	for	ADP	IN	_	38	case	_	start_char=1809|end_char=1812
+38	Berkeley	Berkeley	PROPN	NNP	Number=Sing	34	obl	_	start_char=1813|end_char=1821
+39	when	when	ADV	WRB	PronType=Int	42	advmod	_	start_char=1822|end_char=1826
+40	the	the	DET	DT	Definite=Def|PronType=Art	41	det	_	start_char=1827|end_char=1830
+41	apocalypse	apocalypse	NOUN	NN	Number=Sing	42	nsubj	_	start_char=1831|end_char=1841
+42	strikes	strike	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	advcl	_	start_char=1842|end_char=1849|SpaceAfter=No
+43	.	.	PUNCT	.	_	16	punct	_	start_char=1849|end_char=1850|SpacesAfter=\n\s
+
+# text = Fear The Walking Dead will premiere in the late summer with season two set for 2016.
+# sent_id = 14
+1	Fear	fear	NOUN	NN	Number=Sing	6	nsubj	_	start_char=1852|end_char=1856
+2	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=1857|end_char=1860
+3	Walking	walk	PROPN	NNP	Number=Sing	4	compound	_	start_char=1861|end_char=1868
+4	Dead	Dead	PROPN	NNP	Number=Sing	6	nsubj	_	start_char=1869|end_char=1873
+5	will	will	AUX	MD	VerbForm=Fin	6	aux	_	start_char=1874|end_char=1878
+6	premiere	premiere	VERB	VB	VerbForm=Inf	0	root	_	start_char=1879|end_char=1887
+7	in	in	ADP	IN	_	10	case	_	start_char=1888|end_char=1890
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=1891|end_char=1894
+9	late	late	ADJ	JJ	Degree=Pos	10	amod	_	start_char=1895|end_char=1899
+10	summer	summer	NOUN	NN	Number=Sing	6	obl	_	start_char=1900|end_char=1906
+11	with	with	ADP	IN	_	12	case	_	start_char=1907|end_char=1911
+12	season	season	NOUN	NN	Number=Sing	6	obl	_	start_char=1912|end_char=1918
+13	two	two	NUM	CD	NumForm=Word|NumType=Card	12	nummod	_	start_char=1919|end_char=1922
+14	set	set	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	advcl	_	start_char=1923|end_char=1926
+15	for	for	ADP	IN	_	16	case	_	start_char=1927|end_char=1930
+16	2016	2016	NUM	CD	NumForm=Digit|NumType=Card	14	obl	_	start_char=1931|end_char=1935|SpaceAfter=No
+17	.	.	PUNCT	.	_	6	punct	_	start_char=1935|end_char=1936
+
+# text = An official premiere date has not yet been announced.
+# sent_id = 15
+1	An	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	start_char=1937|end_char=1939
+2	official	official	ADJ	JJ	Degree=Pos	4	amod	_	start_char=1940|end_char=1948
+3	premiere	premiere	NOUN	NN	Number=Sing	4	compound	_	start_char=1949|end_char=1957
+4	date	date	NOUN	NN	Number=Sing	9	nsubj:pass	_	start_char=1958|end_char=1962
+5	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=1963|end_char=1966
+6	not	not	PART	RB	Polarity=Neg	9	advmod	_	start_char=1967|end_char=1970
+7	yet	yet	ADV	RB	_	9	advmod	_	start_char=1971|end_char=1974
+8	been	be	AUX	VBN	Tense=Past|VerbForm=Part	9	aux:pass	_	start_char=1975|end_char=1979
+9	announced	announce	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=1980|end_char=1989|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	punct	_	start_char=1989|end_char=1990
+
+# text = The season five finale of the flagship series airs Sunday at 9 p.m. © 2015 The Hollywood Reporter.
+# sent_id = 16
+1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=1991|end_char=1994
+2	season	season	NOUN	NN	Number=Sing	4	compound	_	start_char=1995|end_char=2001
+3	five	five	NUM	CD	NumForm=Word|NumType=Card	2	nummod	_	start_char=2002|end_char=2006
+4	finale	finale	NOUN	NN	Number=Sing	9	nsubj	_	start_char=2007|end_char=2013
+5	of	of	ADP	IN	_	8	case	_	start_char=2014|end_char=2016
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=2017|end_char=2020
+7	flagship	flagship	NOUN	NN	Number=Sing	8	compound	_	start_char=2021|end_char=2029
+8	series	series	NOUN	NN	Number=Sing	4	nmod	_	start_char=2030|end_char=2036
+9	airs	air	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2037|end_char=2041
+10	Sunday	Sunday	PROPN	NNP	Number=Sing	9	obl:unmarked	_	start_char=2042|end_char=2048
+11	at	at	ADP	IN	_	13	case	_	start_char=2049|end_char=2051
+12	9	9	NUM	CD	NumForm=Digit|NumType=Card	13	nummod	_	start_char=2052|end_char=2053
+13	p.m.	p.m.	NOUN	NN	Number=Sing	9	obl	_	start_char=2054|end_char=2058|SpacesAfter=\n
+14	©	©	SYM	SYM	_	15	case	_	start_char=2059|end_char=2060
+15	2015	2015	NUM	CD	NumForm=Digit|NumType=Card	13	nmod:unmarked	_	start_char=2061|end_char=2065
+16	The	the	DET	DT	Definite=Def|PronType=Art	18	det	_	start_char=2066|end_char=2069
+17	Hollywood	Hollywood	PROPN	NNP	Number=Sing	18	compound	_	start_char=2070|end_char=2079
+18	Reporter	Reporter	PROPN	NNP	Number=Sing	9	obl:unmarked	_	start_char=2080|end_char=2088|SpaceAfter=No
+19	.	.	PUNCT	.	_	9	punct	_	start_char=2088|end_char=2089
+
+# text = All rights reserved.
+# sent_id = 17
+1	All	all	DET	DT	PronType=Tot	2	det	_	start_char=2090|end_char=2093
+2	rights	right	NOUN	NNS	Number=Plur	3	nsubj	_	start_char=2094|end_char=2100
+3	reserved	reserve	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=2101|end_char=2109|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	start_char=2109|end_char=2110|SpacesAfter=\n
+

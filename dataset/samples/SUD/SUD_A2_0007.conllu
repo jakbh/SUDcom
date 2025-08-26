@@ -1,0 +1,150 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# text = Can you cut my hair a little differently this time?
+# sent_id = 0
+1	Can	can	AUX	MD	VerbForm=Fin	0	root	_	end_char=3|start_char=0
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	subj	_	end_char=7|start_char=4
+3	cut	cut	VERB	VB	VerbForm=Inf	1	comp:aux	_	end_char=11|start_char=8
+4	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	mod@poss	_	end_char=14|start_char=12
+5	hair	hair	NOUN	NN	Number=Sing	3	comp:obj	_	end_char=19|start_char=15
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	end_char=21|start_char=20
+7	little	little	ADJ	JJ	Degree=Pos	8	udep@unmarked	_	end_char=28|start_char=22
+8	differently	differently	ADV	RB	_	3	mod	_	end_char=40|start_char=29
+9	this	this	DET	DT	Number=Sing|PronType=Dem	10	det	_	end_char=45|start_char=41
+10	time	time	NOUN	NN	Number=Sing	3	udep@unmarked	_	end_char=50|SpaceAfter=No|start_char=46
+11	?	?	PUNCT	.	_	1	punct	_	end_char=51|SpacesAfter=\n|start_char=50
+
+# text = Sure!
+# sent_id = 1
+1	Sure	sure	ADJ	JJ	Degree=Pos	0	root	_	end_char=56|SpaceAfter=No|start_char=52
+2	!	!	PUNCT	.	_	1	punct	_	end_char=57|start_char=56
+
+# text = How would you like it cut?
+# sent_id = 2
+1	How	how	ADV	WRB	PronType=Int	2	mod	_	end_char=61|start_char=58
+2	would	would	AUX	MD	VerbForm=Fin	0	root	_	end_char=67|start_char=62
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	subj	_	end_char=71|start_char=68
+4	like	like	VERB	VB	VerbForm=Inf	2	comp:aux	_	end_char=76|start_char=72
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	end_char=79|start_char=77
+6	cut	cut	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	comp:pred	_	end_char=83|SpaceAfter=No|start_char=80|Subject=SubjRaising
+7	?	?	PUNCT	.	_	2	punct	_	end_char=84|SpacesAfter=\n|start_char=83
+
+# text = Well, last time it was a little too long.
+# sent_id = 3
+1	Well	well	INTJ	UH	_	6	discourse	_	end_char=89|SpaceAfter=No|start_char=85
+2	,	,	PUNCT	,	_	1	punct	_	end_char=90|start_char=89
+3	last	last	ADJ	JJ	Degree=Pos	4	mod	_	end_char=95|start_char=91
+4	time	time	NOUN	NN	Number=Sing	6	udep@unmarked	_	end_char=100|start_char=96
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	subj	_	end_char=103|start_char=101
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=107|start_char=104
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	end_char=109|start_char=108
+8	little	little	ADJ	JJ	Degree=Pos	9	udep@unmarked	_	end_char=116|start_char=110
+9	too	too	ADV	RB	_	6	mod	_	end_char=120|start_char=117
+10	long	long	ADJ	JJ	Degree=Pos	6	comp:pred	_	end_char=125|SpaceAfter=No|start_char=121
+11	.	.	PUNCT	.	_	6	punct	_	end_char=126|SpacesAfter=\n|start_char=125
+
+# text = I see what you mean.
+# sent_id = 4
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	end_char=128|start_char=127
+2	see	see	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	end_char=132|start_char=129
+3	what	what	PRON	WP	PronType=Rel	2	comp:obj	_	end_char=137|start_char=133
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	subj	_	end_char=141|start_char=138
+5	mean	mean	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	mod@relcl	_	end_char=146|SpaceAfter=No|start_char=142
+6	.	.	PUNCT	.	_	2	punct	_	end_char=147|start_char=146
+
+# text = How about a bob cut?
+# sent_id = 5
+1	How	how	ADV	WRB	PronType=Int	0	root	_	end_char=151|start_char=148
+2	about	about	ADP	IN	_	1	udep	_	end_char=157|start_char=152
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	end_char=159|start_char=158
+4	bob	bob	NOUN	NN	Number=Sing	5	compound	_	end_char=163|start_char=160
+5	cut	cut	NOUN	NN	Number=Sing	2	comp:obj	_	end_char=167|SpaceAfter=No|start_char=164
+6	?	?	PUNCT	.	_	1	punct	_	end_char=168|SpacesAfter=\n|start_char=167
+
+# text = Can you work some layers into it?
+# sent_id = 6
+1	Can	can	AUX	MD	VerbForm=Fin	0	root	_	end_char=172|start_char=169
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	subj	_	end_char=176|start_char=173
+3	work	work	VERB	VB	VerbForm=Inf	1	comp:aux	_	end_char=181|start_char=177
+4	some	some	DET	DT	PronType=Ind	5	det	_	end_char=186|start_char=182
+5	layers	layer	NOUN	NNS	Number=Plur	3	comp:obj	_	end_char=193|start_char=187
+6	into	into	ADP	IN	_	3	udep	_	end_char=198|start_char=194
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	comp:obj	_	end_char=201|SpaceAfter=No|start_char=199
+8	?	?	PUNCT	.	_	1	punct	_	end_char=202|SpacesAfter=\n|start_char=201
+
+# text = Of course!
+# sent_id = 7
+1	Of	of	ADP	IN	ExtPos=ADV	0	root	_	end_char=205|Idiom=Yes|start_char=203
+2	course	course	NOUN	NN	Number=Sing	1	unk	_	end_char=212|InIdiom=Yes|SpaceAfter=No|start_char=206
+3	!	!	PUNCT	.	_	1	punct	_	end_char=213|start_char=212
+
+# text = It's easy.
+# sent_id = 8
+1-2	It's	_	_	_	_	_	_	_	end_char=218|start_char=214
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=216|start_char=214
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=218|start_char=216
+3	easy	easy	ADJ	JJ	Degree=Pos	2	comp:pred	_	end_char=223|SpaceAfter=No|start_char=219
+4	.	.	PUNCT	.	_	2	punct	_	end_char=224|SpacesAfter=\n|start_char=223
+
+# text = I would also like to keep some bangs.
+# sent_id = 9
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	end_char=226|start_char=225
+2	would	would	AUX	MD	VerbForm=Fin	0	root	_	end_char=232|start_char=227
+3	also	also	ADV	RB	_	2	mod	_	end_char=237|start_char=233
+4	like	like	VERB	VB	VerbForm=Inf	2	comp:aux	_	end_char=242|start_char=238
+5	to	to	PART	TO	_	4	comp:obl	_	end_char=245|start_char=243
+6	keep	keep	VERB	VB	VerbForm=Inf	5	comp:obj	_	end_char=250|start_char=246|Subject=SubjRaising
+7	some	some	DET	DT	PronType=Ind	8	det	_	end_char=255|start_char=251
+8	bangs	bang	NOUN	NNS	Number=Plur	6	comp:obj	_	end_char=261|SpaceAfter=No|start_char=256
+9	.	.	PUNCT	.	_	2	punct	_	end_char=262|SpacesAfter=\n|start_char=261
+
+# text = How long would you like them?
+# sent_id = 10
+1	How	how	ADV	WRB	PronType=Int	2	mod	_	end_char=266|start_char=263
+2	long	long	ADV	RB	Degree=Pos	3	mod	_	end_char=271|start_char=267
+3	would	would	AUX	MD	VerbForm=Fin	0	root	_	end_char=277|start_char=272
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	subj	_	end_char=281|start_char=278
+5	like	like	VERB	VB	VerbForm=Inf	3	comp:aux	_	end_char=286|start_char=282
+6	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	5	comp:obj	_	end_char=291|SpaceAfter=No|start_char=287
+7	?	?	PUNCT	.	_	3	punct	_	end_char=292|SpacesAfter=\n|start_char=291
+
+# text = Maybe down to my eyebrows?
+# sent_id = 11
+1	Maybe	maybe	ADV	RB	_	2	mod	_	end_char=298|start_char=293
+2	down	down	ADV	RB	_	0	root	_	end_char=303|start_char=299
+3	to	to	ADP	IN	_	2	udep	_	end_char=306|start_char=304
+4	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	mod@poss	_	end_char=309|start_char=307
+5	eyebrows	eyebrow	NOUN	NNS	Number=Plur	3	comp:obj	_	end_char=318|SpaceAfter=No|start_char=310
+6	?	?	PUNCT	.	_	2	punct	_	end_char=319|SpacesAfter=\n|start_char=318
+
+# text = Sounds good!
+# sent_id = 12
+1	Sounds	sound	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=326|start_char=320
+2	good	good	ADJ	JJ	Degree=Pos	1	comp:pred	_	end_char=331|SpaceAfter=No|start_char=327
+3	!	!	PUNCT	.	_	1	punct	_	end_char=332|SpacesAfter=\n|start_char=331
+
+# text = I trust you to make me look beautiful.
+# sent_id = 13
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	end_char=334|start_char=333
+2	trust	trust	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	end_char=340|start_char=335
+3	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	comp:obl	_	end_char=344|start_char=341
+4	to	to	PART	TO	_	2	comp:obl	_	end_char=347|start_char=345
+5	make	make	VERB	VB	VerbForm=Inf	4	comp:obj	_	end_char=352|start_char=348|Subject=SubjRaising
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	comp:obj	_	end_char=355|start_char=353
+7	look	look	VERB	VB	VerbForm=Inf	5	comp:obl	_	end_char=360|start_char=356|Subject=ObjRaising
+8	beautiful	beautiful	ADJ	JJ	Degree=Pos	7	comp:pred	_	end_char=370|SpaceAfter=No|start_char=361
+9	.	.	PUNCT	.	_	2	punct	_	end_char=371|SpacesAfter=\n|start_char=370
+
+# text = Oh, trust me, you'll look gorgeous!
+# sent_id = 14
+1	Oh	oh	INTJ	UH	_	3	discourse	_	end_char=374|SpaceAfter=No|start_char=372
+2	,	,	PUNCT	,	_	1	punct	_	end_char=375|start_char=374
+3	trust	trust	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	end_char=381|start_char=376
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	comp:obl	_	end_char=384|SpaceAfter=No|start_char=382
+5	,	,	PUNCT	,	_	7	punct	_	end_char=385|start_char=384
+6-7	you'll	_	_	_	_	_	_	_	end_char=392|start_char=386
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	subj	_	end_char=389|start_char=386
+7	'll	will	AUX	MD	VerbForm=Fin	3	parataxis	_	end_char=392|start_char=389
+8	look	look	VERB	VB	VerbForm=Inf	7	comp:aux	_	end_char=397|start_char=393
+9	gorgeous	gorgeous	ADJ	JJ	Degree=Pos	8	comp:pred	_	end_char=406|SpaceAfter=No|start_char=398
+10	!	!	PUNCT	.	_	3	punct	_	end_char=407|SpaceAfter=No|start_char=406
+

@@ -1,0 +1,456 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# text = Winter was approaching.
+# sent_id = 0
+1	Winter	Winter	PROPN	NNP	Number=Sing	2	subj	_	end_char=6|start_char=0
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=10|start_char=7
+3	approaching	approach	VERB	VBG	Tense=Pres|VerbForm=Part	2	comp:aux	_	end_char=22|SpaceAfter=No|start_char=11
+4	.	.	PUNCT	.	_	2	punct	_	end_char=23|start_char=22
+
+# text = Jason was excited for the coming season.
+# sent_id = 1
+1	Jason	Jason	PROPN	NNP	Number=Sing	2	subj@pass	_	end_char=29|start_char=24
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=33|start_char=30
+3	excited	excite	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	comp:aux@pass	_	end_char=41|start_char=34
+4	for	for	ADP	IN	_	3	udep	_	end_char=45|start_char=42
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	end_char=49|start_char=46
+6	coming	come	VERB	VBG	VerbForm=Ger	7	mod	_	end_char=56|start_char=50
+7	season	season	NOUN	NN	Number=Sing	4	comp:obj	_	end_char=63|SpaceAfter=No|start_char=57
+8	.	.	PUNCT	.	_	2	punct	_	end_char=64|start_char=63
+
+# text = It was his favorite time of a year.
+# sent_id = 2
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=67|start_char=65
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=71|start_char=68
+3	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	mod@poss	_	end_char=75|start_char=72
+4	favorite	favorite	ADJ	JJ	Degree=Pos	5	mod	_	end_char=84|start_char=76
+5	time	time	NOUN	NN	Number=Sing	2	comp:pred	_	end_char=89|start_char=85
+6	of	of	ADP	IN	_	5	udep	_	end_char=92|start_char=90
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	end_char=94|start_char=93
+8	year	year	NOUN	NN	Number=Sing	6	comp:obj	_	end_char=99|SpaceAfter=No|start_char=95
+9	.	.	PUNCT	.	_	2	punct	_	end_char=100|start_char=99
+
+# text = He loved the cold weather and snow.
+# sent_id = 3
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=103|start_char=101
+2	loved	love	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=109|start_char=104
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	end_char=113|start_char=110
+4	cold	cold	ADJ	JJ	Degree=Pos	5	mod	_	end_char=118|start_char=114
+5	weather	weather	NOUN	NN	Number=Sing	2	comp:obj	_	end_char=126|start_char=119
+6	and	and	CCONJ	CC	_	7	cc	_	end_char=130|start_char=127
+7	snow	snow	NOUN	NN	Number=Sing	5	conj:coord	_	end_char=135|SpaceAfter=No|start_char=131
+8	.	.	PUNCT	.	_	2	punct	_	end_char=136|start_char=135
+
+# text = Jason lived in New York.
+# sent_id = 4
+1	Jason	Jason	PROPN	NNP	Number=Sing	2	subj	_	end_char=142|start_char=137
+2	lived	live	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=148|start_char=143
+3	in	in	ADP	IN	_	2	udep	_	end_char=151|start_char=149
+4	New	New	ADJ	NNP	Degree=Pos	5	mod	_	end_char=155|start_char=152
+5	York	York	PROPN	NNP	Number=Sing	3	comp:obj	_	end_char=160|SpaceAfter=No|start_char=156
+6	.	.	PUNCT	.	_	2	punct	_	end_char=161|start_char=160
+
+# text = During winter it would snow in New York.
+# sent_id = 5
+1	During	during	ADP	IN	_	4	udep	_	end_char=168|start_char=162
+2	winter	winter	NOUN	NN	Number=Sing	1	comp:obj	_	end_char=175|start_char=169
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	subj	_	end_char=178|start_char=176
+4	would	would	AUX	MD	VerbForm=Fin	0	root	_	end_char=184|start_char=179
+5	snow	snow	VERB	VB	VerbForm=Inf	4	comp:aux	_	end_char=189|start_char=185
+6	in	in	ADP	IN	_	5	udep	_	end_char=192|start_char=190
+7	New	New	ADJ	NNP	Degree=Pos	8	mod	_	end_char=196|start_char=193
+8	York	York	PROPN	NNP	Number=Sing	6	comp:obj	_	end_char=201|SpaceAfter=No|start_char=197
+9	.	.	PUNCT	.	_	4	punct	_	end_char=202|start_char=201
+
+# text = He always played in the snow, even as an adult.
+# sent_id = 6
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	end_char=205|start_char=203
+2	always	always	ADV	RB	PronType=Tot	3	mod	_	end_char=212|start_char=206
+3	played	play	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=219|start_char=213
+4	in	in	ADP	IN	_	3	udep	_	end_char=222|start_char=220
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	end_char=226|start_char=223
+6	snow	snow	NOUN	NN	Number=Sing	4	comp:obj	_	end_char=231|SpaceAfter=No|start_char=227
+7	,	,	PUNCT	,	_	9	punct	_	end_char=232|start_char=231
+8	even	even	ADV	RB	_	9	mod	_	end_char=237|start_char=233
+9	as	as	ADP	IN	_	3	udep	_	end_char=240|start_char=238
+10	an	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	end_char=243|start_char=241
+11	adult	adult	NOUN	NN	Number=Sing	9	comp:obj	_	end_char=249|SpaceAfter=No|start_char=244
+12	.	.	PUNCT	.	_	3	punct	_	end_char=250|start_char=249
+
+# text = Jason would gather his family and friends at the park, where they had snowball fights.
+# sent_id = 7
+1	Jason	Jason	PROPN	NNP	Number=Sing	2	subj	_	end_char=256|start_char=251
+2	would	would	AUX	MD	VerbForm=Fin	0	root	_	end_char=262|start_char=257
+3	gather	gather	VERB	VB	VerbForm=Inf	2	comp:aux	_	end_char=269|start_char=263
+4	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|Shared=No	5	mod@poss	_	end_char=273|start_char=270
+5	family	family	NOUN	NN	Number=Sing	3	comp:obj	_	end_char=280|start_char=274
+6	and	and	CCONJ	CC	_	7	cc	_	end_char=284|start_char=281
+7	friends	friend	NOUN	NNS	Number=Plur	5	conj:coord	_	end_char=292|start_char=285
+8	at	at	ADP	IN	_	3	udep	_	end_char=295|start_char=293
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	end_char=299|start_char=296
+10	park	park	NOUN	NN	Number=Sing	8	comp:obj	_	end_char=304|SpaceAfter=No|start_char=300
+11	,	,	PUNCT	,	_	14	punct	_	end_char=305|start_char=304
+12	where	where	ADV	WRB	PronType=Rel	14	mod	_	end_char=311|start_char=306
+13	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	subj	_	end_char=316|start_char=312
+14	had	have	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	mod@relcl	_	end_char=320|start_char=317
+15	snowball	snowball	NOUN	NN	Number=Sing	16	compound	_	end_char=329|start_char=321
+16	fights	fight	NOUN	NNS	Number=Plur	14	comp:obj	_	end_char=336|SpaceAfter=No|start_char=330
+17	.	.	PUNCT	.	_	2	punct	_	end_char=337|start_char=336
+
+# text = It was a lot of fun.
+# sent_id = 8
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=340|start_char=338
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=344|start_char=341
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	end_char=346|start_char=345
+4	lot	lot	NOUN	NN	Number=Sing	2	comp:pred	_	end_char=350|start_char=347
+5	of	of	ADP	IN	_	4	udep	_	end_char=353|start_char=351
+6	fun	fun	NOUN	NN	Number=Sing	5	comp:obj	_	end_char=357|SpaceAfter=No|start_char=354
+7	.	.	PUNCT	.	_	2	punct	_	end_char=358|SpacesAfter=\n\s\n|start_char=357
+
+# text = His favorite holiday Christmas occurred in winter.
+# sent_id = 9
+1	His	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	mod@poss	_	end_char=364|start_char=361
+2	favorite	favorite	ADJ	JJ	Degree=Pos	4	mod	_	end_char=373|start_char=365
+3	holiday	holiday	NOUN	NN	Number=Sing	4	compound	_	end_char=381|start_char=374
+4	Christmas	Christmas	PROPN	NNP	Number=Sing	5	subj	_	end_char=391|start_char=382
+5	occurred	occur	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=400|start_char=392
+6	in	in	ADP	IN	_	5	udep	_	end_char=403|start_char=401
+7	winter	winter	NOUN	NN	Number=Sing	6	comp:obj	_	end_char=410|SpaceAfter=No|start_char=404
+8	.	.	PUNCT	.	_	5	punct	_	end_char=411|start_char=410
+
+# text = This was another reason why winter was Jason's favorite season.
+# sent_id = 10
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	2	subj	_	end_char=416|start_char=412
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=420|start_char=417
+3	another	another	DET	DT	PronType=Ind	4	det	_	end_char=428|start_char=421
+4	reason	reason	NOUN	NN	Number=Sing	2	comp:pred	_	end_char=435|start_char=429
+5	why	why	ADV	WRB	PronType=Rel	7	mod	_	end_char=439|start_char=436
+6	winter	winter	NOUN	NN	Number=Sing	7	subj	_	end_char=446|start_char=440
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	mod@relcl	_	end_char=450|start_char=447
+8-9	Jason's	_	_	_	_	_	_	_	end_char=458|start_char=451
+8	Jason	Jason	PROPN	NNP	Number=Sing	9	comp:obj	_	end_char=456|start_char=451
+9	's	's	PART	POS	_	11	udep@poss	_	end_char=458|start_char=456
+10	favorite	favorite	ADJ	JJ	Degree=Pos	11	mod	_	end_char=467|start_char=459
+11	season	season	NOUN	NN	Number=Sing	7	comp:pred	_	end_char=474|SpaceAfter=No|start_char=468
+12	.	.	PUNCT	.	_	2	punct	_	end_char=475|start_char=474
+
+# text = Every year, he bought presents for his friends and family.
+# sent_id = 11
+1	Every	every	DET	DT	PronType=Tot	2	det	_	end_char=481|start_char=476
+2	year	year	NOUN	NN	Number=Sing	5	udep@unmarked	_	end_char=486|SpaceAfter=No|start_char=482
+3	,	,	PUNCT	,	_	2	punct	_	end_char=487|start_char=486
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj	_	end_char=490|start_char=488
+5	bought	buy	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=497|start_char=491
+6	presents	present	NOUN	NNS	Number=Plur	5	comp:obj	_	end_char=506|start_char=498
+7	for	for	ADP	IN	_	5	udep	_	end_char=510|start_char=507
+8	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|Shared=No	9	mod@poss	_	end_char=514|start_char=511
+9	friends	friend	NOUN	NNS	Number=Plur	7	comp:obj	_	end_char=522|start_char=515
+10	and	and	CCONJ	CC	_	11	cc	_	end_char=526|start_char=523
+11	family	family	NOUN	NN	Number=Sing	9	conj:coord	_	end_char=533|SpaceAfter=No|start_char=527
+12	.	.	PUNCT	.	_	5	punct	_	end_char=534|start_char=533
+
+# text = Jason loved seeing the look on their faces when they unwrapped their Christmas presents.
+# sent_id = 12
+1	Jason	Jason	PROPN	NNP	Number=Sing	2	subj	_	end_char=540|start_char=535
+2	loved	love	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=546|start_char=541
+3	seeing	see	VERB	VBG	VerbForm=Ger	2	comp:obj	_	end_char=553|start_char=547|Subject=SubjRaising
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	end_char=557|start_char=554
+5	look	look	NOUN	NN	Number=Sing	3	comp:obj	_	end_char=562|start_char=558
+6	on	on	ADP	IN	_	3	udep	_	end_char=565|start_char=563
+7	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	mod@poss	_	end_char=571|start_char=566
+8	faces	face	NOUN	NNS	Number=Plur	6	comp:obj	_	end_char=577|start_char=572
+9	when	when	ADV	WRB	PronType=Int	11	mod	_	end_char=582|start_char=578
+10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	subj	_	end_char=587|start_char=583
+11	unwrapped	unwrapp	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	mod	_	end_char=597|start_char=588
+12	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	mod@poss	_	end_char=603|start_char=598
+13	Christmas	Christmas	PROPN	NNP	Number=Sing	14	compound	_	end_char=613|start_char=604
+14	presents	present	NOUN	NNS	Number=Plur	11	comp:obj	_	end_char=622|SpaceAfter=No|start_char=614
+15	.	.	PUNCT	.	_	2	punct	_	end_char=623|start_char=622
+
+# text = It was better to give than to receive, Jason thought.
+# sent_id = 13
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	unk@expl	_	end_char=626|start_char=624
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=630|start_char=627
+3	better	good	ADJ	JJR	Degree=Cmp	2	comp:pred	_	end_char=637|start_char=631
+4	to	to	PART	TO	_	2	subj	_	end_char=640|start_char=638
+5	give	give	VERB	VB	VerbForm=Inf	4	comp:obj	_	end_char=645|start_char=641
+6	than	than	ADP	IN	_	5	mod	_	end_char=650|start_char=646
+7	to	to	PART	TO	_	6	comp:obj	_	end_char=653|start_char=651
+8	receive	receive	VERB	VB	VerbForm=Inf	7	comp:obj	_	end_char=661|SpaceAfter=No|start_char=654
+9	,	,	PUNCT	,	_	2	punct	_	end_char=662|start_char=661
+10	Jason	Jason	PROPN	NNP	Number=Sing	11	subj	_	end_char=668|start_char=663
+11	thought	think	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	parataxis	_	end_char=676|SpaceAfter=No|start_char=669
+12	.	.	PUNCT	.	_	2	punct	_	end_char=677|start_char=676
+
+# text = Jason loved everything about Christmas.
+# sent_id = 14
+1	Jason	Jason	PROPN	NNP	Number=Sing	2	subj	_	end_char=683|start_char=678
+2	loved	love	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=689|start_char=684
+3	everything	everything	PRON	NN	Number=Sing|PronType=Tot	2	comp:obj	_	end_char=700|start_char=690
+4	about	about	ADP	IN	_	2	udep	_	end_char=706|start_char=701
+5	Christmas	Christmas	PROPN	NNP	Number=Sing	4	comp:obj	_	end_char=716|SpaceAfter=No|start_char=707
+6	.	.	PUNCT	.	_	2	punct	_	end_char=717|start_char=716
+
+# text = He enjoyed caroling.
+# sent_id = 15
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=720|start_char=718
+2	enjoyed	enjoy	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=728|start_char=721
+3	caroling	caroling	NOUN	NN	Number=Sing	2	comp:obj	_	end_char=737|SpaceAfter=No|start_char=729
+4	.	.	PUNCT	.	_	2	punct	_	end_char=738|start_char=737
+
+# text = He loved singing Christmas music.
+# sent_id = 16
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=741|start_char=739
+2	loved	love	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=747|start_char=742
+3	singing	sing	VERB	VBG	VerbForm=Ger	2	comp:obj	_	end_char=755|start_char=748|Subject=SubjRaising
+4	Christmas	Christmas	PROPN	NNP	Number=Sing	5	compound	_	end_char=765|start_char=756
+5	music	music	NOUN	NN	Number=Sing	3	comp:obj	_	end_char=771|SpaceAfter=No|start_char=766
+6	.	.	PUNCT	.	_	2	punct	_	end_char=772|start_char=771
+
+# text = He loved kissing his wife under the mistletoe.
+# sent_id = 17
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=775|start_char=773
+2	loved	love	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=781|start_char=776
+3	kissing	kiss	VERB	VBG	VerbForm=Ger	2	comp:obj	_	end_char=789|start_char=782|Subject=SubjRaising
+4	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	mod@poss	_	end_char=793|start_char=790
+5	wife	wife	NOUN	NN	Number=Sing	3	comp:obj	_	end_char=798|start_char=794
+6	under	under	ADP	IN	_	3	udep	_	end_char=804|start_char=799
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	end_char=808|start_char=805
+8	mistletoe	mistletoe	NOUN	NN	Number=Sing	6	comp:obj	_	end_char=818|SpaceAfter=No|start_char=809
+9	.	.	PUNCT	.	_	2	punct	_	end_char=819|start_char=818
+
+# text = He loved drinking sweet eggnog.
+# sent_id = 18
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=822|start_char=820
+2	loved	love	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=828|start_char=823
+3	drinking	drink	VERB	VBG	VerbForm=Ger	5	mod	_	end_char=837|start_char=829
+4	sweet	sweet	ADJ	JJ	Degree=Pos	5	mod	_	end_char=843|start_char=838
+5	eggnog	eggnog	NOUN	NN	Number=Sing	2	comp:obj	_	end_char=850|SpaceAfter=No|start_char=844
+6	.	.	PUNCT	.	_	2	punct	_	end_char=851|start_char=850
+
+# text = Jason sometimes even dressed up as Santa Claus for fun, and entertained his nephews.
+# sent_id = 19
+1	Jason	Jason	PROPN	NNP	Number=Sing|Shared=Yes	4	subj	_	end_char=857|start_char=852
+2	sometimes	sometimes	ADV	RB	_	4	mod	_	end_char=867|start_char=858
+3	even	even	ADV	RB	_	4	mod	_	end_char=872|start_char=868
+4	dressed	dress	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=880|start_char=873
+5	up	up	ADP	RP	_	4	compound@prt	_	end_char=883|start_char=881
+6	as	as	ADP	IN	_	4	udep	_	end_char=886|start_char=884
+7	Santa	Santa	PROPN	NNP	Number=Sing	6	comp:obj	_	end_char=892|start_char=887
+8	Claus	Claus	PROPN	NNP	Number=Sing	7	flat	_	end_char=898|start_char=893
+9	for	for	ADP	IN	_	4	udep	_	end_char=902|start_char=899
+10	fun	fun	NOUN	NN	Number=Sing	9	comp:obj	_	end_char=906|SpaceAfter=No|start_char=903
+11	,	,	PUNCT	,	_	13	punct	_	end_char=907|start_char=906
+12	and	and	CCONJ	CC	_	13	cc	_	end_char=911|start_char=908
+13	entertained	entertain	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj:coord	_	end_char=923|start_char=912
+14	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	mod@poss	_	end_char=927|start_char=924
+15	nephews	nephew	NOUN	NNS	Number=Plur|Shared=No	13	comp:obj	_	end_char=935|SpaceAfter=No|start_char=928
+16	.	.	PUNCT	.	_	4	punct	_	end_char=936|SpacesAfter=\n|start_char=935
+
+# text = Winter also came at the end of a year.
+# sent_id = 20
+1	Winter	Winter	PROPN	NNP	Number=Sing	3	subj	_	end_char=943|start_char=937
+2	also	also	ADV	RB	_	3	mod	_	end_char=948|start_char=944
+3	came	come	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=953|start_char=949
+4	at	at	ADP	IN	_	3	udep	_	end_char=956|start_char=954
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	end_char=960|start_char=957
+6	end	end	NOUN	NN	Number=Sing	4	comp:obj	_	end_char=964|start_char=961
+7	of	of	ADP	IN	_	6	udep	_	end_char=967|start_char=965
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	end_char=969|start_char=968
+9	year	year	NOUN	NN	Number=Sing	7	comp:obj	_	end_char=974|SpaceAfter=No|start_char=970
+10	.	.	PUNCT	.	_	3	punct	_	end_char=975|start_char=974
+
+# text = New Year's Day would come after Christmas.
+# sent_id = 21
+1	New	New	ADJ	NNP	Degree=Pos	2	mod	_	end_char=979|start_char=976
+2-3	Year's	_	_	_	_	_	_	_	end_char=986|start_char=980
+2	Year	Year	PROPN	NNP	Number=Sing	3	comp:obj	_	end_char=984|start_char=980
+3	's	's	PART	POS	_	4	udep@poss	_	end_char=986|start_char=984
+4	Day	day	NOUN	NN	Number=Sing	5	subj	_	end_char=990|start_char=987
+5	would	would	AUX	MD	VerbForm=Fin	0	root	_	end_char=996|start_char=991
+6	come	come	VERB	VB	VerbForm=Inf	5	comp:aux	_	end_char=1001|start_char=997
+7	after	after	ADP	IN	_	6	udep	_	end_char=1007|start_char=1002
+8	Christmas	Christmas	PROPN	NNP	Number=Sing	7	comp:obj	_	end_char=1017|SpaceAfter=No|start_char=1008
+9	.	.	PUNCT	.	_	5	punct	_	end_char=1018|start_char=1017
+
+# text = Jason also loved this holiday.
+# sent_id = 22
+1	Jason	Jason	PROPN	NNP	Number=Sing	3	subj	_	end_char=1024|start_char=1019
+2	also	also	ADV	RB	_	3	mod	_	end_char=1029|start_char=1025
+3	loved	love	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1035|start_char=1030
+4	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	_	end_char=1040|start_char=1036
+5	holiday	holiday	NOUN	NN	Number=Sing	3	comp:obj	_	end_char=1048|SpaceAfter=No|start_char=1041
+6	.	.	PUNCT	.	_	3	punct	_	end_char=1049|start_char=1048
+
+# text = It was a day to celebrate the new year to come, while reflecting on the past one.
+# sent_id = 23
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	unk@expl	_	end_char=1052|start_char=1050
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1056|start_char=1053
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	end_char=1058|start_char=1057
+4	day	day	NOUN	NN	Number=Sing	2	comp:pred	_	end_char=1062|start_char=1059
+5	to	to	PART	TO	_	2	subj	_	end_char=1065|start_char=1063
+6	celebrate	celebrate	VERB	VB	VerbForm=Inf	5	comp:obj	_	end_char=1075|start_char=1066
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	end_char=1079|start_char=1076
+8	new	new	ADJ	JJ	Degree=Pos	9	mod	_	end_char=1083|start_char=1080
+9	year	year	NOUN	NN	Number=Sing	6	comp:obj	_	end_char=1088|start_char=1084
+10	to	to	PART	TO	_	6	mod	_	end_char=1091|start_char=1089
+11	come	come	VERB	VB	VerbForm=Inf	10	comp:obj	_	end_char=1096|SpaceAfter=No|start_char=1092
+12	,	,	PUNCT	,	_	13	punct	_	end_char=1097|start_char=1096
+13	while	while	SCONJ	IN	_	6	mod	_	end_char=1103|start_char=1098
+14	reflecting	reflect	VERB	VBG	Tense=Pres|VerbForm=Part	13	comp:obj	_	end_char=1114|start_char=1104
+15	on	on	ADP	IN	_	14	udep	_	end_char=1117|start_char=1115
+16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	end_char=1121|start_char=1118
+17	past	past	ADJ	JJ	Degree=Pos	18	mod	_	end_char=1126|start_char=1122
+18	one	one	NOUN	NN	Number=Sing	15	comp:obj	_	end_char=1130|SpaceAfter=No|start_char=1127
+19	.	.	PUNCT	.	_	2	punct	_	end_char=1131|start_char=1130
+
+# text = Jason always made New Year's resolutions.
+# sent_id = 24
+1	Jason	Jason	PROPN	NNP	Number=Sing	3	subj	_	end_char=1137|start_char=1132
+2	always	always	ADV	RB	PronType=Tot	3	mod	_	end_char=1144|start_char=1138
+3	made	make	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1149|start_char=1145
+4	New	New	ADJ	NNP	Degree=Pos	5	mod	_	end_char=1153|start_char=1150
+5-6	Year's	_	_	_	_	_	_	_	end_char=1160|start_char=1154
+5	Year	Year	PROPN	NNP	Number=Sing	6	comp:obj	_	end_char=1158|start_char=1154
+6	's	's	PART	POS	_	7	udep@poss	_	end_char=1160|start_char=1158
+7	resolutions	resolution	NOUN	NNS	Number=Plur	3	comp:obj	_	end_char=1172|SpaceAfter=No|start_char=1161
+8	.	.	PUNCT	.	_	3	punct	_	end_char=1173|start_char=1172
+
+# text = Every year he made a new resolution.
+# sent_id = 25
+1	Every	every	DET	DT	PronType=Tot	2	det	_	end_char=1179|start_char=1174
+2	year	year	NOUN	NN	Number=Sing	4	udep@unmarked	_	end_char=1184|start_char=1180
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	end_char=1187|start_char=1185
+4	made	make	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1192|start_char=1188
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	end_char=1194|start_char=1193
+6	new	new	ADJ	JJ	Degree=Pos	7	mod	_	end_char=1198|start_char=1195
+7	resolution	resolution	NOUN	NN	Number=Sing	4	comp:obj	_	end_char=1209|SpaceAfter=No|start_char=1199
+8	.	.	PUNCT	.	_	4	punct	_	end_char=1210|start_char=1209
+
+# text = This year he promised to go skydiving.
+# sent_id = 26
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	end_char=1215|start_char=1211
+2	year	year	NOUN	NN	Number=Sing	4	udep@unmarked	_	end_char=1220|start_char=1216
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	end_char=1223|start_char=1221
+4	promised	promise	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1232|start_char=1224
+5	to	to	PART	TO	_	4	comp:obl	_	end_char=1235|start_char=1233
+6	go	go	VERB	VB	VerbForm=Inf	5	comp:obj	_	end_char=1238|start_char=1236|Subject=SubjRaising
+7	skydiving	skydiving	VERB	VBG	VerbForm=Ger	6	comp:obj	_	end_char=1248|SpaceAfter=No|start_char=1239|Subject=SubjRaising
+8	.	.	PUNCT	.	_	4	punct	_	end_char=1249|start_char=1248
+
+# text = Last year, he promised himself to lose twenty pounds.
+# sent_id = 27
+1	Last	last	ADJ	JJ	Degree=Pos	2	mod	_	end_char=1254|start_char=1250
+2	year	year	NOUN	NN	Number=Sing	5	udep@unmarked	_	end_char=1259|SpaceAfter=No|start_char=1255
+3	,	,	PUNCT	,	_	2	punct	_	end_char=1260|start_char=1259
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj	_	end_char=1263|start_char=1261
+5	promised	promise	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1272|start_char=1264
+6	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	5	comp:obj	_	end_char=1280|start_char=1273
+7	to	to	PART	TO	_	5	comp:obl	_	end_char=1283|start_char=1281
+8	lose	lose	VERB	VB	VerbForm=Inf	7	comp:obj	_	end_char=1288|start_char=1284|Subject=SubjRaising
+9	twenty	twenty	NUM	CD	NumForm=Word|NumType=Card	10	mod	_	end_char=1295|start_char=1289
+10	pounds	pound	NOUN	NNS	Number=Plur	8	comp:obj	_	end_char=1302|SpaceAfter=No|start_char=1296
+11	.	.	PUNCT	.	_	5	punct	_	end_char=1303|start_char=1302
+
+# text = Jason always kept his New Year's resolution.
+# sent_id = 28
+1	Jason	Jason	PROPN	NNP	Number=Sing	3	subj	_	end_char=1309|start_char=1304
+2	always	always	ADV	RB	PronType=Tot	3	mod	_	end_char=1316|start_char=1310
+3	kept	keep	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1321|start_char=1317
+4	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	mod@poss	_	end_char=1325|start_char=1322
+5	New	New	ADJ	NNP	Degree=Pos	6	mod	_	end_char=1329|start_char=1326
+6-7	Year's	_	_	_	_	_	_	_	end_char=1336|start_char=1330
+6	Year	Year	PROPN	NNP	Number=Sing	7	comp:obj	_	end_char=1334|start_char=1330
+7	's	's	PART	POS	_	8	udep@poss	_	end_char=1336|start_char=1334
+8	resolution	resolution	NOUN	NN	Number=Sing	3	comp:obj	_	end_char=1347|SpaceAfter=No|start_char=1337
+9	.	.	PUNCT	.	_	3	punct	_	end_char=1348|start_char=1347
+
+# text = He lost twenty pounds in three months.
+# sent_id = 29
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=1351|start_char=1349
+2	lost	lose	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1356|start_char=1352
+3	twenty	twenty	NUM	CD	NumForm=Word|NumType=Card	4	mod	_	end_char=1363|start_char=1357
+4	pounds	pound	NOUN	NNS	Number=Plur	2	comp:obj	_	end_char=1370|start_char=1364
+5	in	in	ADP	IN	_	2	udep	_	end_char=1373|start_char=1371
+6	three	three	NUM	CD	NumForm=Word|NumType=Card	7	mod	_	end_char=1379|start_char=1374
+7	months	month	NOUN	NNS	Number=Plur	5	comp:obj	_	end_char=1386|SpaceAfter=No|start_char=1380
+8	.	.	PUNCT	.	_	2	punct	_	end_char=1387|start_char=1386
+
+# text = This year was no exception.
+# sent_id = 30
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	end_char=1392|start_char=1388
+2	year	year	NOUN	NN	Number=Sing	3	subj	_	end_char=1397|start_char=1393
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1401|start_char=1398
+4	no	no	DET	DT	PronType=Neg	5	det	_	end_char=1404|start_char=1402
+5	exception	exception	NOUN	NN	Number=Sing	3	comp:pred	_	end_char=1414|SpaceAfter=No|start_char=1405
+6	.	.	PUNCT	.	_	3	punct	_	end_char=1415|start_char=1414
+
+# text = He planned to sign up for skydiving lessons in January of next year.
+# sent_id = 31
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=1418|start_char=1416
+2	planned	plan	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1426|start_char=1419
+3	to	to	PART	TO	_	2	comp:obl	_	end_char=1429|start_char=1427
+4	sign	sign	VERB	VB	VerbForm=Inf	3	comp:obj	_	end_char=1434|start_char=1430|Subject=SubjRaising
+5	up	up	ADP	RP	_	4	compound@prt	_	end_char=1437|start_char=1435
+6	for	for	ADP	IN	_	4	udep	_	end_char=1441|start_char=1438
+7	skydiving	skydiving	NOUN	NN	Number=Sing	8	compound	_	end_char=1451|start_char=1442
+8	lessons	lesson	NOUN	NNS	Number=Plur	6	comp:obj	_	end_char=1459|start_char=1452
+9	in	in	ADP	IN	_	4	udep	_	end_char=1462|start_char=1460
+10	January	January	PROPN	NNP	Number=Sing	9	comp:obj	_	end_char=1470|start_char=1463
+11	of	of	ADP	IN	_	10	udep	_	end_char=1473|start_char=1471
+12	next	next	ADJ	JJ	Degree=Pos	13	mod	_	end_char=1478|start_char=1474
+13	year	year	NOUN	NN	Number=Sing	11	comp:obj	_	end_char=1483|SpaceAfter=No|start_char=1479
+14	.	.	PUNCT	.	_	2	punct	_	end_char=1484|SpacesAfter=\n|start_char=1483
+
+# text = Jason could not stop thinking about winter.
+# sent_id = 32
+1	Jason	Jason	PROPN	NNP	Number=Sing	2	subj	_	end_char=1490|start_char=1485
+2	could	could	AUX	MD	VerbForm=Fin	0	root	_	end_char=1496|start_char=1491
+3	not	not	PART	RB	Polarity=Neg	2	mod	_	end_char=1500|start_char=1497
+4	stop	stop	VERB	VB	VerbForm=Inf	2	comp:aux	_	end_char=1505|start_char=1501
+5	thinking	think	VERB	VBG	VerbForm=Ger	4	comp:obj	_	end_char=1514|start_char=1506|Subject=SubjRaising
+6	about	about	ADP	IN	_	5	udep	_	end_char=1520|start_char=1515
+7	winter	winter	NOUN	NN	Number=Sing	6	comp:obj	_	end_char=1527|SpaceAfter=No|start_char=1521
+8	.	.	PUNCT	.	_	2	punct	_	end_char=1528|start_char=1527
+
+# text = He could not wait for it to come.
+# sent_id = 33
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=1531|start_char=1529
+2	could	could	AUX	MD	VerbForm=Fin	0	root	_	end_char=1537|start_char=1532
+3	not	not	PART	RB	Polarity=Neg	2	mod	_	end_char=1541|start_char=1538
+4	wait	wait	VERB	VB	VerbForm=Inf	2	comp:aux	_	end_char=1546|start_char=1542
+5	for	for	SCONJ	IN	_	2	mod	_	end_char=1550|start_char=1547
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	subj	_	end_char=1553|start_char=1551
+7	to	to	PART	TO	_	5	comp:obj	_	end_char=1556|start_char=1554
+8	come	come	VERB	VB	VerbForm=Inf	7	comp:obj	_	end_char=1561|SpaceAfter=No|start_char=1557
+9	.	.	PUNCT	.	_	2	punct	_	end_char=1562|start_char=1561
+
+# text = It was going to be the best winter yet.
+# sent_id = 34
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=1565|start_char=1563
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1569|start_char=1566
+3	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	2	comp:aux	_	end_char=1575|start_char=1570
+4	to	to	PART	TO	_	3	comp:obl	_	end_char=1578|start_char=1576
+5	be	be	AUX	VB	VerbForm=Inf	4	comp:obj	_	end_char=1581|start_char=1579|Subject=SubjRaising
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	end_char=1585|start_char=1582
+7	best	good	ADJ	JJS	Degree=Sup	8	mod	_	end_char=1590|start_char=1586
+8	winter	winter	NOUN	NN	Number=Sing	5	comp:pred	_	end_char=1597|start_char=1591
+9	yet	yet	ADV	RB	_	5	mod	_	end_char=1601|SpaceAfter=No|start_char=1598
+10	.	.	PUNCT	.	_	2	punct	_	end_char=1602|start_char=1601
+
+# text = Jason needed to wait five more months because it was barely mid July.
+# sent_id = 35
+1	Jason	Jason	PROPN	NNP	Number=Sing	2	subj	_	end_char=1608|start_char=1603
+2	needed	need	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1615|start_char=1609
+3	to	to	PART	TO	_	2	comp:obl	_	end_char=1618|start_char=1616
+4	wait	wait	VERB	VB	VerbForm=Inf	3	comp:obj	_	end_char=1623|start_char=1619|Subject=SubjRaising
+5	five	five	NUM	CD	NumForm=Word|NumType=Card	7	mod	_	end_char=1628|start_char=1624
+6	more	more	ADJ	JJR	Degree=Cmp	7	mod	_	end_char=1633|start_char=1629
+7	months	month	NOUN	NNS	Number=Plur	4	udep@unmarked	_	end_char=1640|start_char=1634
+8	because	because	SCONJ	IN	_	4	mod	_	end_char=1648|start_char=1641
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	subj	_	end_char=1651|start_char=1649
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	comp:obj	_	end_char=1655|start_char=1652
+11	barely	barely	ADV	RB	_	10	mod	_	end_char=1662|start_char=1656
+12	mid	mid	ADJ	JJ	Degree=Pos	10	mod	_	end_char=1666|start_char=1663
+13	July	July	PROPN	NNP	Number=Sing	10	comp:pred	_	end_char=1671|SpaceAfter=No|start_char=1667
+14	.	.	PUNCT	.	_	2	punct	_	end_char=1672|SpaceAfter=No|start_char=1671
+

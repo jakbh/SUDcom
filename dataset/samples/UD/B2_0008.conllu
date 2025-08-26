@@ -1,0 +1,395 @@
+# text = Passover is a Jewish holiday that remembers and celebrates their liberation from ancient Egyptian slavery as described in the Old Testament of the Bible.
+# sent_id = 0
+1	Passover	Passover	PROPN	NNP	Number=Sing	5	nsubj	_	start_char=0|end_char=8
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=9|end_char=11
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=12|end_char=13
+4	Jewish	Jewish	ADJ	JJ	Degree=Pos	5	amod	_	start_char=14|end_char=20
+5	holiday	holiday	NOUN	NN	Number=Sing	0	root	_	start_char=21|end_char=28
+6	that	that	PRON	WDT	PronType=Rel	7	nsubj	_	start_char=29|end_char=33
+7	remembers	remember	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	start_char=34|end_char=43
+8	and	and	CCONJ	CC	_	9	cc	_	start_char=44|end_char=47
+9	celebrates	celebrate	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	start_char=48|end_char=58
+10	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	start_char=59|end_char=64
+11	liberation	liberation	NOUN	NN	Number=Sing	9	obj	_	start_char=65|end_char=75
+12	from	from	ADP	IN	_	15	case	_	start_char=76|end_char=80
+13	ancient	ancient	ADJ	JJ	Degree=Pos	15	amod	_	start_char=81|end_char=88
+14	Egyptian	Egyptian	ADJ	JJ	Degree=Pos	15	amod	_	start_char=89|end_char=97
+15	slavery	slavery	NOUN	NN	Number=Sing	9	obl	_	start_char=98|end_char=105
+16	as	as	SCONJ	IN	_	17	mark	_	start_char=106|end_char=108
+17	described	describe	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	advcl	_	start_char=109|end_char=118
+18	in	in	ADP	IN	_	21	case	_	start_char=119|end_char=121
+19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	start_char=122|end_char=125
+20	Old	Old	ADJ	NNP	Degree=Pos	21	amod	_	start_char=126|end_char=129
+21	Testament	Testament	PROPN	NNP	Number=Sing	17	obl	_	start_char=130|end_char=139
+22	of	of	ADP	IN	_	24	case	_	start_char=140|end_char=142
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	start_char=143|end_char=146
+24	Bible	Bible	PROPN	NNP	Number=Sing	21	nmod	_	start_char=147|end_char=152|SpaceAfter=No
+25	.	.	PUNCT	.	_	5	punct	_	start_char=152|end_char=153
+
+# text = It is traditionally celebrated in the spring and lasts about a week.
+# sent_id = 1
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	_	start_char=154|end_char=156
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	start_char=157|end_char=159
+3	traditionally	traditionally	ADV	RB	_	4	advmod	_	start_char=160|end_char=173
+4	celebrated	celebrate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=174|end_char=184
+5	in	in	ADP	IN	_	7	case	_	start_char=185|end_char=187
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=188|end_char=191
+7	spring	spring	NOUN	NN	Number=Sing	4	obl	_	start_char=192|end_char=198
+8	and	and	CCONJ	CC	_	9	cc	_	start_char=199|end_char=202
+9	lasts	last	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	start_char=203|end_char=208
+10	about	about	ADV	RB	_	12	advmod	_	start_char=209|end_char=214
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	start_char=215|end_char=216
+12	week	week	NOUN	NN	Number=Sing	9	obl:unmarked	_	start_char=217|end_char=221|SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	start_char=221|end_char=222|SpacesAfter=\n\s\n
+
+# text = According to the story in the Bible, God punished ancient Egypt with 10 plagues.
+# sent_id = 2
+1	According	accord	VERB	VBG	ExtPos=ADP|Tense=Pres|VerbForm=Part	4	case	_	start_char=225|end_char=234
+2	to	to	ADP	IN	_	1	fixed	_	start_char=235|end_char=237
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=238|end_char=241
+4	story	story	NOUN	NN	Number=Sing	10	obl	_	start_char=242|end_char=247
+5	in	in	ADP	IN	_	7	case	_	start_char=248|end_char=250
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=251|end_char=254
+7	Bible	Bible	PROPN	NNP	Number=Sing	4	nmod	_	start_char=255|end_char=260|SpaceAfter=No
+8	,	,	PUNCT	,	_	4	punct	_	start_char=260|end_char=261
+9	God	God	PROPN	NNP	Number=Sing	10	nsubj	_	start_char=262|end_char=265
+10	punished	punish	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=266|end_char=274
+11	ancient	ancient	ADJ	JJ	Degree=Pos	12	amod	_	start_char=275|end_char=282
+12	Egypt	Egypt	PROPN	NNP	Number=Sing	10	obj	_	start_char=283|end_char=288
+13	with	with	ADP	IN	_	15	case	_	start_char=289|end_char=293
+14	10	10	NUM	CD	NumForm=Digit|NumType=Card	15	nummod	_	start_char=294|end_char=296
+15	plagues	plague	NOUN	NNS	Number=Plur	10	obl	_	start_char=297|end_char=304|SpaceAfter=No
+16	.	.	PUNCT	.	_	10	punct	_	start_char=304|end_char=305
+
+# text = The last plague killed Egyptian first-born males.
+# sent_id = 3
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=306|end_char=309
+2	last	last	ADJ	JJ	Degree=Pos	3	amod	_	start_char=310|end_char=314
+3	plague	plague	NOUN	NN	Number=Sing	4	nsubj	_	start_char=315|end_char=321
+4	killed	kill	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=322|end_char=328
+5	Egyptian	Egyptian	ADJ	JJ	Degree=Pos	9	amod	_	start_char=329|end_char=337
+6	first	first	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	8	amod	_	start_char=338|end_char=343|SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	6	punct	_	start_char=343|end_char=344|SpaceAfter=No
+8	born	bear	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	start_char=344|end_char=348
+9	males	male	NOUN	NNS	Number=Plur	4	obj	_	start_char=349|end_char=354|SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	start_char=354|end_char=355
+
+# text = Jewish people were told to mark their doors with lamb's blood so that God would know to pass over these houses and not kill any first-born males inside.
+# sent_id = 4
+1	Jewish	Jewish	ADJ	JJ	Degree=Pos	2	amod	_	start_char=356|end_char=362
+2	people	person	NOUN	NNS	Number=Plur	4	nsubj:pass	_	start_char=363|end_char=369
+3	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	start_char=370|end_char=374
+4	told	tell	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=375|end_char=379
+5	to	to	PART	TO	_	6	mark	_	start_char=380|end_char=382
+6	mark	mark	VERB	VB	VerbForm=Inf	4	xcomp	_	start_char=383|end_char=387
+7	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	start_char=388|end_char=393
+8	doors	door	NOUN	NNS	Number=Plur	6	obj	_	start_char=394|end_char=399
+9	with	with	ADP	IN	_	12	case	_	start_char=400|end_char=404
+10-11	lamb's	_	_	_	_	_	_	_	start_char=405|end_char=411
+10	lamb	lamb	NOUN	NN	Number=Sing	12	nmod:poss	_	start_char=405|end_char=409
+11	's	's	PART	POS	_	10	case	_	start_char=409|end_char=411
+12	blood	blood	NOUN	NN	Number=Sing	6	obl	_	start_char=412|end_char=417
+13	so	so	SCONJ	IN	ExtPos=SCONJ	17	mark	_	start_char=418|end_char=420
+14	that	that	SCONJ	IN	_	13	fixed	_	start_char=421|end_char=425
+15	God	God	PROPN	NNP	Number=Sing	17	nsubj	_	start_char=426|end_char=429
+16	would	would	AUX	MD	VerbForm=Fin	17	aux	_	start_char=430|end_char=435
+17	know	know	VERB	VB	VerbForm=Inf	6	advcl	_	start_char=436|end_char=440
+18	to	to	PART	TO	_	19	mark	_	start_char=441|end_char=443
+19	pass	pass	VERB	VB	VerbForm=Inf	17	xcomp	_	start_char=444|end_char=448
+20	over	over	ADP	IN	_	22	case	_	start_char=449|end_char=453
+21	these	this	DET	DT	Number=Plur|PronType=Dem	22	det	_	start_char=454|end_char=459
+22	houses	house	NOUN	NNS	Number=Plur	19	obl	_	start_char=460|end_char=466
+23	and	and	CCONJ	CC	_	25	cc	_	start_char=467|end_char=470
+24	not	not	PART	RB	Polarity=Neg	25	advmod	_	start_char=471|end_char=474
+25	kill	kill	VERB	VB	VerbForm=Inf	19	conj	_	start_char=475|end_char=479
+26	any	any	DET	DT	PronType=Ind	30	det	_	start_char=480|end_char=483
+27	first	first	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	29	compound	_	start_char=484|end_char=489|SpaceAfter=No
+28	-	-	PUNCT	HYPH	_	27	punct	_	start_char=489|end_char=490|SpaceAfter=No
+29	born	bear	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	30	amod	_	start_char=490|end_char=494
+30	males	male	NOUN	NNS	Number=Plur	25	obj	_	start_char=495|end_char=500
+31	inside	inside	ADV	RB	_	25	advmod	_	start_char=501|end_char=507|SpaceAfter=No
+32	.	.	PUNCT	.	_	4	punct	_	start_char=507|end_char=508
+
+# text = This is where the name of the holiday, Passover, comes from.
+# sent_id = 5
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	start_char=509|end_char=513
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=514|end_char=516
+3	where	where	ADV	WRB	PronType=Rel	0	root	_	start_char=517|end_char=522
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=523|end_char=526
+5	name	name	NOUN	NN	Number=Sing	12	nsubj	_	start_char=527|end_char=531
+6	of	of	ADP	IN	_	8	case	_	start_char=532|end_char=534
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=535|end_char=538
+8	holiday	holiday	NOUN	NN	Number=Sing	5	nmod	_	start_char=539|end_char=546|SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	start_char=546|end_char=547
+10	Passover	Passover	PROPN	NNP	Number=Sing	8	appos	_	start_char=548|end_char=556|SpaceAfter=No
+11	,	,	PUNCT	,	_	5	punct	_	start_char=556|end_char=557
+12	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl:relcl	_	start_char=558|end_char=563
+13	from	from	ADP	IN	_	12	obl	_	start_char=564|end_char=568|SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	start_char=568|end_char=569
+
+# text = After this last plague the Egyptian king, known as the Pharaoh, agreed to release the ancient Jews from bondage.
+# sent_id = 6
+1	After	after	ADP	IN	_	4	case	_	start_char=570|end_char=575
+2	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	_	start_char=576|end_char=580
+3	last	last	ADJ	JJ	Degree=Pos	4	amod	_	start_char=581|end_char=585
+4	plague	plague	NOUN	NN	Number=Sing	14	obl	_	start_char=586|end_char=592
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=593|end_char=596
+6	Egyptian	Egyptian	ADJ	JJ	Degree=Pos	7	amod	_	start_char=597|end_char=605
+7	king	king	NOUN	NN	Number=Sing	14	nsubj	_	start_char=606|end_char=610|SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	_	start_char=610|end_char=611
+9	known	know	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	acl	_	start_char=612|end_char=617
+10	as	as	ADP	IN	_	12	case	_	start_char=618|end_char=620
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=621|end_char=624
+12	Pharaoh	Pharaoh	PROPN	NNP	Number=Sing	9	obl	_	start_char=625|end_char=632|SpaceAfter=No
+13	,	,	PUNCT	,	_	7	punct	_	start_char=632|end_char=633
+14	agreed	agree	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=634|end_char=640
+15	to	to	PART	TO	_	16	mark	_	start_char=641|end_char=643
+16	release	release	VERB	VB	VerbForm=Inf	14	xcomp	_	start_char=644|end_char=651
+17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	start_char=652|end_char=655
+18	ancient	ancient	ADJ	JJ	Degree=Pos	19	amod	_	start_char=656|end_char=663
+19	Jews	Jew	PROPN	NNPS	Number=Plur	16	obj	_	start_char=664|end_char=668
+20	from	from	ADP	IN	_	21	case	_	start_char=669|end_char=673
+21	bondage	bondage	NOUN	NN	Number=Sing	16	obl	_	start_char=674|end_char=681|SpaceAfter=No
+22	.	.	PUNCT	.	_	14	punct	_	start_char=681|end_char=682
+
+# text = The Bible story also says that the Jewish people left their homes in such a rush after they were freed that they didn't have time to wait for the bread to rise.
+# sent_id = 7
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=683|end_char=686
+2	Bible	Bible	PROPN	NNP	Number=Sing	3	compound	_	start_char=687|end_char=692
+3	story	story	NOUN	NN	Number=Sing	5	nsubj	_	start_char=693|end_char=698
+4	also	also	ADV	RB	_	5	advmod	_	start_char=699|end_char=703
+5	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=704|end_char=708
+6	that	that	SCONJ	IN	_	10	mark	_	start_char=709|end_char=713
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=714|end_char=717
+8	Jewish	Jewish	ADJ	JJ	Degree=Pos	9	amod	_	start_char=718|end_char=724
+9	people	person	NOUN	NNS	Number=Plur	10	nsubj	_	start_char=725|end_char=731
+10	left	leave	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	ccomp	_	start_char=732|end_char=736
+11	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	start_char=737|end_char=742
+12	homes	home	NOUN	NNS	Number=Plur	10	obj	_	start_char=743|end_char=748
+13	in	in	ADP	IN	_	16	case	_	start_char=749|end_char=751
+14	such	such	DET	PDT	PronType=Ind	16	det:predet	_	start_char=752|end_char=756
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	start_char=757|end_char=758
+16	rush	rush	NOUN	NN	Number=Sing	10	obl	_	start_char=759|end_char=763
+17	after	after	SCONJ	IN	_	20	mark	_	start_char=764|end_char=769
+18	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj:pass	_	start_char=770|end_char=774
+19	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	20	aux:pass	_	start_char=775|end_char=779
+20	freed	free	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	advcl	_	start_char=780|end_char=785
+21	that	that	SCONJ	IN	_	25	mark	_	start_char=786|end_char=790
+22	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	25	nsubj	_	start_char=791|end_char=795
+23-24	didn't	_	_	_	_	_	_	_	start_char=796|end_char=802
+23	did	do	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	25	aux	_	start_char=796|end_char=799
+24	n't	not	PART	RB	Polarity=Neg	25	advmod	_	start_char=799|end_char=802
+25	have	have	VERB	VB	VerbForm=Inf	20	ccomp	_	start_char=803|end_char=807
+26	time	time	NOUN	NN	Number=Sing	25	obj	_	start_char=808|end_char=812
+27	to	to	PART	TO	_	28	mark	_	start_char=813|end_char=815
+28	wait	wait	VERB	VB	VerbForm=Inf	26	acl	_	start_char=816|end_char=820
+29	for	for	SCONJ	IN	_	33	mark	_	start_char=821|end_char=824
+30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	start_char=825|end_char=828
+31	bread	bread	NOUN	NN	Number=Sing	33	nsubj	_	start_char=829|end_char=834
+32	to	to	PART	TO	_	33	mark	_	start_char=835|end_char=837
+33	rise	rise	VERB	VB	VerbForm=Inf	28	advcl	_	start_char=838|end_char=842|SpaceAfter=No
+34	.	.	PUNCT	.	_	5	punct	_	start_char=842|end_char=843
+
+# text = This is why at the commemorative Passover meal, Jewish people eat matzo, bread without yeast, also known as unleavened bread.
+# sent_id = 8
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	start_char=844|end_char=848
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=849|end_char=851
+3	why	why	ADV	WRB	PronType=Int	0	root	_	start_char=852|end_char=855
+4	at	at	ADP	IN	_	8	case	_	start_char=856|end_char=858
+5	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=859|end_char=862
+6	commemorative	commemorative	ADJ	JJ	Degree=Pos	8	amod	_	start_char=863|end_char=876
+7	Passover	Passover	PROPN	NNP	Number=Sing	8	compound	_	start_char=877|end_char=885
+8	meal	meal	NOUN	NN	Number=Sing	3	obl	_	start_char=886|end_char=890|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	start_char=890|end_char=891
+10	Jewish	Jewish	ADJ	JJ	Degree=Pos	11	amod	_	start_char=892|end_char=898
+11	people	person	NOUN	NNS	Number=Plur	12	nsubj	_	start_char=899|end_char=905
+12	eat	eat	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	start_char=906|end_char=909
+13	matzo	matzo	NOUN	NN	Number=Sing	12	obj	_	start_char=910|end_char=915|SpaceAfter=No
+14	,	,	PUNCT	,	_	15	punct	_	start_char=915|end_char=916
+15	bread	bread	NOUN	NN	Number=Sing	13	conj	_	start_char=917|end_char=922
+16	without	without	ADP	IN	_	17	case	_	start_char=923|end_char=930
+17	yeast	yeast	NOUN	NN	Number=Sing	12	obl	_	start_char=931|end_char=936|SpaceAfter=No
+18	,	,	PUNCT	,	_	20	punct	_	start_char=936|end_char=937
+19	also	also	ADV	RB	_	20	advmod	_	start_char=938|end_char=942
+20	known	know	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	advcl	_	start_char=943|end_char=948
+21	as	as	ADP	IN	_	23	case	_	start_char=949|end_char=951
+22	unleavened	unleavened	ADJ	JJ	Degree=Pos	23	amod	_	start_char=952|end_char=962
+23	bread	bread	NOUN	NN	Number=Sing	20	obl	_	start_char=963|end_char=968|SpaceAfter=No
+24	.	.	PUNCT	.	_	3	punct	_	start_char=968|end_char=969
+
+# text = The matzo and other foods are eaten at a special meal called a seder.
+# sent_id = 9
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=970|end_char=973
+2	matzo	matzo	NOUN	NN	Number=Sing	7	nsubj:pass	_	start_char=974|end_char=979
+3	and	and	CCONJ	CC	_	5	cc	_	start_char=980|end_char=983
+4	other	other	ADJ	JJ	Degree=Pos	5	amod	_	start_char=984|end_char=989
+5	foods	food	NOUN	NNS	Number=Plur	2	conj	_	start_char=990|end_char=995
+6	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	start_char=996|end_char=999
+7	eaten	eat	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=1000|end_char=1005
+8	at	at	ADP	IN	_	11	case	_	start_char=1006|end_char=1008
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	start_char=1009|end_char=1010
+10	special	special	ADJ	JJ	Degree=Pos	11	amod	_	start_char=1011|end_char=1018
+11	meal	meal	NOUN	NN	Number=Sing	7	obl	_	start_char=1019|end_char=1023
+12	called	call	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	acl	_	start_char=1024|end_char=1030
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	start_char=1031|end_char=1032
+14	seder	seder	NOUN	NN	Number=Sing	12	xcomp	_	start_char=1033|end_char=1038|SpaceAfter=No
+15	.	.	PUNCT	.	_	7	punct	_	start_char=1038|end_char=1039|SpacesAfter=\n
+
+# text = There are very specific rituals that happen at the Seder meal.
+# sent_id = 10
+1	There	there	PRON	EX	_	2	expl	_	start_char=1040|end_char=1045
+2	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1046|end_char=1049
+3	very	very	ADV	RB	_	4	advmod	_	start_char=1050|end_char=1054
+4	specific	specific	ADJ	JJ	Degree=Pos	5	amod	_	start_char=1055|end_char=1063
+5	rituals	ritual	NOUN	NNS	Number=Plur	2	nsubj	_	start_char=1064|end_char=1071
+6	that	that	PRON	WDT	PronType=Rel	7	nsubj	_	start_char=1072|end_char=1076
+7	happen	happen	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	start_char=1077|end_char=1083
+8	at	at	ADP	IN	_	11	case	_	start_char=1084|end_char=1086
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=1087|end_char=1090
+10	Seder	Seder	PROPN	NNP	Number=Sing	11	compound	_	start_char=1091|end_char=1096
+11	meal	meal	NOUN	NN	Number=Sing	7	obl	_	start_char=1097|end_char=1101|SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	start_char=1101|end_char=1102
+
+# text = These rituals are all in a book called the Haggadah.
+# sent_id = 11
+1	These	this	DET	DT	Number=Plur|PronType=Dem	2	det	_	start_char=1103|end_char=1108
+2	rituals	ritual	NOUN	NNS	Number=Plur	7	nsubj	_	start_char=1109|end_char=1116
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=1117|end_char=1120
+4	all	all	ADV	RB	_	7	advmod	_	start_char=1121|end_char=1124
+5	in	in	ADP	IN	_	7	case	_	start_char=1125|end_char=1127
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=1128|end_char=1129
+7	book	book	NOUN	NN	Number=Sing	0	root	_	start_char=1130|end_char=1134
+8	called	call	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	acl	_	start_char=1135|end_char=1141
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=1142|end_char=1145
+10	Haggadah	Haggadah	PROPN	NNP	Number=Sing	8	xcomp	_	start_char=1146|end_char=1154|SpaceAfter=No
+11	.	.	PUNCT	.	_	7	punct	_	start_char=1154|end_char=1155
+
+# text = Inside the Haggadah is also the story of the Jewish exodus from Egypt.
+# sent_id = 12
+1	Inside	inside	ADP	IN	_	3	case	_	start_char=1156|end_char=1162
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=1163|end_char=1166
+3	Haggadah	Haggadah	PROPN	NNP	Number=Sing	7	nmod	_	start_char=1167|end_char=1175
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=1176|end_char=1178
+5	also	also	ADV	RB	_	7	advmod	_	start_char=1179|end_char=1183
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=1184|end_char=1187
+7	story	story	NOUN	NN	Number=Sing	0	root	_	start_char=1188|end_char=1193
+8	of	of	ADP	IN	_	11	case	_	start_char=1194|end_char=1196
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=1197|end_char=1200
+10	Jewish	Jewish	ADJ	JJ	Degree=Pos	11	amod	_	start_char=1201|end_char=1207
+11	exodus	exodus	NOUN	NN	Number=Sing	7	nmod	_	start_char=1208|end_char=1214
+12	from	from	ADP	IN	_	13	case	_	start_char=1215|end_char=1219
+13	Egypt	Egypt	PROPN	NNP	Number=Sing	11	nmod	_	start_char=1220|end_char=1225|SpaceAfter=No
+14	.	.	PUNCT	.	_	7	punct	_	start_char=1225|end_char=1226
+
+# text = During the seder meal parts of the Haggadah are read aloud.
+# sent_id = 13
+1	During	during	ADP	IN	_	5	case	_	start_char=1227|end_char=1233
+2	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=1234|end_char=1237
+3	seder	seder	NOUN	NN	Number=Sing	5	compound	_	start_char=1238|end_char=1243
+4	meal	meal	NOUN	NN	Number=Sing	5	compound	_	start_char=1244|end_char=1248
+5	parts	part	NOUN	NNS	Number=Plur	10	nsubj:pass	_	start_char=1249|end_char=1254
+6	of	of	ADP	IN	_	8	case	_	start_char=1255|end_char=1257
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=1258|end_char=1261
+8	Haggadah	Haggadah	PROPN	NNP	Number=Sing	5	nmod	_	start_char=1262|end_char=1270
+9	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	start_char=1271|end_char=1274
+10	read	read	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=1275|end_char=1279
+11	aloud	aloud	ADV	RB	_	10	advmod	_	start_char=1280|end_char=1285|SpaceAfter=No
+12	.	.	PUNCT	.	_	10	punct	_	start_char=1285|end_char=1286
+
+# text = The first part of the meal is a blessing over wine.
+# sent_id = 14
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=1287|end_char=1290
+2	first	first	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	3	amod	_	start_char=1291|end_char=1296
+3	part	part	NOUN	NN	Number=Sing	9	nsubj	_	start_char=1297|end_char=1301
+4	of	of	ADP	IN	_	6	case	_	start_char=1302|end_char=1304
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=1305|end_char=1308
+6	meal	meal	NOUN	NN	Number=Sing	3	nmod	_	start_char=1309|end_char=1313
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=1314|end_char=1316
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	start_char=1317|end_char=1318
+9	blessing	blessing	NOUN	NN	Number=Sing	0	root	_	start_char=1319|end_char=1327
+10	over	over	ADP	IN	_	11	case	_	start_char=1328|end_char=1332
+11	wine	wine	NOUN	NN	Number=Sing	9	nmod	_	start_char=1333|end_char=1337|SpaceAfter=No
+12	.	.	PUNCT	.	_	9	punct	_	start_char=1337|end_char=1338
+
+# text = The second part of the meal is the washing of hands.
+# sent_id = 15
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=1339|end_char=1342
+2	second	second	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	3	amod	_	start_char=1343|end_char=1349
+3	part	part	NOUN	NN	Number=Sing	9	nsubj	_	start_char=1350|end_char=1354
+4	of	of	ADP	IN	_	6	case	_	start_char=1355|end_char=1357
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=1358|end_char=1361
+6	meal	meal	NOUN	NN	Number=Sing	3	nmod	_	start_char=1362|end_char=1366
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=1367|end_char=1369
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=1370|end_char=1373
+9	washing	washing	NOUN	NN	Number=Sing	0	root	_	start_char=1374|end_char=1381
+10	of	of	ADP	IN	_	11	case	_	start_char=1382|end_char=1384
+11	hands	hand	NOUN	NNS	Number=Plur	9	nmod	_	start_char=1385|end_char=1390|SpaceAfter=No
+12	.	.	PUNCT	.	_	9	punct	_	start_char=1390|end_char=1391
+
+# text = The third part of the meal is when someone dips some sort of vegetable in salt water and then eats the vegetable.
+# sent_id = 16
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=1392|end_char=1395
+2	third	third	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	3	amod	_	start_char=1396|end_char=1401
+3	part	part	NOUN	NN	Number=Sing	10	nsubj:outer	_	start_char=1402|end_char=1406
+4	of	of	ADP	IN	_	6	case	_	start_char=1407|end_char=1409
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=1410|end_char=1413
+6	meal	meal	NOUN	NN	Number=Sing	3	nmod	_	start_char=1414|end_char=1418
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=1419|end_char=1421
+8	when	when	ADV	WRB	PronType=Int	10	advmod	_	start_char=1422|end_char=1426
+9	someone	someone	PRON	NN	Number=Sing|PronType=Ind	10	nsubj	_	start_char=1427|end_char=1434
+10	dips	dip	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1435|end_char=1439
+11	some	some	DET	DT	PronType=Ind	12	det	_	start_char=1440|end_char=1444
+12	sort	sort	NOUN	NN	Number=Sing	10	obj	_	start_char=1445|end_char=1449
+13	of	of	ADP	IN	_	14	case	_	start_char=1450|end_char=1452
+14	vegetable	vegetable	NOUN	NN	Number=Sing	12	nmod	_	start_char=1453|end_char=1462
+15	in	in	ADP	IN	_	17	case	_	start_char=1463|end_char=1465
+16	salt	salt	NOUN	NN	Number=Sing	17	compound	_	start_char=1466|end_char=1470
+17	water	water	NOUN	NN	Number=Sing	10	obl	_	start_char=1471|end_char=1476
+18	and	and	CCONJ	CC	_	20	cc	_	start_char=1477|end_char=1480
+19	then	then	ADV	RB	PronType=Dem	20	advmod	_	start_char=1481|end_char=1485
+20	eats	eat	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	start_char=1486|end_char=1490
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	start_char=1491|end_char=1494
+22	vegetable	vegetable	NOUN	NN	Number=Sing	20	obj	_	start_char=1495|end_char=1504|SpaceAfter=No
+23	.	.	PUNCT	.	_	8	punct	_	start_char=1504|end_char=1505
+
+# text = The vegetable symbolizes the humble origins of the Jewish people.
+# sent_id = 17
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=1506|end_char=1509
+2	vegetable	vegetable	NOUN	NN	Number=Sing	3	nsubj	_	start_char=1510|end_char=1519
+3	symbolizes	symbolize	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1520|end_char=1530
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=1531|end_char=1534
+5	humble	humble	ADJ	JJ	Degree=Pos	6	amod	_	start_char=1535|end_char=1541
+6	origins	origin	NOUN	NNS	Number=Plur	3	obj	_	start_char=1542|end_char=1549
+7	of	of	ADP	IN	_	10	case	_	start_char=1550|end_char=1552
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=1553|end_char=1556
+9	Jewish	Jewish	ADJ	JJ	Degree=Pos	10	amod	_	start_char=1557|end_char=1563
+10	people	person	NOUN	NNS	Number=Plur	6	nmod	_	start_char=1564|end_char=1570|SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	start_char=1570|end_char=1571
+
+# text = The water symbolizes their tears.
+# sent_id = 18
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=1572|end_char=1575
+2	water	water	NOUN	NN	Number=Sing	3	nsubj	_	start_char=1576|end_char=1581
+3	symbolizes	symbolize	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=1582|end_char=1592
+4	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=1593|end_char=1598
+5	tears	tear	NOUN	NNS	Number=Plur	3	obj	_	start_char=1599|end_char=1604|SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	start_char=1604|end_char=1605
+
+# text = The fourth part of the meal is when three pieces of matzo are broken.
+# sent_id = 19
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=1606|end_char=1609
+2	fourth	fourth	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	3	amod	_	start_char=1610|end_char=1616
+3	part	part	NOUN	NN	Number=Sing	14	nsubj:outer	_	start_char=1617|end_char=1621
+4	of	of	ADP	IN	_	6	case	_	start_char=1622|end_char=1624
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=1625|end_char=1628
+6	meal	meal	NOUN	NN	Number=Sing	3	nmod	_	start_char=1629|end_char=1633
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	start_char=1634|end_char=1636
+8	when	when	ADV	WRB	PronType=Int	0	root	_	start_char=1637|end_char=1641
+9	three	three	NUM	CD	NumForm=Word|NumType=Card	10	nummod	_	start_char=1642|end_char=1647
+10	pieces	piece	NOUN	NNS	Number=Plur	14	nsubj:pass	_	start_char=1648|end_char=1654
+11	of	of	ADP	IN	_	12	case	_	start_char=1655|end_char=1657
+12	matzo	matzo	NOUN	NN	Number=Sing	10	nmod	_	start_char=1658|end_char=1663
+13	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	start_char=1664|end_char=1667
+14	broken	break	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	advcl:relcl	_	start_char=1668|end_char=1674|SpaceAfter=No
+15	.	.	PUNCT	.	_	8	punct	_	start_char=1674|end_char=1675|SpaceAfter=No
+

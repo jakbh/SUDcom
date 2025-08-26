@@ -1,0 +1,165 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# text = I have to tell you something.
+# sent_id = 0
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	end_char=1|start_char=0
+2	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	end_char=6|start_char=2
+3	to	to	PART	TO	_	2	comp:obl	_	end_char=9|start_char=7
+4	tell	tell	VERB	VB	VerbForm=Inf	3	comp:obj	_	end_char=14|start_char=10|Subject=SubjRaising
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	comp:obl	_	end_char=18|start_char=15
+6	something	something	PRON	NN	Number=Sing|PronType=Ind	4	comp:obj	_	end_char=28|SpaceAfter=No|start_char=19
+7	.	.	PUNCT	.	_	2	punct	_	end_char=29|SpacesAfter=\n|start_char=28
+
+# text = What is it?
+# sent_id = 1
+1	What	what	PRON	WP	PronType=Int	2	comp:pred	_	end_char=34|start_char=30
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=37|start_char=35
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=40|SpaceAfter=No|start_char=38
+4	?	?	PUNCT	.	_	2	punct	_	end_char=41|SpacesAfter=\n|start_char=40
+
+# text = You graded my test incorrectly.
+# sent_id = 2
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	subj	_	end_char=45|start_char=42
+2	graded	grade	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	0	root	_	end_char=52|start_char=46
+3	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	mod@poss	_	end_char=55|start_char=53
+4	test	test	NOUN	NN	Number=Sing	2	comp:obj	_	end_char=60|start_char=56
+5	incorrectly	incorrectly	ADV	RB	_	2	mod	_	end_char=72|SpaceAfter=No|start_char=61
+6	.	.	PUNCT	.	_	2	punct	_	end_char=73|start_char=72
+
+# text = I got this wrong, but you didn't mark it.
+# sent_id = 3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs|Shared=No	2	subj	_	end_char=75|start_char=74
+2	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	end_char=79|start_char=76
+3	this	this	PRON	DT	Number=Sing|PronType=Dem	2	comp:obj	_	end_char=84|start_char=80
+4	wrong	wrong	ADJ	JJ	Degree=Pos	2	comp:pred	_	end_char=90|SpaceAfter=No|start_char=85
+5	,	,	PUNCT	,	_	8	punct	_	end_char=91|start_char=90
+6	but	but	CCONJ	CC	_	8	cc	_	end_char=95|start_char=92
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	subj	_	end_char=99|start_char=96
+8-9	didn't	_	_	_	_	_	_	_	end_char=106|start_char=100
+8	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	2	conj:coord	_	end_char=103|start_char=100
+9	n't	not	PART	RB	Polarity=Neg|Shared=No	8	mod	_	end_char=106|start_char=103
+10	mark	mark	VERB	VB	Shared=No|VerbForm=Inf	8	comp:aux	_	end_char=111|start_char=107
+11	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	comp:obj	_	end_char=114|SpaceAfter=No|start_char=112
+12	.	.	PUNCT	.	_	2	punct	_	end_char=115|SpacesAfter=\n|start_char=114
+
+# text = Wow!
+# sent_id = 4
+1	Wow	wow	INTJ	UH	_	0	root	_	end_char=119|SpaceAfter=No|start_char=116
+2	!	!	PUNCT	.	_	1	punct	_	end_char=120|start_char=119
+
+# text = I have never met a more honest student.
+# sent_id = 5
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	end_char=122|start_char=121
+2	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	end_char=127|start_char=123
+3	never	never	ADV	RB	PronType=Neg	2	mod	_	end_char=133|start_char=128
+4	met	meet	VERB	VBN	Tense=Past|VerbForm=Part	2	comp:aux	_	end_char=137|start_char=134
+5	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	end_char=139|start_char=138
+6	more	more	ADV	RBR	Degree=Cmp	7	mod	_	end_char=144|start_char=140
+7	honest	honest	ADJ	JJ	Degree=Pos	8	mod	_	end_char=151|start_char=145
+8	student	student	NOUN	NN	Number=Sing	4	comp:obj	_	end_char=159|SpaceAfter=No|start_char=152
+9	.	.	PUNCT	.	_	2	punct	_	end_char=160|SpacesAfter=\n|start_char=159
+
+# text = I just felt wrong.
+# sent_id = 6
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	end_char=162|start_char=161
+2	just	just	ADV	RB	_	3	mod	_	end_char=167|start_char=163
+3	felt	feel	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	end_char=172|start_char=168
+4	wrong	wrong	ADJ	JJ	Degree=Pos	3	comp:pred	_	end_char=178|SpaceAfter=No|start_char=173
+5	.	.	PUNCT	.	_	3	punct	_	end_char=179|SpacesAfter=\n|start_char=178
+
+# text = Just keep the score you have.
+# sent_id = 7
+1	Just	just	ADV	RB	_	2	mod	_	end_char=184|start_char=180
+2	keep	keep	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	end_char=189|start_char=185
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	end_char=193|start_char=190
+4	score	score	NOUN	NN	Number=Sing	2	comp:obj	_	end_char=199|start_char=194
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	subj	_	end_char=203|start_char=200
+6	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	mod@relcl	_	end_char=208|SpaceAfter=No|start_char=204
+7	.	.	PUNCT	.	_	2	punct	_	end_char=209|SpacesAfter=\n|start_char=208
+
+# text = Really?
+# sent_id = 8
+1	Really	really	ADV	RB	_	0	root	_	end_char=216|SpaceAfter=No|start_char=210
+2	?	?	PUNCT	.	_	1	punct	_	end_char=217|start_char=216
+
+# text = That's awesome.
+# sent_id = 9
+1-2	That's	_	_	_	_	_	_	_	end_char=224|start_char=218
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	2	subj	_	end_char=222|start_char=218
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=224|start_char=222
+3	awesome	awesome	ADJ	JJ	Degree=Pos	2	comp:pred	_	end_char=232|SpaceAfter=No|start_char=225
+4	.	.	PUNCT	.	_	2	punct	_	end_char=233|SpacesAfter=\n|start_char=232
+
+# text = Yes.
+# sent_id = 10
+1	Yes	yes	INTJ	UH	Polarity=Pos	0	root	_	end_char=237|SpaceAfter=No|start_char=234
+2	.	.	PUNCT	.	_	1	punct	_	end_char=238|start_char=237
+
+# text = I have to ask, why did you decide to tell me?
+# sent_id = 11
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	end_char=240|start_char=239
+2	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	end_char=245|start_char=241
+3	to	to	PART	TO	_	2	comp:obl	_	end_char=248|start_char=246
+4	ask	ask	VERB	VB	VerbForm=Inf	3	comp:obj	_	end_char=252|SpaceAfter=No|start_char=249|Subject=SubjRaising
+5	,	,	PUNCT	,	_	7	punct	_	end_char=253|start_char=252
+6	why	why	ADV	WRB	PronType=Int	7	mod	_	end_char=257|start_char=254
+7	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	2	parataxis	_	end_char=261|start_char=258
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	subj	_	end_char=265|start_char=262
+9	decide	decide	VERB	VB	VerbForm=Inf	7	comp:aux	_	end_char=272|start_char=266
+10	to	to	PART	TO	_	9	comp:obl	_	end_char=275|start_char=273
+11	tell	tell	VERB	VB	VerbForm=Inf	10	comp:obj	_	end_char=280|start_char=276|Subject=SubjRaising
+12	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	11	comp:obl	_	end_char=283|SpaceAfter=No|start_char=281
+13	?	?	PUNCT	.	_	2	punct	_	end_char=284|SpacesAfter=\n|start_char=283
+
+# text = I'm really bad at lying.
+# sent_id = 12
+1-2	I'm	_	_	_	_	_	_	_	end_char=288|start_char=285
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	end_char=286|start_char=285
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	end_char=288|start_char=286
+3	really	really	ADV	RB	_	2	mod	_	end_char=295|start_char=289
+4	bad	bad	ADJ	JJ	Degree=Pos	2	comp:pred	_	end_char=299|start_char=296
+5	at	at	SCONJ	IN	_	2	mod	_	end_char=302|start_char=300
+6	lying	lie	VERB	VBG	Tense=Pres|VerbForm=Part	5	comp:obj	_	end_char=308|SpaceAfter=No|start_char=303
+7	.	.	PUNCT	.	_	2	punct	_	end_char=309|SpacesAfter=\n|start_char=308
+
+# text = That's a good thing!
+# sent_id = 13
+1-2	That's	_	_	_	_	_	_	_	end_char=316|start_char=310
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	2	subj	_	end_char=314|start_char=310
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=316|start_char=314
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	end_char=318|start_char=317
+4	good	good	ADJ	JJ	Degree=Pos	5	mod	_	end_char=323|start_char=319
+5	thing	thing	NOUN	NN	Number=Sing	2	comp:pred	_	end_char=329|SpaceAfter=No|start_char=324
+6	!	!	PUNCT	.	_	2	punct	_	end_char=330|start_char=329
+
+# text = Your honesty is praiseworthy.
+# sent_id = 14
+1	Your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	2	mod@poss	_	end_char=335|start_char=331
+2	honesty	honesty	NOUN	NN	Number=Sing	3	subj	_	end_char=343|start_char=336
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=346|start_char=344
+4	praiseworthy	praiseworthy	ADJ	JJ	Degree=Pos	3	comp:pred	_	end_char=359|SpaceAfter=No|start_char=347
+5	.	.	PUNCT	.	_	3	punct	_	end_char=360|SpacesAfter=\n|start_char=359
+
+# text = Thanks.
+# sent_id = 15
+1	Thanks	thanks	NOUN	NN	Number=Sing	0	root	_	end_char=367|SpaceAfter=No|start_char=361
+2	.	.	PUNCT	.	_	1	punct	_	end_char=368|start_char=367
+
+# text = Want to give me extra credit?
+# sent_id = 16
+1	Want	want	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	end_char=373|start_char=369
+2	to	to	PART	TO	_	1	comp:obl	_	end_char=376|start_char=374
+3	give	give	VERB	VB	VerbForm=Inf	2	comp:obj	_	end_char=381|start_char=377|Subject=SubjRaising
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	comp:obl	_	end_char=384|start_char=382
+5	extra	extra	ADJ	JJ	Degree=Pos	6	mod	_	end_char=390|start_char=385
+6	credit	credit	NOUN	NN	Number=Sing	3	comp:obj	_	end_char=397|SpaceAfter=No|start_char=391
+7	?	?	PUNCT	.	_	1	punct	_	end_char=398|SpacesAfter=\n|start_char=397
+
+# text = Don't push it.
+# sent_id = 17
+1-2	Don't	_	_	_	_	_	_	_	end_char=404|start_char=399
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	root	_	end_char=401|start_char=399
+2	n't	not	PART	RB	Polarity=Neg	1	mod	_	end_char=404|start_char=401
+3	push	push	VERB	VB	Mood=Imp|VerbForm=Fin	1	comp:aux	_	end_char=409|start_char=405
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	comp:obj	_	end_char=412|SpaceAfter=No|start_char=410
+5	.	.	PUNCT	.	_	1	punct	_	end_char=413|SpaceAfter=No|start_char=412
+

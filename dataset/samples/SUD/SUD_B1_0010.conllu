@@ -1,0 +1,512 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# text = (1) Fairies today are the stuff of children's stories, little magical people with wings, often shining with light.
+# sent_id = 0
+1	(1)	(1)	NUM	CD	NumForm=Digit|NumType=Card	4	discourse	_	end_char=3|start_char=0
+2	Fairies	fairy	NOUN	NNS	Number=Plur	4	subj	_	end_char=11|start_char=4
+3	today	today	NOUN	NN	Number=Sing	2	mod@unmarked	_	end_char=17|start_char=12
+4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=21|start_char=18
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	end_char=25|start_char=22
+6	stuff	stuff	NOUN	NN	Number=Sing	4	comp:pred	_	end_char=31|start_char=26
+7	of	of	ADP	IN	_	6	udep	_	end_char=34|start_char=32
+8-9	children's	_	_	_	_	_	_	_	end_char=45|start_char=35
+8	children	child	NOUN	NNS	Number=Plur	9	comp:obj	_	end_char=43|start_char=35
+9	's	's	PART	POS	_	10	udep@poss	_	end_char=45|start_char=43
+10	stories	story	NOUN	NNS	Number=Plur	7	comp:obj	_	end_char=53|SpaceAfter=No|start_char=46
+11	,	,	PUNCT	,	_	14	punct	_	end_char=54|start_char=53
+12	little	little	ADJ	JJ	Degree=Pos	14	mod	_	end_char=61|start_char=55
+13	magical	magical	ADJ	JJ	Degree=Pos	14	mod	_	end_char=69|start_char=62
+14	people	person	NOUN	NNS	Number=Plur	10	conj:appos	_	end_char=76|start_char=70
+15	with	with	ADP	IN	_	14	udep	_	end_char=81|start_char=77
+16	wings	wing	NOUN	NNS	Number=Plur	15	comp:obj	_	end_char=87|SpaceAfter=No|start_char=82
+17	,	,	PUNCT	,	_	19	punct	_	end_char=88|start_char=87
+18	often	often	ADV	RB	_	19	mod	_	end_char=94|start_char=89
+19	shining	shine	VERB	VBG	Tense=Pres|VerbForm=Part	14	mod	_	end_char=102|start_char=95
+20	with	with	ADP	IN	_	19	udep	_	end_char=107|start_char=103
+21	light	light	NOUN	NN	Number=Sing	20	comp:obj	_	end_char=113|SpaceAfter=No|start_char=108
+22	.	.	PUNCT	.	_	4	punct	_	end_char=114|start_char=113
+
+# text = Typically pretty and female, like Tinkerbell in Peter Pan, they usually use their magic to do small things and are mostly friendly to humans.
+# sent_id = 1
+1	Typically	typically	ADV	RB	_	2	mod	_	end_char=124|start_char=115
+2	pretty	pretty	ADJ	JJ	Degree=Pos|Shared=Yes	14	mod	_	end_char=131|start_char=125
+3	and	and	CCONJ	CC	_	4	cc	_	end_char=135|start_char=132
+4	female	female	ADJ	JJ	Degree=Pos	2	conj:coord	_	end_char=142|SpaceAfter=No|start_char=136
+5	,	,	PUNCT	,	_	6	punct	_	end_char=143|start_char=142
+6	like	like	ADP	IN	Shared=Yes	4	udep	_	end_char=148|start_char=144
+7	Tinkerbell	Tinkerbell	PROPN	NNP	Number=Sing	6	comp:obj	_	end_char=159|start_char=149
+8	in	in	ADP	IN	_	7	udep	_	end_char=162|start_char=160
+9	Peter	Peter	PROPN	NNP	Number=Sing	8	comp:obj	_	end_char=168|start_char=163
+10	Pan	Pan	PROPN	NNP	Number=Sing	9	flat	_	end_char=172|SpaceAfter=No|start_char=169
+11	,	,	PUNCT	,	_	2	punct	_	end_char=173|start_char=172
+12	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs|Shared=Yes	14	subj	_	end_char=178|start_char=174
+13	usually	usually	ADV	RB	_	14	mod	_	end_char=186|start_char=179
+14	use	use	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=190|start_char=187
+15	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	mod@poss	_	end_char=196|start_char=191
+16	magic	magic	NOUN	NN	Number=Sing	14	comp:obj	_	end_char=202|start_char=197
+17	to	to	PART	TO	_	14	mod	_	end_char=205|start_char=203
+18	do	do	VERB	VB	VerbForm=Inf	17	comp:obj	_	end_char=208|start_char=206
+19	small	small	ADJ	JJ	Degree=Pos	20	mod	_	end_char=214|start_char=209
+20	things	thing	NOUN	NNS	Number=Plur	18	comp:obj	_	end_char=221|start_char=215
+21	and	and	CCONJ	CC	_	22	cc	_	end_char=225|start_char=222
+22	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	conj:coord	_	end_char=229|start_char=226
+23	mostly	mostly	ADV	RB	Shared=No	22	mod	_	end_char=236|start_char=230
+24	friendly	friendly	ADJ	JJ	Degree=Pos|Shared=No	22	comp:pred	_	end_char=245|start_char=237
+25	to	to	ADP	IN	_	24	udep	_	end_char=248|start_char=246
+26	humans	human	NOUN	NNS	Number=Plur	25	comp:obj	_	end_char=255|SpaceAfter=No|start_char=249
+27	.	.	PUNCT	.	_	14	punct	_	end_char=256|SpacesAfter=\n|start_char=255
+
+# text = (2) We owe many of our modern ideas about fairies to Shakespeare and stories from the 18th and 19th centuries.
+# sent_id = 2
+1	(	(	PUNCT	-LRB-	_	5	punct	_	end_char=258|SpaceAfter=No|start_char=257
+2	2	2	NUM	LS	NumForm=Digit|NumType=Card	5	discourse	_	end_char=259|SpaceAfter=No|start_char=258
+3	)	)	PUNCT	-RRB-	_	2	punct	_	end_char=260|start_char=259
+4	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	subj	_	end_char=263|start_char=261
+5	owe	owe	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	end_char=267|start_char=264
+6	many	many	ADJ	JJ	Degree=Pos	5	comp:obj	_	end_char=272|start_char=268
+7	of	of	ADP	IN	_	6	udep	_	end_char=275|start_char=273
+8	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	10	mod@poss	_	end_char=279|start_char=276
+9	modern	modern	ADJ	JJ	Degree=Pos	10	mod	_	end_char=286|start_char=280
+10	ideas	idea	NOUN	NNS	Number=Plur	7	comp:obj	_	end_char=292|start_char=287
+11	about	about	ADP	IN	_	5	udep	_	end_char=298|start_char=293
+12	fairies	fairy	NOUN	NNS	Number=Plur	11	comp:obj	_	end_char=306|start_char=299
+13	to	to	ADP	IN	_	12	udep	_	end_char=309|start_char=307
+14	Shakespeare	Shakespeare	PROPN	NNP	Number=Sing	13	comp:obj	_	end_char=321|start_char=310
+15	and	and	CCONJ	CC	_	16	cc	_	end_char=325|start_char=322
+16	stories	story	NOUN	NNS	Number=Plur	14	conj:coord	_	end_char=333|start_char=326
+17	from	from	ADP	IN	Shared=No	16	udep	_	end_char=338|start_char=334
+18	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	end_char=342|start_char=339
+19	18th	18th	ADJ	JJ	Degree=Pos|NumForm=Combi|NumType=Ord	22	mod	_	end_char=347|start_char=343
+20	and	and	CCONJ	CC	_	21	cc	_	end_char=351|start_char=348
+21	19th	19th	ADJ	JJ	Degree=Pos|NumForm=Combi|NumType=Ord	19	conj:coord	_	end_char=356|start_char=352
+22	centuries	century	NOUN	NNS	Number=Plur	17	comp:obj	_	end_char=366|SpaceAfter=No|start_char=357
+23	.	.	PUNCT	.	_	5	punct	_	end_char=367|start_char=366
+
+# text = Although we can see the origins of fairies as far back as the Ancient Greeks, we can see similar creatures in many cultures.
+# sent_id = 3
+1	Although	although	SCONJ	IN	_	18	mod	_	end_char=376|start_char=368
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	subj	_	end_char=379|start_char=377
+3	can	can	AUX	MD	VerbForm=Fin	1	comp:obj	_	end_char=383|start_char=380
+4	see	see	VERB	VB	VerbForm=Inf	3	comp:aux	_	end_char=387|start_char=384
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	end_char=391|start_char=388
+6	origins	origin	NOUN	NNS	Number=Plur	4	comp:obj	_	end_char=399|start_char=392
+7	of	of	ADP	IN	_	6	udep	_	end_char=402|start_char=400
+8	fairies	fairy	NOUN	NNS	Number=Plur	7	comp:obj	_	end_char=410|start_char=403
+9	as	as	ADV	RB	_	10	mod	_	end_char=413|start_char=411
+10	far	far	ADV	RB	Degree=Pos	11	mod	_	end_char=417|start_char=414
+11	back	back	ADV	RB	_	3	mod	_	end_char=422|start_char=418
+12	as	as	ADP	IN	_	11	udep	_	end_char=425|start_char=423
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	end_char=429|start_char=426
+14	Ancient	Ancient	ADJ	JJ	Degree=Pos	15	mod	_	end_char=437|start_char=430
+15	Greeks	Greek	PROPN	NNPS	Number=Plur	12	comp:obj	_	end_char=444|SpaceAfter=No|start_char=438
+16	,	,	PUNCT	,	_	1	punct	_	end_char=445|start_char=444
+17	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	subj	_	end_char=448|start_char=446
+18	can	can	AUX	MD	VerbForm=Fin	0	root	_	end_char=452|start_char=449
+19	see	see	VERB	VB	VerbForm=Inf	18	comp:aux	_	end_char=456|start_char=453
+20	similar	similar	ADJ	JJ	Degree=Pos	21	mod	_	end_char=464|start_char=457
+21	creatures	creature	NOUN	NNS	Number=Plur	19	comp:obj	_	end_char=474|start_char=465
+22	in	in	ADP	IN	_	19	udep	_	end_char=477|start_char=475
+23	many	many	ADJ	JJ	Degree=Pos	24	mod	_	end_char=482|start_char=478
+24	cultures	culture	NOUN	NNS	Number=Plur	22	comp:obj	_	end_char=491|SpaceAfter=No|start_char=483
+25	.	.	PUNCT	.	_	18	punct	_	end_char=492|start_char=491
+
+# text = The earliest fairy-like creatures can be found in the Greek idea that trees and rivers had spirits called dryads and nymphs.
+# sent_id = 4
+1	The	the	DET	DT	Definite=Def|PronType=Art	6	det	_	end_char=496|start_char=493
+2	earliest	early	ADJ	JJS	Degree=Sup	6	mod	_	end_char=505|start_char=497
+3	fairy	fairy	NOUN	NN	Number=Sing	5	compound	_	end_char=511|SpaceAfter=No|start_char=506
+4	-	-	PUNCT	HYPH	_	3	punct	_	end_char=512|SpaceAfter=No|start_char=511
+5	like	like	ADJ	JJ	Degree=Pos	6	mod	_	end_char=516|start_char=512
+6	creatures	creature	NOUN	NNS	Number=Plur	7	subj@pass	_	end_char=526|start_char=517
+7	can	can	AUX	MD	VerbForm=Fin	0	root	_	end_char=530|start_char=527
+8	be	be	AUX	VB	VerbForm=Inf	7	comp:aux	_	end_char=533|start_char=531
+9	found	find	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	comp:aux@pass	_	end_char=539|start_char=534
+10	in	in	ADP	IN	_	9	udep	_	end_char=542|start_char=540
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	end_char=546|start_char=543
+12	Greek	Greek	ADJ	JJ	Degree=Pos	13	mod	_	end_char=552|start_char=547
+13	idea	idea	NOUN	NN	Number=Sing	10	comp:obj	_	end_char=557|start_char=553
+14	that	that	SCONJ	IN	_	13	udep	_	end_char=562|start_char=558
+15	trees	tree	NOUN	NNS	Number=Plur	18	subj	_	end_char=568|start_char=563
+16	and	and	CCONJ	CC	_	17	cc	_	end_char=572|start_char=569
+17	rivers	river	NOUN	NNS	Number=Plur	15	conj:coord	_	end_char=579|start_char=573
+18	had	have	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	14	comp:obj	_	end_char=583|start_char=580
+19	spirits	spirit	NOUN	NNS	Number=Plur	18	comp:obj	_	end_char=591|start_char=584
+20	called	call	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	19	mod	_	end_char=598|start_char=592
+21	dryads	dryad	NOUN	NNS	Number=Plur	20	comp:pred	_	end_char=605|start_char=599
+22	and	and	CCONJ	CC	_	23	cc	_	end_char=609|start_char=606
+23	nymphs	nymph	NOUN	NNS	Number=Plur	21	conj:coord	_	end_char=616|SpaceAfter=No|start_char=610
+24	.	.	PUNCT	.	_	7	punct	_	end_char=617|start_char=616
+
+# text = Some people think these creatures were originally the gods of earlier, pagan religions that worshipped nature.
+# sent_id = 5
+1	Some	some	DET	DT	PronType=Ind	2	det	_	end_char=622|start_char=618
+2	people	person	NOUN	NNS	Number=Plur	3	subj	_	end_char=629|start_char=623
+3	think	think	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=635|start_char=630
+4	these	this	DET	DT	Number=Plur|PronType=Dem	5	det	_	end_char=641|start_char=636
+5	creatures	creature	NOUN	NNS	Number=Plur	6	subj	_	end_char=651|start_char=642
+6	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	comp:obj	_	end_char=656|start_char=652
+7	originally	originally	ADV	RB	_	6	mod	_	end_char=667|start_char=657
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	end_char=671|start_char=668
+9	gods	god	NOUN	NNS	Number=Plur	6	comp:pred	_	end_char=676|start_char=672
+10	of	of	ADP	IN	_	9	udep	_	end_char=679|start_char=677
+11	earlier	early	ADJ	JJR	Degree=Cmp	14	mod	_	end_char=687|SpaceAfter=No|start_char=680
+12	,	,	PUNCT	,	_	11	punct	_	end_char=688|start_char=687
+13	pagan	pagan	ADJ	JJ	Degree=Pos	14	mod	_	end_char=694|start_char=689
+14	religions	religion	NOUN	NNS	Number=Plur	10	comp:obj	_	end_char=704|start_char=695
+15	that	that	PRON	WDT	PronType=Rel	16	subj	_	end_char=709|start_char=705
+16	worshipped	worship	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	14	mod@relcl	_	end_char=720|start_char=710
+17	nature	nature	NOUN	NN	Number=Sing	16	comp:obj	_	end_char=727|SpaceAfter=No|start_char=721
+18	.	.	PUNCT	.	_	3	punct	_	end_char=728|start_char=727
+
+# text = They were replaced by the Greek and Roman gods, and then later by the Christian God, and became smaller, less powerful figures as they lost importance.
+# sent_id = 6
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs|Shared=Yes	2	subj@pass	_	end_char=733|start_char=729
+2	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=738|start_char=734
+3	replaced	replace	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	comp:aux@pass	_	end_char=747|start_char=739
+4	by	by	ADP	IN	_	3	comp:obl@agent	_	end_char=750|start_char=748
+5	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	end_char=754|start_char=751
+6	Greek	Greek	ADJ	JJ	Degree=Pos	9	mod	_	end_char=760|start_char=755
+7	and	and	CCONJ	CC	_	8	cc	_	end_char=764|start_char=761
+8	Roman	Roman	ADJ	JJ	Degree=Pos	6	conj:coord	_	end_char=770|start_char=765
+9	gods	god	NOUN	NNS	Number=Plur	4	comp:obj	_	end_char=775|SpaceAfter=No|start_char=771
+10	,	,	PUNCT	,	_	14	punct	_	end_char=776|start_char=775
+11	and	and	CCONJ	CC	_	14	cc	_	end_char=780|start_char=777
+12	then	then	ADV	RB	PronType=Dem	14	mod	_	end_char=785|start_char=781
+13	later	late	ADV	RBR	Degree=Cmp	14	mod	_	end_char=791|start_char=786
+14	by	by	ADP	IN	_	4	conj:coord	_	end_char=794|start_char=792
+15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	end_char=798|start_char=795
+16	Christian	Christian	ADJ	JJ	Degree=Pos	17	mod	_	end_char=808|start_char=799
+17	God	God	PROPN	NNP	Number=Sing|Shared=No	14	comp:obj	_	end_char=812|SpaceAfter=No|start_char=809
+18	,	,	PUNCT	,	_	20	punct	_	end_char=813|start_char=812
+19	and	and	CCONJ	CC	_	20	cc	_	end_char=817|start_char=814
+20	became	become	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	conj:coord	_	end_char=824|start_char=818
+21	smaller	small	ADJ	JJR	Degree=Cmp	25	mod	_	end_char=832|SpaceAfter=No|start_char=825
+22	,	,	PUNCT	,	_	21	punct	_	end_char=833|start_char=832
+23	less	less	ADV	RBR	Degree=Cmp	24	mod	_	end_char=838|start_char=834
+24	powerful	powerful	ADJ	JJ	Degree=Pos	25	mod	_	end_char=847|start_char=839
+25	figures	figure	NOUN	NNS	Number=Plur|Shared=No	20	comp:pred	_	end_char=855|start_char=848
+26	as	as	SCONJ	IN	Shared=No	20	mod	_	end_char=858|start_char=856
+27	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	28	subj	_	end_char=863|start_char=859
+28	lost	lose	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	26	comp:obj	_	end_char=868|start_char=864
+29	importance	importance	NOUN	NN	Number=Sing	28	comp:obj	_	end_char=879|SpaceAfter=No|start_char=869
+30	.	.	PUNCT	.	_	2	punct	_	end_char=880|SpacesAfter=\n|start_char=879
+
+# text = (3) Another explanation suggests the origin of fairies is a memory of real people, not spirits.
+# sent_id = 7
+1	(	(	PUNCT	-LRB-	_	6	punct	_	end_char=882|SpaceAfter=No|start_char=881
+2	3	3	NUM	LS	NumForm=Digit|NumType=Card	6	discourse	_	end_char=883|SpaceAfter=No|start_char=882
+3	)	)	PUNCT	-RRB-	_	2	punct	_	end_char=884|start_char=883
+4	Another	another	DET	DT	PronType=Ind	5	det	_	end_char=892|start_char=885
+5	explanation	explanation	NOUN	NN	Number=Sing	6	subj	_	end_char=904|start_char=893
+6	suggests	suggest	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=913|start_char=905
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	end_char=917|start_char=914
+8	origin	origin	NOUN	NN	Number=Sing	11	subj	_	end_char=924|start_char=918
+9	of	of	ADP	IN	_	8	udep	_	end_char=927|start_char=925
+10	fairies	fairy	NOUN	NNS	Number=Plur	9	comp:obj	_	end_char=935|start_char=928
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	comp:obj	_	end_char=938|start_char=936
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	end_char=940|start_char=939
+13	memory	memory	NOUN	NN	Number=Sing	11	comp:pred	_	end_char=947|start_char=941
+14	of	of	ADP	IN	_	13	udep	_	end_char=950|start_char=948
+15	real	real	ADJ	JJ	Degree=Pos	16	mod	_	end_char=955|start_char=951
+16	people	person	NOUN	NNS	Number=Plur	14	comp:obj	_	end_char=962|SpaceAfter=No|start_char=956
+17	,	,	PUNCT	,	_	19	punct	_	end_char=963|start_char=962
+18	not	not	PART	RB	Polarity=Neg	19	mod	_	end_char=967|start_char=964
+19	spirits	spirit	NOUN	NNS	Number=Plur	16	conj:appos	_	end_char=975|SpaceAfter=No|start_char=968
+20	.	.	PUNCT	.	_	6	punct	_	end_char=976|start_char=975
+
+# text = So, for example, when tribes with metal weapons invaded land where people only used stone weapons, some of the people escaped and hid in forests and caves.
+# sent_id = 8
+1	So	so	ADV	RB	Shared=Yes	24	mod	_	end_char=979|SpaceAfter=No|start_char=977
+2	,	,	PUNCT	,	_	1	punct	_	end_char=980|start_char=979
+3	for	for	ADP	IN	Shared=Yes	24	udep	_	end_char=984|start_char=981
+4	example	example	NOUN	NN	Number=Sing	3	comp:obj	_	end_char=992|SpaceAfter=No|start_char=985
+5	,	,	PUNCT	,	_	3	punct	_	end_char=993|start_char=992
+6	when	when	ADV	WRB	PronType=Int	11	mod	_	end_char=998|start_char=994
+7	tribes	tribe	NOUN	NNS	Number=Plur	11	subj	_	end_char=1005|start_char=999
+8	with	with	ADP	IN	_	7	udep	_	end_char=1010|start_char=1006
+9	metal	metal	NOUN	NN	Number=Sing	10	compound	_	end_char=1016|start_char=1011
+10	weapons	weapon	NOUN	NNS	Number=Plur	8	comp:obj	_	end_char=1024|start_char=1017
+11	invaded	invade	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Shared=Yes|Tense=Past|VerbForm=Fin	24	mod	_	end_char=1032|start_char=1025
+12	land	land	NOUN	NN	Number=Sing	11	comp:obj	_	end_char=1037|start_char=1033
+13	where	where	ADV	WRB	PronType=Rel	16	mod	_	end_char=1043|start_char=1038
+14	people	person	NOUN	NNS	Number=Plur	16	subj	_	end_char=1050|start_char=1044
+15	only	only	ADV	RB	_	16	mod	_	end_char=1055|start_char=1051
+16	used	use	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	mod@relcl	_	end_char=1060|start_char=1056
+17	stone	stone	NOUN	NN	Number=Sing	18	compound	_	end_char=1066|start_char=1061
+18	weapons	weapon	NOUN	NNS	Number=Plur	16	comp:obj	_	end_char=1074|SpaceAfter=No|start_char=1067
+19	,	,	PUNCT	,	_	11	punct	_	end_char=1075|start_char=1074
+20	some	some	DET	DT	PronType=Ind|Shared=Yes	24	subj	_	end_char=1080|start_char=1076
+21	of	of	ADP	IN	_	20	udep	_	end_char=1083|start_char=1081
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	end_char=1087|start_char=1084
+23	people	person	NOUN	NNS	Number=Plur	21	comp:obj	_	end_char=1094|start_char=1088
+24	escaped	escape	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1102|start_char=1095
+25	and	and	CCONJ	CC	_	26	cc	_	end_char=1106|start_char=1103
+26	hid	hide	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	24	conj:coord	_	end_char=1110|start_char=1107
+27	in	in	ADP	IN	Shared=No	26	udep	_	end_char=1113|start_char=1111
+28	forests	forest	NOUN	NNS	Number=Plur	27	comp:obj	_	end_char=1121|start_char=1114
+29	and	and	CCONJ	CC	_	30	cc	_	end_char=1125|start_char=1122
+30	caves	cave	NOUN	NNS	Number=Plur	28	conj:coord	_	end_char=1131|SpaceAfter=No|start_char=1126
+31	.	.	PUNCT	.	_	24	punct	_	end_char=1132|start_char=1131
+
+# text = Further support for this idea is that fairies were thought to be afraid of iron and could not touch it.
+# sent_id = 9
+1	Further	further	ADJ	JJR	Degree=Cmp	2	mod	_	end_char=1140|start_char=1133
+2	support	support	NOUN	NN	Number=Sing	6	subj	_	end_char=1148|start_char=1141
+3	for	for	ADP	IN	_	2	udep	_	end_char=1152|start_char=1149
+4	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	_	end_char=1157|start_char=1153
+5	idea	idea	NOUN	NN	Number=Sing	3	comp:obj	_	end_char=1162|start_char=1158
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=1165|start_char=1163
+7	that	that	SCONJ	IN	_	6	comp:pred	_	end_char=1170|start_char=1166
+8	fairies	fairy	NOUN	NNS	Number=Plur|Shared=Yes	9	subj@pass	_	end_char=1178|start_char=1171
+9	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	comp:obj	_	end_char=1183|start_char=1179
+10	thought	think	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	comp:aux@pass	_	end_char=1191|start_char=1184
+11	to	to	PART	TO	_	10	comp:obl	_	end_char=1194|start_char=1192
+12	be	be	AUX	VB	VerbForm=Inf	11	comp:obj	_	end_char=1197|start_char=1195|Subject=SubjRaising
+13	afraid	afraid	ADJ	JJ	Degree=Pos	12	comp:pred	_	end_char=1204|start_char=1198
+14	of	of	ADP	IN	_	13	udep	_	end_char=1207|start_char=1205
+15	iron	iron	NOUN	NN	Number=Sing	14	comp:obj	_	end_char=1212|start_char=1208
+16	and	and	CCONJ	CC	_	17	cc	_	end_char=1216|start_char=1213
+17	could	could	AUX	MD	VerbForm=Fin	9	conj:coord	_	end_char=1222|start_char=1217
+18	not	not	PART	RB	Polarity=Neg|Shared=No	17	mod	_	end_char=1226|start_char=1223
+19	touch	touch	VERB	VB	Shared=No|VerbForm=Inf	17	comp:aux	_	end_char=1232|start_char=1227
+20	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	comp:obj	_	end_char=1235|SpaceAfter=No|start_char=1233
+21	.	.	PUNCT	.	_	6	punct	_	end_char=1236|start_char=1235
+
+# text = Living outside of society, the hiding people probably stole food and attacked villages.
+# sent_id = 10
+1	Living	live	VERB	VBG	Shared=Yes|Tense=Pres|VerbForm=Part	10	mod	_	end_char=1243|start_char=1237
+2	outside	outside	ADV	RB	_	1	mod	_	end_char=1251|start_char=1244
+3	of	of	ADP	IN	_	1	udep	_	end_char=1254|start_char=1252
+4	society	society	NOUN	NN	Number=Sing	3	comp:obj	_	end_char=1262|SpaceAfter=No|start_char=1255
+5	,	,	PUNCT	,	_	1	punct	_	end_char=1263|start_char=1262
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	end_char=1267|start_char=1264
+7	hiding	hiding	NOUN	NN	Number=Sing	8	compound	_	end_char=1274|start_char=1268
+8	people	person	NOUN	NNS	Number=Plur|Shared=Yes	10	subj	_	end_char=1281|start_char=1275
+9	probably	probably	ADV	RB	_	10	mod	_	end_char=1290|start_char=1282
+10	stole	steal	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1296|start_char=1291
+11	food	food	NOUN	NN	Number=Sing	10	comp:obj	_	end_char=1301|start_char=1297
+12	and	and	CCONJ	CC	_	13	cc	_	end_char=1305|start_char=1302
+13	attacked	attack	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	conj:coord	_	end_char=1314|start_char=1306
+14	villages	village	NOUN	NNS	Number=Plur|Shared=No	13	comp:obj	_	end_char=1323|SpaceAfter=No|start_char=1315
+15	.	.	PUNCT	.	_	10	punct	_	end_char=1324|start_char=1323
+
+# text = This might explain why fairies were often described as playing tricks on humans.
+# sent_id = 11
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	2	subj	_	end_char=1329|start_char=1325
+2	might	might	AUX	MD	VerbForm=Fin	0	root	_	end_char=1335|start_char=1330
+3	explain	explain	VERB	VB	VerbForm=Inf	2	comp:aux	_	end_char=1343|start_char=1336
+4	why	why	ADV	WRB	PronType=Int	3	comp:obj	_	end_char=1347|start_char=1344
+5	fairies	fairy	NOUN	NNS	Number=Plur	6	subj@pass	_	end_char=1355|start_char=1348
+6	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	mod@relcl	_	end_char=1360|start_char=1356
+7	often	often	ADV	RB	_	6	mod	_	end_char=1366|start_char=1361
+8	described	describe	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	comp:aux@pass	_	end_char=1376|start_char=1367
+9	as	as	SCONJ	IN	_	6	mod	_	end_char=1379|start_char=1377
+10	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part	9	comp:obj	_	end_char=1387|start_char=1380
+11	tricks	trick	NOUN	NNS	Number=Plur	10	comp:obj	_	end_char=1394|start_char=1388
+12	on	on	ADP	IN	_	10	udep	_	end_char=1397|start_char=1395
+13	humans	human	NOUN	NNS	Number=Plur	12	comp:obj	_	end_char=1404|SpaceAfter=No|start_char=1398
+14	.	.	PUNCT	.	_	2	punct	_	end_char=1405|start_char=1404
+
+# text = Hundreds of years ago, people actually believed that fairies stole new babies and replaced them with a 'changeling' – a fairy baby – or that they took new mothers and made them feed fairy babies with their milk.
+# sent_id = 12
+1	Hundreds	hundred	NOUN	NNS	Number=Plur|Shared=Yes	8	udep@unmarked	_	end_char=1414|start_char=1406
+2	of	of	ADP	IN	_	1	udep	_	end_char=1417|start_char=1415
+3	years	year	NOUN	NNS	Number=Plur	2	comp:obj	_	end_char=1423|start_char=1418
+4	ago	ago	ADV	RB	Degree=Pos|Shared=Yes	8	mod	_	end_char=1427|SpaceAfter=No|start_char=1424
+5	,	,	PUNCT	,	_	4	punct	_	end_char=1428|start_char=1427
+6	people	person	NOUN	NNS	Number=Plur|Shared=Yes	8	subj	_	end_char=1435|start_char=1429
+7	actually	actually	ADV	RB	_	8	mod	_	end_char=1444|start_char=1436
+8	believed	believe	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1453|start_char=1445
+9	that	that	SCONJ	IN	_	8	comp:obj	_	end_char=1458|start_char=1454
+10	fairies	fairy	NOUN	NNS	Number=Plur|Shared=Yes	11	subj	_	end_char=1466|start_char=1459
+11	stole	steal	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	comp:obj	_	end_char=1472|start_char=1467
+12	new	new	ADJ	JJ	Degree=Pos	13	mod	_	end_char=1476|start_char=1473
+13	babies	baby	NOUN	NNS	Number=Plur	11	comp:obj	_	end_char=1483|start_char=1477
+14	and	and	CCONJ	CC	_	15	cc	_	end_char=1487|start_char=1484
+15	replaced	replace	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	conj:coord	_	end_char=1496|start_char=1488
+16	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Shared=No	15	comp:obj	_	end_char=1501|start_char=1497
+17	with	with	ADP	IN	Shared=No	15	udep	_	end_char=1506|start_char=1502
+18	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	end_char=1508|start_char=1507
+19	'	'	PUNCT	``	_	20	punct	_	end_char=1510|SpaceAfter=No|start_char=1509
+20	changeling	changeling	NOUN	NN	Number=Sing	17	comp:obj	_	end_char=1520|SpaceAfter=No|start_char=1510
+21	'	'	PUNCT	''	_	20	punct	_	end_char=1521|start_char=1520
+22	–	-	PUNCT	:	_	20	punct	_	end_char=1523|start_char=1522
+23	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	end_char=1525|start_char=1524
+24	fairy	fairy	NOUN	NN	Number=Sing	25	compound	_	end_char=1531|start_char=1526
+25	baby	baby	NOUN	NN	Number=Sing	20	conj:appos	_	end_char=1536|start_char=1532
+26	–	-	PUNCT	:	_	28	punct	_	end_char=1538|start_char=1537
+27	or	or	CCONJ	CC	_	28	cc	_	end_char=1541|start_char=1539
+28	that	that	SCONJ	IN	_	8	conj:coord	_	end_char=1546|start_char=1542
+29	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs|Shared=Yes	30	subj	_	end_char=1551|start_char=1547
+30	took	take	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Shared=No|Tense=Past|VerbForm=Fin	28	comp:obj	_	end_char=1556|start_char=1552
+31	new	new	ADJ	JJ	Degree=Pos	32	mod	_	end_char=1560|start_char=1557
+32	mothers	mother	NOUN	NNS	Number=Plur	30	comp:obj	_	end_char=1568|start_char=1561
+33	and	and	CCONJ	CC	_	34	cc	_	end_char=1572|start_char=1569
+34	made	make	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	30	conj:coord	_	end_char=1577|start_char=1573
+35	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Shared=No	34	comp:obj	_	end_char=1582|start_char=1578
+36	feed	feed	VERB	VB	Shared=No|VerbForm=Inf	34	comp:obl	_	end_char=1587|start_char=1583|Subject=ObjRaising
+37	fairy	fairy	NOUN	NN	Number=Sing	38	compound	_	end_char=1593|start_char=1588
+38	babies	baby	NOUN	NNS	Number=Plur	36	comp:obj	_	end_char=1600|start_char=1594
+39	with	with	ADP	IN	_	36	udep	_	end_char=1605|start_char=1601
+40	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	41	mod@poss	_	end_char=1611|start_char=1606
+41	milk	milk	NOUN	NN	Number=Sing	39	comp:obj	_	end_char=1616|SpaceAfter=No|start_char=1612
+42	.	.	PUNCT	.	_	8	punct	_	end_char=1617|SpacesAfter=\n|start_char=1616
+
+# text = (4) While most people no longer believe in fairies, only a hundred years ago some people were very willing to think they might exist.
+# sent_id = 13
+1	(	(	PUNCT	-LRB-	_	20	punct	_	end_char=1619|SpaceAfter=No|start_char=1618
+2	4	4	NUM	LS	NumForm=Digit|NumType=Card	20	discourse	_	end_char=1620|SpaceAfter=No|start_char=1619
+3	)	)	PUNCT	-RRB-	_	2	punct	_	end_char=1621|start_char=1620
+4	While	while	SCONJ	IN	_	20	mod	_	end_char=1627|start_char=1622
+5	most	most	ADJ	JJS	Degree=Sup	6	mod	_	end_char=1632|start_char=1628
+6	people	person	NOUN	NNS	Number=Plur	9	subj	_	end_char=1639|start_char=1633
+7	no	no	ADV	RB	_	8	mod	_	end_char=1642|start_char=1640
+8	longer	long	ADV	RBR	Degree=Cmp	9	mod	_	end_char=1649|start_char=1643
+9	believe	believe	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	comp:obj	_	end_char=1657|start_char=1650
+10	in	in	ADP	IN	_	9	udep	_	end_char=1660|start_char=1658
+11	fairies	fairy	NOUN	NNS	Number=Plur	10	comp:obj	_	end_char=1668|SpaceAfter=No|start_char=1661
+12	,	,	PUNCT	,	_	4	punct	_	end_char=1669|start_char=1668
+13	only	only	ADV	RB	_	16	mod	_	end_char=1674|start_char=1670
+14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	end_char=1676|start_char=1675
+15	hundred	hundred	NUM	CD	NumForm=Word|NumType=Card	16	mod	_	end_char=1684|start_char=1677
+16	years	year	NOUN	NNS	Number=Plur	17	udep@unmarked	_	end_char=1690|start_char=1685
+17	ago	ago	ADV	RB	_	20	mod	_	end_char=1694|start_char=1691
+18	some	some	DET	DT	PronType=Ind	19	det	_	end_char=1699|start_char=1695
+19	people	person	NOUN	NNS	Number=Plur	20	subj	_	end_char=1706|start_char=1700
+20	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1711|start_char=1707
+21	very	very	ADV	RB	_	20	mod	_	end_char=1716|start_char=1712
+22	willing	willing	ADJ	JJ	Degree=Pos	20	comp:pred	_	end_char=1724|start_char=1717
+23	to	to	PART	TO	_	22	comp:obl	_	end_char=1727|start_char=1725
+24	think	think	VERB	VB	VerbForm=Inf	23	comp:obj	_	end_char=1733|start_char=1728|Subject=SubjRaising
+25	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	26	subj	_	end_char=1738|start_char=1734
+26	might	might	AUX	MD	VerbForm=Fin	24	comp:obj	_	end_char=1744|start_char=1739
+27	exist	exist	VERB	VB	VerbForm=Inf	26	comp:aux	_	end_char=1750|SpaceAfter=No|start_char=1745
+28	.	.	PUNCT	.	_	20	punct	_	end_char=1751|start_char=1750
+
+# text = In 1917, 16-year-old Elsie Wright took two photos of her cousin, nine-year-old Frances Griffiths, sitting with fairies.
+# sent_id = 14
+1	In	in	ADP	IN	_	11	udep	_	end_char=1754|start_char=1752
+2	1917	1917	NUM	CD	NumForm=Digit|NumType=Card	1	comp:obj	_	end_char=1759|SpaceAfter=No|start_char=1755
+3	,	,	PUNCT	,	_	1	punct	_	end_char=1760|start_char=1759
+4	16	16	NUM	CD	NumForm=Digit|NumType=Card	6	mod	_	end_char=1763|SpaceAfter=No|start_char=1761
+5	-	-	PUNCT	HYPH	_	4	punct	_	end_char=1764|SpaceAfter=No|start_char=1763
+6	year	year	NOUN	NN	Number=Sing	8	udep@unmarked	_	end_char=1768|SpaceAfter=No|start_char=1764
+7	-	-	PUNCT	HYPH	_	6	punct	_	end_char=1769|SpaceAfter=No|start_char=1768
+8	old	old	ADJ	JJ	Degree=Pos	9	mod	_	end_char=1772|start_char=1769
+9	Elsie	Elsie	PROPN	NNP	Number=Sing	11	subj	_	end_char=1778|start_char=1773
+10	Wright	Wright	PROPN	NNP	Number=Sing	9	flat	_	end_char=1785|start_char=1779
+11	took	take	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1790|start_char=1786
+12	two	two	NUM	CD	NumForm=Word|NumType=Card	13	mod	_	end_char=1794|start_char=1791
+13	photos	photo	NOUN	NNS	Number=Plur	11	comp:obj	_	end_char=1801|start_char=1795
+14	of	of	ADP	IN	_	13	udep	_	end_char=1804|start_char=1802
+15	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	mod@poss	_	end_char=1808|start_char=1805
+16	cousin	cousin	NOUN	NN	Number=Sing	14	comp:obj	_	end_char=1815|SpaceAfter=No|start_char=1809
+17	,	,	PUNCT	,	_	23	punct	_	end_char=1816|start_char=1815
+18	nine	nine	NUM	CD	NumForm=Word|NumType=Card	20	mod	_	end_char=1821|SpaceAfter=No|start_char=1817
+19	-	-	PUNCT	HYPH	_	18	punct	_	end_char=1822|SpaceAfter=No|start_char=1821
+20	year	year	NOUN	NN	Number=Sing	22	compound	_	end_char=1826|SpaceAfter=No|start_char=1822
+21	-	-	PUNCT	HYPH	_	20	punct	_	end_char=1827|SpaceAfter=No|start_char=1826
+22	old	old	ADJ	JJ	Degree=Pos	23	mod	_	end_char=1830|start_char=1827
+23	Frances	Frances	PROPN	NNP	Number=Sing	16	conj:appos	_	end_char=1838|start_char=1831
+24	Griffiths	Griffiths	PROPN	NNP	Number=Sing	23	flat	_	end_char=1848|SpaceAfter=No|start_char=1839
+25	,	,	PUNCT	,	_	26	punct	_	end_char=1849|start_char=1848
+26	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part	11	mod	_	end_char=1857|start_char=1850
+27	with	with	ADP	IN	_	26	udep	_	end_char=1862|start_char=1858
+28	fairies	fairy	NOUN	NNS	Number=Plur	27	comp:obj	_	end_char=1870|SpaceAfter=No|start_char=1863
+29	.	.	PUNCT	.	_	11	punct	_	end_char=1871|start_char=1870
+
+# text = Some photography experts thought they were fake, while others weren't sure.
+# sent_id = 15
+1	Some	some	DET	DT	PronType=Ind	3	det	_	end_char=1876|start_char=1872
+2	photography	photography	NOUN	NN	Number=Sing	3	compound	_	end_char=1888|start_char=1877
+3	experts	expert	NOUN	NNS	Number=Plur	4	subj	_	end_char=1896|start_char=1889
+4	thought	think	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1904|start_char=1897
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	subj	_	end_char=1909|start_char=1905
+6	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	comp:obj	_	end_char=1914|start_char=1910
+7	fake	fake	ADJ	JJ	Degree=Pos	6	comp:pred	_	end_char=1919|SpaceAfter=No|start_char=1915
+8	,	,	PUNCT	,	_	9	punct	_	end_char=1920|start_char=1919
+9	while	while	SCONJ	IN	_	4	mod	_	end_char=1926|start_char=1921
+10	others	other	NOUN	NNS	Number=Plur	11	subj	_	end_char=1933|start_char=1927
+11-12	weren't	_	_	_	_	_	_	_	end_char=1941|start_char=1934
+11	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	comp:obj	_	end_char=1938|start_char=1934
+12	n't	not	PART	RB	Polarity=Neg	11	mod	_	end_char=1941|start_char=1938
+13	sure	sure	ADJ	JJ	Degree=Pos	11	comp:pred	_	end_char=1946|SpaceAfter=No|start_char=1942
+14	.	.	PUNCT	.	_	4	punct	_	end_char=1947|start_char=1946
+
+# text = But Arthur Conan Doyle, the writer of the Sherlock Holmes detective stories, believed they were real.
+# sent_id = 16
+1	But	but	CCONJ	CC	_	15	cc	_	end_char=1951|start_char=1948
+2	Arthur	Arthur	PROPN	NNP	Number=Sing	15	subj	_	end_char=1958|start_char=1952
+3	Conan	Conan	PROPN	NNP	Number=Sing	2	flat	_	end_char=1964|start_char=1959
+4	Doyle	Doyle	PROPN	NNP	Number=Sing	3	flat	_	end_char=1970|SpaceAfter=No|start_char=1965
+5	,	,	PUNCT	,	_	7	punct	_	end_char=1971|start_char=1970
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	end_char=1975|start_char=1972
+7	writer	writer	NOUN	NN	Number=Sing	2	conj:appos	_	end_char=1982|start_char=1976
+8	of	of	ADP	IN	_	7	udep	_	end_char=1985|start_char=1983
+9	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	end_char=1989|start_char=1986
+10	Sherlock	Sherlock	PROPN	NNP	Number=Sing	13	compound	_	end_char=1998|start_char=1990
+11	Holmes	Holmes	PROPN	NNP	Number=Sing	10	flat	_	end_char=2005|start_char=1999
+12	detective	detective	NOUN	NN	Number=Sing	13	compound	_	end_char=2015|start_char=2006
+13	stories	story	NOUN	NNS	Number=Plur	8	comp:obj	_	end_char=2023|SpaceAfter=No|start_char=2016
+14	,	,	PUNCT	,	_	2	punct	_	end_char=2024|start_char=2023
+15	believed	believe	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=2033|start_char=2025
+16	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	subj	_	end_char=2038|start_char=2034
+17	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	15	comp:obj	_	end_char=2043|start_char=2039
+18	real	real	ADJ	JJ	Degree=Pos	17	comp:pred	_	end_char=2048|SpaceAfter=No|start_char=2044
+19	.	.	PUNCT	.	_	15	punct	_	end_char=2049|start_char=2048
+
+# text = He published the original pictures, and three more the girls took for him, in a magazine called The Strand, in 1920.
+# sent_id = 17
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=No	2	subj	_	end_char=2052|start_char=2050
+2	published	publish	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=2062|start_char=2053
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	end_char=2066|start_char=2063
+4	original	original	ADJ	JJ	Degree=Pos	5	mod	_	end_char=2075|start_char=2067
+5	pictures	picture	NOUN	NNS	Number=Plur	2	comp:obj	_	end_char=2084|SpaceAfter=No|start_char=2076
+6	,	,	PUNCT	,	_	12	punct	_	end_char=2085|start_char=2084
+7	and	and	CCONJ	CC	_	12	cc	_	end_char=2089|start_char=2086
+8	three	three	NUM	CD	NumForm=Word|NumType=Card	9	mod	_	end_char=2095|start_char=2090
+9	more	more	ADJ	JJR	Degree=Cmp	12	mod	_	end_char=2100|start_char=2096
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	end_char=2104|start_char=2101
+11	girls	girl	NOUN	NNS	Number=Plur	12	subj	_	end_char=2110|start_char=2105
+12	took	take	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	conj:coord	_	end_char=2115|start_char=2111
+13	for	for	ADP	IN	Shared=No	12	udep	_	end_char=2119|start_char=2116
+14	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	comp:obj	_	end_char=2123|SpaceAfter=No|start_char=2120
+15	,	,	PUNCT	,	_	16	punct	_	end_char=2124|start_char=2123
+16	in	in	ADP	IN	Shared=No	12	udep	_	end_char=2127|start_char=2125
+17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	end_char=2129|start_char=2128
+18	magazine	magazine	NOUN	NN	Number=Sing	16	comp:obj	_	end_char=2138|start_char=2130
+19	called	call	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	18	mod	_	end_char=2145|start_char=2139
+20	The	the	DET	DT	Definite=Def|PronType=Art	21	det	_	end_char=2149|start_char=2146
+21	Strand	Strand	PROPN	NNP	Number=Sing	19	comp:pred	_	end_char=2156|SpaceAfter=No|start_char=2150
+22	,	,	PUNCT	,	_	23	punct	_	end_char=2157|start_char=2156
+23	in	in	ADP	IN	Shared=No	12	udep	_	end_char=2160|start_char=2158
+24	1920	1920	NUM	CD	NumForm=Digit|NumType=Card	23	comp:obj	_	end_char=2165|SpaceAfter=No|start_char=2161
+25	.	.	PUNCT	.	_	2	punct	_	end_char=2166|start_char=2165
+
+# text = The girls only admitted the photos were fake years later in 1983, created using pictures of dancers that Elsie copied from a book.
+# sent_id = 18
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	end_char=2170|start_char=2167
+2	girls	girl	NOUN	NNS	Number=Plur	4	subj	_	end_char=2176|start_char=2171
+3	only	only	ADV	RB	_	4	mod	_	end_char=2181|start_char=2177
+4	admitted	admit	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=2190|start_char=2182
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	end_char=2194|start_char=2191
+6	photos	photo	NOUN	NNS	Number=Plur	7	subj	_	end_char=2201|start_char=2195
+7	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	comp:obj	_	end_char=2206|start_char=2202
+8	fake	fake	ADJ	JJ	Degree=Pos	9	mod	_	end_char=2211|start_char=2207
+9	years	year	NOUN	NNS	Number=Plur	10	udep@unmarked	_	end_char=2217|start_char=2212
+10	later	late	ADV	RBR	Degree=Cmp	7	comp:pred	_	end_char=2223|start_char=2218
+11	in	in	ADP	IN	_	10	udep	_	end_char=2226|start_char=2224
+12	1983	1983	NUM	CD	NumForm=Digit|NumType=Card	11	comp:obj	_	end_char=2231|SpaceAfter=No|start_char=2227
+13	,	,	PUNCT	,	_	14	punct	_	end_char=2232|start_char=2231
+14	created	create	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	parataxis	_	end_char=2240|start_char=2233
+15	using	use	VERB	VBG	VerbForm=Ger	14	comp:obj	_	end_char=2246|start_char=2241|Subject=SubjRaising
+16	pictures	picture	NOUN	NNS	Number=Plur	15	comp:obj	_	end_char=2255|start_char=2247
+17	of	of	ADP	IN	_	16	udep	_	end_char=2258|start_char=2256
+18	dancers	dancer	NOUN	NNS	Number=Plur	17	comp:obj	_	end_char=2266|start_char=2259
+19	that	that	PRON	WDT	PronType=Rel	21	comp:obj	_	end_char=2271|start_char=2267
+20	Elsie	Elsie	PROPN	NNP	Number=Sing	21	subj	_	end_char=2277|start_char=2272
+21	copied	copy	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	mod@relcl	_	end_char=2284|start_char=2278
+22	from	from	ADP	IN	_	21	udep	_	end_char=2289|start_char=2285
+23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	end_char=2291|start_char=2290
+24	book	book	NOUN	NN	Number=Sing	22	comp:obj	_	end_char=2296|SpaceAfter=No|start_char=2292
+25	.	.	PUNCT	.	_	4	punct	_	end_char=2297|SpaceAfter=No|start_char=2296
+

@@ -1,0 +1,379 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# text = A wake is when people go to a deceased person's home or a funeral parlor to pay their last respects.
+# sent_id = 0
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	end_char=1|start_char=0
+2	wake	wake	NOUN	NN	Number=Sing	3	subj	_	end_char=6|start_char=2
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=9|start_char=7
+4	when	when	ADV	WRB	PronType=Int	3	mod	_	end_char=14|start_char=10
+5	people	person	NOUN	NNS	Number=Plur	3	subj	_	end_char=21|start_char=15
+6	go	go	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	comp:pred	_	end_char=24|start_char=22
+7	to	to	ADP	IN	_	6	udep	_	end_char=27|start_char=25
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	end_char=29|start_char=28
+9	deceased	decease	ADJ	JJ	Degree=Pos	10	mod	_	end_char=38|start_char=30
+10-11	person's	_	_	_	_	_	_	_	end_char=47|start_char=39
+10	person	person	NOUN	NN	Number=Sing	11	comp:obj	_	end_char=45|start_char=39
+11	's	's	PART	POS	_	12	udep@poss	_	end_char=47|start_char=45
+12	home	home	NOUN	NN	Number=Sing	7	comp:obj	_	end_char=52|start_char=48
+13	or	or	CCONJ	CC	_	16	cc	_	end_char=55|start_char=53
+14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	end_char=57|start_char=56
+15	funeral	funeral	NOUN	NN	Number=Sing	16	compound	_	end_char=65|start_char=58
+16	parlor	parlor	NOUN	NN	Number=Sing	12	conj:coord	_	end_char=72|start_char=66
+17	to	to	PART	TO	_	6	mod	_	end_char=75|start_char=73
+18	pay	pay	VERB	VB	VerbForm=Inf	17	comp:obj	_	end_char=79|start_char=76
+19	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	21	mod@poss	_	end_char=85|start_char=80
+20	last	last	ADJ	JJ	Degree=Pos	21	mod	_	end_char=90|start_char=86
+21	respects	respect	NOUN	NNS	Number=Plur	18	comp:obj	_	end_char=99|SpaceAfter=No|start_char=91
+22	.	.	PUNCT	.	_	4	punct	_	end_char=100|start_char=99
+
+# text = A funeral parlor is a place where the preparation of the corpse for burial takes place.
+# sent_id = 1
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	end_char=102|start_char=101
+2	funeral	funeral	NOUN	NN	Number=Sing	3	compound	_	end_char=110|start_char=103
+3	parlor	parlor	NOUN	NN	Number=Sing	4	subj	_	end_char=117|start_char=111
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=120|start_char=118
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	end_char=122|start_char=121
+6	place	place	NOUN	NN	Number=Sing	4	comp:pred	_	end_char=128|start_char=123
+7	where	where	ADV	WRB	PronType=Rel	15	mod	_	end_char=134|start_char=129
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	end_char=138|start_char=135
+9	preparation	preparation	NOUN	NN	Number=Sing	15	subj	_	end_char=150|start_char=139
+10	of	of	ADP	IN	_	9	udep	_	end_char=153|start_char=151
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	end_char=157|start_char=154
+12	corpse	corpse	NOUN	NN	Number=Sing	10	comp:obj	_	end_char=164|start_char=158
+13	for	for	ADP	IN	_	12	udep	_	end_char=168|start_char=165
+14	burial	burial	NOUN	NN	Number=Sing	13	comp:obj	_	end_char=175|start_char=169
+15	takes	take	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	mod@relcl	_	end_char=181|start_char=176
+16	place	place	NOUN	NN	Number=Sing	15	comp:obj	_	end_char=187|SpaceAfter=No|start_char=182
+17	.	.	PUNCT	.	_	4	punct	_	end_char=188|start_char=187
+
+# text = Part of the preparation can be dressing the deceased, doing their makeup, and placing them in a coffin for people to see.
+# sent_id = 2
+1	Part	part	NOUN	NN	Number=Sing	5	subj	_	end_char=193|start_char=189
+2	of	of	ADP	IN	_	1	udep	_	end_char=196|start_char=194
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	end_char=200|start_char=197
+4	preparation	preparation	NOUN	NN	Number=Sing	2	comp:obj	_	end_char=212|start_char=201
+5	can	can	AUX	MD	VerbForm=Fin	0	root	_	end_char=216|start_char=213
+6	be	be	AUX	VB	VerbForm=Inf	5	comp:aux	_	end_char=219|start_char=217
+7	dressing	dress	VERB	VBG	Tense=Pres|VerbForm=Part	6	comp:aux	_	end_char=228|start_char=220
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	end_char=232|start_char=229
+9	deceased	decease	ADJ	JJ	Degree=Pos	7	comp:obj	_	end_char=241|SpaceAfter=No|start_char=233
+10	,	,	PUNCT	,	_	11	punct	_	end_char=242|start_char=241
+11	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	7	mod	_	end_char=248|start_char=243
+12	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	mod@poss	_	end_char=254|start_char=249
+13	makeup	makeup	NOUN	NN	Number=Sing	11	comp:obj	_	end_char=261|SpaceAfter=No|start_char=255
+14	,	,	PUNCT	,	_	16	punct	_	end_char=262|start_char=261
+15	and	and	CCONJ	CC	_	16	cc	_	end_char=266|start_char=263
+16	placing	place	VERB	VBG	Tense=Pres|VerbForm=Part	7	conj:coord	_	end_char=274|start_char=267
+17	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Shared=No	16	comp:obj	_	end_char=279|start_char=275
+18	in	in	ADP	IN	Shared=No	16	udep	_	end_char=282|start_char=280
+19	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	end_char=284|start_char=283
+20	coffin	coffin	NOUN	NN	Number=Sing	18	comp:obj	_	end_char=291|start_char=285
+21	for	for	ADP	IN	Shared=No	16	udep	_	end_char=295|start_char=292
+22	people	person	NOUN	NNS	Number=Plur	21	comp:obj	_	end_char=302|start_char=296
+23	to	to	PART	TO	Shared=No	16	mod	_	end_char=305|start_char=303
+24	see	see	VERB	VB	VerbForm=Inf	23	comp:obj	_	end_char=309|SpaceAfter=No|start_char=306
+25	.	.	PUNCT	.	_	5	punct	_	end_char=310|start_char=309
+
+# text = Some people do have a closed casket wake, where you can't see the dead person; some people are not even choosing coffins for their dearly departed loved ones.
+# sent_id = 3
+1	Some	some	DET	DT	PronType=Ind	2	det	_	end_char=315|start_char=311
+2	people	person	NOUN	NNS	Number=Plur	3	subj	_	end_char=322|start_char=316
+3	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=325|start_char=323
+4	have	have	VERB	VB	VerbForm=Inf	3	comp:aux	_	end_char=330|start_char=326
+5	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	end_char=332|start_char=331
+6	closed	close	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	mod	_	end_char=339|start_char=333
+7	casket	casket	NOUN	NN	Number=Sing	8	compound	_	end_char=346|start_char=340
+8	wake	wake	NOUN	NN	Number=Sing	4	comp:obj	_	end_char=351|SpaceAfter=No|start_char=347
+9	,	,	PUNCT	,	_	12	punct	_	end_char=352|start_char=351
+10	where	where	ADV	WRB	PronType=Rel	12	mod	_	end_char=358|start_char=353
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	subj	_	end_char=362|start_char=359
+12-13	can't	_	_	_	_	_	_	_	end_char=368|start_char=363
+12	ca	can	AUX	MD	VerbForm=Fin	8	mod@relcl	_	end_char=365|start_char=363
+13	n't	not	PART	RB	Polarity=Neg	12	mod	_	end_char=368|start_char=365
+14	see	see	VERB	VB	VerbForm=Inf	12	comp:aux	_	end_char=372|start_char=369
+15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	end_char=376|start_char=373
+16	dead	dead	ADJ	JJ	Degree=Pos	17	mod	_	end_char=381|start_char=377
+17	person	person	NOUN	NN	Number=Sing	14	comp:obj	_	end_char=388|SpaceAfter=No|start_char=382
+18	;	;	PUNCT	,	_	21	punct	_	end_char=389|start_char=388
+19	some	some	DET	DT	PronType=Ind	20	det	_	end_char=394|start_char=390
+20	people	person	NOUN	NNS	Number=Plur	21	subj	_	end_char=401|start_char=395
+21	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	end_char=405|start_char=402
+22	not	not	PART	RB	Polarity=Neg	21	mod	_	end_char=409|start_char=406
+23	even	even	ADV	RB	_	21	mod	_	end_char=414|start_char=410
+24	choosing	choose	VERB	VBG	Tense=Pres|VerbForm=Part	21	comp:aux	_	end_char=423|start_char=415
+25	coffins	coffin	NOUN	NNS	Number=Plur	24	comp:obj	_	end_char=431|start_char=424
+26	for	for	ADP	IN	_	24	udep	_	end_char=435|start_char=432
+27	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	31	mod@poss	_	end_char=441|start_char=436
+28	dearly	dearly	ADV	RB	_	29	mod	_	end_char=448|start_char=442
+29	departed	depart	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	31	mod	_	end_char=457|start_char=449
+30	loved	love	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	31	mod	_	end_char=463|start_char=458
+31	ones	one	NOUN	NNS	Number=Plur	26	comp:obj	_	end_char=468|SpaceAfter=No|start_char=464
+32	.	.	PUNCT	.	_	3	punct	_	end_char=469|SpacesAfter=\n\s\n|start_char=468
+
+# text = In the United States, more and more families are choosing not to have traditional wakes.
+# sent_id = 4
+1	In	in	ADP	IN	_	10	udep	_	end_char=474|start_char=472
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	end_char=478|start_char=475
+3	United	Unite	VERB	NNP	Tense=Past|VerbForm=Part	4	mod	_	end_char=485|start_char=479
+4	States	State	PROPN	NNPS	Number=Plur	1	comp:obj	_	end_char=492|SpaceAfter=No|start_char=486
+5	,	,	PUNCT	,	_	1	punct	_	end_char=493|start_char=492
+6	more	more	ADJ	JJR	Degree=Cmp	9	mod	_	end_char=498|start_char=494
+7	and	and	CCONJ	CC	_	8	cc	_	end_char=502|start_char=499
+8	more	more	ADJ	JJR	Degree=Cmp	6	conj:coord	_	end_char=507|start_char=503
+9	families	family	NOUN	NNS	Number=Plur	10	subj	_	end_char=516|start_char=508
+10	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=520|start_char=517
+11	choosing	choose	VERB	VBG	Tense=Pres|VerbForm=Part	10	comp:aux	_	end_char=529|start_char=521
+12	not	not	PART	RB	Polarity=Neg	13	mod	_	end_char=533|start_char=530
+13	to	to	PART	TO	_	11	comp:obl	_	end_char=536|start_char=534
+14	have	have	VERB	VB	VerbForm=Inf	13	comp:obj	_	end_char=541|start_char=537|Subject=SubjRaising
+15	traditional	traditional	ADJ	JJ	Degree=Pos	16	mod	_	end_char=553|start_char=542
+16	wakes	wake	NOUN	NNS	Number=Plur	14	comp:obj	_	end_char=559|SpaceAfter=No|start_char=554
+17	.	.	PUNCT	.	_	10	punct	_	end_char=560|start_char=559
+
+# text = There is a recent trend of people having non-traditional wakes with the deceased person posed doing something they loved doing when they were alive.
+# sent_id = 5
+1	There	there	PRON	EX	_	2	comp@expl	_	end_char=566|start_char=561
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=569|start_char=567
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	end_char=571|start_char=570
+4	recent	recent	ADJ	JJ	Degree=Pos	5	mod	_	end_char=578|start_char=572
+5	trend	trend	NOUN	NN	Number=Sing	2	subj	_	end_char=584|start_char=579
+6	of	of	ADP	IN	_	5	udep	_	end_char=587|start_char=585
+7	people	person	NOUN	NNS	Number=Plur	6	comp:obj	_	end_char=594|start_char=588
+8	having	have	VERB	VBG	VerbForm=Ger	7	mod	_	end_char=601|start_char=595
+9	non-traditional	non-traditional	ADJ	JJ	Degree=Pos	10	mod	_	end_char=617|start_char=602
+10	wakes	wake	NOUN	NNS	Number=Plur	8	comp:obj	_	end_char=623|start_char=618
+11	with	with	ADP	IN	_	8	udep	_	end_char=628|start_char=624
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	end_char=632|start_char=629
+13	deceased	decease	ADJ	JJ	Degree=Pos	14	mod	_	end_char=641|start_char=633
+14	person	person	NOUN	NN	Number=Sing	11	comp:obj	_	end_char=648|start_char=642
+15	posed	pose	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	mod	_	end_char=654|start_char=649
+16	doing	do	VERB	VBG	VerbForm=Ger	15	mod	_	end_char=660|start_char=655
+17	something	something	PRON	NN	Number=Sing|PronType=Ind	16	comp:obj	_	end_char=670|start_char=661
+18	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	subj	_	end_char=675|start_char=671
+19	loved	love	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	17	mod@relcl	_	end_char=681|start_char=676
+20	doing	do	VERB	VBG	VerbForm=Ger	19	comp:obj	_	end_char=687|start_char=682|Subject=SubjRaising
+21	when	when	ADV	WRB	PronType=Int	23	mod	_	end_char=692|start_char=688
+22	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	23	subj	_	end_char=697|start_char=693
+23	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	16	mod	_	end_char=702|start_char=698
+24	alive	alive	ADJ	JJ	Degree=Pos	23	comp:pred	_	end_char=708|SpaceAfter=No|start_char=703
+25	.	.	PUNCT	.	_	2	punct	_	end_char=709|start_char=708
+
+# text = For example, a family in New Orleans had their dead loved one posed at a table with a cigarette between her fingers and a can of beer.
+# sent_id = 6
+1	For	for	ADP	IN	_	9	udep	_	end_char=713|start_char=710
+2	example	example	NOUN	NN	Number=Sing	1	comp:obj	_	end_char=721|SpaceAfter=No|start_char=714
+3	,	,	PUNCT	,	_	1	punct	_	end_char=722|start_char=721
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	end_char=724|start_char=723
+5	family	family	NOUN	NN	Number=Sing	9	subj	_	end_char=731|start_char=725
+6	in	in	ADP	IN	_	5	udep	_	end_char=734|start_char=732
+7	New	New	ADJ	NNP	Degree=Pos	8	mod	_	end_char=738|start_char=735
+8	Orleans	Orleans	PROPN	NNP	Number=Sing	6	comp:obj	_	end_char=746|start_char=739
+9	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=750|start_char=747
+10	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	mod@poss	_	end_char=756|start_char=751
+11	dead	dead	ADJ	JJ	Degree=Pos	13	mod	_	end_char=761|start_char=757
+12	loved	love	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	mod	_	end_char=767|start_char=762
+13	one	one	NOUN	NN	Number=Sing	9	comp:obj	_	end_char=771|start_char=768
+14	posed	pose	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	mod	_	end_char=777|start_char=772
+15	at	at	ADP	IN	_	14	udep	_	end_char=780|start_char=778
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	end_char=782|start_char=781
+17	table	table	NOUN	NN	Number=Sing	15	comp:obj	_	end_char=788|start_char=783
+18	with	with	ADP	IN	_	14	udep	_	end_char=793|start_char=789
+19	a	a	DET	DT	Definite=Ind|PronType=Art|Shared=No	20	det	_	end_char=795|start_char=794
+20	cigarette	cigarette	NOUN	NN	Number=Sing	18	comp:obj	_	end_char=805|start_char=796
+21	between	between	ADP	IN	_	20	udep	_	end_char=813|start_char=806
+22	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	mod@poss	_	end_char=817|start_char=814
+23	fingers	finger	NOUN	NNS	Number=Plur	21	comp:obj	_	end_char=825|start_char=818
+24	and	and	CCONJ	CC	_	26	cc	_	end_char=829|start_char=826
+25	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	end_char=831|start_char=830
+26	can	can	NOUN	NN	Number=Sing	20	conj:coord	_	end_char=835|start_char=832
+27	of	of	ADP	IN	Shared=No	26	udep	_	end_char=838|start_char=836
+28	beer	beer	NOUN	NN	Number=Sing	27	comp:obj	_	end_char=843|SpaceAfter=No|start_char=839
+29	.	.	PUNCT	.	_	9	punct	_	end_char=844|start_char=843
+
+# text = One funeral home in Puerto Rico has become famous for its non-traditional wakes.
+# sent_id = 7
+1	One	one	NUM	CD	NumForm=Word|NumType=Card	3	mod	_	end_char=848|start_char=845
+2	funeral	funeral	NOUN	NN	Number=Sing	3	compound	_	end_char=856|start_char=849
+3	home	home	NOUN	NN	Number=Sing	7	subj	_	end_char=861|start_char=857
+4	in	in	ADP	IN	_	3	udep	_	end_char=864|start_char=862
+5	Puerto	Puerto	PROPN	NNP	Number=Sing	4	comp:obj	_	end_char=871|start_char=865
+6	Rico	Rico	PROPN	NNP	Number=Sing	5	flat	_	end_char=876|start_char=872
+7	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=880|start_char=877
+8	become	become	VERB	VBN	Tense=Past|VerbForm=Part	7	comp:aux	_	end_char=887|start_char=881
+9	famous	famous	ADJ	JJ	Degree=Pos	8	comp:pred	_	end_char=894|start_char=888
+10	for	for	ADP	IN	_	9	udep	_	end_char=898|start_char=895
+11	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	mod@poss	_	end_char=902|start_char=899
+12	non-traditional	non-traditional	ADJ	JJ	Degree=Pos	13	mod	_	end_char=918|start_char=903
+13	wakes	wake	NOUN	NNS	Number=Plur	10	comp:obj	_	end_char=924|SpaceAfter=No|start_char=919
+14	.	.	PUNCT	.	_	7	punct	_	end_char=925|start_char=924
+
+# text = It all started in 2008, when a family asked for their dead loved one to be propped up against the wall of their home for the wake.
+# sent_id = 8
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	subj	_	end_char=928|start_char=926
+2	all	all	DET	DT	PronType=Tot	1	det	_	end_char=932|start_char=929
+3	started	start	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=940|start_char=933
+4	in	in	ADP	IN	_	3	udep	_	end_char=943|start_char=941
+5	2008	2008	NUM	CD	NumForm=Digit|NumType=Card	4	comp:obj	_	end_char=948|SpaceAfter=No|start_char=944
+6	,	,	PUNCT	,	_	10	punct	_	end_char=949|start_char=948
+7	when	when	ADV	WRB	PronType=Int	10	mod	_	end_char=954|start_char=950
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	end_char=956|start_char=955
+9	family	family	NOUN	NN	Number=Sing	10	subj	_	end_char=963|start_char=957
+10	asked	ask	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	mod	_	end_char=969|start_char=964
+11	for	for	ADP	IN	_	10	udep	_	end_char=973|start_char=970
+12	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	15	mod@poss	_	end_char=979|start_char=974
+13	dead	dead	ADJ	JJ	Degree=Pos	15	mod	_	end_char=984|start_char=980
+14	loved	love	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	15	mod	_	end_char=990|start_char=985
+15	one	one	NOUN	NN	Number=Sing	11	comp:obj	_	end_char=994|start_char=991
+16	to	to	PART	TO	_	10	comp:pred	_	end_char=997|start_char=995
+17	be	be	AUX	VB	VerbForm=Inf	16	comp:obj	_	end_char=1000|start_char=998|Subject=SubjRaising
+18	propped	proppe	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	17	comp:aux@pass	_	end_char=1008|start_char=1001
+19	up	up	ADP	RP	_	18	compound@prt	_	end_char=1011|start_char=1009
+20	against	against	ADP	IN	_	18	udep	_	end_char=1019|start_char=1012
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	end_char=1023|start_char=1020
+22	wall	wall	NOUN	NN	Number=Sing	20	comp:obj	_	end_char=1028|start_char=1024
+23	of	of	ADP	IN	_	22	udep	_	end_char=1031|start_char=1029
+24	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	25	mod@poss	_	end_char=1037|start_char=1032
+25	home	home	NOUN	NN	Number=Sing	23	comp:obj	_	end_char=1042|start_char=1038
+26	for	for	ADP	IN	_	22	udep	_	end_char=1046|start_char=1043
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	end_char=1050|start_char=1047
+28	wake	wake	NOUN	NN	Number=Sing	26	comp:obj	_	end_char=1055|SpaceAfter=No|start_char=1051
+29	.	.	PUNCT	.	_	3	punct	_	end_char=1056|start_char=1055
+
+# text = When a paramedic died, his family had his dead body in the driver's seat of an ambulance.
+# sent_id = 9
+1	When	when	ADV	WRB	PronType=Int	4	mod	_	end_char=1061|start_char=1057
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	end_char=1063|start_char=1062
+3	paramedic	paramedic	NOUN	NN	Number=Sing	4	subj	_	end_char=1073|start_char=1064
+4	died	die	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	mod	_	end_char=1078|SpaceAfter=No|start_char=1074
+5	,	,	PUNCT	,	_	4	punct	_	end_char=1079|start_char=1078
+6	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	mod@poss	_	end_char=1083|start_char=1080
+7	family	family	NOUN	NN	Number=Sing	8	subj	_	end_char=1090|start_char=1084
+8	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1094|start_char=1091
+9	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	mod@poss	_	end_char=1098|start_char=1095
+10	dead	dead	ADJ	JJ	Degree=Pos	11	mod	_	end_char=1103|start_char=1099
+11	body	body	NOUN	NN	Number=Sing	8	comp:obj	_	end_char=1108|start_char=1104
+12	in	in	ADP	IN	_	8	udep	_	end_char=1111|start_char=1109
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	end_char=1115|start_char=1112
+14-15	driver's	_	_	_	_	_	_	_	end_char=1124|start_char=1116
+14	driver	driver	NOUN	NN	Number=Sing	15	comp:obj	_	end_char=1122|start_char=1116
+15	's	's	PART	POS	_	16	udep@poss	_	end_char=1124|start_char=1122
+16	seat	seat	NOUN	NN	Number=Sing	12	comp:obj	_	end_char=1129|start_char=1125
+17	of	of	ADP	IN	_	16	udep	_	end_char=1132|start_char=1130
+18	an	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	end_char=1135|start_char=1133
+19	ambulance	ambulance	NOUN	NN	Number=Sing	17	comp:obj	_	end_char=1145|SpaceAfter=No|start_char=1136
+20	.	.	PUNCT	.	_	8	punct	_	end_char=1146|start_char=1145
+
+# text = Another family had a man propped up in a fake boxing ring for his wake.
+# sent_id = 10
+1	Another	another	DET	DT	PronType=Ind	2	det	_	end_char=1154|start_char=1147
+2	family	family	NOUN	NN	Number=Sing	3	subj	_	end_char=1161|start_char=1155
+3	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1165|start_char=1162
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	end_char=1167|start_char=1166
+5	man	man	NOUN	NN	Number=Sing	3	comp:obj	_	end_char=1171|start_char=1168
+6	propped	proppe	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	mod	_	end_char=1179|start_char=1172
+7	up	up	ADP	RP	_	6	compound@prt	_	end_char=1182|start_char=1180
+8	in	in	ADP	IN	_	6	udep	_	end_char=1185|start_char=1183
+9	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	end_char=1187|start_char=1186
+10	fake	fake	ADJ	JJ	Degree=Pos	12	mod	_	end_char=1192|start_char=1188
+11	boxing	boxing	NOUN	NN	Number=Sing	12	compound	_	end_char=1199|start_char=1193
+12	ring	ring	NOUN	NN	Number=Sing	8	comp:obj	_	end_char=1204|start_char=1200
+13	for	for	ADP	IN	_	6	udep	_	end_char=1208|start_char=1205
+14	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	mod@poss	_	end_char=1212|start_char=1209
+15	wake	wake	NOUN	NN	Number=Sing	13	comp:obj	_	end_char=1217|SpaceAfter=No|start_char=1213
+16	.	.	PUNCT	.	_	3	punct	_	end_char=1218|start_char=1217
+
+# text = One dead man was posed on top of his motorcycle.
+# sent_id = 11
+1	One	one	NUM	CD	NumForm=Word|NumType=Card	3	mod	_	end_char=1222|start_char=1219
+2	dead	dead	ADJ	JJ	Degree=Pos	3	mod	_	end_char=1227|start_char=1223
+3	man	man	NOUN	NN	Number=Sing	4	subj@pass	_	end_char=1231|start_char=1228
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1235|start_char=1232
+5	posed	pose	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	comp:aux@pass	_	end_char=1241|start_char=1236
+6	on	on	ADP	IN	_	5	udep	_	end_char=1244|start_char=1242
+7	top	top	NOUN	NN	Number=Sing	6	comp:obj	_	end_char=1248|start_char=1245
+8	of	of	ADP	IN	_	7	udep	_	end_char=1251|start_char=1249
+9	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	mod@poss	_	end_char=1255|start_char=1252
+10	motorcycle	motorcycle	NOUN	NN	Number=Sing	8	comp:obj	_	end_char=1266|SpaceAfter=No|start_char=1256
+11	.	.	PUNCT	.	_	4	punct	_	end_char=1267|start_char=1266
+
+# text = Recently, a grandmother was posed sitting in her rocking chair.
+# sent_id = 12
+1	Recently	recently	ADV	RB	_	5	mod	_	end_char=1276|SpaceAfter=No|start_char=1268
+2	,	,	PUNCT	,	_	1	punct	_	end_char=1277|start_char=1276
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	end_char=1279|start_char=1278
+4	grandmother	grandmother	NOUN	NN	Number=Sing	5	subj@pass	_	end_char=1291|start_char=1280
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1295|start_char=1292
+6	posed	pose	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	comp:aux@pass	_	end_char=1301|start_char=1296
+7	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part	6	comp:pred	_	end_char=1309|start_char=1302|Subject=SubjRaising
+8	in	in	ADP	IN	_	7	udep	_	end_char=1312|start_char=1310
+9	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	mod@poss	_	end_char=1316|start_char=1313
+10	rocking	rock	VERB	VBG	VerbForm=Ger	11	mod	_	end_char=1324|start_char=1317
+11	chair	chair	NOUN	NN	Number=Sing	8	comp:obj	_	end_char=1330|SpaceAfter=No|start_char=1325
+12	.	.	PUNCT	.	_	5	punct	_	end_char=1331|SpacesAfter=\n|start_char=1330
+
+# text = These non-traditional wakes have their critics though.
+# sent_id = 13
+1	These	this	DET	DT	Number=Plur|PronType=Dem	3	det	_	end_char=1337|start_char=1332
+2	non-traditional	non-traditional	ADJ	JJ	Degree=Pos	3	mod	_	end_char=1353|start_char=1338
+3	wakes	wake	NOUN	NNS	Number=Plur	4	subj	_	end_char=1359|start_char=1354
+4	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=1364|start_char=1360
+5	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	6	mod@poss	_	end_char=1370|start_char=1365
+6	critics	critic	NOUN	NNS	Number=Plur	4	comp:obj	_	end_char=1378|start_char=1371
+7	though	though	ADV	RB	_	4	mod	_	end_char=1385|SpaceAfter=No|start_char=1379
+8	.	.	PUNCT	.	_	4	punct	_	end_char=1386|start_char=1385
+
+# text = Some people think they are disrespectful.
+# sent_id = 14
+1	Some	some	DET	DT	PronType=Ind	2	det	_	end_char=1391|start_char=1387
+2	people	person	NOUN	NNS	Number=Plur	3	subj	_	end_char=1398|start_char=1392
+3	think	think	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=1404|start_char=1399
+4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	subj	_	end_char=1409|start_char=1405
+5	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	comp:obj	_	end_char=1413|start_char=1410
+6	disrespectful	disrespectful	ADJ	JJ	Degree=Pos	5	comp:pred	_	end_char=1427|SpaceAfter=No|start_char=1414
+7	.	.	PUNCT	.	_	3	punct	_	end_char=1428|start_char=1427
+
+# text = They think of death as a solemn and sad occasion, not a time to pose the dead as if they were toys.
+# sent_id = 15
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	subj	_	end_char=1433|start_char=1429
+2	think	think	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=1439|start_char=1434
+3	of	of	ADP	IN	_	2	udep	_	end_char=1442|start_char=1440
+4	death	death	NOUN	NN	Number=Sing	3	comp:obj	_	end_char=1448|start_char=1443
+5	as	as	ADP	IN	_	2	udep	_	end_char=1451|start_char=1449
+6	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	end_char=1453|start_char=1452
+7	solemn	solemn	ADJ	JJ	Degree=Pos	10	mod	_	end_char=1460|start_char=1454
+8	and	and	CCONJ	CC	_	9	cc	_	end_char=1464|start_char=1461
+9	sad	sad	ADJ	JJ	Degree=Pos	7	conj:coord	_	end_char=1468|start_char=1465
+10	occasion	occasion	NOUN	NN	Number=Sing	5	comp:obj	_	end_char=1477|SpaceAfter=No|start_char=1469
+11	,	,	PUNCT	,	_	14	punct	_	end_char=1478|start_char=1477
+12	not	not	PART	RB	Polarity=Neg	14	mod	_	end_char=1482|start_char=1479
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	end_char=1484|start_char=1483
+14	time	time	NOUN	NN	Number=Sing	2	parataxis	_	end_char=1489|start_char=1485
+15	to	to	PART	TO	_	14	udep	_	end_char=1492|start_char=1490
+16	pose	pose	VERB	VB	VerbForm=Inf	15	comp:obj	_	end_char=1497|start_char=1493
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	end_char=1501|start_char=1498
+18	dead	dead	ADJ	JJ	Degree=Pos	16	comp:obj	_	end_char=1506|start_char=1502
+19	as	as	SCONJ	IN	ExtPos=SCONJ	16	mod	_	end_char=1509|Idiom=Yes|start_char=1507
+20	if	if	SCONJ	IN	_	19	unk	_	end_char=1512|InIdiom=Yes|start_char=1510
+21	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	22	subj	_	end_char=1517|start_char=1513
+22	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	19	comp:obj	_	end_char=1522|start_char=1518
+23	toys	toy	NOUN	NNS	Number=Plur	22	comp:pred	_	end_char=1527|SpaceAfter=No|start_char=1523
+24	.	.	PUNCT	.	_	2	punct	_	end_char=1528|start_char=1527
+
+# text = Fans feel it helps them remember the dead as they were when they were alive.
+# sent_id = 16
+1	Fans	fan	NOUN	NNS	Number=Plur	2	subj	_	end_char=1533|start_char=1529
+2	feel	feel	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=1538|start_char=1534
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	subj	_	end_char=1541|start_char=1539
+4	helps	help	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj	_	end_char=1547|start_char=1542
+5	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	comp:obj	_	end_char=1552|start_char=1548
+6	remember	remember	VERB	VB	VerbForm=Inf	4	comp:obl	_	end_char=1561|start_char=1553|Subject=ObjRaising
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	end_char=1565|start_char=1562
+8	dead	dead	ADJ	JJ	Degree=Pos	6	comp:obj	_	end_char=1570|start_char=1566
+9	as	as	SCONJ	IN	_	6	mod	_	end_char=1573|start_char=1571
+10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	subj	_	end_char=1578|start_char=1574
+11	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	comp:obj	_	end_char=1583|start_char=1579
+12	when	when	ADV	WRB	PronType=Int	14	mod	_	end_char=1588|start_char=1584
+13	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	subj	_	end_char=1593|start_char=1589
+14	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	mod	_	end_char=1598|start_char=1594
+15	alive	alive	ADJ	JJ	Degree=Pos	14	comp:pred	_	end_char=1604|SpaceAfter=No|start_char=1599
+16	.	.	PUNCT	.	_	2	punct	_	end_char=1605|SpaceAfter=No|start_char=1604
+

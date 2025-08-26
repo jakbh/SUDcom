@@ -1,0 +1,870 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# text = ﻿It was not so much how hard people found the challenge but how far they would go to avoid it that left researchers gobsmacked.
+# sent_id = 0
+1	﻿	﻿	PUNCT	``	_	3	punct	_	end_char=1|SpaceAfter=No|start_char=0
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	subj	_	end_char=3|start_char=1
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=7|start_char=4
+4	not	not	PART	RB	Polarity=Neg	6	mod	_	end_char=11|start_char=8
+5	so	so	ADV	RB	_	6	mod	_	end_char=14|start_char=12
+6	much	much	ADJ	JJ	Degree=Pos	3	mod	_	end_char=19|start_char=15
+7	how	how	ADV	WRB	PronType=Int	8	mod	_	end_char=23|start_char=20
+8	hard	hard	ADJ	JJ	Degree=Pos	3	mod	_	end_char=28|start_char=24
+9	people	person	NOUN	NNS	Number=Plur	3	subj	_	end_char=35|start_char=29
+10	found	find	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	comp:pred	_	end_char=41|start_char=36
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	end_char=45|start_char=42
+12	challenge	challenge	NOUN	NN	Number=Sing	10	comp:obj	_	end_char=55|start_char=46
+13	but	but	CCONJ	CC	_	17	cc	_	end_char=59|start_char=56
+14	how	how	ADV	WRB	PronType=Int	15	mod	_	end_char=63|start_char=60
+15	far	far	ADV	RB	Degree=Pos	17	mod	_	end_char=67|start_char=64
+16	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	subj	_	end_char=72|start_char=68
+17	would	would	AUX	MD	VerbForm=Fin	10	conj:coord	_	end_char=78|start_char=73
+18	go	go	VERB	VB	Shared=No|VerbForm=Inf	17	comp:aux	_	end_char=81|start_char=79
+19	to	to	PART	TO	_	18	mod	_	end_char=84|start_char=82
+20	avoid	avoid	VERB	VB	VerbForm=Inf	19	comp:obj	_	end_char=90|start_char=85
+21	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	comp:obj	_	end_char=93|start_char=91
+22	that	that	PRON	WDT	PronType=Rel	23	subj	_	end_char=98|start_char=94
+23	left	leave	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	mod@relcl	_	end_char=103|start_char=99
+24	researchers	researcher	NOUN	NNS	Number=Plur	23	comp:obj	_	end_char=115|start_char=104
+25	gobsmacked	gobsmack	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	23	comp:obl	_	end_char=126|SpaceAfter=No|start_char=116|Subject=ObjRaising
+26	.	.	PUNCT	.	_	3	punct	_	end_char=127|start_char=126
+
+# text = The task?
+# sent_id = 1
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	end_char=131|start_char=128
+2	task	task	NOUN	NN	Number=Sing	0	root	_	end_char=136|SpaceAfter=No|start_char=132
+3	?	?	PUNCT	.	_	2	punct	_	end_char=137|start_char=136
+
+# text = To sit in a chair and do nothing but think.
+# sent_id = 2
+1	To	to	PART	TO	_	0	root	_	end_char=140|start_char=138
+2	sit	sit	VERB	VB	VerbForm=Inf	1	comp:obj	_	end_char=144|start_char=141
+3	in	in	ADP	IN	_	2	udep	_	end_char=147|start_char=145
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	end_char=149|start_char=148
+5	chair	chair	NOUN	NN	Number=Sing	3	comp:obj	_	end_char=155|start_char=150
+6	and	and	CCONJ	CC	Shared=Yes	7	cc	_	end_char=159|start_char=156
+7	do	do	VERB	VB	Mood=Imp|VerbForm=Inf	2	conj:coord	_	end_char=162|start_char=160
+8	nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	7	comp:obj	_	end_char=170|start_char=163
+9	but	but	CCONJ	CC	_	10	cc	_	end_char=174|start_char=171
+10	think	think	VERB	VB	Mood=Imp|VerbForm=Fin	7	conj:coord@emb	_	end_char=180|SpaceAfter=No|start_char=175
+11	.	.	PUNCT	.	_	1	punct	_	end_char=181|SpacesAfter=\s\n|start_char=180
+
+# text = So unbearable did some find it that they took up the safe but alarming opportunity to give themselves mild electric shocks in an attempt to break the tedium.
+# sent_id = 3
+1	So	so	ADV	RB	_	2	mod	_	end_char=185|start_char=183
+2	unbearable	unbearable	ADJ	JJ	Degree=Pos	3	mod	_	end_char=196|start_char=186
+3	did	do	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=200|start_char=197
+4	some	some	DET	DT	PronType=Ind	3	subj	_	end_char=205|start_char=201
+5	find	find	VERB	VB	VerbForm=Inf	3	comp:aux	_	end_char=210|start_char=206
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	comp@expl	_	end_char=213|start_char=211
+7	that	that	SCONJ	IN	_	5	comp:obj	_	end_char=218|start_char=214
+8	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	subj	_	end_char=223|start_char=219
+9	took	take	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	comp:obj	_	end_char=228|start_char=224
+10	up	up	ADP	RP	_	9	compound@prt	_	end_char=231|start_char=229
+11	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	end_char=235|start_char=232
+12	safe	safe	ADJ	JJ	Degree=Pos	15	mod	_	end_char=240|start_char=236
+13	but	but	CCONJ	CC	_	14	cc	_	end_char=244|start_char=241
+14	alarming	alarming	ADJ	JJ	Degree=Pos	12	conj:coord	_	end_char=253|start_char=245
+15	opportunity	opportunity	NOUN	NN	Number=Sing	9	comp:obj	_	end_char=265|start_char=254
+16	to	to	PART	TO	_	15	udep	_	end_char=268|start_char=266
+17	give	give	VERB	VB	VerbForm=Inf	16	comp:obj	_	end_char=273|start_char=269
+18	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	17	comp:obl	_	end_char=284|start_char=274
+19	mild	mild	ADJ	JJ	Degree=Pos	21	mod	_	end_char=289|start_char=285
+20	electric	electric	ADJ	JJ	Degree=Pos	21	mod	_	end_char=298|start_char=290
+21	shocks	shock	NOUN	NNS	Number=Plur	17	comp:obj	_	end_char=305|start_char=299
+22	in	in	ADP	IN	_	17	udep	_	end_char=308|start_char=306
+23	an	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	end_char=311|start_char=309
+24	attempt	attempt	NOUN	NN	Number=Sing	22	comp:obj	_	end_char=319|start_char=312
+25	to	to	PART	TO	_	24	udep	_	end_char=322|start_char=320
+26	break	break	VERB	VB	VerbForm=Inf	25	comp:obj	_	end_char=328|start_char=323
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	end_char=332|start_char=329
+28	tedium	tedium	NOUN	NN	Number=Sing	26	comp:obj	_	end_char=339|SpaceAfter=No|start_char=333
+29	.	.	PUNCT	.	_	3	punct	_	end_char=340|SpacesAfter=\s\n|start_char=339
+
+# text = Two-thirds of men pressed a button to deliver a painful jolt during a 15-minute spell of solitude.
+# sent_id = 4
+1	Two	two	NUM	CD	NumForm=Word|NumType=Card	3	mod	_	end_char=345|SpaceAfter=No|start_char=342
+2	-	-	PUNCT	HYPH	_	1	punct	_	end_char=346|SpaceAfter=No|start_char=345
+3	thirds	third	NOUN	NNS	Number=Plur|NumForm=Word|NumType=Frac	6	subj	_	end_char=352|start_char=346
+4	of	of	ADP	IN	_	3	udep	_	end_char=355|start_char=353
+5	men	man	NOUN	NNS	Number=Plur	4	comp:obj	_	end_char=359|start_char=356
+6	pressed	press	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=367|start_char=360
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	end_char=369|start_char=368
+8	button	button	NOUN	NN	Number=Sing	6	comp:obj	_	end_char=376|start_char=370
+9	to	to	PART	TO	_	6	mod	_	end_char=379|start_char=377
+10	deliver	deliver	VERB	VB	VerbForm=Inf	9	comp:obj	_	end_char=387|start_char=380
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	end_char=389|start_char=388
+12	painful	painful	ADJ	JJ	Degree=Pos	13	mod	_	end_char=397|start_char=390
+13	jolt	jolt	NOUN	NN	Number=Sing	10	comp:obj	_	end_char=402|start_char=398
+14	during	during	ADP	IN	_	10	udep	_	end_char=409|start_char=403
+15	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	end_char=411|start_char=410
+16	15	15	NUM	CD	NumForm=Digit|NumType=Card	18	mod	_	end_char=414|SpaceAfter=No|start_char=412
+17	-	-	PUNCT	HYPH	_	16	punct	_	end_char=415|SpaceAfter=No|start_char=414
+18	minute	minute	NOUN	NN	Number=Sing	19	compound	_	end_char=421|start_char=415
+19	spell	spell	NOUN	NN	Number=Sing	14	comp:obj	_	end_char=427|start_char=422
+20	of	of	ADP	IN	_	19	udep	_	end_char=430|start_char=428
+21	solitude	solitude	NOUN	NN	Number=Sing	20	comp:obj	_	end_char=439|SpaceAfter=No|start_char=431
+22	.	.	PUNCT	.	_	6	punct	_	end_char=440|SpacesAfter=\s\n|start_char=439
+
+# text = Under the same conditions, a quarter of women pressed the shock button.
+# sent_id = 5
+1	Under	under	ADP	IN	_	10	udep	_	end_char=447|start_char=442
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	end_char=451|start_char=448
+3	same	same	ADJ	JJ	Degree=Pos	4	mod	_	end_char=456|start_char=452
+4	conditions	condition	NOUN	NNS	Number=Plur	1	comp:obj	_	end_char=467|SpaceAfter=No|start_char=457
+5	,	,	PUNCT	,	_	1	punct	_	end_char=468|start_char=467
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	end_char=470|start_char=469
+7	quarter	quarter	NOUN	NN	Number=Sing|NumForm=Word|NumType=Frac	10	subj	_	end_char=478|start_char=471
+8	of	of	ADP	IN	_	7	udep	_	end_char=481|start_char=479
+9	women	woman	NOUN	NNS	Number=Plur	8	comp:obj	_	end_char=487|start_char=482
+10	pressed	press	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=495|start_char=488
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	end_char=499|start_char=496
+12	shock	shock	NOUN	NN	Number=Sing	13	compound	_	end_char=505|start_char=500
+13	button	button	NOUN	NN	Number=Sing	10	comp:obj	_	end_char=512|SpaceAfter=No|start_char=506
+14	.	.	PUNCT	.	_	10	punct	_	end_char=513|start_char=512
+
+# text = The difference, scientists suspect, is that men tend to be more sensation-seeking than women.
+# sent_id = 6
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	end_char=517|start_char=514
+2	difference	difference	NOUN	NN	Number=Sing	7	subj	_	end_char=528|SpaceAfter=No|start_char=518
+3	,	,	PUNCT	,	_	5	punct	_	end_char=529|start_char=528
+4	scientists	scientist	NOUN	NNS	Number=Plur	5	subj	_	end_char=540|start_char=530
+5	suspect	suspect	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	end_char=548|SpaceAfter=No|start_char=541
+6	,	,	PUNCT	,	_	2	punct	_	end_char=549|start_char=548
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=552|start_char=550
+8	that	that	SCONJ	IN	_	7	comp:pred	_	end_char=557|start_char=553
+9	men	man	NOUN	NNS	Number=Plur	10	subj	_	end_char=561|start_char=558
+10	tend	tend	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	comp:obj	_	end_char=566|start_char=562
+11	to	to	PART	TO	_	10	comp:pred	_	end_char=569|start_char=567
+12	be	be	AUX	VB	VerbForm=Inf	11	comp:obj	_	end_char=572|start_char=570|Subject=SubjRaising
+13	more	more	ADV	RBR	Degree=Cmp	12	mod	_	end_char=577|start_char=573
+14	sensation	sensation	NOUN	NN	Number=Sing	16	compound	_	end_char=587|SpaceAfter=No|start_char=578
+15	-	-	PUNCT	HYPH	_	14	punct	_	end_char=588|SpaceAfter=No|start_char=587
+16	seeking	seek	VERB	VBG	Tense=Pres|VerbForm=Part	12	comp:pred	_	end_char=595|start_char=588
+17	than	than	ADP	IN	_	16	udep	_	end_char=600|start_char=596
+18	women	woman	NOUN	NNS	Number=Plur	17	comp:obj	_	end_char=606|SpaceAfter=No|start_char=601
+19	.	.	PUNCT	.	_	7	punct	_	end_char=607|SpacesAfter=\s\n|start_char=606
+
+# text = The report from psychologists at Virginia and Harvard Universities is one of a surprising few to tackle the question of why most of us find it so hard to do nothing.
+# sent_id = 7
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	end_char=612|start_char=609
+2	report	report	NOUN	NN	Number=Sing	10	subj	_	end_char=619|start_char=613
+3	from	from	ADP	IN	_	2	udep	_	end_char=624|start_char=620
+4	psychologists	psychologist	NOUN	NNS	Number=Plur	3	comp:obj	_	end_char=638|start_char=625
+5	at	at	ADP	IN	_	4	udep	_	end_char=641|start_char=639
+6	Virginia	Virginia	PROPN	NNP	Number=Sing	5	comp:obj	_	end_char=650|start_char=642
+7	and	and	CCONJ	CC	_	9	cc	_	end_char=654|start_char=651
+8	Harvard	Harvard	PROPN	NNP	Number=Sing	9	compound	_	end_char=662|start_char=655
+9	Universities	University	PROPN	NNPS	Number=Plur	6	conj:coord	_	end_char=675|start_char=663
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=678|start_char=676
+11	one	one	NUM	CD	NumForm=Word|NumType=Card	10	comp:pred	_	end_char=682|start_char=679
+12	of	of	ADP	IN	_	11	udep	_	end_char=685|start_char=683
+13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	end_char=687|start_char=686
+14	surprising	surprising	ADJ	JJ	Degree=Pos	15	mod	_	end_char=698|start_char=688
+15	few	few	ADJ	JJ	Degree=Pos	12	comp:obj	_	end_char=702|start_char=699
+16	to	to	PART	TO	_	11	udep	_	end_char=705|start_char=703
+17	tackle	tackle	VERB	VB	VerbForm=Inf	16	comp:obj	_	end_char=712|start_char=706
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	end_char=716|start_char=713
+19	question	question	NOUN	NN	Number=Sing	17	comp:obj	_	end_char=725|start_char=717
+20	of	of	SCONJ	IN	_	19	udep	_	end_char=728|start_char=726
+21	why	why	ADV	WRB	PronType=Rel	25	mod	_	end_char=732|start_char=729
+22	most	most	ADJ	JJS	Degree=Sup	25	subj	_	end_char=737|start_char=733
+23	of	of	ADP	IN	_	22	udep	_	end_char=740|start_char=738
+24	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	23	comp:obj	_	end_char=743|start_char=741
+25	find	find	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	comp:obj	_	end_char=748|start_char=744
+26	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	comp:obj	_	end_char=751|start_char=749
+27	so	so	ADV	RB	_	28	mod	_	end_char=754|start_char=752
+28	hard	hard	ADJ	JJ	Degree=Pos	25	comp:pred	_	end_char=759|start_char=755
+29	to	to	PART	TO	_	28	mod	_	end_char=762|start_char=760
+30	do	do	VERB	VB	VerbForm=Inf	29	comp:obj	_	end_char=765|start_char=763
+31	nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	30	comp:obj	_	end_char=773|SpaceAfter=No|start_char=766
+32	.	.	PUNCT	.	_	10	punct	_	end_char=774|SpacesAfter=\s\n|start_char=773
+
+# text = In more than 11 separate studies, the researchers showed that people hated being left to think, regardless of their age, education, income or the amount of time they spent using smartphones or social media.
+# sent_id = 8
+1	In	in	ADP	IN	_	10	udep	_	end_char=778|start_char=776
+2	more	more	ADJ	JJR	Degree=Cmp|ExtPos=ADV	6	mod	_	end_char=783|Idiom=Yes|start_char=779
+3	than	than	ADP	IN	_	2	unk	_	end_char=788|InIdiom=Yes|start_char=784
+4	11	11	NUM	CD	NumForm=Digit|NumType=Card	6	mod	_	end_char=791|start_char=789
+5	separate	separate	ADJ	JJ	Degree=Pos	6	mod	_	end_char=800|start_char=792
+6	studies	study	NOUN	NNS	Number=Plur	1	comp:obj	_	end_char=808|SpaceAfter=No|start_char=801
+7	,	,	PUNCT	,	_	1	punct	_	end_char=809|start_char=808
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	end_char=813|start_char=810
+9	researchers	researcher	NOUN	NNS	Number=Plur	10	subj	_	end_char=825|start_char=814
+10	showed	show	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=832|start_char=826
+11	that	that	SCONJ	IN	_	10	comp:obj	_	end_char=837|start_char=833
+12	people	person	NOUN	NNS	Number=Plur	13	subj	_	end_char=844|start_char=838
+13	hated	hate	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	comp:obj	_	end_char=850|start_char=845
+14	being	be	AUX	VBG	Tense=Pres|VerbForm=Part	13	comp:pred	_	end_char=856|start_char=851|Subject=SubjRaising
+15	left	leave	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	comp:aux@pass	_	end_char=861|start_char=857
+16	to	to	PART	TO	_	15	comp:obl	_	end_char=864|start_char=862
+17	think	think	VERB	VB	VerbForm=Inf	16	comp:obj	_	end_char=870|SpaceAfter=No|start_char=865|Subject=SubjRaising
+18	,	,	PUNCT	,	_	19	punct	_	end_char=871|start_char=870
+19	regardless	regardless	ADV	RB	_	17	mod	_	end_char=882|start_char=872
+20	of	of	ADP	IN	_	19	udep	_	end_char=885|start_char=883
+21	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs|Shared=No	22	mod@poss	_	end_char=891|start_char=886
+22	age	age	NOUN	NN	Number=Sing	20	comp:obj	_	end_char=895|SpaceAfter=No|start_char=892
+23	,	,	PUNCT	,	_	24	punct	_	end_char=896|start_char=895
+24	education	education	NOUN	NN	Number=Sing	22	conj:coord	_	end_char=906|SpaceAfter=No|start_char=897
+25	,	,	PUNCT	,	_	26	punct	_	end_char=907|start_char=906
+26	income	income	NOUN	NN	Number=Sing	24	conj:coord	_	end_char=914|start_char=908
+27	or	or	CCONJ	CC	_	29	cc	_	end_char=917|start_char=915
+28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	end_char=921|start_char=918
+29	amount	amount	NOUN	NN	Number=Sing	26	conj:coord	_	end_char=928|start_char=922
+30	of	of	ADP	IN	Shared=No	29	udep	_	end_char=931|start_char=929
+31	time	time	NOUN	NN	Number=Sing	30	comp:obj	_	end_char=936|start_char=932
+32	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	33	subj	_	end_char=941|start_char=937
+33	spent	spend	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	31	mod@relcl	_	end_char=947|start_char=942
+34	using	use	VERB	VBG	Tense=Pres|VerbForm=Part	33	mod	_	end_char=953|start_char=948
+35	smartphones	smartphone	NOUN	NNS	Number=Plur	34	comp:obj	_	end_char=965|start_char=954
+36	or	or	CCONJ	CC	_	38	cc	_	end_char=968|start_char=966
+37	social	social	ADJ	JJ	Degree=Pos	38	mod	_	end_char=975|start_char=969
+38	media	media	NOUN	NN	Number=Sing	35	conj:coord	_	end_char=981|SpaceAfter=No|start_char=976
+39	.	.	PUNCT	.	_	10	punct	_	end_char=982|SpacesAfter=\s\n|start_char=981
+
+# text = Timothy Wilson, who led the work, said the findings were not necessarily a reflection of the pace of modern life or the spread of mobile devices and social media.
+# sent_id = 9
+1	Timothy	Timothy	PROPN	NNP	Number=Sing	9	subj	_	end_char=991|start_char=984
+2	Wilson	Wilson	PROPN	NNP	Number=Sing	1	flat	_	end_char=998|SpaceAfter=No|start_char=992
+3	,	,	PUNCT	,	_	5	punct	_	end_char=999|start_char=998
+4	who	who	PRON	WP	PronType=Rel	5	subj	_	end_char=1003|start_char=1000
+5	led	lead	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	mod@relcl	_	end_char=1007|start_char=1004
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	end_char=1011|start_char=1008
+7	work	work	NOUN	NN	Number=Sing	5	comp:obj	_	end_char=1016|SpaceAfter=No|start_char=1012
+8	,	,	PUNCT	,	_	1	punct	_	end_char=1017|start_char=1016
+9	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1022|start_char=1018
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	end_char=1026|start_char=1023
+11	findings	finding	NOUN	NNS	Number=Plur	12	subj	_	end_char=1035|start_char=1027
+12	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	comp:obj	_	end_char=1040|start_char=1036
+13	not	not	PART	RB	Polarity=Neg	12	mod	_	end_char=1044|start_char=1041
+14	necessarily	necessarily	ADV	RB	_	12	mod	_	end_char=1056|start_char=1045
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	end_char=1058|start_char=1057
+16	reflection	reflection	NOUN	NN	Number=Sing	12	comp:pred	_	end_char=1069|start_char=1059
+17	of	of	ADP	IN	_	16	udep	_	end_char=1072|start_char=1070
+18	the	the	DET	DT	Definite=Def|PronType=Art|Shared=No	19	det	_	end_char=1076|start_char=1073
+19	pace	pace	NOUN	NN	Number=Sing	17	comp:obj	_	end_char=1081|start_char=1077
+20	of	of	ADP	IN	_	19	udep	_	end_char=1084|start_char=1082
+21	modern	modern	ADJ	JJ	Degree=Pos	22	mod	_	end_char=1091|start_char=1085
+22	life	life	NOUN	NN	Number=Sing	20	comp:obj	_	end_char=1096|start_char=1092
+23	or	or	CCONJ	CC	_	25	cc	_	end_char=1099|start_char=1097
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	end_char=1103|start_char=1100
+25	spread	spread	NOUN	NN	Number=Sing	19	conj:coord	_	end_char=1110|start_char=1104
+26	of	of	ADP	IN	Shared=No	25	udep	_	end_char=1113|start_char=1111
+27	mobile	mobile	ADJ	JJ	Degree=Pos	28	mod	_	end_char=1120|start_char=1114
+28	devices	device	NOUN	NNS	Number=Plur	26	comp:obj	_	end_char=1128|start_char=1121
+29	and	and	CCONJ	CC	_	31	cc	_	end_char=1132|start_char=1129
+30	social	social	ADJ	JJ	Degree=Pos	31	mod	_	end_char=1139|start_char=1133
+31	media	media	NOUN	NN	Number=Sing	28	conj:coord	_	end_char=1145|SpaceAfter=No|start_char=1140
+32	.	.	PUNCT	.	_	9	punct	_	end_char=1146|start_char=1145
+
+# text = Instead, those things might be popular because of our constant urge to do something rather than nothing.
+# sent_id = 10
+1	Instead	instead	ADV	RB	_	5	mod	_	end_char=1154|SpaceAfter=No|start_char=1147
+2	,	,	PUNCT	,	_	1	punct	_	end_char=1155|start_char=1154
+3	those	that	DET	DT	Number=Plur|PronType=Dem	4	det	_	end_char=1161|start_char=1156
+4	things	thing	NOUN	NNS	Number=Plur	5	subj	_	end_char=1168|start_char=1162
+5	might	might	AUX	MD	VerbForm=Fin	0	root	_	end_char=1174|start_char=1169
+6	be	be	AUX	VB	VerbForm=Inf	5	comp:aux	_	end_char=1177|start_char=1175
+7	popular	popular	ADJ	JJ	Degree=Pos	6	comp:pred	_	end_char=1185|start_char=1178
+8	because	because	ADP	IN	ExtPos=ADP	7	udep	_	end_char=1193|Idiom=Yes|start_char=1186
+9	of	of	ADP	IN	_	8	unk	_	end_char=1196|InIdiom=Yes|start_char=1194
+10	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	12	mod@poss	_	end_char=1200|start_char=1197
+11	constant	constant	ADJ	JJ	Degree=Pos	12	mod	_	end_char=1209|start_char=1201
+12	urge	urge	NOUN	NN	Number=Sing	8	comp:obj	_	end_char=1214|start_char=1210
+13	to	to	PART	TO	_	12	udep	_	end_char=1217|start_char=1215
+14	do	do	VERB	VB	VerbForm=Inf	13	comp:obj	_	end_char=1220|start_char=1218
+15	something	something	PRON	NN	Number=Sing|PronType=Ind	14	comp:obj	_	end_char=1230|start_char=1221
+16	rather	rather	ADV	RB	ExtPos=ADV	18	cc	_	end_char=1237|Idiom=Yes|start_char=1231
+17	than	than	ADP	IN	_	16	unk	_	end_char=1242|InIdiom=Yes|start_char=1238
+18	nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	15	conj:coord	_	end_char=1250|SpaceAfter=No|start_char=1243
+19	.	.	PUNCT	.	_	5	punct	_	end_char=1251|SpacesAfter=\s\n|start_char=1250
+
+# text = The first run of experiments began with students being ushered – alone, without phones, books or anything to write with – into an unadorned room and told to think.
+# sent_id = 11
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	end_char=1256|start_char=1253
+2	first	first	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	3	mod	_	end_char=1262|start_char=1257
+3	run	run	NOUN	NN	Number=Sing	6	subj	_	end_char=1266|start_char=1263
+4	of	of	ADP	IN	_	3	udep	_	end_char=1269|start_char=1267
+5	experiments	experiment	NOUN	NNS	Number=Plur	4	comp:obj	_	end_char=1281|start_char=1270
+6	began	begin	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1287|start_char=1282
+7	with	with	SCONJ	IN	_	6	mod	_	end_char=1292|start_char=1288
+8	students	student	NOUN	NNS	Number=Plur	9	subj@pass	_	end_char=1301|start_char=1293
+9	being	be	AUX	VBG	Tense=Pres|VerbForm=Part	7	comp:obj	_	end_char=1307|start_char=1302
+10	ushered	usher	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	comp:aux@pass	_	end_char=1315|start_char=1308
+11	–	-	PUNCT	:	_	12	punct	_	end_char=1317|start_char=1316
+12	alone	alone	ADJ	JJ	Degree=Pos	10	mod	_	end_char=1323|SpaceAfter=No|start_char=1318
+13	,	,	PUNCT	,	_	14	punct	_	end_char=1324|start_char=1323
+14	without	without	ADP	IN	_	10	udep	_	end_char=1332|start_char=1325
+15	phones	phone	NOUN	NNS	Number=Plur	14	comp:obj	_	end_char=1339|SpaceAfter=No|start_char=1333
+16	,	,	PUNCT	,	_	17	punct	_	end_char=1340|start_char=1339
+17	books	book	NOUN	NNS	Number=Plur	15	conj:coord	_	end_char=1346|start_char=1341
+18	or	or	CCONJ	CC	_	19	cc	_	end_char=1349|start_char=1347
+19	anything	anything	PRON	NN	Number=Sing|PronType=Ind	17	conj:coord	_	end_char=1358|start_char=1350
+20	to	to	PART	TO	Shared=No	19	udep	_	end_char=1361|start_char=1359
+21	write	write	VERB	VB	VerbForm=Inf	20	comp:obj	_	end_char=1367|start_char=1362
+22	with	with	ADP	IN	_	21	udep	_	end_char=1372|start_char=1368
+23	–	-	PUNCT	:	_	22	punct	_	end_char=1374|start_char=1373
+24	into	into	ADP	IN	_	21	udep	_	end_char=1379|start_char=1375
+25	an	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	end_char=1382|start_char=1380
+26	unadorned	unadorned	ADJ	JJ	Degree=Pos	27	mod	_	end_char=1392|start_char=1383
+27	room	room	NOUN	NN	Number=Sing	24	comp:obj	_	end_char=1397|start_char=1393
+28	and	and	CCONJ	CC	_	29	cc	_	end_char=1401|start_char=1398
+29	told	tell	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	20	conj:coord	_	end_char=1406|start_char=1402
+30	to	to	PART	TO	Shared=No	29	comp:obl	_	end_char=1409|start_char=1407
+31	think	think	VERB	VB	VerbForm=Inf	30	comp:obj	_	end_char=1415|SpaceAfter=No|start_char=1410|Subject=SubjRaising
+32	.	.	PUNCT	.	_	6	punct	_	end_char=1416|start_char=1415
+
+# text = The only rules were they had to stay seated and not fall asleep.
+# sent_id = 12
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	end_char=1420|start_char=1417
+2	only	only	ADJ	JJ	Degree=Pos	3	mod	_	end_char=1425|start_char=1421
+3	rules	rule	NOUN	NNS	Number=Plur	4	subj	_	end_char=1431|start_char=1426
+4	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1436|start_char=1432
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	subj	_	end_char=1441|start_char=1437
+6	had	have	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	comp:pred	_	end_char=1445|start_char=1442
+7	to	to	PART	TO	_	6	comp:obl	_	end_char=1448|start_char=1446
+8	stay	stay	VERB	VB	VerbForm=Inf	7	comp:obj	_	end_char=1453|start_char=1449|Subject=SubjRaising
+9	seated	seat	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	comp:pred	_	end_char=1460|start_char=1454|Subject=SubjRaising
+10	and	and	CCONJ	CC	_	12	cc	_	end_char=1464|start_char=1461
+11	not	not	PART	RB	Polarity=Neg	12	mod	_	end_char=1468|start_char=1465
+12	fall	fall	VERB	VB	VerbForm=Inf	8	conj:coord	_	end_char=1473|start_char=1469
+13	asleep	asleep	ADJ	JJ	Degree=Pos|Shared=No	12	comp:pred	_	end_char=1480|SpaceAfter=No|start_char=1474
+14	.	.	PUNCT	.	_	4	punct	_	end_char=1481|start_char=1480
+
+# text = They were informed – specifically or vaguely – that they would have six to 15 minutes alone.
+# sent_id = 13
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	subj@pass	_	end_char=1486|start_char=1482
+2	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1491|start_char=1487
+3	informed	inform	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	comp:aux@pass	_	end_char=1500|start_char=1492
+4	–	-	PUNCT	:	Shared=Yes	5	punct	_	end_char=1502|start_char=1501
+5	specifically	specifically	ADV	RB	_	3	mod	_	end_char=1515|start_char=1503
+6	or	or	CCONJ	CC	_	7	cc	_	end_char=1518|start_char=1516
+7	vaguely	vaguely	ADV	RB	_	5	conj:coord	_	end_char=1526|start_char=1519
+8	–	-	PUNCT	:	Shared=No	7	punct	_	end_char=1528|start_char=1527
+9	that	that	SCONJ	IN	_	3	comp:obj	_	end_char=1533|start_char=1529
+10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	subj	_	end_char=1538|start_char=1534
+11	would	would	AUX	MD	VerbForm=Fin	9	comp:obj	_	end_char=1544|start_char=1539
+12	have	have	VERB	VB	VerbForm=Inf	11	comp:aux	_	end_char=1549|start_char=1545
+13	six	six	NUM	CD	NumForm=Word|NumType=Card	16	mod	_	end_char=1553|start_char=1550
+14	to	to	ADP	IN	_	13	udep	_	end_char=1556|start_char=1554
+15	15	15	NUM	CD	NumForm=Digit|NumType=Card	14	comp:obj	_	end_char=1559|start_char=1557
+16	minutes	minute	NOUN	NNS	Number=Plur	12	comp:obj	_	end_char=1567|start_char=1560
+17	alone	alone	ADV	RB	_	11	mod	_	end_char=1573|SpaceAfter=No|start_char=1568
+18	.	.	PUNCT	.	_	2	punct	_	end_char=1574|SpacesAfter=\s\n|start_char=1573
+
+# text = The students were questioned when the time was up.
+# sent_id = 14
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	end_char=1579|start_char=1576
+2	students	student	NOUN	NNS	Number=Plur	3	subj@pass	_	end_char=1588|start_char=1580
+3	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1593|start_char=1589
+4	questioned	question	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	comp:aux@pass	_	end_char=1604|start_char=1594
+5	when	when	ADV	WRB	PronType=Int	8	mod	_	end_char=1609|start_char=1605
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	end_char=1613|start_char=1610
+7	time	time	NOUN	NN	Number=Sing	8	subj	_	end_char=1618|start_char=1614
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	mod	_	end_char=1622|start_char=1619
+9	up	up	ADP	RP	_	8	comp:pred	_	end_char=1625|SpaceAfter=No|start_char=1623
+10	.	.	PUNCT	.	_	3	punct	_	end_char=1626|start_char=1625
+
+# text = On average, they did not enjoy the experience.
+# sent_id = 15
+1	On	on	ADP	IN	_	5	udep	_	end_char=1629|start_char=1627
+2	average	average	NOUN	NN	Number=Sing	1	comp:obj	_	end_char=1637|SpaceAfter=No|start_char=1630
+3	,	,	PUNCT	,	_	1	punct	_	end_char=1638|start_char=1637
+4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	subj	_	end_char=1643|start_char=1639
+5	did	do	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1647|start_char=1644
+6	not	not	PART	RB	Polarity=Neg	5	mod	_	end_char=1651|start_char=1648
+7	enjoy	enjoy	VERB	VB	VerbForm=Inf	5	comp:aux	_	end_char=1657|start_char=1652
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	end_char=1661|start_char=1658
+9	experience	experience	NOUN	NN	Number=Sing	7	comp:obj	_	end_char=1672|SpaceAfter=No|start_char=1662
+10	.	.	PUNCT	.	_	5	punct	_	end_char=1673|start_char=1672
+
+# text = They struggled to concentrate.
+# sent_id = 16
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	subj	_	end_char=1678|start_char=1674
+2	struggled	struggle	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1688|start_char=1679
+3	to	to	PART	TO	_	2	comp:obl	_	end_char=1691|start_char=1689
+4	concentrate	concentrate	VERB	VB	VerbForm=Inf	3	comp:obj	_	end_char=1703|SpaceAfter=No|start_char=1692|Subject=SubjRaising
+5	.	.	PUNCT	.	_	2	punct	_	end_char=1704|start_char=1703
+
+# text = Their minds wandered even with nothing to distract them.
+# sent_id = 17
+1	Their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	2	mod@poss	_	end_char=1710|start_char=1705
+2	minds	mind	NOUN	NNS	Number=Plur	3	subj	_	end_char=1716|start_char=1711
+3	wandered	wander	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1725|start_char=1717
+4	even	even	ADV	RB	_	5	mod	_	end_char=1730|start_char=1726
+5	with	with	ADP	IN	_	3	udep	_	end_char=1735|start_char=1731
+6	nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	5	comp:obj	_	end_char=1743|start_char=1736
+7	to	to	PART	TO	_	6	udep	_	end_char=1746|start_char=1744
+8	distract	distract	VERB	VB	VerbForm=Inf	7	comp:obj	_	end_char=1755|start_char=1747
+9	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	8	comp:obj	_	end_char=1760|SpaceAfter=No|start_char=1756
+10	.	.	PUNCT	.	_	3	punct	_	end_char=1761|start_char=1760
+
+# text = Even giving them time to think about what to think about did not help.
+# sent_id = 18
+1	Even	even	ADV	RB	_	2	mod	_	end_char=1766|start_char=1762
+2	giving	give	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	end_char=1773|start_char=1767
+3	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	comp:obl	_	end_char=1778|start_char=1774
+4	time	time	NOUN	NN	Number=Sing	2	comp:obj	_	end_char=1783|start_char=1779
+5	to	to	PART	TO	_	4	udep	_	end_char=1786|start_char=1784
+6	think	think	VERB	VB	VerbForm=Inf	5	comp:obj	_	end_char=1792|start_char=1787
+7	about	about	SCONJ	IN	_	8	udep	_	end_char=1798|start_char=1793
+8	what	what	PRON	WP	PronType=Int	12	subj	_	end_char=1803|start_char=1799
+9	to	to	PART	TO	_	7	comp:obj	_	end_char=1806|start_char=1804
+10	think	think	VERB	VB	VerbForm=Inf	9	comp:obj	_	end_char=1812|start_char=1807
+11	about	about	ADP	IN	_	10	udep	_	end_char=1818|start_char=1813
+12	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	mod	_	end_char=1822|start_char=1819
+13	not	not	PART	RB	Polarity=Neg	12	mod	_	end_char=1826|start_char=1823
+14	help	help	VERB	VB	VerbForm=Inf	12	comp:aux	_	end_char=1831|SpaceAfter=No|start_char=1827
+15	.	.	PUNCT	.	_	2	punct	_	end_char=1832|SpacesAfter=\s\n|start_char=1831
+
+# text = In case the unfamiliar setting hampered the ability to think, the researchers ran the experiment again with people at home.
+# sent_id = 19
+1	In	in	ADP	IN	ExtPos=SCONJ	14	mod	_	end_char=1836|Idiom=Yes|start_char=1834
+2	case	case	NOUN	NN	Number=Sing	1	unk	_	end_char=1841|InIdiom=Yes|start_char=1837
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	end_char=1845|start_char=1842
+4	unfamiliar	unfamiliar	ADJ	JJ	Degree=Pos	5	mod	_	end_char=1856|start_char=1846
+5	setting	setting	NOUN	NN	Number=Sing	6	subj	_	end_char=1864|start_char=1857
+6	hampered	hamper	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	comp:obj	_	end_char=1873|start_char=1865
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	end_char=1877|start_char=1874
+8	ability	ability	NOUN	NN	Number=Sing	6	comp:obj	_	end_char=1885|start_char=1878
+9	to	to	PART	TO	_	8	udep	_	end_char=1888|start_char=1886
+10	think	think	VERB	VB	VerbForm=Inf	9	comp:obj	_	end_char=1894|SpaceAfter=No|start_char=1889
+11	,	,	PUNCT	,	_	1	punct	_	end_char=1895|start_char=1894
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	end_char=1899|start_char=1896
+13	researchers	researcher	NOUN	NNS	Number=Plur	14	subj	_	end_char=1911|start_char=1900
+14	ran	run	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1915|start_char=1912
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	end_char=1919|start_char=1916
+16	experiment	experiment	NOUN	NN	Number=Sing	14	comp:obj	_	end_char=1930|start_char=1920
+17	again	again	ADV	RB	_	14	mod	_	end_char=1936|start_char=1931
+18	with	with	ADP	IN	_	14	udep	_	end_char=1941|start_char=1937
+19	people	person	NOUN	NNS	Number=Plur	18	comp:obj	_	end_char=1948|start_char=1942
+20	at	at	ADP	IN	_	19	udep	_	end_char=1951|start_char=1949
+21	home	home	NOUN	NN	Number=Sing	20	comp:obj	_	end_char=1956|SpaceAfter=No|start_char=1952
+22	.	.	PUNCT	.	_	14	punct	_	end_char=1957|SpacesAfter=\s\n|start_char=1956
+
+# text = They got much the same results, only people found the experience even more miserable and cheated by getting up from their chair or checking their phones.
+# sent_id = 20
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	subj	_	end_char=1963|start_char=1959
+2	got	get	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=1967|start_char=1964
+3	much	much	ADV	RB	_	2	mod	_	end_char=1972|start_char=1968
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	end_char=1976|start_char=1973
+5	same	same	ADJ	JJ	Degree=Pos	6	mod	_	end_char=1981|start_char=1977
+6	results	result	NOUN	NNS	Number=Plur	2	comp:obj	_	end_char=1989|SpaceAfter=No|start_char=1982
+7	,	,	PUNCT	,	Shared=Yes	10	punct	_	end_char=1990|start_char=1989
+8	only	only	ADV	RB	Shared=Yes	10	mod	_	end_char=1995|start_char=1991
+9	people	person	NOUN	NNS	Number=Plur|Shared=Yes	10	subj	_	end_char=2002|start_char=1996
+10	found	find	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	parataxis	_	end_char=2008|start_char=2003
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	end_char=2012|start_char=2009
+12	experience	experience	NOUN	NN	Number=Sing	10	comp:obj	_	end_char=2023|start_char=2013
+13	even	even	ADV	RB	_	14	mod	_	end_char=2028|start_char=2024
+14	more	more	ADV	RBR	Degree=Cmp	15	mod	_	end_char=2033|start_char=2029
+15	miserable	miserable	ADJ	JJ	Degree=Pos	10	comp:pred	_	end_char=2043|start_char=2034
+16	and	and	CCONJ	CC	_	17	cc	_	end_char=2047|start_char=2044
+17	cheated	cheat	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	conj:coord	_	end_char=2055|start_char=2048
+18	by	by	SCONJ	IN	Shared=No	17	mod	_	end_char=2058|start_char=2056
+19	getting	get	VERB	VBG	Tense=Pres|VerbForm=Part	18	comp:obj	_	end_char=2066|start_char=2059
+20	up	up	ADP	RP	_	19	compound@prt	_	end_char=2069|start_char=2067
+21	from	from	ADP	IN	_	19	udep	_	end_char=2074|start_char=2070
+22	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	23	mod@poss	_	end_char=2080|start_char=2075
+23	chair	chair	NOUN	NN	Number=Sing	21	comp:obj	_	end_char=2086|start_char=2081
+24	or	or	CCONJ	CC	_	25	cc	_	end_char=2089|start_char=2087
+25	checking	check	VERB	VBG	Tense=Pres|VerbForm=Part	19	conj:coord	_	end_char=2098|start_char=2090
+26	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	27	mod@poss	_	end_char=2104|start_char=2099
+27	phones	phone	NOUN	NNS	Number=Plur|Shared=No	25	comp:obj	_	end_char=2111|SpaceAfter=No|start_char=2105
+28	.	.	PUNCT	.	_	2	punct	_	end_char=2112|SpacesAfter=\s\n|start_char=2111
+
+# text = To see if the effect was found only in students, the scientists recruited more than 100 people, aged 18 to 77, from a church and a farmers’ market.
+# sent_id = 21
+1	To	to	PART	TO	_	14	mod	_	end_char=2116|start_char=2114
+2	see	see	VERB	VB	VerbForm=Inf	1	comp:obj	_	end_char=2120|start_char=2117
+3	if	if	SCONJ	IN	_	2	comp:obj	_	end_char=2123|start_char=2121
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	end_char=2127|start_char=2124
+5	effect	effect	NOUN	NN	Number=Sing	6	subj@pass	_	end_char=2134|start_char=2128
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	comp:obj	_	end_char=2138|start_char=2135
+7	found	find	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	comp:aux@pass	_	end_char=2144|start_char=2139
+8	only	only	ADV	RB	_	9	mod	_	end_char=2149|start_char=2145
+9	in	in	ADP	IN	_	7	udep	_	end_char=2152|start_char=2150
+10	students	student	NOUN	NNS	Number=Plur	9	comp:obj	_	end_char=2161|SpaceAfter=No|start_char=2153
+11	,	,	PUNCT	,	_	1	punct	_	end_char=2162|start_char=2161
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	end_char=2166|start_char=2163
+13	scientists	scientist	NOUN	NNS	Number=Plur	14	subj	_	end_char=2177|start_char=2167
+14	recruited	recruit	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=2187|start_char=2178
+15	more	more	ADJ	JJR	Degree=Cmp|ExtPos=ADV	17	mod	_	end_char=2192|Idiom=Yes|start_char=2188
+16	than	than	ADP	IN	_	15	unk	_	end_char=2197|InIdiom=Yes|start_char=2193
+17	100	100	NUM	CD	NumForm=Digit|NumType=Card	18	mod	_	end_char=2201|start_char=2198
+18	people	person	NOUN	NNS	Number=Plur	14	comp:obj	_	end_char=2208|SpaceAfter=No|start_char=2202
+19	,	,	PUNCT	,	_	20	punct	_	end_char=2209|start_char=2208
+20	aged	aged	ADJ	JJ	Degree=Pos	18	mod	_	end_char=2214|start_char=2210
+21	18	18	NUM	CD	NumForm=Digit|NumType=Card	20	comp:obj	_	end_char=2217|start_char=2215
+22	to	to	ADP	IN	_	21	udep	_	end_char=2220|start_char=2218
+23	77	77	NUM	CD	NumForm=Digit|NumType=Card	22	comp:obj	_	end_char=2223|SpaceAfter=No|start_char=2221
+24	,	,	PUNCT	,	_	25	punct	_	end_char=2224|start_char=2223
+25	from	from	ADP	IN	_	20	udep	_	end_char=2229|start_char=2225
+26	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	end_char=2231|start_char=2230
+27	church	church	NOUN	NN	Number=Sing	25	comp:obj	_	end_char=2238|start_char=2232
+28	and	and	CCONJ	CC	_	32	cc	_	end_char=2242|start_char=2239
+29	a	a	DET	DT	Definite=Ind|PronType=Art	30	det	_	end_char=2244|start_char=2243
+30-31	farmers’	_	_	_	_	_	_	_	end_char=2253|start_char=2245
+30	farmers	farmer	NOUN	NNS	Number=Plur	31	comp:obj	_	end_char=2252|start_char=2245
+31	’	's	PART	POS	_	32	udep@poss	_	end_char=2253|start_char=2252
+32	market	market	NOUN	NN	Number=Sing	27	conj:coord	_	end_char=2260|SpaceAfter=No|start_char=2254
+33	.	.	PUNCT	.	_	14	punct	_	end_char=2261|start_char=2260
+
+# text = They, too, disliked being left to their thoughts.
+# sent_id = 22
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	subj	_	end_char=2266|SpaceAfter=No|start_char=2262
+2	,	,	PUNCT	,	_	1	punct	_	end_char=2267|start_char=2266
+3	too	too	ADV	RB	_	5	mod	_	end_char=2271|SpaceAfter=No|start_char=2268
+4	,	,	PUNCT	,	_	3	punct	_	end_char=2272|start_char=2271
+5	disliked	dislike	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=2281|start_char=2273
+6	being	be	AUX	VBG	Tense=Pres|VerbForm=Part	5	comp:pred	_	end_char=2287|start_char=2282|Subject=SubjRaising
+7	left	leave	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	comp:aux@pass	_	end_char=2292|start_char=2288
+8	to	to	ADP	IN	_	7	udep	_	end_char=2295|start_char=2293
+9	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	mod@poss	_	end_char=2301|start_char=2296
+10	thoughts	thought	NOUN	NNS	Number=Plur	8	comp:obj	_	end_char=2310|SpaceAfter=No|start_char=2302
+11	.	.	PUNCT	.	_	5	punct	_	end_char=2311|SpacesAfter=\s\n|start_char=2310
+
+# text = But, the most staggering result was yet to come.
+# sent_id = 23
+1	But	but	CCONJ	CC	_	7	cc	_	end_char=2316|SpaceAfter=No|start_char=2313
+2	,	,	PUNCT	,	_	1	punct	_	end_char=2317|start_char=2316
+3	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	end_char=2321|start_char=2318
+4	most	most	ADV	RBS	Degree=Sup	5	mod	_	end_char=2326|start_char=2322
+5	staggering	staggering	ADJ	JJ	Degree=Pos	6	mod	_	end_char=2337|start_char=2327
+6	result	result	NOUN	NN	Number=Sing	7	subj	_	end_char=2344|start_char=2338
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=2348|start_char=2345
+8	yet	yet	ADV	RB	_	7	mod	_	end_char=2352|start_char=2349
+9	to	to	PART	TO	_	7	comp:pred	_	end_char=2355|start_char=2353
+10	come	come	VERB	VB	VerbForm=Inf	9	comp:obj	_	end_char=2360|SpaceAfter=No|start_char=2356
+11	.	.	PUNCT	.	_	7	punct	_	end_char=2361|start_char=2360
+
+# text = To check whether people might actually prefer something bad to nothing at all, the students were given the option of administering a mild electric shock.
+# sent_id = 24
+1	To	to	PART	TO	_	17	mod	_	end_char=2364|start_char=2362
+2	check	check	VERB	VB	VerbForm=Inf	1	comp:obj	_	end_char=2370|start_char=2365
+3	whether	whether	SCONJ	IN	_	2	comp:obj	_	end_char=2378|start_char=2371
+4	people	person	NOUN	NNS	Number=Plur	5	subj	_	end_char=2385|start_char=2379
+5	might	might	AUX	MD	VerbForm=Fin	3	comp:obj	_	end_char=2391|start_char=2386
+6	actually	actually	ADV	RB	_	5	mod	_	end_char=2400|start_char=2392
+7	prefer	prefer	VERB	VB	VerbForm=Inf	5	comp:aux	_	end_char=2407|start_char=2401
+8	something	something	PRON	NN	Number=Sing|PronType=Ind	7	comp:obj	_	end_char=2417|start_char=2408
+9	bad	bad	ADJ	JJ	Degree=Pos	8	mod	_	end_char=2421|start_char=2418
+10	to	to	ADP	IN	_	7	udep	_	end_char=2424|start_char=2422
+11	nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	10	comp:obj	_	end_char=2432|start_char=2425
+12	at	at	ADP	IN	_	11	udep	_	end_char=2435|start_char=2433
+13	all	all	DET	DT	PronType=Tot	12	comp:obj	_	end_char=2439|SpaceAfter=No|start_char=2436
+14	,	,	PUNCT	,	_	1	punct	_	end_char=2440|start_char=2439
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	end_char=2444|start_char=2441
+16	students	student	NOUN	NNS	Number=Plur	17	subj@pass	_	end_char=2453|start_char=2445
+17	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=2458|start_char=2454
+18	given	give	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	17	comp:aux@pass	_	end_char=2464|start_char=2459
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	end_char=2468|start_char=2465
+20	option	option	NOUN	NN	Number=Sing	18	comp:obj	_	end_char=2475|start_char=2469
+21	of	of	SCONJ	IN	_	20	udep	_	end_char=2478|start_char=2476
+22	administering	administer	VERB	VBG	VerbForm=Ger	21	comp:obj	_	end_char=2492|start_char=2479
+23	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	end_char=2494|start_char=2493
+24	mild	mild	ADJ	JJ	Degree=Pos	26	mod	_	end_char=2499|start_char=2495
+25	electric	electric	ADJ	JJ	Degree=Pos	26	mod	_	end_char=2508|start_char=2500
+26	shock	shock	NOUN	NN	Number=Sing	22	comp:obj	_	end_char=2514|SpaceAfter=No|start_char=2509
+27	.	.	PUNCT	.	_	17	punct	_	end_char=2515|SpacesAfter=\s\n|start_char=2514
+
+# text = They had been asked earlier to rate how unpleasant the shocks were, alongside other options, such as looking at pictures of cockroaches or hearing the sound of a knife rubbing against a bottle.
+# sent_id = 25
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	subj@pass	_	end_char=2521|start_char=2517
+2	had	have	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=2525|start_char=2522
+3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	2	comp:aux	_	end_char=2530|start_char=2526
+4	asked	ask	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	comp:aux@pass	_	end_char=2536|start_char=2531
+5	earlier	early	ADV	RBR	Degree=Cmp	4	mod	_	end_char=2544|start_char=2537
+6	to	to	PART	TO	_	4	comp:obl	_	end_char=2547|start_char=2545
+7	rate	rate	VERB	VB	VerbForm=Inf	6	comp:obj	_	end_char=2552|start_char=2548|Subject=SubjRaising
+8	how	how	ADV	WRB	PronType=Int	12	mod	_	end_char=2556|start_char=2553
+9	unpleasant	unpleasant	ADJ	JJ	Degree=Pos	12	comp:pred	_	end_char=2567|start_char=2557
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	end_char=2571|start_char=2568
+11	shocks	shock	NOUN	NNS	Number=Plur	12	subj	_	end_char=2578|start_char=2572
+12	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	comp:obj	_	end_char=2583|SpaceAfter=No|start_char=2579
+13	,	,	PUNCT	,	_	14	punct	_	end_char=2584|start_char=2583
+14	alongside	alongside	ADP	IN	_	9	udep	_	end_char=2594|start_char=2585
+15	other	other	ADJ	JJ	Degree=Pos	16	mod	_	end_char=2600|start_char=2595
+16	options	option	NOUN	NNS	Number=Plur	14	comp:obj	_	end_char=2608|SpaceAfter=No|start_char=2601
+17	,	,	PUNCT	,	Shared=Yes	18	punct	_	end_char=2609|start_char=2608
+18	such	such	ADJ	JJ	ExtPos=ADP	7	mod	_	end_char=2614|Idiom=Yes|start_char=2610
+19	as	as	SCONJ	IN	_	18	unk	_	end_char=2617|InIdiom=Yes|start_char=2615
+20	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	18	comp:obj	_	end_char=2625|start_char=2618
+21	at	at	ADP	IN	_	20	udep	_	end_char=2628|start_char=2626
+22	pictures	picture	NOUN	NNS	Number=Plur	21	comp:obj	_	end_char=2637|start_char=2629
+23	of	of	ADP	IN	_	22	udep	_	end_char=2640|start_char=2638
+24	cockroaches	cockroach	NOUN	NNS	Number=Plur	23	comp:obj	_	end_char=2652|start_char=2641
+25	or	or	CCONJ	CC	_	26	cc	_	end_char=2655|start_char=2653
+26	hearing	hear	VERB	VBG	VerbForm=Ger	18	conj:coord	_	end_char=2663|start_char=2656
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	end_char=2667|start_char=2664
+28	sound	sound	NOUN	NN	Number=Sing|Shared=No	26	comp:obj	_	end_char=2673|start_char=2668
+29	of	of	ADP	IN	_	28	udep	_	end_char=2676|start_char=2674
+30	a	a	DET	DT	Definite=Ind|PronType=Art	31	det	_	end_char=2678|start_char=2677
+31	knife	knife	NOUN	NN	Number=Sing	29	comp:obj	_	end_char=2684|start_char=2679
+32	rubbing	rub	VERB	VBG	VerbForm=Ger	31	mod	_	end_char=2692|start_char=2685
+33	against	against	ADP	IN	_	32	udep	_	end_char=2700|start_char=2693
+34	a	a	DET	DT	Definite=Ind|PronType=Art	35	det	_	end_char=2702|start_char=2701
+35	bottle	bottle	NOUN	NN	Number=Sing	33	comp:obj	_	end_char=2709|SpaceAfter=No|start_char=2703
+36	.	.	PUNCT	.	_	2	punct	_	end_char=2710|SpacesAfter=\s\n|start_char=2709
+
+# text = All the students picked for the test said they would pay to avoid mild electric shocks after receiving a demonstration.
+# sent_id = 26
+1	All	all	DET	PDT	PronType=Tot	3	det@predet	_	end_char=2715|start_char=2712
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	end_char=2719|start_char=2716
+3	students	student	NOUN	NNS	Number=Plur	8	subj	_	end_char=2728|start_char=2720
+4	picked	pick	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	mod	_	end_char=2735|start_char=2729
+5	for	for	ADP	IN	_	4	udep	_	end_char=2739|start_char=2736
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	end_char=2743|start_char=2740
+7	test	test	NOUN	NN	Number=Sing	5	comp:obj	_	end_char=2748|start_char=2744
+8	said	say	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=2753|start_char=2749
+9	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	subj	_	end_char=2758|start_char=2754
+10	would	would	AUX	MD	VerbForm=Fin	8	comp:obj	_	end_char=2764|start_char=2759
+11	pay	pay	VERB	VB	VerbForm=Inf	10	comp:aux	_	end_char=2768|start_char=2765
+12	to	to	PART	TO	_	11	comp:obl	_	end_char=2771|start_char=2769
+13	avoid	avoid	VERB	VB	VerbForm=Inf	12	comp:obj	_	end_char=2777|start_char=2772|Subject=SubjRaising
+14	mild	mild	ADJ	JJ	Degree=Pos	16	mod	_	end_char=2782|start_char=2778
+15	electric	electric	ADJ	JJ	Degree=Pos	16	mod	_	end_char=2791|start_char=2783
+16	shocks	shock	NOUN	NNS	Number=Plur	13	comp:obj	_	end_char=2798|start_char=2792
+17	after	after	SCONJ	IN	_	13	mod	_	end_char=2804|start_char=2799
+18	receiving	receive	VERB	VBG	Tense=Pres|VerbForm=Part	17	comp:obj	_	end_char=2814|start_char=2805
+19	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	end_char=2816|start_char=2815
+20	demonstration	demonstration	NOUN	NN	Number=Sing	18	comp:obj	_	end_char=2830|SpaceAfter=No|start_char=2817
+21	.	.	PUNCT	.	_	8	punct	_	end_char=2831|SpacesAfter=\s\n|start_char=2830
+
+# text = To the researchers’ surprise, 12 of 18 men gave themselves up to four electric shocks, as did six of 24 women.
+# sent_id = 27
+1	To	to	ADP	IN	_	11	udep	_	end_char=2835|start_char=2833
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	end_char=2839|start_char=2836
+3-4	researchers’	_	_	_	_	_	_	_	end_char=2852|start_char=2840
+3	researchers	researcher	NOUN	NNS	Number=Plur	4	comp:obj	_	end_char=2851|start_char=2840
+4	’	's	PART	POS	_	5	udep@poss	_	end_char=2852|start_char=2851
+5	surprise	surprise	NOUN	NN	Number=Sing	1	comp:obj	_	end_char=2861|SpaceAfter=No|start_char=2853
+6	,	,	PUNCT	,	_	1	punct	_	end_char=2862|start_char=2861
+7	12	12	NUM	CD	NumForm=Digit|NumType=Card	11	subj	_	end_char=2865|start_char=2863
+8	of	of	ADP	IN	_	7	udep	_	end_char=2868|start_char=2866
+9	18	18	NUM	CD	NumForm=Digit|NumType=Card	10	mod	_	end_char=2871|start_char=2869
+10	men	man	NOUN	NNS	Number=Plur	8	comp:obj	_	end_char=2875|start_char=2872
+11	gave	give	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=2880|start_char=2876
+12	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	11	comp:obj	_	end_char=2891|start_char=2881
+13	up	up	ADP	RP	_	11	compound@prt	_	end_char=2894|start_char=2892
+14	to	to	ADP	IN	_	11	udep	_	end_char=2897|start_char=2895
+15	four	four	NUM	CD	NumForm=Word|NumType=Card	17	mod	_	end_char=2902|start_char=2898
+16	electric	electric	ADJ	JJ	Degree=Pos	17	mod	_	end_char=2911|start_char=2903
+17	shocks	shock	NOUN	NNS	Number=Plur	14	comp:obj	_	end_char=2918|SpaceAfter=No|start_char=2912
+18	,	,	PUNCT	,	_	19	punct	_	end_char=2919|start_char=2918
+19	as	as	SCONJ	IN	_	11	mod	_	end_char=2922|start_char=2920
+20	did	do	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	19	comp:obj	_	end_char=2926|start_char=2923
+21	six	six	NUM	CD	NumForm=Word|NumType=Card	20	comp:obj	_	end_char=2930|start_char=2927
+22	of	of	ADP	IN	_	21	udep	_	end_char=2933|start_char=2931
+23	24	24	NUM	CD	NumForm=Digit|NumType=Card	24	mod	_	end_char=2936|start_char=2934
+24	women	woman	NOUN	NNS	Number=Plur	22	comp:obj	_	end_char=2942|SpaceAfter=No|start_char=2937
+25	.	.	PUNCT	.	_	11	punct	_	end_char=2943|SpacesAfter=\s\n|start_char=2942
+
+# text = “What is striking is that simply being alone with their thoughts was apparently so aversive that it drove many participants to self-administer an electric shock that they had earlier said they would pay to avoid,” the scientists write in Science Jessica Andrews-Hanna at the University of Colorado said many students would probably zap themselves to cheer up a tedious lecture.
+# sent_id = 28
+1	“	''	PUNCT	``	_	5	punct	_	end_char=2946|SpaceAfter=No|start_char=2945
+2	What	what	PRON	WP	PronType=Int	5	subj	_	end_char=2950|start_char=2946
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	subj	_	end_char=2953|start_char=2951
+4	striking	strike	VERB	VBG	Tense=Pres|VerbForm=Part	3	comp:pred	_	end_char=2962|start_char=2954
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=2965|start_char=2963
+6	that	that	SCONJ	IN	_	5	comp:pred	_	end_char=2970|start_char=2966
+7	simply	simply	ADV	RB	_	13	mod	_	end_char=2977|start_char=2971
+8	being	be	AUX	VBG	Tense=Pres|VerbForm=Part	13	mod	_	end_char=2983|start_char=2978
+9	alone	alone	ADJ	JJ	Degree=Pos	8	comp:pred	_	end_char=2989|start_char=2984
+10	with	with	ADP	IN	_	9	udep	_	end_char=2994|start_char=2990
+11	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	mod@poss	_	end_char=3000|start_char=2995
+12	thoughts	thought	NOUN	NNS	Number=Plur	10	comp:obj	_	end_char=3009|start_char=3001
+13	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	comp:obj	_	end_char=3013|start_char=3010
+14	apparently	apparently	ADV	RB	_	13	mod	_	end_char=3024|start_char=3014
+15	so	so	ADV	RB	_	13	mod	_	end_char=3027|start_char=3025
+16	aversive	aversive	ADJ	JJ	Degree=Pos	13	comp:pred	_	end_char=3036|start_char=3028
+17	that	that	SCONJ	IN	_	16	comp:obl	_	end_char=3041|start_char=3037
+18	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	subj	_	end_char=3044|start_char=3042
+19	drove	drive	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	comp:obj	_	end_char=3050|start_char=3045
+20	many	many	ADJ	JJ	Degree=Pos	21	mod	_	end_char=3055|start_char=3051
+21	participants	participant	NOUN	NNS	Number=Plur	19	comp:obj	_	end_char=3068|start_char=3056
+22	to	to	ADP	IN	_	19	comp:obj	_	end_char=3071|start_char=3069
+23	self	self	NOUN	NN	Number=Sing	25	compound	_	end_char=3076|SpaceAfter=No|start_char=3072
+24	-	-	PUNCT	HYPH	_	23	punct	_	end_char=3077|SpaceAfter=No|start_char=3076
+25	administer	administer	VERB	VB	VerbForm=Inf	28	mod	_	end_char=3087|start_char=3077
+26	an	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	end_char=3090|start_char=3088
+27	electric	electric	ADJ	JJ	Degree=Pos	28	mod	_	end_char=3099|start_char=3091
+28	shock	shock	NOUN	NN	Number=Sing	22	comp:obj	_	end_char=3105|start_char=3100
+29	that	that	PRON	WDT	PronType=Rel	36	comp:obj	_	end_char=3110|start_char=3106
+30	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	31	subj	_	end_char=3115|start_char=3111
+31	had	have	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	28	mod@relcl	_	end_char=3119|start_char=3116
+32	earlier	early	ADV	RBR	Degree=Cmp	31	mod	_	end_char=3127|start_char=3120
+33	said	say	VERB	VBN	Tense=Past|VerbForm=Part	31	comp:aux	_	end_char=3132|start_char=3128
+34	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	35	subj	_	end_char=3137|start_char=3133
+35	would	would	AUX	MD	VerbForm=Fin	33	comp:obj	_	end_char=3143|start_char=3138
+36	pay	pay	VERB	VB	VerbForm=Inf	35	comp:aux	_	end_char=3147|start_char=3144
+37	to	to	PART	TO	_	36	comp:obl	_	end_char=3150|start_char=3148
+38	avoid	avoid	VERB	VB	VerbForm=Inf	37	comp:obj	_	end_char=3156|SpaceAfter=No|start_char=3151|Subject=SubjRaising
+39	,	,	PUNCT	,	_	13	punct	_	end_char=3157|SpaceAfter=No|start_char=3156
+40	”	''	PUNCT	''	_	13	punct	_	end_char=3158|start_char=3157
+41	the	the	DET	DT	Definite=Def|PronType=Art	42	det	_	end_char=3162|start_char=3159
+42	scientists	scientist	NOUN	NNS	Number=Plur	43	subj	_	end_char=3173|start_char=3163
+43	write	write	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	parataxis	_	end_char=3179|start_char=3174
+44	in	in	ADP	IN	_	43	udep	_	end_char=3182|start_char=3180
+45	Science	Science	PROPN	NNP	Number=Sing	44	comp:obj	_	end_char=3190|SpacesAfter=\s\s\n|start_char=3183
+46	Jessica	Jessica	PROPN	NNP	Number=Sing	45	flat	_	end_char=3200|start_char=3193
+47	Andrews	Andrews	PROPN	NNP	Number=Sing	46	flat	_	end_char=3208|SpaceAfter=No|start_char=3201
+48	-	-	PUNCT	HYPH	_	49	punct	_	end_char=3209|SpaceAfter=No|start_char=3208
+49	Hanna	Hanna	PROPN	NNP	Number=Sing	47	flat	_	end_char=3214|start_char=3209
+50	at	at	ADP	IN	_	46	udep	_	end_char=3217|start_char=3215
+51	the	the	DET	DT	Definite=Def|PronType=Art	52	det	_	end_char=3221|start_char=3218
+52	University	University	PROPN	NNP	Number=Sing	50	comp:obj	_	end_char=3232|start_char=3222
+53	of	of	ADP	IN	_	52	udep	_	end_char=3235|start_char=3233
+54	Colorado	Colorado	PROPN	NNP	Number=Sing	53	comp:obj	_	end_char=3244|start_char=3236
+55	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	43	parataxis	_	end_char=3249|start_char=3245
+56	many	many	ADJ	JJ	Degree=Pos	57	mod	_	end_char=3254|start_char=3250
+57	students	student	NOUN	NNS	Number=Plur	58	subj	_	end_char=3263|start_char=3255
+58	would	would	AUX	MD	VerbForm=Fin	55	comp:obj	_	end_char=3269|start_char=3264
+59	probably	probably	ADV	RB	_	58	mod	_	end_char=3278|start_char=3270
+60	zap	zap	VERB	VB	VerbForm=Inf	58	comp:aux	_	end_char=3282|start_char=3279
+61	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	60	comp:obj	_	end_char=3293|start_char=3283
+62	to	to	PART	TO	_	58	mod	_	end_char=3296|start_char=3294
+63	cheer	cheer	VERB	VB	VerbForm=Inf	62	comp:obj	_	end_char=3302|start_char=3297
+64	up	up	ADP	RP	_	63	compound@prt	_	end_char=3305|start_char=3303
+65	a	a	DET	DT	Definite=Ind|PronType=Art	67	det	_	end_char=3307|start_char=3306
+66	tedious	tedious	ADJ	JJ	Degree=Pos	67	mod	_	end_char=3315|start_char=3308
+67	lecture	lecture	NOUN	NN	Number=Sing	63	comp:obj	_	end_char=3323|SpaceAfter=No|start_char=3316
+68	.	.	PUNCT	.	_	43	punct	_	end_char=3324|start_char=3323
+
+# text = But, she says more needs to be known about the motivation of the shockers in Wilson’s study.
+# sent_id = 29
+1	But	but	CCONJ	CC	_	4	cc	_	end_char=3328|SpaceAfter=No|start_char=3325
+2	,	,	PUNCT	,	_	1	punct	_	end_char=3329|start_char=3328
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	subj	_	end_char=3333|start_char=3330
+4	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=3338|start_char=3334
+5	more	more	ADJ	JJR	Degree=Cmp	6	subj	_	end_char=3343|start_char=3339
+6	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	comp:obj	_	end_char=3349|start_char=3344
+7	to	to	PART	TO	_	6	comp:pred	_	end_char=3352|start_char=3350
+8	be	be	AUX	VB	VerbForm=Inf	7	comp:obj	_	end_char=3355|start_char=3353|Subject=SubjRaising
+9	known	know	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	comp:aux@pass	_	end_char=3361|start_char=3356
+10	about	about	ADP	IN	_	9	udep	_	end_char=3367|start_char=3362
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	end_char=3371|start_char=3368
+12	motivation	motivation	NOUN	NN	Number=Sing	10	comp:obj	_	end_char=3382|start_char=3372
+13	of	of	ADP	IN	_	12	udep	_	end_char=3385|start_char=3383
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	end_char=3389|start_char=3386
+15	shockers	shocker	NOUN	NNS	Number=Plur	13	comp:obj	_	end_char=3398|start_char=3390
+16	in	in	ADP	IN	_	15	udep	_	end_char=3401|start_char=3399
+17-18	Wilson’s	_	_	_	_	_	_	_	end_char=3410|start_char=3402
+17	Wilson	Wilson	PROPN	NNP	Number=Sing	18	comp:obj	_	end_char=3408|start_char=3402
+18	’s	's	PART	POS	_	19	udep@poss	_	end_char=3410|start_char=3408
+19	study	study	NOUN	NN	Number=Sing	16	comp:obj	_	end_char=3416|SpaceAfter=No|start_char=3411
+20	.	.	PUNCT	.	_	4	punct	_	end_char=3417|SpacesAfter=\s\n|start_char=3416
+
+# text = “Imagine the setup – a person is told to sit in a chair with wires attached to their skin and a button that will deliver a harmless but uncomfortable shock, and they are told to just sit there and entertain themselves with their thoughts,” she said.
+# sent_id = 30
+1	“	''	PUNCT	``	_	2	punct	_	end_char=3420|SpaceAfter=No|start_char=3419
+2	Imagine	imagine	VERB	VB	Mood=Imp|Shared=No|VerbForm=Fin	8	reparandum	_	end_char=3427|start_char=3420
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	end_char=3431|start_char=3428
+4	setup	setup	NOUN	NN	Number=Sing	2	comp:obj	_	end_char=3437|start_char=3432
+5	–	-	PUNCT	:	_	2	punct	_	end_char=3439|start_char=3438
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	end_char=3441|start_char=3440
+7	person	person	NOUN	NN	Number=Sing|Shared=No	8	subj@pass	_	end_char=3448|start_char=3442
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	50	comp:obj	_	end_char=3451|start_char=3449
+9	told	tell	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	comp:aux@pass	_	end_char=3456|start_char=3452
+10	to	to	PART	TO	_	9	comp:obl	_	end_char=3459|start_char=3457
+11	sit	sit	VERB	VB	VerbForm=Inf	10	comp:obj	_	end_char=3463|start_char=3460|Subject=SubjRaising
+12	in	in	ADP	IN	_	11	udep	_	end_char=3466|start_char=3464
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	end_char=3468|start_char=3467
+14	chair	chair	NOUN	NN	Number=Sing	12	comp:obj	_	end_char=3474|start_char=3469
+15	with	with	ADP	IN	_	11	udep	_	end_char=3479|start_char=3475
+16	wires	wire	NOUN	NNS	Number=Plur	15	comp:obj	_	end_char=3485|start_char=3480
+17	attached	attach	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	16	mod	_	end_char=3494|start_char=3486
+18	to	to	ADP	IN	_	17	udep	_	end_char=3497|start_char=3495
+19	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs|Shared=No	20	mod@poss	_	end_char=3503|start_char=3498
+20	skin	skin	NOUN	NN	Number=Sing	18	comp:obj	_	end_char=3508|start_char=3504
+21	and	and	CCONJ	CC	_	23	cc	_	end_char=3512|start_char=3509
+22	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	end_char=3514|start_char=3513
+23	button	button	NOUN	NN	Number=Sing	20	conj:coord	_	end_char=3521|start_char=3515
+24	that	that	PRON	WDT	PronType=Rel	25	subj	_	end_char=3526|start_char=3522
+25	will	will	AUX	MD	Shared=No|VerbForm=Fin	23	mod@relcl	_	end_char=3531|start_char=3527
+26	deliver	deliver	VERB	VB	VerbForm=Inf	25	comp:aux	_	end_char=3539|start_char=3532
+27	a	a	DET	DT	Definite=Ind|PronType=Art	31	det	_	end_char=3541|start_char=3540
+28	harmless	harmless	ADJ	JJ	Degree=Pos	31	mod	_	end_char=3550|start_char=3542
+29	but	but	CCONJ	CC	_	30	cc	_	end_char=3554|start_char=3551
+30	uncomfortable	uncomfortable	ADJ	JJ	Degree=Pos	28	conj:coord	_	end_char=3568|start_char=3555
+31	shock	shock	NOUN	NN	Number=Sing	26	comp:obj	_	end_char=3574|SpaceAfter=No|start_char=3569
+32	,	,	PUNCT	,	_	35	punct	_	end_char=3575|start_char=3574
+33	and	and	CCONJ	CC	_	35	cc	_	end_char=3579|start_char=3576
+34	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	35	subj@pass	_	end_char=3584|start_char=3580
+35	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	conj:coord	_	end_char=3588|start_char=3585
+36	told	tell	VERB	VBN	Shared=No|Tense=Past|VerbForm=Part|Voice=Pass	35	comp:aux@pass	_	end_char=3593|start_char=3589
+37	to	to	PART	TO	_	36	comp:obl	_	end_char=3596|start_char=3594
+38	just	just	ADV	RB	_	39	mod	_	end_char=3601|start_char=3597
+39	sit	sit	VERB	VB	VerbForm=Inf	37	comp:obj	_	end_char=3605|start_char=3602|Subject=SubjRaising
+40	there	there	ADV	RB	PronType=Dem	39	mod	_	end_char=3611|start_char=3606
+41	and	and	CCONJ	CC	_	42	cc	_	end_char=3615|start_char=3612
+42	entertain	entertain	VERB	VB	VerbForm=Inf	39	conj:coord	_	end_char=3625|start_char=3616
+43	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes|Shared=No	42	comp:obj	_	end_char=3636|start_char=3626
+44	with	with	ADP	IN	Shared=No	42	udep	_	end_char=3641|start_char=3637
+45	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	46	mod@poss	_	end_char=3647|start_char=3642
+46	thoughts	thought	NOUN	NNS	Number=Plur	44	comp:obj	_	end_char=3656|SpaceAfter=No|start_char=3648
+47	,	,	PUNCT	,	_	8	punct	_	end_char=3657|SpaceAfter=No|start_char=3656
+48	”	''	PUNCT	''	_	8	punct	_	end_char=3658|start_char=3657
+49	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	50	subj	_	end_char=3662|start_char=3659
+50	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=3667|SpaceAfter=No|start_char=3663
+51	.	.	PUNCT	.	_	50	punct	_	end_char=3668|SpacesAfter=\s\n|start_char=3667
+
+# text = “As they sit there, strapped to this machine, their mind starts to wander and it naturally goes to that shock – was it really that bad?
+# sent_id = 31
+1	“	''	PUNCT	``	Shared=Yes	14	punct	_	end_char=3671|SpaceAfter=No|start_char=3670
+2	As	as	SCONJ	IN	Shared=Yes	14	mod	_	end_char=3673|start_char=3671
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	subj	_	end_char=3678|start_char=3674
+4	sit	sit	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj	_	end_char=3682|start_char=3679
+5	there	there	ADV	RB	PronType=Dem	4	mod	_	end_char=3688|SpaceAfter=No|start_char=3683
+6	,	,	PUNCT	,	_	7	punct	_	end_char=3689|start_char=3688
+7	strapped	strapp	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	comp:pred	_	end_char=3698|start_char=3690|Subject=SubjRaising
+8	to	to	ADP	IN	_	7	udep	_	end_char=3701|start_char=3699
+9	this	this	DET	DT	Number=Sing|PronType=Dem	10	det	_	end_char=3706|start_char=3702
+10	machine	machine	NOUN	NN	Number=Sing	8	comp:obj	_	end_char=3714|SpaceAfter=No|start_char=3707
+11	,	,	PUNCT	,	_	2	punct	_	end_char=3715|start_char=3714
+12	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	mod@poss	_	end_char=3721|start_char=3716
+13	mind	mind	NOUN	NN	Number=Sing|Shared=No	14	subj	_	end_char=3726|start_char=3722
+14	starts	start	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=3733|start_char=3727
+15	to	to	PART	TO	_	14	comp:obl	_	end_char=3736|start_char=3734
+16	wander	wander	VERB	VB	VerbForm=Inf	15	comp:obj	_	end_char=3743|start_char=3737|Subject=SubjRaising
+17	and	and	CCONJ	CC	_	20	cc	_	end_char=3747|start_char=3744
+18	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	subj	_	end_char=3750|start_char=3748
+19	naturally	naturally	ADV	RB	_	20	mod	_	end_char=3760|start_char=3751
+20	goes	go	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj:coord	_	end_char=3765|start_char=3761
+21	to	to	ADP	IN	Shared=No	20	udep	_	end_char=3768|start_char=3766
+22	that	that	DET	DT	Number=Sing|PronType=Dem	23	det	_	end_char=3773|start_char=3769
+23	shock	shock	NOUN	NN	Number=Sing	21	comp:obj	_	end_char=3779|start_char=3774
+24	–	-	PUNCT	:	_	25	punct	_	end_char=3781|start_char=3780
+25	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	parataxis	_	end_char=3785|start_char=3782
+26	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	subj	_	end_char=3788|start_char=3786
+27	really	really	ADV	RB	_	25	mod	_	end_char=3795|start_char=3789
+28	that	that	ADV	RB	_	25	mod	_	end_char=3800|start_char=3796
+29	bad	bad	ADJ	JJ	Degree=Pos	25	comp:pred	_	end_char=3804|SpaceAfter=No|start_char=3801
+30	?	?	PUNCT	.	_	14	punct	_	end_char=3805|SpacesAfter=\s\n|start_char=3804
+
+# text = “What are the experimenters really interested in?
+# sent_id = 32
+1	“	''	PUNCT	``	_	3	punct	_	end_char=3808|SpaceAfter=No|start_char=3807
+2	What	what	PRON	WP	PronType=Int	8	comp:obj	_	end_char=3812|start_char=3808
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=3816|start_char=3813
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	end_char=3820|start_char=3817
+5	experimenters	experimenter	NOUN	NNS	Number=Plur	3	subj	_	end_char=3834|start_char=3821
+6	really	really	ADV	RB	_	3	mod	_	end_char=3841|start_char=3835
+7	interested	interested	ADJ	JJ	Degree=Pos	3	comp:pred	_	end_char=3852|start_char=3842
+8	in	in	ADP	IN	_	7	udep	_	end_char=3855|SpaceAfter=No|start_char=3853
+9	?	?	PUNCT	.	_	3	punct	_	end_char=3856|start_char=3855
+
+# text = Perhaps this is a case where curiosity killed the cat.”
+# sent_id = 33
+1	Perhaps	perhaps	ADV	RB	_	3	mod	_	end_char=3864|start_char=3857
+2	this	this	PRON	DT	Number=Sing|PronType=Dem	3	subj	_	end_char=3869|start_char=3865
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=3872|start_char=3870
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	end_char=3874|start_char=3873
+5	case	case	NOUN	NN	Number=Sing	3	comp:pred	_	end_char=3879|start_char=3875
+6	where	where	ADV	WRB	PronType=Rel	8	mod	_	end_char=3885|start_char=3880
+7	curiosity	curiosity	NOUN	NN	Number=Sing	8	subj	_	end_char=3895|start_char=3886
+8	killed	kill	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	mod@relcl	_	end_char=3902|start_char=3896
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	end_char=3906|start_char=3903
+10	cat	cat	NOUN	NN	Number=Sing	8	comp:obj	_	end_char=3910|SpaceAfter=No|start_char=3907
+11	.	.	PUNCT	.	_	3	punct	_	end_char=3911|SpaceAfter=No|start_char=3910
+12	”	''	PUNCT	''	_	3	punct	_	end_char=3912|SpaceAfter=No|start_char=3911
+

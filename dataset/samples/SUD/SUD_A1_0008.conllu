@@ -1,0 +1,183 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# text = Mike was ready for bed.
+# sent_id = 0
+1	Mike	Mike	PROPN	NNP	Number=Sing	2	subj	_	end_char=4|start_char=0
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=8|start_char=5
+3	ready	ready	ADJ	JJ	Degree=Pos	2	comp:pred	_	end_char=14|start_char=9
+4	for	for	ADP	IN	_	3	udep	_	end_char=18|start_char=15
+5	bed	bed	NOUN	NN	Number=Sing	4	comp:obj	_	end_char=22|SpaceAfter=No|start_char=19
+6	.	.	PUNCT	.	_	2	punct	_	end_char=23|start_char=22
+
+# text = It was 11 o'clock.
+# sent_id = 1
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=26|start_char=24
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=30|start_char=27
+3	11	11	NUM	CD	NumForm=Digit|NumType=Card	2	comp:pred	_	end_char=33|start_char=31
+4	o'clock	o'clock	NOUN	NN	Number=Sing	3	mod@unmarked	_	end_char=41|SpaceAfter=No|start_char=34
+5	.	.	PUNCT	.	_	2	punct	_	end_char=42|start_char=41
+
+# text = He had to get up early the next day.
+# sent_id = 2
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=45|start_char=43
+2	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=49|start_char=46
+3	to	to	PART	TO	_	2	comp:obl	_	end_char=52|start_char=50
+4	get	get	VERB	VB	VerbForm=Inf	3	comp:obj	_	end_char=56|start_char=53|Subject=SubjRaising
+5	up	up	ADP	RP	_	4	compound@prt	_	end_char=59|start_char=57
+6	early	early	ADV	RB	Degree=Pos	4	mod	_	end_char=65|start_char=60
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	end_char=69|start_char=66
+8	next	next	ADJ	JJ	Degree=Pos	9	mod	_	end_char=74|start_char=70
+9	day	day	NOUN	NN	Number=Sing	4	udep@unmarked	_	end_char=78|SpaceAfter=No|start_char=75
+10	.	.	PUNCT	.	_	2	punct	_	end_char=79|start_char=78
+
+# text = The next day he was going fishing.
+# sent_id = 3
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	end_char=83|start_char=80
+2	next	next	ADJ	JJ	Degree=Pos	3	mod	_	end_char=88|start_char=84
+3	day	day	NOUN	NN	Number=Sing	5	udep@unmarked	_	end_char=92|start_char=89
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj	_	end_char=95|start_char=93
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=99|start_char=96
+6	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	5	comp:aux	_	end_char=105|start_char=100
+7	fishing	fishing	NOUN	NN	Number=Sing	6	comp:obj	_	end_char=113|SpaceAfter=No|start_char=106
+8	.	.	PUNCT	.	_	5	punct	_	end_char=114|start_char=113
+
+# text = Fish wake up early.
+# sent_id = 4
+1	Fish	Fish	PROPN	NNP	Number=Sing	2	subj	_	end_char=119|start_char=115
+2	wake	wake	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	end_char=124|start_char=120
+3	up	up	ADP	RP	_	2	compound@prt	_	end_char=127|start_char=125
+4	early	early	ADV	RB	Degree=Pos	2	mod	_	end_char=133|SpaceAfter=No|start_char=128
+5	.	.	PUNCT	.	_	2	punct	_	end_char=134|start_char=133
+
+# text = They look for food early in the day.
+# sent_id = 5
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	subj	_	end_char=139|start_char=135
+2	look	look	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=144|start_char=140
+3	for	for	ADP	IN	_	2	udep	_	end_char=148|start_char=145
+4	food	food	NOUN	NN	Number=Sing	3	comp:obj	_	end_char=153|start_char=149
+5	early	early	ADV	RB	Degree=Pos	2	mod	_	end_char=159|start_char=154
+6	in	in	ADP	IN	_	2	udep	_	end_char=162|start_char=160
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	end_char=166|start_char=163
+8	day	day	NOUN	NN	Number=Sing	6	comp:obj	_	end_char=170|SpaceAfter=No|start_char=167
+9	.	.	PUNCT	.	_	2	punct	_	end_char=171|start_char=170
+
+# text = They look for food late in the day.
+# sent_id = 6
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	subj	_	end_char=176|start_char=172
+2	look	look	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=181|start_char=177
+3	for	for	ADP	IN	_	2	udep	_	end_char=185|start_char=182
+4	food	food	NOUN	NN	Number=Sing	3	comp:obj	_	end_char=190|start_char=186
+5	late	late	ADV	RB	Degree=Pos	2	mod	_	end_char=195|start_char=191
+6	in	in	ADP	IN	_	2	udep	_	end_char=198|start_char=196
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	end_char=202|start_char=199
+8	day	day	NOUN	NN	Number=Sing	6	comp:obj	_	end_char=206|SpaceAfter=No|start_char=203
+9	.	.	PUNCT	.	_	2	punct	_	end_char=207|start_char=206
+
+# text = The best time to fish is early or late in the day.
+# sent_id = 7
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	end_char=211|start_char=208
+2	best	good	ADJ	JJS	Degree=Sup	3	mod	_	end_char=216|start_char=212
+3	time	time	NOUN	NN	Number=Sing|Shared=Yes	6	subj	_	end_char=221|start_char=217
+4	to	to	PART	TO	_	3	udep	_	end_char=224|start_char=222
+5	fish	fish	VERB	VB	VerbForm=Inf	4	comp:obj	_	end_char=229|start_char=225
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=232|start_char=230
+7	early	early	ADJ	JJ	Degree=Pos	6	comp:pred	_	end_char=238|start_char=233
+8	or	or	CCONJ	CC	_	9	cc	_	end_char=241|start_char=239
+9	late	late	ADV	RB	Degree=Pos	6	conj:coord	_	end_char=246|start_char=242
+10	in	in	ADP	IN	_	7	udep	_	end_char=249|start_char=247
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	end_char=253|start_char=250
+12	day	day	NOUN	NN	Number=Sing	10	comp:obj	_	end_char=257|SpaceAfter=No|start_char=254
+13	.	.	PUNCT	.	_	6	punct	_	end_char=258|start_char=257
+
+# text = That is when the fish are hungry.
+# sent_id = 8
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	3	subj	_	end_char=263|start_char=259
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=266|start_char=264
+3	when	when	ADV	WRB	PronType=Int	2	mod	_	end_char=271|start_char=267
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	end_char=275|start_char=272
+5	fish	fish	NOUN	NNS	Number=Plur	2	subj	_	end_char=280|start_char=276
+6	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	comp:pred	_	end_char=284|start_char=281
+7	hungry	hungry	ADJ	JJ	Degree=Pos	6	comp:pred	_	end_char=291|SpaceAfter=No|start_char=285
+8	.	.	PUNCT	.	_	3	punct	_	end_char=292|start_char=291
+
+# text = Mike set his alarm.
+# sent_id = 9
+1	Mike	Mike	PROPN	NNP	Number=Sing	2	subj	_	end_char=297|start_char=293
+2	set	set	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=301|start_char=298
+3	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	mod@poss	_	end_char=305|start_char=302
+4	alarm	alarm	NOUN	NN	Number=Sing	2	comp:obj	_	end_char=311|SpaceAfter=No|start_char=306
+5	.	.	PUNCT	.	_	2	punct	_	end_char=312|start_char=311
+
+# text = He set his alarm for 5 o'clock.
+# sent_id = 10
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=315|start_char=313
+2	set	set	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=319|start_char=316
+3	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	mod@poss	_	end_char=323|start_char=320
+4	alarm	alarm	NOUN	NN	Number=Sing	2	comp:obj	_	end_char=329|start_char=324
+5	for	for	ADP	IN	_	2	udep	_	end_char=333|start_char=330
+6	5	5	NUM	CD	NumForm=Digit|NumType=Card	5	comp:obj	_	end_char=335|start_char=334
+7	o'clock	o'clock	NOUN	NN	Number=Sing	2	udep	_	end_char=343|SpaceAfter=No|start_char=336
+8	.	.	PUNCT	.	_	2	punct	_	end_char=344|start_char=343
+
+# text = The next day he would start fishing at 6 o'clock.
+# sent_id = 11
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	end_char=348|start_char=345
+2	next	next	ADJ	JJ	Degree=Pos	3	mod	_	end_char=353|start_char=349
+3	day	day	NOUN	NN	Number=Sing	5	udep@unmarked	_	end_char=357|start_char=354
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj	_	end_char=360|start_char=358
+5	would	would	AUX	MD	VerbForm=Fin	0	root	_	end_char=366|start_char=361
+6	start	start	VERB	VB	VerbForm=Inf	5	comp:aux	_	end_char=372|start_char=367
+7	fishing	fishing	VERB	VBG	VerbForm=Ger	6	comp:obj	_	end_char=380|start_char=373|Subject=SubjRaising
+8	at	at	ADP	IN	_	7	udep	_	end_char=383|start_char=381
+9	6	6	NUM	CD	NumForm=Digit|NumType=Card	8	comp:obj	_	end_char=385|start_char=384
+10	o'clock	o'clock	NOUN	NN	Number=Sing	7	udep	_	end_char=393|SpaceAfter=No|start_char=386
+11	.	.	PUNCT	.	_	5	punct	_	end_char=394|start_char=393
+
+# text = He wanted to catch four or five fish.
+# sent_id = 12
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	end_char=397|start_char=395
+2	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=404|start_char=398
+3	to	to	PART	TO	_	2	comp:obl	_	end_char=407|start_char=405
+4	catch	catch	VERB	VB	VerbForm=Inf	3	comp:obj	_	end_char=413|start_char=408|Subject=SubjRaising
+5	four	four	NUM	CD	NumForm=Word|NumType=Card	8	mod	_	end_char=418|start_char=414
+6	or	or	CCONJ	CC	_	7	cc	_	end_char=421|start_char=419
+7	five	five	NUM	CD	NumForm=Word|NumType=Card	5	conj:coord	_	end_char=426|start_char=422
+8	fish	fish	NOUN	NNS	Number=Plur	4	comp:obj	_	end_char=431|SpaceAfter=No|start_char=427
+9	.	.	PUNCT	.	_	2	punct	_	end_char=432|start_char=431
+
+# text = If he caught four or five fish, he could eat fresh fish all week.
+# sent_id = 13
+1	If	if	SCONJ	IN	_	10	mod	_	end_char=435|start_char=433
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	end_char=438|start_char=436
+3	caught	catch	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	comp:obj	_	end_char=445|start_char=439
+4	four	four	NUM	CD	NumForm=Word|NumType=Card	7	mod	_	end_char=450|start_char=446
+5	or	or	CCONJ	CC	_	6	cc	_	end_char=453|start_char=451
+6	five	five	NUM	CD	NumForm=Word|NumType=Card	4	conj:coord	_	end_char=458|start_char=454
+7	fish	fish	NOUN	NNS	Number=Plur	3	comp:obj	_	end_char=463|SpaceAfter=No|start_char=459
+8	,	,	PUNCT	,	_	1	punct	_	end_char=464|start_char=463
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	subj	_	end_char=467|start_char=465
+10	could	could	AUX	MD	VerbForm=Fin	0	root	_	end_char=473|start_char=468
+11	eat	eat	VERB	VB	VerbForm=Inf	10	comp:aux	_	end_char=477|start_char=474
+12	fresh	fresh	ADJ	JJ	Degree=Pos	13	mod	_	end_char=483|start_char=478
+13	fish	fish	NOUN	NNS	Number=Plur	11	comp:obj	_	end_char=488|start_char=484
+14	all	all	DET	DT	PronType=Tot	15	det	_	end_char=492|start_char=489
+15	week	week	NOUN	NN	Number=Sing	11	udep@unmarked	_	end_char=497|SpaceAfter=No|start_char=493
+16	.	.	PUNCT	.	_	10	punct	_	end_char=498|start_char=497
+
+# text = Fresh fish is the best fish.
+# sent_id = 14
+1	Fresh	Fresh	ADJ	JJ	Degree=Pos	2	mod	_	end_char=504|start_char=499
+2	fish	fish	NOUN	NN	Number=Sing	3	subj	_	end_char=509|start_char=505
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	end_char=512|start_char=510
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	end_char=516|start_char=513
+5	best	good	ADJ	JJS	Degree=Sup	6	mod	_	end_char=521|start_char=517
+6	fish	fish	NOUN	NN	Number=Sing	3	comp:pred	_	end_char=526|SpaceAfter=No|start_char=522
+7	.	.	PUNCT	.	_	3	punct	_	end_char=527|start_char=526
+
+# text = Mike went to bed.
+# sent_id = 15
+1	Mike	Mike	PROPN	NNP	Number=Sing	2	subj	_	end_char=532|start_char=528
+2	went	go	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	end_char=537|start_char=533
+3	to	to	ADP	IN	_	2	udep	_	end_char=540|start_char=538
+4	bed	bed	NOUN	NN	Number=Sing	3	comp:obj	_	end_char=544|SpaceAfter=No|start_char=541
+5	.	.	PUNCT	.	_	2	punct	_	end_char=545|SpaceAfter=No|start_char=544
+

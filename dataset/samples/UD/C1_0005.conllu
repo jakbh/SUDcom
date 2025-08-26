@@ -1,0 +1,1200 @@
+# text = ﻿Swedish prisons have long had a reputation around the world for being progressive.
+# sent_id = 0
+1	﻿	﻿	PROPN	NNP	Number=Sing	3	compound	_	start_char=0|end_char=1|SpaceAfter=No
+2	Swedish	Swedish	ADJ	JJ	Degree=Pos	3	amod	_	start_char=1|end_char=8
+3	prisons	prison	NOUN	NNS	Number=Plur	6	nsubj	_	start_char=9|end_char=16
+4	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=17|end_char=21
+5	long	long	ADV	RB	Degree=Pos	6	advmod	_	start_char=22|end_char=26
+6	had	have	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=27|end_char=30
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=31|end_char=32
+8	reputation	reputation	NOUN	NN	Number=Sing	6	obj	_	start_char=33|end_char=43
+9	around	around	ADP	IN	_	11	case	_	start_char=44|end_char=50
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=51|end_char=54
+11	world	world	NOUN	NN	Number=Sing	8	nmod	_	start_char=55|end_char=60
+12	for	for	SCONJ	IN	_	14	mark	_	start_char=61|end_char=64
+13	being	be	AUX	VBG	Tense=Pres|VerbForm=Part	14	cop	_	start_char=65|end_char=70
+14	progressive	progressive	ADJ	JJ	Degree=Pos	6	advcl	_	start_char=71|end_char=82|SpaceAfter=No
+15	.	.	PUNCT	.	_	6	punct	_	start_char=82|end_char=83
+
+# text = But are the country’s prisons a soft option?
+# sent_id = 1
+1	But	but	CCONJ	CC	_	9	cc	_	start_char=84|end_char=87
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=88|end_char=91
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=92|end_char=95
+4-5	country’s	_	_	_	_	_	_	_	start_char=96|end_char=105
+4	country	country	NOUN	NN	Number=Sing	6	nmod:poss	_	start_char=96|end_char=103
+5	’s	's	PART	POS	_	4	case	_	start_char=103|end_char=105
+6	prisons	prison	NOUN	NNS	Number=Plur	9	nsubj	_	start_char=106|end_char=113
+7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	start_char=114|end_char=115
+8	soft	soft	ADJ	JJ	Degree=Pos	9	amod	_	start_char=116|end_char=120
+9	option	option	NOUN	NN	Number=Sing	0	root	_	start_char=121|end_char=127|SpaceAfter=No
+10	?	?	PUNCT	.	_	9	punct	_	start_char=127|end_char=128|SpacesAfter=\s\n
+
+# text = The head of Sweden’s prison and probation service, Nils Oberg, announced in November 2013 that four Swedish prisons are to be closed due to an “out of the ordinary” decline in prisoner numbers.
+# sent_id = 2
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=130|end_char=133
+2	head	head	NOUN	NN	Number=Sing	14	nsubj	_	start_char=134|end_char=138
+3	of	of	ADP	IN	_	9	case	_	start_char=139|end_char=141
+4-5	Sweden’s	_	_	_	_	_	_	_	start_char=142|end_char=150
+4	Sweden	Sweden	PROPN	NNP	Number=Sing	9	nmod:poss	_	start_char=142|end_char=148
+5	’s	's	PART	POS	_	4	case	_	start_char=148|end_char=150
+6	prison	prison	NOUN	NN	Number=Sing	9	compound	_	start_char=151|end_char=157
+7	and	and	CCONJ	CC	_	8	cc	_	start_char=158|end_char=161
+8	probation	probation	NOUN	NN	Number=Sing	6	conj	_	start_char=162|end_char=171
+9	service	service	NOUN	NN	Number=Sing	2	nmod	_	start_char=172|end_char=179|SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	_	start_char=179|end_char=180
+11	Nils	Nils	PROPN	NNP	Number=Sing	9	appos	_	start_char=181|end_char=185
+12	Oberg	Oberg	PROPN	NNP	Number=Sing	11	flat	_	start_char=186|end_char=191|SpaceAfter=No
+13	,	,	PUNCT	,	_	2	punct	_	start_char=191|end_char=192
+14	announced	announce	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=193|end_char=202
+15	in	in	ADP	IN	_	16	case	_	start_char=203|end_char=205
+16	November	November	PROPN	NNP	Number=Sing	14	obl	_	start_char=206|end_char=214
+17	2013	2013	NUM	CD	NumForm=Digit|NumType=Card	16	nummod	_	start_char=215|end_char=219
+18	that	that	SCONJ	IN	_	25	mark	_	start_char=220|end_char=224
+19	four	four	NUM	CD	NumForm=Word|NumType=Card	21	nummod	_	start_char=225|end_char=229
+20	Swedish	Swedish	ADJ	JJ	Degree=Pos	21	amod	_	start_char=230|end_char=237
+21	prisons	prison	NOUN	NNS	Number=Plur	25	nsubj:pass	_	start_char=238|end_char=245
+22	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	start_char=246|end_char=249
+23	to	to	PART	TO	_	25	mark	_	start_char=250|end_char=252
+24	be	be	AUX	VB	VerbForm=Inf	25	aux:pass	_	start_char=253|end_char=255
+25	closed	close	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	ccomp	_	start_char=256|end_char=262
+26	due	due	ADJ	JJ	Degree=Pos|ExtPos=ADP	35	case	_	start_char=263|end_char=266
+27	to	to	ADP	IN	_	26	fixed	_	start_char=267|end_char=269
+28	an	a	DET	DT	Definite=Ind|PronType=Art	35	det	_	start_char=270|end_char=272
+29	“	''	PUNCT	``	_	30	punct	_	start_char=273|end_char=274|SpaceAfter=No
+30	out	out	ADP	IN	_	35	case	_	start_char=274|end_char=277
+31	of	of	ADP	IN	_	30	fixed	_	start_char=278|end_char=280
+32	the	the	DET	DT	Definite=Def|PronType=Art	35	det	_	start_char=281|end_char=284
+33	ordinary	ordinary	ADJ	JJ	Degree=Pos	35	amod	_	start_char=285|end_char=293|SpaceAfter=No
+34	”	''	PUNCT	''	_	33	punct	_	start_char=293|end_char=294
+35	decline	decline	NOUN	NN	Number=Sing	25	obl	_	start_char=295|end_char=302
+36	in	in	ADP	IN	_	38	case	_	start_char=303|end_char=305
+37	prisoner	prisoner	NOUN	NN	Number=Sing	38	compound	_	start_char=306|end_char=314
+38	numbers	number	NOUN	NNS	Number=Plur	35	nmod	_	start_char=315|end_char=322|SpaceAfter=No
+39	.	.	PUNCT	.	_	14	punct	_	start_char=322|end_char=323|SpacesAfter=\s\n
+
+# text = Although there has been no fall in crime rates, between 2011 and 2012 there was a 6% drop in Sweden’s prisoner population, now a little over 4,500.
+# sent_id = 3
+1	Although	although	SCONJ	IN	_	4	mark	_	start_char=325|end_char=333
+2	there	there	PRON	EX	_	4	expl	_	start_char=334|end_char=339
+3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=340|end_char=343
+4	been	be	VERB	VBN	Tense=Past|VerbForm=Part	16	advcl	_	start_char=344|end_char=348
+5	no	no	DET	DT	PronType=Neg	6	det	_	start_char=349|end_char=351
+6	fall	fall	NOUN	NN	Number=Sing	4	nsubj	_	start_char=352|end_char=356
+7	in	in	ADP	IN	_	9	case	_	start_char=357|end_char=359
+8	crime	crime	NOUN	NN	Number=Sing	9	compound	_	start_char=360|end_char=365
+9	rates	rate	NOUN	NNS	Number=Plur	6	nmod	_	start_char=366|end_char=371|SpaceAfter=No
+10	,	,	PUNCT	,	_	4	punct	_	start_char=371|end_char=372
+11	between	between	ADP	IN	_	12	case	_	start_char=373|end_char=380
+12	2011	2011	NUM	CD	NumForm=Digit|NumType=Card	4	obl	_	start_char=381|end_char=385
+13	and	and	CCONJ	CC	_	14	cc	_	start_char=386|end_char=389
+14	2012	2012	NUM	CD	NumForm=Digit|NumType=Card	12	conj	_	start_char=390|end_char=394
+15	there	there	PRON	EX	_	16	expl	_	start_char=395|end_char=400
+16	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=401|end_char=404
+17	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	start_char=405|end_char=406
+18	6	6	NUM	CD	NumForm=Digit|NumType=Card	19	nummod	_	start_char=407|end_char=408|SpaceAfter=No
+19	%	%	SYM	NN	Number=Sing	20	compound	_	start_char=408|end_char=409
+20	drop	drop	NOUN	NN	Number=Sing	16	nsubj	_	start_char=410|end_char=414
+21	in	in	ADP	IN	_	25	case	_	start_char=415|end_char=417
+22-23	Sweden’s	_	_	_	_	_	_	_	start_char=418|end_char=426
+22	Sweden	Sweden	PROPN	NNP	Number=Sing	25	nmod:poss	_	start_char=418|end_char=424
+23	’s	's	PART	POS	_	22	case	_	start_char=424|end_char=426
+24	prisoner	prisoner	NOUN	NN	Number=Sing	25	compound	_	start_char=427|end_char=435
+25	population	population	NOUN	NN	Number=Sing	20	nmod	_	start_char=436|end_char=446|SpaceAfter=No
+26	,	,	PUNCT	,	_	31	punct	_	start_char=446|end_char=447
+27	now	now	ADV	RB	PronType=Dem	31	advmod	_	start_char=448|end_char=451
+28	a	a	DET	DT	Definite=Ind|PronType=Art	29	det	_	start_char=452|end_char=453
+29	little	little	ADJ	JJ	Degree=Pos	31	obl:unmarked	_	start_char=454|end_char=460
+30	over	over	ADV	RB	_	31	advmod	_	start_char=461|end_char=465
+31	4,500	4500	NUM	CD	NumForm=Digit|NumType=Card	25	appos	_	start_char=466|end_char=471|SpaceAfter=No
+32	.	.	PUNCT	.	_	16	punct	_	start_char=471|end_char=472
+
+# text = A similar decrease is expected in 2013 and 2014.
+# sent_id = 4
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	start_char=473|end_char=474
+2	similar	similar	ADJ	JJ	Degree=Pos	3	amod	_	start_char=475|end_char=482
+3	decrease	decrease	NOUN	NN	Number=Sing	5	nsubj:pass	_	start_char=483|end_char=491
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	start_char=492|end_char=494
+5	expected	expect	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=495|end_char=503
+6	in	in	ADP	IN	_	7	case	_	start_char=504|end_char=506
+7	2013	2013	NUM	CD	NumForm=Digit|NumType=Card	5	obl	_	start_char=507|end_char=511
+8	and	and	CCONJ	CC	_	9	cc	_	start_char=512|end_char=515
+9	2014	2014	NUM	CD	NumForm=Digit|NumType=Card	7	conj	_	start_char=516|end_char=520|SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	_	start_char=520|end_char=521
+
+# text = Oberg admitted to being puzzled by the unexpected dip, but expressed optimism that the reason was to do with how his prisons are run.
+# sent_id = 5
+1	Oberg	Oberg	PROPN	NNP	Number=Sing	2	nsubj	_	start_char=522|end_char=527
+2	admitted	admit	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=528|end_char=536
+3	to	to	SCONJ	IN	_	5	mark	_	start_char=537|end_char=539
+4	being	be	AUX	VBG	Tense=Pres|VerbForm=Part	5	aux:pass	_	start_char=540|end_char=545
+5	puzzled	puzzle	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	advcl	_	start_char=546|end_char=553
+6	by	by	ADP	IN	_	9	case	_	start_char=554|end_char=556
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=557|end_char=560
+8	unexpected	unexpected	ADJ	JJ	Degree=Pos	9	amod	_	start_char=561|end_char=571
+9	dip	dip	NOUN	NN	Number=Sing	5	obl:agent	_	start_char=572|end_char=575|SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	start_char=575|end_char=576
+11	but	but	CCONJ	CC	_	12	cc	_	start_char=577|end_char=580
+12	expressed	express	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	start_char=581|end_char=590
+13	optimism	optimism	NOUN	NN	Number=Sing	12	obj	_	start_char=591|end_char=599
+14	that	that	SCONJ	IN	_	19	mark	_	start_char=600|end_char=604
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	start_char=605|end_char=608
+16	reason	reason	NOUN	NN	Number=Sing	19	nsubj:outer	_	start_char=609|end_char=615
+17	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	cop	_	start_char=616|end_char=619
+18	to	to	PART	TO	_	19	mark	_	start_char=620|end_char=622
+19	do	do	VERB	VB	VerbForm=Inf	13	acl	_	start_char=623|end_char=625
+20	with	with	ADP	IN	_	21	case	_	start_char=626|end_char=630
+21	how	how	ADV	WRB	PronType=Int	19	obl	_	start_char=631|end_char=634
+22	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	start_char=635|end_char=638
+23	prisons	prison	NOUN	NNS	Number=Plur	25	nsubj:pass	_	start_char=639|end_char=646
+24	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	aux:pass	_	start_char=647|end_char=650
+25	run	run	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	21	advcl:relcl	_	start_char=651|end_char=654|SpaceAfter=No
+26	.	.	PUNCT	.	_	2	punct	_	start_char=654|end_char=655
+
+# text = “We certainly hope that the efforts we invest in rehabilitation and preventing relapse of crime has had an impact,” he said.
+# sent_id = 6
+1	“	''	PUNCT	``	_	4	punct	_	start_char=656|end_char=657|SpaceAfter=No
+2	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	start_char=657|end_char=659
+3	certainly	certainly	ADV	RB	_	4	advmod	_	start_char=660|end_char=669
+4	hope	hope	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	24	ccomp	_	start_char=670|end_char=674
+5	that	that	SCONJ	IN	_	18	mark	_	start_char=675|end_char=679
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=680|end_char=683
+7	efforts	effort	NOUN	NNS	Number=Plur	18	nsubj	_	start_char=684|end_char=691
+8	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	start_char=692|end_char=694
+9	invest	invest	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	start_char=695|end_char=701
+10	in	in	ADP	IN	_	11	case	_	start_char=702|end_char=704
+11	rehabilitation	rehabilitation	NOUN	NN	Number=Sing	9	obl	_	start_char=705|end_char=719
+12	and	and	CCONJ	CC	_	13	cc	_	start_char=720|end_char=723
+13	preventing	prevent	VERB	VBG	VerbForm=Ger	9	conj	_	start_char=724|end_char=734
+14	relapse	relapse	NOUN	NN	Number=Sing	13	obj	_	start_char=735|end_char=742
+15	of	of	ADP	IN	_	16	case	_	start_char=743|end_char=745
+16	crime	crime	NOUN	NN	Number=Sing	14	nmod	_	start_char=746|end_char=751
+17	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	start_char=752|end_char=755
+18	had	have	VERB	VBN	Tense=Past|VerbForm=Part	4	ccomp	_	start_char=756|end_char=759
+19	an	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	start_char=760|end_char=762
+20	impact	impact	NOUN	NN	Number=Sing	18	obj	_	start_char=763|end_char=769|SpaceAfter=No
+21	,	,	PUNCT	,	_	4	punct	_	start_char=769|end_char=770|SpaceAfter=No
+22	”	''	PUNCT	''	_	4	punct	_	start_char=770|end_char=771
+23	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	start_char=772|end_char=774
+24	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=775|end_char=779|SpaceAfter=No
+25	.	.	PUNCT	.	_	24	punct	_	start_char=779|end_char=780|SpacesAfter=\s\n
+
+# text = “The modern prison service in Sweden is very different from when I joined as a young prison officer in 1978,” says Kenneth Gustafsson, governor of Kumla Prison, Sweden’s most secure jail, situated 130 miles west of Stockholm.
+# sent_id = 7
+1	“	''	PUNCT	``	_	10	punct	_	start_char=782|end_char=783|SpaceAfter=No
+2	The	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=783|end_char=786
+3	modern	modern	ADJ	JJ	Degree=Pos	5	amod	_	start_char=787|end_char=793
+4	prison	prison	NOUN	NN	Number=Sing	5	compound	_	start_char=794|end_char=800
+5	service	service	NOUN	NN	Number=Sing	10	nsubj	_	start_char=801|end_char=808
+6	in	in	ADP	IN	_	7	case	_	start_char=809|end_char=811
+7	Sweden	Sweden	PROPN	NNP	Number=Sing	5	nmod	_	start_char=812|end_char=818
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=819|end_char=821
+9	very	very	ADV	RB	_	10	advmod	_	start_char=822|end_char=826
+10	different	different	ADJ	JJ	Degree=Pos	24	ccomp	_	start_char=827|end_char=836
+11	from	from	ADP	IN	_	12	case	_	start_char=837|end_char=841
+12	when	when	ADV	WRB	PronType=Int	14	advmod	_	start_char=842|end_char=846
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	start_char=847|end_char=848
+14	joined	join	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	10	advcl	_	start_char=849|end_char=855
+15	as	as	ADP	IN	_	19	case	_	start_char=856|end_char=858
+16	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	start_char=859|end_char=860
+17	young	young	ADJ	JJ	Degree=Pos	19	amod	_	start_char=861|end_char=866
+18	prison	prison	NOUN	NN	Number=Sing	19	compound	_	start_char=867|end_char=873
+19	officer	officer	NOUN	NN	Number=Sing	14	obl	_	start_char=874|end_char=881
+20	in	in	ADP	IN	_	21	case	_	start_char=882|end_char=884
+21	1978	1978	NUM	CD	NumForm=Digit|NumType=Card	14	obl	_	start_char=885|end_char=889|SpaceAfter=No
+22	,	,	PUNCT	,	_	10	punct	_	start_char=889|end_char=890|SpaceAfter=No
+23	”	''	PUNCT	''	_	10	punct	_	start_char=890|end_char=891
+24	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=892|end_char=896
+25	Kenneth	Kenneth	PROPN	NNP	Number=Sing	24	nsubj	_	start_char=897|end_char=904
+26	Gustafsson	Gustafsson	PROPN	NNP	Number=Sing	25	flat	_	start_char=905|end_char=915|SpaceAfter=No
+27	,	,	PUNCT	,	_	28	punct	_	start_char=915|end_char=916
+28	governor	governor	NOUN	NN	Number=Sing	25	appos	_	start_char=917|end_char=925
+29	of	of	ADP	IN	_	31	case	_	start_char=926|end_char=928
+30	Kumla	Kumla	PROPN	NNP	Number=Sing	31	compound	_	start_char=929|end_char=934
+31	Prison	Prison	PROPN	NNP	Number=Sing	28	nmod	_	start_char=935|end_char=941|SpaceAfter=No
+32	,	,	PUNCT	,	_	37	punct	_	start_char=941|end_char=942
+33-34	Sweden’s	_	_	_	_	_	_	_	start_char=943|end_char=951
+33	Sweden	Sweden	PROPN	NNP	Number=Sing	37	nmod:poss	_	start_char=943|end_char=949
+34	’s	's	PART	POS	_	33	case	_	start_char=949|end_char=951
+35	most	most	ADV	RBS	Degree=Sup	36	advmod	_	start_char=952|end_char=956
+36	secure	secure	ADJ	JJ	Degree=Pos	37	amod	_	start_char=957|end_char=963
+37	jail	jail	NOUN	NN	Number=Sing	31	appos	_	start_char=964|end_char=968|SpaceAfter=No
+38	,	,	PUNCT	,	_	39	punct	_	start_char=968|end_char=969
+39	situated	situate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	37	acl	_	start_char=970|end_char=978
+40	130	130	NUM	CD	NumForm=Digit|NumType=Card	41	nummod	_	start_char=979|end_char=982
+41	miles	mile	NOUN	NNS	Number=Plur	42	obl:unmarked	_	start_char=983|end_char=988
+42	west	west	ADV	RB	Degree=Pos	39	advmod	_	start_char=989|end_char=993
+43	of	of	ADP	IN	_	44	case	_	start_char=994|end_char=996
+44	Stockholm	Stockholm	PROPN	NNP	Number=Sing	42	obl	_	start_char=997|end_char=1006|SpaceAfter=No
+45	.	.	PUNCT	.	_	24	punct	_	start_char=1006|end_char=1007
+
+# text = However, he doesn’t think the system has gone soft.
+# sent_id = 8
+1	However	however	ADV	RB	_	6	advmod	_	start_char=1008|end_char=1015|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=1015|end_char=1016
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=1017|end_char=1019
+4-5	doesn’t	_	_	_	_	_	_	_	start_char=1020|end_char=1027
+4	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=1020|end_char=1024
+5	n’t	not	PART	RB	Polarity=Neg	6	advmod	_	start_char=1024|end_char=1027
+6	think	think	VERB	VB	VerbForm=Inf	0	root	_	start_char=1028|end_char=1033
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=1034|end_char=1037
+8	system	system	NOUN	NN	Number=Sing	10	nsubj	_	start_char=1038|end_char=1044
+9	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=1045|end_char=1048
+10	gone	go	VERB	VBN	Tense=Past|VerbForm=Part	6	ccomp	_	start_char=1049|end_char=1053
+11	soft	soft	ADJ	JJ	Degree=Pos	10	xcomp	_	start_char=1054|end_char=1058|SpaceAfter=No
+12	.	.	PUNCT	.	_	6	punct	_	start_char=1058|end_char=1059
+
+# text = “When I joined, the focus was very much on humanity in prisons.
+# sent_id = 9
+1	“	''	PUNCT	``	_	10	punct	_	start_char=1060|end_char=1061|SpaceAfter=No
+2	When	when	ADV	WRB	PronType=Int	4	advmod	_	start_char=1061|end_char=1065
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=1066|end_char=1067
+4	joined	join	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	10	advcl	_	start_char=1068|end_char=1074|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	start_char=1074|end_char=1075
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=1076|end_char=1079
+7	focus	focus	NOUN	NN	Number=Sing	10	nsubj	_	start_char=1080|end_char=1085
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	start_char=1086|end_char=1089
+9	very	very	ADV	RB	_	10	advmod	_	start_char=1090|end_char=1094
+10	much	much	ADJ	JJ	Degree=Pos	0	root	_	start_char=1095|end_char=1099
+11	on	on	ADP	IN	_	12	case	_	start_char=1100|end_char=1102
+12	humanity	humanity	NOUN	NN	Number=Sing	10	obl	_	start_char=1103|end_char=1111
+13	in	in	ADP	IN	_	14	case	_	start_char=1112|end_char=1114
+14	prisons	prison	NOUN	NNS	Number=Plur	10	obl	_	start_char=1115|end_char=1122|SpaceAfter=No
+15	.	.	PUNCT	.	_	10	punct	_	start_char=1122|end_char=1123
+
+# text = Prisoners were treated well – maybe too well, some might say.
+# sent_id = 10
+1	Prisoners	prisoner	NOUN	NNS	Number=Plur	3	nsubj:pass	_	start_char=1124|end_char=1133
+2	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	start_char=1134|end_char=1138
+3	treated	treat	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=1139|end_char=1146
+4	well	well	ADV	RB	Degree=Pos	3	advmod	_	start_char=1147|end_char=1151
+5	–	-	PUNCT	:	_	8	punct	_	start_char=1152|end_char=1153
+6	maybe	maybe	ADV	RB	_	8	advmod	_	start_char=1154|end_char=1159
+7	too	too	ADV	RB	_	8	advmod	_	start_char=1160|end_char=1163
+8	well	well	ADV	RB	Degree=Pos	3	advmod	_	start_char=1164|end_char=1168|SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	start_char=1168|end_char=1169
+10	some	some	DET	DT	PronType=Ind	12	nsubj	_	start_char=1170|end_char=1174
+11	might	might	AUX	MD	VerbForm=Fin	12	aux	_	start_char=1175|end_char=1180
+12	say	say	VERB	VB	VerbForm=Inf	3	parataxis	_	start_char=1181|end_char=1184|SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	start_char=1184|end_char=1185
+
+# text = But, after a number of high-profile escapes in 2004, we had to rebalance and place more emphasis on security.”
+# sent_id = 11
+1	But	but	CCONJ	CC	_	15	cc	_	start_char=1186|end_char=1189|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=1189|end_char=1190
+3	after	after	ADP	IN	_	5	case	_	start_char=1191|end_char=1196
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=1197|end_char=1198
+5	number	number	NOUN	NN	Number=Sing	15	obl	_	start_char=1199|end_char=1205
+6	of	of	ADP	IN	_	10	case	_	start_char=1206|end_char=1208
+7	high	high	ADJ	JJ	Degree=Pos	9	amod	_	start_char=1209|end_char=1213|SpaceAfter=No
+8	-	-	PUNCT	HYPH	_	7	punct	_	start_char=1213|end_char=1214|SpaceAfter=No
+9	profile	profile	NOUN	NN	Number=Sing	10	compound	_	start_char=1214|end_char=1221
+10	escapes	escape	NOUN	NNS	Number=Plur	5	nmod	_	start_char=1222|end_char=1229
+11	in	in	ADP	IN	_	12	case	_	start_char=1230|end_char=1232
+12	2004	2004	NUM	CD	NumForm=Digit|NumType=Card	5	nmod	_	start_char=1233|end_char=1237|SpaceAfter=No
+13	,	,	PUNCT	,	_	5	punct	_	start_char=1237|end_char=1238
+14	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	start_char=1239|end_char=1241
+15	had	have	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=1242|end_char=1245
+16	to	to	PART	TO	_	17	mark	_	start_char=1246|end_char=1248
+17	rebalance	rebalance	VERB	VB	VerbForm=Inf	15	xcomp	_	start_char=1249|end_char=1258
+18	and	and	CCONJ	CC	_	19	cc	_	start_char=1259|end_char=1262
+19	place	place	VERB	VB	VerbForm=Inf	17	conj	_	start_char=1263|end_char=1268
+20	more	more	ADJ	JJR	Degree=Cmp	21	amod	_	start_char=1269|end_char=1273
+21	emphasis	emphasis	NOUN	NN	Number=Sing	19	obj	_	start_char=1274|end_char=1282
+22	on	on	ADP	IN	_	23	case	_	start_char=1283|end_char=1285
+23	security	security	NOUN	NN	Number=Sing	21	nmod	_	start_char=1286|end_char=1294|SpaceAfter=No
+24	.	.	PUNCT	.	_	15	punct	_	start_char=1294|end_char=1295|SpaceAfter=No
+25	”	''	PUNCT	''	_	15	punct	_	start_char=1295|end_char=1296|SpacesAfter=\s\n
+
+# text = Despite the hardening of attitudes toward prison security following the escape scandals, the Swedes still managed to maintain a broadly humane approach to sentencing, even of the most serious offenders: jail terms rarely exceed ten years; those who receive life imprisonment can still apply to the courts after a decade to have the sentence commuted to a fixed term, usually in the region of 18 to 25 years.
+# sent_id = 12
+1	Despite	despite	ADP	IN	_	3	case	_	start_char=1298|end_char=1305
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=1306|end_char=1309
+3	hardening	hardening	NOUN	NN	Number=Sing	17	obl	_	start_char=1310|end_char=1319
+4	of	of	ADP	IN	_	5	case	_	start_char=1320|end_char=1322
+5	attitudes	attitude	NOUN	NNS	Number=Plur	3	nmod	_	start_char=1323|end_char=1332
+6	toward	toward	ADP	IN	_	8	case	_	start_char=1333|end_char=1339
+7	prison	prison	NOUN	NN	Number=Sing	8	compound	_	start_char=1340|end_char=1346
+8	security	security	NOUN	NN	Number=Sing	5	nmod	_	start_char=1347|end_char=1355
+9	following	follow	VERB	VBG	Tense=Pres|VerbForm=Ger	12	case	_	start_char=1356|end_char=1365
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=1366|end_char=1369
+11	escape	escape	NOUN	NN	Number=Sing	12	compound	_	start_char=1370|end_char=1376
+12	scandals	scandal	NOUN	NNS	Number=Plur	5	nmod	_	start_char=1377|end_char=1385|SpaceAfter=No
+13	,	,	PUNCT	,	_	3	punct	_	start_char=1385|end_char=1386
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	start_char=1387|end_char=1390
+15	Swedes	Swedes	PROPN	NNPS	Number=Plur	17	nsubj	_	start_char=1391|end_char=1397
+16	still	still	ADV	RB	_	17	advmod	_	start_char=1398|end_char=1403
+17	managed	manage	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=1404|end_char=1411
+18	to	to	PART	TO	_	19	mark	_	start_char=1412|end_char=1414
+19	maintain	maintain	VERB	VB	VerbForm=Inf	17	xcomp	_	start_char=1415|end_char=1423
+20	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	start_char=1424|end_char=1425
+21	broadly	broadly	ADV	RB	_	22	advmod	_	start_char=1426|end_char=1433
+22	humane	humane	ADJ	JJ	Degree=Pos	23	amod	_	start_char=1434|end_char=1440
+23	approach	approach	NOUN	NN	Number=Sing	19	obj	_	start_char=1441|end_char=1449
+24	to	to	ADP	IN	_	25	case	_	start_char=1450|end_char=1452
+25	sentencing	sentencing	NOUN	NN	Number=Sing	23	nmod	_	start_char=1453|end_char=1463|SpaceAfter=No
+26	,	,	PUNCT	,	_	32	punct	_	start_char=1463|end_char=1464
+27	even	even	ADV	RB	_	32	advmod	_	start_char=1465|end_char=1469
+28	of	of	ADP	IN	_	32	case	_	start_char=1470|end_char=1472
+29	the	the	DET	DT	Definite=Def|PronType=Art	32	det	_	start_char=1473|end_char=1476
+30	most	most	ADV	RBS	Degree=Sup	31	advmod	_	start_char=1477|end_char=1481
+31	serious	serious	ADJ	JJ	Degree=Pos	32	amod	_	start_char=1482|end_char=1489
+32	offenders	offender	NOUN	NNS	Number=Plur	23	nmod	_	start_char=1490|end_char=1499|SpaceAfter=No
+33	:	:	PUNCT	:	_	37	punct	_	start_char=1499|end_char=1500
+34	jail	jail	NOUN	NN	Number=Sing	35	compound	_	start_char=1501|end_char=1505
+35	terms	term	NOUN	NNS	Number=Plur	37	nsubj	_	start_char=1506|end_char=1511
+36	rarely	rarely	ADV	RB	_	37	advmod	_	start_char=1512|end_char=1518
+37	exceed	exceed	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	parataxis	_	start_char=1519|end_char=1525
+38	ten	ten	NUM	CD	NumForm=Word|NumType=Card	39	nummod	_	start_char=1526|end_char=1529
+39	years	year	NOUN	NNS	Number=Plur	37	obj	_	start_char=1530|end_char=1535|SpaceAfter=No
+40	;	;	PUNCT	:	_	48	punct	_	start_char=1535|end_char=1536
+41	those	that	PRON	DT	Number=Plur|PronType=Dem	48	nsubj	_	start_char=1537|end_char=1542
+42	who	who	PRON	WP	PronType=Rel	43	nsubj	_	start_char=1543|end_char=1546
+43	receive	receive	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	41	acl:relcl	_	start_char=1547|end_char=1554
+44	life	life	NOUN	NN	Number=Sing	45	compound	_	start_char=1555|end_char=1559
+45	imprisonment	imprisonment	NOUN	NN	Number=Sing	43	obj	_	start_char=1560|end_char=1572
+46	can	can	AUX	MD	VerbForm=Fin	48	aux	_	start_char=1573|end_char=1576
+47	still	still	ADV	RB	_	48	advmod	_	start_char=1577|end_char=1582
+48	apply	apply	VERB	VB	VerbForm=Inf	37	parataxis	_	start_char=1583|end_char=1588
+49	to	to	ADP	IN	_	51	case	_	start_char=1589|end_char=1591
+50	the	the	DET	DT	Definite=Def|PronType=Art	51	det	_	start_char=1592|end_char=1595
+51	courts	court	NOUN	NNS	Number=Plur	48	obl	_	start_char=1596|end_char=1602
+52	after	after	ADP	IN	_	54	case	_	start_char=1603|end_char=1608
+53	a	a	DET	DT	Definite=Ind|PronType=Art	54	det	_	start_char=1609|end_char=1610
+54	decade	decade	NOUN	NN	Number=Sing	48	obl	_	start_char=1611|end_char=1617
+55	to	to	PART	TO	_	56	mark	_	start_char=1618|end_char=1620
+56	have	have	VERB	VB	VerbForm=Inf	48	advcl	_	start_char=1621|end_char=1625
+57	the	the	DET	DT	Definite=Def|PronType=Art	58	det	_	start_char=1626|end_char=1629
+58	sentence	sentence	NOUN	NN	Number=Sing	56	obj	_	start_char=1630|end_char=1638
+59	commuted	commute	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	58	acl	_	start_char=1639|end_char=1647
+60	to	to	ADP	IN	_	63	case	_	start_char=1648|end_char=1650
+61	a	a	DET	DT	Definite=Ind|PronType=Art	63	det	_	start_char=1651|end_char=1652
+62	fixed	fix	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	63	amod	_	start_char=1653|end_char=1658
+63	term	term	NOUN	NN	Number=Sing	59	obl	_	start_char=1659|end_char=1663|SpaceAfter=No
+64	,	,	PUNCT	,	_	68	punct	_	start_char=1663|end_char=1664
+65	usually	usually	ADV	RB	_	68	advmod	_	start_char=1665|end_char=1672
+66	in	in	ADP	IN	_	68	case	_	start_char=1673|end_char=1675
+67	the	the	DET	DT	Definite=Def|PronType=Art	68	det	_	start_char=1676|end_char=1679
+68	region	region	NOUN	NN	Number=Sing	59	obl	_	start_char=1680|end_char=1686
+69	of	of	ADP	IN	_	73	case	_	start_char=1687|end_char=1689
+70	18	18	NUM	CD	NumForm=Digit|NumType=Card	73	nummod	_	start_char=1690|end_char=1692
+71	to	to	ADP	IN	_	72	case	_	start_char=1693|end_char=1695
+72	25	25	NUM	CD	NumForm=Digit|NumType=Card	70	nmod	_	start_char=1696|end_char=1698
+73	years	year	NOUN	NNS	Number=Plur	68	nmod	_	start_char=1699|end_char=1704|SpaceAfter=No
+74	.	.	PUNCT	.	_	17	punct	_	start_char=1704|end_char=1705
+
+# text = Sweden was the first country in Europe to introduce the electronic tagging of convicted criminals and continues to strive to minimize short-term prison sentences wherever possible by using community-based measures, which have been proven to be more effective at reducing reoffending.
+# sent_id = 13
+1	Sweden	Sweden	PROPN	NNP	Number=Sing	5	nsubj	_	start_char=1706|end_char=1712
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	start_char=1713|end_char=1716
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=1717|end_char=1720
+4	first	first	ADJ	JJ	Degree=Pos|NumForm=Word|NumType=Ord	5	amod	_	start_char=1721|end_char=1726
+5	country	country	NOUN	NN	Number=Sing	0	root	_	start_char=1727|end_char=1734
+6	in	in	ADP	IN	_	7	case	_	start_char=1735|end_char=1737
+7	Europe	Europe	PROPN	NNP	Number=Sing	5	nmod	_	start_char=1738|end_char=1744
+8	to	to	PART	TO	_	9	mark	_	start_char=1745|end_char=1747
+9	introduce	introduce	VERB	VB	VerbForm=Inf	5	acl	_	start_char=1748|end_char=1757
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=1758|end_char=1761
+11	electronic	electronic	ADJ	JJ	Degree=Pos	12	amod	_	start_char=1762|end_char=1772
+12	tagging	tagging	NOUN	NN	Number=Sing	9	obj	_	start_char=1773|end_char=1780
+13	of	of	ADP	IN	_	15	case	_	start_char=1781|end_char=1783
+14	convicted	convict	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	15	amod	_	start_char=1784|end_char=1793
+15	criminals	criminal	NOUN	NNS	Number=Plur	12	nmod	_	start_char=1794|end_char=1803
+16	and	and	CCONJ	CC	_	17	cc	_	start_char=1804|end_char=1807
+17	continues	continue	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	start_char=1808|end_char=1817
+18	to	to	PART	TO	_	19	mark	_	start_char=1818|end_char=1820
+19	strive	strive	VERB	VB	VerbForm=Inf	17	xcomp	_	start_char=1821|end_char=1827
+20	to	to	PART	TO	_	21	mark	_	start_char=1828|end_char=1830
+21	minimize	minimize	VERB	VB	VerbForm=Inf	19	xcomp	_	start_char=1831|end_char=1839
+22	short	short	ADJ	JJ	Degree=Pos	24	amod	_	start_char=1840|end_char=1845|SpaceAfter=No
+23	-	-	PUNCT	HYPH	_	22	punct	_	start_char=1845|end_char=1846|SpaceAfter=No
+24	term	term	NOUN	NN	Number=Sing	26	compound	_	start_char=1846|end_char=1850
+25	prison	prison	NOUN	NN	Number=Sing	26	compound	_	start_char=1851|end_char=1857
+26	sentences	sentence	NOUN	NNS	Number=Plur	21	obj	_	start_char=1858|end_char=1867
+27	wherever	wherever	ADV	WRB	PronType=Int	28	advmod	_	start_char=1868|end_char=1876
+28	possible	possible	ADJ	JJ	Degree=Pos	26	amod	_	start_char=1877|end_char=1885
+29	by	by	SCONJ	IN	_	30	mark	_	start_char=1886|end_char=1888
+30	using	use	VERB	VBG	Tense=Pres|VerbForm=Part	21	advcl	_	start_char=1889|end_char=1894
+31	community	community	NOUN	NN	Number=Sing	33	compound	_	start_char=1895|end_char=1904|SpaceAfter=No
+32	-	-	PUNCT	HYPH	_	31	punct	_	start_char=1904|end_char=1905|SpaceAfter=No
+33	based	base	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	34	amod	_	start_char=1905|end_char=1910
+34	measures	measure	NOUN	NNS	Number=Plur	30	obj	_	start_char=1911|end_char=1919|SpaceAfter=No
+35	,	,	PUNCT	,	_	39	punct	_	start_char=1919|end_char=1920
+36	which	which	PRON	WDT	PronType=Rel	39	nsubj:pass	_	start_char=1921|end_char=1926
+37	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	39	aux	_	start_char=1927|end_char=1931
+38	been	be	AUX	VBN	Tense=Past|VerbForm=Part	39	aux:pass	_	start_char=1932|end_char=1936
+39	proven	prove	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	34	acl:relcl	_	start_char=1937|end_char=1943
+40	to	to	PART	TO	_	43	mark	_	start_char=1944|end_char=1946
+41	be	be	AUX	VB	VerbForm=Inf	43	cop	_	start_char=1947|end_char=1949
+42	more	more	ADV	RBR	Degree=Cmp	43	advmod	_	start_char=1950|end_char=1954
+43	effective	effective	ADJ	JJ	Degree=Pos	39	xcomp	_	start_char=1955|end_char=1964
+44	at	at	SCONJ	IN	_	45	mark	_	start_char=1965|end_char=1967
+45	reducing	reduce	VERB	VBG	Tense=Pres|VerbForm=Part	43	advcl	_	start_char=1968|end_char=1976
+46	reoffending	reoffending	NOUN	NN	Number=Sing	45	obj	_	start_char=1977|end_char=1988|SpaceAfter=No
+47	.	.	PUNCT	.	_	5	punct	_	start_char=1988|end_char=1989|SpacesAfter=\s\n
+
+# text = The overall reoffending rate in Sweden stands at between 30 and 40% over three years – to compare that with another European country, the number is around half that of the UK.
+# sent_id = 14
+1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=1991|end_char=1994
+2	overall	overall	ADJ	JJ	Degree=Pos	4	amod	_	start_char=1995|end_char=2002
+3	reoffending	reoffending	NOUN	NN	Number=Sing	4	compound	_	start_char=2003|end_char=2014
+4	rate	rate	NOUN	NN	Number=Sing	7	nsubj	_	start_char=2015|end_char=2019
+5	in	in	ADP	IN	_	6	case	_	start_char=2020|end_char=2022
+6	Sweden	Sweden	PROPN	NNP	Number=Sing	4	nmod	_	start_char=2023|end_char=2029
+7	stands	stand	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2030|end_char=2036
+8	at	at	ADP	IN	_	13	case	_	start_char=2037|end_char=2039
+9	between	between	ADV	RB	_	10	advmod	_	start_char=2040|end_char=2047
+10	30	30	NUM	CD	NumForm=Digit|NumType=Card	13	nummod	_	start_char=2048|end_char=2050
+11	and	and	CCONJ	CC	_	12	cc	_	start_char=2051|end_char=2054
+12	40	40	NUM	CD	NumForm=Digit|NumType=Card	10	conj	_	start_char=2055|end_char=2057|SpaceAfter=No
+13	%	%	SYM	NN	Number=Sing	7	obl	_	start_char=2057|end_char=2058
+14	over	over	ADP	IN	_	16	case	_	start_char=2059|end_char=2063
+15	three	three	NUM	CD	NumForm=Word|NumType=Card	16	nummod	_	start_char=2064|end_char=2069
+16	years	year	NOUN	NNS	Number=Plur	7	obl	_	start_char=2070|end_char=2075
+17	–	-	PUNCT	:	_	19	punct	_	start_char=2076|end_char=2077
+18	to	to	PART	TO	_	19	mark	_	start_char=2078|end_char=2080
+19	compare	compare	VERB	VB	VerbForm=Inf	7	advcl	_	start_char=2081|end_char=2088
+20	that	that	SCONJ	IN	_	31	mark	_	start_char=2089|end_char=2093
+21	with	with	ADP	IN	_	24	case	_	start_char=2094|end_char=2098
+22	another	another	DET	DT	PronType=Ind	24	det	_	start_char=2099|end_char=2106
+23	European	European	ADJ	JJ	Degree=Pos	24	amod	_	start_char=2107|end_char=2115
+24	country	country	NOUN	NN	Number=Sing	31	obl	_	start_char=2116|end_char=2123|SpaceAfter=No
+25	,	,	PUNCT	,	_	31	punct	_	start_char=2123|end_char=2124
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	start_char=2125|end_char=2128
+27	number	number	NOUN	NN	Number=Sing	31	nsubj	_	start_char=2129|end_char=2135
+28	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	start_char=2136|end_char=2138
+29	around	around	ADV	RB	_	30	advmod	_	start_char=2139|end_char=2145
+30	half	half	DET	PDT	NumForm=Word|NumType=Frac|PronType=Ind	31	det:predet	_	start_char=2146|end_char=2150
+31	that	that	PRON	DT	Number=Sing|PronType=Dem	19	ccomp	_	start_char=2151|end_char=2155
+32	of	of	ADP	IN	_	34	case	_	start_char=2156|end_char=2158
+33	the	the	DET	DT	Definite=Def|PronType=Art	34	det	_	start_char=2159|end_char=2162
+34	UK	UK	PROPN	NNP	Abbr=Yes|Number=Sing	31	nmod	_	start_char=2163|end_char=2165|SpaceAfter=No
+35	.	.	PUNCT	.	_	7	punct	_	start_char=2165|end_char=2166
+
+# text = One likely reason for the relatively low reoffending rate and the low rate of incarceration in Sweden (below 70 per 100,000 head of population) is that the age of criminal responsibility is set at 15.
+# sent_id = 15
+1	One	one	NUM	CD	NumForm=Word|NumType=Card	3	nummod	_	start_char=2167|end_char=2170
+2	likely	likely	ADJ	JJ	Degree=Pos	3	amod	_	start_char=2171|end_char=2177
+3	reason	reason	NOUN	NN	Number=Sing	35	nsubj:outer	_	start_char=2178|end_char=2184
+4	for	for	ADP	IN	_	9	case	_	start_char=2185|end_char=2188
+5	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=2189|end_char=2192
+6	relatively	relatively	ADV	RB	Degree=Pos	7	advmod	_	start_char=2193|end_char=2203
+7	low	low	ADJ	JJ	Degree=Pos	9	amod	_	start_char=2204|end_char=2207
+8	reoffending	reoffending	NOUN	NN	Number=Sing	9	compound	_	start_char=2208|end_char=2219
+9	rate	rate	NOUN	NN	Number=Sing	3	nmod	_	start_char=2220|end_char=2224
+10	and	and	CCONJ	CC	_	13	cc	_	start_char=2225|end_char=2228
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	start_char=2229|end_char=2232
+12	low	low	ADJ	JJ	Degree=Pos	13	amod	_	start_char=2233|end_char=2236
+13	rate	rate	NOUN	NN	Number=Sing	3	conj	_	start_char=2237|end_char=2241
+14	of	of	ADP	IN	_	15	case	_	start_char=2242|end_char=2244
+15	incarceration	incarceration	NOUN	NN	Number=Sing	13	nmod	_	start_char=2245|end_char=2258
+16	in	in	ADP	IN	_	17	case	_	start_char=2259|end_char=2261
+17	Sweden	Sweden	PROPN	NNP	Number=Sing	13	nmod	_	start_char=2262|end_char=2268
+18	(	(	PUNCT	-LRB-	_	23	punct	_	start_char=2269|end_char=2270|SpaceAfter=No
+19	below	below	ADP	IN	_	23	case	_	start_char=2270|end_char=2275
+20	70	70	NUM	CD	NumForm=Digit|NumType=Card	23	nummod	_	start_char=2276|end_char=2278
+21	per	per	ADP	IN	_	22	case	_	start_char=2279|end_char=2282
+22	100,000	100000	NUM	CD	NumForm=Digit|NumType=Card	20	nmod	_	start_char=2283|end_char=2290
+23	head	head	NOUN	NN	Number=Sing	13	nmod	_	start_char=2291|end_char=2295
+24	of	of	ADP	IN	_	25	case	_	start_char=2296|end_char=2298
+25	population	population	NOUN	NN	Number=Sing	23	nmod	_	start_char=2299|end_char=2309|SpaceAfter=No
+26	)	)	PUNCT	-RRB-	_	23	punct	_	start_char=2309|end_char=2310
+27	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	cop	_	start_char=2311|end_char=2313
+28	that	that	SCONJ	IN	_	35	mark	_	start_char=2314|end_char=2318
+29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	start_char=2319|end_char=2322
+30	age	age	NOUN	NN	Number=Sing	35	nsubj:pass	_	start_char=2323|end_char=2326
+31	of	of	ADP	IN	_	33	case	_	start_char=2327|end_char=2329
+32	criminal	criminal	ADJ	JJ	Degree=Pos	33	amod	_	start_char=2330|end_char=2338
+33	responsibility	responsibility	NOUN	NN	Number=Sing	30	nmod	_	start_char=2339|end_char=2353
+34	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	aux:pass	_	start_char=2354|end_char=2356
+35	set	set	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=2357|end_char=2360
+36	at	at	ADP	IN	_	37	case	_	start_char=2361|end_char=2363
+37	15	15	NUM	CD	NumForm=Digit|NumType=Card	35	obl	_	start_char=2364|end_char=2366|SpaceAfter=No
+38	.	.	PUNCT	.	_	35	punct	_	start_char=2366|end_char=2367
+
+# text = In the UK, for example, children aged ten to 17 and young people under the age of 21 record the highest reoffending rates: almost three quarters and two thirds, respectively.
+# sent_id = 16
+1	In	in	ADP	IN	_	3	case	_	start_char=2368|end_char=2370
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=2371|end_char=2374
+3	UK	UK	PROPN	NNP	Abbr=Yes|Number=Sing	21	obl	_	start_char=2375|end_char=2377|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	start_char=2377|end_char=2378
+5	for	for	ADP	IN	_	6	case	_	start_char=2379|end_char=2382
+6	example	example	NOUN	NN	Number=Sing	21	obl	_	start_char=2383|end_char=2390|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	start_char=2390|end_char=2391
+8	children	child	NOUN	NNS	Number=Plur	21	nsubj	_	start_char=2392|end_char=2400
+9	aged	aged	ADJ	JJ	Degree=Pos	8	acl	_	start_char=2401|end_char=2405
+10	ten	ten	NUM	CD	NumForm=Word|NumType=Card	9	obj	_	start_char=2406|end_char=2409
+11	to	to	ADP	IN	_	12	case	_	start_char=2410|end_char=2412
+12	17	17	NUM	CD	NumForm=Digit|NumType=Card	10	nmod	_	start_char=2413|end_char=2415
+13	and	and	CCONJ	CC	_	15	cc	_	start_char=2416|end_char=2419
+14	young	young	ADJ	JJ	Degree=Pos	15	amod	_	start_char=2420|end_char=2425
+15	people	person	NOUN	NNS	Number=Plur	8	conj	_	start_char=2426|end_char=2432
+16	under	under	ADP	IN	_	18	case	_	start_char=2433|end_char=2438
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	start_char=2439|end_char=2442
+18	age	age	NOUN	NN	Number=Sing	15	nmod	_	start_char=2443|end_char=2446
+19	of	of	ADP	IN	_	20	case	_	start_char=2447|end_char=2449
+20	21	21	NUM	CD	NumForm=Digit|NumType=Card	18	nmod	_	start_char=2450|end_char=2452
+21	record	record	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2453|end_char=2459
+22	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	start_char=2460|end_char=2463
+23	highest	high	ADJ	JJS	Degree=Sup	25	amod	_	start_char=2464|end_char=2471
+24	reoffending	reoffending	NOUN	NN	Number=Sing	25	compound	_	start_char=2472|end_char=2483
+25	rates	rate	NOUN	NNS	Number=Plur	21	obj	_	start_char=2484|end_char=2489|SpaceAfter=No
+26	:	:	PUNCT	:	_	29	punct	_	start_char=2489|end_char=2490
+27	almost	almost	ADV	RB	_	28	advmod	_	start_char=2491|end_char=2497
+28	three	three	NUM	CD	NumForm=Word|NumType=Card	29	nummod	_	start_char=2498|end_char=2503
+29	quarters	quarter	NOUN	NNS	NumForm=Word|NumType=Frac|Number=Plur	25	appos	_	start_char=2504|end_char=2512
+30	and	and	CCONJ	CC	_	32	cc	_	start_char=2513|end_char=2516
+31	two	two	NUM	CD	NumForm=Word|NumType=Card	32	nummod	_	start_char=2517|end_char=2520
+32	thirds	third	NOUN	NNS	NumForm=Word|NumType=Frac|Number=Plur	29	conj	_	start_char=2521|end_char=2527|SpaceAfter=No
+33	,	,	PUNCT	,	_	34	punct	_	start_char=2527|end_char=2528
+34	respectively	respectively	ADV	RB	_	29	advmod	_	start_char=2529|end_char=2541|SpaceAfter=No
+35	.	.	PUNCT	.	_	21	punct	_	start_char=2541|end_char=2542
+
+# text = A good proportion of these offenders go on to populate adult jails.
+# sent_id = 17
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	start_char=2543|end_char=2544
+2	good	good	ADJ	JJ	Degree=Pos	3	amod	_	start_char=2545|end_char=2549
+3	proportion	proportion	NOUN	NN	Number=Sing	7	nsubj	_	start_char=2550|end_char=2560
+4	of	of	ADP	IN	_	6	case	_	start_char=2561|end_char=2563
+5	these	this	DET	DT	Number=Plur|PronType=Dem	6	det	_	start_char=2564|end_char=2569
+6	offenders	offender	NOUN	NNS	Number=Plur	3	nmod	_	start_char=2570|end_char=2579
+7	go	go	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2580|end_char=2582
+8	on	on	ADP	RP	_	7	compound:prt	_	start_char=2583|end_char=2585
+9	to	to	PART	TO	_	10	mark	_	start_char=2586|end_char=2588
+10	populate	populate	VERB	VB	VerbForm=Inf	7	advcl	_	start_char=2589|end_char=2597
+11	adult	adult	NOUN	NN	Number=Sing	12	amod	_	start_char=2598|end_char=2603
+12	jails	jail	NOUN	NNS	Number=Plur	10	obj	_	start_char=2604|end_char=2609|SpaceAfter=No
+13	.	.	PUNCT	.	_	7	punct	_	start_char=2609|end_char=2610
+
+# text = In Sweden, no young person under the age of 21 can be sentenced to life – this is not the case in many other countries – and every effort is made to ensure that as few juvenile offenders as possible end up in prison.
+# sent_id = 18
+1	In	in	ADP	IN	_	2	case	_	start_char=2611|end_char=2613
+2	Sweden	Sweden	PROPN	NNP	Number=Sing	14	obl	_	start_char=2614|end_char=2620|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	start_char=2620|end_char=2621
+4	no	no	DET	DT	PronType=Neg	6	det	_	start_char=2622|end_char=2624
+5	young	young	ADJ	JJ	Degree=Pos	6	amod	_	start_char=2625|end_char=2630
+6	person	person	NOUN	NN	Number=Sing	14	nsubj:pass	_	start_char=2631|end_char=2637
+7	under	under	ADP	IN	_	9	case	_	start_char=2638|end_char=2643
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=2644|end_char=2647
+9	age	age	NOUN	NN	Number=Sing	6	nmod	_	start_char=2648|end_char=2651
+10	of	of	ADP	IN	_	11	case	_	start_char=2652|end_char=2654
+11	21	21	NUM	CD	NumForm=Digit|NumType=Card	9	nmod	_	start_char=2655|end_char=2657
+12	can	can	AUX	MD	VerbForm=Fin	14	aux	_	start_char=2658|end_char=2661
+13	be	be	AUX	VB	VerbForm=Inf	14	aux:pass	_	start_char=2662|end_char=2664
+14	sentenced	sentence	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=2665|end_char=2674
+15	to	to	ADP	IN	_	16	case	_	start_char=2675|end_char=2677
+16	life	life	NOUN	NN	Number=Sing	14	obl	_	start_char=2678|end_char=2682
+17	–	-	PUNCT	:	_	22	punct	_	start_char=2683|end_char=2684
+18	this	this	PRON	DT	Number=Sing|PronType=Dem	22	nsubj	_	start_char=2685|end_char=2689
+19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	start_char=2690|end_char=2692
+20	not	not	PART	RB	Polarity=Neg	22	advmod	_	start_char=2693|end_char=2696
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	start_char=2697|end_char=2700
+22	case	case	NOUN	NN	Number=Sing	14	parataxis	_	start_char=2701|end_char=2705
+23	in	in	ADP	IN	_	26	case	_	start_char=2706|end_char=2708
+24	many	many	ADJ	JJ	Degree=Pos	26	amod	_	start_char=2709|end_char=2713
+25	other	other	ADJ	JJ	Degree=Pos	26	amod	_	start_char=2714|end_char=2719
+26	countries	country	NOUN	NNS	Number=Plur	22	nmod	_	start_char=2720|end_char=2729
+27	–	-	PUNCT	:	_	32	punct	_	start_char=2730|end_char=2731
+28	and	and	CCONJ	CC	_	32	cc	_	start_char=2732|end_char=2735
+29	every	every	DET	DT	PronType=Tot	30	det	_	start_char=2736|end_char=2741
+30	effort	effort	NOUN	NN	Number=Sing	32	nsubj:pass	_	start_char=2742|end_char=2748
+31	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux:pass	_	start_char=2749|end_char=2751
+32	made	make	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	22	conj	_	start_char=2752|end_char=2756
+33	to	to	PART	TO	_	34	mark	_	start_char=2757|end_char=2759
+34	ensure	ensure	VERB	VB	VerbForm=Inf	32	advcl	_	start_char=2760|end_char=2766
+35	that	that	SCONJ	IN	_	42	mark	_	start_char=2767|end_char=2771
+36	as	as	ADV	RB	_	37	advmod	_	start_char=2772|end_char=2774
+37	few	few	ADJ	JJ	Degree=Pos	39	amod	_	start_char=2775|end_char=2778
+38	juvenile	juvenile	ADJ	JJ	Degree=Pos	39	amod	_	start_char=2779|end_char=2787
+39	offenders	offender	NOUN	NNS	Number=Plur	42	nsubj	_	start_char=2788|end_char=2797
+40	as	as	SCONJ	IN	_	41	mark	_	start_char=2798|end_char=2800
+41	possible	possible	ADJ	JJ	Degree=Pos	39	acl	_	start_char=2801|end_char=2809
+42	end	end	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	34	ccomp	_	start_char=2810|end_char=2813
+43	up	up	ADP	RP	_	42	compound:prt	_	start_char=2814|end_char=2816
+44	in	in	ADP	IN	_	45	case	_	start_char=2817|end_char=2819
+45	prison	prison	NOUN	NN	Number=Sing	42	obl	_	start_char=2820|end_char=2826|SpaceAfter=No
+46	.	.	PUNCT	.	_	14	punct	_	start_char=2826|end_char=2827|SpacesAfter=\s\n
+
+# text = One strong reason for the drop in prison numbers might be the amount of post-prison support available in Sweden.
+# sent_id = 19
+1	One	one	NUM	CD	NumForm=Word|NumType=Card	3	nummod	_	start_char=2829|end_char=2832
+2	strong	strong	ADJ	JJ	Degree=Pos	3	amod	_	start_char=2833|end_char=2839
+3	reason	reason	NOUN	NN	Number=Sing	13	nsubj	_	start_char=2840|end_char=2846
+4	for	for	ADP	IN	_	6	case	_	start_char=2847|end_char=2850
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=2851|end_char=2854
+6	drop	drop	NOUN	NN	Number=Sing	3	nmod	_	start_char=2855|end_char=2859
+7	in	in	ADP	IN	_	9	case	_	start_char=2860|end_char=2862
+8	prison	prison	NOUN	NN	Number=Sing	9	compound	_	start_char=2863|end_char=2869
+9	numbers	number	NOUN	NNS	Number=Plur	6	nmod	_	start_char=2870|end_char=2877
+10	might	might	AUX	MD	VerbForm=Fin	13	aux	_	start_char=2878|end_char=2883
+11	be	be	AUX	VB	VerbForm=Inf	13	cop	_	start_char=2884|end_char=2886
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	start_char=2887|end_char=2890
+13	amount	amount	NOUN	NN	Number=Sing	0	root	_	start_char=2891|end_char=2897
+14	of	of	ADP	IN	_	18	case	_	start_char=2898|end_char=2900
+15	post	post	NOUN	NN	Number=Sing	17	compound	_	start_char=2901|end_char=2905|SpaceAfter=No
+16	-	-	PUNCT	HYPH	_	15	punct	_	start_char=2905|end_char=2906|SpaceAfter=No
+17	prison	prison	NOUN	NN	Number=Sing	18	compound	_	start_char=2906|end_char=2912
+18	support	support	NOUN	NN	Number=Sing	13	nmod	_	start_char=2913|end_char=2920
+19	available	available	ADJ	JJ	Degree=Pos	18	amod	_	start_char=2921|end_char=2930
+20	in	in	ADP	IN	_	21	case	_	start_char=2931|end_char=2933
+21	Sweden	Sweden	PROPN	NNP	Number=Sing	19	obl	_	start_char=2934|end_char=2940|SpaceAfter=No
+22	.	.	PUNCT	.	_	13	punct	_	start_char=2940|end_char=2941
+
+# text = A confident probation service – a government agency – is tasked not only with supervising those on probation but is also guaranteed to provide treatment programmes for offenders with drug, alcohol or violence issues.
+# sent_id = 20
+1	A	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	start_char=2942|end_char=2943
+2	confident	confident	ADJ	JJ	Degree=Pos	4	amod	_	start_char=2944|end_char=2953
+3	probation	probation	NOUN	NN	Number=Sing	4	compound	_	start_char=2954|end_char=2963
+4	service	service	NOUN	NN	Number=Sing	11	nsubj:pass	_	start_char=2964|end_char=2971
+5	–	-	PUNCT	:	_	8	punct	_	start_char=2972|end_char=2973
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=2974|end_char=2975
+7	government	government	NOUN	NN	Number=Sing	8	compound	_	start_char=2976|end_char=2986
+8	agency	agency	NOUN	NN	Number=Sing	4	appos	_	start_char=2987|end_char=2993
+9	–	-	PUNCT	:	_	4	punct	_	start_char=2994|end_char=2995
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	start_char=2996|end_char=2998
+11	tasked	task	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=2999|end_char=3005
+12	not	not	PART	RB	Polarity=Neg	15	advmod	_	start_char=3006|end_char=3009
+13	only	only	ADV	RB	_	15	advmod	_	start_char=3010|end_char=3014
+14	with	with	SCONJ	IN	_	15	mark	_	start_char=3015|end_char=3019
+15	supervising	supervise	VERB	VBG	Tense=Pres|VerbForm=Part	11	advcl	_	start_char=3020|end_char=3031
+16	those	that	PRON	DT	Number=Plur|PronType=Dem	15	obj	_	start_char=3032|end_char=3037
+17	on	on	ADP	IN	_	18	case	_	start_char=3038|end_char=3040
+18	probation	probation	NOUN	NN	Number=Sing	15	obl	_	start_char=3041|end_char=3050
+19	but	but	CCONJ	CC	_	22	cc	_	start_char=3051|end_char=3054
+20	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux:pass	_	start_char=3055|end_char=3057
+21	also	also	ADV	RB	_	22	advmod	_	start_char=3058|end_char=3062
+22	guaranteed	guarantee	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	conj	_	start_char=3063|end_char=3073
+23	to	to	PART	TO	_	24	mark	_	start_char=3074|end_char=3076
+24	provide	provide	VERB	VB	VerbForm=Inf	22	xcomp	_	start_char=3077|end_char=3084
+25	treatment	treatment	NOUN	NN	Number=Sing	26	compound	_	start_char=3085|end_char=3094
+26	programmes	programme	NOUN	NNS	Number=Plur	24	obj	_	start_char=3095|end_char=3105
+27	for	for	ADP	IN	_	28	case	_	start_char=3106|end_char=3109
+28	offenders	offender	NOUN	NNS	Number=Plur	26	nmod	_	start_char=3110|end_char=3119
+29	with	with	ADP	IN	_	35	case	_	start_char=3120|end_char=3124
+30	drug	drug	NOUN	NN	Number=Sing	35	compound	_	start_char=3125|end_char=3129|SpaceAfter=No
+31	,	,	PUNCT	,	_	32	punct	_	start_char=3129|end_char=3130
+32	alcohol	alcohol	NOUN	NN	Number=Sing	30	conj	_	start_char=3131|end_char=3138
+33	or	or	CCONJ	CC	_	34	cc	_	start_char=3139|end_char=3141
+34	violence	violence	NOUN	NN	Number=Sing	30	conj	_	start_char=3142|end_char=3150
+35	issues	issue	NOUN	NNS	Number=Plur	28	nmod	_	start_char=3151|end_char=3157|SpaceAfter=No
+36	.	.	PUNCT	.	_	11	punct	_	start_char=3157|end_char=3158
+
+# text = The service is assisted by around 4,500 lay supervisors – members of the public who volunteer to befriend and support offenders under supervision.
+# sent_id = 21
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=3159|end_char=3162
+2	service	service	NOUN	NN	Number=Sing	4	nsubj:pass	_	start_char=3163|end_char=3170
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	start_char=3171|end_char=3173
+4	assisted	assist	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=3174|end_char=3182
+5	by	by	ADP	IN	_	9	case	_	start_char=3183|end_char=3185
+6	around	around	ADV	RB	_	7	advmod	_	start_char=3186|end_char=3192
+7	4,500	4500	NUM	CD	NumForm=Digit|NumType=Card	9	nummod	_	start_char=3193|end_char=3198
+8	lay	lay	ADJ	JJ	Degree=Pos	9	amod	_	start_char=3199|end_char=3202
+9	supervisors	supervisor	NOUN	NNS	Number=Plur	4	obl:agent	_	start_char=3203|end_char=3214
+10	–	-	PUNCT	:	_	11	punct	_	start_char=3215|end_char=3216
+11	members	member	NOUN	NNS	Number=Plur	9	appos	_	start_char=3217|end_char=3224
+12	of	of	ADP	IN	_	14	case	_	start_char=3225|end_char=3227
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	start_char=3228|end_char=3231
+14	public	public	NOUN	NN	Number=Sing	11	nmod	_	start_char=3232|end_char=3238
+15	who	who	PRON	WP	PronType=Rel	16	nsubj	_	start_char=3239|end_char=3242
+16	volunteer	volunteer	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	start_char=3243|end_char=3252
+17	to	to	PART	TO	_	18	mark	_	start_char=3253|end_char=3255
+18	befriend	befriend	VERB	VB	VerbForm=Inf	16	xcomp	_	start_char=3256|end_char=3264
+19	and	and	CCONJ	CC	_	20	cc	_	start_char=3265|end_char=3268
+20	support	support	VERB	VB	VerbForm=Inf	18	conj	_	start_char=3269|end_char=3276
+21	offenders	offender	NOUN	NNS	Number=Plur	18	obj	_	start_char=3277|end_char=3286
+22	under	under	ADP	IN	_	23	case	_	start_char=3287|end_char=3292
+23	supervision	supervision	NOUN	NN	Number=Sing	18	obl	_	start_char=3293|end_char=3304|SpaceAfter=No
+24	.	.	PUNCT	.	_	4	punct	_	start_char=3304|end_char=3305|SpacesAfter=\s\n
+
+# text = Gustafsson talks about broader goals and objectives for the Swedish justice department: “In 2013 and 2014, the priority of our work will be with young offenders and men with convictions of violent behaviour.
+# sent_id = 22
+1	Gustafsson	Gustafsson	PROPN	NNP	Number=Sing	2	nsubj	_	start_char=3307|end_char=3317
+2	talks	talk	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3318|end_char=3323
+3	about	about	ADP	IN	_	5	case	_	start_char=3324|end_char=3329
+4	broader	broad	ADJ	JJR	Degree=Cmp	5	amod	_	start_char=3330|end_char=3337
+5	goals	goal	NOUN	NNS	Number=Plur	2	obl	_	start_char=3338|end_char=3343
+6	and	and	CCONJ	CC	_	7	cc	_	start_char=3344|end_char=3347
+7	objectives	objective	NOUN	NNS	Number=Plur	5	conj	_	start_char=3348|end_char=3358
+8	for	for	ADP	IN	_	12	case	_	start_char=3359|end_char=3362
+9	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=3363|end_char=3366
+10	Swedish	Swedish	ADJ	JJ	Degree=Pos	12	amod	_	start_char=3367|end_char=3374
+11	justice	justice	NOUN	NN	Number=Sing	12	compound	_	start_char=3375|end_char=3382
+12	department	department	NOUN	NN	Number=Sing	5	nmod	_	start_char=3383|end_char=3393|SpaceAfter=No
+13	:	:	PUNCT	:	_	29	punct	_	start_char=3393|end_char=3394
+14	“	''	PUNCT	``	_	29	punct	_	start_char=3395|end_char=3396|SpaceAfter=No
+15	In	in	ADP	IN	_	16	case	_	start_char=3396|end_char=3398
+16	2013	2013	NUM	CD	NumForm=Digit|NumType=Card	29	obl	_	start_char=3399|end_char=3403
+17	and	and	CCONJ	CC	_	18	cc	_	start_char=3404|end_char=3407
+18	2014	2014	NUM	CD	NumForm=Digit|NumType=Card	16	conj	_	start_char=3408|end_char=3412|SpaceAfter=No
+19	,	,	PUNCT	,	_	16	punct	_	start_char=3412|end_char=3413
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	start_char=3414|end_char=3417
+21	priority	priority	NOUN	NN	Number=Sing	29	nsubj	_	start_char=3418|end_char=3426
+22	of	of	ADP	IN	_	24	case	_	start_char=3427|end_char=3429
+23	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	24	nmod:poss	_	start_char=3430|end_char=3433
+24	work	work	NOUN	NN	Number=Sing	21	nmod	_	start_char=3434|end_char=3438
+25	will	will	AUX	MD	VerbForm=Fin	29	aux	_	start_char=3439|end_char=3443
+26	be	be	AUX	VB	VerbForm=Inf	29	cop	_	start_char=3444|end_char=3446
+27	with	with	ADP	IN	_	29	case	_	start_char=3447|end_char=3451
+28	young	young	ADJ	JJ	Degree=Pos	29	amod	_	start_char=3452|end_char=3457
+29	offenders	offender	NOUN	NNS	Number=Plur	2	parataxis	_	start_char=3458|end_char=3467
+30	and	and	CCONJ	CC	_	31	cc	_	start_char=3468|end_char=3471
+31	men	man	NOUN	NNS	Number=Plur	29	conj	_	start_char=3472|end_char=3475
+32	with	with	ADP	IN	_	33	case	_	start_char=3476|end_char=3480
+33	convictions	conviction	NOUN	NNS	Number=Plur	29	nmod	_	start_char=3481|end_char=3492
+34	of	of	ADP	IN	_	36	case	_	start_char=3493|end_char=3495
+35	violent	violent	ADJ	JJ	Degree=Pos	36	amod	_	start_char=3496|end_char=3503
+36	behaviour	behaviour	NOUN	NN	Number=Sing	33	nmod	_	start_char=3504|end_char=3513|SpaceAfter=No
+37	.	.	PUNCT	.	_	2	punct	_	start_char=3513|end_char=3514
+
+# text = For many years, we have been running programmes to help those addicted to drugs.
+# sent_id = 23
+1	For	for	ADP	IN	_	3	case	_	start_char=3515|end_char=3518
+2	many	many	ADJ	JJ	Degree=Pos	3	amod	_	start_char=3519|end_char=3523
+3	years	year	NOUN	NNS	Number=Plur	8	obl	_	start_char=3524|end_char=3529|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	start_char=3529|end_char=3530
+5	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	start_char=3531|end_char=3533
+6	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=3534|end_char=3538
+7	been	be	AUX	VBN	Tense=Past|VerbForm=Part	8	aux	_	start_char=3539|end_char=3543
+8	running	run	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=3544|end_char=3551
+9	programmes	programme	NOUN	NNS	Number=Plur	8	obj	_	start_char=3552|end_char=3562
+10	to	to	PART	TO	_	11	mark	_	start_char=3563|end_char=3565
+11	help	help	VERB	VB	VerbForm=Inf	8	advcl	_	start_char=3566|end_char=3570
+12	those	that	PRON	DT	Number=Plur|PronType=Dem	11	obj	_	start_char=3571|end_char=3576
+13	addicted	addicted	ADJ	JJ	Degree=Pos	12	amod	_	start_char=3577|end_char=3585
+14	to	to	ADP	IN	_	15	case	_	start_char=3586|end_char=3588
+15	drugs	drug	NOUN	NNS	Number=Plur	13	obl	_	start_char=3589|end_char=3594|SpaceAfter=No
+16	.	.	PUNCT	.	_	8	punct	_	start_char=3594|end_char=3595
+
+# text = Now, we are also developing programmes to address behaviours such as aggression and violence.
+# sent_id = 24
+1	Now	now	ADV	RB	_	6	advmod	_	start_char=3596|end_char=3599|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=3599|end_char=3600
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	start_char=3601|end_char=3603
+4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=3604|end_char=3607
+5	also	also	ADV	RB	_	6	advmod	_	start_char=3608|end_char=3612
+6	developing	develop	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=3613|end_char=3623
+7	programmes	programme	NOUN	NNS	Number=Plur	6	obj	_	start_char=3624|end_char=3634
+8	to	to	PART	TO	_	9	mark	_	start_char=3635|end_char=3637
+9	address	address	VERB	VB	VerbForm=Inf	7	acl	_	start_char=3638|end_char=3645
+10	behaviours	behaviour	NOUN	NNS	Number=Plur	9	obj	_	start_char=3646|end_char=3656
+11	such	such	ADJ	JJ	ExtPos=ADP	13	case	_	start_char=3657|end_char=3661
+12	as	as	ADP	IN	_	11	fixed	_	start_char=3662|end_char=3664
+13	aggression	aggression	NOUN	NN	Number=Sing	10	nmod	_	start_char=3665|end_char=3675
+14	and	and	CCONJ	CC	_	15	cc	_	start_char=3676|end_char=3679
+15	violence	violence	NOUN	NN	Number=Sing	13	conj	_	start_char=3680|end_char=3688|SpaceAfter=No
+16	.	.	PUNCT	.	_	6	punct	_	start_char=3688|end_char=3689
+
+# text = These are the important things for our society when these people are released.”
+# sent_id = 25
+1	These	this	PRON	DT	Number=Plur|PronType=Dem	5	nsubj	_	start_char=3690|end_char=3695
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=3696|end_char=3699
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=3700|end_char=3703
+4	important	important	ADJ	JJ	Degree=Pos	5	amod	_	start_char=3704|end_char=3713
+5	things	thing	NOUN	NNS	Number=Plur	0	root	_	start_char=3714|end_char=3720
+6	for	for	ADP	IN	_	8	case	_	start_char=3721|end_char=3724
+7	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	start_char=3725|end_char=3728
+8	society	society	NOUN	NN	Number=Sing	5	nmod	_	start_char=3729|end_char=3736
+9	when	when	ADV	WRB	PronType=Int	13	advmod	_	start_char=3737|end_char=3741
+10	these	this	DET	DT	Number=Plur|PronType=Dem	11	det	_	start_char=3742|end_char=3747
+11	people	person	NOUN	NNS	Number=Plur	13	nsubj:pass	_	start_char=3748|end_char=3754
+12	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	start_char=3755|end_char=3758
+13	released	release	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	advcl	_	start_char=3759|end_char=3767|SpaceAfter=No
+14	.	.	PUNCT	.	_	5	punct	_	start_char=3767|end_char=3768|SpaceAfter=No
+15	”	''	PUNCT	''	_	5	punct	_	start_char=3768|end_char=3769
+
+# text = I spoke to a former prisoner who now runs a social enterprise called X-Cons Sweden.
+# sent_id = 26
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=3770|end_char=3771
+2	spoke	speak	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=3772|end_char=3777
+3	to	to	ADP	IN	_	6	case	_	start_char=3778|end_char=3780
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=3781|end_char=3782
+5	former	former	ADJ	JJ	Degree=Pos	6	amod	_	start_char=3783|end_char=3789
+6	prisoner	prisoner	NOUN	NN	Number=Sing	2	obl	_	start_char=3790|end_char=3798
+7	who	who	PRON	WP	PronType=Rel	9	nsubj	_	start_char=3799|end_char=3802
+8	now	now	ADV	RB	_	9	advmod	_	start_char=3803|end_char=3806
+9	runs	run	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	start_char=3807|end_char=3811
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	start_char=3812|end_char=3813
+11	social	social	ADJ	JJ	Degree=Pos	12	amod	_	start_char=3814|end_char=3820
+12	enterprise	enterprise	NOUN	NN	Number=Sing	9	obj	_	start_char=3821|end_char=3831
+13	called	call	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	acl	_	start_char=3832|end_char=3838
+14	X	X	PROPN	NNP	Number=Sing	16	compound	_	start_char=3839|end_char=3840|SpaceAfter=No
+15	-	-	PUNCT	HYPH	_	14	punct	_	start_char=3840|end_char=3841|SpaceAfter=No
+16	Cons	con	PROPN	NNPS	Number=Plur	13	xcomp	_	start_char=3841|end_char=3845
+17	Sweden	Sweden	PROPN	NNP	Number=Sing	13	xcomp	_	start_char=3846|end_char=3852|SpaceAfter=No
+18	.	.	PUNCT	.	_	2	punct	_	start_char=3852|end_char=3853
+
+# text = Peter Soderlund served almost three years of a four-year sentence for drug and weapons offences before he was released in 1998.
+# sent_id = 27
+1	Peter	Peter	PROPN	NNP	Number=Sing	3	nsubj	_	start_char=3854|end_char=3859
+2	Soderlund	Soderlund	PROPN	NNP	Number=Sing	1	flat	_	start_char=3860|end_char=3869
+3	served	serve	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=3870|end_char=3876
+4	almost	almost	ADV	RB	_	5	advmod	_	start_char=3877|end_char=3883
+5	three	three	NUM	CD	NumForm=Word|NumType=Card	6	nummod	_	start_char=3884|end_char=3889
+6	years	year	NOUN	NNS	Number=Plur	3	obj	_	start_char=3890|end_char=3895
+7	of	of	ADP	IN	_	12	case	_	start_char=3896|end_char=3898
+8	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	start_char=3899|end_char=3900
+9	four	four	NUM	CD	NumForm=Word|NumType=Card	11	nummod	_	start_char=3901|end_char=3905|SpaceAfter=No
+10	-	-	PUNCT	HYPH	_	9	punct	_	start_char=3905|end_char=3906|SpaceAfter=No
+11	year	year	NOUN	NN	Number=Sing	12	compound	_	start_char=3906|end_char=3910
+12	sentence	sentence	NOUN	NN	Number=Sing	6	nmod	_	start_char=3911|end_char=3919
+13	for	for	ADP	IN	_	17	case	_	start_char=3920|end_char=3923
+14	drug	drug	NOUN	NN	Number=Sing	17	compound	_	start_char=3924|end_char=3928
+15	and	and	CCONJ	CC	_	16	cc	_	start_char=3929|end_char=3932
+16	weapons	weapon	NOUN	NNS	Number=Plur	14	conj	_	start_char=3933|end_char=3940
+17	offences	offence	NOUN	NNS	Number=Plur	12	nmod	_	start_char=3941|end_char=3949
+18	before	before	SCONJ	IN	_	21	mark	_	start_char=3950|end_char=3956
+19	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj:pass	_	start_char=3957|end_char=3959
+20	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	aux:pass	_	start_char=3960|end_char=3963
+21	released	release	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	advcl	_	start_char=3964|end_char=3972
+22	in	in	ADP	IN	_	23	case	_	start_char=3973|end_char=3975
+23	1998	1998	NUM	CD	NumForm=Digit|NumType=Card	21	obl	_	start_char=3976|end_char=3980|SpaceAfter=No
+24	.	.	PUNCT	.	_	3	punct	_	start_char=3980|end_char=3981
+
+# text = He was helped by a newly formed organization run by former prisoners called Kris (Criminals’ Return Into Society).
+# sent_id = 28
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	start_char=3982|end_char=3984
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	start_char=3985|end_char=3988
+3	helped	help	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=3989|end_char=3995
+4	by	by	ADP	IN	_	8	case	_	start_char=3996|end_char=3998
+5	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=3999|end_char=4000
+6	newly	newly	ADV	RB	_	7	advmod	_	start_char=4001|end_char=4006
+7	formed	form	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	start_char=4007|end_char=4013
+8	organization	organization	NOUN	NN	Number=Sing	3	obl:agent	_	start_char=4014|end_char=4026
+9	run	run	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	acl	_	start_char=4027|end_char=4030
+10	by	by	ADP	IN	_	12	case	_	start_char=4031|end_char=4033
+11	former	former	ADJ	JJ	Degree=Pos	12	amod	_	start_char=4034|end_char=4040
+12	prisoners	prisoner	NOUN	NNS	Number=Plur	9	obl:agent	_	start_char=4041|end_char=4050
+13	called	call	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	acl	_	start_char=4051|end_char=4057
+14	Kris	Kris	PROPN	NNP	Number=Sing	13	xcomp	_	start_char=4058|end_char=4062
+15	(	(	PUNCT	-LRB-	_	18	punct	_	start_char=4063|end_char=4064|SpaceAfter=No
+16	Criminals	Criminal	PROPN	NNPS	Number=Plur	18	nmod:poss	_	start_char=4064|end_char=4073|SpaceAfter=No
+17	’	's	PART	POS	_	16	case	_	start_char=4073|end_char=4074
+18	Return	return	PROPN	NNP	Number=Sing	14	appos	_	start_char=4075|end_char=4081
+19	Into	into	ADP	IN	_	20	case	_	start_char=4082|end_char=4086
+20	Society	Society	PROPN	NNP	Number=Sing	18	nmod	_	start_char=4087|end_char=4094|SpaceAfter=No
+21	)	)	PUNCT	-RRB-	_	18	punct	_	start_char=4094|end_char=4095|SpaceAfter=No
+22	.	.	PUNCT	.	_	3	punct	_	start_char=4095|end_char=4096|SpacesAfter=\s\n
+
+# text = “The big difference between Kris and us is that we are happy to allow people who are still taking addiction medications to join us,” he says.
+# sent_id = 29
+1	“	''	PUNCT	``	_	13	punct	_	start_char=4098|end_char=4099|SpaceAfter=No
+2	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=4099|end_char=4102
+3	big	big	ADJ	JJ	Degree=Pos	4	amod	_	start_char=4103|end_char=4106
+4	difference	difference	NOUN	NN	Number=Sing	13	nsubj:outer	_	start_char=4107|end_char=4117
+5	between	between	ADP	IN	_	6	case	_	start_char=4118|end_char=4125
+6	Kris	Kris	PROPN	NNP	Number=Sing	4	nmod	_	start_char=4126|end_char=4130
+7	and	and	CCONJ	CC	_	8	cc	_	start_char=4131|end_char=4134
+8	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	6	conj	_	start_char=4135|end_char=4137
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	start_char=4138|end_char=4140
+10	that	that	SCONJ	IN	_	13	mark	_	start_char=4141|end_char=4145
+11	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	start_char=4146|end_char=4148
+12	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	cop	_	start_char=4149|end_char=4152
+13	happy	happy	ADJ	JJ	Degree=Pos	29	ccomp	_	start_char=4153|end_char=4158
+14	to	to	PART	TO	_	15	mark	_	start_char=4159|end_char=4161
+15	allow	allow	VERB	VB	VerbForm=Inf	13	xcomp	_	start_char=4162|end_char=4167
+16	people	person	NOUN	NNS	Number=Plur	15	iobj	_	start_char=4168|end_char=4174
+17	who	who	PRON	WP	PronType=Rel	20	nsubj	_	start_char=4175|end_char=4178
+18	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	start_char=4179|end_char=4182
+19	still	still	ADV	RB	_	20	advmod	_	start_char=4183|end_char=4188
+20	taking	take	VERB	VBG	Tense=Pres|VerbForm=Part	16	acl:relcl	_	start_char=4189|end_char=4195
+21	addiction	addiction	NOUN	NN	Number=Sing	22	compound	_	start_char=4196|end_char=4205
+22	medications	medication	NOUN	NNS	Number=Plur	20	obj	_	start_char=4206|end_char=4217
+23	to	to	PART	TO	_	24	mark	_	start_char=4218|end_char=4220
+24	join	join	VERB	VB	VerbForm=Inf	20	advcl	_	start_char=4221|end_char=4225
+25	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	24	obj	_	start_char=4226|end_char=4228|SpaceAfter=No
+26	,	,	PUNCT	,	_	13	punct	_	start_char=4228|end_char=4229|SpaceAfter=No
+27	”	''	PUNCT	''	_	13	punct	_	start_char=4229|end_char=4230
+28	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	start_char=4231|end_char=4233
+29	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4234|end_char=4238|SpaceAfter=No
+30	.	.	PUNCT	.	_	29	punct	_	start_char=4238|end_char=4239
+
+# text = Both organizations work with the same goal: helping prisoners successfully reintegrate into society after they have been released.
+# sent_id = 30
+1	Both	both	DET	DT	PronType=Tot	2	det	_	start_char=4240|end_char=4244
+2	organizations	organization	NOUN	NNS	Number=Plur	3	nsubj	_	start_char=4245|end_char=4258
+3	work	work	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4259|end_char=4263
+4	with	with	ADP	IN	_	7	case	_	start_char=4264|end_char=4268
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=4269|end_char=4272
+6	same	same	ADJ	JJ	Degree=Pos	7	amod	_	start_char=4273|end_char=4277
+7	goal	goal	NOUN	NN	Number=Sing	3	obl	_	start_char=4278|end_char=4282|SpaceAfter=No
+8	:	:	PUNCT	:	_	9	punct	_	start_char=4282|end_char=4283
+9	helping	help	VERB	VBG	VerbForm=Ger	3	advcl	_	start_char=4284|end_char=4291
+10	prisoners	prisoner	NOUN	NNS	Number=Plur	9	obj	_	start_char=4292|end_char=4301
+11	successfully	successfully	ADV	RB	_	12	advmod	_	start_char=4302|end_char=4314
+12	reintegrate	reintegrate	VERB	VB	VerbForm=Inf	9	xcomp	_	start_char=4315|end_char=4326
+13	into	into	ADP	IN	_	14	case	_	start_char=4327|end_char=4331
+14	society	society	NOUN	NN	Number=Sing	12	obl	_	start_char=4332|end_char=4339
+15	after	after	SCONJ	IN	_	19	mark	_	start_char=4340|end_char=4345
+16	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	nsubj:pass	_	start_char=4346|end_char=4350
+17	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	start_char=4351|end_char=4355
+18	been	be	AUX	VBN	Tense=Past|VerbForm=Part	19	aux:pass	_	start_char=4356|end_char=4360
+19	released	release	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	advcl	_	start_char=4361|end_char=4369|SpaceAfter=No
+20	.	.	PUNCT	.	_	3	punct	_	start_char=4369|end_char=4370
+
+# text = And what is life like for the prisoner in Sweden?
+# sent_id = 31
+1	And	and	CCONJ	CC	_	2	cc	_	start_char=4371|end_char=4374
+2	what	what	PRON	WP	PronType=Int	0	root	_	start_char=4375|end_char=4379
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	start_char=4380|end_char=4382
+4	life	life	NOUN	NN	Number=Sing	2	nsubj	_	start_char=4383|end_char=4387
+5	like	like	ADP	IN	_	2	case	_	start_char=4388|end_char=4392
+6	for	for	ADP	IN	_	8	case	_	start_char=4393|end_char=4396
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=4397|end_char=4400
+8	prisoner	prisoner	NOUN	NN	Number=Sing	2	obl	_	start_char=4401|end_char=4409
+9	in	in	ADP	IN	_	10	case	_	start_char=4410|end_char=4412
+10	Sweden	Sweden	PROPN	NNP	Number=Sing	8	nmod	_	start_char=4413|end_char=4419|SpaceAfter=No
+11	?	?	PUNCT	.	_	2	punct	_	start_char=4419|end_char=4420
+
+# text = “When I was inside, I was lucky.
+# sent_id = 32
+1	“	''	PUNCT	``	_	9	punct	_	start_char=4421|end_char=4422|SpaceAfter=No
+2	When	when	ADV	WRB	PronType=Int	5	advmod	_	start_char=4422|end_char=4426
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=4427|end_char=4428
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	cop	_	start_char=4429|end_char=4432
+5	inside	inside	ADV	RB	_	9	advcl	_	start_char=4433|end_char=4439|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	start_char=4439|end_char=4440
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	start_char=4441|end_char=4442
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	9	cop	_	start_char=4443|end_char=4446
+9	lucky	lucky	ADJ	JJ	Degree=Pos	0	root	_	start_char=4447|end_char=4452|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	punct	_	start_char=4452|end_char=4453
+
+# text = In Osteraker Prison, where I served my sentence, the governor was enlightened.
+# sent_id = 33
+1	In	in	ADP	IN	_	3	case	_	start_char=4454|end_char=4456
+2	Osteraker	Osteraker	PROPN	NNP	Number=Sing	3	compound	_	start_char=4457|end_char=4466
+3	Prison	Prison	PROPN	NNP	Number=Sing	14	obl	_	start_char=4467|end_char=4473|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	start_char=4473|end_char=4474
+5	where	where	ADV	WRB	PronType=Rel	7	advmod	_	start_char=4475|end_char=4480
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	start_char=4481|end_char=4482
+7	served	serve	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	acl:relcl	_	start_char=4483|end_char=4489
+8	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	start_char=4490|end_char=4492
+9	sentence	sentence	NOUN	NN	Number=Sing	7	obj	_	start_char=4493|end_char=4501|SpaceAfter=No
+10	,	,	PUNCT	,	_	3	punct	_	start_char=4501|end_char=4502
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=4503|end_char=4506
+12	governor	governor	NOUN	NN	Number=Sing	14	nsubj	_	start_char=4507|end_char=4515
+13	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	cop	_	start_char=4516|end_char=4519
+14	enlightened	enlightened	ADJ	JJ	Degree=Pos	0	root	_	start_char=4520|end_char=4531|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	punct	_	start_char=4531|end_char=4532
+
+# text = We were treated well.
+# sent_id = 34
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj:pass	_	start_char=4533|end_char=4535
+2	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	3	aux:pass	_	start_char=4536|end_char=4540
+3	treated	treat	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=4541|end_char=4548
+4	well	well	ADV	RB	Degree=Pos	3	advmod	_	start_char=4549|end_char=4553|SpaceAfter=No
+5	.	.	PUNCT	.	_	3	punct	_	start_char=4553|end_char=4554
+
+# text = But I knew that not all Swedish prisons were like that.
+# sent_id = 35
+1	But	but	CCONJ	CC	_	3	cc	_	start_char=4555|end_char=4558
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=4559|end_char=4560
+3	knew	know	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=4561|end_char=4565
+4	that	that	SCONJ	IN	_	11	mark	_	start_char=4566|end_char=4570
+5	not	not	PART	RB	Polarity=Neg	8	advmod	_	start_char=4571|end_char=4574
+6	all	all	DET	DT	PronType=Tot	8	det	_	start_char=4575|end_char=4578
+7	Swedish	Swedish	ADJ	JJ	Degree=Pos	8	amod	_	start_char=4579|end_char=4586
+8	prisons	prison	NOUN	NNS	Number=Plur	11	nsubj	_	start_char=4587|end_char=4594
+9	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	start_char=4595|end_char=4599
+10	like	like	ADP	IN	_	11	case	_	start_char=4600|end_char=4604
+11	that	that	PRON	DT	Number=Sing|PronType=Dem	3	ccomp	_	start_char=4605|end_char=4609|SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	start_char=4609|end_char=4610
+
+# text = I met so many people in there who needed help – after I received help from Kris, I knew I wanted to help others.
+# sent_id = 36
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=4611|end_char=4612
+2	met	meet	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=4613|end_char=4616
+3	so	so	ADV	RB	_	4	advmod	_	start_char=4617|end_char=4619
+4	many	many	ADJ	JJ	Degree=Pos	5	amod	_	start_char=4620|end_char=4624
+5	people	person	NOUN	NNS	Number=Plur	2	obj	_	start_char=4625|end_char=4631
+6	in	in	ADP	IN	_	7	case	_	start_char=4632|end_char=4634
+7	there	there	ADV	RB	PronType=Dem	2	obl	_	start_char=4635|end_char=4640
+8	who	who	PRON	WP	PronType=Rel	9	nsubj	_	start_char=4641|end_char=4644
+9	needed	need	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	acl:relcl	_	start_char=4645|end_char=4651
+10	help	help	NOUN	NN	Number=Sing	9	obj	_	start_char=4652|end_char=4656
+11	–	-	PUNCT	:	_	14	punct	_	start_char=4657|end_char=4658
+12	after	after	SCONJ	IN	_	14	mark	_	start_char=4659|end_char=4664
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	start_char=4665|end_char=4666
+14	received	receive	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	20	advcl	_	start_char=4667|end_char=4675
+15	help	help	NOUN	NN	Number=Sing	14	obj	_	start_char=4676|end_char=4680
+16	from	from	ADP	IN	_	17	case	_	start_char=4681|end_char=4685
+17	Kris	Kris	PROPN	NNP	Number=Sing	14	obl	_	start_char=4686|end_char=4690|SpaceAfter=No
+18	,	,	PUNCT	,	_	14	punct	_	start_char=4690|end_char=4691
+19	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	start_char=4692|end_char=4693
+20	knew	know	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	parataxis	_	start_char=4694|end_char=4698
+21	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	start_char=4699|end_char=4700
+22	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	20	ccomp	_	start_char=4701|end_char=4707
+23	to	to	PART	TO	_	24	mark	_	start_char=4708|end_char=4710
+24	help	help	VERB	VB	VerbForm=Inf	22	xcomp	_	start_char=4711|end_char=4715
+25	others	other	NOUN	NNS	Number=Plur	24	obj	_	start_char=4716|end_char=4722|SpaceAfter=No
+26	.	.	PUNCT	.	_	2	punct	_	start_char=4722|end_char=4723
+
+# text = With X-Cons, we meet them at the gate and support them into accommodation and offer a network of support.”
+# sent_id = 37
+1	With	with	ADP	IN	_	4	case	_	start_char=4724|end_char=4728
+2	X	X	PROPN	NNP	Number=Sing	4	compound	_	start_char=4729|end_char=4730|SpaceAfter=No
+3	-	-	PUNCT	HYPH	_	2	punct	_	start_char=4730|end_char=4731|SpaceAfter=No
+4	Cons	con	PROPN	NNPS	Number=Plur	7	obl	_	start_char=4731|end_char=4735|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	start_char=4735|end_char=4736
+6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	start_char=4737|end_char=4739
+7	meet	meet	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4740|end_char=4744
+8	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	obj	_	start_char=4745|end_char=4749
+9	at	at	ADP	IN	_	11	case	_	start_char=4750|end_char=4752
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=4753|end_char=4756
+11	gate	gate	NOUN	NN	Number=Sing	7	obl	_	start_char=4757|end_char=4761
+12	and	and	CCONJ	CC	_	13	cc	_	start_char=4762|end_char=4765
+13	support	support	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	conj	_	start_char=4766|end_char=4773
+14	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	obj	_	start_char=4774|end_char=4778
+15	into	into	ADP	IN	_	16	case	_	start_char=4779|end_char=4783
+16	accommodation	accommodation	NOUN	NN	Number=Sing	13	obl	_	start_char=4784|end_char=4797
+17	and	and	CCONJ	CC	_	18	cc	_	start_char=4798|end_char=4801
+18	offer	offer	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	conj	_	start_char=4802|end_char=4807
+19	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	start_char=4808|end_char=4809
+20	network	network	NOUN	NN	Number=Sing	18	obj	_	start_char=4810|end_char=4817
+21	of	of	ADP	IN	_	22	case	_	start_char=4818|end_char=4820
+22	support	support	NOUN	NN	Number=Sing	20	nmod	_	start_char=4821|end_char=4828|SpaceAfter=No
+23	.	.	PUNCT	.	_	7	punct	_	start_char=4828|end_char=4829|SpaceAfter=No
+24	”	''	PUNCT	''	_	7	punct	_	start_char=4829|end_char=4830|SpacesAfter=\s\n
+
+# text = “In Sweden, we believe very much in the concept of rehabilitation, without being naive of course,” says Gustafsson.
+# sent_id = 38
+1	“	''	PUNCT	``	_	6	punct	_	start_char=4832|end_char=4833|SpaceAfter=No
+2	In	in	ADP	IN	_	3	case	_	start_char=4833|end_char=4835
+3	Sweden	Sweden	PROPN	NNP	Number=Sing	6	obl	_	start_char=4836|end_char=4842|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	start_char=4842|end_char=4843
+5	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	start_char=4844|end_char=4846
+6	believe	believe	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	22	ccomp	_	start_char=4847|end_char=4854
+7	very	very	ADV	RB	_	8	advmod	_	start_char=4855|end_char=4859
+8	much	much	ADV	RB	Degree=Pos	6	advmod	_	start_char=4860|end_char=4864
+9	in	in	ADP	IN	_	11	case	_	start_char=4865|end_char=4867
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=4868|end_char=4871
+11	concept	concept	NOUN	NN	Number=Sing	6	obl	_	start_char=4872|end_char=4879
+12	of	of	ADP	IN	_	13	case	_	start_char=4880|end_char=4882
+13	rehabilitation	rehabilitation	NOUN	NN	Number=Sing	11	nmod	_	start_char=4883|end_char=4897|SpaceAfter=No
+14	,	,	PUNCT	,	_	17	punct	_	start_char=4897|end_char=4898
+15	without	without	SCONJ	IN	_	17	mark	_	start_char=4899|end_char=4906
+16	being	be	AUX	VBG	Tense=Pres|VerbForm=Part	17	cop	_	start_char=4907|end_char=4912
+17	naive	naive	ADJ	JJ	Degree=Pos	6	advcl	_	start_char=4913|end_char=4918
+18	of	of	ADP	IN	ExtPos=ADV	17	advmod	_	start_char=4919|end_char=4921
+19	course	course	NOUN	NN	Number=Sing	18	fixed	_	start_char=4922|end_char=4928|SpaceAfter=No
+20	,	,	PUNCT	,	_	6	punct	_	start_char=4928|end_char=4929|SpaceAfter=No
+21	”	''	PUNCT	''	_	6	punct	_	start_char=4929|end_char=4930
+22	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4931|end_char=4935
+23	Gustafsson	Gustafsson	PROPN	NNP	Number=Sing	22	nsubj	_	start_char=4936|end_char=4946|SpaceAfter=No
+24	.	.	PUNCT	.	_	22	punct	_	start_char=4946|end_char=4947
+
+# text = “There are some people who will not or cannot change.
+# sent_id = 39
+1	“	''	PUNCT	``	_	3	punct	_	start_char=4948|end_char=4949|SpaceAfter=No
+2	There	there	PRON	EX	PronType=Dem	3	expl	_	start_char=4949|end_char=4954
+3	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4955|end_char=4958
+4	some	some	DET	DT	PronType=Ind	5	det	_	start_char=4959|end_char=4963
+5	people	person	NOUN	NNS	Number=Plur	3	nsubj	_	start_char=4964|end_char=4970
+6	who	who	PRON	WP	PronType=Rel	12	nsubj	_	start_char=4971|end_char=4974
+7	will	will	AUX	MD	VerbForm=Fin	12	aux	_	start_char=4975|end_char=4979
+8	not	not	PART	RB	Polarity=Neg	12	advmod	_	start_char=4980|end_char=4983
+9	or	or	CCONJ	CC	_	12	cc	_	start_char=4984|end_char=4986
+10-11	cannot	_	_	_	_	_	_	_	start_char=4987|end_char=4993
+10	can	can	AUX	MD	VerbForm=Fin	12	aux	_	start_char=4987|end_char=4990
+11	not	not	PART	RB	Polarity=Neg	12	advmod	_	start_char=4990|end_char=4993
+12	change	change	VERB	VB	VerbForm=Inf	5	acl:relcl	_	start_char=4994|end_char=5000|SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	start_char=5000|end_char=5001
+
+# text = But, in my experience, the majority of prisoners want to change, and we must do what we can to help to facilitate that.
+# sent_id = 40
+1	But	but	CCONJ	CC	_	11	cc	_	start_char=5002|end_char=5005|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	start_char=5005|end_char=5006
+3	in	in	ADP	IN	_	5	case	_	start_char=5007|end_char=5009
+4	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=5010|end_char=5012
+5	experience	experience	NOUN	NN	Number=Sing	11	obl	_	start_char=5013|end_char=5023|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	start_char=5023|end_char=5024
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=5025|end_char=5028
+8	majority	majority	NOUN	NN	Number=Sing	11	nsubj	_	start_char=5029|end_char=5037
+9	of	of	ADP	IN	_	10	case	_	start_char=5038|end_char=5040
+10	prisoners	prisoner	NOUN	NNS	Number=Plur	8	nmod	_	start_char=5041|end_char=5050
+11	want	want	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5051|end_char=5055
+12	to	to	PART	TO	_	13	mark	_	start_char=5056|end_char=5058
+13	change	change	VERB	VB	VerbForm=Inf	11	xcomp	_	start_char=5059|end_char=5065|SpaceAfter=No
+14	,	,	PUNCT	,	_	18	punct	_	start_char=5065|end_char=5066
+15	and	and	CCONJ	CC	_	18	cc	_	start_char=5067|end_char=5070
+16	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	_	start_char=5071|end_char=5073
+17	must	must	AUX	MD	VerbForm=Fin	18	aux	_	start_char=5074|end_char=5078
+18	do	do	VERB	VB	VerbForm=Inf	11	conj	_	start_char=5079|end_char=5081
+19	what	what	PRON	WP	PronType=Rel	18	obj	_	start_char=5082|end_char=5086
+20	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	21	nsubj	_	start_char=5087|end_char=5089
+21	can	can	AUX	MD	VerbForm=Fin	19	acl:relcl	_	start_char=5090|end_char=5093
+22	to	to	PART	TO	_	23	mark	_	start_char=5094|end_char=5096
+23	help	help	VERB	VB	VerbForm=Inf	18	advcl	_	start_char=5097|end_char=5101
+24	to	to	PART	TO	_	25	mark	_	start_char=5102|end_char=5104
+25	facilitate	facilitate	VERB	VB	VerbForm=Inf	23	xcomp	_	start_char=5105|end_char=5115
+26	that	that	PRON	DT	Number=Sing|PronType=Dem	25	obj	_	start_char=5116|end_char=5120|SpaceAfter=No
+27	.	.	PUNCT	.	_	11	punct	_	start_char=5120|end_char=5121
+
+# text = It is not always possible to achieve this in one prison sentence.
+# sent_id = 41
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	start_char=5122|end_char=5124
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=5125|end_char=5127
+3	not	not	PART	RB	Polarity=Neg	5	advmod	_	start_char=5128|end_char=5131
+4	always	always	ADV	RB	PronType=Tot	5	advmod	_	start_char=5132|end_char=5138
+5	possible	possible	ADJ	JJ	Degree=Pos	0	root	_	start_char=5139|end_char=5147
+6	to	to	PART	TO	_	7	mark	_	start_char=5148|end_char=5150
+7	achieve	achieve	VERB	VB	VerbForm=Inf	5	csubj	_	start_char=5151|end_char=5158
+8	this	this	PRON	DT	Number=Sing|PronType=Dem	7	obj	_	start_char=5159|end_char=5163
+9	in	in	ADP	IN	_	12	case	_	start_char=5164|end_char=5166
+10	one	one	NUM	CD	NumForm=Word|NumType=Card	12	nummod	_	start_char=5167|end_char=5170
+11	prison	prison	NOUN	NN	Number=Sing	12	compound	_	start_char=5171|end_char=5177
+12	sentence	sentence	NOUN	NN	Number=Sing	7	obl	_	start_char=5178|end_char=5186|SpaceAfter=No
+13	.	.	PUNCT	.	_	5	punct	_	start_char=5186|end_char=5187|SpacesAfter=\s\n
+
+# text = “Also, it is not just prison that can rehabilitate – it is often a combined process, involving probation and greater society.
+# sent_id = 42
+1	“	''	PUNCT	``	_	8	punct	_	start_char=5189|end_char=5190|SpaceAfter=No
+2	Also	also	ADV	RB	_	8	advmod	_	start_char=5190|end_char=5194|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	start_char=5194|end_char=5195
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	start_char=5196|end_char=5198
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=5199|end_char=5201
+6	not	not	PART	RB	Polarity=Neg	8	advmod	_	start_char=5202|end_char=5205
+7	just	just	ADV	RB	_	8	advmod	_	start_char=5206|end_char=5210
+8	prison	prison	NOUN	NN	Number=Sing	0	root	_	start_char=5211|end_char=5217
+9	that	that	PRON	WDT	PronType=Rel	11	nsubj	_	start_char=5218|end_char=5222
+10	can	can	AUX	MD	VerbForm=Fin	11	aux	_	start_char=5223|end_char=5226
+11	rehabilitate	rehabilitate	VERB	VB	VerbForm=Inf	8	acl:relcl	_	start_char=5227|end_char=5239
+12	–	-	PUNCT	:	_	8	punct	_	start_char=5240|end_char=5241
+13	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	start_char=5242|end_char=5244
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	start_char=5245|end_char=5247
+15	often	often	ADV	RB	_	18	advmod	_	start_char=5248|end_char=5253
+16	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	start_char=5254|end_char=5255
+17	combined	combine	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	18	amod	_	start_char=5256|end_char=5264
+18	process	process	NOUN	NN	Number=Sing	8	parataxis	_	start_char=5265|end_char=5272|SpaceAfter=No
+19	,	,	PUNCT	,	_	20	punct	_	start_char=5272|end_char=5273
+20	involving	involve	VERB	VBG	Tense=Pres|VerbForm=Part	18	acl	_	start_char=5274|end_char=5283
+21	probation	probation	NOUN	NN	Number=Sing	20	obj	_	start_char=5284|end_char=5293
+22	and	and	CCONJ	CC	_	24	cc	_	start_char=5294|end_char=5297
+23	greater	great	ADJ	JJR	Degree=Cmp	24	amod	_	start_char=5298|end_char=5305
+24	society	society	NOUN	NN	Number=Sing	21	conj	_	start_char=5306|end_char=5313|SpaceAfter=No
+25	.	.	PUNCT	.	_	8	punct	_	start_char=5313|end_char=5314
+
+# text = We can give education and training, but, when they leave prison, these people need housing and jobs.”
+# sent_id = 43
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=5315|end_char=5317
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	start_char=5318|end_char=5321
+3	give	give	VERB	VB	VerbForm=Inf	0	root	_	start_char=5322|end_char=5326
+4	education	education	NOUN	NN	Number=Sing	3	obj	_	start_char=5327|end_char=5336
+5	and	and	CCONJ	CC	_	6	cc	_	start_char=5337|end_char=5340
+6	training	training	NOUN	NN	Number=Sing	4	conj	_	start_char=5341|end_char=5349|SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	start_char=5349|end_char=5350
+8	but	but	CCONJ	CC	_	17	cc	_	start_char=5351|end_char=5354|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	start_char=5354|end_char=5355
+10	when	when	ADV	WRB	PronType=Int	12	advmod	_	start_char=5356|end_char=5360
+11	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	start_char=5361|end_char=5365
+12	leave	leave	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	start_char=5366|end_char=5371
+13	prison	prison	NOUN	NN	Number=Sing	12	obj	_	start_char=5372|end_char=5378|SpaceAfter=No
+14	,	,	PUNCT	,	_	12	punct	_	start_char=5378|end_char=5379
+15	these	this	DET	DT	Number=Plur|PronType=Dem	16	det	_	start_char=5380|end_char=5385
+16	people	person	NOUN	NNS	Number=Plur	17	nsubj	_	start_char=5386|end_char=5392
+17	need	need	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=5393|end_char=5397
+18	housing	housing	NOUN	NN	Number=Sing	17	obj	_	start_char=5398|end_char=5405
+19	and	and	CCONJ	CC	_	20	cc	_	start_char=5406|end_char=5409
+20	jobs	job	NOUN	NNS	Number=Plur	18	conj	_	start_char=5410|end_char=5414|SpaceAfter=No
+21	.	.	PUNCT	.	_	3	punct	_	start_char=5414|end_char=5415|SpaceAfter=No
+22	”	''	PUNCT	''	_	3	punct	_	start_char=5415|end_char=5416|SpacesAfter=\s\s\n
+
