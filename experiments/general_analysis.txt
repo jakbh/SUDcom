@@ -1,0 +1,24 @@
+
+=== depth ===
+Paired t-test: t=16.863, p=3.084e-24
+Wilcoxon: W=0.000, p=1.63e-11
+Shapiro–Wilk (diffs): W=0.976, p=0.279
+  → Differences look approximately normal (t-test OK).
+
+=== ADD ===
+Paired t-test: t=-17.053, p=1.783e-24
+Wilcoxon: W=5.000, p=2.098e-11
+Shapiro–Wilk (diffs): W=0.984, p=0.5975
+  → Differences look approximately normal (t-test OK).
+
+=== Closeness centralization ===
+Paired t-test: t=-43.237, p=2.226e-46
+Wilcoxon: W=0.000, p=1.63e-11
+Shapiro–Wilk (diffs): W=0.984, p=0.5983
+  → Differences look approximately normal (t-test OK).
+
+=== Outdegree centralization ===
+Paired t-test: t=-21.635, p=9.642e-30
+Wilcoxon: W=0.000, p=1.63e-11
+Shapiro–Wilk (diffs): W=0.966, p=0.09745
+  → Differences look approximately normal (t-test OK).
